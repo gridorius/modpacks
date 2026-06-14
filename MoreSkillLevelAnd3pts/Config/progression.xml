@@ -1,0 +1,883 @@
+<configs>
+
+<set xpath="/progression/level/@skill_points_per_level">3</set>
+<set xpath="/progression/perks/@max_level">6</set>
+<set xpath="/progression/perks/@max_level_ratio_to_parent">6</set>
+<set xpath="/progression/attributes/@max_level">12</set>
+
+<append xpath="/progression/attributes/attribute[@name='attPerception']">
+		<level_requirements level="11"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="12"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints04"/></level_requirements>
+<effect_group>
+			<requirement name="ItemHasTags" tags="attPerception"/>
+				<passive_effect name="DamageModifier" operation="perc_add" level="11,12" value="1.25,1.5" tags="head"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="11,12" value=".60,.70"/>
+		</effect_group>
+
+		<effect_group>
+			<effect_description level="11" desc_key="attPerceptionRank11Desc" long_desc_key="attPerceptionRank11LongDesc"/>
+			<effect_description level="12" desc_key="attPerceptionRank12Desc" long_desc_key="attPerceptionRank12LongDesc"/>
+		</effect_group>
+</append>
+
+<append xpath="/progression/attributes/attribute[@name='attStrength']">
+		<level_requirements level="11"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="12"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints04"/></level_requirements>
+<effect_group>
+			<requirement name="ItemHasTags" tags="attStrength"/>
+				<passive_effect name="DamageModifier" operation="perc_add" level="11,12" value="1.25,1.5" tags="head"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="11,12" value=".60,.70"/>
+		</effect_group>
+
+		<effect_group>
+			<effect_description level="11" desc_key="attStrengthRank11Desc" long_desc_key="attStrengthRank11LongDesc"/>
+			<effect_description level="12" desc_key="attStrengthRank12Desc" long_desc_key="attStrengthRank12LongDesc"/>
+		</effect_group>
+</append>
+
+<append xpath="/progression/attributes/attribute[@name='attFortitude']">
+		<level_requirements level="11"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="12"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints04"/></level_requirements>
+<effect_group>
+			<requirement name="ItemHasTags" tags="attFortitude"/>
+				<passive_effect name="DamageModifier" operation="perc_add" level="11,12" value="1.25,1.5" tags="head"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="11,12" value=".60,.70"/>
+		</effect_group>
+
+		<effect_group>
+			<effect_description level="11" desc_key="attFortitudeRank11Desc" long_desc_key="attFortitudeRank11LongDesc"/>
+			<effect_description level="12" desc_key="attFortitudeRank12Desc" long_desc_key="attFortitudeRank12LongDesc"/>
+		</effect_group>
+</append>
+
+<append xpath="/progression/attributes/attribute[@name='attAgility']">
+		<level_requirements level="11"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="12"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints04"/></level_requirements>
+<effect_group>
+			<requirement name="ItemHasTags" tags="attAgility"/>
+				<passive_effect name="DamageModifier" operation="perc_add" level="11,12" value="1.25,1.5" tags="head"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="11,12" value=".60,.70"/>
+		</effect_group>
+
+		<effect_group>
+			<effect_description level="11" desc_key="attAgilityRank11Desc" long_desc_key="attAgilityRank11LongDesc"/>
+			<effect_description level="12" desc_key="attAgilityRank12Desc" long_desc_key="attAgilityRank12LongDesc"/>
+		</effect_group>
+</append>
+
+<append xpath="/progression/attributes/attribute[@name='attIntellect']">
+		<level_requirements level="11"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints03"/></level_requirements>
+		<level_requirements level="12"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints04"/></level_requirements>
+<effect_group>
+			<requirement name="ItemHasTags" tags="attIntellect"/>
+				<passive_effect name="DamageModifier" operation="perc_add" level="11,12" value="1.25,1.5" tags="head"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="11,12" value=".60,.70"/>
+		</effect_group>
+
+		<effect_group>
+			<effect_description level="11" desc_key="attIntellectRank11Desc" long_desc_key="attIntellectRank11LongDesc"/>
+			<effect_description level="12" desc_key="attIntellectRank12Desc" long_desc_key="attIntellectRank12LongDesc"/>
+		</effect_group>
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkDeadEye']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="12" desc_key="reqPerceptionLevel12"/></level_requirements>
+
+<effect_group>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkDeadEye"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" level="6" value=".80" tags="perkDeadEye"/>
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="6" value="0.45" tags="perkDeadEye"/>
+			<effect_description level="6" desc_key="perkDeadEyeRank6Desc" long_desc_key="perkDeadEyeRank6LongDesc"/>
+</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkDemolitionsExpert']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="12" desc_key="reqPerceptionLevel12"/></level_requirements>
+
+<effect_group>
+			<passive_effect name="DismemberChance" operation="base_add" level="6" value=".70" tags="perkDemolitionsExpert"/>
+			<passive_effect name="ExplosionBlockDamage" operation="perc_add" level="6" value=".7" tags="perkDemolitionsExpert"/>
+			<passive_effect name="ExplosionEntityDamage" operation="perc_add" level="6" value=".7" tags="perkDemolitionsExpert"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" level="6" value="0.7" tags="perkDemolitionsExpert"/>
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="6" value="0.50" tags="perkDemolitionsExpert"/>
+			<effect_description level="6" desc_key="perkDemolitionsExpertRank6Desc" long_desc_key="perkDemolitionsExpertRank6LongDesc"/>
+</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkJavelinMaster']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="12" desc_key="reqPerceptionLevel12"/></level_requirements>
+
+<effect_group>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkJavelinMaster"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkJavelinMaster"/>
+			<effect_description level="6" desc_key="perkJavelinMasterRank6Desc" long_desc_key="perkJavelinMasterRank6LongDesc"/>
+</effect_group>
+
+<effect_group>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35" tags="secondary"/>
+
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Stamina" operation="add" value="40" delay="1.0">
+				<requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="Equals" value="6"/>
+			</triggered_effect>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkFlurryOfPerception']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="12" desc_key="reqPerceptionLevel12"/></level_requirements>
+
+<effect_group>
+<passive_effect name="AttacksPerMinute" operation="perc_add" level="6" value=".35" tags="perkFlurryOfPerception"/>
+			<effect_description level="6" desc_key="perkFlurryOfPerceptionRank6Desc" long_desc_key="perkFlurryOfPerceptionRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkInfiltrator']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="12" desc_key="reqPerceptionLevel12"/></level_requirements>
+
+<effect_group>
+<passive_effect name="TrapDoorTriggerDelay" operation="base_add" level="6" value="7"/>
+			<passive_effect name="LandMineTriggerDelay" operation="base_add" level="6" value="7"/>
+			<passive_effect name="TrapIncomingDamage" operation="perc_add" level="6" value="-1"/>
+			<effect_description level="6" desc_key="perkInfiltratorRank6Desc" long_desc_key="perkInfiltratorRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkAnimalTracker']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="12" desc_key="reqPerceptionLevel12"/></level_requirements>
+
+<effect_group>
+<passive_effect name="TrackDistance" operation="base_set" level="6" value="200"/>
+			<effect_description level="6" desc_key="perkAnimalTrackerRank6Desc" long_desc_key="perkAnimalTrackerRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkPenetrator']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="12" desc_key="reqPerceptionLevel12"/></level_requirements>
+
+<effect_group>
+			<passive_effect name="TargetArmor" operation="perc_add" level="6" value="-.3" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,turretRanged,perkPenetrator,perkArchery"/>
+			<passive_effect name="TargetArmor" operation="perc_add" level="6" value="-.7" tags="perkJavelinMaster"/>
+			<passive_effect name="EntityPenetrationCount" operation="perc_add" level="6" value="6" tags="perkDeadEye"/>
+			<effect_description level="6" desc_key="perkPenetratorRank6Desc" long_desc_key="perkPenetratorRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkPerceptionMastery']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="12" desc_key="reqPerceptionLevel12"/></level_requirements>
+
+<effect_group>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkDeadEye"/>
+<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".40" tags="perkJavelinMaster"/>
+			<passive_effect name="HarvestCount" operation="base_set" level="1,6" value="1" tags="PercMasteryDukeHarvest"/>
+			<!-- Harvest Steel when salvaging -->
+			<passive_effect name="HarvestCount" operation="base_set" level="2,6" value="1" tags="PercMasterySteelHarvest"/>
+			<effect_description level="6" desc_key="perkPerceptionMasteryRank6Desc" long_desc_key="perkPerceptionMasteryRank6LongDesc"/>
+
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkTreasureHunter']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="12" desc_key="reqPerceptionLevel12"/></level_requirements>
+
+<effect_group>
+			<passive_effect name="TreasureBlocksPerReduction" operation="base_add" level="6" value="-8"/>
+			<passive_effect name="LootQuantity" operation="perc_add" level="6" value=".5" tags="buriedTreasure"/>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.5" tags="treasureHunter"/>
+			<effect_description level="6" desc_key="perkTreasureHunterRank6Desc" long_desc_key="perkTreasureHunterRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkSalvageOperations']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="12" desc_key="reqPerceptionLevel12"/></level_requirements>
+
+<effect_group>
+			<passive_effect name="CraftingTime" operation="perc_add" level="6" value="-.7" tags="salvageScrap"/>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkSalvageOperations"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkSalvageOperations"/>
+			<passive_effect name="HarvestCount" operation="perc_add" level="6" value="1.4" tags="salvageHarvest"/>
+			<effect_description level="6" desc_key="perkSalvageOperationsRank6Desc" long_desc_key="perkSalvageOperationsRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkBoomstick']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="12" desc_key="reqStrengthLevel12"/></level_requirements>
+
+<effect_group>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkBoomstick"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkBoomstick"/>
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="6" value=".40" tags="perkBoomstick"/>
+			<passive_effect name="RoundsPerMinute" operation="perc_add" level="6" value=".7" tags="perkBoomstick"/>
+			<effect_description level="6" desc_key="perkBoomstickRank6Desc" long_desc_key="perkBoomstickRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkPummelPete']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="12" desc_key="reqStrengthLevel12"/></level_requirements>
+
+<effect_group>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkPummelPete"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkPummelPete"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value="2.8" tags="perkPummelPete">
+				<requirement name="CVarCompare" cvar="_stunned" operation="Equals" value="1" target="other"/>
+                        </passive_effect>
+		</effect_group>
+
+<effect_group>
+<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35" tags="secondary"/>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Stamina" operation="add" value="40" delay="1.0">
+				<requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="Equals" value="6"/>
+			</triggered_effect>
+			<effect_description level="6" desc_key="perkPummelPeteRank6Desc" long_desc_key="perkPummelPeteRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkSkullCrusher']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="12" desc_key="reqStrengthLevel12"/></level_requirements>
+
+<effect_group>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkSkullCrusher"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkSkullCrusher"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35" tags="secondary"/>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Stamina" operation="add" value="40" delay="1.0">
+				<requirement name="ProgressionLevel" progression_name="perkSkullCrusher" operation="Equals" value="6"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryKnockdown02">
+				<requirement name="ProgressionLevel" progression_name="perkSkullCrusher" operation="Equals" value="6"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="100"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="otherAOE" range="1.4" target_tags="zombie,animal" buff="buffInjuryKnockdown01">
+				<requirement name="ProgressionLevel" progression_name="perkSkullCrusher" operation="Equals" value="6"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="70"/>
+			</triggered_effect>
+			<effect_description level="6" desc_key="perkSkullCrusherRank6Desc" long_desc_key="perkSkullCrusherRank6LongDesc"/>
+
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkGrandSlam']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="12" desc_key="reqStrengthLevel12"/></level_requirements>
+
+<effect_group>
+			<requirement name="ItemHasTags" tags="perkPummelPete,perkSkullCrusher"/>
+			<requirement name="EntityHasMovementTag" tags="running"/>
+			<requirement name="ProgressionLevel" progression_name="perkGrandSlam" operation="Equals" value="6"/>
+			<requirement name="!EntityTagCompare" target="other" tags="trader"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="70"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="8" force="350"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="PlaySound" sound="grandslam_perk"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" buff="buffGrandSlamDisplay"/>
+			<effect_description level="6" desc_key="perkGrandSlamRank6Desc" long_desc_key="perkGrandSlamRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkFlurryOfStrength']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="12" desc_key="reqStrengthLevel12"/></level_requirements>
+
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="perkFlurryOfStrength"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="6" value=".35" tags="perkFlurryOfStrength"/>
+			<effect_description level="6" desc_key="perkFlurryOfStrengthRank6Desc" long_desc_key="perkFlurryOfStrengthRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+    <set xpath="/progression/perks/perk[@name='perkPackMule']//passive_effect[@name='CarryCapacity']/@level">1,2,3,4,5,6</set>
+
+    <set xpath="/progression/perks/perk[@name='perkPackMule']//passive_effect[@name='CarryCapacity']/@value">3,6,10,14,18,100</set>
+
+<append xpath="/progression/perks/perk[@name='perkPackMule']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="12" desc_key="reqStrengthLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="CraftingTime" operation="perc_add" level="6" value="-.7" tags="packMuleCrafting"/>
+			<passive_effect name="CarryCapacity" operation="base_add" level="6" value="150"/>
+		<requirement name="ProgressionLevel" progression_name="perkPackMule" operation="Equals" value="6"/>
+		<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="35"/>
+		<requirement name="IsAlive" target="self"/>
+		<requirement name="!IsAttachedToEntity"/>
+		<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
+		<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+			<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
+			<passive_effect name="GeneralDamageResist" operation="base_add" level="6" value="1"/>
+			<effect_description level="6" desc_key="perkPackMuleRank6Desc" long_desc_key="perkPackMuleRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkStrengthMastery']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="12" desc_key="reqStrengthLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="HarvestCount" operation="base_set" level="6" value="2" tags="perkStrengthMasteryBrassHarvest"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkMiner69r">
+				<requirement name="HoldingItemHasTags" tags="perkMiner69r"/>
+			<requirement name="HoldingItemHasTags" tags="perkPummelPete,perkSkullCrusher"/>
+			<requirement name="ProgressionLevel" progression_name="perkStrengthMastery" operation="GTE" value="6"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="6" value=".7" tags="head"/>
+                </passive_effect>
+			<effect_description level="6" desc_key="perkStrengthMasteryRank6Desc" long_desc_key="perkStrengthMasteryRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkMiner69r']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="12" desc_key="reqStrengthLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="2.1" tags="perkMiner69r"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkMiner69r"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35" tags="secondary"/>
+			<effect_description level="6" desc_key="perkMiner69rRank6Desc" long_desc_key="perkMiner69rRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkMotherLode']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="12" desc_key="reqStrengthLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="HarvestCount" operation="perc_add" level="6" value="1.4" tags="oreWoodHarvest"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" level="6" value="-.55" tags="Harvesting">
+				<requirement name="HoldingItemHasTags" tags="perkMiner69r"/>
+                </passive_effect>
+			<effect_description level="6" desc_key="perkMotherLodeRank6Desc" long_desc_key="perkMotherLodeRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkJunkMiner']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attStrength" operation="GTE" value="12" desc_key="reqStrengthLevel12"/></level_requirements>
+
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="perkMiner69r"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="6" value="1.4" tags="perkJunkMiner"/>
+			<effect_description level="6" desc_key="perkJunkMinerRank6Desc" long_desc_key="perkJunkMinerRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkBrawler']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="12" desc_key="reqFortitudeLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkBrawler"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="" value=".7" tags="perkBrawler"/>
+<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35" tags="secondary"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="6" value=".3" tags="head"/>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Stamina" operation="add" value="40" delay="1.0">
+				<requirement name="ProgressionLevel" progression_name="perkBrawler" operation="Equals" value="6"/>
+			</triggered_effect>
+			<effect_description level="6" desc_key="perkBrawlerRank6Desc" long_desc_key="perkBrawlerRank6LongDesc"/>
+
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkMachineGunner']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="12" desc_key="reqFortitudeLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkMachineGunner"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkMachineGunner"/>
+
+			<passive_effect name="RoundsPerMinute" operation="perc_add" level="6" value="0.35" tags="perkMachineGunner"/>
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="6" value="0.45" tags="perkMachineGunner"/>
+
+			<passive_effect name="KickDegreesVerticalMin" operation="perc_add" level="6" value="-.045" tags="perkMachineGunner"/>
+			<passive_effect name="KickDegreesVerticalMax" operation="perc_add" level="6" value="-.25" tags="perkMachineGunner"/>
+			<passive_effect name="KickDegreesHorizontalMin" operation="perc_add" level="6" value="-.045" tags="perkMachineGunner"/>
+			<passive_effect name="KickDegreesHorizontalMax" operation="perc_add" level="6" value="-.25" tags="perkMachineGunner"/>
+
+			<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" level="6" value="-.25" tags="perkMachineGunner"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyStats" stat="Stamina" operation="add" value="8">
+					<requirement name="ProgressionLevel" progression_name="perkMachineGunner" operation="Equals" value="6"/>
+					<requirement name="IsAlive" target="other"/>
+				</triggered_effect>
+			<effect_description level="6" desc_key="perkMachineGunnerRank6Desc" long_desc_key="perkMachineGunnerRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkFlurryOfFortitude']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="12" desc_key="reqFortitudeLevel12"/></level_requirements>
+
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="perkFlurryOfFortitude"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="6" value=".35" tags="perkFlurryOfFortitude"/>
+			<effect_description level="6" desc_key="perkFlurryOfFortitudeRank6Desc" long_desc_key="perkFlurryOfFortitudeRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkTheHuntsman']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="12" desc_key="reqFortitudeLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="HarvestCount" operation="perc_add" level="6" value="1.4" tags="butcherHarvest"/>
+			<effect_description level="6" desc_key="perkTheHuntsmanRank6Desc" long_desc_key="perkTheHuntsmanRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkPainTolerance']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="12" desc_key="reqFortitudeLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="GeneralDamageResist" operation="base_add" level="6" value=".35"/>
+			<passive_effect name="BuffResistance" operation="base_add" level="6" value="1.4" tags="buffInjuryStunned01,buffInjuryStunned02"/>
+			<effect_description level="6" desc_key="perkPainToleranceRank6Desc" long_desc_key="perkPainToleranceRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkFortitudeMastery']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="12" desc_key="reqFortitudeLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="HealthMax" operation="base_add" level="6" value="175"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="ProgressionLevel" progression_name="perkFortitudeMastery" operation="GTE" value="6"/>
+			<requirement name="ItemHasTags" tags="perkBrawler"/>
+			<requirement name="EntityTagCompare" target="other" tags="walker,crawler"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffPerkTheDentistSilver"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="ProgressionLevel" progression_name="perkFortitudeMastery" operation="GTE" value="6"/>
+			<requirement name="ItemHasTags" tags="perkBrawler"/>
+			<requirement name="EntityTagCompare" target="other" tags="walker,crawler"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="GTE" value="85"/>
+				<triggered_effect trigger="onSelfKilledOther" action="AddBuff" buff="buffPerkTheDentistGold"/>
+			<effect_description level="6" desc_key="perkFortitudeMasteryRank6Desc" long_desc_key="perkFortitudeMasteryRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkSiphoningStrikes']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="12" desc_key="reqFortitudeLevel12"/></level_requirements>
+
+		<effect_group>
+		<requirement name="ItemHasTags" tags="melee"/>
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Health" operation="add" value="15">
+				<requirement name="ProgressionLevel" progression_name="perkSiphoningStrikes" operation="EQ" value="6"/>
+			</triggered_effect>
+			<effect_description level="6" desc_key="perkSiphoningStrikesRank6Desc" long_desc_key="perkSiphoningStrikesRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkHealingFactor']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="12" desc_key="reqFortitudeLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="HealthChangeOT" operation="base_add" level="6" value=".25"/>
+			<effect_description level="6" desc_key="perkHealingFactorRank6Desc" long_desc_key="perkHealingFactorRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkSlowMetabolism']">
+        <level_requirements level="6">
+            <requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="12" desc_key="reqFortitudeLevel12"/>
+        </level_requirements>
+    </append>
+
+    <set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/passive_effect[@name='WaterLossPerHealthPointGained']/@level">1,6</set>
+    <set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/passive_effect[@name='WaterLossPerHealthPointGained']/@value">-.05,-.35</set>
+
+    <set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/passive_effect[@name='WaterLossPerStaminaPointGained']/@level">1,6</set>
+    <set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/passive_effect[@name='WaterLossPerStaminaPointGained']/@value">-.05,-.35</set>
+
+    <set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/passive_effect[@name='FoodLossPerStaminaPointGained']/@level">1,6</set>
+    <set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/passive_effect[@name='FoodLossPerStaminaPointGained']/@value">-.05,-.35</set>
+
+    <set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/triggered_effect[@cvar='$MetabolismResist']/@value">0,-1,-2,-3,-4,-5,-10</set>
+    <set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/triggered_effect[@cvar='$MetabolismDuration']/@value">1,.909,.833,.769,.714,.667,.571</set>
+
+    <append xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group">
+        <effect_description level="6" desc_key="perkSlowMetabolismRank6Desc" long_desc_key="perkSlowMetabolismRank6LongDesc"/>
+
+    </append>
+
+<append xpath="/progression/perks/perk[@name='perkRuleOneCardio']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attFortitude" operation="GTE" value="12" desc_key="reqFortitudeLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="StaminaChangeOT" operation="perc_add" level="6" value=".5" tags="running,swimmingRun"/> <!-- perkRuleOneCardio -->
+			<passive_effect name="StaminaMax" operation="base_add" level="6" value="100"/>
+			<effect_description level="6" desc_key="perkRuleOneCardioNameRank6Desc" long_desc_key="perkRuleOneCardioNameRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkArchery']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="12" desc_key="reqAgilityLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkArchery"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkArchery"/>
+
+			<passive_effect name="WeaponHandling" operation="perc_add" level="6" value=".7" tags="perkArchery"/>
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="6" value=".7" tags="perkArchery"/>
+
+			<passive_effect name="RoundsPerMinute" operation="perc_add" level="6" value=".7" tags="bowDrawPenalty"/>
+			<effect_description level="6" desc_key="perkArcheryRank6Desc" long_desc_key="perkArcheryRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkGunslinger']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="12" desc_key="reqAgilityLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkGunslinger"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkGunslinger"/>
+
+			<passive_effect name="RoundsPerMinute" operation="perc_add" level="6" value="0.35" tags="perkGunslinger"/>
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="6" value="0.45" tags="perkGunslinger"/>
+
+			<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" level="" value="-.35" tags="perkGunslinger"/>
+			<effect_description level="6" desc_key="perkGunslingerRank6Desc" long_desc_key="perkGunslingerRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkDeepCuts']">
+    <level_requirements level="6">
+        <requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="12" desc_key="reqAgilityLevel12"/>
+    </level_requirements>
+
+    <effect_group>
+        <passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkDeepCuts"/>
+        <passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkDeepCuts"/>
+        <effect_description level="6" desc_key="perkDeepCutsRank6Desc" long_desc_key="perkDeepCutsRank6LongDesc"/>
+    </effect_group>
+
+    <effect_group>
+        <requirement name="ItemHasTags" tags="perkDeepCuts"/>
+        <passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35"/>
+        <passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35" tags="secondary"/>
+
+        <triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Stamina" operation="add" value="40" delay="1.0">
+            <requirement name="ProgressionLevel" progression_name="perkDeepCuts" operation="Equals" value="6"/>
+        </triggered_effect>
+    </effect_group>
+
+    <effect_group name="Secondary Fix Level 6">
+        <requirement name="ItemHasTags" tags="perkDeepCuts"/>
+        <requirement name="ProgressionLevel" progression_name="perkDeepCuts" operation="Equals" value="6"/>
+
+        <triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="bleedCounter" operation="set" value="8">
+            <requirement name="CVarCompare" cvar="bleedCounter" operation="GTE" value="2" target="other"/>
+            <requirement name="CVarCompare" cvar="bleedCounter" operation="LT" value="8" target="other"/>
+        </triggered_effect>
+
+        <triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="6">
+            <requirement name="CVarCompare" cvar="bleedCounter" operation="LT" value="2" target="other"/>
+        </triggered_effect>
+        
+        <triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryBleeding"/>
+    </effect_group>
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkFlurryOfAgility']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="12" desc_key="reqAgilityLevel12"/></level_requirements>
+
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="perkFlurryOfAgility"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="6" value=".35" tags="perkFlurryOfAgility"/>
+			<effect_description level="6" desc_key="perkFlurryOfAgilityRank6Desc" long_desc_key="perkFlurryOfAgilityRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkRunAndGun']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="12" desc_key="reqAgilityLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" level="6" value="-.35" tags="perkGunslinger,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin"/>
+			<effect_description level="6" desc_key="perkRunAndGunRank6Desc" long_desc_key="perkRunAndGunRank6LongDesc"/>
+
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkHardTarget']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="12" desc_key="reqAgilityLevel12"/></level_requirements>
+
+		<effect_group>
+			<requirement name="EntityHasMovementTag" tags="walking,running"/>
+				<passive_effect name="GeneralDamageResist" operation="base_add" level="6" value=".35"/>
+			<effect_description level="6" desc_key="perkHardTargetRank6Desc" long_desc_key="perkHardTargetRank6LongDesc"/>
+
+		</effect_group>
+
+</append>
+
+<remove xpath="/progression/perks/perk[@name='perkParkour']/effect_group" />
+
+    <append xpath="/progression/perks/perk[@name='perkParkour']">
+        <level_requirements level="6">
+            <requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="12" desc_key="reqAgilityLevel12"/>
+        </level_requirements>
+
+        <effect_group>
+            <passive_effect name="JumpStrength" operation="perc_add" level="2,3,4,5,6" value=".39,.39,.75,.75,1.1"/>
+            
+            <triggered_effect trigger="onSelfProgressionUpdate" action="ModifyCVar" cvar="$parkourBonus" operation="set" value="0,.01414,.02828,.044,.05656,.9,.9"/>
+
+            <passive_effect name="StaminaLoss" operation="perc_add" level="1,2,3,4,5,6" value="-.1,-.2,-.3,-.4,-.5,-.7" tags="jumping"/>
+
+            <effect_description level="1" desc_key="perkParkourRank1Desc" long_desc_key="perkParkourRank1LongDesc"/>
+            <effect_description level="2" desc_key="perkParkourRank2Desc" long_desc_key="perkParkourRank2LongDesc"/>
+            <effect_description level="3" desc_key="perkParkourRank3Desc" long_desc_key="perkParkourRank3LongDesc"/>
+            <effect_description level="4" desc_key="perkParkourRank4Desc" long_desc_key="perkParkourRank4LongDesc"/>
+            <effect_description level="5" desc_key="perkParkourRank5Desc" long_desc_key="perkParkourRank5LongDesc"/>
+            <effect_description level="6" desc_key="perkParkourRank6Desc" long_desc_key="perkParkourRank6LongDesc"/>
+        </effect_group>
+    </append>
+
+<append xpath="/progression/perks/perk[@name='perkAgilityMastery']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="12" desc_key="reqAgilityLevel12"/></level_requirements>
+
+		<effect_group>
+			<requirement name="ProgressionLevel" progression_name="perkAgilityMastery" operation="GTE" value="6"/>
+			<requirement name="HitLocation" body_parts="LeftUpperLeg,RightUpperLeg,LeftLowerLeg,RightLowerLeg"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+				<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" target_tags="walker" buff="buffInjuryCrippled01"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
+			<requirement name="ProgressionLevel" progression_name="perkAgilityMastery" operation="GTE" value="6"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".3"/>
+			<effect_description level="6" desc_key="perkAgilityMasteryRank6Desc" long_desc_key="perkAgilityMasteryRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkHiddenStrike']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="12" desc_key="reqAgilityLevel12"/></level_requirements>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+			<requirement name="!ItemHasTags" tags="perkSkullCrusher"/>
+				<passive_effect name="DamageBonus" operation="base_add" level="6" value="5"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="6" value="4"/>
+			<effect_description level="6" desc_key="perkHiddenStrikeRank6Desc" long_desc_key="perkHiddenStrikeRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkFromTheShadows']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attAgility" operation="GTE" value="12" desc_key="reqAgilityLevel12"/></level_requirements>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+				<passive_effect name="LightMultiplier" operation="perc_add" level="6" value="-.85">
+					<requirement name="CVarCompare" cvar="_lightlevel" operation="LTE" value="85"/>
+				</passive_effect>
+				<passive_effect name="NoiseMultiplier" operation="perc_add" level="6" value="-.7"/>
+				<passive_effect name="CrouchSpeed" operation="perc_add" level="6" value="0.7"/>
+				<passive_effect name="EnemySearchDuration" operation="perc_add" level="6" value="3"/>
+			<effect_description level="6" desc_key="perkFromTheShadowsRank6Desc" long_desc_key="perkFromTheShadowsRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkElectrocutioner']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="12" desc_key="reqIntellectLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value="1.4" tags="perkElectrocutioner"/>
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".7" tags="perkElectrocutioner"/>
+			<requirement name="ItemHasTags" tags="perkElectrocutioner"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35"/>
+			<passive_effect name="StaminaLoss" operation="perc_add" level="6" value="-.35" tags="secondary"/>
+			<effect_description level="6" desc_key="perkElectrocutionerRank6Desc" long_desc_key="perkElectrocutionerRank6LongDesc"/>
+
+			<triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Stamina" operation="add" value="40" delay="1.0">
+				<requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="6"/>
+			</triggered_effect>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkTurrets']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="12" desc_key="reqIntellectLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="RoundsPerMinute" operation="perc_add" level="6" value=".7" tags="turretMelee"/>
+			<!-- <passive_effect name="RoundsPerMinute" operation="perc_add" level="6" value=".7" tags="turretMelee,deployed"/> -->
+
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="6" value="0.35" tags="perkTurrets"/>
+			<passive_effect name="MagazineSize" operation="base_add" level="6" value="75" tags="perkTurrets">
+				<requirement name="!ItemHasTags" tags="turretMelee"/>
+			</passive_effect>
+			<passive_effect name="RoundsPerMinute" operation="perc_add" level="6" value="2" tags="turretRanged"/>
+			<!-- <passive_effect name="RoundsPerMinute" operation="perc_add" level="6" value="1.6" tags="turretRanged"/> -->
+			<!-- <passive_effect name="RoundsPerMinute" operation="perc_add" level="6" value="2" tags="turretRanged,deployed"/> -->
+
+			<passive_effect name="EntityDamage" operation="perc_add" level="6" value=".6" tags="perkTurrets"/>
+			<!-- <passive_effect name="EntityDamage" operation="perc_add" level="6" value=".6" tags="perkTurrets,deployed"/> -->
+			<passive_effect name="BlockDamage" operation="perc_add" level="6" value=".6" tags="turretMelee"/>
+
+			<passive_effect name="JunkTurretActiveCount" operation="base_set" value="0"/>
+			<passive_effect name="JunkTurretActiveCount" operation="base_add" level="5" value="1"/>
+			<passive_effect name="JunkTurretActiveCount" operation="base_add" level="6" value="3"/>
+				<!-- JunkTurretActiveCount,  default=1,  A value of 0 means that 1 turret can be active. Value of 2 means 3 turrets will be active. -->
+			<passive_effect name="JunkTurretActiveRange" operation="base_set" level="6" value="20"/>
+			<effect_description level="6" desc_key="perkTurretsRank6Desc" long_desc_key="perkTurretsRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkFlurryOfIntellect']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="12" desc_key="reqIntellectLevel12"/></level_requirements>
+
+		<effect_group>
+			<requirement name="HoldingItemHasTags" tags="perkFlurryOfIntellect"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="6" value=".35" tags="perkFlurryOfIntellect"/>
+			<effect_description level="6" desc_key="perkFlurryOfIntellectRank6Desc" long_desc_key="perkFlurryOfIntellectRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkBetterBarter']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="12" desc_key="reqIntellectLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="BarteringBuying" operation="base_add" level="6" value=".4"/>
+			<passive_effect name="BarteringSelling" operation="base_add" level="6" value=".4"/>
+			<effect_description level="6" desc_key="perkBetterBarterRank6Desc" long_desc_key="perkBetterBarterRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkDaringAdventurer']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="12" desc_key="reqIntellectLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="TraderStage" operation="base_add" level="6" value="75"/>
+			<passive_effect name="QuestBonusItemReward" operation="perc_add" level="6" value=".35"/> <!-- Bonus Dukes -->
+			<passive_effect name="QuestRewardChoiceCount" operation="base_add" level="6" value="2"/>
+			<effect_description level="6" desc_key="perkDaringAdventurerRank6Desc" long_desc_key="perkDaringAdventurerRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkCharismaticNature']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="12" desc_key="reqIntellectLevel12"/></level_requirements>
+
+		<effect_group>
+			<triggered_effect trigger="onSelfProgressionUpdate" action="AddBuff" buff="buffPerkCharismaticNature" target="selfOtherPlayers" target_tags="ally,party">
+				<requirement name="ProgressionLevel" progression_name="perkCharismaticNature" operation="GTE" value="1"/>
+			</triggered_effect>
+
+                        <triggered_effect trigger="onSelfProgressionUpdate" action="ModifyCVar" cvar="CharismaticNatureLevel" operation="set" value="6" target="selfOtherPlayers" target_tags="ally,party">
+                                <requirement name="ProgressionLevel" progression_name="perkCharismaticNature" operation="GTE" value="6"/>
+                                <requirement name="CVarCompare" cvar="CharismaticNatureLevel" target="other" operation="LT" value="6"/>
+                        </triggered_effect>
+			<effect_description level="6" desc_key="perkCharismaticNatureRank6Desc" long_desc_key="perkCharismaticNatureRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<set xpath="/progression/perks/perk[@name='perkPhysician']//passive_effect[@name='CraftingTime']/@level">2,3,4,5,6</set>
+<set xpath="/progression/perks/perk[@name='perkPhysician']//passive_effect[@name='CraftingTime']/@value">-.2,-.2,-.4,-.4,-.55</set>
+
+<set xpath="/progression/perks/perk[@name='perkPhysician']//passive_effect[@name='DismemberChance']/@level">4,5,6</set>
+<set xpath="/progression/perks/perk[@name='perkPhysician']//passive_effect[@name='DismemberChance']/@value">.2,.2,.4</set>
+
+<set xpath="/progression/perks/perk[@name='perkPhysician']//triggered_effect[@cvar='$medicRegHealthIncreaseSpeed']/@value">2,2.5,3,4,4,4,5</set>
+
+<append xpath="/progression/perks/perk[@name='perkPhysician']">
+    <level_requirements level="6">
+        <requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="12" desc_key="reqIntellectLevel12"/>
+    </level_requirements>
+
+    <effect_group>
+        <effect_description level="6" desc_key="perkPhysicianRank6Desc" long_desc_key="perkPhysicianRank6LongDesc"/>
+    </effect_group>
+
+    <effect_group>
+        <requirement name="ProgressionLevel" progression_name="perkPhysician" operation="GTE" value="6"/>
+        <requirement name="HoldingItemHasTags" tags="stunBaton"/>
+        <passive_effect name="EntityDamage" operation="perc_add" level="6" value="10">
+            <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+        </passive_effect>
+    </effect_group>
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="12" desc_key="reqIntellectLevel12"/></level_requirements>
+
+		<effect_group>
+			<passive_effect name="CraftingTime" operation="perc_add" level="6" value="-0.5" tags="workbenchCrafting,cementMixerCrafting,perkAdvancedEngineering,"/>
+			<passive_effect name="CraftingTime" operation="perc_add" level="6" value="-0.3" tags="chemStationCrafting"/>
+			<passive_effect name="ElectricalTrapXP" operation="base_set" level="6" value="1.25"/>
+			<effect_description level="6" desc_key="perkAdvancedEngineeringRank6Desc" long_desc_key="perkAdvancedEngineeringRank6LongDesc"/>
+		</effect_group>
+
+</append>
+
+<append xpath="/progression/perks/perk[@name='perkGreaseMonkey']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="12" desc_key="reqIntellectLevel12"/></level_requirements>
+
+    <effect_group>    
+        <passive_effect name="DamageModifier" operation="perc_add" level="6" value="0.5" tags="metal"/>
+        <passive_effect name="HarvestCount" operation="perc_add" level="6" value="0.3" tags="ironHarvest"/>
+        
+        <effect_description level="6" desc_key="perkGreaseMonkeyRank6Desc" long_desc_key="perkGreaseMonkeyRank6LongDesc"/>
+    </effect_group>
+</append>
+
+<set xpath="/progression/perks/perk[@name='perkIntellectMastery']//passive_effect[@name='VehicleFuelUsePer']/@level">1,5,6</set>
+<set xpath="/progression/perks/perk[@name='perkIntellectMastery']//passive_effect[@name='VehicleFuelUsePer']/@value">-.2,-.2,-.4</set>
+
+<set xpath="/progression/perks/perk[@name='perkIntellectMastery']//passive_effect[@name='VehicleSelfDamage']/@level">1,5,6</set>
+<set xpath="/progression/perks/perk[@name='perkIntellectMastery']//passive_effect[@name='VehicleSelfDamage']/@value">-.2,-.2,-.4</set>
+
+<append xpath="/progression/perks/perk[@name='perkIntellectMastery']">
+<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="12" desc_key="reqIntellectLevel12"/></level_requirements>
+
+    <effect_group>
+        <triggered_effect trigger="onPerkLevelChanged" action="ModifyCVar" cvar="$perkIntellectMasteryPointChance" operation="set" value="100">
+            <requirement name="ProgressionLevel" progression_name="perkIntellectMastery" operation="GTE" value="6"/>
+        </triggered_effect>
+        
+        <triggered_effect trigger="onPerkLevelChanged" action="ModifyCVar" cvar="$nerdOutfitSkillPointChance" operation="set" value="100">
+            <requirement name="ProgressionLevel" progression_name="perkIntellectMastery" operation="GTE" value="6"/>
+        </triggered_effect>
+
+        <effect_description level="6" desc_key="perkIntellectMasteryRank6Desc" long_desc_key="perkIntellectMasteryRank6LongDesc"/>
+    </effect_group>
+</append>
+
+
+</configs>
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+		<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']/effect_group[@name='new Fire Proc']">
+			<requirement name="ProgressionLevel" progression_name="perkArsonist" operation="Equals" value="0"/>
+		</append>
+    
+		<insertAfter xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']/effect_group[@name='new Fire Proc']">
+			
+			<effect_group name="Arsonist Shaft Proc 1" tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkArsonist" operation="GTE" value="1"/>
+				<requirement name="ProgressionLevel" progression_name="perkArsonist" operation="LTE" value="3"/>
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="40"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="10">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="12">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/>
+				</triggered_effect>
+			</effect_group>
+			
+			<effect_group name="Arsonist Shaft Proc 4" tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkArsonist" operation="GTE" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkArsonist" operation="LTE" value="6"/>
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="70"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="10">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="12">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/>
+				</triggered_effect>
+			</effect_group>
+			
+			<effect_group name="Arsonist Shaft Proc 7" tiered="false">
+				<requirement name="ProgressionLevel" progression_name="perkArsonist" operation="Equals" value="7"/>
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+				<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="100"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="10">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="12">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/>
+				</triggered_effect>
+			</effect_group>
+			
+		</insertAfter>
+</configs>

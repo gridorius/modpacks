@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <!--
+    Backpack header pouch buttons. Code owns visibility/enabled state:
+      - hidden when the matching system is disabled in Gears
+      - hidden when no matching pouch mod is installed
+      - hidden while that same Packwisely pouch container is already open
+
+    FarmLife compatibility:
+    FarmLife replaces windowBackpack. When Packwisely XML runs after FarmLife,
+    the conditional set below moves these same buttons out of FarmLife's title/logo band.
+    When Packwisely XML runs before FarmLife and FarmLife removes them later, the C#
+    OnOpen repair injects/moves the same three buttons at runtime.
+  -->
+  <append xpath="/windows/window[@name='windowBackpack']/panel[@name='header']">
+    <button name="btnPackwiselyAmmoPouch" on_drag="true" depth="3" sprite="packwiselyOpenAmmoPouch" atlas="UIAtlas" tooltip_key="packwisely_open_ammo_pouch" pos="232,-22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="false" />
+    <button name="btnPackwiselyMedicalPouch" on_drag="true" depth="3" sprite="packwiselyOpenMedicalPouch" atlas="UIAtlas" tooltip_key="packwisely_open_medical_pouch" pos="264,-22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="false" />
+    <button name="btnPackwiselyExplosivesPouch" on_drag="true" depth="3" sprite="packwiselyOpenExplosivesPouch" atlas="UIAtlas" tooltip_key="packwisely_open_explosives_pouch" pos="296,-22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="false" />
+  </append>
+
+  <conditional>
+    <if cond="mod_loaded('CATUI')">
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyAmmoPouch']/@pos">160,-22</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyAmmoPouch']/@depth">3</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyMedicalPouch']/@pos">192,-22</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyMedicalPouch']/@depth">3</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyExplosivesPouch']/@pos">224,-22</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyExplosivesPouch']/@depth">3</set>
+    </if>
+  </conditional>
+
+  <conditional>
+    <if cond="mod_loaded('SteelUI')">
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyAmmoPouch']/@pos">232,-22</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyAmmoPouch']/@depth">14</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyMedicalPouch']/@pos">264,-22</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyMedicalPouch']/@depth">14</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyExplosivesPouch']/@pos">296,-22</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyExplosivesPouch']/@depth">14</set>
+    </if>
+  </conditional>
+
+  <conditional>
+    <if cond="mod_loaded('War3zuk_FarmLife')">
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyAmmoPouch']/@pos">676,-22</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyAmmoPouch']/@depth">14</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyMedicalPouch']/@pos">708,-22</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyMedicalPouch']/@depth">14</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyExplosivesPouch']/@pos">740,-22</set>
+      <set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnPackwiselyExplosivesPouch']/@depth">14</set>
+    </if>
+  </conditional>
+
+  <!--
+    Auto-scrap lives beside the visible crafting queue. FarmLife renames its workstation
+    queue to FLwindowCraftingQueue, so keep both targets in the normal release XML.
+  -->
+  <append xpath="/windows/window[@name='windowCraftingQueue' or @name='FLwindowCraftingQueue']">
+    <button name="btnPackwiselyScrapMarked" depth="20" sprite="packwiselyMarkScrap" atlas="UIAtlas" tooltip_key="packwisely_scrap_marked" pos="374,-50" width="44" height="44" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="false" />
+  </append>
+
+  <conditional>
+    <if cond="mod_loaded('SteelUI')">
+      <set xpath="/windows/window[@name='windowCraftingQueue']/button[@name='btnPackwiselyScrapMarked']/@pos">-42,-50</set>
+      <set xpath="/windows/window[@name='windowCraftingQueue']/button[@name='btnPackwiselyScrapMarked']/@depth">24</set>
+    </if>
+  </conditional>
+
+  <conditional>
+    <if cond="mod_loaded('SteelUI10SlotCraftQueue')">
+      <set xpath="/windows/window[@name='windowCraftingQueue']/button[@name='btnPackwiselyScrapMarked']/@pos">-42,-12</set>
+      <set xpath="/windows/window[@name='windowCraftingQueue']/button[@name='btnPackwiselyScrapMarked']/@depth">24</set>
+    </if>
+  </conditional>
+
+  <!--
+    Trader-only Sell Marked button. It is intentionally separate from Scrap Marked
+    so the crafting queue button never changes meaning between screens.
+  -->
+  <append xpath="/windows/window[@name='windowTrader']/panel[@name='content']/rect[@name='searchControls']">
+    <button name="btnPackwiselySellMarked" depth="6" sprite="packwiselyMarkSale" atlas="UIAtlas" tooltip_key="packwisely_sell_marked" pos="250,-22" width="36" height="36" style="icon32px, press, hover" pivot="center" sound="[paging_click]" visible="false" />
+  </append>
+</configs>

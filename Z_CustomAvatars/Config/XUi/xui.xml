@@ -1,0 +1,5 @@
+<configs>
+    <append xpath="/xui/ruleset[@name='default']/window_group[@name='character']">
+		<window name="windowAvatars"/>
+    </append>
+</configs>

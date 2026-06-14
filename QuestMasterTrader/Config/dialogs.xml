@@ -1,0 +1,95 @@
+<configs>
+
+    <!-- 1) Add a "Quest Master" button to the trader's start statement -->
+    <append xpath="/dialogs/dialog[@id='trader']/statement[@id='start']">
+        <response_entry id="questmaster" />
+    </append>
+
+    <!-- 2) Add Quest Master statements and responses inside dialog id='trader' -->
+    <append xpath="/dialogs/dialog[@id='trader']">
+
+        <!-- Button on main trader screen -->
+        <response id="questmaster" text="Quest Master" nextstatementid="qm_root" />
+
+        <!-- ROOT: choose quest type -->
+        <statement id="qm_root" text="Quest Master: what kind of jobs are you looking for?">
+            <response_entry id="qm_fetch" />
+            <response_entry id="qm_clear" />
+            <response_entry id="qm_buried" />
+            <response_entry id="qm_infest" />
+            <response_entry id="nevermind" />
+        </statement>
+
+        <!-- Type selection responses -->
+        <response id="qm_fetch" text="Fetch quests" nextstatementid="qm_fetch_jobs" />
+        <response id="qm_clear" text="Clear zombies" nextstatementid="qm_clear_jobs" />
+        <response id="qm_buried" text="Buried supplies" nextstatementid="qm_buried_jobs" />
+        <response id="qm_infest" text="Infestation" nextstatementid="qm_infest_jobs" />
+
+        <!-- ===================== -->
+        <!--   FETCH QUEST LIST    -->
+        <!-- ===================== -->
+        <!-- Uses quests:
+             tier1_fetch ... tier6_fetch
+             as defined in your quests.xml -->
+        <statement id="qm_fetch_jobs" text="Fetch quests: choose one.">
+            <quest_entry id="tier1_fetch" type="add" listindex="0" />
+            <quest_entry id="tier2_fetch" type="add" listindex="1" />
+            <quest_entry id="tier3_fetch" type="add" listindex="2" />
+            <quest_entry id="tier4_fetch" type="add" listindex="3" />
+            <quest_entry id="tier5_fetch" type="add" listindex="4" />
+            <quest_entry id="tier6_fetch" type="add" listindex="5" />
+            <response_entry id="nevermind" />
+        </statement>
+
+        <!-- ===================== -->
+        <!--   CLEAR QUEST LIST    -->
+        <!-- ===================== -->
+        <!-- Uses quests:
+             tier1_clear ... tier6_clear -->
+        <statement id="qm_clear_jobs" text="Clear quests: choose one.">
+            <quest_entry id="tier1_clear" type="add" listindex="0" />
+            <quest_entry id="tier2_clear" type="add" listindex="1" />
+            <quest_entry id="tier3_clear" type="add" listindex="2" />
+            <quest_entry id="tier4_clear" type="add" listindex="3" />
+            <quest_entry id="tier5_clear" type="add" listindex="4" />
+            <quest_entry id="tier6_clear" type="add" listindex="5" />
+            <response_entry id="nevermind" />
+        </statement>
+
+        <!-- =========================== -->
+        <!-- BURIED SUPPLIES QUEST LIST  -->
+        <!-- =========================== -->
+        <!-- Your quests.xml defines:
+             tier1_buried_supplies
+             tier2_buried_supplies
+             tier3_buried_supplies
+             (no 4–6 trader quests) -->
+        <statement id="qm_buried_jobs" text="Buried supplies (tiers 1–3 available):">
+            <quest_entry id="tier1_buried_supplies" type="add" listindex="0" />
+            <quest_entry id="tier2_buried_supplies" type="add" listindex="1" />
+            <quest_entry id="tier3_buried_supplies" type="add" listindex="2" />
+            <response_entry id="nevermind" />
+        </statement>
+
+        <!-- =========================== -->
+        <!--   INFESTATION QUEST LIST    -->
+        <!-- =========================== -->
+        <!-- Your quests.xml defines:
+             tier2_clear_infested
+             tier3_clear_infested
+             tier4_clear_infested
+             tier5_clear_infested
+             tier6_clear_infested
+             (no tier1 infestation) -->
+        <statement id="qm_infest_jobs" text="Infestation quests (start at Tier 2):">
+            <quest_entry id="tier2_clear_infested" type="add" listindex="0" />
+            <quest_entry id="tier3_clear_infested" type="add" listindex="1" />
+            <quest_entry id="tier4_clear_infested" type="add" listindex="2" />
+            <quest_entry id="tier5_clear_infested" type="add" listindex="3" />
+            <quest_entry id="tier6_clear_infested" type="add" listindex="4" />
+            <response_entry id="nevermind" />
+        </statement>
+
+    </append>
+</configs>

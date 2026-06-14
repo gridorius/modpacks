@@ -1,0 +1,64 @@
+<configs>
+	<!-- Vanilla  -->
+	<set xpath="/windows/window[@name='windowGroupBars']//sprite[@name='voiceStatus']/@pos">28,-22</set>
+	<set xpath="/windows/window[@name='windowGroupBars']//grid[@controller='PartyEntryList']/@pos">-6,-68</set>
+	<set xpath="/windows/window[@name='windowGroupBars']//grid[@controller='PartyEntryList']/@cell_height">52</set>
+	<set xpath="/windows/window[@name='windowRadial']//rect[@name='radialPanel']/@repeat_count">99</set>
+	<append xpath="/windows/window[@name='CharacterFrameWindow']//rect[@name='tabs']">
+		<button depth="4" name="toggleAvatarMenu" style="icon30px, press" pos="260,-22" sprite="ui_game_symbol_vroid" pivot="center" tooltip="Avatar Menu" sound="[paging_click]"/>
+	</append>
+	<append xpath="/windows">
+		<window name="windowAvatars" depth="3" width="440" height="781" pos="-283, 315" controller="AvatarPreview, CustomAvatars">
+			<rect name="content" disableautobackground="true">
+				<sprite name="drag" style="drag" pos="-300, 10" width="250" height="670" color="0,0,0,10" globalopacitymod=".1"/>
+				<rect pos="-30, -43">
+					<rect pos="242, 0">
+						<avatar_togglebutton pos="0,128" name="toggleSpringBones" caption_key="lblSpringBones" width="176" height="28" tooltip_key="toggleSpringBonestt"/>
+						<avatar_togglebutton pos="0,96" name="toggleFPAim" caption_key="lblFirstPersonAiming" width="176" height="28" tooltip_key="toggleFPAimtt"/>
+						<avatar_togglebutton pos="0,64" name="toggleFPArms" caption_key="lblFirstPersonHands" width="176" height="28" tooltip_key="toggleFPArmstt"/>
+						<avatar_togglebutton pos="0,32" name="toggleTransparency" caption_key="lblTransparency" width="176" height="28" tooltip_key="toggleTransparencytt"/>
+						<simplebutton name="btnReset" pos="52,-152" pivot="left" width="120" height="26" bordercolor="0,0,0,200" defaultcolor="0,0,0,160" hovercolor="255,240,219,210" font_size="20" caption_key="lblResetAvatar" tooltip_key="ttResetAvatar"/>
+						<avatar_pager name="pager" pos="82,-610"/>
+					</rect>
+					<rect pos="130, 0">
+						<avatar_label name="VoiceOverride" pos="-136,128" width="240" height="32" caption_key="lblVoiceOverride"/>
+						<avatar_label name="CameraYOffset" pos="-136,94" width="240" height="32" caption_key="lblCameraYOffset"/>
+						<avatar_label name="CameraXOffset" pos="-136,60" width="240" height="32" caption_key="lblCameraXOffset"/>
+						<avatar_label name="HipsYOffset" pos="-136,26" width="240" height="32" caption_key="lblHipsYOffset"/>
+						<avatar_label name="DanceEntries" pos="-136,-8" width="240" height="32" caption_key="lblDanceEntries"/>
+						<avatar_label name="DanceVolume" pos="-136,-76" width="240" height="32" caption_key="lblDanceVolume"/>
+						<avatar_label name="KnuckleOffset" pos="-136,-110" width="240" height="32" caption_key="lblKnuckleOffset"/>
+						<avatar_label name="ScaleOverride" pos="-136,-144" width="240" height="32" caption_key="lblScaleOverride"/>
+						<avatar_label2 name="HandPos" pos="112,-36" width="80" height="24" caption_key="lblHandPos"/>
+						<avatar_label2 name="HandRot" pos="200,-36" width="80" height="24" caption_key="lblHandRot"/>
+						<rect pos="-10, -7">
+							<avatar_combobox pos="0,128" name="toggleVoice" pivot="center" type="ComboBoxList`1[System.String]" values="Default,Male,Female" value_wrap="true" width="110" height="20" visible="true" tooltip_key="ttVoiceOverride" />
+							<avatar_combobox pos="0,94" name="cbxCameraYOffset" type="ComboBoxFloat" value_increment=".01" value_min="-1" value_max="1" value_wrap="false" format_string="0.00" width="110" height="20" tooltip_key="ttCameraYOffset"/>
+							<avatar_combobox pos="0,60" name="cbxCameraXOffset" type="ComboBoxFloat" value_increment=".01" value_min="-1" value_max="1" value_wrap="false" format_string="0.00" width="110" height="20" tooltip_key="ttCameraXOffset"/>
+							<avatar_combobox pos="0,26" name="cbxHipsYOffset" type="ComboBoxFloat" value_increment=".01" value_min="-1" value_max="1" value_wrap="false" format_string="0.00" width="110" height="20" tooltip_key="ttHipsYOffset"/>
+							<avatar_combobox pos="0,-8" name="cbxDanceEntries" type="ComboBoxInt" value_min="8" value_max="20" value_wrap="false" width="110" height="20" tooltip_key="ttDanceMenuEntries"/>
+							<avatar_combobox pos="0,-76" name="cbxDanceVolume" type="ComboBoxFloat" value_min="0" value_max="100" value_increment="1" format_string="0" value_wrap="false" width="110" height="20" tooltip_key="ttDanceMusicVolume"/>
+							<avatar_combobox pos="0,-110" name="cbxKnuckleOffset" type="ComboBoxFloat" value_min="-2" value_max="2" value_increment="0.01" format_string="0.00" value_wrap="false" width="110" height="20" tooltip_key="ttKnuckleOffset"/>
+							<avatar_combobox pos="0,-144" name="cbxScaleOverride" type="ComboBoxFloat" value_min="0" value_max="2" value_increment="0.01" format_string="0.00" value_wrap="false" width="110" height="20" tooltip_key="ttScaleOverride"/>
+							<rect pos="-1, 12">
+								<avatar_combobox pos="122,-72" name="cbxHandPosX" type="ComboBoxFloat" value_min="-5" value_max="5" value_increment="0.001" format_string="0.000" value_wrap="false" width="84" height="20" tooltip_key="ttHandPosX"/>
+								<avatar_combobox pos="122,-98" name="cbxHandPosY" type="ComboBoxFloat" value_min="-5" value_max="5" value_increment="0.001" format_string="0.000" value_wrap="false" width="84" height="20" tooltip_key="ttHandPosY"/>
+								<avatar_combobox pos="122,-124" name="cbxHandPosZ" type="ComboBoxFloat" value_min="-5" value_max="5" value_increment="0.001" format_string="0.000" value_wrap="false" width="84" height="20" tooltip_key="ttHandPosZ"/>
+								<avatar_combobox pos="210,-72" name="cbxHandRotX" type="ComboBoxFloat" value_min="-180" value_max="180" value_increment="1" format_string="0" value_wrap="false" width="84" height="20" tooltip_key="ttHandRotX"/>
+								<avatar_combobox pos="210,-98" name="cbxHandRotY" type="ComboBoxFloat" value_min="-180" value_max="180" value_increment="1" format_string="0" value_wrap="false" width="84" height="20" tooltip_key="ttHandRotY"/>
+								<avatar_combobox pos="210,-124" name="cbxHandRotZ" type="ComboBoxFloat" value_min="-180" value_max="180" value_increment="1" format_string="0" value_wrap="false" width="84" height="20" tooltip_key="ttHandRotZ"/>
+							</rect>
+						</rect>
+					</rect>
+				</rect>
+				<simplebutton name="urlButton" depth="11" pos="122,-654" width="130" height="26" font_size="22" caption_key="lblUpdateAvailable" upper_case="true" />
+				<label depth="2" name="version" color="[selectedColor]" pos="-32,-660" width="200" height="40" text_key="Custom Avatars" justify="left" font_size="18"/>
+				<grid name="avatars" pos="0, -265" rows="6" cols="6" cell_width="70" cell_height="70" repeat_content="true">
+					<avatar_entry width="70"/>
+				</grid>
+				<sprite depth="1" name="bg" sprite="menu_empty3px" pos="-44,94" color="[black]" type="sliced" fillcenter="false" globalopacitymod="2"/>
+				<sprite depth="0" style="drag" name="bg" sprite="menu_empty3px" pos="-44,94" color="[darkGrey]" type="sliced" globalopacitymod="2"/>
+			</rect>
+		</window>
+	</append>
+</configs>

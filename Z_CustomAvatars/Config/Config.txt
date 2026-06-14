@@ -1,0 +1,17 @@
+LastUsedAvatar:GF2CheyanneDefault
+TransparencyMode:1
+AimMode:1
+ArmsMode:1
+SpringBonesMode:1
+AvatarEnabled:1
+FPV:1
+ScaleOverride:1.00
+VoiceOverride:0
+CameraYOffset:0
+CameraXOffset:0
+HipsYOffset:0
+KnuckleOffset:-0.22
+DanceEntries:10
+DanceVolume:50
+HandPos:0.000,0.000,0.000
+HandRot:-90.0,0.0,0.0

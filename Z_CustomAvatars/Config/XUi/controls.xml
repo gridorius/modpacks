@@ -1,0 +1,129 @@
+<configs>
+	<append xpath="/controls">
+		<avatar_entry>
+			<rect depth="1" width="${width}" height="${width}" controller="AvatarEntry, CustomAvatars" style="itemStack, hover" globalopacity="false">
+				<sprite depth="4" name="backgroundMain" sprite="menu_empty3px" pivot="center" color="[black]" type="sliced" fillcenter="false"/>
+				<sprite depth="6" name="backgroundMain" sprite="menu_empty3px" pivot="center" color="0,0,0,240" type="sliced" fillcenter="false"/>
+				<button depth="5" sound="[paging_click]" name="btn" width="${width-2}" height="${width-2}" pivot="center" hoverscale="1.0" hovercolor="[tan]" on_scroll="true" defaultcolor="[darkGrey]" selectedcolor="[selectedColor]" disabledcolor="0,0,0,160" tooltip="{tooltip}"/>
+				<texture depth="6" name="itemIcon" width="${width-6}" height="${width-6}" pivot="center" foregroundlayer="true"/>
+			</rect>
+		</avatar_entry>
+		<avatar_togglebutton depth="3" pos="0,0" width="${width}" height="32" enabled_font_color="[labelColor]" disabled_font_color="[disabledLabelColor]" visible="true" tooltip_key="" caption="" caption_key="" font_size="22" parse_actions="false">
+			<rect name="${name}" depth="${depth}" pos="${pos}" width="${width}" height="${height}" enabled_font_color="${enabled_font_color}" disabled_font_color="${disabled_font_color}" controller="ToggleButton" visible="${visible}">
+				<button name="clickable" sprite="menu_empty" sound="[paging_click]" defaultcolor="0,0,0,160" disabledcolor="0,0,0,160" hoversprite="ui_game_select_row" hovercolor="255,240,219,210" type="sliced" hoverscale="1.0" tooltip_key="${tooltip_key}"/>
+				<sprite depth="1" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false"/>
+				<sprite depth="2" name="tickbox" width="${height-4}" height="${height-4}" pos="3,-4" color="[darkGrey]" sprite="Highlight - Shadowed" type="sliced"/>
+				<sprite depth="3" name="tickmark" width="${height-15}" height="${height-15}" pos="8,-8" color="[iconColor]" sprite="ui_game_symbol_check" visible="{value}"/>
+				<label depth="2" name="btnLabel" width="${width-height-1}" height="${height-2}" pos="${height},${Round(-height/2,0)}" justify="left" text="${caption}" text_key="${caption_key}" effect="outline" pivot="left" font_size="20" parse_actions="${parse_actions}"/>
+			</rect>
+		</avatar_togglebutton>
+		<avatar_label depth="3" pos="0,0" width="${width}" height="32" enabled_font_color="[labelColor]" disabled_font_color="[disabledLabelColor]" visible="true" tooltip_key="" caption="" caption_key="" font_size="22" parse_actions="false">
+			<rect name="${name}" depth="${depth}" pos="${pos}" width="${width}" height="${height}" enabled_font_color="${enabled_font_color}" disabled_font_color="${disabled_font_color}" visible="${visible}">
+				<sprite sprite="menu_empty" sound="[paging_click]" color="0,0,0,160" disabledcolor="0,0,0,160" hoversprite="ui_game_select_row" hovercolor="0,0,0,160" type="sliced" hoverscale="1.0" tooltip_key="${tooltip_key}"/>
+				<sprite depth="1" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false"/>
+				<label depth="2" name="btnLabel" width="${width-height-1}" height="${height-2}" pos="8,${Round(-height/2,0)}" justify="left" text="${caption}" text_key="${caption_key}" effect="outline" pivot="left" font_size="20" parse_actions="${parse_actions}"/>
+			</rect>
+		</avatar_label>
+		<avatar_label2 depth="3" pos="0,0" width="${width}" height="32" enabled_font_color="[labelColor]" disabled_font_color="[disabledLabelColor]" visible="true" tooltip_key="" caption="" caption_key="" font_size="22" parse_actions="false">
+			<rect name="${name}" depth="${depth}" pos="${pos}" width="${width}" height="${height}" enabled_font_color="${enabled_font_color}" disabled_font_color="${disabled_font_color}" visible="${visible}">
+				<sprite sprite="menu_empty" sound="[paging_click]" color="0,0,0,160" disabledcolor="0,0,0,160" hoversprite="ui_game_select_row" hovercolor="0,0,0,160" type="sliced" hoverscale="1.0" tooltip_key="${tooltip_key}"/>
+				<sprite depth="1" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false"/>
+				<label depth="2" name="btnLabel" width="${width}" height="${height-2}" pos="8,${Round(-height/2,0)}" justify="left" text="${caption}" text_key="${caption_key}" effect="outline" pivot="left" font_size="20" parse_actions="${parse_actions}"/>
+			</rect>
+		</avatar_label2>
+		<avatar_pager depth="3" pos="0,0" width="90" height="28"
+				show_max_page="false" separator="/" primary_pager="true" contents_parent="">
+			<rect name="${name}" depth="${depth}" pos="${pos}" disableautobackground="true" controller="Paging" visible="{paging_visible}" show_max_page="${show_max_page}" separator="${separator}" primary_pager="${primary_pager}" contents_parent="${contents_parent}"> <!-- default size: 100x32 -->
+				<button depth="4" name="pageDown" style="icon30px, press" width="${height-2}" height="${height-2}" pos="${Round(height/2, 0)},${Round(-height/2, 0)}" enabled="{# int(pagenumber) &gt; 1}" sprite="ui_game_symbol_arrow_left" disabledcolor="[lightGrey]" pivot="center" sound="[paging_click]" use_selection_box="false" />
+				<rect depth="4" pos="${height},${Round(-height/2, 0)}">
+					<sprite name="background" style="icon30px" width="${width-2*height}" height="${height-2}" pivot="left" color="[black]" type="sliced" />
+					<label depth="5" text="{#showmaxpage ? pagenumber + separator + maxpagenumber : pagenumber}" width="${width-2*height}" height="${height-2}" font_size="${height-4}" pivot="left" justify="center" />
+				</rect>
+				<button depth="4" name="pageUp"   style="icon30px, press" width="${height-2}" height="${height-2}" pos="${Round(width - height/2, 0)},${Round(-height/2, 0)}" enabled="{# int(pagenumber) &lt; int(maxpagenumber)}" sprite="ui_game_symbol_arrow_right" disabledcolor="[lightGrey]" pivot="center" sound="[paging_click]" use_selection_box="false"/>
+			</rect>
+		</avatar_pager>
+		<avatar_combobox depth="3" pos="0,0" height="30" value_min="@DEF" value_max="@DEF" value_wrap="@DEF" value_increment="@DEF" scroll_by_increment="false" values="@DEF" reverse_list="@DEF" localization_prefix="" localization_key_caseinsensitive="false" format_string="" enabled="true" enabled_color="[white]" disabled_color="[lightGrey]" bg_color="[black]" enabled_fill_color="[white]" disabled_fill_color="[lightGrey]" visible="true" segmented_fill="false" segment_height="15" segment_count="1" segments_max="20" segment_spacing="10" tooltip_key="" foregroundlayer="false" index_markers="false" gamepad_selectable="true" gamepad_decrease="" gamepad_increase="" gamepad_callout_size_increase="0">
+			<rect name="${name}" controller="${type}" depth="${depth}" pos="${pos}" width="${width}" height="${height}" value_min="${value_min}" value_max="${value_max}" value_wrap="${value_wrap}" value_increment="${value_increment}" scroll_by_increment="${scroll_by_increment}" values="${values}" reverse_list="${reverse_list}" localization_prefix="${localization_prefix}" localization_key_caseinsensitive="${localization_key_caseinsensitive}" format_string="${format_string}" combo_enabled="${enabled}" enabled_color="${enabled_color}" disabled_color="${disabled_color}" bg_color="${bg_color}" enabled_fill_color="${enabled_fill_color}" disabled_fill_color="${disabled_fill_color}" visible="${visible}" segmented_fill="${segmented_fill}" segment_spacing="${segment_spacing}" segment_count="${segment_count}" pivot="left" index_markers="${index_markers}" gamepad_decrease="${gamepad_decrease}" gamepad_increase="${gamepad_increase}">
+				<button name="back" depth="${1+depth}" style="icon30px, press, hover" pos="${height/2},${-height/2}" width="${height}" height="${height}" pivot="center" sprite="ui_game_symbol_arrow_menu" disabledcolor="[disabledColor]" hoverscale="1.0" sound="[paging_click]" tooltip_key="${tooltip_key}" gamepad_selectable="false" enabled="{can_backward}" visible="{# !hascontrollershortcuts or !is_controller_input}"/>
+				<gamepad_icon name="gamepadIconBack" depth="${1+depth}" pos="${height/2-gamepad_callout_size_increase/2},${-height/2}" width="${0+height+gamepad_callout_size_increase}" height="${0+height+gamepad_callout_size_increase}" pivot="center" visible="{# hascontrollershortcuts and is_controller_input}" color="{# can_backward ? '255,255,255' : '160,160,160'}" action="${gamepad_decrease}"/>
+				<rect name="regularFill" pos="${2+height},0" width="${width-height*2-4}" height="${height}" force_hide="${ segmented_fill }">
+					<sprite name="background" depth="${1+depth}" pivot="topleft" color="{bgcolor}" type="sliced" foregroundlayer="${foregroundlayer}"/>
+					<filledsprite name="fill" depth="${2+depth}" pivot="topleft" color="{fillcolor}" fill="{fillvalue}" filldirection="horizontal" visible="{isnumber}" foregroundlayer="true"/>
+				</rect>
+				<rect name="segmentedFill" pos="${2+height},${-height/2+Round(segment_height/2,0)}" width="${width-height*2-4}" height="${segment_height}" force_hide="${ !segmented_fill }" repeat_content="true" repeat_count="${segmented_fill ? segments_max : 1}">
+					<rect pos="${repeat_i * 25},0">
+						<sprite name="bg" depth="${1+depth}" width="20" pivot="topleft" color="{bgcolor}" type="sliced" foregroundlayer="${foregroundlayer}"/>
+						<filledsprite name="fillSegment" depth="${2+depth}" width="20" pivot="topleft" color="{fillcolor}" fill="{# segment_fill_${repeat_i}}" filldirection="horizontal" visible="{isnumber}" foregroundlayer="true"/>
+					</rect>
+				</rect>
+				<label name="currentValue" depth="${3+depth}" pos="${2+height},${-height/2}" width="${width-height*2-4}" height="${height-2}" pivot="left" text="{valuetext}" font_size="${Defined(font_size) ? font_size : height-4}" justify="center" color="{valuecolor}" effect="outline" effect_color="[black]" effect_distance="1,1"/>
+				<button name="forward" depth="${1+depth}" style="icon30px, press, hover" pos="${width-height/2},${-height/2}" width="${height}" height="${height}" pivot="center" sprite="ui_game_symbol_arrow_menu" disabledcolor="[disabledColor]" hoverscale="1.0" sound="[paging_click]" tooltip_key="${tooltip_key}" flip="Horizontally" gamepad_selectable="false" enabled="{can_forward}" visible="{# !hascontrollershortcuts or !is_controller_input}"/>
+				<gamepad_icon name="gamepadIconForward" depth="${1+depth}" pos="${width-height/2+gamepad_callout_size_increase/2},${-height/2}" width="${0+height+gamepad_callout_size_increase}" height="${0+height+gamepad_callout_size_increase}" pivot="center" visible="{# hascontrollershortcuts and is_controller_input}" color="{# can_forward ? '255,255,255' : '160,160,160'}" action="${gamepad_increase}"/>
+				<rect name="directvalue" style="press, scroll, hover, drag" pos="${2+height},0" width="${width-height*2-4}" height="${height}" pivot="topleft" createuiwidget="true" tooltip_key="${tooltip_key}" gamepad_selectable="${gamepad_selectable}"/>
+				<rect name="indexMarkers" pos="${2+height},${-height+5}" width="${width-height*2-4}" height="5" visible="{usesmarkers}" active_color="[white]" inactive_color="[darkGrey]" repeat_content="true" repeat_count="${index_markers ? 20 : 1}">
+					<sprite depth="${2+depth}" width="20" pivot="topleft" color="[white]" type="sliced" foregroundlayer="true"/>
+				</rect>
+			</rect>
+		</avatar_combobox>
+	</append>
+	<remove xpath="/controls/radial_entry/rect/label"/>
+	<append xpath="/controls/radial_entry/rect">
+		<label depth="4" name="text" width="75" height="75" font_size="20" color="[white]" justify="center" effect="outline" pivot="center" visible="false"/>
+	</append>
+	<set xpath="/controls/party_entry/rect">
+		<sprite pos="47,25" depth="8" name="icon1" width="16" height="16" foregroundlayer="true" sprite="{icon1}" color="255,255,255,255" visible="{showicon1}"/>
+		<rect pos="39,0" controller="AvatarMPEntry, CustomAvatars" width="50" height="50">
+			<sprite depth="4" name="borderVoice" sprite="menu_empty2px" pivot="center" type="sliced" fillcenter="false" globalopacity="false"/>
+			<sprite depth="4" sprite="avatarborder" color="{arrowcolor}" width="48" height="48" pivot="center" globalopacity="false"/>
+			<texture depth="3" name="avatar" pivot="center" width="48" height="48"/>
+			<sprite depth="3" name="defaultAvatar" sprite="profile" pivot="center" width="48" height="48"/>
+			<sprite depth="2" name="backgroundAvatar" sprite="menu_empty3px" pivot="center" color="[black]" type="sliced" fillcenter="true"/>
+		</rect>
+		<rect pos="-7, 7">
+			<label depth="6" name="TextContent" pos="75, -12" font_size="26" color="[white]" justify="left" pivot="bottomleft" text="{name}" spacing_x="2" height="22" width="190"/>
+			<sprite depth="0" pos="70,-12" rotation="90" height="250" width="26" name="labelbg" sprite="ui_interface_gradient_strip" color="[black]" globalopacity="false"/>
+			<rect pos="69,-12" width="200" height="12">
+				<sprite depth="2" pos="0,1" name="border" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" globalopacity="false"/>
+				<filledsprite depth="3" pos="1,-1" name="BarHealth" color="{healthcolor}" width="197" height="8" type="filled" fill="{healthfill}" globalopacity="false"/>
+				<filledsprite depth="3" pos="1,-1" name="BarHealth" color="{healthcolor}" width="197" height="8" type="filled" fill="{healthfill}" globalopacity="false"/>
+				<filledsprite depth="3" pos="1,-1" name="BarHealth" color="{healthcolor}" width="197" height="8" type="filled" fill="{healthfill}" globalopacity="false"/>
+				<filledsprite depth="3" pos="1,-1" name="BarHealth" color="{healthcolor}" width="197" height="8" type="filled" fill="{healthfill}" globalopacity="false"/>
+				<filledsprite depth="2" pos="1,-1" name="BarHealthModifiedMax" color="100,0,0,255" width="197" height="8" type="filled" fill="{healthmodifiedmax}"/>
+				<filledsprite depth="3" pos="1,-11" name="BarStamina" color="0,134,255,240" width="147" height="4" type="filled" fill="{staminafill}" globalopacity="false"/>
+				<filledsprite depth="3" pos="1,-11" name="BarStaminaMax" color="0,23, 138,250" width="147" height="4" type="filled" fill="1"/>
+				<sprite pos="135,-3" depth="8" name="icon2" style="icon30px" sprite="{icon2}" visible="{showicon2}"/>
+				<rect pos="200,10">
+					<label depth="6" name="TextContent" pos="16,0" font_size="18" color="{distancecolor}" pivot="left" text="{distance}" effect="Outline" effect_color="0,0,0,255" effect_distance="2,2" height="30"/>
+					<sprite depth="8" name="arrowContent" pos="0,3" width="20" height="18" foregroundlayer="true" sprite="ui_game_symbol_map_player_arrow" visible="{showarrow}" pivot="center" color="{arrowcolor}"/>
+				</rect>
+				<sprite depth="8" name="voiceStatus" style="icon22px" pos="15,-18" sprite="ui_game_symbol_talk" visible="{voicevisible}" pivot="center" color="{# voicemuted ? '200,0,0,255' : (voiceactive ? '255,255,255,255' : '128,128,128,255') }"/>
+			</rect>
+		</rect>
+	</set>
+	<set xpath="/controls/smxhud_party_entry/rect">
+		<rect pos="-8,10" controller="AvatarMPEntry, CustomAvatars">
+			<sprite depth="4" sprite="avatarborder" color="{arrowcolor}" width="1" height="1" pos="-9999,0" pivot="center" globalopacity="false"/>
+			<sprite name="smxhud_party_location_background" depth="5" pos="-16,-20" width="70" height="70" sprite="smxlib_artbox_background" pivot="center" rotation="0" color="[smxhud_element_background]" globalopacitymod="1.8"/>
+			<sprite name="smxhud_party_location_foreground" depth="8" pos="-16,-20" width="70" height="70" sprite="smxlib_artbox_foreground" pivot="center" rotation="0" color="{arrowcolor}" globalopacitymod="1.2"/>
+			<sprite name="borderVoice" depth="7" pos="-16,-20" width="64" height="64" sprite="smxlib_artbox_foreground" pivot="center" rotation="0" color="[black]" globalopacitymod="1.2"/>
+			<texture pos="-16,-20" depth="6" name="avatar" rotation="0" pivot="center" width="46" height="46"/>
+			<sprite pos="-16,-20" depth="6" name="defaultAvatar" sprite="profile" rotation="0" pivot="center"/>
+		</rect>
+		<sprite name="smxhud_party_main_background" depth="3" pos="-10,-7" width="210" height="24" sprite="smxhud_unitframe_background" color="[smxhud_element_background]" globalopacitymod="1.5"/>
+		<sprite name="smxhud_party_frameseparator" depth="4" pos="0,-9" width="190" height="2" sprite="smxlib_separation_line_1" rotation="0" color="[smxhud_unitframe_separation]" globalopacitymod="1.8"/>
+		<sprite name="smxhud_party_frameseparator" depth="4" pos="0,-19" width="180" height="2" sprite="smxlib_separation_line_1" rotation="0" color="[smxhud_unitframe_separation]" globalopacitymod="1.8"/>
+		<sprite name="smxhud_party_frameseparator" depth="4" pos="0,-26" width="160" height="2" sprite="smxlib_separation_line_1" rotation="0" color="[smxhud_unitframe_separation]" globalopacitymod="1.8"/>
+		<filledsprite name="BarHealthModifiedMax" depth="4" pos="1,-12" width="185" height="8" sprite="smxhud_unitframe_healthbar_empty" type="filled" fill="{healthmodifiedmax}" color="[smxhud_unitframe_bar_background_1]" globalopacitymod="1.3"/>
+		<filledsprite name="BarStaminaModifiedMax" depth="4" pos="1,-22" width="170" height="4" sprite="smxhud_unitframe_staminabar_empty" type="filled" fill="{staminamodifiedmax}" color="[smxhud_partyframe_health_bar]" globalopacitymod="1.3"/>
+		<filledsprite name="BarHealth" depth="5" pos="1,-12" width="185" height="8" sprite="smxhud_unitframe_healthbar_fill" type="filled" fill="{healthfill}" color="{healthcolor}" globalopacitymod="1.8"/>
+		<filledsprite name="BarStamina" depth="5" pos="1,-22" width="170" height="4" sprite="smxhud_unitframe_staminabar_fill" type="filled" fill="{staminafill}" color="[smxhud_unitframe_stamina_bar]" globalopacitymod="1.8"/>
+		<label name="TextContent" depth="6" pos="120,0" width="175" height="30" style="smxcore_label_normal" text="{name}" font_size="18" pivot="center" justify="left" overflow="ShrinkContent" color="[smxhud_element_labelcolor_1]"/>
+		<label name="TextContent" depth="6" pos="165,-18" width="175" height="30" style="smxcore_label_normal" text="{distance}" font_size="14" pivot="center" justify="right" color="{distancecolor}"/>
+		<sprite name="smxhud_party_state_background1" depth="7" pos="8,0" size="26,26" sprite="smxhud_icon_background" pivot="center" color="[smxhud_element_background]" globalopacitymod="1.8" visible="{showicon1}"/>
+		<sprite name="smxhud_party_state_background2" depth="7" pos="30,0" size="26,26" sprite="smxhud_icon_background" pivot="center" color="[smxhud_element_background]" globalopacitymod="1.8" visible="{showicon2}"/>
+		<sprite name="icon1" depth="8" pos="0,9" size="18,18" sprite="{icon1}" visible="{showicon1}"/>
+		<sprite name="icon2" depth="8" pos="21,9" size="18,18" sprite="{icon2}" visible="{showicon2}"/>
+		<sprite name="arrowContent" depth="8" pos="165,2" size="16,16" sprite="ui_game_symbol_map_player_arrow" pivot="center" color="{arrowcolor}" visible="{showarrow}" globalopacitymod="2"/>
+		<sprite name="voiceStatus" depth="10" pos="-23,-5" size="16,16" sprite="ui_game_symbol_talk" pivot="center" color="{# voicemuted ? '200,0,0,255' : (voiceactive ? '255,255,255,255' : '128,128,128,255') }" visible="{voicevisible}"/>
+	</set>
+</configs>

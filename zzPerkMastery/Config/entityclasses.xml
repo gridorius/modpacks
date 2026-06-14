@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+	<append xpath="/entity_classes/entity_class[@name='vehicleBicycle']/property[@name='Tags']/@value">,bicycle</append>
+	<append xpath="/entity_classes/entity_class[@name='vehicleMinibike']/property[@name='Tags']/@value">,minibike</append>
+	<append xpath="/entity_classes/entity_class[@name='vehicleMotorcycle']/property[@name='Tags']/@value">,motorcycle</append>
+	<append xpath="/entity_classes/entity_class[@name='vehicleTruck4x4']/property[@name='Tags']/@value">,truck</append>
+	<append xpath="/entity_classes/entity_class[@name='vehicleGyrocopter']/property[@name='Tags']/@value">,gyrocopter</append>
+	<append xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='Tags']/@value">,direwolf</append>
+	
+    <append xpath="/entity_classes/entity_class[@name='playerMale']">
+        <effect_group>
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffPlayerThorns"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="buffPlayerThorns"/>
+			<triggered_effect trigger="onSelfRespawn" action="AddBuff" target="self" buff="buffPlayerThorns"/>
+			
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffVehicleSpeedMaster"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="buffVehicleSpeedMaster"/>
+			<triggered_effect trigger="onSelfRespawn" action="AddBuff" target="self" buff="buffVehicleSpeedMaster"/>
+			
+			<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffDayTrader"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AddBuff" target="self" buff="buffDayTrader"/>
+			<triggered_effect trigger="onSelfRespawn" action="AddBuff" target="self" buff="buffDayTrader"/>
+		</effect_group>
+    </append>
+
+</configs>

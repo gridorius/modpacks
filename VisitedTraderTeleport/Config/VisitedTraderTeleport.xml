@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<VisitedTraderTeleport>
+  <!-- Access modes mainly matter in multiplayer. Single-player can keep personal. -->
+  <!-- In multiplayer, the server-side file is authoritative. -->
+  <!-- personal: only traders this player visits -->
+  <!-- party: this player plus current party members -->
+  <!-- shared: everyone in the active save/server -->
+  <AccessMode value="personal" />
+
+  <!-- Optional travel cost. Leave enabled=false for the current free-travel behavior. -->
+  <!-- item is the internal item name to consume. ammoGasCan is vanilla gas. -->
+  <!-- displayName is optional and only used when the item has no game localization entry. -->
+  <!-- perMeter is charged by straight-line distance and rounded up to a whole item count. -->
+  <!-- Invalid negative, zero, or extremely large cost values are corrected during config load. -->
+  <!-- perKilometer from older configs is still supported; perMeter takes priority when both are set. -->
+  <TravelCost enabled="false" item="ammoGasCan" perMeter="0.1" minimum="0" />
+  <!-- Example using Duke's casino tokens instead of gas: -->
+  <!-- <TravelCost enabled="true" item="casinoCoin" perMeter="1" minimum="0" /> -->
+
+  <!-- Short transport-style transition before travel. -->
+  <!-- sound uses a loaded game audio key; set sound empty to disable audio. -->
+  <TravelTransition enabled="true" durationSeconds="5" sound="suv_startup" soundRepeatSeconds="2" />
+
+  <!-- Ask "Travel to X?" with Yes/No before moving, to avoid accidental trips. -->
+  <!-- In multiplayer, the server-side file is authoritative. -->
+  <!-- mode options: -->
+  <!-- off: travel immediately when a destination is picked (legacy behavior) -->
+  <!-- always: always confirm before traveling -->
+  <!-- whenCost: confirm only when the trip consumes travel cost items -->
+  <Confirmation mode="whenCost" />
+</VisitedTraderTeleport>

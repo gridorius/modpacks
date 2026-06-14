@@ -1,0 +1,15 @@
+<configs>
+
+<append xpath="/buffs/buff[@name='buffPerkCharismaticNature']">
+    <effect_group>
+        <requirement name="CVarCompare" cvar="CharismaticNatureLevel" operation="GTE" value="6"/>
+            <passive_effect name="RunSpeed" operation="perc_add" value="0.2"/>
+            <passive_effect name="WalkSpeed" operation="perc_add" value="0.2"/>
+            <passive_effect name="EntityDamage" operation="perc_add" value="0.2"/>
+    </effect_group>
+</append>
+
+<set xpath="/buffs/buff[@name='buffPerkCharismaticNature']/effect_group[1]/passive_effect[@name='HealthChangeOT']/@level">1,2,3,4,5,6</set>
+<set xpath="/buffs/buff[@name='buffPerkCharismaticNature']/effect_group[1]/passive_effect[@name='HealthChangeOT']/@value">.5,.5,.5,.5,.5,1</set>
+
+</configs>

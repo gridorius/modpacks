@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <Name value="VisitedTraderTeleport" />
+  <DisplayName value="Travel Between Visited Traders" />
+  <Description value="Adds a trader dialog option to travel to traders you have already visited." />
+  <Author value="WhiteAnthrax" />
+  <Version value="0.6.16" />
+  <Website value="" />
+  <SkipWithAntiCheat value="true" />
+</xml>

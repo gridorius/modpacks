@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModSettings>
+  <Global>
+    <Tab name="General" displayKey="General" tooltipKey="[DECEA3]mod settings for Quest Revamp[-]">
+      <Category name="NoIntro" displayKey="[00b6ff]Intro Buried Supplies[-]" tooltipKey="[DECEA3]ability to skip the intro quest[-]">
+        <Switch name="NIQ" displayKey="Skip Intro Quest" tooltipKey="[DECEA3]can skip the starter Intro Buried Supplies quest[-]" defaultValue="Yes" leftValue="No" rightValue="Yes" />
+      </Category>
+      <Category name="QuestReset" displayKey="[00b6ff]Reset Quests[-]" tooltipKey="[DECEA3]ability to reset quests[-]">
+        <Switch name="RQ" displayKey="Allow Reset Quests" tooltipKey="[DECEA3]reset quests at trader like admin[-]" defaultValue="No" leftValue="No" rightValue="Yes" />
+      </Category>
+      <Category name="Progression" displayKey="[00b6ff]Quest Progression[-]" tooltipKey="[DECEA3]ability to turn vanilla quest progression on[-]">
+        <Switch name="QP" displayKey="Enhanced Quest Progression" tooltipKey="[DECEA3]vanilla quests get progressively harder with this enabled[-]" defaultValue="Yes" leftValue="No" rightValue="Yes" />
+      </Category>
+      <Category name="RallyReset" displayKey="[00b6ff]Rally Reset[-]" tooltipKey="[DECEA3]ability to prevent rally reset[-]">
+        <Switch name="PRR" displayKey="Prevent Rally Reset" tooltipKey="[DECEA3]Prevent Login Rally Reset On Exit/Restart Game[-]" defaultValue="Yes" leftValue="No" rightValue="Yes" />
+      </Category>
+    </Tab>
+    <Tab name="Limitations" displayKey="Limitations" tooltipKey="[DECEA3]mod settings for Quest Revamp[-]">
+      <Category name="QuestsPerTier" displayKey="[00b6ff]Min Required Quests per Tier[-]" tooltipKey="[DECEA3]set the required number of quests you need to advance to the next tier[-]">
+        <Slider name="QPT" displayKey="Quests per Tier" tooltipKey="[DECEA3]set the number to what you want (default is 10)[-]" defaultValue="10">
+          <Property increment="1" minValue="1" maxValue="20" type="incrementalValuesInt" />
+        </Slider>
+      </Category>
+      <Category name="DailyQuestLimit" displayKey="[00b6ff]Held Quests per Day[-]" tooltipKey="[DECEA3]ability to hold multiple quests at a time; note that this can also be set in world options when starting a game[-]">
+        <Switch name="DQL" displayKey="Unlimited Quests per Day" tooltipKey="[DECEA3]hold/take unlimited quests per day[-]" defaultValue="Yes" leftValue="No" rightValue="Yes" />
+      </Category>
+      <Category name="LargerQuestsRadius" displayKey="[00b6ff]POI Stay Within Range[-]" tooltipKey="[DECEA3]distance you can exit a POI before quests will fail[-]">
+        <Slider name="LQR" displayKey="Quest Range" tooltipKey="[DECEA3]adjust the range you must stay within when completing a quest; default is 25[-]" defaultValue="25">
+          <Property increment="5" minValue="10" maxValue="50" type="incrementalValuesInt" />
+        </Slider>
+      </Category>
+    </Tab>
+    <Tab name="RestorePower" displayKey="Restore Power Quests" tooltipKey="[DECEA3]mod settings for Quest Revamp[-]">
+      <Category name="AllowedHours" displayKey="[00b6ff]Allowed Hours for Restore Power[-]" tooltipKey="[DECEA3]set the allowed hours for restore power quests[-]">
+        <Slider name="RPSH" displayKey="Start Time" tooltipKey="[DECEA3]set the START time for restore power quests[-]" defaultValue="22">
+          <Property increment="1" minValue="20" maxValue="24" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="RPFH" displayKey="Finish Time" tooltipKey="[DECEA3]set the FINISH time for restore power quests[-]" defaultValue="2">
+          <Property increment="1" minValue="0" maxValue="4" type="incrementalValuesInt" />
+        </Slider>
+      </Category>
+    </Tab>
+    <Tab name="Rewards" displayKey="Rewards" tooltipKey="[DECEA3]mod settings for Quest Revamp[-]">
+      <Category name="Exp" displayKey="[00b6ff]Experience Gained[-]" tooltipKey="[DECEA3]set the PERCENTAGE of exp gained for finishing quests[-]">
+        <Slider name="Exp" displayKey="Experience Gain" tooltipKey="[DECEA3]set the amount of exp PERCENTAGE gained for completed quests[-]" defaultValue="100">
+          <Property increment="1" minValue="0" maxValue="100" type="incrementalValuesInt" />
+        </Slider>
+      </Category>
+      <Category name="Dukes" displayKey="[00b6ff]Dukes Reward[-]" tooltipKey="[DECEA3]set the amount of dukes rewarded on quests[-]">
+        <Switch name="amount" displayKey="Reduced Dukes" tooltipKey="[DECEA3]reduce the AMOUNT of dukes received by 2/3 for completed quests[-]" defaultValue="Off" leftValue="Off" rightValue="On" />
+      </Category>
+    </Tab>
+    <Tab name="ExtraQuestTiers" displayKey="Extra Quest Tiers" tooltipKey="[DECEA3]mod settings for Quest Revamp">
+      <Category name="TierLevels" displayKey="[00b6ff]Max Quest Tier Level[-]" tooltipKey="[DECEA3]adds extra quest tier levels 7,8,9, and 10[-]">
+        <Switch name="QL7" displayKey="Quest Level 7" tooltipKey="[DECEA3]Quest Level 7[-]" defaultValue="Off" leftValue="Off" rightValue="On" />
+        <Switch name="QL8" displayKey="Quest Level 8" tooltipKey="[DECEA3]Quest Level 8[-]" defaultValue="Off" leftValue="Off" rightValue="On" />
+        <Switch name="QL9" displayKey="Quest Level 9" tooltipKey="[DECEA3]Quest Level 9[-]" defaultValue="Off" leftValue="Off" rightValue="On" />
+        <Switch name="QL10" displayKey="Quest Level 10" tooltipKey="[DECEA3]Quest Level 10[-]" defaultValue="Off" leftValue="Off" rightValue="On" />
+      </Category>
+    </Tab>
+    <Tab name="InfestedQuests" displayKey="Infested Quests" tooltipKey="[DECEA3]mod settings for Quest Revamp">
+      <Category name="IQTypes" displayKey="[00b6ff]Harder Infested Quests[-]" tooltipKey="[DECEA3]adds higher difficulty infested quest types[-]">
+        <Switch name="MTIQ" displayKey="Harder Infested Quests" tooltipKey="[DECEA3]Super, Ultra, and Nightmare level infested quests. The spawn multiplier is higher than vanilla./n/nCaution: this can really tax your CPU and is only for people with a NASA level computer. Entering a POI and having over 100 zombies spawn all at once is generally not a good thing in terms of playability, your fps will tank to ~20fps unless you are the proud owner of the aforementioned supercomputer.[-]" defaultValue="Off" leftValue="Off" rightValue="On" />
+      </Category>
+    </Tab>
+  </Global>
+  <World />
+</ModSettings>

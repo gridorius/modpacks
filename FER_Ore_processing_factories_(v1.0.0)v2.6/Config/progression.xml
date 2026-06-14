@@ -1,0 +1,53 @@
+<Config>
+
+	<!-- Mining Rig  -->
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[starts-with(@name_key, 'workstationsT2')]">
+		<unlock_entry item="MiningRig_FER" unlock_tier="3"/>
+	</append>
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="26,100" value="1" tags="MiningRig_FER"/>
+	</append>
+	
+	<!-- Extraction Furnace  -->
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[starts-with(@name_key, 'workstationsT2')]">
+		<unlock_entry item="ExtractionFurnace_FER" unlock_tier="3"/>
+	</append>
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="26,100" value="1" tags="ExtractionFurnace_FER"/>
+	</append>
+	
+	<!-- Extraction Furnace TOOL  -->
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[starts-with(@name_key, 'workstationsT3')]">
+		<unlock_entry item="tooldoubleBellowsFER" unlock_tier="3"/>
+	</append>
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="34,100" value="1" tags="tooldoubleBellowsFER"/>
+	</append>
+	
+	<!-- Ore Crusher  -->
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[starts-with(@name_key, 'workstationsT3')]">
+		<unlock_entry item="OreCrusher_FER" unlock_tier="3"/>
+	</append>
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="34,100" value="1" tags="OreCrusher_FER"/>
+	</append>
+	
+	<!-- Ore Crusher TOOLS  -->
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingSalvageTools']/display_entry[@item='meleeToolSalvageT2Ratchet']">
+		<unlock_entry item="ToolIronCrushRollerFER" unlock_tier="1"/>
+	</append>
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingSalvageTools']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="26,75" value="1" tags="ToolIronCrushRollerFER"/>
+	</append>
+	
+	<!-- Diamond Crush Roller TOOLS  -->
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingSalvageTools']/display_entry[@item='meleeToolSalvageT3ImpactDriver']">
+		<unlock_entry item="tooldiamondCrushRollerFER" unlock_tier="1"/>
+	</append>
+	<append xpath="progression/crafting_skills/crafting_skill[@name='craftingSalvageTools']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="51,75" value="1" tags="tooldiamondCrushRollerFER"/>
+	</append>
+	
+	
+	
+</Config>

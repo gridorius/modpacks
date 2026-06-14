@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="QuestPlus" />
+	<DisplayName value="QuestPlus" />
+	<Description value="lets you accept multiple quests at the same time instead of being limited to just one active quest." />
+	<Author value="Anthony Maltha" />
+	<Version value="1.4" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

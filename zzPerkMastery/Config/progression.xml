@@ -1,0 +1,1684 @@
+<configs>
+
+<append xpath="/progression/attributes">
+	<attribute name="attMastery" name_key="attMastery" desc_key="attMasteryDesc" min_level="1" max_level="1" icon="mp_rank">
+		<level_requirements level="1"> <requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints01"></requirement></level_requirements>
+			<effect_group>
+				<effect_description level="1" desc_key="UnlockMasteries" long_desc_key="UnlockMasteriesDesc"/>
+			</effect_group>
+	</attribute>
+</append>
+
+<insertAfter xpath="/progression/crafting_skills/crafting_skill[@name='craftingVehicles']">
+	<skill name="masterySpec" parent="attMastery" name_key="masterySpec" desc_key="masterySpecDesc" icon="mp_rankw"><effect_group/></skill>
+	<skill name="masteryGeneral" parent="attMastery" name_key="masteryGeneral" desc_key="masteryGeneralDesc" icon="mp_rankw"><effect_group/></skill>
+</insertAfter>
+
+<insertBefore xpath="/progression/perks/perk[@name='perkDemolitionsExpert']">
+	
+	<!-- PERCEPTION -->
+	
+		<perk name="perkSpartan" max_level="7" parent="masterySpec" name_key="Spartan" desc_key="Spartan0" icon="mp_spears">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="GTE" value="1" desc_key="ReqSpearMaster1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="GTE" value="1" desc_key="ReqSpearMaster1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="GTE" value="2" desc_key="ReqSpearMaster2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="GTE" value="2" desc_key="ReqSpearMaster2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="GTE" value="3" desc_key="ReqSpearMaster3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="GTE" value="4" desc_key="ReqSpearMaster4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkJavelinMaster" operation="GTE" value="5" desc_key="ReqSpearMaster5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkJavelinMaster"/>
+			
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".1,.6"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value=".75"/>
+		
+				<effect_description level="1" desc_key="Spartan1" long_desc_key="Spartan1Desc"/>
+				<effect_description level="2" desc_key="Spartan2" long_desc_key="Spartan2Desc"/>
+				<effect_description level="3" desc_key="Spartan3" long_desc_key="Spartan3Desc"/>
+				<effect_description level="4" desc_key="Spartan4" long_desc_key="Spartan4Desc"/>
+				<effect_description level="5" desc_key="Spartan5" long_desc_key="Spartan5Desc"/>
+				<effect_description level="6" desc_key="Spartan6" long_desc_key="Spartan6Desc"/>
+				<effect_description level="7" desc_key="Spartan7" long_desc_key="Spartan7Desc"/>
+			</effect_group>		
+		</perk>
+		
+		<perk name="perkClubber" max_level="7" parent="masterySpec" name_key="Clubber" desc_key="Clubber0" icon="mp_clubs">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="GTE" value="1" desc_key="ReqPummelPete1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="GTE" value="1" desc_key="ReqPummelPete1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="GTE" value="2" desc_key="ReqPummelPete2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="GTE" value="2" desc_key="ReqPummelPete2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="GTE" value="3" desc_key="ReqPummelPete3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="GTE" value="4" desc_key="ReqPummelPete4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkPummelPete" operation="GTE" value="5" desc_key="ReqPummelPete5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkPummelPete"/>
+			
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value=".5"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".12,.72" tags="walking,running"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value="1" tags="walking,running"/>
+
+				<effect_description level="1" desc_key="Clubber1" long_desc_key="Clubber1Desc"/>
+				<effect_description level="2" desc_key="Clubber2" long_desc_key="Clubber2Desc"/>
+				<effect_description level="3" desc_key="Clubber3" long_desc_key="Clubber3Desc"/>
+				<effect_description level="4" desc_key="Clubber4" long_desc_key="Clubber4Desc"/>
+				<effect_description level="5" desc_key="Clubber5" long_desc_key="Clubber5Desc"/>
+				<effect_description level="6" desc_key="Clubber6" long_desc_key="Clubber6Desc"/>
+				<effect_description level="7" desc_key="Clubber7" long_desc_key="Clubber7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkHammerer" max_level="7" parent="masterySpec" name_key="Hammerer" desc_key="Hammerer0" icon="mp_sledges">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkSkullCrusher" operation="GTE" value="1" desc_key="ReqSkullCrusher1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkSkullCrusher" operation="GTE" value="1" desc_key="ReqSkullCrusher1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkSkullCrusher" operation="GTE" value="2" desc_key="ReqSkullCrusher2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkSkullCrusher" operation="GTE" value="2" desc_key="ReqSkullCrusher2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkSkullCrusher" operation="GTE" value="3" desc_key="ReqSkullCrusher3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkSkullCrusher" operation="GTE" value="4" desc_key="ReqSkullCrusher4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkSkullCrusher" operation="GTE" value="5" desc_key="ReqSkullCrusher5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkSkullCrusher"/>
+			
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".12,.72"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value="0.75"/>
+				
+				<passive_effect name="BlockDamage" operation="perc_add" level="1,6" value=".2,1.2"/>
+				<passive_effect name="BlockDamage" operation="perc_add" level="7" value="1.5"/>
+
+				<effect_description level="1" desc_key="Hammerer1" long_desc_key="Hammerer1Desc"/>
+				<effect_description level="2" desc_key="Hammerer2" long_desc_key="Hammerer2Desc"/>
+				<effect_description level="3" desc_key="Hammerer3" long_desc_key="Hammerer3Desc"/>
+				<effect_description level="4" desc_key="Hammerer4" long_desc_key="Hammerer4Desc"/>
+				<effect_description level="5" desc_key="Hammerer5" long_desc_key="Hammerer5Desc"/>
+				<effect_description level="6" desc_key="Hammerer6" long_desc_key="Hammerer6Desc"/>
+				<effect_description level="7" desc_key="Hammerer7" long_desc_key="Hammerer7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkMartialArts" max_level="7" parent="masterySpec" name_key="MartialArts" desc_key="MartialArts0" icon="mp_knuckles">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkBrawler" operation="GTE" value="1" desc_key="ReqBrawler1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkBrawler" operation="GTE" value="1" desc_key="ReqBrawler1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkBrawler" operation="GTE" value="2" desc_key="ReqBrawler2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkBrawler" operation="GTE" value="2" desc_key="ReqBrawler2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkBrawler" operation="GTE" value="3" desc_key="ReqBrawler3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkBrawler" operation="GTE" value="4" desc_key="ReqBrawler4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkBrawler" operation="GTE" value="5" desc_key="ReqBrawler5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkBrawler"/>
+				
+				<passive_effect name="DismemberChance" operation="base_add" level="1,6" value=".012,.072" tags="head"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="7" value=".1" tags="head"/>
+				
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="1,6" value=".02,.12"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="7" value=".15"/>
+
+				<passive_effect name="RunSpeed" operation="perc_add" level="1,6" value=".02,.12"/>
+				<passive_effect name="RunSpeed" operation="perc_add" level="7" value=".15"/>
+				<passive_effect name="WalkSpeed" operation="perc_add" level="1,6" value=".02,.12"/>
+				<passive_effect name="WalkSpeed" operation="perc_add" level="7" value=".15"/>
+
+				<effect_description level="1" desc_key="MartialArts1" long_desc_key="MartialArts1Desc"/>
+				<effect_description level="2" desc_key="MartialArts2" long_desc_key="MartialArts2Desc"/>
+				<effect_description level="3" desc_key="MartialArts3" long_desc_key="MartialArts3Desc"/>
+				<effect_description level="4" desc_key="MartialArts4" long_desc_key="MartialArts4Desc"/>
+				<effect_description level="5" desc_key="MartialArts5" long_desc_key="MartialArts5Desc"/>
+				<effect_description level="6" desc_key="MartialArts6" long_desc_key="MartialArts6Desc"/>
+				<effect_description level="7" desc_key="MartialArts7" long_desc_key="MartialArts7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkBlademaster" max_level="7" parent="masterySpec" name_key="Blademaster" desc_key="Blademaster0" icon="mp_blades">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkDeepCuts" operation="GTE" value="1" desc_key="ReqDeepCuts1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkDeepCuts" operation="GTE" value="1" desc_key="ReqDeepCuts1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkDeepCuts" operation="GTE" value="2" desc_key="ReqDeepCuts2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkDeepCuts" operation="GTE" value="2" desc_key="ReqDeepCuts2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkDeepCuts" operation="GTE" value="3" desc_key="ReqDeepCuts3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkDeepCuts" operation="GTE" value="4" desc_key="ReqDeepCuts4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkDeepCuts" operation="GTE" value="5" desc_key="ReqDeepCuts5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkDeepCuts"/>
+				<passive_effect name="MaxRange" operation="perc_add" level="1,6" value=".02,.12"/>
+				<passive_effect name="BlockRange" operation="perc_add" level="1,6" value=".02,.12"/>
+				<passive_effect name="MaxRange" operation="perc_add" level="7" value=".15"/>
+				<passive_effect name="BlockRange" operation="perc_add" level="7" value=".15"/>
+				
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="1,6" value=".02,.12"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="7" value=".15"/>
+				
+			<!--bleeding stacks regulated in buffs.xml -->
+			
+				<effect_description level="1" desc_key="Blademaster1" long_desc_key="Blademaster1Desc"/>
+				<effect_description level="2" desc_key="Blademaster2" long_desc_key="Blademaster2Desc"/>
+				<effect_description level="3" desc_key="Blademaster3" long_desc_key="Blademaster3Desc"/>
+				<effect_description level="4" desc_key="Blademaster4" long_desc_key="Blademaster4Desc"/>
+				<effect_description level="5" desc_key="Blademaster5" long_desc_key="Blademaster5Desc"/>
+				<effect_description level="6" desc_key="Blademaster6" long_desc_key="Blademaster6Desc"/>
+				<effect_description level="7" desc_key="Blademaster7" long_desc_key="Blademaster7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkEnforcer" max_level="7" parent="masterySpec" name_key="Enforcer" desc_key="Enforcer0" icon="mp_batons">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="GTE" value="1" desc_key="ReqElectro1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="GTE" value="1" desc_key="ReqElectro1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="GTE" value="2" desc_key="ReqElectro2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="GTE" value="2" desc_key="ReqElectro2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="GTE" value="3" desc_key="ReqElectro3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="GTE" value="4" desc_key="ReqElectro4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="GTE" value="5" desc_key="ReqElectro5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkElectrocutioner"/>
+			
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".12,.72"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value="1"/>
+			
+				<effect_description level="1" desc_key="Enforcer1" long_desc_key="Enforcer1Desc"/>
+				<effect_description level="2" desc_key="Enforcer2" long_desc_key="Enforcer2Desc"/>
+				<effect_description level="3" desc_key="Enforcer3" long_desc_key="Enforcer3Desc"/>
+				<effect_description level="4" desc_key="Enforcer4" long_desc_key="Enforcer4Desc"/>
+				<effect_description level="5" desc_key="Enforcer5" long_desc_key="Enforcer5Desc"/>
+				<effect_description level="6" desc_key="Enforcer6" long_desc_key="Enforcer6Desc"/>
+				<effect_description level="7" desc_key="Enforcer7" long_desc_key="Enforcer7Desc"/>
+			</effect_group>
+
+			<effect_group>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+						<requirement name="ProgressionLevel" progression_name="perkBatonMastery" operation="Equals" value="1"/>
+						<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="7"/>
+				</triggered_effect>
+				
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+						<requirement name="ProgressionLevel" progression_name="perkBatonMastery" operation="Equals" value="2"/>
+						<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="14"/>
+				</triggered_effect>
+				
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+						<requirement name="ProgressionLevel" progression_name="perkBatonMastery" operation="Equals" value="3"/>
+						<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="21"/>
+				</triggered_effect>
+				
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+						<requirement name="ProgressionLevel" progression_name="perkBatonMastery" operation="Equals" value="4"/>
+						<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="28"/>
+				</triggered_effect>
+				
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+						<requirement name="ProgressionLevel" progression_name="perkBatonMastery" operation="Equals" value="5"/>
+						<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="35"/>
+				</triggered_effect>
+				
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+						<requirement name="ProgressionLevel" progression_name="perkBatonMastery" operation="Equals" value="6"/>
+						<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="42"/>
+				</triggered_effect>
+				
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
+						<requirement name="ProgressionLevel" progression_name="perkBatonMastery" operation="Equals" value="7"/>
+						<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+				</triggered_effect>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkRifleman" max_level="7" parent="masterySpec" name_key="Rifleman" desc_key="Rifleman0" icon="mp_rifles">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="GTE" value="1" desc_key="ReqDeadEye1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="GTE" value="1" desc_key="ReqDeadEye1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="GTE" value="2" desc_key="ReqDeadEye2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="GTE" value="2" desc_key="ReqDeadEye2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="GTE" value="3" desc_key="ReqDeadEye3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="GTE" value="4" desc_key="ReqDeadEye4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkDeadEye" operation="GTE" value="5" desc_key="ReqDeadEye5"/></level_requirements>
+				
+			<effect_group>
+				
+				<requirement name="ItemHasTags" tags="perkDeadEye"/>
+			
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value=".5"/>
+
+				<passive_effect name="TargetArmor" operation="perc_add" level="1,6" value="-.07,-.42"/>
+				<passive_effect name="TargetArmor" operation="perc_add" level="7" value="-.5"/>
+
+		
+				<effect_description level="1" desc_key="Rifleman1" long_desc_key="Rifleman1Desc"/>
+				<effect_description level="2" desc_key="Rifleman2" long_desc_key="Rifleman2Desc"/>
+				<effect_description level="3" desc_key="Rifleman3" long_desc_key="Rifleman3Desc"/>
+				<effect_description level="4" desc_key="Rifleman4" long_desc_key="Rifleman4Desc"/>
+				<effect_description level="5" desc_key="Rifleman5" long_desc_key="Rifleman5Desc"/>
+				<effect_description level="6" desc_key="Rifleman6" long_desc_key="Rifleman6Desc"/>
+				<effect_description level="7" desc_key="Rifleman7" long_desc_key="Rifleman7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkDemoman" max_level="7" parent="masterySpec" name_key="Demoman" desc_key="Demoman0" icon="mp_explosives">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="GTE" value="1" desc_key="ReqDemo1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="GTE" value="1" desc_key="ReqDemo1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="GTE" value="2" desc_key="ReqDemo2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="GTE" value="2" desc_key="ReqDemo2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="GTE" value="3" desc_key="ReqDemo3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="GTE" value="4" desc_key="ReqDemo4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkDemolitionsExpert" operation="GTE" value="5" desc_key="ReqDemo5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkDemolitionsExpert"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".08,.48"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value=".6"/>
+
+				<passive_effect name="DismemberChance" operation="base_add" level="1,6" value=".012,.072"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="7" value=".1"/>
+
+				<effect_description level="1" desc_key="Demoman1" long_desc_key="Demoman1Desc"/>
+				<effect_description level="2" desc_key="Demoman2" long_desc_key="Demoman2Desc"/>
+				<effect_description level="3" desc_key="Demoman3" long_desc_key="Demoman3Desc"/>
+				<effect_description level="4" desc_key="Demoman4" long_desc_key="Demoman4Desc"/>
+				<effect_description level="5" desc_key="Demoman5" long_desc_key="Demoman5Desc"/>
+				<effect_description level="6" desc_key="Demoman6" long_desc_key="Demoman6Desc"/>
+				<effect_description level="7" desc_key="Demoman7" long_desc_key="Demoman7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkShotty" max_level="7" parent="masterySpec" name_key="Shotty" desc_key="Shotty0" icon="mp_shotguns">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkBoomstick" operation="GTE" value="1" desc_key="ReqBoomstick1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkBoomstick" operation="GTE" value="1" desc_key="ReqBoomstick1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkBoomstick" operation="GTE" value="2" desc_key="ReqBoomstick2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkBoomstick" operation="GTE" value="2" desc_key="ReqBoomstick2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkBoomstick" operation="GTE" value="3" desc_key="ReqBoomstick3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkBoomstick" operation="GTE" value="4" desc_key="ReqBoomstick4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkBoomstick" operation="GTE" value="5" desc_key="ReqBoomstick5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkBoomstick"/>
+			
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".12,.72"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value="1"/>
+
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="1,6" value=".04,.24"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="7" value=".3"/>
+		
+				<effect_description level="1" desc_key="Shotty1" long_desc_key="Shotty1Desc"/>
+				<effect_description level="2" desc_key="Shotty2" long_desc_key="Shotty2Desc"/>
+				<effect_description level="3" desc_key="Shotty3" long_desc_key="Shotty3Desc"/>
+				<effect_description level="4" desc_key="Shotty4" long_desc_key="Shotty4Desc"/>
+				<effect_description level="5" desc_key="Shotty5" long_desc_key="Shotty5Desc"/>
+				<effect_description level="6" desc_key="Shotty6" long_desc_key="Shotty6Desc"/>
+				<effect_description level="7" desc_key="Shotty7" long_desc_key="Shotty7Desc"/>
+			</effect_group>
+		</perk>
+
+		<perk name="perkMarine" max_level="7" parent="masterySpec" name_key="Marine" desc_key="Marine0" icon="mp_ars">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkMachineGunner" operation="GTE" value="1" desc_key="ReqMG1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkMachineGunner" operation="GTE" value="1" desc_key="ReqMG1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkMachineGunner" operation="GTE" value="2" desc_key="ReqMG2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkMachineGunner" operation="GTE" value="2" desc_key="ReqMG2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkMachineGunner" operation="GTE" value="3" desc_key="ReqMG3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkMachineGunner" operation="GTE" value="4" desc_key="ReqMG4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkMachineGunner" operation="GTE" value="5" desc_key="ReqMG5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkMachineGunner"/>
+				
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value=".5"/>
+
+				<passive_effect name="WeaponHandling" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="WeaponHandling" operation="perc_add" level="7" value=".5"/>
+
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="7" value=".5"/>
+
+				<effect_description level="1" desc_key="Marine1" long_desc_key="Marine1Desc"/>
+				<effect_description level="2" desc_key="Marine2" long_desc_key="Marine2Desc"/>
+				<effect_description level="3" desc_key="Marine3" long_desc_key="Marine3Desc"/>
+				<effect_description level="4" desc_key="Marine4" long_desc_key="Marine4Desc"/>
+				<effect_description level="5" desc_key="Marine5" long_desc_key="Marine5Desc"/>
+				<effect_description level="6" desc_key="Marine6" long_desc_key="Marine6Desc"/>
+				<effect_description level="7" desc_key="Marine7" long_desc_key="Marine7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkBowman" max_level="7" parent="masterySpec" name_key="Bowman" desc_key="Bowman0" icon="mp_bows">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkArchery" operation="GTE" value="1" desc_key="ReqArchery1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkArchery" operation="GTE" value="1" desc_key="ReqArchery1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkArchery" operation="GTE" value="2" desc_key="ReqArchery2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkArchery" operation="GTE" value="2" desc_key="ReqArchery2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkArchery" operation="GTE" value="3" desc_key="ReqArchery3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkArchery" operation="GTE" value="4" desc_key="ReqArchery4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkArchery" operation="GTE" value="5" desc_key="ReqArchery5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="bowDrawPenalty"/>
+					<passive_effect name="RoundsPerMinute" operation="perc_add" level="1,6" value=".07,.42"/>
+					<passive_effect name="RoundsPerMinute" operation="perc_add" level="7" value=".5"/>
+			</effect_group>
+
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkArchery"/>
+			
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value=".5"/>
+
+				<passive_effect name="WeaponHandling" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="WeaponHandling" operation="perc_add" level="7" value=".5"/>
+
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="7" value=".5"/>
+			
+				<passive_effect name="MagazineSize" operation="base_add" level="1,2" value="1"/>
+				<passive_effect name="MagazineSize" operation="base_add" level="3,4" value="2"/>
+				<passive_effect name="MagazineSize" operation="base_add" level="5,6" value="3"/>
+				<passive_effect name="MagazineSize" operation="base_add" level="7" value="4"/>
+
+				<effect_description level="1" desc_key="Bowman1" long_desc_key="Bowman1Desc"/>
+				<effect_description level="2" desc_key="Bowman2" long_desc_key="Bowman2Desc"/>
+				<effect_description level="3" desc_key="Bowman3" long_desc_key="Bowman3Desc"/>
+				<effect_description level="4" desc_key="Bowman4" long_desc_key="Bowman4Desc"/>
+				<effect_description level="5" desc_key="Bowman5" long_desc_key="Bowman5Desc"/>
+				<effect_description level="6" desc_key="Bowman6" long_desc_key="Bowman6Desc"/>
+				<effect_description level="7" desc_key="Bowman7" long_desc_key="Bowman7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkSharpshooter" max_level="7" parent="masterySpec" name_key="Sharpshooter" desc_key="Sharpshooter0" icon="mp_pistols">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="GTE" value="1" desc_key="ReqGunslinger1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="GTE" value="1" desc_key="ReqGunslinger1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="GTE" value="2" desc_key="ReqGunslinger2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="GTE" value="2" desc_key="ReqGunslinger2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="GTE" value="3" desc_key="ReqGunslinger3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="GTE" value="4" desc_key="ReqGunslinger4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkGunslinger" operation="GTE" value="5" desc_key="ReqGunslinger5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkGunslinger"/>
+				<passive_effect name="RoundsPerMinute" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="RoundsPerMinute" operation="perc_add" level="7" value=".5"/>
+
+				<passive_effect name="MagazineSize" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="MagazineSize" operation="perc_add" level="7" value=".5"/>
+				
+				<passive_effect name="DegradationPerUse" operation="perc_add" level="1,6" value="-.07,-.42"/>
+				<passive_effect name="DegradationPerUse" operation="perc_add" level="7" value="-.5"/>
+				
+				<passive_effect name="WeaponHandling" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="WeaponHandling" operation="perc_add" level="7" value=".5"/>
+
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" level="1,6" value="-.03,-.18"/>
+				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" level="7" value="-.25"/>
+
+				<effect_description level="1" desc_key="Sharpshooter1" long_desc_key="Sharpshooter1Desc"/>
+				<effect_description level="2" desc_key="Sharpshooter2" long_desc_key="Sharpshooter2Desc"/>
+				<effect_description level="3" desc_key="Sharpshooter3" long_desc_key="Sharpshooter3Desc"/>
+				<effect_description level="4" desc_key="Sharpshooter4" long_desc_key="Sharpshooter4Desc"/>
+				<effect_description level="5" desc_key="Sharpshooter5" long_desc_key="Sharpshooter5Desc"/>
+				<effect_description level="6" desc_key="Sharpshooter6" long_desc_key="Sharpshooter6Desc"/>
+				<effect_description level="7" desc_key="Sharpshooter7" long_desc_key="Sharpshooter7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkRobotics" max_level="7" parent="masterySpec" name_key="Robotics" desc_key="Robotics0" icon="mp_turrets">
+				<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkTurrets" operation="GTE" value="1" desc_key="RequiresRobotics1"/></level_requirements>
+				<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkTurrets" operation="GTE" value="1" desc_key="RequiresRobotics1"/></level_requirements>
+				<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkTurrets" operation="GTE" value="2" desc_key="RequiresRobotics2"/></level_requirements>
+				<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkTurrets" operation="GTE" value="2" desc_key="RequiresRobotics2"/></level_requirements>
+				<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkTurrets" operation="GTE" value="3" desc_key="RequiresRobotics3"/></level_requirements>
+				<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkTurrets" operation="GTE" value="4" desc_key="RequiresRobotics4"/></level_requirements>
+				<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkTurrets" operation="GTE" value="5" desc_key="RequiresRobotics5"/></level_requirements>
+				
+		<effect_group name="Holding a turret">
+				<requirement name="ItemHasTags" tags="turretRanged"/>
+					<passive_effect name="MagazineSize" operation="base_add" level="1,6" value="12,72"/>
+					<passive_effect name="MagazineSize" operation="base_add" level="7" value="100"/>
+		</effect_group>
+
+		<effect_group name="General and deployed turrets">
+
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".07,.42"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value=".5"/>
+				
+				<passive_effect name="JunkTurretActiveCount" operation="perc_add" level="7" value="1"/>
+				
+				<passive_effect name="JunkTurretActiveRange" operation="perc_add" level="1,6" value=".12,.72"/>
+				<passive_effect name="JunkTurretActiveRange" operation="perc_add" level="7" value="1"/>
+
+				<effect_description level="1" desc_key="Robotics1" long_desc_key="Robotics1Desc"/>
+				<effect_description level="2" desc_key="Robotics2" long_desc_key="Robotics2Desc"/>
+				<effect_description level="3" desc_key="Robotics3" long_desc_key="Robotics3Desc"/>
+				<effect_description level="4" desc_key="Robotics4" long_desc_key="Robotics4Desc"/>
+				<effect_description level="5" desc_key="Robotics5" long_desc_key="Robotics5Desc"/>
+				<effect_description level="6" desc_key="Robotics6" long_desc_key="Robotics6Desc"/>
+				<effect_description level="7" desc_key="Robotics7" long_desc_key="Robotics7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkDoublePen" max_level="7" parent="masterySpec" name_key="DoublePenetration" desc_key="DoublePenetration0" icon="mp_doublepen">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="2" desc_key="ReqPenetrator2"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="2" desc_key="ReqPenetrator2"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="3" desc_key="ReqPenetrator3"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="3" desc_key="ReqPenetrator3"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4" desc_key="ReqPenetrator4"/></level_requirements>
+			<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="4" desc_key="ReqPenetrator4"/></level_requirements>
+			<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="GTE" value="5" desc_key="ReqPenetrator5"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="TargetArmor" operation="perc_add" level="1,6" value="-.03,-.18" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkPenetrator,perkArchery,perkJavelinMaster"/>
+				<passive_effect name="TargetArmor" operation="perc_add" level="7" value="-.25" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkPenetrator,perkArchery,perkJavelinMaster"/>
+
+				<!-- Note: the 1 penetration effect is on <item name="ammo762mmBulletAP"> and other AP bullets -->
+				<passive_effect name="EntityPenetrationCount" operation="perc_add" level="1,2" value="1" tags="perkDeadEye"/>
+				<passive_effect name="EntityPenetrationCount" operation="perc_add" level="3,4" value="2" tags="perkDeadEye"/>
+				<passive_effect name="EntityPenetrationCount" operation="perc_add" level="5,6" value="3" tags="perkDeadEye"/>
+				<passive_effect name="EntityPenetrationCount" operation="perc_add" level="7" value="4" tags="perkDeadEye"/>
+				<!--	All AP ammo has 1 penetration -->
+
+				<effect_description level="1" desc_key="DoublePenetration1" long_desc_key="DoublePenetration1Desc"/>
+				<effect_description level="2" desc_key="DoublePenetration2" long_desc_key="DoublePenetration2Desc"/>
+				<effect_description level="3" desc_key="DoublePenetration3" long_desc_key="DoublePenetration3Desc"/>
+				<effect_description level="4" desc_key="DoublePenetration4" long_desc_key="DoublePenetration4Desc"/>
+				<effect_description level="5" desc_key="DoublePenetration5" long_desc_key="DoublePenetration5Desc"/>
+				<effect_description level="6" desc_key="DoublePenetration6" long_desc_key="DoublePenetration6Desc"/>
+				<effect_description level="7" desc_key="DoublePenetration7" long_desc_key="DoublePenetration7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkChainsaw" max_level="7" parent="masterySpec" name_key="Chainsaw" desc_key="Chainsaw0" icon="mp_chainsaw">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkMiner69r" operation="GTE" value="2" desc_key="ReqMiner69er2"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkMiner69r" operation="GTE" value="2" desc_key="ReqMiner69er2"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkMiner69r" operation="GTE" value="3" desc_key="ReqMiner69er3"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkMiner69r" operation="GTE" value="3" desc_key="ReqMiner69er3"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkMiner69r" operation="GTE" value="4" desc_key="ReqMiner69er4"/></level_requirements>
+			<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkMiner69r" operation="GTE" value="4" desc_key="ReqMiner69er4"/></level_requirements>
+			<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkMiner69r" operation="GTE" value="5" desc_key="ReqMiner69er5"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="chainsaw"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".2,1.2"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value="1.5"/>
+				
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="1,6" value=".03,.18"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="7" value=".25"/>
+				
+				<passive_effect name="RunSpeed" operation="perc_add" level="1,6" value=".03,.18"/>
+				<passive_effect name="RunSpeed" operation="perc_add" level="7" value=".25"/>
+				<passive_effect name="WalkSpeed" operation="perc_add" level="1,6" value=".03,.18"/>
+				<passive_effect name="WalkSpeed" operation="perc_add" level="7" value=".25"/>
+
+				<effect_description level="1" desc_key="Chainsaw1" long_desc_key="Chainsaw1Desc"/>
+				<effect_description level="2" desc_key="Chainsaw2" long_desc_key="Chainsaw2Desc"/>
+				<effect_description level="3" desc_key="Chainsaw3" long_desc_key="Chainsaw3Desc"/>
+				<effect_description level="4" desc_key="Chainsaw4" long_desc_key="Chainsaw4Desc"/>
+				<effect_description level="5" desc_key="Chainsaw5" long_desc_key="Chainsaw5Desc"/>
+				<effect_description level="6" desc_key="Chainsaw6" long_desc_key="Chainsaw6Desc"/>
+				<effect_description level="7" desc_key="Chainsaw7" long_desc_key="Chainsaw7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkThorns" max_level="7" parent="masterySpec" name_key="Thorns" desc_key="Thorns0" icon="mp_thorns">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkHealingFactor" operation="GTE" value="2" desc_key="ReqHealingFactor2"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkHealingFactor" operation="GTE" value="2" desc_key="ReqHealingFactor2"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkHealingFactor" operation="GTE" value="3" desc_key="ReqHealingFactor3"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkHealingFactor" operation="GTE" value="3" desc_key="ReqHealingFactor3"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkHealingFactor" operation="GTE" value="4" desc_key="ReqHealingFactor4"/></level_requirements>
+			<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkHealingFactor" operation="GTE" value="4" desc_key="ReqHealingFactor4"/></level_requirements>
+			<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkHealingFactor" operation="GTE" value="5" desc_key="ReqHealingFactor5"/></level_requirements>
+			
+			<effect_group>
+				<effect_description level="1" desc_key="Thorns1" long_desc_key="Thorns1Desc"/>
+				<effect_description level="2" desc_key="Thorns2" long_desc_key="Thorns2Desc"/>
+				<effect_description level="3" desc_key="Thorns3" long_desc_key="Thorns3Desc"/>
+				<effect_description level="4" desc_key="Thorns4" long_desc_key="Thorns4Desc"/>
+				<effect_description level="5" desc_key="Thorns5" long_desc_key="Thorns5Desc"/>
+				<effect_description level="6" desc_key="Thorns6" long_desc_key="Thorns6Desc"/>
+				<effect_description level="7" desc_key="Thorns7" long_desc_key="Thorns7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkStalker" max_level="7" parent="masterySpec" name_key="Stalker" desc_key="Stalker0" icon="mp_stalker">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkFromTheShadows" operation="GTE" value="2" desc_key="ReqFromTheShadows2"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkFromTheShadows" operation="GTE" value="2" desc_key="ReqFromTheShadows2"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkFromTheShadows" operation="GTE" value="3" desc_key="ReqFromTheShadows3"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkFromTheShadows" operation="GTE" value="3" desc_key="ReqFromTheShadows3"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkFromTheShadows" operation="GTE" value="4" desc_key="ReqFromTheShadows4"/></level_requirements>
+			<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkFromTheShadows" operation="GTE" value="4" desc_key="ReqFromTheShadows4"/></level_requirements>
+			<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkFromTheShadows" operation="GTE" value="5" desc_key="ReqFromTheShadows5"/></level_requirements>
+			
+			<effect_group>
+				<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+					<passive_effect name="DamageBonus" operation="base_add" level="1,6" value="1.2,2.2"/>
+					<passive_effect name="DamageBonus" operation="base_add" level="7" value="2.5"/>
+					<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value="0.2,1.2"/>
+					<passive_effect name="EntityDamage" operation="perc_add" level="7" value="1.5"/>
+			</effect_group>
+
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkStalker" operation="GTE" value="1"/>
+				<requirement name="ProgressionLevel" progression_name="perkStalker" operation="LTE" value="3"/>
+				<triggered_effect trigger="onSelfCrouch" action="AddBuff" buff="buffStalkerVanish">
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT1"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT2"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfCrouch" action="AddBuff" buff="buffStalkerVanishCooldownT1">
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT1"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT2"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT3"/>
+				</triggered_effect>
+			</effect_group>
+			
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkStalker" operation="GTE" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkStalker" operation="LTE" value="6"/>
+				<triggered_effect trigger="onSelfCrouch" action="AddBuff" buff="buffStalkerVanish">
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT1"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT2"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT3"/>
+				</triggered_effect>
+
+				<triggered_effect trigger="onSelfCrouch" action="AddBuff" buff="buffStalkerVanishCooldownT2">
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT1"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT2"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT3"/>
+				</triggered_effect>
+			</effect_group>
+			
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkStalker" operation="Equals" value="7"/>
+				<triggered_effect trigger="onSelfCrouch" action="AddBuff" buff="buffStalkerVanish">
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT1"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT2"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT3"/>
+				</triggered_effect>
+
+				<triggered_effect trigger="onSelfCrouch" action="AddBuff" buff="buffStalkerVanishCooldownT3">
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT1"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT2"/>
+					<requirement name="!HasBuff" buff="buffStalkerVanishCooldownT3"/>
+				</triggered_effect>
+			</effect_group>
+			
+			<effect_group>
+				<effect_description level="1" desc_key="Stalker1" long_desc_key="Stalker1Desc"/>
+				<effect_description level="2" desc_key="Stalker2" long_desc_key="Stalker2Desc"/>
+				<effect_description level="3" desc_key="Stalker3" long_desc_key="Stalker3Desc"/>
+				<effect_description level="4" desc_key="Stalker4" long_desc_key="Stalker4Desc"/>
+				<effect_description level="5" desc_key="Stalker5" long_desc_key="Stalker5Desc"/>
+				<effect_description level="6" desc_key="Stalker6" long_desc_key="Stalker6Desc"/>
+				<effect_description level="7" desc_key="Stalker7" long_desc_key="Stalker7Desc"/>
+			</effect_group>
+		</perk>
+			
+		<perk name="perkDayTrader" max_level="7" parent="masterySpec" name_key="DayTrader" desc_key="DayTrader0" icon="mp_stonks">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkBetterBarter" operation="GTE" value="2" desc_key="ReqBetterBarter2"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkBetterBarter" operation="GTE" value="2" desc_key="ReqBetterBarter2"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkBetterBarter" operation="GTE" value="3" desc_key="ReqBetterBarter3"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkBetterBarter" operation="GTE" value="3" desc_key="ReqBetterBarter3"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkBetterBarter" operation="GTE" value="4" desc_key="ReqBetterBarter4"/></level_requirements>
+			<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkBetterBarter" operation="GTE" value="4" desc_key="ReqBetterBarter4"/></level_requirements>
+			<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkBetterBarter" operation="GTE" value="5" desc_key="ReqBetterBarter5"/></level_requirements>
+			
+			<effect_group>
+				<effect_description level="1" desc_key="DayTrader1" long_desc_key="DayTrader1Desc"/>
+				<effect_description level="2" desc_key="DayTrader2" long_desc_key="DayTrader2Desc"/>
+				<effect_description level="3" desc_key="DayTrader3" long_desc_key="DayTrader3Desc"/>
+				<effect_description level="4" desc_key="DayTrader4" long_desc_key="DayTrader4Desc"/>
+				<effect_description level="5" desc_key="DayTrader5" long_desc_key="DayTrader5Desc"/>
+				<effect_description level="6" desc_key="DayTrader6" long_desc_key="DayTrader6Desc"/>
+				<effect_description level="7" desc_key="DayTrader7" long_desc_key="DayTrader7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkRunner" max_level="7" parent="masterySpec" name_key="Runner" desc_key="Runner0" icon="mp_runner">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkLightArmor" operation="GTE" value="1" desc_key="ReqLightArmor1"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkLightArmor" operation="GTE" value="1" desc_key="ReqLightArmor1"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkLightArmor" operation="GTE" value="2" desc_key="ReqLightArmor2"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkLightArmor" operation="GTE" value="2" desc_key="ReqLightArmor2"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkLightArmor" operation="GTE" value="3" desc_key="ReqLightArmor3"/></level_requirements>
+			<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkLightArmor" operation="GTE" value="3" desc_key="ReqLightArmor3"/></level_requirements>
+			<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkLightArmor" operation="GTE" value="4" desc_key="ReqLightArmor4"/></level_requirements>
+			
+			<effect_group>
+				<requirement name="WornItems" tags="lightArmor" operation="Equals" value="4"/>
+					<passive_effect name="RunSpeed" operation="perc_add" level="1,6" value=".03,.18"/>
+					<passive_effect name="RunSpeed" operation="perc_add" level="7" value="1"/>
+					<passive_effect name="WalkSpeed" operation="perc_add" level="1,6" value=".03,.18"/>
+					<passive_effect name="WalkSpeed" operation="perc_add" level="7" value="1"/>
+			</effect_group>
+			
+			<effect_group>
+				<effect_description level="1" desc_key="Runner1" long_desc_key="Runner1Desc"/>
+				<effect_description level="2" desc_key="Runner2" long_desc_key="Runner2Desc"/>
+				<effect_description level="3" desc_key="Runner3" long_desc_key="Runner3Desc"/>
+				<effect_description level="4" desc_key="Runner4" long_desc_key="Runner4Desc"/>
+				<effect_description level="5" desc_key="Runner5" long_desc_key="Runner5Desc"/>
+				<effect_description level="6" desc_key="Runner6" long_desc_key="Runner6Desc"/>
+				<effect_description level="7" desc_key="Runner7" long_desc_key="Runner7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkCaptain" max_level="7" parent="masterySpec" name_key="Captain" desc_key="Captain0" icon="mp_captain">	
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkMediumArmor" operation="GTE" value="1" desc_key="ReqMediumArmor1"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkMediumArmor" operation="GTE" value="1" desc_key="ReqMediumArmor1"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkMediumArmor" operation="GTE" value="2" desc_key="ReqMediumArmor2"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkMediumArmor" operation="GTE" value="2" desc_key="ReqMediumArmor2"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkMediumArmor" operation="GTE" value="3" desc_key="ReqMediumArmor3"/></level_requirements>
+			<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkMediumArmor" operation="GTE" value="3" desc_key="ReqMediumArmor3"/></level_requirements>
+			<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkMediumArmor" operation="GTE" value="4" desc_key="ReqMediumArmor4"/></level_requirements>
+			
+			<effect_group>
+				<requirement name="WornItems" tags="mediumArmor" operation="Equals" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkCaptain" operation="Equals" value="1"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="GT" value="97"/>
+				<requirement name="IsAlive" target="self"/>
+				<requirement name="!IsAttachedToEntity"/>
+				<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
+				<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
+					<passive_effect name="GeneralDamageResist" operation="base_add" level="1" value="1"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="WornItems" tags="mediumArmor" operation="Equals" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkCaptain" operation="Equals" value="2"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="GT" value="94"/>
+				<requirement name="IsAlive" target="self"/>
+				<requirement name="!IsAttachedToEntity"/>
+				<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
+				<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
+					<passive_effect name="GeneralDamageResist" operation="base_add" level="2" value="1"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="WornItems" tags="mediumArmor" operation="Equals" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkCaptain" operation="Equals" value="3"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="GT" value="91"/>
+				<requirement name="IsAlive" target="self"/>
+				<requirement name="!IsAttachedToEntity"/>
+				<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
+				<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
+					<passive_effect name="GeneralDamageResist" operation="base_add" level="3" value="1"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="WornItems" tags="mediumArmor" operation="Equals" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkCaptain" operation="Equals" value="4"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="GT" value="88"/>
+				<requirement name="IsAlive" target="self"/>
+				<requirement name="!IsAttachedToEntity"/>
+				<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
+				<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
+					<passive_effect name="GeneralDamageResist" operation="base_add" level="4" value="1"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="WornItems" tags="mediumArmor" operation="Equals" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkCaptain" operation="Equals" value="5"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="GT" value="85"/>
+				<requirement name="IsAlive" target="self"/>
+				<requirement name="!IsAttachedToEntity"/>
+				<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
+				<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
+					<passive_effect name="GeneralDamageResist" operation="base_add" level="5" value="1"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="WornItems" tags="mediumArmor" operation="Equals" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkCaptain" operation="Equals" value="6"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="GT" value="82"/>
+				<requirement name="IsAlive" target="self"/>
+				<requirement name="!IsAttachedToEntity"/>
+				<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
+				<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
+					<passive_effect name="GeneralDamageResist" operation="base_add" level="6" value="1"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="WornItems" tags="mediumArmor" operation="Equals" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkCaptain" operation="Equals" value="7"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="GT" value="75"/>
+				<requirement name="IsAlive" target="self"/>
+				<requirement name="!IsAttachedToEntity"/>
+				<requirement name="!HasBuff" buff="buffInjuryBleeding,buffInternalBleeding,buffIsOnFire,buffDrowning03,buffShocked,buffRadiationPool"/>
+				<requirement name="!HasBuff" buff="buffTwitchBurn,buffTwitchShocked,buffTwitchRadiation"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="PlaySound" sound="twitch_bucket_hit" play_in_head="true"/>
+					<triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPackMuleDisplay"/>
+					<passive_effect name="GeneralDamageResist" operation="base_add" level="7" value="1"/>
+			</effect_group>
+			<effect_group>
+				<effect_description level="1" desc_key="Captain1" long_desc_key="Captain1Desc"/>
+				<effect_description level="2" desc_key="Captain2" long_desc_key="Captain2Desc"/>
+				<effect_description level="3" desc_key="Captain3" long_desc_key="Captain3Desc"/>
+				<effect_description level="4" desc_key="Captain4" long_desc_key="Captain4Desc"/>
+				<effect_description level="5" desc_key="Captain5" long_desc_key="Captain5Desc"/>
+				<effect_description level="6" desc_key="Captain6" long_desc_key="Captain6Desc"/>
+				<effect_description level="7" desc_key="Captain7" long_desc_key="Captain7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkJugger" max_level="7" parent="masterySpec" name_key="Jugger" desc_key="Jugger0" icon="mp_jugg">
+			<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="GTE" value="1" desc_key="ReqHeavyArmor1"/></level_requirements>
+			<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="GTE" value="1" desc_key="ReqHeavyArmor1"/></level_requirements>
+			<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="GTE" value="2" desc_key="ReqHeavyArmor2"/></level_requirements>
+			<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="GTE" value="2" desc_key="ReqHeavyArmor2"/></level_requirements>
+			<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="GTE" value="3" desc_key="ReqHeavyArmor3"/></level_requirements>
+			<level_requirements level="6"><requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="GTE" value="3" desc_key="ReqHeavyArmor3"/></level_requirements>
+			<level_requirements level="7"><requirement name="ProgressionLevel" progression_name="perkHeavyArmor" operation="GTE" value="4" desc_key="ReqHeavyArmor4"/></level_requirements>
+			
+			<effect_group>
+				<requirement name="WornItems" tags="heavyArmor" operation="Equals" value="4"/>
+				<passive_effect name="HealthLoss" operation="perc_subtract" level="1,6" value=".03,.18"/>
+				<passive_effect name="HealthLoss" operation="perc_subtract" level="7" value=".25"/>
+			</effect_group>
+			
+			<effect_group>
+				<effect_description level="1" desc_key="Jugger1" long_desc_key="Jugger1Desc"/>
+				<effect_description level="2" desc_key="Jugger2" long_desc_key="Jugger2Desc"/>
+				<effect_description level="3" desc_key="Jugger3" long_desc_key="Jugger3Desc"/>
+				<effect_description level="4" desc_key="Jugger4" long_desc_key="Jugger4Desc"/>
+				<effect_description level="5" desc_key="Jugger5" long_desc_key="Jugger5Desc"/>
+				<effect_description level="6" desc_key="Jugger6" long_desc_key="Jugger6Desc"/>
+				<effect_description level="7" desc_key="Jugger7" long_desc_key="Jugger7Desc"/>
+			</effect_group>
+		</perk>
+		
+		
+		<!-- JACK OF ALL TRADES -->
+		
+		<perk name="perkPhantomHit" max_level="7" parent="masteryGeneral" name_key="PhantomHit" desc_key="PhantomHit0" icon="mp_phantomhit">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="MaxRange" operation="perc_add" level="1,6" value=".03,.18" tags="melee"/>
+				<passive_effect name="BlockRange" operation="perc_add" level="1,6" value=".03,.18" tags="melee"/>
+				
+				<passive_effect name="MaxRange" operation="perc_add" level="7" value=".25" tags="melee"/>
+				<passive_effect name="BlockRange" operation="perc_add" level="7" value=".25" tags="melee"/>
+
+				<effect_description level="1" desc_key="PhantomHit1" long_desc_key="PhantomHit1Desc"/>
+				<effect_description level="2" desc_key="PhantomHit2" long_desc_key="PhantomHit2Desc"/>
+				<effect_description level="3" desc_key="PhantomHit3" long_desc_key="PhantomHit3Desc"/>
+				<effect_description level="4" desc_key="PhantomHit4" long_desc_key="PhantomHit4Desc"/>
+				<effect_description level="5" desc_key="PhantomHit5" long_desc_key="PhantomHit5Desc"/>
+				<effect_description level="6" desc_key="PhantomHit6" long_desc_key="PhantomHit6Desc"/>
+				<effect_description level="7" desc_key="PhantomHit7" long_desc_key="PhantomHit7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkShrimpPunch" max_level="7" parent="masteryGeneral" name_key="ShrimpPunch" desc_key="ShrimpPunch0" icon="mp_shrimppunch">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<requirement name="ItemHasTags" tags="melee"/>
+				
+					<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".04,.24"/>
+					<passive_effect name="EntityDamage" operation="perc_add" level="7" value=".30"/>
+					<passive_effect name="BlockDamage" operation="perc_add" level="1,6" value=".04,.24"/>
+					<passive_effect name="BlockDamage" operation="perc_add" level="7" value=".30"/>
+
+				<effect_description level="1" desc_key="ShrimpPunch1" long_desc_key="ShrimpPunch1Desc"/>
+				<effect_description level="2" desc_key="ShrimpPunch2" long_desc_key="ShrimpPunch2Desc"/>
+				<effect_description level="3" desc_key="ShrimpPunch3" long_desc_key="ShrimpPunch3Desc"/>
+				<effect_description level="4" desc_key="ShrimpPunch4" long_desc_key="ShrimpPunch4Desc"/>
+				<effect_description level="5" desc_key="ShrimpPunch5" long_desc_key="ShrimpPunch5Desc"/>
+				<effect_description level="6" desc_key="ShrimpPunch6" long_desc_key="ShrimpPunch6Desc"/>
+				<effect_description level="7" desc_key="ShrimpPunch7" long_desc_key="ShrimpPunch7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkRapidBlows" max_level="7" parent="masteryGeneral" name_key="RapidBlows" desc_key="RapidBlows0" icon="mp_rapidblows">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<requirement name="ItemHasTags" tags="melee"/>
+				
+					<passive_effect name="AttacksPerMinute" operation="perc_add" level="1,6" value=".04,0.24"/>
+					<passive_effect name="AttacksPerMinute" operation="perc_add" level="7" value=".30"/>
+
+				<effect_description level="1" desc_key="RapidBlows1" long_desc_key="RapidBlows1Desc"/>
+				<effect_description level="2" desc_key="RapidBlows2" long_desc_key="RapidBlows2Desc"/>
+				<effect_description level="3" desc_key="RapidBlows3" long_desc_key="RapidBlows3Desc"/>
+				<effect_description level="4" desc_key="RapidBlows4" long_desc_key="RapidBlows4Desc"/>
+				<effect_description level="5" desc_key="RapidBlows5" long_desc_key="RapidBlows5Desc"/>
+				<effect_description level="6" desc_key="RapidBlows6" long_desc_key="RapidBlows6Desc"/>
+				<effect_description level="7" desc_key="RapidBlows7" long_desc_key="RapidBlows7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkDismemberment" max_level="7" parent="masteryGeneral" name_key="Dismemberment" desc_key="Dismemberment0" icon="mp_dismember">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="DismemberChance" operation="base_add" level="1,6" value=".03,.18"/>
+				<passive_effect name="DismemberChance" operation="base_add" level="7" value=".25"/>
+				
+				<effect_description level="1" desc_key="Dismemberment1" long_desc_key="Dismemberment1Desc"/>
+				<effect_description level="2" desc_key="Dismemberment2" long_desc_key="Dismemberment2Desc"/>
+				<effect_description level="3" desc_key="Dismemberment3" long_desc_key="Dismemberment3Desc"/>
+				<effect_description level="4" desc_key="Dismemberment4" long_desc_key="Dismemberment4Desc"/>
+				<effect_description level="5" desc_key="Dismemberment5" long_desc_key="Dismemberment5Desc"/>
+				<effect_description level="6" desc_key="Dismemberment6" long_desc_key="Dismemberment6Desc"/>
+				<effect_description level="7" desc_key="Dismemberment7" long_desc_key="Dismemberment7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkSeventhson" max_level="7" parent="masteryGeneral" name_key="Seventhson" desc_key="Seventhson0" icon="mp_seventh">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+						
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkSeventhson" operation="Equals" value="1"/>
+				<requirement name="HoldingItemHasTags" tags="melee"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="GT" value="99"/>
+				<passive_effect name="EntityDamage" operation="base_add" level="1" value="1500" tags="melee"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkSeventhson" operation="Equals" value="2"/>
+				<requirement name="HoldingItemHasTags" tags="melee"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="GT" value="98"/>
+				<passive_effect name="EntityDamage" operation="base_add" level="2" value="1500" tags="melee"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkSeventhson" operation="Equals" value="3"/>
+				<requirement name="HoldingItemHasTags" tags="melee"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="GT" value="97"/>
+				<passive_effect name="EntityDamage" operation="base_add" level="3" value="1500" tags="melee"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkSeventhson" operation="Equals" value="4"/>
+				<requirement name="HoldingItemHasTags" tags="melee"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="GT" value="96"/>
+				<passive_effect name="EntityDamage" operation="base_add" level="4" value="1500" tags="melee"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkSeventhson" operation="Equals" value="5"/>
+				<requirement name="HoldingItemHasTags" tags="melee"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="GT" value="95"/>
+				<passive_effect name="EntityDamage" operation="base_add" level="5" value="1500" tags="melee"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkSeventhson" operation="Equals" value="6"/>
+				<requirement name="HoldingItemHasTags" tags="melee"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="GT" value="94"/>
+				<passive_effect name="EntityDamage" operation="base_add" level="6" value="1500" tags="melee"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="ProgressionLevel" progression_name="perkSeventhson" operation="Equals" value="7"/>
+				<requirement name="HoldingItemHasTags" tags="melee"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="GT" value="93"/>
+				<passive_effect name="EntityDamage" operation="base_add" level="7" value="1500" tags="melee"/>
+			</effect_group>
+				
+			<effect_group>	
+				<effect_description level="1" desc_key="Seventhson1" long_desc_key="Seventhson1Desc"/>
+				<effect_description level="2" desc_key="Seventhson2" long_desc_key="Seventhson2Desc"/>
+				<effect_description level="3" desc_key="Seventhson3" long_desc_key="Seventhson3Desc"/>
+				<effect_description level="4" desc_key="Seventhson4" long_desc_key="Seventhson4Desc"/>
+				<effect_description level="5" desc_key="Seventhson5" long_desc_key="Seventhson5Desc"/>
+				<effect_description level="6" desc_key="Seventhson6" long_desc_key="Seventhson6Desc"/>
+				<effect_description level="7" desc_key="Seventhson7" long_desc_key="Seventhson7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkParanormalBulletivities" max_level="7" parent="masteryGeneral" name_key="ParanormalBulletivities" desc_key="ParanormalBulletivities0" icon="mp_bulletivities">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<requirement name="HoldingItemHasTags" tags="ranged,weapon"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="4"/>
+				<requirement name="ProgressionLevel" progression_name="perkParanormalBulletivities" operation="Equals" value="1"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="2" tags="ranged,gun"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="PlaySound" sound="twitch_cripple_zombies"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="HoldingItemHasTags" tags="ranged,weapon"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="8"/>
+				<requirement name="ProgressionLevel" progression_name="perkParanormalBulletivities" operation="Equals" value="2"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="2" tags="ranged,gun"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="PlaySound" sound="twitch_cripple_zombies"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="HoldingItemHasTags" tags="ranged,weapon"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="12"/>
+				<requirement name="ProgressionLevel" progression_name="perkParanormalBulletivities" operation="Equals" value="3"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="2" tags="ranged,gun"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="PlaySound" sound="twitch_cripple_zombies"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="HoldingItemHasTags" tags="ranged,weapon"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="16"/>
+				<requirement name="ProgressionLevel" progression_name="perkParanormalBulletivities" operation="Equals" value="4"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="2" tags="ranged,gun"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="PlaySound" sound="twitch_cripple_zombies"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="HoldingItemHasTags" tags="ranged,weapon"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="20"/>
+				<requirement name="ProgressionLevel" progression_name="perkParanormalBulletivities" operation="Equals" value="5"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="2" tags="ranged,gun"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="PlaySound" sound="twitch_cripple_zombies"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="HoldingItemHasTags" tags="ranged,weapon"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="24"/>
+				<requirement name="ProgressionLevel" progression_name="perkParanormalBulletivities" operation="Equals" value="6"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="2" tags="ranged,gun"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="PlaySound" sound="twitch_cripple_zombies"/>
+			</effect_group>
+			<effect_group>
+				<requirement name="HoldingItemHasTags" tags="ranged,weapon"/>
+				<requirement name="IsAlive" target="other"/>
+				<requirement name="EntityTagCompare" target="other" tags="zombie,animal"/>
+				<requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="30"/>
+				<requirement name="ProgressionLevel" progression_name="perkParanormalBulletivities" operation="Equals" value="7"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value="2" tags="ranged,gun"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="PlaySound" sound="twitch_cripple_zombies"/>
+			</effect_group>
+			
+			<effect_group>
+				<effect_description level="1" desc_key="ParanormalBulletivities1" long_desc_key="ParanormalBulletivities1Desc"/>
+				<effect_description level="2" desc_key="ParanormalBulletivities2" long_desc_key="ParanormalBulletivities2Desc"/>
+				<effect_description level="3" desc_key="ParanormalBulletivities3" long_desc_key="ParanormalBulletivities3Desc"/>
+				<effect_description level="4" desc_key="ParanormalBulletivities4" long_desc_key="ParanormalBulletivities4Desc"/>
+				<effect_description level="5" desc_key="ParanormalBulletivities5" long_desc_key="ParanormalBulletivities5Desc"/>
+				<effect_description level="6" desc_key="ParanormalBulletivities6" long_desc_key="ParanormalBulletivities6Desc"/>
+				<effect_description level="7" desc_key="ParanormalBulletivities7" long_desc_key="ParanormalBulletivities7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkPlotArmor" max_level="7" parent="masteryGeneral" name_key="PlotArmor" desc_key="PlotArmor0" icon="mp_mc">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="BuffResistance" operation="base_add" level="1,6" value=".04,.24" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffAbrasionCatch,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire"/>
+				<passive_effect name="BuffResistance" operation="base_add" level="7" value=".3" tags="buffFatiguedTrigger,buffArmSprainedCHTrigger,buffLegSprainedCHTrigger,buffAbrasionCatch,buffLaceration,buffInfectionCatch,buffInjuryStunned01CHTrigger,buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire"/>
+				
+				<effect_description level="1" desc_key="PlotArmor1" long_desc_key="PlotArmor1Desc"/>
+				<effect_description level="2" desc_key="PlotArmor2" long_desc_key="PlotArmor2Desc"/>
+				<effect_description level="3" desc_key="PlotArmor3" long_desc_key="PlotArmor3Desc"/>
+				<effect_description level="4" desc_key="PlotArmor4" long_desc_key="PlotArmor4Desc"/>
+				<effect_description level="5" desc_key="PlotArmor5" long_desc_key="PlotArmor5Desc"/>
+				<effect_description level="6" desc_key="PlotArmor6" long_desc_key="PlotArmor6Desc"/>
+				<effect_description level="7" desc_key="PlotArmor7" long_desc_key="PlotArmor7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkArsonist" max_level="7" parent="masteryGeneral" name_key="Arsonist" desc_key="Arsonist0" icon="mp_arsonist">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+			<!-- Actual effects defined in the items.xml and buffs.xml -->
+				<effect_description level="1" desc_key="Arsonist1" long_desc_key="Arsonist1Desc"/>
+				<effect_description level="2" desc_key="Arsonist2" long_desc_key="Arsonist2Desc"/>
+				<effect_description level="3" desc_key="Arsonist3" long_desc_key="Arsonist3Desc"/>
+				<effect_description level="4" desc_key="Arsonist4" long_desc_key="Arsonist4Desc"/>
+				<effect_description level="5" desc_key="Arsonist5" long_desc_key="Arsonist5Desc"/>
+				<effect_description level="6" desc_key="Arsonist6" long_desc_key="Arsonist6Desc"/>
+				<effect_description level="7" desc_key="Arsonist7" long_desc_key="Arsonist7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkFirefighter" max_level="7" parent="masteryGeneral" name_key="Firefighter" desc_key="Firefighter0" icon="mp_firefighter">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="axe"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".1,.6"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value=".75"/>
+				
+				<passive_effect name="BlockDamage" operation="perc_add" level="1,6" value=".1,.6"/>
+				<passive_effect name="BlockDamage" operation="perc_add" level="7" value=".75"/>
+
+				<passive_effect name="BuffResistance" operation="base_add" level="1,6" value="0.1,0.6" tags="buffBurningMolotov,buffBurningElement,buffBurningEnvironment,buffBurningEnvironmentHack"/>
+				<passive_effect name="BuffResistance" operation="base_add" level="7" value="0.75" tags="buffBurningMolotov,buffBurningElement,buffBurningEnvironment,buffBurningEnvironmentHack"/>
+
+				<effect_description level="1" desc_key="Firefighter1" long_desc_key="Firefighter1Desc"/>
+				<effect_description level="2" desc_key="Firefighter2" long_desc_key="Firefighter2Desc"/>
+				<effect_description level="3" desc_key="Firefighter3" long_desc_key="Firefighter3Desc"/>
+				<effect_description level="4" desc_key="Firefighter4" long_desc_key="Firefighter4Desc"/>
+				<effect_description level="5" desc_key="Firefighter5" long_desc_key="Firefighter5Desc"/>
+				<effect_description level="6" desc_key="Firefighter6" long_desc_key="Firefighter6Desc"/>
+				<effect_description level="7" desc_key="Firefighter7" long_desc_key="Firefighter7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkHandyman" max_level="7" parent="masteryGeneral" name_key="Handyman" desc_key="Handyman0" icon="mp_tools">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+				
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkMiner69r,turretMelee"/>
+
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".1,.6"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value=".75"/>
+				
+				<passive_effect name="BlockDamage" operation="perc_add" level="1,6" value=".1,.6"/>
+				<passive_effect name="BlockDamage" operation="perc_add" level="7" value=".75"/>
+
+				<passive_effect name="FallingBlockDamage" operation="perc_add" level="1,6" value="-.07,-.42" />
+				<passive_effect name="FallingBlockDamage" operation="perc_add" level="7" value="-.5" />
+
+				<effect_description level="1" desc_key="Handyman1" long_desc_key="Handyman1Desc"/>
+				<effect_description level="2" desc_key="Handyman2" long_desc_key="Handyman2Desc"/>
+				<effect_description level="3" desc_key="Handyman3" long_desc_key="Handyman3Desc"/>
+				<effect_description level="4" desc_key="Handyman4" long_desc_key="Handyman4Desc"/>
+				<effect_description level="5" desc_key="Handyman5" long_desc_key="Handyman5Desc"/>
+				<effect_description level="6" desc_key="Handyman6" long_desc_key="Handyman6Desc"/>
+				<effect_description level="7" desc_key="Handyman7" long_desc_key="Handyman7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkCriminal" max_level="7" parent="masteryGeneral" name_key="Criminal" desc_key="Criminal0" icon="mp_criminal">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="BlockDamage" operation="perc_add" level="1,6" value=".14,.84" tags="safes"/>
+				<passive_effect name="BlockDamage" operation="perc_add" level="7" value="1" tags="safes"/>
+				<passive_effect name="LockPickTime" operation="perc_subtract" level="1,6" value=".03,.18"/>
+				<passive_effect name="LockPickTime" operation="perc_subtract" level="7" value=".25"/>
+				<passive_effect name="LockPickBreakChance" operation="perc_subtract" level="1,6" value=".03,.18"/>
+				<passive_effect name="LockPickBreakChance" operation="perc_subtract" level="7" value=".25"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,6" value=".14,.84" tags="gunHandgunT1Pistol,meleeWpnBladeT1HuntingKnife"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="7" value="1" tags="gunHandgunT1Pistol,meleeWpnBladeT1HuntingKnife"/>
+				
+
+				<effect_description level="1" desc_key="Criminal1" long_desc_key="Criminal1Desc"/>
+				<effect_description level="2" desc_key="Criminal2" long_desc_key="Criminal2Desc"/>
+				<effect_description level="3" desc_key="Criminal3" long_desc_key="Criminal3Desc"/>
+				<effect_description level="4" desc_key="Criminal4" long_desc_key="Criminal4Desc"/>
+				<effect_description level="5" desc_key="Criminal5" long_desc_key="Criminal5Desc"/>
+				<effect_description level="6" desc_key="Criminal6" long_desc_key="Criminal6Desc"/>
+				<effect_description level="7" desc_key="Criminal7" long_desc_key="Criminal7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkCalisthenics" max_level="7" parent="masteryGeneral" name_key="Calisthenics" desc_key="Calisthenics0" icon="mp_maxhp">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_add" value="5,30" level="1,6"/>
+				<passive_effect name="HealthMax" operation="base_add" value="40" level="7"/>
+				<passive_effect name="StaminaMax" operation="base_add" value="5,30" level="1,6"/>
+				<passive_effect name="StaminaMax" operation="base_add" value="40" level="7"/>
+
+				<effect_description level="1" desc_key="Calisthenics1" long_desc_key="Calisthenics1Desc"/>
+				<effect_description level="2" desc_key="Calisthenics2" long_desc_key="Calisthenics2Desc"/>
+				<effect_description level="3" desc_key="Calisthenics3" long_desc_key="Calisthenics3Desc"/>
+				<effect_description level="4" desc_key="Calisthenics4" long_desc_key="Calisthenics4Desc"/>
+				<effect_description level="5" desc_key="Calisthenics5" long_desc_key="Calisthenics5Desc"/>
+				<effect_description level="6" desc_key="Calisthenics6" long_desc_key="Calisthenics6Desc"/>
+				<effect_description level="7" desc_key="Calisthenics7" long_desc_key="Calisthenics7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkEfficiency" max_level="7" parent="masteryGeneral" name_key="Efficiency" desc_key="Efficiency0" icon="mp_efficiency">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="StaminaLoss" operation="perc_add" level="1,6" value="-.03,-.18"/>
+				<passive_effect name="StaminaLoss" operation="perc_add" level="7" value="-.25"/>
+
+				<effect_description level="1" desc_key="Efficiency1" long_desc_key="Efficiency1Desc"/>
+				<effect_description level="2" desc_key="Efficiency2" long_desc_key="Efficiency2Desc"/>
+				<effect_description level="3" desc_key="Efficiency3" long_desc_key="Efficiency3Desc"/>
+				<effect_description level="4" desc_key="Efficiency4" long_desc_key="Efficiency4Desc"/>
+				<effect_description level="5" desc_key="Efficiency5" long_desc_key="Efficiency5Desc"/>
+				<effect_description level="6" desc_key="Efficiency6" long_desc_key="Efficiency6Desc"/>
+				<effect_description level="7" desc_key="Efficiency7" long_desc_key="Efficiency7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkEndurance" max_level="7" parent="masteryGeneral" name_key="Endurance" desc_key="Endurance0" icon="mp_endurance">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="StaminaChangeOT" operation="perc_add" level="1,6" value="0.03,0.18"/>
+				<passive_effect name="StaminaChangeOT" operation="perc_add" level="7" value="0.25"/>
+
+				<effect_description level="1" desc_key="Endurance1" long_desc_key="Endurance1Desc"/>
+				<effect_description level="2" desc_key="Endurance2" long_desc_key="Endurance2Desc"/>
+				<effect_description level="3" desc_key="Endurance3" long_desc_key="Endurance3Desc"/>
+				<effect_description level="4" desc_key="Endurance4" long_desc_key="Endurance4Desc"/>
+				<effect_description level="5" desc_key="Endurance5" long_desc_key="Endurance5Desc"/>
+				<effect_description level="6" desc_key="Endurance6" long_desc_key="Endurance6Desc"/>
+				<effect_description level="7" desc_key="Endurance7" long_desc_key="Endurance7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkLootGobbo" max_level="7" parent="masteryGeneral" name_key="LootGobbo" desc_key="LootGobbo0" icon="mp_gobbo">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="LootStage" operation="perc_add" level="1,6" value=".03,.18"/>
+				<passive_effect name="LootStage" operation="perc_add" level="7" value=".25"/>
+			
+				<passive_effect name="ScavengingTime" operation="perc_subtract" level="1,6" value=".012,.072"/>
+				<passive_effect name="ScavengingTime" operation="perc_subtract" level="7" value=".1"/>
+
+				<passive_effect name="LootQuantity" operation="perc_add" level="1,6" value=".03,.18" tags="buriedTreasure"/>
+				<passive_effect name="LootQuantity" operation="perc_add" level="7" value=".25" tags="buriedTreasure"/>
+
+				<effect_description level="1" desc_key="LootGobbo1" long_desc_key="LootGobbo1Desc"/>
+				<effect_description level="2" desc_key="LootGobbo2" long_desc_key="LootGobbo2Desc"/>
+				<effect_description level="3" desc_key="LootGobbo3" long_desc_key="LootGobbo3Desc"/>
+				<effect_description level="4" desc_key="LootGobbo4" long_desc_key="LootGobbo4Desc"/>
+				<effect_description level="5" desc_key="LootGobbo5" long_desc_key="LootGobbo5Desc"/>
+				<effect_description level="6" desc_key="LootGobbo6" long_desc_key="LootGobbo6Desc"/>
+				<effect_description level="7" desc_key="LootGobbo7" long_desc_key="LootGobbo7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkMiner" max_level="7" parent="masteryGeneral" name_key="GoldDigger" desc_key="GoldDigger0" icon="mp_resource_gather">		
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="HarvestCount" operation="base_set" level="1,3" value="1" tags="DiggerValue1"/>
+				<passive_effect name="HarvestCount" operation="base_set" level="4,6" value="1" tags="DiggerValue2"/>
+				<passive_effect name="HarvestCount" operation="base_set" level="7" value="1" tags="DiggerValue3"/>
+				
+				<passive_effect name="HarvestCount" operation="perc_add" level="1,6" value="0.04,0.24" tags="oreWoodHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="7" value="0.3" tags="oreWoodHarvest"/>
+
+				<effect_description level="1" desc_key="GoldDigger1" long_desc_key="GoldDigger1Desc"/>
+				<effect_description level="2" desc_key="GoldDigger2" long_desc_key="GoldDigger2Desc"/>
+				<effect_description level="3" desc_key="GoldDigger3" long_desc_key="GoldDigger3Desc"/>
+				<effect_description level="4" desc_key="GoldDigger4" long_desc_key="GoldDigger4Desc"/>
+				<effect_description level="5" desc_key="GoldDigger5" long_desc_key="GoldDigger5Desc"/>
+				<effect_description level="6" desc_key="GoldDigger6" long_desc_key="GoldDigger6Desc"/>
+				<effect_description level="7" desc_key="GoldDigger7" long_desc_key="GoldDigger7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkPirate" max_level="7" parent="masteryGeneral" name_key="Pirate" desc_key="Pirate0" icon="mp_treasure">	
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="HarvestCount" operation="base_set" level="1,3" value="1" tags="TreasureValue1"/>
+				<passive_effect name="HarvestCount" operation="base_set" level="4,6" value="1" tags="TreasureValue2"/>
+				<passive_effect name="HarvestCount" operation="base_set" level="7" value="1" tags="TreasureValue3"/>
+				
+				<passive_effect name="HarvestCount" operation="perc_add" level="1,6" value="0.04,0.24" tags="oreWoodHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="7" value="0.3" tags="oreWoodHarvest"/>
+
+				<effect_description level="1" desc_key="Pirate1" long_desc_key="Pirate1Desc"/>
+				<effect_description level="2" desc_key="Pirate2" long_desc_key="Pirate2Desc"/>
+				<effect_description level="3" desc_key="Pirate3" long_desc_key="Pirate3Desc"/>
+				<effect_description level="4" desc_key="Pirate4" long_desc_key="Pirate4Desc"/>
+				<effect_description level="5" desc_key="Pirate5" long_desc_key="Pirate5Desc"/>
+				<effect_description level="6" desc_key="Pirate6" long_desc_key="Pirate6Desc"/>
+				<effect_description level="7" desc_key="Pirate7" long_desc_key="Pirate7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkScavenger" max_level="7" parent="masteryGeneral" name_key="Scavenger" desc_key="Scavenger0" icon="mp_scavenger">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			
+			<effect_group>
+				<passive_effect name="LootDropProb" operation="perc_add" level="1,6" value=".04,.24"/>
+				<passive_effect name="LootDropProb" operation="perc_add" level="7" value=".3"/>
+
+
+				<effect_description level="1" desc_key="Scavenger1" long_desc_key="Scavenger1Desc"/>
+				<effect_description level="2" desc_key="Scavenger2" long_desc_key="Scavenger2Desc"/>
+				<effect_description level="3" desc_key="Scavenger3" long_desc_key="Scavenger3Desc"/>
+				<effect_description level="4" desc_key="Scavenger4" long_desc_key="Scavenger4Desc"/>
+				<effect_description level="5" desc_key="Scavenger5" long_desc_key="Scavenger5Desc"/>
+				<effect_description level="6" desc_key="Scavenger6" long_desc_key="Scavenger6Desc"/>
+				<effect_description level="7" desc_key="Scavenger7" long_desc_key="Scavenger7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkSprinter" max_level="7" parent="masteryGeneral" name_key="Sprinter" desc_key="Sprinter0" icon="mp_sprint">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="RunSpeed" operation="perc_add" level="1,6" value="0.07,0.42"/>
+				<passive_effect name="RunSpeed" operation="perc_add" level="7" value=".5"/>
+
+				<effect_description level="1" desc_key="Sprinter1" long_desc_key="Sprinter1Desc"/>
+				<effect_description level="2" desc_key="Sprinter2" long_desc_key="Sprinter2Desc"/>
+				<effect_description level="3" desc_key="Sprinter3" long_desc_key="Sprinter3Desc"/>
+				<effect_description level="4" desc_key="Sprinter4" long_desc_key="Sprinter4Desc"/>
+				<effect_description level="5" desc_key="Sprinter5" long_desc_key="Sprinter5Desc"/>
+				<effect_description level="6" desc_key="Sprinter6" long_desc_key="Sprinter6Desc"/>
+				<effect_description level="7" desc_key="Sprinter7" long_desc_key="Sprinter7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkSurvivalist" max_level="7" parent="masteryGeneral" name_key="Survivalist" desc_key="Survivalist0" icon="mp_tolerance">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="HyperthermalResist" operation="base_add" level="1,6" value="2,12"/>
+				<passive_effect name="HyperthermalResist" operation="base_add" level="7" value="15"/>
+				<passive_effect name="HypothermalResist" operation="base_add" level="1,6" value="2,12"/>
+				<passive_effect name="HypothermalResist" operation="base_add" level="7" value="15"/>
+				
+				<passive_effect name="WaterLossPerHealthPointGained" operation="perc_subtract" level="1,6" value="0.04,0.24"/>
+				<passive_effect name="WaterLossPerHealthPointGained" operation="perc_subtract" level="7" value="0.3"/>
+				
+				<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_subtract" level="1,6" value="0.04,0.24"/>
+				<passive_effect name="WaterLossPerStaminaPointGained" operation="perc_subtract" level="7" value="0.3"/>
+				
+				<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_subtract" level="1,6" value="0.04,0.24"/>
+				<passive_effect name="FoodLossPerStaminaPointGained" operation="perc_subtract" level="7" value="0.3"/>
+
+				<effect_description level="1" desc_key="Survivalist1" long_desc_key="Survivalist1Desc"/>
+				<effect_description level="2" desc_key="Survivalist2" long_desc_key="Survivalist2Desc"/>
+				<effect_description level="3" desc_key="Survivalist3" long_desc_key="Survivalist3Desc"/>
+				<effect_description level="4" desc_key="Survivalist4" long_desc_key="Survivalist4Desc"/>
+				<effect_description level="5" desc_key="Survivalist5" long_desc_key="Survivalist5Desc"/>
+				<effect_description level="6" desc_key="Survivalist6" long_desc_key="Survivalist6Desc"/>
+				<effect_description level="7" desc_key="Survivalist7" long_desc_key="Survivalist7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkTriage" max_level="7" parent="masteryGeneral" name_key="Triage" desc_key="Triage0" icon="mp_healing">	
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+		<!--healing regulated in buffs.xml-->
+				<effect_description level="1" desc_key="Triage1" long_desc_key="Triage1Desc"/>
+				<effect_description level="2" desc_key="Triage2" long_desc_key="Triage2Desc"/>
+				<effect_description level="3" desc_key="Triage3" long_desc_key="Triage3Desc"/>
+				<effect_description level="4" desc_key="Triage4" long_desc_key="Triage4Desc"/>
+				<effect_description level="5" desc_key="Triage5" long_desc_key="Triage5Desc"/>
+				<effect_description level="6" desc_key="Triage6" long_desc_key="Triage6Desc"/>
+				<effect_description level="7" desc_key="Triage7" long_desc_key="Triage7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkCrafting" max_level="7" parent="masteryGeneral" name_key="Crafting" desc_key="Crafting0" icon="mp_craftingspeed">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="CraftingTime" operation="perc_add" level="1,6" value="-.05,-.3"/>
+				<passive_effect name="CraftingTime" operation="perc_add" level="7" value="-0.4"/>
+				<passive_effect name="ElectricalTrapXP" operation="base_add" level="1,6" value=".03,.18"/>
+				<passive_effect name="ElectricalTrapXP" operation="base_add" level="7" value=".25"/>
+
+				<effect_description level="1" desc_key="Crafting1" long_desc_key="Crafting1Desc"/>
+				<effect_description level="2" desc_key="Crafting2" long_desc_key="Crafting2Desc"/>
+				<effect_description level="3" desc_key="Crafting3" long_desc_key="Crafting3Desc"/>
+				<effect_description level="4" desc_key="Crafting4" long_desc_key="Crafting4Desc"/>
+				<effect_description level="5" desc_key="Crafting5" long_desc_key="Crafting5Desc"/>
+				<effect_description level="6" desc_key="Crafting6" long_desc_key="Crafting6Desc"/>
+				<effect_description level="7" desc_key="Crafting7" long_desc_key="Crafting7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkBuilder" max_level="7" parent="masteryGeneral" name_key="Builder" desc_key="Builder0" icon="mp_bobthebuilder">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="PlayerExpGain" operation="perc_add" level="1,6" value="0.84,5.04" tags="Upgrading"/>
+				<passive_effect name="PlayerExpGain" operation="perc_add" level="7" value="6" tags="Upgrading"/> <!-- This is double the EXP while upgrading , since vanilla uses 6 as a baseline -->
+			</effect_group>
+			
+			<effect_group>
+				<effect_description level="1" desc_key="Builder1" long_desc_key="Builder1Desc"/>
+				<effect_description level="2" desc_key="Builder2" long_desc_key="Builder2Desc"/>
+				<effect_description level="3" desc_key="Builder3" long_desc_key="Builder3Desc"/>
+				<effect_description level="4" desc_key="Builder4" long_desc_key="Builder4Desc"/>
+				<effect_description level="5" desc_key="Builder5" long_desc_key="Builder5Desc"/>
+				<effect_description level="6" desc_key="Builder6" long_desc_key="Builder6Desc"/>
+				<effect_description level="7" desc_key="Builder7" long_desc_key="Builder7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkMemorisation" max_level="7" parent="masteryGeneral" name_key="Memorisation" desc_key="Memorisation0" icon="mp_xp">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			
+			<effect_group>
+				<passive_effect name="PlayerExpGain" operation="perc_add" level="1,6" value=".04,.24"/>
+				<passive_effect name="PlayerExpGain" operation="perc_add" level="7" value=".30"/>
+
+				<effect_description level="1" desc_key="Memorisation1" long_desc_key="Memorisation1Desc"/>
+				<effect_description level="2" desc_key="Memorisation2" long_desc_key="Memorisation2Desc"/>
+				<effect_description level="3" desc_key="Memorisation3" long_desc_key="Memorisation3Desc"/>
+				<effect_description level="4" desc_key="Memorisation4" long_desc_key="Memorisation4Desc"/>
+				<effect_description level="5" desc_key="Memorisation5" long_desc_key="Memorisation5Desc"/>
+				<effect_description level="6" desc_key="Memorisation6" long_desc_key="Memorisation6Desc"/>
+				<effect_description level="7" desc_key="Memorisation7" long_desc_key="Memorisation7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkCrypto" max_level="7" parent="masteryGeneral" name_key="Crypto" desc_key="Crypto0" icon="mp_bitcoin">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+			<passive_effect name="BarteringBuying" operation="base_add" level="1,6" value=".012,.072"/>
+			<passive_effect name="BarteringBuying" operation="base_add" level="7" value=".10"/>
+			<passive_effect name="BarteringSelling" operation="base_add" level="1,6" value=".012,.072"/>
+			<passive_effect name="BarteringSelling" operation="base_add" level="7" value=".10"/>
+
+			<effect_description level="1" desc_key="Crypto1" long_desc_key="Crypto1Desc"/>
+			<effect_description level="2" desc_key="Crypto2" long_desc_key="Crypto2Desc"/>
+			<effect_description level="3" desc_key="Crypto3" long_desc_key="Crypto3Desc"/>
+			<effect_description level="4" desc_key="Crypto4" long_desc_key="Crypto4Desc"/>
+			<effect_description level="5" desc_key="Crypto5" long_desc_key="Crypto5Desc"/>
+			<effect_description level="6" desc_key="Crypto6" long_desc_key="Crypto6Desc"/>
+			<effect_description level="7" desc_key="Crypto7" long_desc_key="Crypto7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkPetrolhead" max_level="7" parent="masteryGeneral" name_key="Petrolhead" desc_key="Petrolhead0" icon="mp_petrolhead">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="LootQuantity" operation="perc_add" level="1,6" value=".14,.84" tags="gasoline"/>
+				<passive_effect name="LootQuantity" operation="perc_add" level="7" value="1" tags="gasoline"/>
+				
+				<passive_effect name="HarvestCount" operation="perc_add" level="1,6" value=".7,.42" tags="gasoline"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="7" value=".5" tags="gasoline"/>
+				
+				<passive_effect name="VehicleVelocityMaxPer" operation="perc_add" level="1,6" value=".2,.12"/>
+				<passive_effect name="VehicleVelocityMaxPer" operation="perc_add" level="7" value=".15"/>
+
+				<effect_description level="1" desc_key="Petrolhead1" long_desc_key="Petrolhead1Desc"/>
+				<effect_description level="2" desc_key="Petrolhead2" long_desc_key="Petrolhead2Desc"/>
+				<effect_description level="3" desc_key="Petrolhead3" long_desc_key="Petrolhead3Desc"/>
+				<effect_description level="4" desc_key="Petrolhead4" long_desc_key="Petrolhead4Desc"/>
+				<effect_description level="5" desc_key="Petrolhead5" long_desc_key="Petrolhead5Desc"/>
+				<effect_description level="6" desc_key="Petrolhead6" long_desc_key="Petrolhead6Desc"/>
+				<effect_description level="7" desc_key="Petrolhead7" long_desc_key="Petrolhead7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkCyclist" max_level="7" parent="masteryGeneral" name_key="Cyclist" desc_key="Cyclist0" icon="mp_cyclist">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<passive_effect name="StaminaMax" operation="base_add" level="1,6" value="3,18"/>
+				<passive_effect name="StaminaMax" operation="base_add" level="7" value="25"/>
+				
+				<effect_description level="1" desc_key="Cyclist1" long_desc_key="Cyclist1Desc"/>
+				<effect_description level="2" desc_key="Cyclist2" long_desc_key="Cyclist2Desc"/>
+				<effect_description level="3" desc_key="Cyclist3" long_desc_key="Cyclist3Desc"/>
+				<effect_description level="4" desc_key="Cyclist4" long_desc_key="Cyclist4Desc"/>
+				<effect_description level="5" desc_key="Cyclist5" long_desc_key="Cyclist5Desc"/>
+				<effect_description level="6" desc_key="Cyclist6" long_desc_key="Cyclist6Desc"/>
+				<effect_description level="7" desc_key="Cyclist7" long_desc_key="Cyclist7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkMinibiker" max_level="7" parent="masteryGeneral" name_key="Minibiker" desc_key="Minibiker0" icon="mp_minibike">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<effect_description level="1" desc_key="Minibiker1" long_desc_key="Minibiker1Desc"/>
+				<effect_description level="2" desc_key="Minibiker2" long_desc_key="Minibiker2Desc"/>
+				<effect_description level="3" desc_key="Minibiker3" long_desc_key="Minibiker3Desc"/>
+				<effect_description level="4" desc_key="Minibiker4" long_desc_key="Minibiker4Desc"/>
+				<effect_description level="5" desc_key="Minibiker5" long_desc_key="Minibiker5Desc"/>
+				<effect_description level="6" desc_key="Minibiker6" long_desc_key="Minibiker6Desc"/>
+				<effect_description level="7" desc_key="Minibiker7" long_desc_key="Minibiker7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkMotorhead" max_level="7" parent="masteryGeneral" name_key="Motorhead" desc_key="Motorhead0" icon="mp_motorhead">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<effect_description level="1" desc_key="Motorhead1" long_desc_key="Motorhead1Desc"/>
+				<effect_description level="2" desc_key="Motorhead2" long_desc_key="Motorhead2Desc"/>
+				<effect_description level="3" desc_key="Motorhead3" long_desc_key="Motorhead3Desc"/>
+				<effect_description level="4" desc_key="Motorhead4" long_desc_key="Motorhead4Desc"/>
+				<effect_description level="5" desc_key="Motorhead5" long_desc_key="Motorhead5Desc"/>
+				<effect_description level="6" desc_key="Motorhead6" long_desc_key="Motorhead6Desc"/>
+				<effect_description level="7" desc_key="Motorhead7" long_desc_key="Motorhead7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkMonstertruck" max_level="7" parent="masteryGeneral" name_key="Monstertruck" desc_key="Monstertruck0" icon="mp_truck">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>	
+				<effect_description level="1" desc_key="Monstertruck1" long_desc_key="Monstertruck1Desc"/>
+				<effect_description level="2" desc_key="Monstertruck2" long_desc_key="Monstertruck2Desc"/>
+				<effect_description level="3" desc_key="Monstertruck3" long_desc_key="Monstertruck3Desc"/>
+				<effect_description level="4" desc_key="Monstertruck4" long_desc_key="Monstertruck4Desc"/>
+				<effect_description level="5" desc_key="Monstertruck5" long_desc_key="Monstertruck5Desc"/>
+				<effect_description level="6" desc_key="Monstertruck6" long_desc_key="Monstertruck6Desc"/>
+				<effect_description level="7" desc_key="Monstertruck7" long_desc_key="Monstertruck7Desc"/>
+			</effect_group>
+		</perk>
+		
+		<perk name="perkGyrocopter" max_level="7" parent="masteryGeneral" name_key="Gyrocopter" desc_key="Gyrocopter0" icon="mp_gyrocopter">
+			<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="3" desc_key="reqPlayerLevel03"/></level_requirements>
+			<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="6" desc_key="reqPlayerLevel06"/></level_requirements>
+			<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="9" desc_key="reqPlayerLevel09"/></level_requirements>
+			<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="12" desc_key="reqPlayerLevel12"/></level_requirements>
+			<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="15" desc_key="reqPlayerLevel15"/></level_requirements>
+			<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="18" desc_key="reqPlayerLevel18"/></level_requirements>
+			<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="21" desc_key="reqPlayerLevel21"/></level_requirements>
+			
+			<effect_group>
+				<effect_description level="1" desc_key="Gyrocopter1" long_desc_key="Gyrocopter1Desc"/>
+				<effect_description level="2" desc_key="Gyrocopter2" long_desc_key="Gyrocopter2Desc"/>
+				<effect_description level="3" desc_key="Gyrocopter3" long_desc_key="Gyrocopter3Desc"/>
+				<effect_description level="4" desc_key="Gyrocopter4" long_desc_key="Gyrocopter4Desc"/>
+				<effect_description level="5" desc_key="Gyrocopter5" long_desc_key="Gyrocopter5Desc"/>
+				<effect_description level="6" desc_key="Gyrocopter6" long_desc_key="Gyrocopter6Desc"/>
+				<effect_description level="7" desc_key="Gyrocopter7" long_desc_key="Gyrocopter7Desc"/>
+			</effect_group>
+		</perk>
+		
+</insertBefore>
+</configs>

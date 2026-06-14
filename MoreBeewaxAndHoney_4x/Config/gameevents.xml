@@ -1,0 +1,4 @@
+<Configs>
+    <set xpath="/gameevents/action_sequence[@name='block_tree_stump_bees']//action[@class='AddItems'][property[@name='added_items' and @value='resourceBeeswax']]/property[@name='added_item_counts' and @value='1']/@value">4</set>
+    <set xpath="/gameevents/action_sequence[@name='block_tree_stump_bees']//action[@class='AddItems'][property[@name='added_items' and @value='foodHoney']]/property[@name='added_item_counts' and @value='1']/@value">4</set>
+</Configs>

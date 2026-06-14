@@ -1,0 +1,1095 @@
+Key,Source,Context,Changes,English,schinese,Russian
+attMastery,progression,Attribute,New,MASTERY,精通,Мастерство
+attMasteryDesc,progression,Attribute,New,Master your area of expertise!,掌握您的专业领域!,Овладейте своей специализацией!
+UnlockMasteries,progression,Attribute,New,Masteries,精通,Мастерства
+UnlockMasteriesDesc,progression,Attribute,New,"Master yourself, master the enemy.","战胜自己,战胜敌人","Владей собой, властвуй над врагом."
+masterySpec,progression,Attribute,New,"Specialisation","专精","Специализация"
+masterySpecDesc,progression,Attribute,New,"Master of one.","精于一门。","Мастер своего дела."
+masteryGeneral,progression,Attribute,New,"Jack of all trades","万事通","Мастер на все руки"
+masteryGeneralDesc,progression,Attribute,New,"Master of none.","样样稀松。","Ни в чем не преуспел."
+General_Perks,progression,Attribute,New,"MASTERY","精通","МАСТЕРСТВО"
+General_perks_for_all,progression,Attribute,New,"Master yourself, master the enemy.","胜人者有力，自胜者强。","Познаешь себя — познаешь врага."
+
+
+Template,progression,skills,New,"Template",,
+Template0,progression,skills,New,,,
+Template1Desc,progression,skills,New,,,
+Template2Desc,progression,skills,New,,,
+Template3Desc,progression,skills,New,,,
+Template4Desc,progression,skills,New,,,
+Template5Desc,progression,skills,New,,,
+Template6Desc,progression,skills,New,,,
+Template7Desc,progression,skills,New,,,
+Template1,progression,skills,New,,,
+Template2,progression,skills,New,,,
+Template3,progression,skills,New,,,
+Template4,progression,skills,New,,,
+Template5,progression,skills,New,,,
+Template6,progression,skills,New,,,
+Template7,progression,skills,New,,,
+
+dayTraderJackpotMsg,gameevents,actions,New,"[EFBF04]THE MARKETS HAVE PEAKED!!![-] [85BB65]+7,000 Dukes![-]","[EFBF04]市场已经达到巅峰！！！[-] [85BB65]+7,000 公爵币！[-]","[EFBF04]РЫНКИ ДОСТИГЛИ ПИКА!!![-] [85BB65]+7 000 марок![-]"
+buffStalkerVanish,buffs,Buff,Name,Shadow Vanish,暗影消散,Исчезновение в тени
+buffStalkerVanishDesc,buffs,Buff,Description,You have blended into the shadows and broken enemy tracking.,你已融入阴影之中，并摆脱了敌人的追踪。,Вы слились с тенями и сбили врагов со следа.
+buffStalkerVanishCooldownT1,buffs,Buff,Name,Shadow Step Cooldown (8min),暗影步冷却 (8分钟),Перезарядка Шага тени (8 мин.)
+buffStalkerVanishCooldownDescT1,buffs,Buff,Description,Your shadow step ability is recharging.,你的暗影步能力正在冷却中。,Способность «Шаг тени» восстанавливается.
+buffStalkerVanishCooldownT2,buffs,Buff,Name,Shadow Step Cooldown (4min),暗影步冷却 (4分钟),Перезарядка Шага тени (4 мин.)
+buffStalkerVanishCooldownDescT2,buffs,Buff,Description,Your shadow step ability is recharging.,你的暗影步能力正在冷却中。,Способность «Шаг тени» восстанавливается.
+buffStalkerVanishCooldownT3,buffs,Buff,Name,Shadow Step Cooldown (2min),暗影步冷却 (2分钟),Перезарядка Шага тени (2 мин.)
+buffStalkerVanishCooldownDescT3,buffs,Buff,Description,Your shadow step ability is recharging.,你的暗影步能力正在冷却中。,Способность «Шаг тени» восстанавливается.
+
+Arsonist,progression,skills,New,"Arsonist","纵火犯","Поджигатель"
+Arsonist0,progression,skills,New,"You like to play with the eternal fire, the one that roars in every engine.","你喜欢玩弄那永恒之火，那是每台发动机中轰鸣的火焰。","Вы любите играть с вечным огнем — тем самым, что ревет в каждом двигателе."
+Arsonist1Desc,progression,skills,New,"Molotovs deal 14% more damage. Burning weapons deal 3 dmg/s and have a 40% chance to ignite enemies.","燃烧瓶造成的伤害提高 14%。燃烧类武器造成 3 伤害/秒，且有 40% 的几率点燃敌人。","Коктейли Молотова наносят на 14% больше урона. Горящее оружие наносит 3 ед. урона/сек. и имеет 40% шанс поджечь врага."
+Arsonist2Desc,progression,skills,New,"Molotovs deal 28% more damage. Burning weapons deal 4 dmg/s and have a 40% chance to ignite enemies.","燃烧瓶造成的伤害提高 28%。燃烧类武器造成 4 伤害/秒，且有 40% 的几率点燃敌人。","Коктейли Молотова наносят на 28% больше урона. Горящее оружие наносит 4 ед. урона/сек. и имеет 40% шанс поджечь врага."
+Arsonist3Desc,progression,skills,New,"Molotovs deal 42% more damage. Burning weapons deal 5 dmg/s and have a 40% chance to ignite enemies.","燃烧瓶造成的伤害提高 42%。燃烧类武器造成 5 伤害/秒，且有 40% 的几率点燃敌人。","Коктейли Молотова наносят на 42% больше урона. Горящее оружие наносит 5 ед. урона/сек. и имеет 40% шанс поджечь врага."
+Arsonist4Desc,progression,skills,New,"Molotovs deal 56% more damage. Burning weapons deal 6 dmg/s and have a 70% chance to ignite enemies.","燃烧瓶造成的伤害提高 56%。燃烧类武器造成 6 伤害/秒，且有 70% 的几率点燃敌人。","Коктейли Молотова наносят на 56% больше урона. Горящее оружие наносит 6 ед. урона/сек. и имеет 70% шанс поджечь врага."
+Arsonist5Desc,progression,skills,New,"Molotovs deal 70% more damage. Burning weapons deal 7 dmg/s and have a 70% chance to ignite enemies.","燃烧瓶造成的伤害提高 70%。燃烧类武器造成 7 伤害/秒，且有 70% 的几率点燃敌人。","Коктейли Молотова наносят на 70% больше урона. Горящее оружие наносит 7 ед. урона/сек. и имеет 70% шанс поджечь врага."
+Arsonist6Desc,progression,skills,New,"Molotovs deal 84% more damage. Burning weapons deal 8 dmg/s and have a 70% chance to ignite enemies.","燃烧瓶造成的伤害提高 84%。燃烧类武器造成 8 伤害/秒，且有 70% 的几率点燃敌人。","Коктейли Молотова наносят на 84% больше урона. Горящее оружие наносит 8 ед. урона/сек. и имеет 70% шанс поджечь врага."
+Arsonist7Desc,progression,skills,New,"'Burn, baby, BURN!'\n\nMolotovs deal 100% more damage. Burning weapons deal 9 dmg/s and always ignite enemies.","'燃烧吧，宝贝，燃烧吧！'\n\n燃烧瓶造成的伤害提高 100%。燃烧类武器造成 9 伤害/秒，且必定点燃敌人。","'Гори, детка, ГОРИ!'\n\nКоктейли Молотова наносят на 100% больше урона. Горящее оружие наносит 9 ед. урона/сек. и всегда поджигает врагов."
+Arsonist1,progression,skills,New,"Arsonist I","纵火犯 I","Поджигатель I"
+Arsonist2,progression,skills,New,"Arsonist II","纵火犯 II","Поджигатель II"
+Arsonist3,progression,skills,New,"Arsonist III","纵火犯 III","Поджигатель III"
+Arsonist4,progression,skills,New,"Arsonist IV","纵火犯 IV","Поджигатель IV"
+Arsonist5,progression,skills,New,"Arsonist V","纵火犯 V","Поджигатель V"
+Arsonist6,progression,skills,New,"Arsonist VI","纵火犯 VI","Поджигатель VI"
+Arsonist7,progression,skills,New,"Arsonist VII","纵火犯 VII","Поджигатель VII"
+
+Blademaster,progression,skills,New,"Blademaster","刃具大师","Фехтовальщик"
+Blademaster0,progression,skills,New,"You have acquired a loicense for stabbin'!","你已经获得了捅人的许可！","Вы получили лицензию на поножовщину!"
+Blademaster1Desc,progression,skills,New,"Increase the melee range and attack speed of bladed weapons by 2%. Increase the maximum stacks of bleed you can apply by 1.","使用刃具类武器时，攻击速度和攻击距离提高 2%。可施加的最大出血叠加层数 +1。","Увеличивает дальность ближнего боя и скорость атаки клинковым оружием на 2%. Максимальное количество стаков кровотечения увеличено на 1."
+Blademaster2Desc,progression,skills,New,"Increase the melee range and attack speed of bladed weapons by 4%. Increase the maximum stacks of bleed you can apply by 2.","使用刃具类武器时，攻击速度和攻击距离提高 4%。可施加的最大出血叠加层数 +2。","Увеличивает дальность ближнего боя и скорость атаки клинковым оружием на 4%. Максимальное количество стаков кровотечения увеличено на 2."
+Blademaster3Desc,progression,skills,New,"Increase the melee range and attack speed of bladed weapons by 6%. Increase the maximum stacks of bleed you can apply by 3.","使用刃具类武器时，攻击速度和攻击距离提高 6%。可施加的最大出血叠加层数 +3。","Увеличивает дальность ближнего боя и скорость атаки клинковым оружием на 6%. Максимальное количество стаков кровотечения увеличено на 3."
+Blademaster4Desc,progression,skills,New,"Increase the melee range and attack speed of bladed weapons by 8%. Increase the maximum stacks of bleed you can apply by 4.","使用刃具类武器时，攻击速度和攻击距离提高 8%。可施加的最大出血叠加层数 +4。","Увеличивает дальность ближнего боя и скорость атаки клинковым оружием на 8%. Максимальное количество стаков кровотечения увеличено на 4."
+Blademaster5Desc,progression,skills,New,"Increase the melee range and attack speed of bladed weapons by 10%. Increase the maximum stacks of bleed you can apply by 5.","使用刃具类武器时，攻击速度和攻击距离提高 10%。可施加的最大出血叠加层数 +5。","Увеличивает дальность ближнего боя и скорость атаки клинковым оружием на 10%. Максимальное количество стаков кровотечения увеличено на 5."
+Blademaster6Desc,progression,skills,New,"Increase the melee range and attack speed of bladed weapons by 12%. Increase the maximum stacks of bleed you can apply by 6.","使用刃具类武器时，攻击速度和攻击距离提高 12%。可施加的最大出血叠加层数 +6。","Увеличивает дальность ближнего боя и скорость атаки клинковым оружием на 12%. Максимальное количество стаков кровотечения увеличено на 6."
+Blademaster7Desc,progression,skills,New,"'SHAMK!'\n\nIncrease the melee range and attack speed of bladed weapons by 15%. Increase the maximum stacks of bleed you can apply by 7.","'吃我一剑！'\n\n使用刃具类武器时，攻击速度和攻击距离提高 15%。可施加的最大出血叠加层数 +7。","'ПОЛУЧАЙ!'\n\nУвеличивает дальность ближнего боя и скорость атаки клинковым оружием на 15%. Максимальное количество стаков кровотечения увеличено на 7."
+Blademaster1,progression,skills,New,"Blademaster I","刃具大师 I","Фехтовальщик I"
+Blademaster2,progression,skills,New,"Blademaster II","刃具大师 II","Фехтовальщик II"
+Blademaster3,progression,skills,New,"Blademaster III","刃具大师 III","Фехтовальщик III"
+Blademaster4,progression,skills,New,"Blademaster IV","刃具大师 IV","Фехтовальщик IV"
+Blademaster5,progression,skills,New,"Blademaster V","刃具大师 V","Фехтовальщик V"
+Blademaster6,progression,skills,New,"Blademaster VI","刃具大师 VI","Фехтовальщик VI"
+Blademaster7,progression,skills,New,"Blademaster VII","刃具大师 VII","Фехтовальщик VII"
+
+Builder,progression,skills,New,"Construction Worker","建筑工人","Строитель"
+Builder0,progression,skills,New,"For whom it is, it is good.","对受众来说，这很不错。","Для кого как, а так — пойдёт."
+Builder1Desc,progression,skills,New,"Increases upgrading experience by 14%.","升级经验增加 14%。","Увеличивает опыт за улучшение на 14%."
+Builder2Desc,progression,skills,New,"Increases upgrading experience by 28%.","升级经验增加 28%。","Увеличивает опыт за улучшение на 28%."
+Builder3Desc,progression,skills,New,"Increases upgrading experience by 42%.","升级经验增加 42%。","Увеличивает опыт за улучшение на 42%."
+Builder4Desc,progression,skills,New,"Increases upgrading experience by 56%.","升级经验增加 56%。","Увеличивает опыт за улучшение на 56%."
+Builder5Desc,progression,skills,New,"Increases upgrading experience by 70%.","升级经验增加 70%。","Увеличивает опыт за улучшение на 70%."
+Builder6Desc,progression,skills,New,"Increases upgrading experience by 84%.","升级经验增加 84%。","Увеличивает опыт за улучшение на 84%."
+Builder7Desc,progression,skills,New,"'Boss makes a dollar I make a dime that’s why I s**t on company time.'\n\nIncreases upgrading experience by 100%.","“老板赚一块，我赚一毛，所以我上班时间拉#@。”\n\n升级经验增加 100%。","«Босс рубит доллар, я — лишь гроши, так что я #@! в рабочие часы».\n\nУвеличивает опыт за улучшение на 100%."
+Builder1,progression,skills,New,"Construction Worker I","建筑工人 I","Строитель I"
+Builder2,progression,skills,New,"Construction Worker II","建筑工人 II","Строитель II"
+Builder3,progression,skills,New,"Construction Worker III","建筑工人 III","Строитель III"
+Builder4,progression,skills,New,"Construction Worker IV","建筑工人 IV","Строитель IV"
+Builder5,progression,skills,New,"Construction Worker V","建筑工人 V","Строитель V"
+Builder6,progression,skills,New,"Construction Worker VI","建筑工人 VI","Строитель VI"
+Builder7,progression,skills,New,"Construction Worker VII","建筑工人 VII","Строитель VII"
+
+Bowman,progression,skills,New,"Bowman","弓箭手","Лучник"
+Bowman0,progression,skills,New,"Your archery prowess is unmatched.","你的弓箭造诣无与伦比。","Твоё мастерство стрельбы из лука не знает равных."
+Bowman1Desc,progression,skills,New,"Increase your entity damage, weapon handling, reload speed with bows by 7% and prepare an additional bolt/arrow per reload.","使用弓箭时，实体伤害、武器操作、装填速度各增加 7%，每次装填时额外装填 1 支箭。","Увеличивает урон по существам, удобство обращения и скорость перезарядки луков на 7% и позволяет заряжать 1 дополнительный болт/стрелу за перезарядку."
+Bowman2Desc,progression,skills,New,"Increase your entity damage, weapon handling, reload speed with bows by 14% and prepare an additional bolt/arrow per reload.","使用弓箭时，实体伤害、武器操作、装填速度各增加 14%，每次装填时额外装填 1 支箭。","Увеличивает урон по существам, удобство обращения и скорость перезарядки луков на 14% и позволяет заряжать 1 дополнительный болт/стрелу за перезарядку."
+Bowman3Desc,progression,skills,New,"Increase your entity damage, weapon handling, reload speed with bows by 21% and prepare 2 additional bolts/arrows per reload.","使用弓箭时，实体伤害、武器操作、装填速度各增加 21%，每次装填时额外装填 2 支箭。","Увеличивает урон по существам, удобство обращения и скорость перезарядки луков на 21% и позволяет заряжать 2 дополнительных болта/стрелы за перезарядку."
+Bowman4Desc,progression,skills,New,"Increase your entity damage, weapon handling, reload speed with bows by 28% and prepare 2 additional bolts/arrows per reload.","使用弓箭时，实体伤害、武器操作、装填速度各增加 28%，每次装填时额外装填 2 支箭。","Увеличивает урон по существам, удобство обращения и скорость перезарядки луков на 28% и позволяет заряжать 2 дополнительных болта/стрелы за перезарядку."
+Bowman5Desc,progression,skills,New,"Increase your entity damage, weapon handling, reload speed with bows by 35% and prepare 3 additional bolts/arrows per reload.","使用弓箭时，实体伤害、武器操作、装填速度各增加 35%，每次装填时额外装填 3 支箭。","Увеличивает урон по существам, удобство обращения и скорость перезарядки луков на 35% и позволяет заряжать 3 дополнительных болта/стрелы за перезарядку."
+Bowman6Desc,progression,skills,New,"Increase your entity damage, weapon handling, reload speed with bows by 42% and prepare 3 additional bolts/arrows per reload.","使用弓箭时，实体伤害、武器操作、装填速度各增加 42%，每次装填时额外装填 3 支箭。","Увеличивает урон по существам, удобство обращения и скорость перезарядки луков на 42% и позволяет заряжать 3 дополнительных болта/стрелы за перезарядку."
+Bowman7Desc,progression,skills,New,"'Grip it, rip it, put it in the wind!'\n\nIncrease your entity damage, weapon handling, reload speed with bows by 50% and prepare 4 additional bolts/arrows per reload.","“握紧它，撕碎它，让它随风而去！”\n\n使用弓箭时，实体伤害、武器操作、装填速度各增加 50%，每次装填时额外装填 4 支箭。","«Хватай, рви, пускай по ветру!»\n\nУвеличивает урон по существам, удобство обращения и скорость перезарядки луков на 50% и позволяет заряжать 4 дополнительных болта/стрелы за перезарядку."
+Bowman1,progression,skills,New,"Bowman I","弓箭手 I","Лучник I"
+Bowman2,progression,skills,New,"Bowman II","弓箭手 II","Лучник II"
+Bowman3,progression,skills,New,"Bowman III","弓箭手 III","Лучник III"
+Bowman4,progression,skills,New,"Bowman IV","弓箭手 IV","Лучник IV"
+Bowman5,progression,skills,New,"Bowman V","弓箭手 V","Лучник V"
+Bowman6,progression,skills,New,"Bowman VI","弓箭手 VI","Лучник VI"
+Bowman7,progression,skills,New,"Bowman VII","弓箭手 VII","Лучник VII"
+
+Calisthenics,progression,skills,New,"Calisthenics","健美操","Калистеника"
+Calisthenics0,progression,skills,New,"You train only using your body, anything your body is supposed to do, it can do.","你仅凭自重进行训练。凡是身体应能做到的，你皆能做到。","Ты тренируешься, используя только своё тело. Всё, что оно должно уметь, оно может."
+Calisthenics1Desc,progression,skills,New,"Increase your maximum health and stamina by 5.","最大生命值和体力增加5","Увеличивает максимальное здоровье и выносливость на 5."
+Calisthenics2Desc,progression,skills,New,"Increase your maximum health and stamina by 10.","最大生命值和体力增加10","Увеличивает максимальное здоровье и выносливость на 10."
+Calisthenics3Desc,progression,skills,New,"Increase your maximum health and stamina by 15.","最大生命值和体力增加15","Увеличивает максимальное здоровье и выносливость на 15."
+Calisthenics4Desc,progression,skills,New,"Increase your maximum health and stamina by 20.","最大生命值和体力增加20","Увеличивает максимальное здоровье и выносливость на 20."
+Calisthenics5Desc,progression,skills,New,"Increase your maximum health and stamina by 25.","最大生命值和体力增加25","Увеличивает максимальное здоровье и выносливость на 25."
+Calisthenics6Desc,progression,skills,New,"Increase your maximum health and stamina by 30.","最大生命值和体力增加30","Увеличивает максимальное здоровье и выносливость на 30."
+Calisthenics7Desc,progression,skills,New,"You have the features of a demigod!\n\nIncrease your maximum health and stamina by 40.","你有半神的特征!\n最大生命值和体力增加40","Вы обладаете свойствами полубога!\n\nУвеличьте максимальный запас здоровья и выносливости на 40 единиц."
+Calisthenics1,progression,skills,New,"Calisthenics I","健美操 I","Калистеника I"
+Calisthenics2,progression,skills,New,"Calisthenics II","健美操 II","Калистеника II"
+Calisthenics3,progression,skills,New,"Calisthenics III","健美操 III","Калистеника III"
+Calisthenics4,progression,skills,New,"Calisthenics IV","健美操 IV","Калистеника IV"
+Calisthenics5,progression,skills,New,"Calisthenics V","健美操 V","Калистеника V"
+Calisthenics6,progression,skills,New,"Calisthenics VI","健美操 VI","Калистеника VI"
+Calisthenics7,progression,skills,New,"Calisthenics VII","健美操 VII","Калистеника VII"
+
+Chainsaw,progression,skills,New,"Chainsaw Massacre","电锯惊魂","Резня бензопилой"
+Chainsaw0,progression,skills,New,"There is nothing more soothing than the sound of the chainsaw engine roaring.","没有什么比电锯引擎的轰鸣声更让人心旷神怡的了。","Нет ничего более успокаивающего, чем рев двигателя бензопилы."
+Chainsaw1Desc,progression,skills,New,"Chainsaws have 20% increased entity damage, 3% faster reload and you move 3% faster while holding a chainsaw.","电锯对生物伤害增加 20%，装弹速度加快 3%，手持电锯时移动速度加快 3%。","Бензопилы наносят на 20% больше урона существам, перезаряжаются на 3% быстрее, и вы двигаетесь на 3% быстрее, держа бензопилу в руках."
+Chainsaw2Desc,progression,skills,New,"Chainsaws have 40% increased entity damage, 6% faster reload and you move 6% faster while holding a chainsaw.","电锯对生物伤害增加 40%，装弹速度加快 6%，手持电锯时移动速度加快 6%。","Бензопилы наносят на 40% больше урона существам, перезаряжаются на 6% быстрее, и вы двигаетесь на 6% быстрее, держа бензопилу в руках."
+Chainsaw3Desc,progression,skills,New,"Chainsaws have 60% increased entity damage, 9% faster reload and you move 9% faster while holding a chainsaw.","电锯对生物伤害增加 60%，装弹速度加快 9%，手持电锯时移动速度加快 9%。","Бензопилы наносят на 60% больше урона существам, перезаряжаются на 9% быстрее, и вы двигаетесь на 9% быстрее, держа бензопилу в руках."
+Chainsaw4Desc,progression,skills,New,"Chainsaws have 80% increased entity damage, 12% faster reload and you move 12% faster while holding a chainsaw.","电锯对生物伤害增加 80%，装弹速度加快 12%，手持电锯时移动速度加快 12%。","Бензопилы наносят на 80% больше урона существам, перезаряжаются на 12% быстрее, и вы двигаетесь на 12% быстрее, держа бензопилу в руках."
+Chainsaw5Desc,progression,skills,New,"Chainsaws have 100% increased entity damage, 15% faster reload and you move 15% faster while holding a chainsaw.","电锯对生物伤害增加 100%，装弹速度加快 15%，手持电锯时移动速度加快 15%。","Бензопилы наносят на 100% больше урона существам, перезаряжаются на 15% быстрее, и вы двигаетесь на 15% быстрее, держа бензопилу в руках."
+Chainsaw6Desc,progression,skills,New,"Chainsaws have 120% increased entity damage, 18% faster reload and you move 18% faster while holding a chainsaw.","电锯对生物伤害增加 120%，装弹速度加快 18%，手持电锯时移动速度加快 18%。","Бензопилы наносят на 120% больше урона существам, перезаряжаются на 18% быстрее, и вы двигаетесь на 18% быстрее, держа бензопилу в руках."
+Chainsaw7Desc,progression,skills,New,"'The saw is FAMILY!!'\n\nChainsaws have 150% increased entity damage, 25% faster reload and you move 25% faster while holding a chainsaw.","“电锯就是家人！！”\n\n电锯对生物伤害增加 150%，装弹速度加快 25%，手持电锯时移动速度加快 25%。","«Пила — это СЕМЬЯ!!»\n\nБензопилы наносят на 150% больше урона существам, перезаряжаются на 25% быстрее, и вы двигаетесь на 25% быстрее, держа бензопилу в руках."
+Chainsaw1,progression,skills,New,"Chainsaw Massacre I","电锯惊魂 I","Резня бензопилой I"
+Chainsaw2,progression,skills,New,"Chainsaw Massacre II","电锯惊魂 II","Резня бензопилой II"
+Chainsaw3,progression,skills,New,"Chainsaw Massacre III","电锯惊魂 III","Резня бензопилой III"
+Chainsaw4,progression,skills,New,"Chainsaw Massacre IV","电锯惊魂 IV","Резня бензопилой IV"
+Chainsaw5,progression,skills,New,"Chainsaw Massacre V","电锯惊魂 V","Резня бензопилой V"
+Chainsaw6,progression,skills,New,"Chainsaw Massacre VI","电锯惊魂 VI","Резня бензопилой VI"
+Chainsaw7,progression,skills,New,"Chainsaw Massacre VII","电锯惊魂 VII","Резня бензопилой VII"
+
+Captain,progression,skills,New,"Captain","队长","Капитан"
+Captain0,progression,skills,New,"Protector of all.","众人的保护者。","Защитник всех."
+Captain1Desc,progression,skills,New,"You have a 3% chance to block damage while wearing a full set of Medium Armor.","穿着全套中型护甲时，有 3% 的几率抵挡伤害。","Вы имеете 3% шанс заблокировать урон, если на вас надет полный комплект средней брони."
+Captain2Desc,progression,skills,New,"You have a 6% chance to block damage while wearing a full set of Medium Armor.","穿着全套中型护甲时，有 6% 的几率抵挡伤害。","Вы имеете 6% шанс заблокировать урон, если на вас надет полный комплект средней брони."
+Captain3Desc,progression,skills,New,"You have a 9% chance to block damage while wearing a full set of Medium Armor.","穿着全套中型护甲时，有 9% 的几率抵挡伤害。","Вы имеете 9% шанс заблокировать урон, если на вас надет полный комплект средней брони."
+Captain4Desc,progression,skills,New,"You have a 12% chance to block damage while wearing a full set of Medium Armor.","穿着全套中型护甲时，有 12% 的几率抵挡伤害。","Вы имеете 12% шанс заблокировать урон, если на вас надет полный комплект средней брони."
+Captain5Desc,progression,skills,New,"You have a 15% chance to block damage while wearing a full set of Medium Armor.","穿着全套中型护甲时，有 15% 的几率抵挡伤害。","Вы имеете 15% шанс заблокировать урон, если на вас надет полный комплект средней брони."
+Captain6Desc,progression,skills,New,"You have a 18% chance to block damage while wearing a full set of Medium Armor.","穿着全套中型护甲时，有 18% 的几率抵挡伤害。","Вы имеете 18% шанс заблокировать урон, если на вас надет полный комплект средней брони."
+Captain7Desc,progression,skills,New,"'I can do this all day.'\n\nYou have a 25% chance to block damage while wearing a full set of Medium Armor.","'我可以和你耗上一整天。'\n\n穿着全套中型护甲时，有 25% 的几率抵挡伤害。","'Я могу заниматься этим весь день.'\n\nВы имеете 25% шанс заблокировать урон, если на вас надет полный комплект средней брони."
+Captain1,progression,skills,New,"Captain I","队长 I","Капитан I"
+Captain2,progression,skills,New,"Captain II","队长 II","Капитан II"
+Captain3,progression,skills,New,"Captain III","队长 III","Капитан III"
+Captain4,progression,skills,New,"Captain IV","队长 IV","Капитан IV"
+Captain5,progression,skills,New,"Captain V","队长 V","Капитан V"
+Captain6,progression,skills,New,"Captain VI","队长 VI","Капитан VI"
+Captain7,progression,skills,New,"Captain VII","队长 VII","Капитан VII"
+
+Clubber,progression,skills,New,"Clubber","棍击者","Дубина"
+Clubber0,progression,skills,New,"You are Cheems with the power of Bonk. Send anyone to horny jail.","你就是拥有“梆梆”之力的神烦狗。把所有人都送进“色色监狱”。","Ты — Чимс, наделённый силой Бонка. Отправляй всех в тюрьму для рогатых."
+Clubber1Desc,progression,skills,New,"Increase your entity damage by 7%. Damage is increased by an additional 12% if you hit a target while moving.","你的实体伤害提高 7%。如果你在移动时击中目标，伤害额外增加 12%。","Увеличивает урон по сущностям на 7%. Урон увеличивается еще на 12%, если вы поражаете цель во время движения."
+Clubber2Desc,progression,skills,New,"Increase your entity damage by 14%. Damage is increased by an additional 24% if you hit a target while moving.","你的实体伤害提高 14%。如果你在移动时击中目标，伤害额外增加 24%。","Увеличивает урон по сущностям на 14%. Урон увеличивается еще на 24%, если вы поражаете цель во время движения."
+Clubber3Desc,progression,skills,New,"Increase your entity damage by 21%. Damage is increased by an additional 36% if you hit a target while moving.","你的实体伤害提高 21%。如果你在移动时击中目标，伤害额外增加 36%。","Увеличивает урон по сущностям на 21%. Урон увеличивается еще на 36%, если вы поражаете цель во время движения."
+Clubber4Desc,progression,skills,New,"Increase your entity damage by 28%. Damage is increased by an additional 48% if you hit a target while moving.","你的实体伤害提高 28%。如果你在移动时击中目标，伤害额外增加 48%。","Увеличивает урон по сущностям на 28%. Урон увеличивается еще на 48%, если вы поражаете цель во время движения."
+Clubber5Desc,progression,skills,New,"Increase your entity damage by 35%. Damage is increased by an additional 60% if you hit a target while moving.","你的实体伤害提高 35%。如果你在移动时击中目标，伤害额外增加 60%。","Увеличивает урон по сущностям на 35%. Урон увеличивается еще на 60%, если вы поражаете цель во время движения."
+Clubber6Desc,progression,skills,New,"Increase your entity damage by 42%. Damage is increased by an additional 72% if you hit a target while moving.","你的实体伤害提高 42%。如果你在移动时击中目标，伤害额外增加 72%。","Увеличивает урон по сущностям на 42%. Урон увеличивается еще на 72%, если вы поражаете цель во время движения."
+Clubber7Desc,progression,skills,New,"'Wanna go clubbing?'.\n\nIncrease your entity damage by 50%. Damage is increased by an additional 100% if you hit a target while moving.","“想去‘夜店’嗨一下吗？”\n\n实体伤害提高 50%。如果你在移动时击中目标，伤害额外增加 100%。","«Хочешь сходить по клубам?».\n\nУрон по существам увеличен на 50%. Урон увеличивается еще на 100%, если вы наносите удар в движении."
+Clubber1,progression,skills,New,"Clubber I","棍击者 I","Дубина I"
+Clubber2,progression,skills,New,"Clubber II","棍击者 II","Дубина II"
+Clubber3,progression,skills,New,"Clubber III","棍击者 III","Дубина III"
+Clubber4,progression,skills,New,"Clubber IV","棍击者 IV","Дубина IV"
+Clubber5,progression,skills,New,"Clubber V","棍击者 V","Дубина V"
+Clubber6,progression,skills,New,"Clubber VI","棍击者 VI","Дубина VI"
+Clubber7,progression,skills,New,"Clubber VII","棍击者 VII","Дубина VII"
+
+Crafting,progression,skills,New,"Crafting","制作","Ремесло"
+Crafting0,progression,skills,New,"A master crafter is quick and constantly learns as he crafts.","制作大师动作敏捷，并在制作过程中不断学习。","Мастер-ремесленник работает быстро и постоянно учится в процессе создания."
+Crafting1Desc,progression,skills,New,"Increase your crafting speed by 5% and gain 3% extra XP from electrical trap kills.","制作速度提高 5%，并从电击陷阱杀敌中额外获得 3% 经验值。","Увеличивает скорость создания на 5% и дает на 3% больше опыта за убийства электрическими ловушками."
+Crafting2Desc,progression,skills,New,"Increase your crafting speed by 10% and gain 6% extra XP from electrical trap kills.","制作速度提高 10%，并从电击陷阱杀敌中额外获得 6% 经验值。","Увеличивает скорость создания на 10% и дает на 6% больше опыта за убийства электрическими ловушками."
+Crafting3Desc,progression,skills,New,"Increase your crafting speed by 15% and gain 9% extra XP from electrical trap kills.","制作速度提高 15%，并从电击陷阱杀敌中额外获得 9% 经验值。","Увеличивает скорость создания на 15% и дает на 9% больше опыта за убийства электрическими ловушками."
+Crafting4Desc,progression,skills,New,"Increase your crafting speed by 20% and gain 12% extra XP from electrical trap kills.","制作速度提高 20%，并从电击陷阱杀敌中额外获得 12% 经验值。","Увеличивает скорость создания на 20% и дает на 12% больше опыта за убийства электрическими ловушками."
+Crafting5Desc,progression,skills,New,"Increase your crafting speed by 25% and gain 15% extra XP from electrical trap kills.","制作速度提高 25%，并从电击陷阱杀敌中额外获得 15% 经验值。","Увеличивает скорость создания на 25% и дает на 15% больше опыта за убийства электрическими ловушками."
+Crafting6Desc,progression,skills,New,"Increase your crafting speed by 30% and gain 18% extra XP from electrical trap kills.","制作速度提高 30%，并从电击陷阱杀敌中额外获得 18% 经验值。","Увеличивает скорость создания на 30% и дает на 18% больше опыта за убийства электрическими ловушками."
+Crafting7Desc,progression,skills,New,"'Don't judge a man until you've stood at his forge and worked with his hammer.'\n\nIncrease your crafting speed by 40% and gain 25% extra XP from electrical trap kills.","“在你站在一个人的锻炉旁，用他的锤子干活之前，不要评判他。”\n\n制作速度提高 40%，并从电击陷阱杀敌中额外获得 25% 经验值。","«Не судите о человеке, пока не постоите у его горна и не поработаете его молотом».\n\nУвеличивает скорость создания на 40% и дает на 25% больше опыта за убийства электрическими ловушками."
+Crafting1,progression,skills,New,"Crafting I","制作 I","Ремесло I"
+Crafting2,progression,skills,New,"Crafting II","制作 II","Ремесло II"
+Crafting3,progression,skills,New,"Crafting III","制作 III","Ремесло III"
+Crafting4,progression,skills,New,"Crafting IV","制作 IV","Ремесло IV"
+Crafting5,progression,skills,New,"Crafting V","制作 V","Ремесло V"
+Crafting6,progression,skills,New,"Crafting VI","制作 VI","Ремесло VI"
+Crafting7,progression,skills,New,"Crafting VII","制作 VII","Ремесло VII"
+
+Criminal,progression,skills,New,"Criminal","罪犯","Уголовник"
+Criminal0,progression,skills,New,"You've survived this long by being a criminal, what's a few zombies going to change?","你靠着犯罪活到了现在，区区几只丧尸又能改变什么？","Ты выжил благодаря преступному прошлому, что изменят пара-тройка зомби?"
+Criminal1Desc,progression,skills,New,"Damage dealt with Pistols and Hunting Knives is increased by 14%. You handle lockpicks 3% better and deal 14% increased damage to safes.","使用手枪和猎刀时造成的伤害提高14%。撬锁能力提高3%，对保险箱造成的伤害提高14%。","Урон от пистолетов и охотничьих ножей увеличен на 14%. Вы на 3% лучше обращаетесь с отмычками, и наносите на 14% больше урона сейфам."
+Criminal2Desc,progression,skills,New,"Damage dealt with Pistols and Hunting Knives is increased by 28%. You handle lockpicks 6% better and deal 28% increased damage to safes.","使用手枪和猎刀时造成的伤害提高28%。撬锁能力提高6%，对保险箱造成的伤害提高28%。","Урон от пистолетов и охотничьих ножей увеличен на 28%. Вы на 6% лучше обращаетесь с отмычками, и наносите на 28% больше урона сейфам."
+Criminal3Desc,progression,skills,New,"Damage dealt with Pistols and Hunting Knives is increased by 42%. You handle lockpicks 9% better and deal 42% increased damage to safes.","使用手枪和猎刀时造成的伤害提高42%。撬锁能力提高9%，对保险箱造成的伤害提高42%。","Урон от пистолетов и охотничьих ножей увеличен на 42%. Вы на 9% лучше обращаетесь с отмычками, и наносите на 42% больше урона сейфам."
+Criminal4Desc,progression,skills,New,"Damage dealt with Pistols and Hunting Knives is increased by 56%. You handle lockpicks 12% better and deal 56% increased damage to safes.","使用手枪和猎刀时造成的伤害提高56%。撬锁能力提高12%，对保险箱造成的伤害提高56%。","Урон от пистолетов и охотничьих ножей увеличен на 56%. Вы на 12% лучше обращаетесь с отмычками, и наносите на 56% больше урона сейфам."
+Criminal5Desc,progression,skills,New,"Damage dealt with Pistols and Hunting Knives is increased by 70%. You handle lockpicks 15% better and deal 70% increased damage to safes.","使用手枪和猎刀时造成的伤害提高70%。撬锁能力提高15%，对保险箱造成的伤害提高70%。","Урон от пистолетов и охотничьих ножей увеличен на 70%. Вы на 15% лучше обращаетесь с отмычками, и наносите на 70% больше урона сейфам."
+Criminal6Desc,progression,skills,New,"Damage dealt with Pistols and Hunting Knives is increased by 84%. You handle lockpicks 18% better and deal 84% increased damage to safes.","使用手枪和猎刀时造成的伤害提高84%。撬锁能力提高18%，对保险箱造成的伤害提高84%。","Урон от пистолетов и охотничьих ножей увеличен на 84%. Вы на 18% лучше обращаетесь с отмычками, и наносите на 84% больше урона сейфам."
+Criminal7Desc,progression,skills,New,"'Click out of one, nothing on two, three is binding.'\n\nDamage dealt with Pistols and Hunting Knives is increased by 100%. You handle lockpicks 25% better and deal 100% increased damage to safes.","“一号位咔哒一声，二号位没动静，三号位受阻。”\n使用手枪和猎刀时造成的伤害提高100%。撬锁能力提高25%，对保险箱造成的伤害提高100%。","«Щелчок на первом, ничего на втором, третий дает сопротивление».\nУрон от пистолетов и охотничьих ножей увеличен на 100%. Вы на 25% лучше обращаетесь с отмычками, и наносите на 100% больше урона сейфам."
+Criminal1,progression,skills,New,"Criminal I","罪犯 I","Уголовник I"
+Criminal2,progression,skills,New,"Criminal II","罪犯 II","Уголовник II"
+Criminal3,progression,skills,New,"Criminal III","罪犯 III","Уголовник III"
+Criminal4,progression,skills,New,"Criminal IV","罪犯 IV","Уголовник IV"
+Criminal5,progression,skills,New,"Criminal V","罪犯 V","Уголовник V"
+Criminal6,progression,skills,New,"Criminal VI","罪犯 VI","Уголовник VI"
+Criminal7,progression,skills,New,"Criminal VII","罪犯 VII","Уголовник VII"
+
+Crypto,progression,skills,New,"Crypto","加密货币","Крипто"
+Crypto0,progression,skills,New,"You are researching the Cryptocurrency market values. Gathering the data. Your bartering Skills increase.","你正在研究加密货币的市场价值。正在收集数据。你的交易技能提升了。","Вы изучаете стоимость криптовалютного рынка. Сбор данных. Ваши навыки бартера растут."
+Crypto1Desc,progression,skills,New,"Get a 1.2% better deal buying and selling merchandise with traders.","与商人交易时，购买和出售商品优惠 1.2%","Покупка и продажа у торговцев становится на 1.2% выгоднее."
+Crypto2Desc,progression,skills,New,"Get a 2.4% better deal buying and selling merchandise with traders.","与商人交易时，购买 and 出售商品优惠 2.4%","Покупка и продажа у торговцев становится на 2.4% выгоднее."
+Crypto3Desc,progression,skills,New,"Get a 3.6% better deal buying and selling merchandise with traders.","与商人交易时，购买 and 出售商品优惠 3.6%","Покупка и продажа у торговцев становится на 3.6% выгоднее."
+Crypto4Desc,progression,skills,New,"Get a 4.8% better deal buying and selling merchandise with traders.","与商人交易时，购买 and 出售商品优惠 4.8%","Покупка и продажа у торговцев становится на 4.8% выгоднее."
+Crypto5Desc,progression,skills,New,"Get a 6% better deal buying and selling merchandise with traders.","与商人交易时，购买 and 出售商品优惠 6%","Покупка и продажа у торговцев становится на 6% выгоднее."
+Crypto6Desc,progression,skills,New,"Get a 7.2 better deal buying and selling merchandise with traders.","与商人交易时，购买 and 出售商品优惠 7.2%","Покупка и продажа у торговцев становится на 7.2% выгоднее."
+Crypto7Desc,progression,skills,New,"'Since when were you under the impression that CRAB-17 was over?'\n\nGet a 10% better deal buying and selling merchandise with traders.","“你从什么时候开始产生了 CRAB-17 已经结束的错觉？”\n与商人交易时，购买和出售商品优惠 10%","'С каких это пор у вас сложилось впечатление, что CRAB-17 закончился?'\nПокупка и продажа у торговцев становится на 10% выгоднее."
+Crypto1,progression,skills,New,"Crypto I","加密货币 I","Крипто I"
+Crypto2,progression,skills,New,"Crypto II","加密货币 II","Крипто II"
+Crypto3,progression,skills,New,"Crypto III","加密货币 III","Крипто III"
+Crypto4,progression,skills,New,"Crypto IV","加密货币 IV","Крипто IV"
+Crypto5,progression,skills,New,"Crypto V","加密货币 V","Крипто V"
+Crypto6,progression,skills,New,"Crypto VI","加密货币 VI","Крипто VI"
+Crypto7,progression,skills,New,"Crypto VII","加密货币 VII","Крипто VII"
+
+Cyclist,progression,skills,New,"Cyclist","骑行者","Велосипедист"
+Cyclist0,progression,skills,New,"You pedal like a beast and you know how to keep your Bicycle in one piece.","你的踏板踩得像野兽一样快，而且你知道如何让你的自行车保持完好。","Вы крутите педали как зверь и знаете, как сохранить свой велосипед в целости."
+Cyclist1Desc,progression,skills,New,"Bicycles are 7% faster, take 3% less damage and you gain 3 Stamina.","自行车速度提升 7%，受到的伤害减少 3%，你获得 3 点耐力。","Велосипеды на 7% быстрее, получают на 3% меньше урона, и вы получаете 3 выносливости."
+Cyclist2Desc,progression,skills,New,"Bicycles are 14% faster, take 6% less damage and you gain 6 Stamina.","自行车速度提升 14%，受到的伤害减少 6%，你获得 6 点耐力。","Велосипеды на 14% быстрее, получают на 6% меньше урона, и вы получаете 6 выносливости."
+Cyclist3Desc,progression,skills,New,"Bicycles are 21% faster, take 9% less damage and you gain 9 Stamina.","自行车速度提升 21%，受到的伤害减少 9%，你获得 9 点耐力。","Велосипеды на 21% быстрее, получают на 9% меньше урона, и вы получаете 9 выносливости."
+Cyclist4Desc,progression,skills,New,"Bicycles are 28% faster, take 12% less damage and you gain 12 Stamina.","自行车速度提升 28%，受到的伤害减少 12%，你获得 12 点耐力。","Велосипеды на 28% быстрее, получают на 12% меньше урона, и вы получаете 12 выносливости."
+Cyclist5Desc,progression,skills,New,"Bicycles are 35% faster, take 15% less damage and you gain 15 Stamina.","自行车速度提升 35%，受到的伤害减少 15%，你获得 15 点耐力。","Велосипеды на 35% быстрее, получают на 15% меньше урона, и вы получаете 15 выносливости."
+Cyclist6Desc,progression,skills,New,"Bicycles are 42% faster, take 18% less damage and you gain 18 Stamina.","自行车速度提升 42%，受到的伤害减少 18%，你获得 18 点耐力。","Велосипеды на 42% быстрее, получают на 18% меньше урона, и вы получаете 18 выносливости."
+Cyclist7Desc,progression,skills,New,"'The citizens need me. Let's hit the road!'\n\nBicycles are 50% faster, take 25% less damage and you gain 25 Stamina.","“市民们需要我。让我们出发吧！”\n\n自行车速度提升 50%，受到的伤害减少 25%，你获得 25 点耐力。","«Гражданам нужен я. Пора в путь!»\n\nВелосипеды на 50% быстрее, получают на 25% меньше урона, и вы получаете 25 выносливости."
+Cyclist1,progression,skills,New,"Cyclist I","骑行者 I","Велосипедист I"
+Cyclist2,progression,skills,New,"Cyclist II","骑行者 II","Велосипедист II"
+Cyclist3,progression,skills,New,"Cyclist III","骑行者 III","Велосипедист III"
+Cyclist4,progression,skills,New,"Cyclist IV","骑行者 IV","Велосипедист IV"
+Cyclist5,progression,skills,New,"Cyclist V","骑行者 V","Велосипедист V"
+Cyclist6,progression,skills,New,"Cyclist VI","骑行者 VI","Велосипедист VI"
+Cyclist7,progression,skills,New,"Cyclist VII","骑行者 VII","Велосипедист VII"
+
+DayTrader,progression,skills,New,"Day Trader","日间交易员","Дневной трейдер"
+DayTrader0,progression,skills,New,"You do some day trading, 'Flipper' is your middle name.","你做一些日间交易，“倒爷”是你的中间名。","Вы занимаетесь дневной торговлей, и «Перекуп» — ваше второе имя."
+DayTrader1Desc,progression,skills,New,"Every 10 minutes you often receive a negligable amount of dukes.","每隔 10 分钟，你会经常收到极少量的公爵币。","Каждые 10 минут вы часто получаете ничтожное количество марок."
+DayTrader2Desc,progression,skills,New,"Every 10 minutes you often receive a low amount of dukes.","每隔 10 分钟，你会经常收到少量的公爵币。","Каждые 10 минут вы часто получаете небольшое количество марок."
+DayTrader3Desc,progression,skills,New,"Every 10 minutes you often receive a fair amount of dukes.","每隔 10 分钟，你会经常收到适量的公爵币。","Каждые 10 минут вы часто получаете умеренное количество марок."
+DayTrader4Desc,progression,skills,New,"Every 10 minutes you often receive a good amount of dukes.","每隔 10 分钟，你会经常收到可观的公爵币。","Каждые 10 минут вы часто получаете неплохое количество марок."
+DayTrader5Desc,progression,skills,New,"Every 10 minutes you often receive a decent amount of dukes.","每隔 10 分钟，你会经常收到相当多的公爵币。","Каждые 10 минут вы часто получаете приличное количество марок."
+DayTrader6Desc,progression,skills,New,"Every 10 minutes you often receive a sizeable amount of dukes.","每隔 10 分钟，你会经常收到大量的公爵币。","Каждые 10 минут вы часто получаете значительное количество марок."
+DayTrader7Desc,progression,skills,New,"'Billions of dollars worth of deals!'\n\nEvery 10 minutes you often receive a solid amount of dukes with a very small chance of hitting it BIG.","“价值数十亿美元的交易！”\n\n每隔 10 分钟，你会经常收到一大笔公爵币，并有极小的几率大赚一笔。","«Сделки на миллиарды долларов!»\n\nКаждые 10 минут вы часто получаете солидную сумму марок с очень небольшим шансом СОРВАТЬ КУШ."
+DayTrader1,progression,skills,New,"Day Trader I","日间交易员 I","Дневной трейдер I"
+DayTrader2,progression,skills,New,"Day Trader II","日间交易员 II","Дневной трейдер II"
+DayTrader3,progression,skills,New,"Day Trader III","日间交易员 III","Дневной трейдер III"
+DayTrader4,progression,skills,New,"Day Trader IV","日间交易员 IV","Дневной трейдер IV"
+DayTrader5,progression,skills,New,"Day Trader V","日间交易员 V","Дневной трейдер V"
+DayTrader6,progression,skills,New,"Day Trader VI","日间交易员 VI","Дневной трейдер VI"
+DayTrader7,progression,skills,New,"Day Trader VII","日间交易员 VII","Дневной трейдер VII"
+
+Demoman,progression,skills,New,"Demoman","爆破手","Подрывник"
+Demoman0,progression,skills,New,"Not only are you good at blasting dams, but also at blasting damned!","你不仅擅长炸大坝，更擅长炸那些该死的丧尸！","Ты мастер взрывать не только дамбы, но и проклятых тварей!"
+Demoman1Desc,progression,skills,New,"Increase entity damage by 8% and provides an additional 1.2% chance to dismember.","实体伤害增加8%,肢解几率增加1.2%","Увеличивает урон по сущностям на 8% и дает дополнительный шанс расчленения на 1.2%."
+Demoman2Desc,progression,skills,New,"Increase entity damage by 16% and provides an additional 2.4% chance to dismember.","实体伤害增加16%,肢解几率增加2.4%","Увеличивает урон по сущностям на 16% и дает дополнительный шанс расчленения на 2.4%."
+Demoman3Desc,progression,skills,New,"Increase entity damage by 24% and provides an additional 3.6% chance to dismember.","实体伤害增加24%,肢解几率增加3.6%","Увеличивает урон по сущностям на 24% и дает дополнительный шанс расчленения на 3.6%."
+Demoman4Desc,progression,skills,New,"Increase entity damage by 32% and provides an additional 4.8% chance to dismember.","实体伤害增加32%,肢解几率增加4.8%","Увеличивает урон по сущностям на 32% и дает дополнительный шанс расчленения на 4.8%."
+Demoman5Desc,progression,skills,New,"Increase entity damage by 40% and provides an additional 6% chance to dismember.","实体伤害增加40%,肢解几率增加6%","Увеличивает урон по сущностям на 40% и дает дополнительный шанс расчленения на 6%."
+Demoman6Desc,progression,skills,New,"Increase entity damage by 48% and provides an additional 7.2% chance to dismember.","实体伤害增加48%,肢解几率增加7.2%","Увеличивает урон по сущностям на 48% и дает дополнительный шанс расчленения на 7.2%."
+Demoman7Desc,progression,skills,New,"'Hey, as long as it works!'\n\nIncrease entity damage by 60% and provides an additional 10% chance to dismember.","“嘿，只要有效就行！”\n实体伤害增加60%,肢解几率增加10%","'Эй, лишь бы работало!'\n\nУвеличивает урон по сущностям на 60% и дает дополнительный 10% шанс расчленения."
+Demoman1,progression,skills,New,"Demoman I","爆破手 I","Подрывник I"
+Demoman2,progression,skills,New,"Demoman II","爆破手 II","Подрывник II"
+Demoman3,progression,skills,New,"Demoman III","爆破手 III","Подрывник III"
+Demoman4,progression,skills,New,"Demoman IV","爆破手 IV","Подрывник IV"
+Demoman5,progression,skills,New,"Demoman V","爆破手 V","Подрывник V"
+Demoman6,progression,skills,New,"Demoman VI","爆破手 VI","Подрывник VI"
+Demoman7,progression,skills,New,"Demoman VII","爆破手 VII","Подрывник VII"
+
+Dismemberment,progression,skills,New,"Dismemberment","肢解","Расчленение"
+Dismemberment0,progression,skills,New,"You've mastered pressure points and know where every body part will explode.","你已精通穴位之术，深谙身体每个部位爆炸的死穴。","Ты в совершенстве овладел болевыми точками и знаешь, как заставить любую часть тела взорваться."
+Dismemberment1Desc,progression,skills,New,"Increase your chance to dismember by 3%.","肢解概率提高 3%。","Шанс расчленения увеличен на 3%."
+Dismemberment2Desc,progression,skills,New,"Increase your chance to dismember by 6%.","肢解概率提高 6%。","Шанс расчленения увеличен на 6%."
+Dismemberment3Desc,progression,skills,New,"Increase your chance to dismember by 9%.","肢解概率提高 9%。","Шанс расчленения увеличен на 9%."
+Dismemberment4Desc,progression,skills,New,"Increase your chance to dismember by 12%.","肢解概率提高 12%。","Шанс расчленения увеличен на 12%."
+Dismemberment5Desc,progression,skills,New,"Increase your chance to dismember by 15%.","肢解概率提高 15%。","Шанс расчленения увеличен на 15%."
+Dismemberment6Desc,progression,skills,New,"Increase your chance to dismember by 18%.","肢解概率提高 18%。","Шанс расчленения увеличен на 18%."
+Dismemberment7Desc,progression,skills,New,"'Omae wa mou shindeiru.'\n\nIncrease your chance to dismember by 25%.","“你已经死了。”\n\n肢解概率提高 25%。","«Ты уже мертв».\n\nШанс расчленения увеличен на 25%."
+Dismemberment1,progression,skills,New,"Dismemberment I","肢解 I","Расчленение I"
+Dismemberment2,progression,skills,New,"Dismemberment II","肢解 II","Расчленение II"
+Dismemberment3,progression,skills,New,"Dismemberment III","肢解 III","Расчленение III"
+Dismemberment4,progression,skills,New,"Dismemberment IV","肢解 IV","Расчленение IV"
+Dismemberment5,progression,skills,New,"Dismemberment V","肢解 V","Расчленение V"
+Dismemberment6,progression,skills,New,"Dismemberment VI","肢解 VI","Расчленение VI"
+Dismemberment7,progression,skills,New,"Dismemberment VII","肢解 VII","Расчленение VII"
+
+DoublePenetration,progression,skills,New,"Double Penetration","双重穿透","Двойное проникновение"
+DoublePenetration0,progression,skills,New,"You can punch a hole through anything, twice!.","你能洞穿任何物体，还是两遍！","Ты можешь пробить дыру в чём угодно, причём дважды!"
+DoublePenetration1Desc,progression,skills,New,"Ignore an additional 3% of armor with firearms, archery and spears. AP rounds penetrate an additional target or a block of up to 250 extra hit points when using Hunting, Marksman or Sniper Rifles.","使用枪械、弓箭和长矛时，额外忽略3%的护甲。\n当使用猎枪、射手步枪或狙击步枪时，AP弹药可以穿透额外的目标，或穿透多达250额外生命值的阻挡。","Игнорируйте дополнительные 3% брони при использовании огнестрельного оружия, лука и копья. Бронебойные снаряды пробивают дополнительную цель или блок до 250 дополнительных хит-пойнтов при использовании охотничьих, марксманских или снайперских винтовок."
+DoublePenetration2Desc,progression,skills,New,"Ignore an additional 6% of armor with firearms, archery and spears. AP rounds penetrate an additional target or a block of up to 250 extra hit points when using Hunting, Marksman or Sniper Rifles.","使用枪械、弓箭和长矛时，额外忽略6%的护甲。\n当使用猎枪、射手步枪或狙击步枪时，AP弹药可以穿透额外的目标，或穿透多达250额外生命值的阻挡。","Игнорируйте дополнительные 6% брони при использовании огнестрельного оружия, лука и копья. Бронебойные снаряды пробивают дополнительную цель или блок до 250 дополнительных хит-пойнтов при использовании охотничьих, марксманских или снайперских винтовок."
+DoublePenetration3Desc,progression,skills,New,"Ignore an additional 9% of armor with firearms, archery and spears. AP rounds penetrate two additional targets or blocks of up to 500 extra hit points when using Hunting, Marksman or Sniper Rifles.","使用枪械、弓箭和长矛时，额外忽略9%的护甲。\n当使用猎枪、射手步枪或狙击步枪时，AP弹药可以穿透额外的目标，或穿透多达500额外生命值的阻挡。","Игнорируйте дополнительные 9% брони при использовании огнестрельного оружия, лука и копья. Бронебойные снаряды пробивают дополнительную цель или блок до 500 дополнительных хит-пойнтов при использовании охотничьих, марксманских или снайперских винтовок."
+DoublePenetration4Desc,progression,skills,New,"Ignore an additional 12% of armor with firearms, archery and spears. AP rounds penetrate two additional targets or blocks of up to 500 extra hit points when using Hunting, Marksman or Sniper Rifles.","使用枪械、弓箭和长矛时，额外忽略12%的护甲。\n当使用猎枪、射手步枪或狙击步枪时，AP弹药可以穿透额外的目标，或穿透多达500额外生命值的阻挡。","Игнорируйте дополнительные 12% брони при использовании огнестрельного оружия, лука и копья. Бронебойные снаряды пробивают дополнительную цель или блок до 500 дополнительных хит-пойнтов при использовании охотничьих, марксманских или снайперских винтовок."
+DoublePenetration5Desc,progression,skills,New,"Ignore an additional 15% of armor with firearms, archery and spears. AP rounds penetrate three additional targets or blocks of up to 750 extra hit points when using Hunting, Marksman or Sniper Rifles.","使用枪械、弓箭和长矛时，额外忽略15% of armor with firearms, archery and spears. AP rounds penetrate three additional targets or blocks of up to 750 extra hit points when using Hunting, Marksman or Sniper Rifles.","使用枪械、弓箭和长矛时，额外忽略15%的护甲。\n当使用猎枪、射手步枪或狙击步枪时，AP弹药可以穿透额外的目标，或穿透多达750额外生命值的阻挡。","Игнорируйте дополнительные 15% брони при использовании огнестрельного оружия, лука и копья. Бронебойные снаряды пробивают дополнительную цель или блок до 750 дополнительных хит-пойнтов при использовании охотничьих, марксманских или снайперских винтовок."
+DoublePenetration6Desc,progression,skills,New,"Ignore an additional 18% of armor with firearms, archery and spears. AP rounds penetrate three additional targets or blocks of up to 750 extra hit points when using Hunting, Marksman or Sniper Rifles.","使用枪械、弓箭和长矛时，额外忽略18%的护甲。\n当使用猎枪、射手步枪或狙击步枪时，AP弹药可以穿透额外的目标，或穿透多达750额外生命值的阻挡。","Игнорируйте дополнительные 18% брони при использовании огнестрельного оружия, лука и копья. Бронебойные снаряды пробивают дополнительную цель или блок до 750 дополнительных хит-пойнтов при использовании охотничьих, марксманских или снайперских винтовок."
+DoublePenetration7Desc,progression,skills,New,"'Diggy diggy hole!'\n\nIgnore an additional 25% of armor with firearms, archery and spears. AP rounds penetrate four additional targets or blocks of up to 1000 extra hit points when using Hunting, Marksman or Sniper Rifles.","“挖个坑，埋点土！”\n使用枪械、弓箭和长矛时，额外忽略25%的护甲。\n当使用猎枪、射手步枪或狙击步枪时，AP弹药可以穿透额外的目标，或穿透多达1000额外生命值的阻挡。","'Копайте яму!'\nИгнорируйте дополнительные 25% брони при использовании огнестрельного оружия, лука и копья. Бронебойные снаряды пробивают четыре дополнительные цели или блоки до 1000 дополнительных хит-пойнтов при использовании охотничьих, марксманских или снайперских винтовок."
+DoublePenetration1,progression,skills,New,"Double Penetration I","双重穿透 I","Двойное проникновение I"
+DoublePenetration2,progression,skills,New,"Double Penetration II","双重穿透 II","Двойное проникновение II"
+DoublePenetration3,progression,skills,New,"Double Penetration III","双重穿透 III","Двойное проникновение III"
+DoublePenetration4,progression,skills,New,"Double Penetration IV","双重穿透 IV","Двойное проникновение IV"
+DoublePenetration5,progression,skills,New,"Double Penetration V","双重穿透 V","Двойное проникновение V"
+DoublePenetration6,progression,skills,New,"Double Penetration VI","双重穿透 VI","Двойное проникновение VI"
+DoublePenetration7,progression,skills,New,"Double Penetration VII","双重穿透 VII","Двойное проникновение VII"
+
+Efficiency,progression,skills,New,"Efficiency","效率","Эффективность"
+Efficiency0,progression,skills,New,"You use precisely the amount of strength that you need.","你精确地运用了你所需要的力量。","Вы используете ровно столько силы, сколько необходимо."
+Efficiency1Desc,progression,skills,New,"Use 3% less stamina.","体力消耗降低 3%。","Расход выносливости снижен на 3%."
+Efficiency2Desc,progression,skills,New,"Use 6% less stamina.","体力消耗降低 6%。","Расход выносливости снижен на 6%."
+Efficiency3Desc,progression,skills,New,"Use 9% less stamina.","体力消耗降低 9%。","Расход выносливости снижен на 9%."
+Efficiency4Desc,progression,skills,New,"Use 12% less stamina.","体力消耗降低 12%。","Расход выносливости снижен на 12%."
+Efficiency5Desc,progression,skills,New,"Use 15% less stamina.","体力消耗降低 15%。","Расход выносливости снижен на 15%."
+Efficiency6Desc,progression,skills,New,"Use 18% less stamina.","体力消耗降低 18%。","Расход выносливости снижен на 18%."
+Efficiency7Desc,progression,skills,New,"'Work smarter not harder.'\n\nUse 25% less stamina.","“事半功倍。”\n\n体力消耗降低 25%。","«Работай с умом, а не силой».\n\nРасход выносливости снижен на 25%."
+Efficiency1,progression,skills,New,"Efficiency I","效率 I","Эффективность I"
+Efficiency2,progression,skills,New,"Efficiency II","效率 II","Эффективность II"
+Efficiency3,progression,skills,New,"Efficiency III","效率 III","Эффективность III"
+Efficiency4,progression,skills,New,"Efficiency IV","效率 IV","Эффективность IV"
+Efficiency5,progression,skills,New,"Efficiency V","效率 V","Эффективность V"
+Efficiency6,progression,skills,New,"Efficiency VI","效率 VI","Эффективность VI"
+Efficiency7,progression,skills,New,"Efficiency VII","效率 VII","Эффективность VII"
+
+Endurance,progression,skills,New,"Endurance","耐力","Выносливость"
+Endurance0,progression,skills,New,"You have some iron lungs!","你的肺简直是铁打的！","У тебя просто железные лёгкие!"
+Endurance1Desc,progression,skills,New,"Increase stamina regen by 3%.","耐力恢复速度提高 3%。","Скорость восстановления выносливости +3%."
+Endurance2Desc,progression,skills,New,"Increase stamina regen by 6%.","耐力恢复速度提高 6%。","Скорость восстановления выносливости +6%."
+Endurance3Desc,progression,skills,New,"Increase stamina regen by 9%.","耐力恢复速度提高 9%。","Скорость восстановления выносливости +9%."
+Endurance4Desc,progression,skills,New,"Increase stamina regen by 12%.","耐力恢复速度提高 12%。","Скорость восстановления выносливости +12%."
+Endurance5Desc,progression,skills,New,"Increase stamina regen by 15%.","耐力恢复速度提高 15%。","Скорость восстановления выносливости +15%."
+Endurance6Desc,progression,skills,New,"Increase stamina regen by 18%.","耐力恢复速度提高 18%。","Скорость восстановления выносливости +18%."
+Endurance7Desc,progression,skills,New,"'It's about how much you can take and keep moving forward!'\n\nIncrease stamina regen by 25%.","“关键不在于你打得有多重，而在于你能承受多少打击并继续前行！”\n\n耐力恢复速度提高 25%。","«Неважно, как ты бьешь, важно, какой держишь удар и как двигаешься вперед!»\n\nСкорость восстановления выносливости +25%."
+Endurance1,progression,skills,New,"Endurance I","耐力 I","Выносливость I"
+Endurance2,progression,skills,New,"Endurance II","耐力 II","Выносливость II"
+Endurance3,progression,skills,New,"Endurance III","耐力 III","Выносливость III"
+Endurance4,progression,skills,New,"Endurance IV","耐力 IV","Выносливость IV"
+Endurance5,progression,skills,New,"Endurance V","耐力 V","Выновносливость V"
+Endurance6,progression,skills,New,"Endurance VI","耐力 VI","Выносливость VI"
+Endurance7,progression,skills,New,"Endurance VII","耐力 VII","Выносливость VII"
+
+Enforcer,progression,skills,New,"Enforcer","执法者","Телохранитель"
+Enforcer0,progression,skills,New,"What you say, goes.","你说的话就是规矩。","Как скажешь, так и будет."
+Enforcer1Desc,progression,skills,New,"Increase your entity damage with stun batons by 12% and an additional 7% chance to knock down enemies.","电击棒的实体伤害增加 12%，击倒敌人的几率额外增加 7%。","Увеличивает урон шоковыми дубинками на 12% и дает дополнительные 7% шанса сбить врага с ног."
+Enforcer2Desc,progression,skills,New,"Increase your entity damage with stun batons by 24% and an additional 14% chance to knock down enemies.","电击棒的实体伤害增加 24%，击倒敌人的几率额外增加 14%。","Увеличивает урон шоковыми дубинками на 24% и дает дополнительные 14% шанса сбить врага с ног."
+Enforcer3Desc,progression,skills,New,"Increase your entity damage with stun batons by 36% and an additional 21% chance to knock down enemies.","电击棒的实体伤害增加 36%，击倒敌人的几率额外增加 21%。","Увеличивает урон шоковыми дубинками на 36% и дает дополнительные 21% шанса сбить врага с ног."
+Enforcer4Desc,progression,skills,New,"Increase your entity damage with stun batons by 48% and an additional 28% chance to knock down enemies.","电击棒的实体伤害增加 48%，击倒敌人的几率额外增加 28%。","Увеличивает урон шоковыми дубинками на 48% и дает дополнительные 28% шанса сбить врага с ног."
+Enforcer5Desc,progression,skills,New,"Increase your entity damage with stun batons by 60% and an additional 35% chance to knock down enemies.","电击棒的实体伤害增加 60%，击倒敌人的几率额外增加 35%。","Увеличивает урон шоковыми дубинками на 60% и дает дополнительные 35% шанса сбить врага с ног."
+Enforcer6Desc,progression,skills,New,"Increase your entity damage with stun batons by 72% and an additional 42% chance to knock down enemies.","电击棒的实体伤害增加 72%，击倒敌人的几率额外增加 42%。","Увеличивает урон шоковыми дубинками на 72% и дает дополнительные 42% шанса сбить врага с ног."
+Enforcer7Desc,progression,skills,New,"'STOP RESISTING!!'\n\nIncrease your entity damage by 100% with stun batons. Also gives you an additional 50% chance to knock down enemies.","“停止抵抗！！”\n\n电击棒的实体伤害增加 100%。同时使击倒敌人的几率额外增加 50%。","«ПЕРЕСТАНЬТЕ СОПРОТИВЛЯТЬСЯ!»\n\nУвеличивает урон шоковыми дубинками на 100%. Также дает дополнительные 50% шанса сбить врага с ног."
+Enforcer1,progression,skills,New,"Enforcer I","执法者 I","Телохранитель I"
+Enforcer2,progression,skills,New,"Enforcer II","执法者 II","Телохранитель II"
+Enforcer3,progression,skills,New,"Enforcer III","执法者 III","Телохранитель III"
+Enforcer4,progression,skills,New,"Enforcer IV","执法者 IV","Телохранитель IV"
+Enforcer5,progression,skills,New,"Enforcer V","执法者 V","Телохранитель V"
+Enforcer6,progression,skills,New,"Enforcer VI","执法者 VI","Телохранитель VI"
+Enforcer7,progression,skills,New,"Enforcer VII","执法者 VII","Телохранитель VII"
+
+Firefighter,progression,skills,New,"Firefighter","消防员","Пожарный"
+Firefighter0,progression,skills,New,"You will fight any fire, be it live or dead.","无论面对的是熊熊烈火还是玩火之徒，你都无所畏惧。","Вы будете сражаться с любым огнем, будь он живым или мертвым."
+Firefighter1Desc,progression,skills,New,"Deal 10% increased damage with axes and have 10% chance to resist environmental fires.","使用斧头造成的伤害提高 10%，且有 10% 的几率免疫环境火焰。","Наносите на 10% больше урона топорами и имеете 10% шанс сопротивления огню в окружающей среде."
+Firefighter2Desc,progression,skills,New,"Deal 20% increased damage with axes and have 20% chance to resist environmental fires.","使用斧头造成的伤害提高 20%，且有 20% 的几率免疫环境火焰。","Наносите на 20% больше урона топорами и имеете 20% шанс сопротивления огню в окружающей среде."
+Firefighter3Desc,progression,skills,New,"Deal 30% increased damage with axes and have 30% chance to resist environmental fires.","使用斧头造成的伤害提高 30%，且有 30% 的几率免疫环境火焰。","Наносите на 30% больше урона топорами и имеете 30% шанс сопротивления огню в окружающей среде."
+Firefighter4Desc,progression,skills,New,"Deal 40% increased damage with axes and have 40% chance to resist environmental fires.","使用斧头造成的伤害提高 40%，且有 40% 的几率免疫环境火焰。","Наносите на 40% больше урона топорами и имеете 40% шанс сопротивления огню в окружающей среде."
+Firefighter5Desc,progression,skills,New,"Deal 50% increased damage with axes and have 50% chance to resist environmental fires.","使用斧头造成的伤害提高 50%，且有 50% 的几率免疫环境火焰。","Наносите на 50% больше урона топорами и имеете 50% шанс сопротивления огню в окружающей среде."
+Firefighter6Desc,progression,skills,New,"Deal 60% increased damage with axes and have 60% chance to resist environmental fires.","使用斧头造成的伤害提高 60%，且有 60% 的几率免疫环境火焰。","Наносите на 60% больше урона топорами и имеете 60% шанс сопротивления огню в окружающей среде."
+Firefighter7Desc,progression,skills,New,"Deal 75% increased damage with axes and have 75% chance to resist environmental fires.","使用斧头造成的伤害提高 75%，且有 75% 的几率免疫环境火焰。","Наносите на 75% больше урона топорами и имеете 75% шанс сопротивления огню в окружающей среде."
+Firefighter1,progression,skills,New,"Firefighter I","消防员 I","Пожарный I"
+Firefighter2,progression,skills,New,"Firefighter II","消防员 II","Пожарный II"
+Firefighter3,progression,skills,New,"Firefighter III","消防员 III","Пожарный III"
+Firefighter4,progression,skills,New,"Firefighter IV","消防员 IV","Пожарный IV"
+Firefighter5,progression,skills,New,"Firefighter V","消防员 V","Пожарный V"
+Firefighter6,progression,skills,New,"Firefighter VI","消防员 VI","Пожарный VI"
+Firefighter7,progression,skills,New,"Firefighter VII","消防员 VII","Пожарный VII"
+
+GoldDigger,progression,skills,New,"Gold Digger","淘金者","Золотоискатель"
+GoldDigger0,progression,skills,New,"You know how and where to dig deep.","你很清楚该如何挖掘，以及从何处深挖。","Ты знаешь, как и где копать глубже."
+GoldDigger1Desc,progression,skills,New,"Harvest 4% more, gain 4% more experience from harvesting. Very rarely find precious metals from stone and ore.","采集数量提高 4%\n经验获取提高 4%\n从矿石、石头、地形块和树木中找到稀有宝物","Собирайте на 4% больше урожая, получайте на 4% больше опыта и находите редкие ценности из руды, камня, блоков местности и деревьев."
+GoldDigger2Desc,progression,skills,New,"Harvest 8% more, gain 8% more experience from harvesting. Very rarely find precious metals from stone and ore.","采集数量提高 8%\n经验获取提高 8%\n从矿石、石头、地形块和树木中找到稀有宝物","Собирайте на 8% больше урожая, получайте на 8% больше опыта и находите редкие ценности из руды, камня, блоков местности и деревьев."
+GoldDigger3Desc,progression,skills,New,"Harvest 12% more, gain 12% more experience from harvesting. Very rarely find precious metals from stone and ore.","采集数量提高 12%\n经验获取提高 12%\n从矿石、石头、地形块和树木中找到稀有宝物","Собирайте на 12% больше урожая, получайте на 12% больше опыта и находите редкие ценности из руды, камня, блоков местности и деревьев."
+GoldDigger4Desc,progression,skills,New,"Harvest 16% more, gain 16% more experience from harvesting. Rarely find precious metals from stone and ore.","采集数量提高 16%\n经验获取提高 16%\n从矿石、石头、地形块和树木中找到稀有宝物","Собирайте на 16% больше урожая, получайте на 16% больше опыта и находите редкие ценности из руды, камня, блоков местности и деревьев."
+GoldDigger5Desc,progression,skills,New,"Harvest 20% more, gain 20% more experience from harvesting. Rarely find precious metals from stone and ore.","采集数量提高 20%\n经验获取提高 20%\n从矿石、石头、地形块和树木中找到稀有宝物","Собирайте на 20% больше урожая, получайте на 20% больше опыта и находите редкие ценности из руды, камня, блоков местности и деревьев."
+GoldDigger6Desc,progression,skills,New,"Harvest 24% more, gain 24% more experience from harvesting. Rarely find precious metals from stone and ore.","采集数量提高 24%\n经验获取提高 24%\n从矿石、石头、地形块和树木中找到稀有宝物","Собирайте на 24% больше урожая, получайте на 24% больше опыта и находите редкие ценности из руды, камня, блоков местности и деревьев."
+GoldDigger7Desc,progression,skills,New,"'Rock and stone!'\n\nHarvest 30% more, gain 30% more experience from harvesting. Occasionally find precious metals from stone and ore.","“岩石和石头！”\n\n采集数量提高 30%\n经验获取提高 30%\n从矿石、石头、地形块和树木中找到稀有宝物","'Скала и камень!'\n\nСобирайте на 30% больше урожая, получайте на 30% больше опыта и находите редкие ценности из руды, камня, блоков местности и деревьев."
+GoldDigger1,progression,skills,New,"Gold Digger I","淘金者 I","Золотоискатель I"
+GoldDigger2,progression,skills,New,"Gold Digger II","淘金者 II","Золотоискатель II"
+GoldDigger3,progression,skills,New,"Gold Digger III","淘金者 III","Золотоискатель III"
+GoldDigger4,progression,skills,New,"Gold Digger IV","淘金者 IV","Золотоискатель IV"
+GoldDigger5,progression,skills,New,"Gold Digger V","淘金者 V","Золотоискатель V"
+GoldDigger6,progression,skills,New,"Gold Digger VI","淘金者 VI","Золотоискатель VI"
+GoldDigger7,progression,skills,New,"Gold Digger VII","淘金者 VII","Золотоискатель VII"
+
+Gyrocopter,progression,skills,New,"Wingman","僚机","Ведомый"
+Gyrocopter0,progression,skills,New,"You could easily get a private pilot license if the world didn't end.","如果世界没有毁灭，你本可以轻而易举地拿到私人飞行执照。","Вы могли бы легко получить лицензию частного пилота, если бы мир не погиб."
+Gyrocopter1Desc,progression,skills,New,"The Gyrocopter is 7% faster, but uses 7% more fuel.","旋翼机速度提升 7%，但油耗增加 7%。","Гирокоптер на 7% быстрее, но потребляет на 7% больше топлива."
+Gyrocopter2Desc,progression,skills,New,"The Gyrocopter is 14% faster, but uses 14% more fuel.","旋翼机速度提升 14%，但油耗增加 14%。","Гирокоптер на 14% быстрее, но потребляет на 14% больше топлива."
+Gyrocopter3Desc,progression,skills,New,"The Gyrocopter is 21% faster, but uses 21% more fuel.","旋翼机速度提升 21%，但油耗增加 21%。","Гирокоптер на 21% быстрее, но потребляет на 21% больше топлива."
+Gyrocopter4Desc,progression,skills,New,"The Gyrocopter is 28% faster, but uses 28% more fuel.","旋翼机速度提升 28%，但油耗增加 28%。","Гирокоптер на 28% быстрее, но потребляет на 28% больше топлива."
+Gyrocopter5Desc,progression,skills,New,"The Gyrocopter is 35% faster, but uses 35% more fuel.","旋翼机速度提升 35%，但油耗增加 35%。","Гирокоптер на 35% быстрее, но потребляет на 35% больше топлива."
+Gyrocopter6Desc,progression,skills,New,"The Gyrocopter is 42% faster, but uses 42% more fuel.","旋翼机速度提升 42%，但油耗增加 42%。","Гирокоптер на 42% быстрее, но потребляет на 42% больше топлива."
+Gyrocopter7Desc,progression,skills,New,"'What's the flight plan?'\n\nThe Gyrocopter is 50% faster, but uses 50% more fuel.","“飞行计划是什么？”\n\n旋翼机速度提升 50%，但油耗增加 50%。","«Какой план полета?»\n\nГирокоптер на 50% быстрее, но потребляет на 50% больше топлива."
+Gyrocopter1,progression,skills,New,"Wingman I","僚机 I","Ведомый I"
+Gyrocopter2,progression,skills,New,"Wingman II","僚机 II","Ведомый II"
+Gyrocopter3,progression,skills,New,"Wingman III","僚机 III","Ведомый III"
+Gyrocopter4,progression,skills,New,"Wingman IV","僚机 IV","Ведомый IV"
+Gyrocopter5,progression,skills,New,"Wingman V","僚机 V","Ведомый V"
+Gyrocopter6,progression,skills,New,"Wingman VI","僚机 VI","Ведомый VI"
+Gyrocopter7,progression,skills,New,"Wingman VII","僚机 VII","Ведомый VII"
+
+Hammerer,progression,skills,New,"Hammerer","锤击者","Молотобоец"
+Hammerer0,progression,skills,New,"You definitely know how to destroy things.","你绝对知道该如何破坏。","Уж ты-то точно знаешь, как всё разнести."
+Hammerer1Desc,progression,skills,New,"Increase your entity damage with sledgehammers by 12% and block damage by 20%.","使用大锤时，你的实体伤害增加 12%，物块伤害增加 20%。","Увеличивает урон от кувалд по существам на 12% и урон по блокам на 20%."
+Hammerer2Desc,progression,skills,New,"Increase your entity damage with sledgehammers by 24% and block damage by 40%.","使用大锤时，你的实体伤害增加 24%，物块伤害增加 40%。","Увеличивает урон от кувалд по существам на 24% и урон по блокам на 40%."
+Hammerer3Desc,progression,skills,New,"Increase your entity damage with sledgehammers by 36% and block damage by 60%.","使用大锤时，你的实体伤害增加 36%，物块伤害增加 60%。","Увеличивает урон от кувалд по существам на 36% и урон по блокам на 60%."
+Hammerer4Desc,progression,skills,New,"Increase your entity damage with sledgehammers by 48% and block damage by 80%.","使用大锤时，你的实体伤害增加 48%，物块伤害增加 80%。","Увеличивает урон от кувалд по существам на 48% и урон по блокам на 80%."
+Hammerer5Desc,progression,skills,New,"Increase your entity damage with sledgehammers by 60% and block damage by 100%.","使用大锤时，你的实体伤害增加 60%，物块伤害增加 100%。","Увеличивает урон от кувалд по существам на 60% и урон по блокам на 100%."
+Hammerer6Desc,progression,skills,New,"Increase your entity damage with sledgehammers by 72% and block damage by 120%.","使用大锤时，你的实体伤害增加 72%，物块伤害增加 120%。","Увеличивает урон от кувалд по существам на 72% и урон по блокам на 120%."
+Hammerer7Desc,progression,skills,New,"You are Bob the Builder's evil twin brother, Bobo the Destroyer!\n\nIncrease your entity damage with sledgehammers by 75% and block damage by 150%.","你是建筑工巴布的邪恶孪生兄弟，破坏者波波！\n使用大锤时，你的实体伤害增加 75%，物块伤害增加 150%。","Вы — злой брат-близнец Боба-строителя, Бобо-Разрушитель!\n\nУвеличьте урон от кувалд по существам на 75%, а урон по блокам — на 150%."
+Hammerer1,progression,skills,New,"Hammerer I","锤击者 I","Молотобоец I"
+Hammerer2,progression,skills,New,"Hammerer II","锤击者 II","Молотобоец II"
+Hammerer3,progression,skills,New,"Hammerer III","锤击者 III","Молотобоец III"
+Hammerer4,progression,skills,New,"Hammerer IV","锤击者 IV","Молотобоец IV"
+Hammerer5,progression,skills,New,"Hammerer V","锤击者 V","Молотобоец V"
+Hammerer6,progression,skills,New,"Hammerer VI","锤击者 VI","Молотобоец VI"
+Hammerer7,progression,skills,New,"Hammerer VII","锤击者 VII","Молотобоец VII"
+
+Handyman,progression,skills,New,"Handyman","工匠","Мастер на все руки"
+Handyman0,progression,skills,New,"You deal more damage to blocks and work faster.","你对方块造成的伤害增加，且工作速度更快。","Вы наносите больше урона блокам и работаете быстрее."
+Handyman1Desc,progression,skills,New,"Increase tool and block damage by 10%. Decrease the damage you receive through falling blocks by 7% while wearing tools.","工具与方块伤害提高 10%。装备工具时，受到的坠落方块伤害降低 7%。","Увеличивает урон инструментами и урон по блокам на 10%. Урон от падающих блоков снижен на 7%, пока в руках инструмент."
+Handyman2Desc,progression,skills,New,"Increase tool and block damage by 20%. Decrease the damage you receive through falling blocks by 14% while wearing tools.","工具与方块伤害提高 20%。装备工具时，受到的坠落方块伤害降低 14%。","Увеличивает урон инструментами и урон по блокам на 20%. Урон от падающих блоков снижен на 14%, пока в руках инструмент."
+Handyman3Desc,progression,skills,New,"Increase tool and block damage by 30%. Decrease the damage you receive through falling blocks by 21% while wearing tools.","工具与方块伤害提高 30%。装备工具时，受到的坠落方块伤害降低 21%。","Увеличивает урон инструментами и урон по блокам на 30%. Урон от падающих блоков снижен на 21%, пока в руках инструмент."
+Handyman4Desc,progression,skills,New,"Increase tool and block damage by 40%. Decrease the damage you receive through falling blocks by 28% while wearing tools.","工具与方块伤害提高 40%。装备工具时，受到的坠落方块伤害降低 28%。","Увеличивает урон инструментами и урон по блокам на 40%. Урон от падающих блоков снижен на 28%, пока в руках инструмент."
+Handyman5Desc,progression,skills,New,"Increase tool and block damage by 50%. Decrease the damage you receive through falling blocks by 35% while wearing tools.","工具与方块伤害提高 50%。装备工具时，受到的坠落方块伤害降低 35%。","Увеличивает урон инструментами и урон по блокам на 50%. Урон от падающих блоков снижен на 35%, пока в руках инструмент."
+Handyman6Desc,progression,skills,New,"Increase tool and block damage by 60%. Decrease the damage you receive through falling blocks by 42% while wearing tools.","工具与方块伤害提高 60%。装备工具时，受到的坠落方块伤害降低 42%。","Увеличивает урон инструментами и урон по блокам на 60%. Урон от падающих блоков снижен на 42%, пока в руках инструмент."
+Handyman7Desc,progression,skills,New,"You are your friend's wife's handyman.\n\nIncrease tool and block damage by 75%. Decrease the damage you receive through falling blocks by 50% while wearing tools.","你是你朋友妻子的“杂工”。\n\n工具与方块伤害提高 75%。装备工具时，受到的坠落方块伤害降低 50%。","Вы — «мастер на все руки» для жены вашего друга.\n\nУвеличивает урон инструментами и урон по блокам на 75%. Урон от падающих блоков снижен на 50%, пока в руках инструмент."
+Handyman1,progression,skills,New,"Handyman I","工匠 I","Мастер на все руки I"
+Handyman2,progression,skills,New,"Handyman II","工匠 II","Мастер на все руки II"
+Handyman3,progression,skills,New,"Handyman III","工匠 III","Мастер на все руки III"
+Handyman4,progression,skills,New,"Handyman IV","工匠 IV","Мастер на все руки IV"
+Handyman5,progression,skills,New,"Handyman V","工匠 V","Мастер на все руки V"
+Handyman6,progression,skills,New,"Handyman VI","工匠 VI","Мастер на все руки VI"
+Handyman7,progression,skills,New,"Handyman VII","工匠 VII","Мастер на все руки VII"
+
+Jugger,progression,skills,New,"Juggernaut","主宰者","Джаггернаут"
+Jugger0,progression,skills,New,"Nothing stops the Juggernaut.","没什么能挡住主宰者的脚步。","Ничто не остановит Джаггернаута."
+Jugger1Desc,progression,skills,New,"Increase your Damage Resistance by 3% while wearing a full set of Heavy Armor.","穿着全套重甲时，伤害减免提高 3%。","Повышает сопротивление урону на 3%, если на вас надет полный комплект тяжелой брони."
+Jugger2Desc,progression,skills,New,"Increase your Damage Resistance by 6% while wearing a full set of Heavy Armor.","穿着全套重甲时，伤害减免提高 6%。","Повышает сопротивление урону на 6%, если на вас надет полный комплект тяжелой брони."
+Jugger3Desc,progression,skills,New,"Increase your Damage Resistance by 9% while wearing a full set of Heavy Armor.","穿着全套重甲时，伤害减免提高 9%。","Повышает сопротивление урону на 9%, если на вас надет полный комплект тяжелой брони."
+Jugger4Desc,progression,skills,New,"Increase your Damage Resistance by 12% while wearing a full set of Heavy Armor.","穿着全套重甲时，伤害减免提高 12%。","Повышает сопротивление урону на 12%, если на вас надет полный комплект тяжелой брони."
+Jugger5Desc,progression,skills,New,"Increase your Damage Resistance by 15% while wearing a full set of Heavy Armor.","穿着全套重甲时，伤害减免提高 15%。","Повышает сопротивление урону on 15%, если на вас надет полный комплект тяжелой брони."
+Jugger6Desc,progression,skills,New,"Increase your Damage Resistance by 18% while wearing a full set of Heavy Armor.","穿着全套重甲时，伤害减免提高 18%。","Повышает сопротивление урону на 18%, если на вас надет полный комплект тяжелой брони."
+Jugger7Desc,progression,skills,New,"'Sticks and stones will break my bones, but tanks will never hurt me.'\n\nIncrease your Damage Resistance by 25% while wearing a full set of Heavy Armor.","'棍棒和石头会打断我的骨头，但坦克永远伤不了我。'\n\n穿着全套重甲时，伤害减免提高 25%。","'Палки и камни сломают мне кости, но танки никогда не повредят мне.'\n\nПовышает сопротивление урону на 25%, если на вас надет полный комплект тяжелой брони."
+Jugger1,progression,skills,New,"Juggernaut I","主宰者 I","Джаггернаут I"
+Jugger2,progression,skills,New,"Juggernaut II","主宰者 II","Джаггернаут II"
+Jugger3,progression,skills,New,"Juggernaut III","主宰者 III","Джаггернаут III"
+Jugger4,progression,skills,New,"Juggernaut IV","主宰者 IV","Джаггернаут IV"
+Jugger5,progression,skills,New,"Juggernaut V","主宰者 V","Джаггернаут V"
+Jugger6,progression,skills,New,"Juggernaut VI","主宰者 VI","Джаггернаут VI"
+Jugger7,progression,skills,New,"Juggernaut VII","主宰者 VII","Джаггернаут VII"
+
+LootGobbo,progression,skills,New,"Loot Gobbo","战利品哥布林","Лут Гоббо"
+LootGobbo0,progression,skills,New,"You just know where the precious treasures lie.","你就是知道那些珍贵的宝藏藏在何处。","Ты просто знаешь, где лежат самые ценные сокровища."
+LootGobbo1Desc,progression,skills,New,"Adds 3% to loot bonus and quantity. Looting is 1.2% faster.","战利品奖励和数量增加3%\n搜刮速度提高1.2%","Добавляет 3% к бонусу и количеству лута. Лутание происходит на 1.2% быстрее."
+LootGobbo2Desc,progression,skills,New,"Adds 6% to loot bonus and quantity. Looting is 2.4% faster.","战利品奖励和数量增加6%\n搜刮速度提高2.4%","Добавляет 6% к бонусу и количеству лута. Лутание происходит на 2.4% быстрее."
+LootGobbo3Desc,progression,skills,New,"Adds 9% to loot bonus and quantity. Looting is 3.6% faster.","战利品奖励和数量增加9%\n搜刮速度提高3.6%","Добавляет 9% к бонусу и количеству лута. Лутание происходит на 3.6% быстрее."
+LootGobbo4Desc,progression,skills,New,"Adds 12% to loot bonus and quantity. Looting is 4.8% faster.","战利品奖励和数量增加12%\n搜刮速度提高4.8%","Добавляет 12% к бонусу и количеству лута. Лутание происходит на 4.8% быстрее."
+LootGobbo5Desc,progression,skills,New,"Adds 15% to loot bonus and quantity. Looting is 6% faster.","战利品奖励和数量增加15%\n搜刮速度提高6%","Добавляет 15% к бонусу и количеству лута. Лутание происходит на 6% быстрее."
+LootGobbo6Desc,progression,skills,New,"Adds 18% to loot bonus and quantity. Looting is 7.2% faster.","战利品奖励和数量增加18%\n搜刮速度提高7.2%","Добавляет 18% к бонусу и количеству лута. Лутание происходит на 7.2% быстрее."
+LootGobbo7Desc,progression,skills,New,"'WE IS BETTER THAN THEM!!'\n\nAdds 25% to loot bonus and quantity. Looting is 10% faster.","“我们比他们强！！”\n战利品奖励和数量增加25%\n搜刮速度提高10%","'МЫ ЛУЧШЕ, ЧЕМ ОНИ!!!'\nДобавляет 25% к бонусу и количеству лута. Лутание становится на 10% быстрее."
+LootGobbo1,progression,skills,New,"Loot Gobbo I","战利品哥布林 I","Лут Гоббо I"
+LootGobbo2,progression,skills,New,"Loot Gobbo II","战利品哥布林 II","Лут Гоббо II"
+LootGobbo3,progression,skills,New,"Loot Gobbo III","战利品哥布林 III","Лут Гоббо III"
+LootGobbo4,progression,skills,New,"Loot Gobbo IV","战利品哥布林 IV","Лут Гоббо IV"
+LootGobbo5,progression,skills,New,"Loot Gobbo V","战利品哥布林 V","Лут Гоббо V"
+LootGobbo6,progression,skills,New,"Loot Gobbo VI","战利品哥布林 VI","Лут Гоббо VI"
+LootGobbo7,progression,skills,New,"Loot Gobbo VII","战利品哥布林 VII","Лут Гоббо VII"
+
+Marine,progression,skills,New,"Marine","海军陆战队","Морпех"
+Marine0,progression,skills,New,"You did your time in the army.","你在军队中服过役。","Ты отдал свой долг армии."
+Marine1Desc,progression,skills,New,"Increase your entity damage, weapon handling and reload speed with machine guns by 7%.","机枪的实体伤害、武器操控和装填速度增加 7%。","Увеличивает урон, удобство обращения и скорость перезарядки пулеметов на 7%."
+Marine2Desc,progression,skills,New,"Increase your entity damage, weapon handling and reload speed with machine guns by 14%.","机枪的实体伤害、武器操控和装填速度增加 14%。","Увеличивает урон, удобство обращения и скорость перезарядки пулеметов на 14%."
+Marine3Desc,progression,skills,New,"Increase your entity damage, weapon handling and reload speed with machine guns by 21%.","机枪的实体伤害、武器操控和装填速度增加 21%。","Увеличивает урон, удобство обращения и скорость перезарядки пулеметов на 21%."
+Marine4Desc,progression,skills,New,"Increase your entity damage, weapon handling and reload speed with machine guns by 28%.","机枪的实体伤害、武器操控和装填速度增加 28%。","Увеличивает урон, удобство обращения и скорость перезарядки пулеметов на 28%."
+Marine5Desc,progression,skills,New,"Increase your entity damage, weapon handling and reload speed with machine guns by 35%.","机枪的实体伤害、武器操控和装填速度增加 35%。","Увеличивает урон, удобство обращения и скорость перезарядки пулеметов на 35%."
+Marine6Desc,progression,skills,New,"Increase your entity damage, weapon handling and reload speed with machine guns by 42%.","机枪的实体伤害、武器操控和装填速度增加 42%。","Увеличивает урон, удобство обращения и скорость перезарядки пулеметов на 42%."
+Marine7Desc,progression,skills,New,"'Live For Nothing, Or Die For Something.'\n\nIncrease your entity damage, weapon handling and reload speed with machine guns by 50%.","“苟且偷生，或是为何而死。”\n\n机枪的实体伤害、武器操控和装填速度增加 50%。","«Жить ради ничего или умереть ради чего-то».\n\nУвеличивает урон, удобство обращения и скорость перезарядки пулеметов на 50%."
+Marine1,progression,skills,New,"Marine I","海军陆战队 I","Морпех I"
+Marine2,progression,skills,New,"Marine II","海军陆战队 II","Морпех II"
+Marine3,progression,skills,New,"Marine III","海军陆战队 III","Морпех III"
+Marine4,progression,skills,New,"Marine IV","海军陆战队 IV","Морпех IV"
+Marine5,progression,skills,New,"Marine V","海军陆战队 V","Морпех V"
+Marine6,progression,skills,New,"Marine VI","海军陆战队 VI","Морпех VI"
+Marine7,progression,skills,New,"Marine VII","海军陆战队 VII","Морпех VII"
+
+MartialArts,progression,skills,New,"Martial Arts","武术","Боевые искусства"
+MartialArts0,progression,skills,New,"You always had a thing for Martial Arts, now is the prime time to use them.","你一直对武术情有独钟，现在正是派上用场的大好时机。","Тебя всегда тянуло к боевым искусствам, и сейчас самое время пустить их в ход."
+MartialArts1Desc,progression,skills,New,"Increase your chance to explode heads by 1.2% and your attack and movement speed with fists and knuckles by 2%.","爆头几率增加 1.2%，拳头和指节的攻击及移动速度提高 2%。","Увеличивает шанс разрыва головы на 1.2%, а скорость атаки и передвижения с кулаками и кастетами — на 2%."
+MartialArts2Desc,progression,skills,New,"Increase your chance to explode heads by 2.4% and your attack and movement speed with fists and knuckles by 4%.","爆头几率增加 2.4%，拳头和指节的攻击及移动速度提高 4%。","Увеличивает шанс разрыва головы на 2.4%, а скорость атаки и передвижения с кулаками и кастетами — на 4%."
+MartialArts3Desc,progression,skills,New,"Increase your chance to explode heads by 3.6% and your attack and movement speed with fists and knuckles by 6%.","爆头几率增加 3.6%，拳头和指节的攻击及移动速度提高 6%。","Увеличивает шанс разрыва головы на 3.6%, а скорость атаки и передвижения с кулаками и кастетами — на 6%."
+MartialArts4Desc,progression,skills,New,"Increase your chance to explode heads by 4.8% and your attack and movement speed with fists and knuckles by 8%.","爆头几率增加 4.8%，拳头和指节的攻击及移动速度提高 8%。","Увеличивает шанс разрыва головы на 4.8%, а скорость атаки и передвижения с кулаками и кастетами — на 8%."
+MartialArts5Desc,progression,skills,New,"Increase your chance to explode heads by 6% and your attack and movement speed with fists and knuckles by 10%.","爆头几率增加 6%，拳头和指节的攻击及移动速度提高 10%。","Увеличивает шанс разрыва головы на 6%, а скорость атаки и передвижения с кулаками и кастетами — на 10%."
+MartialArts6Desc,progression,skills,New,"Increase your chance to explode heads by 7.2% and your attack and movement speed with fists and knuckles by 12%.","爆头几率增加 7.2%，拳头和指节的攻击及移动速度提高 12%。","Увеличивает шанс разрыва головы на 7.2%, а скорость атаки и передвижения с кулаками и кастетами — на 12%."
+MartialArts7Desc,progression,skills,New,"You are the Fist of the North Star.\n\nIncrease your chance to explode heads by 10% and your attack and movement speed with fists and knuckles by 15%.","你是北斗神拳。\n\n爆头几率增加 10%，拳头和指节的攻击及移动速度提高 15%。","Вы — Кулак Полярной звезды.\n\nУвеличивает шанс разрыва головы на 10%, а скорость атаки и передвижения с кулаками и кастетами — на 15%."
+MartialArts1,progression,skills,New,"Martial Arts I","武术 I","Боевые искусства I"
+MartialArts2,progression,skills,New,"Martial Arts II","武术 II","Боевые искусства II"
+MartialArts3,progression,skills,New,"Martial Arts III","武术 III","Боевые искусства III"
+MartialArts4,progression,skills,New,"Martial Arts IV","武术 IV","Боевые искусства IV"
+MartialArts5,progression,skills,New,"Martial Arts V","武术 V","Боевые искусства V"
+MartialArts6,progression,skills,New,"Martial Arts VI","武术 VI","Боевые искусства VI"
+MartialArts7,progression,skills,New,"Martial Arts VII","武术 VII","Боевые искусства VII"
+
+Memorisation,progression,skills,New,"Memorisation","记忆力","Запоминание"
+Memorisation0,progression,skills,New,"You are mastering the mnemonic method of memorisation. You are earning experience faster.","你正在学习记忆的方法,你可以更快地获得经验","Вы осваиваете мнемонический метод запоминания. Вы быстрее зарабатываете опыт."
+Memorisation1Desc,progression,skills,New,"Increase your earned experience by 4%.","你获得的经验提高4%","Увеличьте заработанный опыт на 4%."
+Memorisation2Desc,progression,skills,New,"Increase your earned experience by 8%.","你获得的经验提高8%","Увеличьте заработанный опыт на 8%."
+Memorisation3Desc,progression,skills,New,"Increase your earned experience by 12%.","你获得的经验提高12%","Увеличьте заработанный опыт на 12%."
+Memorisation4Desc,progression,skills,New,"Increase your earned experience by 16%.","你获得的经验提高16%","Увеличьте заработанный опыт на 16%."
+Memorisation5Desc,progression,skills,New,"Increase your earned experience by 20%.","你获得的经验提高20%","Увеличьте заработанный опыт на 20%."
+Memorisation6Desc,progression,skills,New,"Increase your earned experience by 24%.","你获得的经验提高24%","Увеличьте заработанный опыт на 24%."
+Memorisation7Desc,progression,skills,New,"Your memorisation rivals that of Magnus Carlsen.\n\nIncrease your earned experience by 30%.","你的记忆力可以与马格努斯·卡尔森相媲美\n你获得的经验提高30%","Ваша память не уступает памяти Магнуса Карлсена.\nУвеличьте заработанный опыт на 30%."
+Memorisation1,progression,skills,New,"Memorisation I","记忆力 I","Запоминание I"
+Memorisation2,progression,skills,New,"Memorisation II","记忆力 II","Запоминание II"
+Memorisation3,progression,skills,New,"Memorisation III","记忆力 III","Запоминание III"
+Memorisation4,progression,skills,New,"Memorisation IV","记忆力 IV","Запоминание IV"
+Memorisation5,progression,skills,New,"Memorisation V","记忆力 V","Запоминание V"
+Memorisation6,progression,skills,New,"Memorisation VI","记忆力 VI","Запоминание VI"
+Memorisation7,progression,skills,New,"Memorisation VII","记忆力 VII","Запоминание VII"
+
+Minibiker,progression,skills,New,"Ol' Reliable","老伙计","Старый добрый"
+Minibiker0,progression,skills,New,"You are mastering the art of Minibike modification.","你正在掌握小摩托改装的艺术。","Вы осваиваете искусство модификации минибайков."
+Minibiker1Desc,progression,skills,New,"Minibikes take 8% less damage and use 8% less fuel.","小摩托受到的伤害减少 8%，油耗降低 8%。","Минибайки получают на 8% меньше урона и потребляют на 8% меньше топлива."
+Minibiker2Desc,progression,skills,New,"Minibikes take 16% less damage and use 16% less fuel.","小摩托受到的伤害减少 16%，油耗降低 16%。","Минибайки получают на 16% меньше урона и потребляют на 16% меньше топлива."
+Minibiker3Desc,progression,skills,New,"Minibikes take 24% less damage and use 24% less fuel.","小摩托受到的伤害减少 24%，油耗降低 24%。","Минибайки получают на 24% меньше урона и потребляют на 24% меньше топлива."
+Minibiker4Desc,progression,skills,New,"Minibikes take 32% less damage and use 32% less fuel.","小摩托受到的伤害减少 32%，油耗降低 32%。","Минибайки получают на 32% меньше урона и потребляют на 32% меньше топлива."
+Minibiker5Desc,progression,skills,New,"Minibikes take 40% less damage and use 40% less fuel.","小摩托受到的伤害减少 40%，油耗降低 40%。","Минибайки получают на 40% меньше урона и потребляют на 40% меньше топлива."
+Minibiker6Desc,progression,skills,New,"Minibikes take 48% less damage and use 48% less fuel.","小摩托受到的伤害减少 48%，油耗降低 48%。","Минибайки получают на 48% меньше урона и потребляют на 48% меньше топлива."
+Minibiker7Desc,progression,skills,New,"'Built to last.'\n\nMinibikes take 60% less damage and use 60% less fuel.","“经久耐用。”\n\n小摩托受到的伤害减少 60%，油耗降低 60%。","«Построено на совесть».\n\nМинибайки получают на 60% меньше урона и потребляют на 60% меньше топлива."
+Minibiker1,progression,skills,New,"Ol' Reliable I","老伙计 I","Старый добрый I"
+Minibiker2,progression,skills,New,"Ol' Reliable II","老伙计 II","Старый добрый II"
+Minibiker3,progression,skills,New,"Ol' Reliable III","老伙计 III","Старый добрый III"
+Minibiker4,progression,skills,New,"Ol' Reliable IV","老伙计 IV","Старый добрый IV"
+Minibiker5,progression,skills,New,"Ol' Reliable V","老伙计 V","Старый добрый V"
+Minibiker6,progression,skills,New,"Ol' Reliable VI","老伙计 VI","Старый добрый VI"
+Minibiker7,progression,skills,New,"Ol' Reliable VII","老伙计 VII","Старый добрый VII"
+
+Monstertruck,progression,skills,New,"Monster Truck","大脚车","Монстр-трак"
+Monstertruck0,progression,skills,New,"You can finally build and own THE Monster Truck.","你终于可以建造并拥有那辆大脚车了。","Вы наконец-то можете построить и владеть ТЕМ САМЫМ Монстр-траком."
+Monstertruck1Desc,progression,skills,New,"The Truck deals 14% more damage and takes 5% less damage.","卡车造成的伤害增加 14%，受到的伤害减少 5%。","Трак наносит на 14% больше урона и получает на 5% меньше урона."
+Monstertruck2Desc,progression,skills,New,"The Truck deals 28% more damage and takes 10% less damage.","卡车造成的伤害增加 28%，受到的伤害减少 10%。","Трак наносит на 28% больше урона и получает на 10% меньше урона."
+Monstertruck3Desc,progression,skills,New,"The Truck deals 42% more damage and takes 15% less damage.","卡车造成的伤害增加 42%，受到的伤害减少 15%。","Трак наносит на 42% больше урона и получает на 15% меньше урона."
+Monstertruck4Desc,progression,skills,New,"The Truck deals 56% more damage and takes 20% less damage.","卡车造成的伤害增加 56%，受到的伤害减少 20%。","Трак наносит на 56% больше урона и получает на 20% меньше урона."
+Monstertruck5Desc,progression,skills,New,"The Truck deals 70% more damage and takes 25% less damage.","卡车造成的伤害增加 70%，受到的伤害减少 25%。","Трак наносит на 70% больше урона и получает на 25% меньше урона."
+Monstertruck6Desc,progression,skills,New,"The Truck deals 84% more damage and takes 30% less damage.","卡车造成的伤害增加 84%，受到的伤害减少 30%。","Трак наносит на 84% больше урона и получает на 30% меньше урона."
+Monstertruck7Desc,progression,skills,New,"'I don't have friends, I got family.'\n\nThe Truck deals 100% more damage and takes 35% less damage.","“我没有朋友，我只有家人。”\n\n卡车造成的伤害增加 100%，受到的伤害减少 35%。","«У меня нет друзей, у меня есть семья».\n\nТрак наносит на 100% больше урона и получает на 35% меньше урона."
+Monstertruck1,progression,skills,New,"Monster Truck I","大脚车 I","Монстр-трак I"
+Monstertruck2,progression,skills,New,"Monster Truck II","大脚车 II","Монстр-трак II"
+Monstertruck3,progression,skills,New,"Monster Truck III","大脚车 III","Монстр-трак III"
+Monstertruck4,progression,skills,New,"Monster Truck IV","大脚车 IV","Монстр-трак IV"
+Monstertruck5,progression,skills,New,"Monster Truck V","大脚车 V","Монстр-трак V"
+Monstertruck6,progression,skills,New,"Monster Truck VI","大脚车 VI","Монстр-трак VI"
+Monstertruck7,progression,skills,New,"Monster Truck VII","大脚车 VII","Монстр-трак VII"
+
+Motorhead,progression,skills,New,"Motorhead","摩托头","Моторхед"
+Motorhead0,progression,skills,New,"You are mastering the art of motorcycle modification.","你正在掌握摩托车改装的艺术。","Вы осваиваете искусство модификации мотоциклов."
+Motorhead1Desc,progression,skills,New,"Motorcycles are 10% faster, but use 5% more fuel.","摩托车速度提升 10%，但油耗增加 5%。","Мотоциклы на 10% быстрее, но потребляют на 5% больше топлива."
+Motorhead2Desc,progression,skills,New,"Motorcycles are 20% faster, but use 10% more fuel.","摩托车速度提升 20%，但油耗增加 10%。","Мотоциклы на 20% быстрее, но потребляют на 10% больше топлива."
+Motorhead3Desc,progression,skills,New,"Motorcycles are 30% faster, but use 15% more fuel.","摩托车速度提升 30%，但油耗增加 15%。","Мотоциклы на 30% быстрее, но потребляют на 15% больше топлива."
+Motorhead4Desc,progression,skills,New,"Motorcycles are 40% faster, but use 20% more fuel.","摩托车速度提升 40%，但油耗增加 20%。","Мотоциклы на 40% быстрее, но потребляют на 20% больше топлива."
+Motorhead5Desc,progression,skills,New,"Motorcycles are 50% faster, but use 25% more fuel.","摩托车速度提升 50%，但油耗增加 25%。","Мотоциклы на 50% быстрее, но потребляют на 25% больше топлива."
+Motorhead6Desc,progression,skills,New,"Motorcycles are 60% faster, but use 30% more fuel.","摩托车速度提升 60%，但油耗增加 30%。","Мотоциклы на 60% быстрее, но потребляют на 30% больше топлива."
+Motorhead7Desc,progression,skills,New,"'Two wheels move the soul.'\n\nMotorcycles are 75% faster, but use 35% more fuel.","“两轮驱动灵魂。”\n\n摩托车速度提升 75%，但油耗增加 35%。","«Два колеса движут душой».\n\nМотоциклы на 75% быстрее, но потребляют на 35% больше топлива."
+Motorhead1,progression,skills,New,"Motorhead I","摩托头 I","Моторхед I"
+Motorhead2,progression,skills,New,"Motorhead II","摩托头 II","Моторхед II"
+Motorhead3,progression,skills,New,"Motorhead III","摩托头 III","Моторхед III"
+Motorhead4,progression,skills,New,"Motorhead IV","摩托头 IV","Моторхед IV"
+Motorhead5,progression,skills,New,"Motorhead V","摩托头 V","Моторхед V"
+Motorhead6,progression,skills,New,"Motorhead VI","摩托头 VI","Моторхед VI"
+Motorhead7,progression,skills,New,"Motorhead VII","摩托头 VII","Моторхед VII"
+
+ParanormalBulletivities,progression,skills,New,"Paranormal Bulletivities","超自然弹道","Сверхъестественная баллистика"
+ParanormalBulletivities0,progression,skills,New,"You fire with such conviction that sometimes bullets deal extra damage!","你的射击信念如此坚定，以至于子弹有时会造成额外伤害！","Вы стреляете с такой уверенностью, что иногда пули наносят дополнительный урон!"
+ParanormalBulletivities1Desc,progression,skills,New,"Every time you shoot you have a 4% chance to deal 200% increased damage.","每次射击时，你有 4% 的几率造成 200% 的额外伤害。","При каждом выстреле у вас есть 4% шанс нанести на 200% больше урона."
+ParanormalBulletivities2Desc,progression,skills,New,"Every time you shoot you have a 8% chance to deal 200% increased damage.","每次射击时，你有 8% 的几率造成 200% 的额外伤害。","При каждом выстреле у вас есть 8% шанс нанести на 200% больше урона."
+ParanormalBulletivities3Desc,progression,skills,New,"Every time you shoot you have a 12% chance to deal 200% increased damage.","每次射击时，你有 12% 的几率造成 200% 的额外伤害。","При каждом выстреле у вас есть 12% шанс нанести на 200% больше урона."
+ParanormalBulletivities4Desc,progression,skills,New,"Every time you shoot you have a 16% chance to deal 200% increased damage.","每次射击时，你有 16% 的几率造成 200% 的额外伤害。","При каждом выстреле у вас есть 16% шанс нанести на 200% больше урона."
+ParanormalBulletivities5Desc,progression,skills,New,"Every time you shoot you have a 20% chance to deal 200% increased damage.","每次射击时，你有 20% 的几率造成 200% 的额外伤害。","При каждом выстреле у вас есть 20% шанс нанести на 200% больше урона."
+ParanormalBulletivities6Desc,progression,skills,New,"Every time you shoot you have a 24% chance to deal 200% increased damage.","每次射击时，你有 24% 的几率造成 200% 的额外伤害。","При каждом выстреле у вас есть 24% шанс нанести на 200% больше урона."
+ParanormalBulletivities7Desc,progression,skills,New,"Every time you shoot you have a 30% chance to deal 200% increased damage.","每次射击时，你有 30% 的几率造成 200% 的额外伤害。","При каждом выстреле у вас есть 30% шанс нанести на 200% больше урона."
+ParanormalBulletivities1,progression,skills,New,"Paranormal Bulletivities I","超自然弹道 I","Сверхъестественная баллистика I"
+ParanormalBulletivities2,progression,skills,New,"Paranormal Bulletivities II","超自然弹道 II","Сверхъестественная баллистика II"
+ParanormalBulletivities3,progression,skills,New,"Paranormal Bulletivities III","超自然弹道 III","Сверхъестественная баллистика III"
+ParanormalBulletivities4,progression,skills,New,"Paranormal Bulletivities IV","超自然弹道 IV","Сверхъестественная баллистика IV"
+ParanormalBulletivities5,progression,skills,New,"Paranormal Bulletivities V","超自然弹道 V","Сверхъестественная баллистика V"
+ParanormalBulletivities6,progression,skills,New,"Paranormal Bulletivities VI","超自然弹道 VI","Сверхъестественная баллистика VI"
+ParanormalBulletivities7,progression,skills,New,"Paranormal Bulletivities VII","超自然弹道 VII","Сверхъестественная баллистика VII"
+
+Petrolhead,progression,skills,New,"Petrolhead","汽油脑袋","Бензиновая голова"
+Petrolhead0,progression,skills,New,"The smell of gasoline is a breath of fresh air for you.","汽油味对你来说就是新鲜空气。","Запах бензина для вас — как глоток свежего воздуха."
+Petrolhead1Desc,progression,skills,New,"You find 14% more gas in loot, 7% more from scrapping and all vehicles that run on gas go 2% faster.","你在搜刮时能多发现 14% 的汽油，拆解时多获得 7%，且所有燃油载具的速度提升 2%。","Вы находите на 14% больше бензина в трофеях, на 7% больше при разборке, а все бензиновые транспортные средства движутся на 2% быстрее."
+Petrolhead2Desc,progression,skills,New,"You find 28% more gas in loot, 14% more from scrapping and all vehicles that run on gas go 4% faster.","你在搜刮时能多发现 28% 的汽油，拆解时多获得 14%，且所有燃油载具的速度提升 4%。","Вы находите на 28% больше бензина в трофеях, на 14% больше при разборке, а все бензиновые транспортные средства движутся на 4% быстрее."
+Petrolhead3Desc,progression,skills,New,"You find 42% more gas in loot, 21% more from scrapping and all vehicles that run on gas go 6% faster.","你在搜刮时能多发现 42% 的汽油，拆解时多获得 21%，且所有燃油载具的速度提升 6%。","Вы находите на 42% больше бензина в трофеях, на 21% больше при разборке, а все бензиновые транспортные средства движутся на 6% быстрее."
+Petrolhead4Desc,progression,skills,New,"You find 56% more gas in loot, 28% more from scrapping and all vehicles that run on gas go 8% faster.","你在搜刮时能多发现 56% 的汽油，拆解时多获得 28%，且所有燃油载具的速度提升 8%。","Вы находите на 56% больше бензина в трофеях, на 28% больше при разборке, а все бензиновые транспортные средства движутся на 8% быстрее."
+Petrolhead5Desc,progression,skills,New,"You find 70% more gas in loot, 35% more from scrapping and all vehicles that run on gas go 10% faster.","你在搜刮时能多发现 70% 的汽油，拆解时多获得 35%，且所有燃油载具的速度提升 10%。","Вы находите на 70% больше бензина в трофеях, на 35% больше при разборке, а все бензиновые транспортные средства движутся на 10% быстрее."
+Petrolhead6Desc,progression,skills,New,"You find 84% more gas in loot, 42% more from scrapping and all vehicles that run on gas go 12% faster.","你在搜刮时能多发现 84% 的汽油，拆解时多获得 42%，且所有燃油载具的速度提升 12%。","Вы находите на 84% больше бензина в трофеях, на 42% больше при разборке, а все бензиновые транспортные средства движутся на 12% быстрее."
+Petrolhead7Desc,progression,skills,New,"'POWERRRRR!'\n\nYou find 100% more gas in loot, 50% more from scrapping and all vehicles that run on gas go 15% faster.","“力量！！！”\n\n你在搜刮时能多发现 100% 的汽油，拆解时多获得 50%，且所有燃油载具的速度提升 15%。","«МОЩЬ!!!»\n\nВы находите на 100% больше бензина в трофеях, на 50% больше при разборке, а все бензиновые транспортные средства движутся на 15% быстрее."
+Petrolhead1,progression,skills,New,"Petrolhead I","汽油脑袋 I","Бензиновая голова I"
+Petrolhead2,progression,skills,New,"Petrolhead II","汽油脑袋 II","Бензиновая голова II"
+Petrolhead3,progression,skills,New,"Petrolhead III","汽油脑袋 III","Бензиновая голова III"
+Petrolhead4,progression,skills,New,"Petrolhead IV","汽油脑袋 IV","Бензиновая голова IV"
+Petrolhead5,progression,skills,New,"Petrolhead V","汽油脑袋 V","Бензиновая голова V"
+Petrolhead6,progression,skills,New,"Petrolhead VI","汽油脑袋 VI","Бензиновая голова VI"
+Petrolhead7,progression,skills,New,"Petrolhead VII","汽油脑袋 VII","Бензиновая голова VII"
+
+PhantomHit,progression,skills,New,"Phantom Hit","虚空打击","Призрачный удар"
+PhantomHit0,progression,skills,New,"That absolutely did not hit! Oh wait, I did the hitting this time.","那绝对没打中！噢等等，这次换我出手了。","Да это стопудово был промах! Ой, погодите... в этот раз попал я."
+PhantomHit1Desc,progression,skills,New,"Increases Melee Weapon range by 3%.","近战武器攻击距离增加 3%。","Увеличивает дальность ближнего боя на 3%."
+PhantomHit2Desc,progression,skills,New,"Increases Melee Weapon range by 6%.","近战武器攻击距离增加 6%。","Увеличивает дальность ближнего боя на 6%."
+PhantomHit3Desc,progression,skills,New,"Increases Melee Weapon range by 9%.","近战武器攻击距离增加 9%。","Увеличивает дальность ближнего боя на 9%."
+PhantomHit4Desc,progression,skills,New,"Increases Melee Weapon range by 12%.","近战武器攻击距离增加 12%。","Увеличивает дальность ближнего боя на 12%."
+PhantomHit5Desc,progression,skills,New,"Increases Melee Weapon range by 15%.","近战武器攻击距离增加 15%。","Увеличивает дальность ближнего боя на 15%."
+PhantomHit6Desc,progression,skills,New,"Increases Melee Weapon range by 18%.","近战武器攻击距离增加 18%。","Увеличивает дальность ближнего боя на 18%."
+PhantomHit7Desc,progression,skills,New,"'Bluetooth hit.'\n\nIncreases Melee Weapon range by 25%.","“蓝牙攻击。”\n\n近战武器攻击距离增加 25%。","«Удар по блютузу».\n\nДальность ближнего боя увеличена на 25%."
+PhantomHit1,progression,skills,New,"Phantom Hit I","虚空打击 I","Призрачный удар I"
+PhantomHit2,progression,skills,New,"Phantom Hit II","虚空打击 II","Призрачный удар II"
+PhantomHit3,progression,skills,New,"Phantom Hit III","虚空打击 III","Призрачный удар III"
+PhantomHit4,progression,skills,New,"Phantom Hit IV","虚空打击 IV","Призрачный удар IV"
+PhantomHit5,progression,skills,New,"Phantom Hit V","虚空打击 V","Призрачный удар V"
+PhantomHit6,progression,skills,New,"Phantom Hit VI","虚空打击 VI","Призрачный удар VI"
+PhantomHit7,progression,skills,New,"Phantom Hit VII","虚空打击 VII","Призрачный удар VII"
+
+Pirate,progression,skills,New,"Pirate","海盗","Пират"
+Pirate0,progression,skills,New,"You always wonder if that was the last piece of treasure... or is there one more?","你总是在想，那是最后一件财宝了吗……又或者，大秘宝真的存在？","Тебе всегда интересно, было ли это последнее сокровище... или же «Ван-Пис» реально существует?"
+Pirate1Desc,progression,skills,New,"Harvest 4% more, gain 4% more experience from harvesting. Very rarely find valuables from dirt, sand, snow and trees.","收获增加 4%，获得经验增加 4%。很少能从泥土、沙子、雪和树木中找到有价值的东西。","Собирайте на 4% больше, получайте на 4% больше опыта. Очень редко находите ценные вещи в грязи, песке, снегу и деревьях."
+Pirate2Desc,progression,skills,New,"Harvest 8% more, gain 8% more experience from harvesting. Very rarely find valuables from dirt, sand, snow and trees.","收获增加 8%，获得经验增加 8%。很少能从泥土、沙子、雪和树木中找到有价值的东西。","Собирайте на 8% больше, получайте на 8% больше опыта. Очень редко находите ценные вещи в грязи, песке, снегу и деревьях."
+Pirate3Desc,progression,skills,New,"Harvest 12% more, gain 12% more experience from harvesting. Very rarely find valuables from dirt, sand, snow and trees.","收获增加 12%，获得经验增加 12%。很少能从泥土、沙子、雪和树木中找到有价值的东西。","Собирайте на 12% больше, получайте на 12% больше опыта. Очень редко находите ценные вещи в грязи, песке, снегу и деревьях."
+Pirate4Desc,progression,skills,New,"Harvest 16% more, gain 16% more experience from harvesting. Rarely find valuables from dirt, sand, snow and trees.","收获增加 16%，获得经验增加 16%。有时可在泥土、沙子、雪和树木中找到有价值的东西。","Собирайте на 16% больше, получайте на 16% больше опыта. Редко находите ценные вещи в грязи, песке, снегу и деревьях."
+Pirate5Desc,progression,skills,New,"Harvest 20% more, gain 20% more experience from harvesting. Rarely find valuables from dirt, sand, snow and trees.","收获增加 20%，获得经验增加 20%。有时可在泥土、沙子、雪和树木中找到有价值的东西。","Собирайте на 20% больше, получайте на 20% больше опыта. Редко находите ценные вещи в грязи, песке, снегу и деревьях."
+Pirate6Desc,progression,skills,New,"Harvest 24% more, gain 24% more experience from harvesting. Rarely find valuables from dirt, sand, snow and trees.","收获增加 24%，获得经验增加 24%。有时可在泥土、沙子、雪和树木中找到有价值的东西。","Собирайте на 24% больше, получайте на 24% больше опыта. Редко находите ценные вещи в грязи, песке, снегу и деревьях."
+Pirate7Desc,progression,skills,New,"'Not all treasure is silver and gold, mate.'\n\nHarvest 30% more, gain 30% more experience from harvesting. Occasionally find valuables from dirt, sand, snow and trees.","“并非所有宝藏都是金银财宝，伙计。”\n收获多 30%，获得多 30% 的经验。从泥土、沙子、雪和树木中寻找贵重物品。","'Не все сокровища — серебро и золото, приятель.'\n\nСобирай на 30% больше, получай на 30% больше опыта. Иногда находи ценные вещи в грязи, песке, снегу и деревьях."
+Pirate1,progression,skills,New,"Pirate I","海盗 I","Пират I"
+Pirate2,progression,skills,New,"Pirate II","海盗 II","Пират II"
+Pirate3,progression,skills,New,"Pirate III","海盗 III","Пират III"
+Pirate4,progression,skills,New,"Pirate IV","海盗 IV","Пират IV"
+Pirate5,progression,skills,New,"Pirate V","海盗 V","Пират V"
+Pirate6,progression,skills,New,"Pirate VI","海盗 VI","Пират VI"
+Pirate7,progression,skills,New,"Pirate VII","海盗 VII","Пират VII"
+
+PlotArmor,progression,skills,New,"Plot Armor","主角光环","Сюжетная броня"
+PlotArmor0,progression,skills,New,"You MIGHT have some main character qualities.","你或许真的拥有些许“主角”特质。","ВОЗМОЖНО, у вас есть задатки главного героя."
+PlotArmor1Desc,progression,skills,New,"Adds 4% resistance to critical injuries.","增加 4% 的重伤抗性。","Дает 4% сопротивления критическим травмам."
+PlotArmor2Desc,progression,skills,New,"Adds 8% resistance to critical injuries.","增加 8% 的重伤抗性。","Дает 8% сопротивления критическим травмам."
+PlotArmor3Desc,progression,skills,New,"Adds 12% resistance to critical injuries.","增加 12% 的重伤抗性。","Дает 12% сопротивления критическим травмам."
+PlotArmor4Desc,progression,skills,New,"Adds 16% resistance to critical injuries.","增加 16% 的重伤抗性。","Дает 16% сопротивления критическим травмам."
+PlotArmor5Desc,progression,skills,New,"Adds 20% resistance to critical injuries.","增加 20% 的重伤抗性。","Дает 20% сопротивления критическим травмам."
+PlotArmor6Desc,progression,skills,New,"Adds 24% resistance to critical injuries.","增加 24% 的重伤抗性。","Дает 24% сопротивления критическим травмам."
+PlotArmor7Desc,progression,skills,New,"Adds 30% resistance to critical injuries.","增加 30% 的重伤抗性。","Дает 30% сопротивления критическим травмам."
+PlotArmor1,progression,skills,New,"Plot Armor I","主角光环 I","Сюжетная броня I"
+PlotArmor2,progression,skills,New,"Plot Armor II","主角光环 II","Сюжетная броня II"
+PlotArmor3,progression,skills,New,"Plot Armor III","主角光环 III","Сюжетная броня III"
+PlotArmor4,progression,skills,New,"Plot Armor IV","主角光环 IV","Сюжетная броня IV"
+PlotArmor5,progression,skills,New,"Plot Armor V","主角光环 V","Сюжетная броня V"
+PlotArmor6,progression,skills,New,"Plot Armor VI","主角光环 VI","Сюжетная броня VI"
+PlotArmor7,progression,skills,New,"Plot Armor VII","主角光环 VII","Сюжетная броня VII"
+
+RapidBlows,progression,skills,New,"Rapid Blows","迅疾打击","Стремительные удары"
+RapidBlows0,progression,skills,New,"Nothing matches your speed in melee combat.","在近战中，没有任何人的速度能与你匹敌。","В ближнем бою никто не сравнится с тобой в скорости."
+RapidBlows1Desc,progression,skills,New,"Increase your Attack Speed with melee tools and weapons by 4%.","近战工具和武器的攻击速度增加4%","Увеличивает скорость вашей атаки с помощью инструментов и оружия ближнего боя на 4%."
+RapidBlows2Desc,progression,skills,New,"Increase your Attack Speed with melee tools and weapons by 8%.","近战工具和武器的攻击速度增加8%","Увеличивает скорость вашей атаки с помощью инструментов и оружия ближнего боя на 8%."
+RapidBlows3Desc,progression,skills,New,"Increase your Attack Speed with melee tools and weapons by 12%.","近战工具和武器的攻击速度增加12%","Увеличивает скорость вашей атаки с помощью инструментов и оружия ближнего боя на 12%."
+RapidBlows4Desc,progression,skills,New,"Increase your Attack Speed with melee tools and weapons by 16%.","近战工具和武器的攻击速度增加16%","Увеличивает скорость вашей атаки с помощью инструментов и оружия ближнего боя на 16%."
+RapidBlows5Desc,progression,skills,New,"Increase your Attack Speed with melee tools and weapons by 20%.","近战工具和武器的攻击速度增加20%","Увеличивает скорость вашей атаки с помощью инструментов и оружия ближнего боя на 20%."
+RapidBlows6Desc,progression,skills,New,"Increase your Attack Speed with melee tools and weapons by 24%.","近战工具和武器的攻击速度增加24%","Увеличивает скорость вашей атаки с помощью инструментов и оружия ближнего боя на 24%."
+RapidBlows7Desc,progression,skills,New,"Fast as lightning!\n\nIncrease your Attack Speed with melee tools and weapons by 30%.","快如闪电!\n近战工具和武器的攻击速度增加 30%","Быстрый как молния! Увеличивает скорость атаки с помощью инструментов и оружия ближнего боя на 30%."
+RapidBlows1,progression,skills,New,"Rapid Blows I","迅疾打击 I","Стремительные удары I"
+RapidBlows2,progression,skills,New,"Rapid Blows II","迅疾打击 II","Стремительные удары II"
+RapidBlows3,progression,skills,New,"Rapid Blows III","迅疾打击 III","Стремительные удары III"
+RapidBlows4,progression,skills,New,"Rapid Blows IV","迅疾打击 IV","Стремительные удары IV"
+RapidBlows5,progression,skills,New,"Rapid Blows V","迅疾打击 V","Стремительные удары V"
+RapidBlows6,progression,skills,New,"Rapid Blows VI","迅疾打击 VI","Стремительные удары VI"
+RapidBlows7,progression,skills,New,"Rapid Blows VII","迅疾打击 VII","Стремительные удары VII"
+
+Rifleman,progression,skills,New,"Rifleman","步枪手","Стрелок"
+Rifleman0,progression,skills,New,"You know the weak spot of every armor and protection.","你深谙各种护甲与防御的弱点。","Тебе известно слабое место любой брони и защиты."
+Rifleman1Desc,progression,skills,New,"Increase your entity damage and armor penetration by 7%.","实体伤害和护甲穿透增加 7%。","Увеличивает урон по существам и пробиваемость брони на 7%."
+Rifleman2Desc,progression,skills,New,"Increase your entity damage and armor penetration by 14%.","实体伤害和护甲穿透增加 14%。","Увеличивает урон по существам и пробиваемость брони на 14%."
+Rifleman3Desc,progression,skills,New,"Increase your entity damage and armor penetration by 21%.","实体伤害和护甲穿透增加 21%。","Увеличивает урон по существам и пробиваемость брони на 21%."
+Rifleman4Desc,progression,skills,New,"Increase your entity damage and armor penetration by 28%.","实体伤害和护甲穿透增加 28%。","Увеличивает урон по существам и пробиваемость брони на 28%."
+Rifleman5Desc,progression,skills,New,"Increase your entity damage and armor penetration by 35%.","实体伤害和护甲穿透增加 35%。","Увеличивает урон по существам и пробиваемость брони на 35%."
+Rifleman6Desc,progression,skills,New,"Increase your entity damage and armor penetration by 42%.","实体伤害和护甲穿透增加 42%。","Увеличивает урон по существам и пробиваемость брони на 42%."
+Rifleman7Desc,progression,skills,New,"You are Simo Häyhä.\n\nIncrease your entity damage and armor penetration by 50%.","你是西蒙·海耶。\n\n实体伤害和护甲穿透增加 50%。","Вы — Симо Хяюхя.\n\nУвеличивает урон по существам и пробиваемость брони на 50%."
+Rifleman1,progression,skills,New,"Rifleman I","步枪手 I","Стрелок I"
+Rifleman2,progression,skills,New,"Rifleman II","步枪手 II","Стрелок II"
+Rifleman3,progression,skills,New,"Rifleman III","步枪手 III","Стрелок III"
+Rifleman4,progression,skills,New,"Rifleman IV","步枪手 IV","Стрелок IV"
+Rifleman5,progression,skills,New,"Rifleman V","步枪手 V","Стрелок V"
+Rifleman6,progression,skills,New,"Rifleman VI","步枪手 VI","Стрелок VI"
+Rifleman7,progression,skills,New,"Rifleman VII","步枪手 VII","Стрелок VII"
+
+Robotics,progression,skills,New,"Robotics","机器人技术","Робототехника"
+Robotics0,progression,skills,New,"Engineering is your middle name.","“工程”就是你的代名词。","Инженерия — это твоё второе имя."
+Robotics1Desc,progression,skills,New,"Increase the entity damage by 7%, magazine size by 12 and the maximum active range of junk turrets by 12%.","实体伤害增加 7%，弹匣容量增加 12，废弃炮塔的最大活动范围增加 12%。","Увеличивает урон по существам на 7%, размер магазина на 12 и макс. дальность действия турелей на 12%."
+Robotics2Desc,progression,skills,New,"Increase the entity damage by 14%, magazine size by 24 and the maximum active range of junk turrets by 24%.","实体伤害增加 14%，弹匣容量增加 24，废弃炮塔的最大活动范围增加 24%。","Увеличивает урон по существам на 14%, размер магазина на 24 и макс. дальность действия турелей на 24%."
+Robotics3Desc,progression,skills,New,"Increase the entity damage by 21%, magazine size by 36 and the maximum active range of junk turrets by 36%.","实体伤害增加 21%，弹匣容量增加 36，废弃炮塔的最大活动范围增加 36%。","Увеличивает урон по существам на 21%, размер магазина на 36 и макс. дальность действия турелей на 36%."
+Robotics4Desc,progression,skills,New,"Increase the entity damage by 28%, magazine size by 48 and the maximum active range of junk turrets by 48%.","实体伤害增加 28%，弹匣容量增加 48，废弃炮塔的最大活动范围增加 48%。","Увеличивает урон по существам на 28%, размер магазина на 48 и макс. дальность действия турелей на 48%."
+Robotics5Desc,progression,skills,New,"Increase the entity damage by 35%, magazine size by 60 and the maximum active range of junk turrets by 60%.","实体伤害增加 35%，弹匣容量增加 60，废弃炮塔的最大活动范围增加 60%。","Увеличивает урон по существам на 35%, размер магазина на 60 и макс. дальность действия турелей на 60%."
+Robotics6Desc,progression,skills,New,"Increase the entity damage by 42%, magazine size by 72 and the maximum active range of junk turrets by 72%.","实体伤害增加 42%，弹匣容量增加 72，废弃炮塔的最大活动范围增加 72%。","Увеличивает урон по существам на 42%, размер магазина на 72 и макс. дальность действия турелей на 72%."
+Robotics7Desc,progression,skills,New,"'Very crude systems can accomplish an awful lot!'\n\nIncrease the entity damage by 50%, magazine size by 100, the maximum active range of junk turrets by 100% and can have 1 additional active turret.","“简陋的系统也能大有作为！”\n\n实体伤害增加 50%，弹匣容量增加 100，废弃炮塔的最大活动范围增加 100%，并可额外激活 1 座炮塔。","«Даже грубые системы способны на многое!»\n\nУвеличивает урон по существам на 50%, размер магазина на 100, макс. дальность турелей на 100% и позволяет иметь 1 доп. активную турель."
+Robotics1,progression,skills,New,"Robotics I","机器人技术 I","Робототехника I"
+Robotics2,progression,skills,New,"Robotics II","机器人技术 II","Робототехника II"
+Robotics3,progression,skills,New,"Robotics III","机器人技术 III","Робототехника III"
+Robotics4,progression,skills,New,"Robotics IV","机器人技术 IV","Робототехника IV"
+Robotics5,progression,skills,New,"Robotics V","机器人技术 V","Робототехника V"
+Robotics6,progression,skills,New,"Robotics VI","机器人技术 VI","Робототехника VI"
+Robotics7,progression,skills,New,"Robotics VII","机器人技术 VII","Робототехника VII"
+
+Runner,progression,skills,New,"Runner","奔跑者","Бегун"
+Runner0,progression,skills,New,"Rule number 1, you gotta be quick, rule number 2, don't fall down and rule number 3, NEVER LOOK BACK!","规则第一，动作要快；规则第二，不能摔倒；规则第三，永不回头！","Правило номер один: будь быстрым. Правило номер два: не падай. И правило номер три: НИКОГДА НЕ ОГЛЯДЫВАЙСЯ!"
+Runner1Desc,progression,skills,New,"You move 3% faster while wearing a full set of Light Armor.","穿着全套轻甲时，移动速度加快 3%。","Вы двигаетесь на 3% быстрее, если на вас надет полный комплект легкой брони."
+Runner2Desc,progression,skills,New,"You move 6% faster while wearing a full set of Light Armor.","穿着全套轻甲时，移动速度加快 6%。","Вы двигаетесь на 6% быстрее, если на вас надет полный комплект легкой брони."
+Runner3Desc,progression,skills,New,"You move 9% faster while wearing a full set of Light Armor.","穿着全套轻甲时，移动速度加快 9%。","Вы двигаетесь на 9% быстрее, если на вас надет полный комплект легкой брони."
+Runner4Desc,progression,skills,New,"You move 12% faster while wearing a full set of Light Armor.","穿着全套轻甲时，移动速度加快 12%。","Вы двигаетесь на 12% быстрее, если на вас надет полный комплект легкой брони."
+Runner5Desc,progression,skills,New,"You move 15% faster while wearing a full set of Light Armor.","穿着全套轻甲时，移动速度加快 15%。","Вы двигаетесь на 15% быстрее, если на вас надет полный комплект легкой брони."
+Runner6Desc,progression,skills,New,"You move 18% faster while wearing a full set of Light Armor.","穿着全套轻甲时，移动速度加快 18%。","Вы двигаетесь на 18% быстрее, если на вас надет полный комплект легкой брони."
+Runner7Desc,progression,skills,New,"'Meep, Meep!'\n\nYou move 25% faster while wearing a full set of Light Armor.","'哔哔！'\n\n穿着全套轻甲时，移动速度加快 25%。","'Мип-мип!'\n\nВы двигаетесь на 25% быстрее, если на вас надет полный комплект легкой брони."
+Runner1,progression,skills,New,"Runner I","奔跑者 I","Бегун I"
+Runner2,progression,skills,New,"Runner II","奔跑者 II","Бегун II"
+Runner3,progression,skills,New,"Runner III","奔跑者 III","Бегун III"
+Runner4,progression,skills,New,"Runner IV","奔跑者 IV","Бегун IV"
+Runner5,progression,skills,New,"Runner V","奔跑者 V","Бегун V"
+Runner6,progression,skills,New,"Runner VI","奔跑者 VI","Бегун VI"
+Runner7,progression,skills,New,"Runner VII","奔跑者 VII","Бегун VII"
+
+Scavenger,progression,skills,New,"Scavenger","清道夫","Падальщик"
+Scavenger0,progression,skills,New,"You find more stuff from anything that dies!","你会从死掉的东西身上发现更多好东西！","Вы находите больше вещей во всем, что умирает!"
+Scavenger1Desc,progression,skills,New,"Enemies have a 4% higher chance to drop loot.","敌人掉落战利品的几率提高 4%。","Шанс выпадения добычи из врагов на 4% выше."
+Scavenger2Desc,progression,skills,New,"Enemies have a 8% higher chance to drop loot.","敌人掉落战利品的几率提高 8%。","Шанс выпадения добычи из врагов на 8% выше."
+Scavenger3Desc,progression,skills,New,"Enemies have a 12% higher chance to drop loot.","敌人掉落战利品的几率提高 12%。","Шанс выпадения добычи из врагов на 12% выше."
+Scavenger4Desc,progression,skills,New,"Enemies have a 16% higher chance to drop loot","敌人掉落战利品的几率提高 16%。","Шанс выпадения добычи из врагов на 16% выше."
+Scavenger5Desc,progression,skills,New,"Enemies have a 20% higher chance to drop loot.","敌人掉落战利品的几率提高 20%。","Шанс выпадения добычи из врагов на 20% выше."
+Scavenger6Desc,progression,skills,New,"Enemies have a 24% higher chance to drop loot.","敌人掉落战利品的几率提高 24%。","Шанс выпадения добычи из врагов на 24% выше."
+Scavenger7Desc,progression,skills,New,"'All that glitters is a bag.'\n\nEnemies have a 30% higher chance to drop loot.","“闪闪发光的都是包。”\n\n敌人掉落战利品的几率提高 30%。","'Все, что блестит, — это сумка.'\n\nШанс выпадения добычи из врагов на 30% выше."
+Scavenger1,progression,skills,New,"Scavenger I","清道夫 I","Падальщик I"
+Scavenger2,progression,skills,New,"Scavenger II","清道夫 II","Падальщик II"
+Scavenger3,progression,skills,New,"Scavenger III","清道夫 III","Падальщик III"
+Scavenger4,progression,skills,New,"Scavenger IV","清道夫 IV","Падальщик IV"
+Scavenger5,progression,skills,New,"Scavenger V","清道夫 V","Падальщик V"
+Scavenger6,progression,skills,New,"Scavenger VI","清道夫 VI","Падальщик VI"
+Scavenger7,progression,skills,New,"Scavenger VII","清道夫 VII","Падальщик VII"
+
+Seventhson,progression,skills,New,"Seventh Son","第七子","Седьмой сын"
+Seventhson0,progression,skills,New,"Occasionally you just kill things instantly.","偶尔你会瞬间杀死东西。","Иногда вы просто мгновенно убиваете существ."
+Seventhson1Desc,progression,skills,New,"Each blow landed with fists or melee weapons has a 1% chance for instant death.","用拳头或近战武器击中的每一击都有 1% 的几率瞬间死亡。","Каждый удар кулаками или оружием ближнего боя имеет 1% шанс на мгновенную смерть."
+Seventhson2Desc,progression,skills,New,"Each blow landed with fists or melee weapons has a 2% chance for instant death.","用拳头或近战武器击中的每一击都有 2% 的几率瞬间死亡。","Каждый удар кулаками или оружием ближнего боя имеет 2% шанс на мгновенную смерть."
+Seventhson3Desc,progression,skills,New,"Each blow landed with fists or melee weapons has a 3% chance for instant death.","用拳头或近战武器击中的每一击都有 3% 的几率瞬间死亡。","Каждый удар кулаками или оружием ближнего боя имеет 3% шанс на мгновенную смерть."
+Seventhson4Desc,progression,skills,New,"Each blow landed with fists or melee weapons has a 4% chance for instant death.","用拳头或近战武器击中的每一击都有 4% 的几率瞬间死亡。","Каждый удар кулаками или оружием ближнего боя имеет 4% шанс на мгновенную смерть."
+Seventhson5Desc,progression,skills,New,"Each blow landed with fists or melee weapons has a 5% chance for instant death.","用拳头或近战武器击中的每一击都有 5% 的几率瞬间死亡。","Каждый удар кулаками или оружием ближнего боя имеет 5% шанс на мгновенную смерть."
+Seventhson6Desc,progression,skills,New,"Each blow landed with fists or melee weapons has a 6% chance for instant death.","用拳头或近战武器击中的每一击都有 6% 的几率瞬间死亡。","Каждый удар кулаками или оружием ближнего боя имеет 6% шанс на мгновенную смерть."
+Seventhson7Desc,progression,skills,New,"'The weak ones would just keel over and die.'\n\nEach blow landed with fists or melee weapons has a 7% chance for instant death.","“弱者只会倒地而死。”\n\n用拳头或近战武器击中的每一击都有 7% 的几率瞬间死亡。","'Слабаки просто упадут и умрут.'\n\nКаждый удар кулаками или оружием ближнего боя имеет 7% шанс на мгновенную смерть."
+Seventhson1,progression,skills,New,"First Son","长子","Первый сын"
+Seventhson2,progression,skills,New,"Second Son","次子","Второй сын"
+Seventhson3,progression,skills,New,"Third Son","三子","Третий сын"
+Seventhson4,progression,skills,New,"Fourth Son","四子","Четвертый сын"
+Seventhson5,progression,skills,New,"Fifth Son","五子","Пятый сын"
+Seventhson6,progression,skills,New,"Sixth Son","六子","Шестой сын"
+Seventhson7,progression,skills,New,"Seventh Son","第七子","Седьмой сын"
+
+Sharpshooter,progression,skills,New,"Sharpshooter","神枪手","Меткий стрелок"
+Sharpshooter0,progression,skills,New,"They called you the legendary quickdraw Bob.","人们称你为传奇拔枪手——鲍勃。","Тебя называли легендарным Бобом-быстрохватом."
+Sharpshooter1Desc,progression,skills,New,"Increase your fire rate, clip size and weapon handling by 7%, additionally reduces weapon degradation by 7%.","射速、弹匣容量和武器操控提高 7%，同时武器磨损减少 7%。","Повышает скорострельность, размер обоймы и удобство обращения на 7%, а также снижает износ оружия на 7%."
+Sharpshooter2Desc,progression,skills,New,"Increase your fire rate, clip size and weapon handling by 14%, additionally reduces weapon degradation by 14%.","射速、弹匣容量和武器操控提高 14%，同时武器磨损减少 14%。","Повышает скорострельность, размер обоймы и удобство обращения на 14%, а также снижает износ оружия на 14%."
+Sharpshooter3Desc,progression,skills,New,"Increase your fire rate, clip size and weapon handling by 21%, additionally reduces weapon degradation by 21%.","射速、弹匣容量和武器操控提高 21%，同时武器磨损减少 21%。","Повышает скорострельность, размер обоймы и удобство обращения на 21%, а также снижает износ оружия на 21%."
+Sharpshooter4Desc,progression,skills,New,"Increase your fire rate, clip size and weapon handling by 28%, additionally reduces weapon degradation by 28%.","射速、弹匣容量和武器操控提高 28%，同时武器磨损减少 28%。","Повышает скорострельность, размер обоймы и удобство обращения на 28%, а также снижает износ оружия на 28%."
+Sharpshooter5Desc,progression,skills,New,"Increase your fire rate, clip size and weapon handling by 35%, additionally reduces weapon degradation by 35%.","射速、弹匣容量和武器操控提高 35%，同时武器磨损减少 35%。","Повышает скорострельность, размер обоймы и удобство обращения на 35%, а также снижает износ оружия на 35%."
+Sharpshooter6Desc,progression,skills,New,"Increase your fire rate, clip size and weapon handling by 42%, additionally reduces weapon degradation by 42%.","射速、弹匣容量和武器操控提高 42%，同时武器磨损减少 42%。","Повышает скорострельность, размер обоймы и удобство обращения на 42%, а также снижает износ оружия на 42%."
+Sharpshooter7Desc,progression,skills,New,"'The good, the bad and the ugly.'\n\nIncrease your fire rate, clip size and weapon handling by 50%, additionally reduces weapon degradation by 50%.","“黄金三镖客。”\n\n射速、弹匣容量和武器操控提高 50%，同时武器磨损减少 50%。","«Хороший, плохой, злой».\n\nУвеличивает скорострельность, размер обоймы и удобство обращения на 50%, а также снижает износ оружия на 50%."
+Sharpshooter1,progression,skills,New,"Sharpshooter I","神枪手 I","Меткий стрелок I"
+Sharpshooter2,progression,skills,New,"Sharpshooter II","神枪手 II","Меткий стрелок II"
+Sharpshooter3,progression,skills,New,"Sharpshooter III","神枪手 III","Меткий стрелок III"
+Sharpshooter4,progression,skills,New,"Sharpshooter IV","神枪手 IV","Меткий стрелок IV"
+Sharpshooter5,progression,skills,New,"Sharpshooter V","神枪手 V","Меткий стрелок V"
+Sharpshooter6,progression,skills,New,"Sharpshooter VI","神枪手 VI","Меткий стрелок VI"
+Sharpshooter7,progression,skills,New,"Sharpshooter VII","神枪手 VII","Меткий стрелок VII"
+
+ShrimpPunch,progression,skills,New,"Shrimp Punch","虾拳","Удар креветки"
+ShrimpPunch0,progression,skills,New,"Your melee attacks break the sound barrier!","你的近战攻击足以突破音障！","Твои удары в ближнем бою преодолевают звуковой барьер!"
+ShrimpPunch1Desc,progression,skills,New,"Increase your Melee and Block Damage by 4%.","你的的近战和物块伤害增加4%","Увеличивает ваш урон в ближнем бою и урон по блокам на 4%."
+ShrimpPunch2Desc,progression,skills,New,"Increase your Melee and Block Damage by 8%.","将你的近战和物块伤害增加8%","Увеличивает ваш урон в ближнем бою и урон по блокам на 8%."
+ShrimpPunch3Desc,progression,skills,New,"Increase your Melee and Block Damage by 12%.","将你的近战和物块伤害增加12%","Увеличивает ваш урон в ближнем бою и урон по блокам на 12%."
+ShrimpPunch4Desc,progression,skills,New,"Increase your Melee and Block Damage by 16%.","将你的近战和物块伤害增加16%","Увеличивает ваш урон в ближнем бою и урон по блокам на 16%."
+ShrimpPunch5Desc,progression,skills,New,"Increase your Melee and Block Damage by 20%.","将你的近战和物块伤害增加20%","Увеличивает ваш урон в ближнем бою и урон по блокам на 20%."
+ShrimpPunch6Desc,progression,skills,New,"Increase your Melee and Block Damage by 24%.","将你的近战和物块伤害增加24%","Увеличивает ваш урон в ближнем бою и урон по блокам на 24%."
+ShrimpPunch7Desc,progression,skills,New,"Your attacks reach supersonic speeds!\n\nIncrease your Melee and Block Damage by 30%.","你的攻击达到了超音速!\n将你的近战和物块伤害增加 30%","Ваши атаки достигают сверхзвуковой скорости! Увеличьте урон от атак ближнего боя и урон по блокам на 30%."
+ShrimpPunch1,progression,skills,New,"Shrimp Punch I","虾拳 I","Удар креветки I"
+ShrimpPunch2,progression,skills,New,"Shrimp Punch II","虾拳 II","Удар креветки II"
+ShrimpPunch3,progression,skills,New,"Shrimp Punch III","虾拳 III","Удар креветки III"
+ShrimpPunch4,progression,skills,New,"Shrimp Punch IV","虾拳 IV","Удар креветки IV"
+ShrimpPunch5,progression,skills,New,"Shrimp Punch V","虾拳 V","Удар креветки V"
+ShrimpPunch6,progression,skills,New,"Shrimp Punch VI","虾拳 VI","Удар креветки VI"
+ShrimpPunch7,progression,skills,New,"Shrimp Punch VII","虾拳 VII","Удар креветки VII"
+
+Shotty,progression,skills,New,"Shotty","霰弹枪手","Дробовик"
+Shotty0,progression,skills,New,"You didn't part the red sea, but you did paint it. That's why they call you the Shotgun Messiah.","你没能劈开红海，但你把它染红了。这就是他们叫你“喷子弥赛亚”的原因。","Ты не раздвигал Красное море, ты его перекрашивал. Вот почему тебя зовут «Дробовик-Мессия»."
+Shotty1Desc,progression,skills,New,"Increase your entity damage with shotguns by 12% and reload speed by 4%.","霰弹枪的实体伤害增加 12%，装填速度提高 4%。","Увеличивает урон дробовиками на 12% и скорость перезарядки на 4%."
+Shotty2Desc,progression,skills,New,"Increase your entity damage with shotguns by 24% and reload speed by 8%.","霰弹枪的实体伤害增加 24%，装填速度提高 8%。","Увеличивает урон дробовиками на 24% и скорость перезарядки на 8%."
+Shotty3Desc,progression,skills,New,"Increase your entity damage with shotguns by 36% and reload speed by 12%.","霰弹枪的实体伤害增加 36%，装填速度提高 12%。","Увеличивает урон дробовиками на 36% и скорость перезарядки на 12%."
+Shotty4Desc,progression,skills,New,"Increase your entity damage with shotguns by 48% and reload speed by 16%.","霰弹枪的实体伤害增加 48%，装填速度提高 16%。","Увеличивает урон дробовиками на 48% и скорость перезарядки на 16%."
+Shotty5Desc,progression,skills,New,"Increase your entity damage with shotguns by 60% and reload speed by 20%.","霰弹枪的实体伤害增加 60%，装填速度提高 20%。","Увеличивает урон дробовиками на 60% и скорость перезарядки на 20%."
+Shotty6Desc,progression,skills,New,"Increase your entity damage with shotguns by 72% and reload speed by 24%.","霰弹枪的实体伤害增加 72%，装填速度提高 24%。","Увеличивает урон дробовиками на 72% и скорость перезарядки на 24%."
+Shotty7Desc,progression,skills,New,"'Hey little sister, SHOTGUN!'\n\nIncrease your entity damage with shotguns by 100% and reload speed by 30%.","“嘿，小妹妹，开火！”\n\n霰弹枪的实体伤害增加 100%，装填速度提高 30%。","«Эй, сестренка, ДРОБОВИК!»\n\nУвеличивает урон дробовиками на 100% и скорость перезарядки на 30%."
+Shotty1,progression,skills,New,"Shotty I","霰弹枪手 I","Дробовик I"
+Shotty2,progression,skills,New,"Shotty II","霰弹枪手 II","Дробовик II"
+Shotty3,progression,skills,New,"Shotty III","霰弹枪手 III","Дробовик III"
+Shotty4,progression,skills,New,"Shotty IV","霰弹枪手 IV","Дробовик IV"
+Shotty5,progression,skills,New,"Shotty V","霰弹枪手 V","Дробовик V"
+Shotty6,progression,skills,New,"Shotty VI","霰弹枪手 VI","Дробовик VI"
+Shotty7,progression,skills,New,"Shotty VII","霰弹枪手 VII","Дробовик VII"
+
+Spartan,progression,skills,New,"Spartan","斯巴达","Спартанец"
+Spartan0,progression,skills,New,"You wonder why zombie breath is so bad, that's why you always carry some Spear-mint.","你总在想丧尸的口气怎么那么臭，这就是为什么你总是随身带着点“长矛”薄荷。","Тебе всегда было интересно, почему у зомби так воняет изо рта... поэтому ты всегда носишь с собой «копьё-выжималку»."
+Spartan1Desc,progression,skills,New,"Increase your entity damage by 10%.","使用长矛时，你的实体伤害增加10%。","При использовании копья урон по сущностям увеличивается на 10%."
+Spartan2Desc,progression,skills,New,"Increase your entity damage by 20%","使用长矛时，你的实体伤害增加20%。","При использовании копья урон по сущностям увеличивается на 20%."
+Spartan3Desc,progression,skills,New,"Increase your entity damage by 30%.","使用长矛时，你的实体伤害增加30%。","При использовании копья урон по сущностям увеличивается на 30%."
+Spartan4Desc,progression,skills,New,"Increase your entity damage by 40%. You can now stack 3 bleeding debuffs on enemies.","使用长矛时，你的实体伤害增加40%。你现在可以对敌人叠加 3 个流血减益效果。","При использовании копья урон по сущностям увеличивается на 40%. Теперь вы можете наложить на врагов 3 дебаффа кровотечения."
+Spartan5Desc,progression,skills,New,"Increase your entity damage by 50%. You can now stack 3 bleeding debuffs on enemies.","使用长矛时，你的实体伤害增加50%。你现在可以对敌人叠加 3 个流血减益效果。","При использовании копья урон по сущностям увеличивается на 50%. Теперь вы можете наложить на врагов 3 дебаффа кровотечения."
+Spartan6Desc,progression,skills,New,"Increase your entity damage by 60%. You can now stack 3 bleeding debuffs on enemies.","使用长矛时，你的实体伤害增加60%。你现在可以对敌人叠加 3 个流血减益效果。","При использовании копья урон по сущностям увеличивается на 60%. Теперь вы можете наложить на врагов 3 дебаффа кровотечения."
+Spartan7Desc,progression,skills,New,"'THIS - IS - SPARTAAA!!'\n\nIncrease your entity damage by 75%. You can now stack 4 bleeding debuffs on enemies.","“这就是斯巴达！！”\n使用长矛时，你的实体伤害增加75%。你现在可以对敌人叠加 4 个流血减益效果。","'ЭТО - СПАРТААА!!!'\n\nУвеличьте урон по сущностям на 75%. Теперь вы можете наложить на врагов 4 дебаффа кровотечения."
+Spartan1,progression,skills,New,"Spartan I","斯巴达 I","Спартанец I"
+Spartan2,progression,skills,New,"Spartan II","斯巴达 II","Спартанец II"
+Spartan3,progression,skills,New,"Spartan III","斯巴达 III","Спартанец III"
+Spartan4,progression,skills,New,"Spartan IV","斯巴达 IV","Спартанец IV"
+Spartan5,progression,skills,New,"Spartan V","斯巴达 V","Спартанец V"
+Spartan6,progression,skills,New,"Spartan VI","斯巴达 VI","Спартанец VI"
+Spartan7,progression,skills,New,"Spartan VII","斯巴达 VII","Спартанец VII"
+
+Sprinter,progression,skills,New,"Sprinter","短跑选手","Спринтер"
+Sprinter0,progression,skills,New,"Not once did you skip leg day.","你从来没有在“练腿日”偷过懒。","Ты ни разу не пропускал день ног."
+Sprinter1Desc,progression,skills,New,"Increase your sprinting speed by 7%.","你的冲刺速度提高7%","Увеличьте скорость бега на 7%."
+Sprinter2Desc,progression,skills,New,"Increase your sprinting speed by 14%.","你的冲刺速度提高14%","Увеличьте скорость бега на 14%."
+Sprinter3Desc,progression,skills,New,"Increase your sprinting speed by 21%.","你的冲刺速度提高21%","Увеличьте скорость бега на 21%."
+Sprinter4Desc,progression,skills,New,"Increase your sprinting speed by 28%.","你的冲刺速度提高28%","Увеличьте скорость бега на 28%."
+Sprinter5Desc,progression,skills,New,"Increase your sprinting speed by 35%.","你的冲刺速度提高35%","Увеличьте скорость бега на 35%."
+Sprinter6Desc,progression,skills,New,"Increase your sprinting speed by 42%.","你的冲刺速度提高42%","Увеличьте скорость бега на 42%."
+Sprinter7Desc,progression,skills,New,"Gotta go fast!\n\nIncrease your sprinting speed by 50%.","可以更快!你的冲刺速度提高50%","Нужно бежать быстро! Увеличьте скорость бега на 50%."
+Sprinter1,progression,skills,New,"Sprinter I","短跑选手 I","Спринтер I"
+Sprinter2,progression,skills,New,"Sprinter II","短跑选手 II","Спринтер II"
+Sprinter3,progression,skills,New,"Sprinter III","短跑选手 III","Спринтер III"
+Sprinter4,progression,skills,New,"Sprinter IV","短跑选手 IV","Спринтер IV"
+Sprinter5,progression,skills,New,"Sprinter V","短跑选手 V","Спринтер V"
+Sprinter6,progression,skills,New,"Sprinter VI","短跑选手 VI","Спринтер VI"
+Sprinter7,progression,skills,New,"Sprinter VII","短跑选手 VII","Спринтер VII"
+
+Stalker,progression,skills,New,"Stalker","潜行者","Сталкер"
+Stalker0,progression,skills,New,"Devil by day, demon by night.","白昼为魔，黑夜为妖。","Днем — дьявол, ночью — демон."
+Stalker1Desc,progression,skills,New,"Increases sneak damage by 20% and gives you the ability to use Shadow Step every 8 minutes.\n\nShadow Step: When you stand and crouch you vanish from sight for 15s.","潜行伤害提高20%，并获得每8分钟使用一次“暗影步”的能力。\n\n暗影步：站立并再次下蹲时，你将从视线中消失15秒。","Урон от скрытных атак увеличен на 20%. Дает возможность использовать «Шаг тени» раз в 8 минут.\n\nШаг тени: если встать и сразу присесть, вы исчезнете из виду на 15 сек."
+Stalker2Desc,progression,skills,New,"Increases sneak damage by 40% and gives you the ability to use Shadow Step every 8 minutes.\n\nShadow Step: When you stand and crouch you vanish from sight for 15s.","潜行伤害提高40%，并获得每8分钟使用一次“暗影步”的能力。\n\n暗影步：站立并再次下蹲时，你将从视线中消失15秒。","Урон от скрытных атак увеличен на 40%. Дает возможность использовать «Шаг тени» раз в 8 минут.\n\nШаг тени: если встать и сразу присесть, вы исчезнете из виду на 15 сек."
+Stalker3Desc,progression,skills,New,"Increases sneak damage by 60% and gives you the ability to use Shadow Step every 8 minutes.\n\nShadow Step: When you stand and crouch you vanish from sight for 15s.","潜行伤害提高60%，并获得每8分钟使用一次“暗影步”的能力。\n\n暗影步：站立并再次下蹲时，你将从视线中消失15秒。","Урон от скрытных атак увеличен на 60%. Дает возможность использовать «Шаг тени» раз в 8 минут.\n\nШаг тени: если встать и сразу присесть, вы исчезнете из виду на 15 сек."
+Stalker4Desc,progression,skills,New,"Increases sneak damage by 80% and gives you the ability to use Shadow Step every 4 minutes.\n\nShadow Step: When you stand and crouch you vanish from sight for 15s.","潜行伤害提高80%，并获得每4分钟使用一次“暗影步”的能力。\n\n暗影步：站立并再次下蹲时，你将从视线中消失15秒。","Урон от скрытных атак увеличен на 80%. Дает возможность использовать «Шаг тени» раз в 4 минуты.\n\nШаг тени: если встать и сразу присесть, вы исчезнете из виду на 15 сек."
+Stalker5Desc,progression,skills,New,"Increases sneak damage by 100% and gives you the ability to use Shadow Step every 4 minutes.\n\nShadow Step: When you stand and crouch you vanish from sight for 15s.","潜行伤害提高100%，并获得每4分钟使用一次“暗影步”的能力。\n\n暗影步：站立并再次下蹲时，你将从视线中消失15秒。","Урон от скрытных атак увеличен на 100%. Дает возможность использовать «Шаг тени» раз в 4 минуты.\n\nШаг тени: если встать и сразу присесть, вы исчезнете из виду на 15 сек."
+Stalker6Desc,progression,skills,New,"Increases sneak damage by 120% and gives you the ability to use Shadow Step every 4 minutes.\n\nShadow Step: When you stand and crouch you vanish from sight for 15s.","潜行伤害提高120%，并获得每4分钟使用一次“暗影步”的能力。\n\n暗影步：站立并再次下蹲时，你将从视线中消失15秒。","Урон от скрытных атак увеличен на 120%. Дает возможность использовать «Шаг тени» раз в 4 минуты.\n\nШаг тени: если встать и сразу присесть, вы исчезнете из виду на 15 сек."
+Stalker7Desc,progression,skills,New,"'Day walker, night stalker.'\n\nIncreases sneak damage by 150% and gives you the ability to use Shadow Step every 2 minutes.\n\nShadow Step: When you stand and crouch you vanish from sight for 15s.","“白昼游侠，黑夜猎手。”\n\n潜行伤害提高150%，并获得每2分钟使用一次“暗影步”的能力。\n\n暗影步：站立并再次下蹲时，你将从视线中消失15秒。","«Днем гуляет, ночью выслеживает».\n\nУрон от скрытных атак увеличен на 150%. Дает возможность использовать «Шаг тени» раз в 2 минуты.\n\nШаг тени: если встать и сразу присесть, вы исчезнете из виду на 15 сек."
+Stalker1,progression,skills,New,"Stalker I","潜行者 I","Сталкер I"
+Stalker2,progression,skills,New,"Stalker II","潜行者 II","Сталкер II"
+Stalker3,progression,skills,New,"Stalker III","潜行者 III","Сталкер III"
+Stalker4,progression,skills,New,"Stalker IV","潜行者 IV","Сталкер IV"
+Stalker5,progression,skills,New,"Stalker V","潜行者 V","Сталкер V"
+Stalker6,progression,skills,New,"Stalker VI","潜行者 VI","Сталкер VI"
+Stalker7,progression,skills,New,"Stalker VII","潜行者 VII","Сталкер VII"
+
+Survivalist,progression,skills,New,"Survivalist","幸存者","Выживальщик"
+Survivalist0,progression,skills,New,"You are conditioning your body to the maximum limits. Your tolerance towards the elements increases.","正在将你的身体强化到极限,你对外界环境的耐受性增强了","Вы тренируете свое тело до максимальных пределов. Ваша устройчивость к стихии повышается."
+Survivalist1Desc,progression,skills,New,"Increase your resistance agains heat and cold by 2 and reduce food and water loss from physical exertion by 4%.","炎热和寒冷抗性提高2\n行动导致的食物和水的消耗降低4%","Повышает устойчивость к жаре и холоду на 2 и снижает потерю пищи и воды при физических нагрузках на 4%."
+Survivalist2Desc,progression,skills,New,"Increase your resistance agains heat and cold by 4 and reduce food and water loss from physical exertion by 8%.","炎热和寒冷抗性提高4\n行动导致的食物和水的消耗降低8%","Повышает устойчивость к жаре и холоду на 4 и снижает потерю пищи и воды при физических нагрузках на 8%."
+Survivalist3Desc,progression,skills,New,"Increase your resistance agains heat and cold by 6 and reduce food and water loss from physical exertion by 12%.","炎热和寒冷抗性提高6\n行动导致的食物和水的消耗降低12%","Повышает устойчивость к жаре и холоду на 6 и снижает потерю пищи и воды при физических нагрузках на 12%."
+Survivalist4Desc,progression,skills,New,"Increase your resistance agains heat and cold by 8 and reduce food and water loss from physical exertion by 16%.","炎热和寒冷抗性提高8\n行动导致的食物和水的消耗降低16%","Повышает устойчивость к жаре и холоду на 8 и снижает потерю пищи и воды при физических нагрузках на 16%."
+Survivalist5Desc,progression,skills,New,"Increase your resistance agains heat and cold by 10 and reduce food and water loss from physical exertion by 20%.","炎热和寒冷抗性提高10\n行动导致的食物和水的消耗降低20%","Повышает устойчивость к жаре и холоду на 10 и снижает потерю пищи и воды при физических нагрузках на 20%."
+Survivalist6Desc,progression,skills,New,"Increase your resistance agains heat and cold by 12 and reduce food and water loss from physical exertion by 24%.","炎热和寒冷抗性提高12\n行动导致的食物和水的消耗降低24%","Повышает устойчивость к жаре и холоду на 12 и снижает потерю пищи и воды при физических нагрузках на 24%."
+Survivalist7Desc,progression,skills,New,"You've mastered the art of surviving in the wilderness!\n\nIncrease your resistance agains heat and cold by 15 and and reduce food and water loss from physical exertion by 30%.","你已经掌握了在荒野中生存的技术!\n炎热和寒冷抗性提高15\n行动导致的食物和水的消耗降低30%","Вы овладели искусством выживания в дикой природе! Повысьте свою устойчивость к жаре и холоду на 15, а также сократите потерю пищи и воды при физических нагрузках на 30%."
+Survivalist1,progression,skills,New,"Survivalist I","幸存者 I","Выживальщик I"
+Survivalist2,progression,skills,New,"Survivalist II","幸存者 II","Выживальщик II"
+Survivalist3,progression,skills,New,"Survivalist III","幸存者 III","Выживальщик III"
+Survivalist4,progression,skills,New,"Survivalist IV","幸存者 IV","Выживальщик IV"
+Survivalist5,progression,skills,New,"Survivalist V","幸存者 V","Выживальщик V"
+Survivalist6,progression,skills,New,"Survivalist VI","幸存者 VI","Выживальщик VI"
+Survivalist7,progression,skills,New,"Survivalist VII","幸存者 VII","Выживальщик VII"
+
+Thorns,progression,skills,New,"Thorns","荆棘","Шипы"
+Thorns0,progression,skills,New,"Why hit if you can get hit and hit back?","为什么要动手，如果可以通过被打来还击呢？","Зачем бить самому, если можно получить удар и ответить тем же?"
+Thorns1Desc,progression,skills,New,"Reflect 14 damage back to the enemy. Double damage towards tough enemies, triple damage towards the strongest.","对敌人反弹 14 点伤害。对强力敌人造成双倍伤害，对最强敌人造成三倍伤害。","Отражает 14 ед. урона обратно врагу. Двойной урон по сильным врагам, тройной урон по самым сильным."
+Thorns2Desc,progression,skills,New,"Reflect 28 damage back to the enemy. Double damage towards tough enemies, triple damage towards the strongest.","对敌人反弹 28 点伤害。对强力敌人造成双倍伤害，对最强敌人造成三倍伤害。","Отражает 28 ед. урона обратно врагу. Двойной урон по сильным врагам, тройной урон по самым сильным."
+Thorns3Desc,progression,skills,New,"Reflect 42 damage back to the enemy. Double damage towards tough enemies, triple damage towards the strongest.","对敌人反弹 42 点伤害。对强力敌人造成双倍伤害，对最强敌人造成三倍伤害。","Отражает 42 ед. урона обратно врагу. Двойной урон по сильным врагам, тройной урон по самым сильным."
+Thorns4Desc,progression,skills,New,"Reflect 56 damage back to the enemy. Double damage towards tough enemies, triple damage towards the strongest.","对敌人反弹 56 点伤害。对强力敌人造成双倍伤害，对最强敌人造成三倍伤害。","Отражает 56 ед. урона обратно врагу. Двойной урон по сильным врагам, тройной урон по самым сильным."
+Thorns5Desc,progression,skills,New,"Reflect 70 damage back to the enemy. Double damage towards tough enemies, triple damage towards the strongest.","对敌人反弹 70 点伤害。对强力敌人造成双倍伤害，对最强敌人造成三倍伤害。","Отражает 70 ед. урона обратно врагу. Двойной урон по сильным врагам, тройной урон по самым сильным."
+Thorns6Desc,progression,skills,New,"Reflect 84 damage back to the enemy. Double damage towards tough enemies, triple damage towards the strongest.","对敌人反弹 84 点伤害。对强力敌人造成双倍伤害，对最强敌人造成三倍伤害。","Отражает 84 ед. урона обратно врагу. Двойной урон по сильным врагам, тройной урон по самым сильным."
+Thorns7Desc,progression,skills,New,"'BREAK YOURSELVES UPON MY BODY!!'\n\nReflect 100 damage back to the enemy. Double damage towards tough enemies, triple damage towards the strongest.","“在我的躯体上撞个粉碎吧！！”\n\n对敌人反弹 100 点伤害。对强力敌人造成双倍伤害，对最强敌人造成三倍伤害。","«РАЗБИВАЙТЕСЬ О МОЁ ТЕЛО!!»\n\nОтражает 100 ед. урона обратно врагу. Двойной урон по сильным врагам, тройной урон по самым сильным."
+Thorns1,progression,skills,New,"Thorns I","荆棘 I","Шипы I"
+Thorns2,progression,skills,New,"Thorns II","荆棘 II","Шипы II"
+Thorns3,progression,skills,New,"Thorns III","荆棘 III","Шипы III"
+Thorns4,progression,skills,New,"Thorns IV","荆棘 IV","Шипы IV"
+Thorns5,progression,skills,New,"Thorns V","荆棘 V","Шипы V"
+Thorns6,progression,skills,New,"Thorns VI","荆棘 VI","Шипы VI"
+Thorns7,progression,skills,New,"Thorns VII","荆棘 VII","Шипы VII"
+
+Triage,progression,skills,New,"Triage","诊断","Медицинская сортировка"
+Triage0,progression,skills,New,"If you can't Helium or Curium, you Barium!","要是治不好，救不活，那就只能挖个坑埋了。","Коль не можешь подлечить, значит, время хоронить!"
+Triage1Desc,progression,skills,New,"Increase the healing effectivnes of medical items by 8%.","医疗物品的治疗效果提升 8%。","Увеличивает лечебный эффект медицинских предметов на 8%."
+Triage2Desc,progression,skills,New,"Increase the healing effectivnes of medical items by 16%.","医疗物品的治疗效果提升 16%。","Увеличивает лечебный эффект медицинских предметов на 16%."
+Triage3Desc,progression,skills,New,"Increase the healing effectivnes of medical items by 24%.","医疗物品的治疗效果提升 24%。","Увеличивает лечебный эффект медицинских предметов на 24%."
+Triage4Desc,progression,skills,New,"Increase the healing effectivnes of medical items by 32%.","医疗物品的治疗效果提升 32%。","Увеличивает лечебный эффект медицинских предметов на 32%."
+Triage5Desc,progression,skills,New,"Increase the healing effectivnes of medical items by 40%.","医疗物品的治疗效果提升 40%。","Увеличивает лечебный эффект медицинских предметов на 40%."
+Triage6Desc,progression,skills,New,"Increase the healing effectivnes of medical items by 48%.","医疗物品的治疗效果提升 48%。","Увеличивает лечебный эффект медицинских предметов на 48%."
+Triage7Desc,progression,skills,New,"'Hypocrite that you are to trust the chemicals in your brain to tell you they are chemicals.'\n\nIncrease the healing effectivnes of medical items by 60%.","“虚伪的你竟然相信脑中的化学物质告诉你，它们是化学物质。”\n\n医疗物品的治疗效果提升 60%。","«Лицемерно доверять химическим веществам в вашем мозгу, которые говорят вам, что они химические». Повышает лечебный эффект медицинских предметов на 60%."
+Triage1,progression,skills,New,"Triage I","诊断 I","Медицинская сортировка I"
+Triage2,progression,skills,New,"Triage II","诊断 II","Медицинская сортировка II"
+Triage3,progression,skills,New,"Triage III","诊断 III","Медицинская сортировка III"
+Triage4,progression,skills,New,"Triage IV","诊断 IV","Медицинская сортировка IV"
+Triage5,progression,skills,New,"Triage V","诊断 V","Медицинская сортировка V"
+Triage6,progression,skills,New,"Triage VI","诊断 VI","Медицинская сортировка VI"
+Triage7,progression,skills,New,"Triage VII","诊断 VII","Медицинская сортировка VII"
+
+ReqMotherLode1,progression,skills,New,Requires Mother Lode lvl 1,母矿等级 1,Требуется Драгоценная добыча lvl 1
+ReqMotherLode2,progression,skills,New,Requires Mother Lode lvl 2,母矿等级 2,Требуется Драгоценная добыча lvl 2
+ReqMotherLode3,progression,skills,New,Requires Mother Lode lvl 3,母矿等级 3,Требуется Драгоценная добыча lvl 3
+ReqMotherLode4,progression,skills,New,Requires Mother Lode lvl 4,母矿等级 4,Требуется Драгоценная добыча lvl 4
+ReqMotherLode5,progression,skills,New,Requires Mother Lode lvl 5,母矿等级 5,Требуется Драгоценная добыча lvl 5
+
+ReqHiddenStrike1,progression,skills,New,Requires Hidden Strike lvl 1,需要 隐蔽打击 等级 1,Требуется Скрытый удар ур. 1
+ReqHiddenStrike2,progression,skills,New,Requires Hidden Strike lvl 2,需要 隐蔽打击 等级 2,Требуется Скрытый удар ур. 2
+ReqHiddenStrike3,progression,skills,New,Requires Hidden Strike lvl 3,需要 隐蔽打击 等级 3,Требуется Скрытый удар ур. 3
+ReqHiddenStrike4,progression,skills,New,Requires Hidden Strike lvl 4,需要 隐蔽打击 等级 4,Требуется Скрытый удар ур. 4
+ReqHiddenStrike5,progression,skills,New,Requires Hidden Strike lvl 5,需要 隐蔽打击 等级 5,Требуется Скрытый удар ур. 5
+
+ReqFromTheShadows1,progression,skills,New,Requires From the Shadows lvl 1,需要 影子舞者 等级 1,Требуется Из тени ур. 1
+ReqFromTheShadows2,progression,skills,New,Requires From the Shadows lvl 2,需要 影子舞者 等级 2,Требуется Из тени ур. 2
+ReqFromTheShadows3,progression,skills,New,Requires From the Shadows lvl 3,需要 影子舞者 等级 3,Требуется Из тени ур. 3
+ReqFromTheShadows4,progression,skills,New,Requires From the Shadows lvl 4,需要 影子舞者 等级 4,Требуется Из тени ур. 4
+ReqFromTheShadows5,progression,skills,New,Requires From the Shadows lvl 5,需要 影子舞者 等级 5,Требуется Из тени ур. 5
+
+ReqTreasureHunter1,progression,skills,New,Requires Treasure Hunter lvl 1,需要寻宝猎人等级 1,Требуется Охотник за сокровищами lvl 1
+ReqTreasureHunter2,progression,skills,New,Requires Treasure Hunter lvl 2,需要寻宝猎人等级 2,Требуется Охотник за сокровищами lvl 2
+ReqTreasureHunter3,progression,skills,New,Requires Treasure Hunter lvl 3,需要寻宝猎人等级 3,Требуется Охотник за сокровищами lvl 3
+ReqTreasureHunter4,progression,skills,New,Requires Treasure Hunter lvl 4,需要寻宝猎人等级 4,Требуется Охотник за сокровищами lvl 4
+ReqTreasureHunter5,progression,skills,New,Requires Treasure Hunter lvl 5,需要寻宝猎人等级 5,Требуется Охотник за сокровищами lvl 5
+
+ReqPenetrator1,progression,skills,New,Requires The Penetrator lvl 1,穿透护甲等级 1,Требуется Злоумышленник lvl 1
+ReqPenetrator2,progression,skills,New,Requires The Penetrator lvl 2,穿透护甲等级 2,Требуется Злоумышленник lvl 2
+ReqPenetrator3,progression,skills,New,Requires The Penetrator lvl 3,穿透护甲等级 3,Требуется Злоумышленник lvl 3
+ReqPenetrator4,progression,skills,New,Requires The Penetrator lvl 4,穿透护甲等级 4,Требуется Злоумышленник lvl 4
+ReqPenetrator5,progression,skills,New,Requires The Penetrator lvl 5,穿透护甲等级 5,Требуется Злоумышленник lvl 5
+
+ReqLuckyLooter1,progression,skills,New,Requires Lucky Looter lvl 1,幸运掠夺者等级 1,Требуется Везучий искатель lvl 1
+ReqLuckyLooter2,progression,skills,New,Requires Lucky Looter lvl 2,幸运掠夺者等级 2,Требуется Везучий искатель lvl 2
+ReqLuckyLooter3,progression,skills,New,Requires Lucky Looter lvl 3,幸运掠夺者等级 3,Требуется Везучий искатель lvl 3
+ReqLuckyLooter4,progression,skills,New,Requires Lucky Looter lvl 4,幸运掠夺者等级 4,Требуется Везучий искатель lvl 4
+ReqLuckyLooter5,progression,skills,New,Requires Lucky Looter lvl 5,幸运掠夺者等级 5,Требуется Везучий искатель lvl 5
+
+ReqBetterBarter1,progression,skills,New,Requires Better Barter lvl 1,贸易砍价等级 1,Требуется Выгодный бартер lvl 1
+ReqBetterBarter2,progression,skills,New,Requires Better Barter lvl 2,贸易砍价等级 2,Требуется Выгодный бартер lvl 2
+ReqBetterBarter3,progression,skills,New,Requires Better Barter lvl 3,贸易砍价等级 3,Требуется Выгодный бартер lvl 3
+ReqBetterBarter4,progression,skills,New,Requires Better Barter lvl 4,贸易砍价等级 4,Требуется Выгодный бартер lvl 4
+ReqBetterBarter5,progression,skills,New,Requires Better Barter lvl 5,贸易砍价等级 5,Требуется Выгодный бартер lvl 5
+
+ReqLightArmor1,progression,skills,New,Requires Light Armor lvl 1,轻甲等级 1,Требуется Легкая броня lvl 1
+ReqLightArmor2,progression,skills,New,Requires Light Armor lvl 2,轻甲等级 2,Требуется Легкая броня lvl 2
+ReqLightArmor3,progression,skills,New,Requires Light Armor lvl 3,轻甲等级 3,Требуется Легкая броня lvl 3
+ReqLightArmor4,progression,skills,New,Requires Light Armor lvl 4,轻甲等级 4,Требуется Легкая броня lvl 4
+ReqLightArmor5,progression,skills,New,Requires Light Armor lvl 5,轻甲等级 5,Требуется Легкая броня lvl 5
+
+ReqMediumArmor1,progression,skills,New,"Requires Medium Armor lvl 1","中型护甲等级 1","Требуется Средняя броня lvl 1"
+ReqMediumArmor2,progression,skills,New,"Requires Medium Armor lvl 2","中型护甲等级 2","Требуется Средняя броня lvl 2"
+ReqMediumArmor3,progression,skills,New,"Requires Medium Armor lvl 3","中型护甲等级 3","Требуется Средняя броня lvl 3"
+ReqMediumArmor4,progression,skills,New,"Requires Medium Armor lvl 4","中型护甲等级 4","Требуется Средняя броня lvl 4"
+ReqMediumArmor5,progression,skills,New,"Requires Medium Armor lvl 5","中型护甲等级 5","Требуется Средняя броня lvl 5"
+
+ReqHeavyArmor1,progression,skills,New,Requires Heavy Armor lvl 1,重甲等级 1,Требуется Тяжелая броня lvl 1
+ReqHeavyArmor2,progression,skills,New,Requires Heavy Armor lvl 2,重甲等级 2,Требуется Тяжелая броня lvl 2
+ReqHeavyArmor3,progression,skills,New,Requires Heavy Armor lvl 3,重甲等级 3,Требуется Тяжелая броня lvl 3
+ReqHeavyArmor4,progression,skills,New,Requires Heavy Armor lvl 4,重甲等级 4,Требуется Тяжелая броня lvl 4
+ReqHeavyArmor5,progression,skills,New,Requires Heavy Armor lvl 5,重甲等级 5,Требуется Тяжелая броня lvl 5
+
+ReqHealingFactor1,progression,skills,New,Requires Healing Factor lvl 1,需要 愈合因子 等级 1,Требуется Регенерация ур. 1
+ReqHealingFactor2,progression,skills,New,Requires Healing Factor lvl 2,需要 愈合因子 等级 2,Требуется Регенерация ур. 2
+ReqHealingFactor3,progression,skills,New,Requires Healing Factor lvl 3,需要 愈合因子 等级 3,Требуется Регенерация ур. 3
+ReqHealingFactor4,progression,skills,New,Requires Healing Factor lvl 4,需要 愈合因子 等级 4,Требуется Регенерация ур. 4
+ReqHealingFactor5,progression,skills,New,Requires Healing Factor lvl 5,需要 愈合因子 等级 5,Требуется Регенерация ур. 5
+
+ReqSpearMaster1,progression,skills,New,Requires Spear Master lvl 1,长矛大师等级 1,Требуется Мастер копья lvl 1
+ReqSpearMaster2,progression,skills,New,Requires Spear Master lvl 2,长矛大师等级 2,Требуется Мастер копья lvl 2
+ReqSpearMaster3,progression,skills,New,Requires Spear Master lvl 3,长矛大师等级 3,Требуется Мастер копья lvl 3
+ReqSpearMaster4,progression,skills,New,Requires Spear Master lvl 4,长矛大师等级 4,Требуется Мастер копья lvl 4
+ReqSpearMaster5,progression,skills,New,Requires Spear Master lvl 5,长矛大师等级 5,Требуется Мастер копья lvl 5
+
+ReqPummelPete1,progression,skills,New,Requires Pummel Pete lvl 1,击球手佩特等级 1,Требуется Громила Пит lvl 1
+ReqPummelPete2,progression,skills,New,Requires Pummel Pete lvl 2,击球手佩特等级 2,Требуется Громила Пит lvl 2
+ReqPummelPete3,progression,skills,New,Requires Pummel Pete lvl 3,击球手佩特等级 3,Требуется Громила Пит lvl 3
+ReqPummelPete4,progression,skills,New,Requires Pummel Pete lvl 4,击球手佩特等级 4,Требуется Громила Пит lvl 4
+ReqPummelPete5,progression,skills,New,Requires Pummel Pete lvl 5,击球手佩特等级 5,Требуется Громила Пит lvl 5
+
+ReqSkullCrusher1,progression,skills,New,Requires Skull Crusher lvl 1,头骨粉碎者等级 1,Требуется Дробитель черепов lvl 1
+ReqSkullCrusher2,progression,skills,New,Requires Skull Crusher lvl 2,头骨粉碎者等级 2,Требуется Дробитель черепов lvl 2
+ReqSkullCrusher3,progression,skills,New,Requires Skull Crusher lvl 3,头骨粉碎者等级 3,Требуется Дробитель черепов lvl 3
+ReqSkullCrusher4,progression,skills,New,Requires Skull Crusher lvl 4,头骨粉碎者等级 4,Требуется Дробитель черепов lvl 4
+ReqSkullCrusher5,progression,skills,New,Requires Skull Crusher lvl 5,头骨粉碎者等级 5,Требуется Дробитель черепов lvl 5
+
+ReqMiner69er1,progression,skills,New,Requires Miner 69'er lvl 1,矿业69族等级 1,Требуется Долбатель lvl 1
+ReqMiner69er2,progression,skills,New,Requires Miner 69'er lvl 2,矿业69族等级 2,Требуется Долбатель lvl 2
+ReqMiner69er3,progression,skills,New,Requires Miner 69'er lvl 3,矿业69族等级 3,Требуется Долбатель lvl 3
+ReqMiner69er4,progression,skills,New,Requires Miner 69'er lvl 4,矿业69族等级 4,Требуется Долбатель lvl 4
+ReqMiner69er5,progression,skills,New,Requires Miner 69'er lvl 5,矿业69族等级 5,Требуется Долбатель lvl 5
+
+ReqBrawler1,progression,skills,New,Requires Brawler lvl 1,搏斗家等级 1,Требуется Драчун lvl 1
+ReqBrawler2,progression,skills,New,Requires Brawler lvl 2,搏斗家等级 2,Требуется Драчун lvl 2
+ReqBrawler3,progression,skills,New,Requires Brawler lvl 3,搏斗家等级 3,Требуется Драчун lvl 3
+ReqBrawler4,progression,skills,New,Requires Brawler lvl 4,搏斗家等级 4,Требуется Драчун lvl 4
+ReqBrawler5,progression,skills,New,Requires Brawler lvl 5,搏斗家等级 5,Требуется Драчун lvl 5
+
+ReqDeepCuts1,progression,skills,New,Requires Deep Cuts lvl 1,深度刀伤等级 1,Требуется Глубокие раны lvl 1
+ReqDeepCuts2,progression,skills,New,Requires Deep Cuts lvl 2,深度刀伤等级 2,Требуется Глубокие раны lvl 2
+ReqDeepCuts3,progression,skills,New,Requires Deep Cuts lvl 3,深度刀伤等级 3,Требуется Глубокие раны lvl 3
+ReqDeepCuts4,progression,skills,New,Requires Deep Cuts lvl 4,深度刀伤等级 4,Требуется Глубокие раны lvl 4
+ReqDeepCuts5,progression,skills,New,Requires Deep Cuts lvl 5,深度刀伤等级 5,Требуется Глубокие раны lvl 5
+
+ReqElectro1,progression,skills,New,Requires Electrocutioner lvl 1,电击处刑官等级 1,Требуется Электрочикатило lvl 1
+ReqElectro2,progression,skills,New,Requires Electrocutioner lvl 2,电击处刑官等级 2,Требуется Электрочикатило lvl 2
+ReqElectro3,progression,skills,New,Requires Electrocutioner lvl 3,电击处刑官等级 3,Требуется Электрочикатило lvl 3
+ReqElectro4,progression,skills,New,Requires Electrocutioner lvl 4,电击处刑官等级 4,Требуется Электрочикатило lvl 4
+ReqElectro5,progression,skills,New,Requires Electrocutioner lvl 5,电击处刑官等级 5,Требуется Электрочикатило lvl 5
+
+ReqDeadEye1,progression,skills,New,Requires Dead Eye lvl 1,死神之眼等级 1,Требуется Безжалостный снайпер lvl 1
+ReqDeadEye2,progression,skills,New,Requires Dead Eye lvl 2,死神之眼等级 2,Требуется Безжалостный снайпер lvl 2
+ReqDeadEye3,progression,skills,New,Requires Dead Eye lvl 3,死神之眼等级 3,Требуется Безжалостный снайпер lvl 3
+ReqDeadEye4,progression,skills,New,Requires Dead Eye lvl 4,死神之眼等级 4,Требуется Безжалостный снайпер lvl 4
+ReqDeadEye5,progression,skills,New,Requires Dead Eye lvl 5,死神之眼等级 5,Требуется Безжалостный снайпер lvl 5
+
+ReqDemo1,progression,skills,New,Requires Demolitions Expert lvl 1,爆破专家等级 1,Требуется Эксперт-подрывник lvl 1
+ReqDemo2,progression,skills,New,Requires Demolitions Expert lvl 2,爆破专家等级 2,Требуется Эксперт-подрывник lvl 2
+ReqDemo3,progression,skills,New,Requires Demolitions Expert lvl 3,爆破专家等级 3,Требуется Эксперт-подрывник lvl 3
+ReqDemo4,progression,skills,New,Requires Demolitions Expert lvl 4,爆破专家等级 4,Требуется Эксперт-подрывник lvl 4
+ReqDemo5,progression,skills,New,Requires Demolitions Expert lvl 5,爆破专家等级 5,Требуется Эксперт-подрывник lvl 5
+
+ReqBoomstick1,progression,skills,New,Requires Boomstick lvl 1,霰弹枪手等级 1,Требуется Бум-палка lvl 1
+ReqBoomstick2,progression,skills,New,Requires Boomstick lvl 2,霰弹枪手等级 2,Требуется Бум-палка lvl 2
+ReqBoomstick3,progression,skills,New,Requires Boomstick lvl 3,霰弹枪手等级 3,Требуется Бум-палка lvl 3
+ReqBoomstick4,progression,skills,New,Requires Boomstick lvl 4,霰弹枪手等级 4,Требуется Бум-палка lvl 4
+ReqBoomstick5,progression,skills,New,Requires Boomstick lvl 5,霰弹枪手等级 5,Требуется Бум-палка lvl 5
+
+ReqMG1,progression,skills,New,Requires Machine Gunner lvl 1,机枪射手等级 1,Требуется Пулеметчик lvl 1
+ReqMG2,progression,skills,New,Requires Machine Gunner lvl 2,机枪射手等级 2,Требуется Пулеметчик lvl 2
+ReqMG3,progression,skills,New,Requires Machine Gunner lvl 3,机枪射手等级 3,Требуется Пулеметчик lvl 3
+ReqMG4,progression,skills,New,Requires Machine Gunner lvl 4,机枪射手等级 4,Требуется Пулеметчик lvl 4
+ReqMG5,progression,skills,New,Requires Machine Gunner lvl 5,机枪射手等级 5,Требуется Пулеметчик lvl 5
+
+ReqArchery1,progression,skills,New,Requires Archery lvl 1,弓术等级 1,Требуется Стрельба из лука lvl 1
+ReqArchery2,progression,skills,New,Requires Archery lvl 2,弓术等级 2,Требуется Стрельба из лука lvl 2
+ReqArchery3,progression,skills,New,Requires Archery lvl 3,弓术等级 3,Требуется Стрельба из лука lvl 3
+ReqArchery4,progression,skills,New,Requires Archery lvl 4,弓术等级 4,Требуется Стрельба из лука lvl 4
+ReqArchery5,progression,skills,New,Requires Archery lvl 5,弓术等级 5,Требуется Стрельба из лука lvl 5
+
+ReqGunslinger1,progression,skills,New,Requires Gunslinger lvl 1,枪手等级 1,Требуется Меткий стрелок lvl 1
+ReqGunslinger2,progression,skills,New,Requires Gunslinger lvl 2,枪手等级 2,Требуется Меткий стрелок lvl 2
+ReqGunslinger3,progression,skills,New,Requires Gunslinger lvl 3,枪手等级 3,Требуется Меткий стрелок lvl 3
+ReqGunslinger4,progression,skills,New,Requires Gunslinger lvl 4,枪手等级 4,Требуется Меткий стрелок lvl 4
+ReqGunslinger5,progression,skills,New,Requires Gunslinger lvl 5,枪手等级 5,Требуется Меткий стрелок lvl 5
+
+ReqRobotics1,progression,skills,New,Requires Robotics Inventor lvl 1,机器人发明家等级 1,Требуется Конструктор роботов lvl 1
+ReqRobotics2,progression,skills,New,Requires Robotics Inventor lvl 2,机器人发明家等级 2,Требуется Конструктор роботов lvl 2
+ReqRobotics3,progression,skills,New,Requires Robotics Inventor lvl 3,机器人发明家等级 3,Требуется Конструктор роботов lvl 3
+ReqRobotics4,progression,skills,New,Requires Robotics Inventor lvl 4,机器人发明家等级 4,Требуется Конструктор роботов lvl 4
+ReqRobotics5,progression,skills,New,Requires Robotics Inventor lvl 5,机器人发明家等级 5,Требуется Конструктор robotov lvl 5
+
+reqPlayerLevel01,progression,skills,New,"Requires Player Level 1","需要玩家等级 1","Требуется уровень игрока 1"
+reqPlayerLevel02,progression,skills,New,"Requires Player Level 2","需要玩家等级 2","Требуется уровень игрока 2"
+reqPlayerLevel03,progression,skills,New,"Requires Player Level 3","需要玩家等级 3","Требуется уровень игрока 3"
+reqPlayerLevel04,progression,skills,New,"Requires Player Level 4","需要玩家等级 4","Требуется уровень игрока 4"
+reqPlayerLevel05,progression,skills,New,"Requires Player Level 5","需要玩家等级 5","Требуется уровень игрока 5"
+reqPlayerLevel06,progression,skills,New,"Requires Player Level 6","需要玩家等级 6","Требуется уровень игрока 6"
+reqPlayerLevel07,progression,skills,New,"Requires Player Level 7","需要玩家等级 7","Требуется уровень игрока 7"
+reqPlayerLevel08,progression,skills,New,"Requires Player Level 8","需要玩家等级 8","Требуется уровень игрока 8"
+reqPlayerLevel09,progression,skills,New,"Requires Player Level 9","需要玩家等级 9","Требуется уровень игрока 9"
+reqPlayerLevel10,progression,skills,New,"Requires Player Level 10","需要玩家等级 10","Требуется уровень игрока 10"
+reqPlayerLevel11,progression,skills,New,"Requires Player Level 11","需要玩家等级 11","Требуется уровень игрока 11"
+reqPlayerLevel12,progression,skills,New,"Requires Player Level 12","需要玩家等级 12","Требуется уровень игрока 12"
+reqPlayerLevel13,progression,skills,New,"Requires Player Level 13","需要玩家等级 13","Требуется уровень игрока 13"
+reqPlayerLevel14,progression,skills,New,"Requires Player Level 14","需要玩家等级 14","Требуется уровень игрока 14"
+reqPlayerLevel15,progression,skills,New,"Requires Player Level 15","需要玩家等级 15","Требуется уровень игрока 15"
+reqPlayerLevel16,progression,skills,New,"Requires Player Level 16","需要玩家等级 16","Требуется уровень игрока 16"
+reqPlayerLevel17,progression,skills,New,"Requires Player Level 17","需要玩家等级 17","Требуется уровень игрока 17"
+reqPlayerLevel18,progression,skills,New,"Requires Player Level 18","需要玩家等级 18","Требуется уровень игрока 18"
+reqPlayerLevel19,progression,skills,New,"Requires Player Level 19","需要玩家等级 19","Требуется уровень игрока 19"
+reqPlayerLevel20,progression,skills,New,"Requires Player Level 20","需要玩家等级 20","Требуется уровень игрока 20"
+reqPlayerLevel21,progression,skills,New,"Requires Player Level 21","需要玩家等级 21","Требуется уровень игрока 21"

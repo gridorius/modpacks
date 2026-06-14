@@ -1,0 +1,7 @@
+<ZMXuiCPBBMxlPB name="progression.xml">
+
+<!--	// SMX // Pack Mule Perk Converstion -->
+
+		<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity']/@value">10,20,30,40,50</set>
+
+</ZMXuiCPBBMxlPB>

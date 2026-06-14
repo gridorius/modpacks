@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <append xpath="/items">
+    <!--
+      T3/T4 pouch schematics. Reading one sets the recipe CVar used by vanilla
+      learnable recipes. T1 remains a starter craft and T2 remains a normal
+      workbench upgrade; only the late-game pouches require these plans.
+    -->
+
+    <!-- Ammo pouch schematics. -->
+    <item name="modArmorPackwiselyAmmoPouchT3Schematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyTacticalBandolier" />
+      <property name="Unlocks" value="modArmorPackwiselyAmmoPouchT3" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPackwiselyAmmoPouchT3" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100" />
+      </effect_group>
+    </item>
+
+    <item name="modArmorPackwiselyAmmoPouchT4Schematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyHeavyAmmoRig" />
+      <property name="Unlocks" value="modArmorPackwiselyAmmoPouchT4" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPackwiselyAmmoPouchT4" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="150" />
+      </effect_group>
+    </item>
+
+    <!-- Medical pouch schematics. -->
+    <item name="modArmorPackwiselyMedicalPouchT3Schematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyTraumaPouch" />
+      <property name="Unlocks" value="modArmorPackwiselyMedicalPouchT3" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPackwiselyMedicalPouchT3" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100" />
+      </effect_group>
+    </item>
+
+    <item name="modArmorPackwiselyMedicalPouchT4Schematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyFieldMedicPack" />
+      <property name="Unlocks" value="modArmorPackwiselyMedicalPouchT4" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPackwiselyMedicalPouchT4" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="150" />
+      </effect_group>
+    </item>
+
+
+    <!-- Demolitions pouch schematics. -->
+    <item name="modArmorPackwiselyExplosivesPouchT3Schematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyExplosivesPouchT3" />
+      <property name="Unlocks" value="modArmorPackwiselyExplosivesPouchT3" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPackwiselyExplosivesPouchT3" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100" />
+      </effect_group>
+    </item>
+
+    <item name="modArmorPackwiselyExplosivesPouchT4Schematic">
+      <property name="Extends" value="schematicNoQualityMaster" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyExplosivesPouchT4" />
+      <property name="Unlocks" value="modArmorPackwiselyExplosivesPouchT4" />
+      <effect_group tiered="false">
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPackwiselyExplosivesPouchT4" operation="set" value="1" />
+        <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="150" />
+      </effect_group>
+    </item>
+  </append>
+</configs>

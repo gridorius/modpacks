@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <!--
+    Empty lootcontainer definitions used only as UI shells for virtual pouch storage.
+    Real items are read/written by PouchVirtualLootContainer and stored on the
+    equipped chest armor metadata. These containers should never roll loot.
+  -->
+  <append xpath="/lootcontainers">
+    <lootcontainer name="lootPackwiselyAmmoPouch" count="0" size="9,5" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.15" loot_quality_template="qualBaseTemplate" />
+    <lootcontainer name="lootPackwiselyMedicalPouch" count="0" size="9,4" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.15" loot_quality_template="qualBaseTemplate" />
+    <lootcontainer name="lootPackwiselyExplosivesPouch" count="0" size="8,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="0.15" loot_quality_template="qualBaseTemplate" />
+  </append>
+
+  <!--
+    Late-tier pouch loot gates. These are intentionally stricter than vanilla
+    armor-mod scaling so T3/T4 pouches and their schematics stay rare before the
+    mid/late game but become realistic finds at high loot stages.
+  -->
+  <append xpath="/lootcontainers/lootprobtemplates">
+    <lootprobtemplate name="packwiselyPouchT3Chance">
+      <loot level="0,59" prob="0" />
+      <loot level="60,99" prob=".02" />
+      <loot level="100,149" prob=".06" />
+      <loot level="150,999999" prob=".12" />
+    </lootprobtemplate>
+
+    <lootprobtemplate name="packwiselyPouchT4Chance">
+      <loot level="0,119" prob="0" />
+      <loot level="120,169" prob=".01" />
+      <loot level="170,219" prob=".04" />
+      <loot level="220,999999" prob=".09" />
+    </lootprobtemplate>
+
+    <lootprobtemplate name="packwiselySchematicT3Chance">
+      <loot level="0,49" prob="0" />
+      <loot level="50,89" prob=".03" />
+      <loot level="90,139" prob=".08" />
+      <loot level="140,999999" prob=".16" />
+    </lootprobtemplate>
+
+    <lootprobtemplate name="packwiselySchematicT4Chance">
+      <loot level="0,109" prob="0" />
+      <loot level="110,159" prob=".015" />
+      <loot level="160,219" prob=".05" />
+      <loot level="220,999999" prob=".11" />
+    </lootprobtemplate>
+  </append>
+
+  <!-- Starter/medium pouches join the normal armor-mod loot bands. -->
+  <append xpath="/lootcontainers/lootgroup[@name='modArmorT1']">
+    <item name="modArmorPackwiselyAmmoPouchT1" loot_prob_template="low" />
+    <item name="modArmorPackwiselyMedicalPouchT1" loot_prob_template="low" />
+    <item name="modArmorPackwiselyExplosivesPouchT1" loot_prob_template="low" />
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='modArmorT2']">
+    <item name="modArmorPackwiselyAmmoPouchT2" loot_prob_template="low" />
+    <item name="modArmorPackwiselyMedicalPouchT2" loot_prob_template="low" />
+    <item name="modArmorPackwiselyExplosivesPouchT2" loot_prob_template="low" />
+  </append>
+
+  <!-- Late pouches are loot-stage gated inside the higher armor-mod groups. -->
+  <append xpath="/lootcontainers/lootgroup[@name='modArmorT3']">
+    <item name="modArmorPackwiselyAmmoPouchT3" loot_prob_template="packwiselyPouchT3Chance" />
+    <item name="modArmorPackwiselyMedicalPouchT3" loot_prob_template="packwiselyPouchT3Chance" />
+    <item name="modArmorPackwiselyExplosivesPouchT3" loot_prob_template="packwiselyPouchT3Chance" />
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupModAllT4']">
+    <item name="modArmorPackwiselyAmmoPouchT4" loot_prob_template="packwiselyPouchT4Chance" />
+    <item name="modArmorPackwiselyMedicalPouchT4" loot_prob_template="packwiselyPouchT4Chance" />
+    <item name="modArmorPackwiselyExplosivesPouchT4" loot_prob_template="packwiselyPouchT4Chance" />
+  </append>
+
+  <!-- T3/T4 crafting plans are learnable schematic drops, not guaranteed progression. -->
+  <append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT2']">
+    <item name="modArmorPackwiselyAmmoPouchT3Schematic" loot_prob_template="packwiselySchematicT3Chance" />
+    <item name="modArmorPackwiselyMedicalPouchT3Schematic" loot_prob_template="packwiselySchematicT3Chance" />
+    <item name="modArmorPackwiselyAmmoPouchT4Schematic" loot_prob_template="packwiselySchematicT4Chance" />
+    <item name="modArmorPackwiselyMedicalPouchT4Schematic" loot_prob_template="packwiselySchematicT4Chance" />
+    <item name="modArmorPackwiselyExplosivesPouchT3Schematic" loot_prob_template="packwiselySchematicT3Chance" />
+    <item name="modArmorPackwiselyExplosivesPouchT4Schematic" loot_prob_template="packwiselySchematicT4Chance" />
+  </append>
+</configs>

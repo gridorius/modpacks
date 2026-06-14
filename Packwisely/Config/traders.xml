@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <!--
+    Add pouches to vanilla trader pools without guaranteed stock. T1/T2 are normal
+    armor-mod finds. T3/T4 are intentionally lower-weight late upgrades so the
+    schematic/loot progression still matters.
+  -->
+  <append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorMods']">
+    <!-- Ammo pouches -->
+    <item name="modArmorPackwiselyAmmoPouchT1" />
+    <item name="modArmorPackwiselyAmmoPouchT2" />
+    <item name="modArmorPackwiselyAmmoPouchT3" prob="0.35" />
+    <item name="modArmorPackwiselyAmmoPouchT4" prob="0.12" />
+
+    <!-- Medical pouches -->
+    <item name="modArmorPackwiselyMedicalPouchT1" />
+    <item name="modArmorPackwiselyMedicalPouchT2" />
+    <item name="modArmorPackwiselyMedicalPouchT3" prob="0.35" />
+    <item name="modArmorPackwiselyMedicalPouchT4" prob="0.12" />
+
+    <!-- Demolitions pouches -->
+    <item name="modArmorPackwiselyExplosivesPouchT1" />
+    <item name="modArmorPackwiselyExplosivesPouchT2" />
+    <item name="modArmorPackwiselyExplosivesPouchT3" prob="0.35" />
+    <item name="modArmorPackwiselyExplosivesPouchT4" prob="0.12" />
+  </append>
+
+  <!-- Late-tier pouch schematics are rare book/vendor rolls. -->
+  <append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+    <item name="modArmorPackwiselyAmmoPouchT3Schematic" prob="0.18" />
+    <item name="modArmorPackwiselyMedicalPouchT3Schematic" prob="0.18" />
+    <item name="modArmorPackwiselyAmmoPouchT4Schematic" prob="0.06" />
+    <item name="modArmorPackwiselyMedicalPouchT4Schematic" prob="0.06" />
+    <item name="modArmorPackwiselyExplosivesPouchT3Schematic" prob="0.18" />
+    <item name="modArmorPackwiselyExplosivesPouchT4Schematic" prob="0.06" />
+  </append>
+</configs>

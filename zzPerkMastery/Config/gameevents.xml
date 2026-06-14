@@ -1,0 +1,275 @@
+<configs>
+
+	<insertAfter xpath="/gameevents/action_sequence[@name='action_block_DowngradedTo']">
+		
+		<action_sequence name="add_dukes_1">
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="50"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="20"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="25"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="40"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="10"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="100"/>
+					</action>
+			</decision>
+		</action_sequence>
+		
+		<action_sequence name="add_dukes_2">
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="50"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="40"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="25"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="80"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="10"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="200"/>
+					</action>
+			</decision>
+		</action_sequence>
+		
+		<action_sequence name="add_dukes_3">
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="50"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="60"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="25"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="120"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="10"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="300"/>
+					</action>
+			</decision>
+		</action_sequence>
+		
+		<action_sequence name="add_dukes_4">
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="50"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="80"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="25"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="160"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="10"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="400"/>
+					</action>
+			</decision>
+		</action_sequence>
+		
+		<action_sequence name="add_dukes_5">
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="50"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="100"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="25"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="200"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="10"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="500"/>
+					</action>
+			</decision>
+		</action_sequence>
+		
+		<action_sequence name="add_dukes_6">
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="50"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="120"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="25"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="240"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="10"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="600"/>
+					</action>
+			</decision>
+		</action_sequence>
+		
+		<action_sequence name="add_dukes_7">
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="50"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="140"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="25"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="280"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="10"/>
+					</requirement>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="700"/>
+					</action>
+			</decision>
+			<decision class="If">
+					<requirement class="RandomRoll">
+						<property name="min_max" value="1,100"/>
+						<property name="operation" value="LTE"/>
+						<property name="value" value="100"/>
+					</requirement>
+					<action class="BeltTooltip" phase="1">
+						<property name="text" value="dayTraderJackpotMsg"/>
+					</action>
+					<action class="AddItems">
+						<property name="added_items" value="casinoCoin"/>
+						<property name="added_item_counts" value="7000"/>
+					</action>
+					<action class="PlaySound">
+						<property name="sound" value="ui_skill_purchase"/>
+					</action>
+			</decision>
+		</action_sequence>
+
+	</insertAfter>
+</configs>

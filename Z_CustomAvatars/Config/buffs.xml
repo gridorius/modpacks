@@ -1,0 +1,23 @@
+<config>
+	<append xpath="/buffs/buff[@name='buffStatusCheck01']">
+	<!-- 	<effect_group>
+			<triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="noFPV" operation="set" value="0"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="RemovePrefabFromEntity" prefab="miningHelmetLightSource"/>
+			<triggered_effect trigger="onSelfRespawn" action="RemovePrefabFromEntity" prefab="miningHelmetLightSource"/>
+		</effect_group> -->
+<!-- 		<effect_group>
+			<requirement name="CustomAvatarsEnabled, CustomAvatars"/>
+			<requirement name="!CustomAvatarsFPV, CustomAvatars"/>
+			<requirement name="CVarCompare" cvar=".cameraDistance" operation="GTE" value=".2"/>
+			<passive_effect name="MaxRange" operation="base_add" value="@.rangeFix"/>
+			<passive_effect name="BlockRange" operation="base_add" value="@.rangeFix"/>
+		</effect_group>
+		<effect_group>
+			<requirement name="CustomAvatarsEnabled, CustomAvatars"/>
+			<requirement name="!CustomAvatarsFPV, CustomAvatars"/>
+			<requirement name="HoldingItemHasTags" tags="melee"/>
+			<passive_effect name="MaxRange" operation="base_add" value=".2"/>
+			<passive_effect name="BlockRange" operation="base_add" value=".2"/>
+		</effect_group> -->
+	</append>
+</config>

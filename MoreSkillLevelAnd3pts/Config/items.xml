@@ -1,0 +1,41 @@
+<configs>
+    <append xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/effect_group[@name='apply damage buff, meleeWpnBatonT2StunBaton']">
+        
+        <triggered_effect trigger="onSelfPrimaryActionRayHit" action="SetItemMetaFloat" change="4" relative="false" key="charge">
+            <requirement name="CompareItemMetaFloat" operation="LTE" value="4" key="charge"/>
+            <requirement name="ProgressionLevel" progression_name="perkIntellectMastery" operation="GTE" value="5"/>
+            <requirement name="IsAlive" target="other"/>
+            <requirement name="!EntityTagCompare" target="other" tags="trader"/>
+        </triggered_effect>
+
+        <triggered_effect trigger="onSelfSecondaryActionRayHit" action="SetItemMetaFloat" change="4" relative="false" key="charge">
+            <requirement name="CompareItemMetaFloat" operation="LTE" value="4" key="charge"/>
+            <requirement name="ProgressionLevel" progression_name="perkIntellectMastery" operation="GTE" value="5"/>
+            <requirement name="IsAlive" target="other"/>
+            <requirement name="!EntityTagCompare" target="other" tags="trader"/>
+        </triggered_effect>
+
+
+        <triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="stunBatonDuration" operation="set" value="8">
+            <requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="6"/>
+            <requirement name="CompareItemMetaFloat" operation="GTE" value="4" key="charge"/>
+        </triggered_effect>
+
+        <triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="stunBatonDuration" operation="set" value="8">
+            <requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="6"/>
+            <requirement name="CompareItemMetaFloat" operation="GTE" value="4" key="charge"/>
+        </triggered_effect>
+
+
+        <triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="perkIntelMaster5" operation="set" value="1">
+            <requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="6"/>
+            <requirement name="CompareItemMetaFloat" operation="GTE" value="4" key="charge"/>
+        </triggered_effect>
+        
+        <triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="perkIntelMaster5" operation="set" value="1">
+            <requirement name="ProgressionLevel" progression_name="perkElectrocutioner" operation="Equals" value="6"/>
+            <requirement name="CompareItemMetaFloat" operation="GTE" value="4" key="charge"/>
+        </triggered_effect>
+
+    </append>
+</configs>

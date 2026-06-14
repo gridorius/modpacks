@@ -1,0 +1,228 @@
+<configs>
+
+<!-- Current Jobs 7 -->
+	<insertAfter xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs6']">
+		<statement id="currentjobs7" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+			<quest_entry listindex="0" tier="7" />
+			<quest_entry listindex="1" tier="7" />
+			<quest_entry listindex="2" tier="7" />
+			<quest_entry listindex="3" tier="7" />
+			<quest_entry listindex="4" tier="7" />
+			<quest_entry listindex="5" tier="7" />
+			<quest_entry listindex="6" tier="7" />
+
+			<response_entry id="jobsprev6" uniqueid="prev" />
+			<response_entry id="jobsprev5" uniqueid="prev" />
+			<response_entry id="jobsprev4" uniqueid="prev" />
+			<response_entry id="jobsprev3" uniqueid="prev" />
+			<response_entry id="jobsprev2" uniqueid="prev" />
+			<response_entry id="jobsprev1" uniqueid="prev" />
+
+			<response_entry id="jobsnext8" uniqueid="next" />
+			<response_entry id="jobsnext9" uniqueid="next" />
+			<response_entry id="jobsnext10" uniqueid="next" />
+			<response_entry id="nevermind" />
+		</statement>
+<!-- Current Jobs 8 -->
+		<statement id="currentjobs8" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+			<quest_entry listindex="0" tier="8" />
+			<quest_entry listindex="1" tier="8" />
+			<quest_entry listindex="2" tier="8" />
+			<quest_entry listindex="3" tier="8" />
+			<quest_entry listindex="4" tier="8" />
+			<quest_entry listindex="5" tier="8" />
+			<quest_entry listindex="6" tier="8" />
+
+			<response_entry id="jobsprev7" uniqueid="prev" />
+			<response_entry id="jobsprev6" uniqueid="prev" />
+			<response_entry id="jobsprev5" uniqueid="prev" />
+			<response_entry id="jobsprev4" uniqueid="prev" />
+			<response_entry id="jobsprev3" uniqueid="prev" />
+			<response_entry id="jobsprev2" uniqueid="prev" />
+			<response_entry id="jobsprev1" uniqueid="prev" />
+
+			<response_entry id="jobsnext9" uniqueid="next" />
+			<response_entry id="jobsnext10" uniqueid="next" />
+			<response_entry id="nevermind" />
+		</statement>
+<!-- Current Jobs 9 -->
+		<statement id="currentjobs9" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+			<quest_entry listindex="0" tier="9" />
+			<quest_entry listindex="1" tier="9" />
+			<quest_entry listindex="2" tier="9" />
+			<quest_entry listindex="3" tier="9" />
+			<quest_entry listindex="4" tier="9" />
+			<quest_entry listindex="5" tier="9" />
+			<quest_entry listindex="6" tier="9" />
+
+			<response_entry id="jobsprev8" uniqueid="prev" />
+			<response_entry id="jobsprev7" uniqueid="prev" />
+			<response_entry id="jobsprev6" uniqueid="prev" />
+			<response_entry id="jobsprev5" uniqueid="prev" />
+			<response_entry id="jobsprev4" uniqueid="prev" />
+			<response_entry id="jobsprev3" uniqueid="prev" />
+			<response_entry id="jobsprev2" uniqueid="prev" />
+			<response_entry id="jobsprev1" uniqueid="prev" />
+
+			<response_entry id="jobsnext10" uniqueid="next" />
+			<response_entry id="nevermind" />
+		</statement>
+<!-- Current Jobs 10 -->
+		<statement id="currentjobs10" text="dialog_trader_statement_currentjobs" nextstatementid="start" >
+			<quest_entry listindex="0" tier="10" />
+			<quest_entry listindex="1" tier="10" />
+			<quest_entry listindex="2" tier="10" />
+			<quest_entry listindex="3" tier="10" />
+			<quest_entry listindex="4" tier="10" />
+			<quest_entry listindex="5" tier="10" />
+			<quest_entry listindex="6" tier="10" />
+
+			<response_entry id="jobsprev9" uniqueid="prev" />
+			<response_entry id="jobsprev8" uniqueid="prev" />
+			<response_entry id="jobsprev7" uniqueid="prev" />
+			<response_entry id="jobsprev6" uniqueid="prev" />
+			<response_entry id="jobsprev5" uniqueid="prev" />
+			<response_entry id="jobsprev4" uniqueid="prev" />
+			<response_entry id="jobsprev3" uniqueid="prev" />
+			<response_entry id="jobsprev2" uniqueid="prev" />
+			<response_entry id="jobsprev1" uniqueid="prev" />
+
+			<response_entry id="nevermind" />
+		</statement>
+	</insertAfter>
+
+
+<!-- COMMENT OUT THIS CONDITIONAL SECTION BELOW IF YOU DO NOT WANT THE EXTRA TIERS -->	
+<!-- Reserve these quest entries on the dialog UI for the expanded quest index -->
+	<conditional>
+		<if cond="mod_loaded('MoreQuestOptions') or mod_loaded('MoreQuestsNoScrollbar')">
+			<insertAfter xpath="//dialog[@id='trader']/statement[@id='currentjobs7' or @id='currentjobs8' or @id='currentjobs9' or @id='currentjobs10']/quest_entry[@listindex='6']">
+				<quest_entry listindex="7" tier="1" />
+				<quest_entry listindex="8" tier="1" />
+				<quest_entry listindex="9" tier="1" />
+				<quest_entry listindex="10" tier="1" />
+			</insertAfter>
+
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs7']/quest_entry/@tier">7</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs8']/quest_entry/@tier">8</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs9']/quest_entry/@tier">9</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs10']/quest_entry/@tier">10</set>
+		</if>
+		<else>
+			<insertAfter xpath="//dialog[@id='trader']/statement[starts-with(@id,'currentjobs')]/quest_entry[@listindex='6']">
+				<quest_entry listindex="7" tier="8" />
+				<quest_entry listindex="8" tier="9" />
+				<quest_entry listindex="9" tier="10" />
+			</insertAfter>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs1']/quest_entry/@tier">1</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs2']/quest_entry/@tier">2</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs3']/quest_entry/@tier">3</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs4']/quest_entry/@tier">4</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs5']/quest_entry/@tier">5</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs6']/quest_entry/@tier">6</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs7']/quest_entry/@tier">7</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs8']/quest_entry/@tier">8</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs9']/quest_entry/@tier">9</set>
+			<set xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs10']/quest_entry/@tier">10</set>
+		</else>
+	</conditional>
+
+<!-- add updated trader dialog to the lists -->
+	<insertAfter xpath="/dialogs/dialog[@id='trader']/statement[@id='start']/response_entry[@id='jobshave6']">
+		<response_entry id="jobshave7" />
+		<response_entry id="jobshave8" />
+		<response_entry id="jobshave9" />
+		<response_entry id="jobshave10" />
+	</insertAfter>
+
+	<insertBefore xpath="/dialogs/dialog[@id='trader']/statement[@id='currentjobs1' or @id='currentjobs2' or @id='currentjobs3' or @id='currentjobs4' or @id='currentjobs5' or @id='currentjobs6' and not (@id='currentjobsspecial')]/response_entry[@id='nevermind']">
+		<response_entry id="jobsnext7" uniqueid="next" />
+		<response_entry id="jobsnext8" uniqueid="next" />
+		<response_entry id="jobsnext9" uniqueid="next" />
+		<response_entry id="jobsnext10" uniqueid="next" />
+	</insertBefore>
+
+<!-- Responses -->
+	<insertAfter xpath="/dialogs/dialog/response[@id='jobshave6']">
+		<response id="jobshave7" text="dialog_trader_response_jobshave" nextstatementid="currentjobs7">
+			<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide"/>
+			<requirement type="QuestTierHighest" value="7" requirementtype="Hide"/>
+			<requirement type="CheckCVar" id="IntroComplete" value="1" requirementtype="Hide" />
+		</response>
+		<response id="jobshave8" text="dialog_trader_response_jobshave" nextstatementid="currentjobs8">
+			<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide"/>
+			<requirement type="QuestTierHighest" value="8" requirementtype="Hide"/>
+			<requirement type="CheckCVar" id="IntroComplete" value="1" requirementtype="Hide" />
+		</response>
+		<response id="jobshave9" text="dialog_trader_response_jobshave" nextstatementid="currentjobs9">
+			<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide"/>
+			<requirement type="QuestTierHighest" value="9" requirementtype="Hide"/>
+			<requirement type="CheckCVar" id="IntroComplete" value="1" requirementtype="Hide" />
+		</response>
+		<response id="jobshave10" text="dialog_trader_response_jobshave" nextstatementid="currentjobs10">
+			<requirement type="QuestStatus" value="NotStarted" requirementtype="Hide"/>
+			<requirement type="QuestTierHighest" value="10" requirementtype="Hide"/>
+			<requirement type="CheckCVar" id="IntroComplete" value="1" requirementtype="Hide" />
+		</response>
+	</insertAfter>
+<!-- Previous -->
+	<insertAfter xpath="/dialogs/dialog/response[@id='jobsprev5']">
+		<response id="jobsprev6" text="dialog_trader_response_prevtier" nextstatementid="currentjobs6">
+			<requirement type="QuestTier" value="6" requirementtype="Hide"/>
+		</response>
+		<response id="jobsprev7" text="dialog_trader_response_prevtier" nextstatementid="currentjobs7">
+			<requirement type="QuestTier" value="7" requirementtype="Hide"/>
+		</response>
+		<response id="jobsprev8" text="dialog_trader_response_prevtier" nextstatementid="currentjobs8">
+			<requirement type="QuestTier" value="8" requirementtype="Hide"/>
+		</response>
+		<response id="jobsprev9" text="dialog_trader_response_prevtier" nextstatementid="currentjobs9">
+			<requirement type="QuestTier" value="9" requirementtype="Hide"/>
+		</response>
+	</insertAfter>
+<!-- Next -->
+	<insertAfter xpath="/dialogs/dialog/response[@id='jobsnext6']">
+		<response id="jobsnext7" text="dialog_trader_response_nexttier" nextstatementid="currentjobs7">
+			<requirement type="QuestTier" value="7" requirementtype="Hide"/>
+		</response>
+		<response id="jobsnext8" text="dialog_trader_response_nexttier" nextstatementid="currentjobs8">
+			<requirement type="QuestTier" value="8" requirementtype="Hide"/>
+		</response>
+		<response id="jobsnext9" text="dialog_trader_response_nexttier" nextstatementid="currentjobs9">
+			<requirement type="QuestTier" value="9" requirementtype="Hide"/>
+		</response>
+		<response id="jobsnext10" text="dialog_trader_response_nexttier" nextstatementid="currentjobs10">
+			<requirement type="QuestTier" value="10" requirementtype="Hide"/>
+		</response>
+	</insertAfter>
+
+
+<!-- Skip Intro Quest  (other part of code in quests.xml) -->
+	<remove xpath="/dialogs/dialog/response/requirement[@id='IntroComplete']"/>
+
+<!-- Reset Quests -->
+	<insertBefore xpath="/dialogs/dialog[@id='trader']/statement/response_entry[@id='admin']">
+		<response_entry id="resetquests"/>
+	</insertBefore>
+
+<!-- Take/hold unlimited quests in a day -->
+<conditional>
+	<if cond="not(mod_loaded('MoreQuestOptions')) and not(mod_loaded('MoreQuestsNoScrollbar'))">
+		<remove xpath="/dialogs/dialog[@id='trader']/response[@id='jobsnone']" />	
+		<remove xpath="/dialogs/dialog[@id='trader']/response[contains(@id,'jobshave') and not(@id='specialjobshave')]/requirement[@type='QuestStatus']" />
+	</if>
+</conditional>
+
+<!-- Include Background Stories (going to include this in a future update in a new mod but if you want you can uncomment it here for now) 
+	<insertBefore xpath="/dialogs/dialog/statement[@id='start']/response_entry[@id='admin']">
+		<response_entry id="background"/>
+	</insertBefore>
+	<insertBefore xpath="/dialogs/dialog[@id='trader']/statement[@id='background']/response_entry[@id='nevermind']">
+		<response_entry id="whiteriveroutposts"/>
+	</insertBefore>
+	<insertAfter xpath="/dialogs/dialog[@id='trader']/statement[@id='noah']">
+		<statement id="whiteriveroutposts" text="dialog_trader_statement_whiteriveroutposts" nextstatementid="background" />
+	</insertAfter>
+-->
+
+</configs>

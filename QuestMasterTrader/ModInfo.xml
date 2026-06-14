@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+    <Name value="QuestMasterTrader" />
+    <DisplayName value="Quest Master Trader" />
+    <Version value="1.0.0" />
+    <Description value="Adds a Quest Master option to traders for starting quests T1–T6." />
+    <Author value="AndyFergo" />
+    <Website value="" />
+</xml>

@@ -1,0 +1,27 @@
+<configs>
+
+    <set xpath="/windows/window[@name='windowSkillAttributeInfo']/@height">810</set>
+
+    <set xpath="/windows/window[@name='windowSkillAttributeInfo']/rect[@name='content']/@height">749</set>
+
+    <set xpath="/windows/window[@name='windowSkillAttributeInfo']//rect[@name='tableBox']/@height">530</set>
+
+    <set xpath="/windows/window[@name='windowSkillAttributeInfo']//rect[@name='tableBox']/sprite[@name='backgroundMain']/@height">531</set>
+
+    <set xpath="/windows/window[@name='windowSkillAttributeInfo']//grid/@rows">12</set>
+
+    <set xpath="/windows/window[@name='windowSkillAttributeInfo']//rect[@name='pagerBox']/@pos">3,-769</set>
+
+    <set xpath="/windows/window[@name='windowSkillPerkInfo']/@height">810</set>
+
+    <set xpath="/windows/window[@name='windowSkillPerkInfo']/rect[@name='content']/@height">749</set>
+
+    <set xpath="/windows/window[@name='windowSkillPerkInfo']//rect[@name='tableBox']/@height">530</set>
+
+    <set xpath="/windows/window[@name='windowSkillPerkInfo']//rect[@name='tableBox']/sprite[@name='backgroundMain']/@height">531</set>
+
+    <set xpath="/windows/window[@name='windowSkillPerkInfo']//grid/@rows">6</set>
+
+    <set xpath="/windows/window[@name='windowSkillPerkInfo']//rect[@name='pagerBox']/@pos">3,-719</set>
+
+</configs>

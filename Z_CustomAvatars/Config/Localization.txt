@@ -1,0 +1,42 @@
+Key,English
+toggleSpringBonestt,Toggle Spring Bones.
+toggleFPAimtt,Toggle first person aiming.
+toggleFPArmstt,Show your avatar's legs and arms in first person mode.
+toggleTransparencytt,Toggle close up transparency.
+toggleAimCorrectiontt,Toggle first person aim correction.
+ttResetAvatar,Reset your avatar to the vanilla model.
+lblResetAvatar,Reset Avatar
+lblVoiceOverride,Voice Override
+lblCameraYOffset,Camera Y Offset
+lblCameraXOffset,Camera X Offset
+lblHipsYOffset,Hips Y Offset
+lblDanceEntries,Dance Entries
+lblAimMinDistance,Aim Min Distance
+lblDanceVolume,Dance Volume
+ttVoiceOverride,Toggle between the Default, Male or Female voices.
+ttCameraYOffset,Change the vertical camera offset.
+ttCameraXOffset,Change the horizonal camera offset.
+ttHipsYOffset,Adjust the vertical position of the model.
+ttDanceMenuEntries,Change the number of entries per page in the dances radial menu.
+ttAimCorrectionDistance,Adjust the minimum distance to trigger the aim correction.
+ttKnuckleOffset,Adjust the position of the hands when using knuckle weapons.
+ttDanceMusicVolume,Adjust dance music volume
+lblUpdateAvailable,Update Available
+lblSpringBones,Spring Bones
+lblFirstPersonAiming,First Person Aiming
+lblFirstPersonHands,First Person Body
+lblTransparency,Transparency
+lblAimCorrection,Aim Correction
+lblKnuckleOffset,Knuckles Offset
+cbxKnuckleOffset,Knuckles Offset
+ttScaleOverride,Reference Scale Override
+lblScaleOverride,Reference Scale
+ttHandPosX,Hand X axis position offset
+ttHandPosY,Hand Y axis position offset
+ttHandPosZ,Hand Z axis position offset
+ttHandRotX,Hand X axis rotation adjustment
+ttHandRotY,Hand Y axis rotation adjustment
+ttHandRotZ,Hand Z axis rotation adjustment
+lblHandPos,Hand Pos
+lblHandRot,Hand Rot
+xuiCAUpdateConfirmationText, Open the Nexus Mods mod page?

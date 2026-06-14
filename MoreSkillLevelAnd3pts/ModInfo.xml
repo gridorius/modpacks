@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="MoreSkillLevelAnd3pts" />
+	<DisplayName value="MoreSkillLevelAnd3pts" />
+	<Description value="Unlock new perk levels and earn 3 skill points per level"/>
+	<Author value="Akhyrion" />
+	<Version value="1.0" />
+	<Website value="" />
+    <SkipWithAntiCheat value="true" />
+</xml>

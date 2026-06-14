@@ -1,0 +1,154 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+
+<!-- Ore processing Machines -->
+MiningRig_FER,blocks,Workstation,,,"Mining Rig"
+MiningRig_FERDesc,blocks,Workstation,,,"The Mining Rig is used to Excavat Ore Boulders from deep underground you can use this Boulders at the Extraction Furnace or crush the ore to get more resources"
+
+ExtractionFurnace_FER,blocks,Workstation,,,"Extraction Furnace"
+ExtractionFurnace_FERDesc,blocks,Workstation,,,"The Extraction Furnace is used to extract Iron,Lead,Rock,Coal,Oil,Brass, and more from Boulders , crushed Ore and process Ore"
+
+OreCrusher_FER,blocks,Workstation,,,"Ore Crusher"
+OreCrusher_FERDesc,blocks,Workstation,,,"The Ore Crusher is used to crush Ore Boulders and doubles your Ore"
+
+
+
+
+<!-- Mining Rig  -->
+resourceOreIronBoulderFER,Items,Resource,,,"Iron Boulder"
+resourceOreIronBoulderFERDesc,Items,Resource,,,"This Iron Boulder Contains 2000 Scrap Iron, can be used in the Extraction Furnace or will need to be crushed white the Ore crusher to use it in other MACHINES"
+
+resourceOreLeadBoulderFER,Items,Resource,,,"Lead Boulder"
+resourceOreLeadBoulderFERDesc,Items,Resource,,,"This Lead Boulder Contains 2000 Lead, can be used in the Extraction Furnace or will need to be crushed white the Ore crusher to use it in other MACHINES"
+
+resourceOreRockBoulderFER,Items,Resource,,,"Rock Boulder"
+resourceOreRockBoulderFERDesc,Items,Resource,,,"This Rock Boulder Contains 2000 Small Rock, can be used in the Extraction Furnace or will need to be crushed white the Ore crusher to use it in other MACHINES"
+
+resourceOrePotassiumNitrateBoulderFER,Items,Resource,,,"Potassium Nitrate Boulder"
+resourceOrePotassiumNitrateBoulderFERDesc,Items,Resource,,,"This Potassium Nitrate Boulder Contains 2000 Potassium Nitrate, can be used in the Extraction Furnace or will need to be crushed white the Ore crusher to use it in other MACHINES"
+
+resourceOreCoalBoulderFER,Items,Resource,,,"Coal Boulder"
+resourceOreCoalBoulderFERDesc,Items,Resource,,,"This Coal Boulder Contains 2000 Coal, can be used in the Extraction Furnace or will need to be crushed white the Ore crusher to use it in other MACHINES"
+
+resourceOreShaleBoulderFER,Items,Resource,,,"Oil Shale Boulder"
+resourceOreShaleBoulderFERDesc,Items,Resource,,,"This Oil Shale Boulder Contains 2000 Oil, can be used in the Extraction Furnace or will need to be crushed white the Ore crusher to use it in other MACHINES"
+
+resourceOreBrassBoulderFER,Items,Resource,,,"Brass Boulder"
+resourceOreBrassBoulderFERDesc,Items,Resource,,,"This Brass Boulder Contains 2000 Brass, can be used in the Extraction Furnace or will need to be crushed white the Ore crusher to use it in other MACHINES"
+
+resourceOreClayBoulderFER,Items,Resource,,,"Clay Boulder"
+resourceOreClayBoulderFERDesc,Items,Resource,,,"This Clay Boulder Contains 2000 Clay, can be used in the Extraction Furnace or will need to be crushed white the Ore crusher to use it in other MACHINES"
+
+
+<!-- Ore Crusher -->
+emptyWoodCrateFER,Items,Resource,,,"Empty Wood Crate"
+emptyWoodCrateFERDesc,Items,Resource,,,"This is a Empty wood crate that stores crushed boulders from the Ore Crusher"
+
+resourceCrushedIronFER,Items,Resource,,,"Crushed Iron"
+resourceCrushedIronFERDesc,Items,Resource,,,"This Crushed Iron Contains 4000 Scrap Iron you can extract the iron at the Extraction Furnace or use it in the Ore Pulverizer to double your resources"
+
+resourceCrushedCoalFER,Items,Resource,,,"Crushed Coal"
+resourceCrushedCoalFERDesc,Items,Resource,,,"This Crushed Coal Contains 4000 Coal you can extract the Coal at the Extraction Furnace or use it in the Ore Pulverizer to double your resources"
+
+resourceCrushedRockFER,Items,Resource,,,"Crushed Rock"
+resourceCrushedRockFERDesc,Items,Resource,,,"This Crushed Rock Contains 4000 Small Rock you can extract the Small Rock at the Extraction Furnace or use it in the Ore Pulverizer to double your resources"
+
+resourceCrushedRawOilShaleFER,Items,Resource,,,"Crushed Raw Oil Shale"
+resourceCrushedRawOilShaleFERDesc,Items,Resource,,,"This Crushed Raw Oil Shale Contains 4000 Raw Oil Shale  you can extract the Raw Oil Shale at the Extraction Furnace or use it in the Ore Pulverizer to double your resources"
+
+resourceCrushedLeadFER,Items,Resource,,,"Crushed Lead"
+resourceCrushedLeadFERDesc,Items,Resource,,,"This Crushed Lead Contains 4000 Lead you can extract the Lead at the Extraction Furnace or use it in the Ore Pulverizer to double your resources"
+
+resourceCrushedPotassiumNitrateFER,Items,Resource,,,"Crushed Potassium Nitrate"
+resourceCrushedPotassiumNitrateFERDesc,Items,Resource,,,"This Crushed Potassium Nitrate Contains 4000 Potassium Nitrate you can extract the Potassium Nitrate at the Extraction Furnace or use it in the Ore Pulverizer to double your resources"
+
+resourceCrushedBrassFER,Items,Resource,,,"Crushed Brass"
+resourceCrushedBrassFERDesc,Items,Resource,,,"This Crushed Brass Contains 4000 Brass you can extract the Brass at the Extraction Furnace or use it in the Ore Pulverizer to double your resources"
+
+resourceCrushedClayFER,Items,Resource,,,"Crushed Clay"
+resourceCrushedClayFERDesc,Items,Resource,,,"This Crushed Clay Contains 4000 Clay you can extract the Clay at the Extraction Furnace or use it in the Ore Pulverizer to double your resources"
+
+
+
+
+
+<!-- Ekstrakt Furnace -->
+<!-- Stack of Iron -->
+2000ScrapIronFERBundle,Items,Resource,,,"(2000) Iron"
+2000ScrapIronFERBundleDesc,Items,Resource,,,"This is a compact stack of (2000) iron. Use this item to open and unpack it"
+
+4000ScrapIronFERBundle,Items,Resource,,,"(4000) Iron"
+4000ScrapIronFERBundleDesc,Items,Resource,,,"This is a compact stack of (4000) iron. Use this item to open and unpack it"
+
+
+<!-- Stack of Coal -->
+2000resourceCoalFERBundle,Items,Resource,,,"(2000) Coal"
+2000resourceCoalFERBundleDesc,Items,Resource,,,"This is a compact stack of (2000) Coal. Use this item to open and unpack it"
+
+4000resourceCoalFERBundle,Items,Resource,,,"(4000) Coal"
+4000resourceCoalFERBundleDesc,Items,Resource,,,"This is a compact stack of (4000) Coal. Use this item to open and unpack it"
+
+
+<!-- Stack of Lead -->
+2000resourceScrapLeadFERBundle,Items,Resource,,,"(2000) Lead"
+2000resourceScrapLeadFERBundleDesc,Items,Resource,,,"This is a compact stack of (2000) Lead. Use this item to open and unpack it"
+
+4000resourceScrapLeadFERBundle,Items,Resource,,,"(4000) Lead"
+4000resourceScrapLeadFERBundleDesc,Items,Resource,,,"This is a compact stack of (4000) Lead. Use this item to open and unpack it"
+
+
+<!-- Stack of Rock Smal -->
+2000resourceRockSmallFERBundle,Items,Resource,,,"(2000) Rock"
+2000resourceRockSmallFERBundleDesc,Items,Resource,,,"This is a compact stack of (2000) Small Rock. Use this item to open and unpack it"
+
+4000resourceRockSmallFERBundle,Items,Resource,,,"(4000) Rock"
+4000resourceRockSmallFERBundleDesc,Items,Resource,,,"This is a compact stack of (4000) Small Rock. Use this item to open and unpack it"
+
+
+<!-- Stack of Brass -->
+2000resourceScrapBrassFERBundle,Items,Resource,,,"(2000) Brass"
+2000resourceScrapBrassFERBundleDesc,Items,Resource,,,"This is a compact stack of (2000) Scrap Brass. Use this item to open and unpack it"
+
+4000resourceScrapBrassFERBundle,Items,Resource,,,"(4000) Brass"
+4000resourceScrapBrassFERBundleDesc,Items,Resource,,,"This is a compact stack of (4000) Scrap Brass. Use this item to open and unpack it"
+
+
+<!-- Stack of Potassium Nitrate -->
+2000resourcePotassiumNitratePowderFERBundle,Items,Resource,,,"(2000) Potassium Nitrate"
+2000resourcePotassiumNitratePowderFERBundleDesc,Items,Resource,,,"This is a compact stack of (2000) Potassium Nitrate. Use this item to open and unpack it"
+
+4000resourcePotassiumNitratePowderFERBundle,Items,Resource,,,"(4000) Potassium Nitrate"
+4000resourcePotassiumNitratePowderFERBundleDesc,Items,Resource,,,"This is a compact stack of (4000) Potassium Nitrate. Use this item to open and unpack it"
+
+
+<!-- Stack of Oil Shale -->
+2000resourceOilShaleFERBundle,Items,Resource,,,"(2000) Oil Shale"
+2000resourceOilShaleFERBundleDesc,Items,Resource,,,"This is a compact stack of (2000) Oil Shale. Use this item to open and unpack it"
+
+4000resourceOilShaleFERBundle,Items,Resource,,,"(4000) Oil Shale"
+4000resourceOilShaleFERBundleDesc,Items,Resource,,,"This is a compact stack of (4000) Oil Shale. Use this item to open and unpack it"
+
+
+<!-- Stack of Clay -->
+2000resourceClayLumpFERBundle,items,Item,,,"(2000) Clay"
+2000resourceClayLumpFERBundleDesc,Items,Resource,,,"This is a compact stack of (2000) Clay. Use this item to open and unpack it"
+
+4000resourceClayLumpFERBundle,items,Item,,,"(4000) Clay"
+4000resourceClayLumpFERBundleDesc,Items,Resource,,,"This is a compact stack of (4000) Clay. Use this item to open and unpack it"
+
+
+
+
+<!--Tool -->
+<!--Double Bellow -->
+tooldoubleBellowsFER,items,Item,,,"Double Bellow"
+tooldoubleBellowsFERDesc,items,Item,,,"A tool that can be installed in the Extraction Furnace to allow increased airflow and faster smelting speeds."
+
+
+<!--Iron Crush Roller -->
+ToolIronCrushRollerFER,items,Item,,,"Iron Crush Roller"
+ToolIronCrushRollerFERDesc,items,Item,,,"A tool that can be installed in the Ore Crusher this roller is made out of strong iron tips to allow the Ore Crusher to work faster without damaging the roller"
+
+
+<!--Iron Crush Roller -->
+tooldiamondCrushRollerFER,items,Item,,,"Diamond Crush Roller"
+tooldiamondCrushRollerFERDesc,items,Item,,,"A tool that can be installed in the Ore Crusher this roller is made out of Diamond tips to allow the Ore Crusher to work faster without damaging the roller"

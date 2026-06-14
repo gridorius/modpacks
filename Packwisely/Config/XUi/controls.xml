@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <!--
+    Dedicated Packwisely item-stack overlays.
+
+    Do not reuse vanilla assembleIcon. Vanilla uses that child for quest/lock/
+    tool/mod/encumbrance indicators, and recycled item-stack controllers can leak
+    custom art into pack-mule slots if Packwisely hijacks those bindings.
+  -->
+  <append xpath="/controls/item_stack/rect">
+    <sprite depth="14" name="packwiselyPouchFullness" atlas="UIAtlas" sprite="packwiselyPouchFullness1" visible="false" color="255,255,255,0" pos="3,-35" foregroundlayer="true" size="34,34" globalopacity="false" />
+    <sprite depth="16" name="packwiselyJunkMarkOverlay" atlas="UIAtlas" sprite="packwiselyMarkScrap" visible="false" color="255,255,255,0" pos="14,-14" foregroundlayer="true" size="40,40" globalopacity="false" />
+  </append>
+
+  <append xpath="/controls/backpack_item_stack/rect">
+    <sprite depth="14" name="packwiselyPouchFullness" atlas="UIAtlas" sprite="packwiselyPouchFullness1" visible="false" color="255,255,255,0" pos="4,-31" foregroundlayer="true" size="30,30" globalopacity="false" />
+    <sprite depth="16" name="packwiselyJunkMarkOverlay" atlas="UIAtlas" sprite="packwiselyMarkScrap" visible="false" color="255,255,255,0" pos="14,-14" foregroundlayer="true" size="35,35" globalopacity="false" />
+  </append>
+
+  <append xpath="/controls/vehicle_item_stack/rect">
+    <sprite depth="14" name="packwiselyPouchFullness" atlas="UIAtlas" sprite="packwiselyPouchFullness1" visible="false" color="255,255,255,0" pos="4,-31" foregroundlayer="true" size="30,30" globalopacity="false" />
+    <sprite depth="16" name="packwiselyJunkMarkOverlay" atlas="UIAtlas" sprite="packwiselyMarkScrap" visible="false" color="255,255,255,0" pos="14,-14" foregroundlayer="true" size="35,35" globalopacity="false" />
+  </append>
+
+  <append xpath="/controls/item_part_slot/rect">
+    <sprite depth="14" name="packwiselyPouchFullness" atlas="UIAtlas" sprite="packwiselyPouchFullness1" visible="false" color="255,255,255,0" pos="307,-27" foregroundlayer="true" size="26,26" globalopacity="false" />
+  </append>
+
+  <append xpath="/controls/vehicle_part_slot/rect">
+    <sprite depth="14" name="packwiselyPouchFullness" atlas="UIAtlas" sprite="packwiselyPouchFullness1" visible="false" color="255,255,255,0" pos="307,-27" foregroundlayer="true" size="26,26" globalopacity="false" />
+  </append>
+
+</configs>

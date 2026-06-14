@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModSettings>
+  <Global>
+    <Tab name="General" displayKey="packwisely_settings_general" tooltipKey="packwisely_settings_general_tt">
+      <Category name="General" displayKey="packwisely_settings_general" tooltipKey="packwisely_settings_general_tt">
+        <Switch name="EnableAmmoPouch" displayKey="packwisely_setting_enable_ammo" tooltipKey="packwisely_setting_enable_ammo_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="EnableMedicalPouch" displayKey="packwisely_setting_enable_medical" tooltipKey="packwisely_setting_enable_medical_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="EnableExplosivesPouch" displayKey="packwisely_setting_enable_explosives" tooltipKey="packwisely_setting_enable_explosives_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="EnableJunkMarking" displayKey="packwisely_setting_enable_junk" tooltipKey="packwisely_setting_enable_junk_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="ShowPouchCapacityOnButtons" displayKey="packwisely_setting_show_capacity" tooltipKey="packwisely_setting_show_capacity_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="ShowJunkMarkOverlays" displayKey="packwisely_setting_show_mark_overlays" tooltipKey="packwisely_setting_show_mark_overlays_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="EnableLogging" displayKey="packwisely_setting_enable_logging" tooltipKey="packwisely_setting_enable_logging_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="EnableDebugLogging" displayKey="packwisely_setting_debug_logging" tooltipKey="packwisely_setting_debug_logging_tt" defaultValue="Off" leftValue="Off" rightValue="On" />
+      </Category>
+    </Tab>
+    <Tab name="Interface" displayKey="packwisely_settings_interface" tooltipKey="packwisely_settings_interface_tt">
+      <Category name="Interface" displayKey="packwisely_settings_pouch_buttons" tooltipKey="packwisely_settings_pouch_buttons_tt">
+        <Slider name="AmmoButtonOffsetX" displayKey="packwisely_setting_ammo_button_x" tooltipKey="packwisely_setting_ammo_button_x_tt" defaultValue="0">
+          <Property increment="1" minValue="-10000" maxValue="10000" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="AmmoButtonOffsetY" displayKey="packwisely_setting_ammo_button_y" tooltipKey="packwisely_setting_ammo_button_y_tt" defaultValue="0">
+          <Property increment="1" minValue="-10000" maxValue="10000" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="MedicalButtonOffsetX" displayKey="packwisely_setting_medical_button_x" tooltipKey="packwisely_setting_medical_button_x_tt" defaultValue="0">
+          <Property increment="1" minValue="-10000" maxValue="10000" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="MedicalButtonOffsetY" displayKey="packwisely_setting_medical_button_y" tooltipKey="packwisely_setting_medical_button_y_tt" defaultValue="0">
+          <Property increment="1" minValue="-10000" maxValue="10000" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="ExplosivesButtonOffsetX" displayKey="packwisely_setting_explosives_button_x" tooltipKey="packwisely_setting_explosives_button_x_tt" defaultValue="0">
+          <Property increment="1" minValue="-10000" maxValue="10000" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="ExplosivesButtonOffsetY" displayKey="packwisely_setting_explosives_button_y" tooltipKey="packwisely_setting_explosives_button_y_tt" defaultValue="0">
+          <Property increment="1" minValue="-10000" maxValue="10000" type="incrementalValuesInt" />
+        </Slider>
+      </Category>
+    </Tab>
+    <Tab name="Pouches" displayKey="packwisely_settings_pouches" tooltipKey="packwisely_settings_pouches_tt">
+      <Category name="Pouches" displayKey="packwisely_settings_pouches" tooltipKey="packwisely_settings_pouches_tt">
+        <Slider name="AmmoPouchSlotsT1" displayKey="packwisely_setting_ammo_t1" tooltipKey="packwisely_setting_ammo_t1_tt" defaultValue="8">
+          <Property increment="1" minValue="1" maxValue="40" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="AmmoPouchSlotsT2" displayKey="packwisely_setting_ammo_t2" tooltipKey="packwisely_setting_ammo_t2_tt" defaultValue="16">
+          <Property increment="1" minValue="1" maxValue="40" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="AmmoPouchSlotsT3" displayKey="packwisely_setting_ammo_t3" tooltipKey="packwisely_setting_ammo_t3_tt" defaultValue="28">
+          <Property increment="1" minValue="1" maxValue="40" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="AmmoPouchSlotsT4" displayKey="packwisely_setting_ammo_t4" tooltipKey="packwisely_setting_ammo_t4_tt" defaultValue="40">
+          <Property increment="1" minValue="1" maxValue="40" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="MedicalPouchSlotsT1" displayKey="packwisely_setting_medical_t1" tooltipKey="packwisely_setting_medical_t1_tt" defaultValue="6">
+          <Property increment="1" minValue="1" maxValue="32" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="MedicalPouchSlotsT2" displayKey="packwisely_setting_medical_t2" tooltipKey="packwisely_setting_medical_t2_tt" defaultValue="12">
+          <Property increment="1" minValue="1" maxValue="32" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="MedicalPouchSlotsT3" displayKey="packwisely_setting_medical_t3" tooltipKey="packwisely_setting_medical_t3_tt" defaultValue="20">
+          <Property increment="1" minValue="1" maxValue="32" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="MedicalPouchSlotsT4" displayKey="packwisely_setting_medical_t4" tooltipKey="packwisely_setting_medical_t4_tt" defaultValue="32">
+          <Property increment="1" minValue="1" maxValue="32" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="ExplosivesPouchSlotsT1" displayKey="packwisely_setting_explosives_t1" tooltipKey="packwisely_setting_explosives_t1_tt" defaultValue="2">
+          <Property increment="1" minValue="1" maxValue="12" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="ExplosivesPouchSlotsT2" displayKey="packwisely_setting_explosives_t2" tooltipKey="packwisely_setting_explosives_t2_tt" defaultValue="4">
+          <Property increment="1" minValue="1" maxValue="12" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="ExplosivesPouchSlotsT3" displayKey="packwisely_setting_explosives_t3" tooltipKey="packwisely_setting_explosives_t3_tt" defaultValue="12">
+          <Property increment="1" minValue="1" maxValue="12" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="ExplosivesPouchSlotsT4" displayKey="packwisely_setting_explosives_t4" tooltipKey="packwisely_setting_explosives_t4_tt" defaultValue="16">
+          <Property increment="1" minValue="1" maxValue="16" type="incrementalValuesInt" />
+        </Slider>
+        <Switch name="ReloadUsesAmmoPouchFirst" displayKey="packwisely_setting_reload_pouch_first" tooltipKey="packwisely_setting_reload_pouch_first_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="EnableMedicalRadial" displayKey="packwisely_setting_enable_medical_radial" tooltipKey="packwisely_setting_enable_medical_radial_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="EnableSmartMedicalUse" displayKey="packwisely_setting_enable_smart_medical" tooltipKey="packwisely_setting_enable_smart_medical_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="SmartUseSearchesBackpack" displayKey="packwisely_setting_smart_search_backpack" tooltipKey="packwisely_setting_smart_search_backpack_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="SmartUseSearchesToolbelt" displayKey="packwisely_setting_smart_search_toolbelt" tooltipKey="packwisely_setting_smart_search_toolbelt_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="SmartUseUsesRareItemsForMinorDamage" displayKey="packwisely_setting_smart_rare_minor" tooltipKey="packwisely_setting_smart_rare_minor_tt" defaultValue="Off" leftValue="Off" rightValue="On" />
+      </Category>
+    </Tab>
+    <Tab name="Marking" displayKey="packwisely_settings_marking" tooltipKey="packwisely_settings_marking_tt">
+      <Category name="Marking" displayKey="packwisely_settings_marking" tooltipKey="packwisely_settings_marking_tt">
+        <Switch name="ProtectToolbeltItemsFromBulkActions" displayKey="packwisely_setting_protect_toolbelt" tooltipKey="packwisely_setting_protect_toolbelt_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="ProtectUnreadBooksFromBulkActions" displayKey="packwisely_setting_protect_unread_books" tooltipKey="packwisely_setting_protect_unread_books_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="ProtectQuestItemsFromBulkActions" displayKey="packwisely_setting_protect_quest" tooltipKey="packwisely_setting_protect_quest_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="ProtectActivePouchMods" displayKey="packwisely_setting_protect_active_pouch_mods" tooltipKey="packwisely_setting_protect_active_pouch_mods_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+      </Category>
+    </Tab>
+    <Tab name="Controls" displayKey="packwisely_settings_controls" tooltipKey="packwisely_settings_controls_tt">
+      <Category name="Controls" displayKey="packwisely_settings_controls" tooltipKey="packwisely_settings_controls_tt">
+        <Binding name="MedicalHotkey" displayKey="packwisely_setting_medical_hotkey" tooltipKey="packwisely_setting_medical_hotkey_tt" />
+        <Binding name="MedicalRadialBackCombo" displayKey="packwisely_setting_medical_back_combo" tooltipKey="packwisely_setting_medical_back_combo_tt" />
+        <Binding name="JunkMarkModifier" displayKey="packwisely_setting_junk_modifier" tooltipKey="packwisely_setting_junk_modifier_tt" />
+        <Binding name="JunkMarkTrigger" displayKey="packwisely_setting_junk_trigger" tooltipKey="packwisely_setting_junk_trigger_tt" />
+        <Selector name="ButtonPlacementModifiers" displayKey="packwisely_setting_button_placement_modifiers" tooltipKey="packwisely_setting_button_placement_modifiers_tt" defaultValue="Ctrl+Alt">
+          <Property type="arrayValues" allowedValues="Ctrl+Alt,Ctrl+Shift,Alt+Shift,Ctrl+Alt+Shift" />
+        </Selector>
+        <Binding name="ButtonPlacementTrigger" displayKey="packwisely_setting_button_placement_trigger" tooltipKey="packwisely_setting_button_placement_trigger_tt" />
+      </Category>
+    </Tab>
+    <Tab name="Compatibility" displayKey="packwisely_settings_compatibility" tooltipKey="packwisely_settings_compatibility_tt">
+      <Category name="MedicalXmlCompatibility" displayKey="packwisely_settings_medical_xml_compatibility" tooltipKey="packwisely_settings_medical_xml_compatibility_tt">
+        <Switch name="EnableMedicalCompatXml" displayKey="packwisely_setting_enable_medical_compat_xml" tooltipKey="packwisely_setting_enable_medical_compat_xml_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="AllowMedicalCompatMatchRules" displayKey="packwisely_setting_allow_medical_compat_match_rules" tooltipKey="packwisely_setting_allow_medical_compat_match_rules_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="AllowMedicalCompatSmartUse" displayKey="packwisely_setting_allow_medical_compat_smart_use" tooltipKey="packwisely_setting_allow_medical_compat_smart_use_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="ShowCompatManualRadialItems" displayKey="packwisely_setting_show_compat_manual_radial" tooltipKey="packwisely_setting_show_compat_manual_radial_tt" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Selector name="CompatibilityStatus" displayKey="packwisely_setting_compat_status" tooltipKey="packwisely_setting_compat_status_tt" defaultValue="No compatibility XML detected">
+          <Property type="arrayValues" allowedValues="No compatibility XML detected" />
+        </Selector>
+        <Selector name="CompatibilitySummary" displayKey="packwisely_setting_compat_summary" tooltipKey="packwisely_setting_compat_summary_tt" defaultValue="0 files / 0 entries">
+          <Property type="arrayValues" allowedValues="0 files / 0 entries" />
+        </Selector>
+        <Selector name="CompatibilitySources" displayKey="packwisely_setting_compat_sources" tooltipKey="packwisely_setting_compat_sources_tt" defaultValue="None">
+          <Property type="arrayValues" allowedValues="None" />
+        </Selector>
+      </Category>
+      <Category name="OtherModsCompatibility" displayKey="packwisely_settings_other_mods_compatibility" tooltipKey="packwisely_settings_other_mods_compatibility_tt">
+        <Selector name="ReloadFixCompatibilityStatus" displayKey="packwisely_setting_reloadfix_compat" tooltipKey="packwisely_setting_reloadfix_compat_tt" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="not active,ACTIVE" />
+        </Selector>
+        <Selector name="FarmLifeCompatibilityStatus" displayKey="packwisely_setting_farmlife_compat" tooltipKey="packwisely_setting_farmlife_compat_tt" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="not active,ACTIVE" />
+        </Selector>
+        <Selector name="NhxCompatibilityStatus" displayKey="packwisely_setting_nhx_compat" tooltipKey="packwisely_setting_nhx_compat_tt" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="not active,ACTIVE" />
+        </Selector>
+        <Selector name="BeyondStorageCompatibilityStatus" displayKey="packwisely_setting_beyondstorage_compat" tooltipKey="packwisely_setting_beyondstorage_compat_tt" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="not active,ACTIVE" />
+        </Selector>
+        <Selector name="CatUiCompatibilityStatus" displayKey="packwisely_setting_catui_compat" tooltipKey="packwisely_setting_catui_compat_tt" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="not active,ACTIVE" />
+        </Selector>
+        <Selector name="SteelUiCompatibilityStatus" displayKey="packwisely_setting_steelui_compat" tooltipKey="packwisely_setting_steelui_compat_tt" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="not active,ACTIVE" />
+        </Selector>
+      </Category>
+    </Tab>
+  </Global>
+  <World />
+</ModSettings>

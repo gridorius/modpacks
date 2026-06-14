@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Packwisely" />
+	<DisplayName value="Packwisely" />
+	<Description value="Dedicated ammo, medical, and demolitions pouches plus safe inventory marking tools." />
+	<Banner value="UIAtlases/packwiselyGearsBanner.png" />
+	<Author value="Brotteil" />
+	<Version value="2.1.5" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>

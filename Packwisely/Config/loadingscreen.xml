@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <!--
+    Packwisely loading tips. These are intentionally short, witty utility hints
+    instead of tutorial paragraphs; detailed mechanics stay in item tooltips and
+    Gears settings.
+  -->
+  <append xpath="/doc/tips">
+    <tip key="packwisely_loading_tip_ammo_pouch" />
+    <tip key="packwisely_loading_tip_medical_pouch" />
+    <tip key="packwisely_loading_tip_junk_marking" />
+    <tip key="packwisely_loading_tip_late_tiers" />
+    <tip key="packwisely_loading_tip_smart_medical" />
+    <tip key="packwisely_loading_tip_auto_scrap" />
+    <tip key="packwisely_loading_tip_armor_pouch" />
+    <tip key="packwisely_loading_tip_trader_or_forge" />
+  </append>
+</configs>

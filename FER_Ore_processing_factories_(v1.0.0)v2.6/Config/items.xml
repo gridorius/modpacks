@@ -1,0 +1,544 @@
+<configs> 
+<append xpath="/items">
+
+		<!-- png_pic -->
+		<!-- Mining Rig  -->
+		<item name="resourceOreIronBoulderFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="12"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceOreLeadBoulderFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="12"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceOreRockBoulderFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="12"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceOrePotassiumNitrateBoulderFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="12"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceOreCoalBoulderFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="12"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceOreShaleBoulderFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="12"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceOreBrassBoulderFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="12"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceOreClayBoulderFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="12"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<!-- Ore Crusher  -->
+		<item name="emptyWoodCrateFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="50"/> 
+			<property name="EconomicValue" value="5"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceCrushedIronFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="24"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceCrushedLeadFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="24"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceCrushedRockFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="24"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceCrushedPotassiumNitrateFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="24"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceCrushedCoalFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="24"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceCrushedRawOilShaleFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="24"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceCrushedBrassFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="24"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="resourceCrushedClayFER">
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MoreMetal"/>
+			<property name="Stacknumber" value="20"/> 
+			<property name="EconomicValue" value="24"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		
+		<!--Tools -->
+		<!--Double Bellow -->
+		<item name="tooldoubleBellowsFER">
+		<property name="UnlockedBy" value="craftingWorkstations"/>
+		<property name="Tags" value="workstationSkill"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="MtoolBellows"/>
+		<property name="Stacknumber" value="1"/> 
+		<property name="EconomicValue" value="200"/>
+		<property name="Group" value="Tools/Traps"/>
+		<property name="DisplayType" value="tooldoubleBellowsFER"/>
+		<property name="SoundPickup" value="bellows_grab"/>
+		<property name="SoundPlace" value="bellows_place"/>
+		</item>
+		
+		<!--Iron Crush Roller -->
+		<item name="ToolIronCrushRollerFER">
+		<property name="UnlockedBy" value="craftingSalvageTools"/>
+		<property name="Tags" value="salvagingSkill"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Miron"/>
+		<property name="Stacknumber" value="1"/> 
+		<property name="EconomicValue" value="200"/>
+		<property name="Group" value="Tools/Traps"/>
+		<property name="DisplayType" value="ToolIronCrushRollerFER"/>
+		<property name="SoundPickup" value="scrapiron_grab"/>
+		<property name="SoundPlace" value="scrapiron_place"/>
+		</item>
+		
+		<!--Diamond Crush Roller -->
+		<item name="tooldiamondCrushRollerFER">
+		<property name="UnlockedBy" value="craftingSalvageTools"/>
+		<property name="Tags" value="salvagingSkill"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Miron"/>
+		<property name="Stacknumber" value="1"/> 
+		<property name="EconomicValue" value="800"/>
+		<property name="Group" value="Tools/Traps"/>
+		<property name="DisplayType" value="tooldiamondCrushRollerFER"/>
+		<property name="SoundPickup" value="powertool_big_grab"/>
+		<property name="SoundPlace" value="powertool_big_place"/>
+		</item>
+		
+		
+	<!-- Bundle -->
+	<!-- Extraction Furnace -->
+	<!-- Stack of (Iron) -->
+	<item name="2000ScrapIronFERBundle">
+		<property name="CustomIcon" value="resourceScrapIron"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="Stacknumber" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="FERStack2000"/>
+		<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourceScrapIron"/>
+		<property name="Create_item_count" value="2000"/>
+	</property>
+	</item>
+	
+	<item name="4000ScrapIronFERBundle">
+		<property name="Extends" value="2000ScrapIronFERBundle"/>
+		<property name="CustomIcon" value="resourceScrapIron"/>
+		<property name="Group" value="FERStack4000"/>
+		<property class="Action0">
+			<property name="Create_item" value="resourceScrapIron"/>
+			<property name="Create_item_count" value="4000"/>
+		</property>
+	</item>
+	
+	<!-- Stack of Coal -->
+	<item name="2000resourceCoalFERBundle">
+		<property name="CustomIcon" value="resourceCoal"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="Stacknumber" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="FERStack2000"/>
+		<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourceCoal"/>
+		<property name="Create_item_count" value="2000"/>
+	</property>
+	</item>
+	
+	<item name="4000resourceCoalFERBundle">
+		<property name="Extends" value="2000resourceCoalFERBundle"/>
+		<property name="CustomIcon" value="resourceCoal"/>
+		<property name="Group" value="FERStack4000"/>
+		<property class="Action0">
+			<property name="Create_item" value="resourceCoal"/>
+			<property name="Create_item_count" value="4000"/>
+		</property>
+	</item>
+	
+	<!-- Stack of Lead -->
+	<item name="2000resourceScrapLeadFERBundle">
+		<property name="CustomIcon" value="resourceScrapLead"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="Stacknumber" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="FERStack2000"/>
+		<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourceScrapLead"/>
+		<property name="Create_item_count" value="2000"/>
+	</property>
+	</item>
+	
+	<item name="4000resourceScrapLeadFERBundle">
+		<property name="Extends" value="2000resourceScrapLeadFERBundle"/>
+		<property name="CustomIcon" value="resourceScrapLead"/>
+		<property name="Group" value="FERStack4000"/>
+		<property class="Action0">
+			<property name="Create_item" value="resourceScrapLead"/>
+			<property name="Create_item_count" value="4000"/>
+		</property>
+	</item>
+	
+	<!-- Stack of Rock Smal -->
+	<item name="2000resourceRockSmallFERBundle">
+		<property name="CustomIcon" value="resourceRockSmall"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="Stacknumber" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="FERStack2000"/>
+		<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourceRockSmall"/>
+		<property name="Create_item_count" value="2000"/>
+	</property>
+	</item>
+	
+	<item name="4000resourceRockSmallFERBundle">
+		<property name="Extends" value="2000resourceRockSmallFERBundle"/>
+		<property name="CustomIcon" value="resourceRockSmall"/>
+		<property name="Group" value="FERStack4000"/>
+		<property class="Action0">
+			<property name="Create_item" value="resourceRockSmall"/>
+			<property name="Create_item_count" value="4000"/>
+		</property>
+	</item>
+	
+	<!-- Stack of Brass -->
+	<item name="2000resourceScrapBrassFERBundle">
+		<property name="CustomIcon" value="resourceScrapBrass"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="Stacknumber" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="FERStack2000"/>
+		<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourceScrapBrass"/>
+		<property name="Create_item_count" value="2000"/>
+	</property>
+	</item>
+	
+	<item name="4000resourceScrapBrassFERBundle">
+		<property name="Extends" value="2000resourceScrapBrassFERBundle"/>
+		<property name="CustomIcon" value="resourceScrapBrass"/>
+		<property name="Group" value="FERStack4000"/>
+		<property class="Action0">
+			<property name="Create_item" value="resourceScrapBrass"/>
+			<property name="Create_item_count" value="4000"/>
+		</property>
+	</item>
+	
+	<!-- Stack of Potassium Nitrate -->
+	<item name="2000resourcePotassiumNitratePowderFERBundle">
+		<property name="CustomIcon" value="resourcePotassiumNitratePowder"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="Stacknumber" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="FERStack2000"/>
+		<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourcePotassiumNitratePowder"/>
+		<property name="Create_item_count" value="2000"/>
+	</property>
+	</item>
+	
+	<item name="4000resourcePotassiumNitratePowderFERBundle">
+		<property name="Extends" value="2000resourcePotassiumNitratePowderFERBundle"/>
+		<property name="CustomIcon" value="resourcePotassiumNitratePowder"/>
+		<property name="Group" value="FERStack4000"/>
+		<property class="Action0">
+			<property name="Create_item" value="resourcePotassiumNitratePowder"/>
+			<property name="Create_item_count" value="4000"/>
+		</property>
+	</item>
+	
+	<!-- Stack of Oil Shale -->
+	<item name="2000resourceOilShaleFERBundle">
+		<property name="CustomIcon" value="resourceOilShale"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="Stacknumber" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="FERStack2000"/>
+		<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourceOilShale"/>
+		<property name="Create_item_count" value="2000"/>
+	</property>
+	</item>
+	
+	<item name="4000resourceOilShaleFERBundle">
+		<property name="Extends" value="2000resourceOilShaleFERBundle"/>
+		<property name="CustomIcon" value="resourceOilShale"/>
+		<property name="Group" value="FERStack4000"/>
+		<property class="Action0">
+			<property name="Create_item" value="resourceOilShale"/>
+			<property name="Create_item_count" value="4000"/>
+		</property>
+	</item>
+	
+	<!-- Stack of Clay -->
+	<item name="2000resourceClayLumpFERBundle">
+		<property name="CustomIcon" value="resourceClayLump"/>
+		<property name="ItemTypeIcon" value="bundle"/>
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+		<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+		<property name="Material" value="Morganic"/>
+		<property name="Stacknumber" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="FERStack2000"/>
+		<property class="Action0">
+		<property name="Class" value="OpenBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Use_time" value="0"/>
+		<property name="Sound_start" value="close_garbage"/>
+		<property name="Create_item" value="resourceClayLump"/>
+		<property name="Create_item_count" value="2000"/>
+	</property>
+	</item>
+	
+	<item name="4000resourceClayLumpFERBundle">
+		<property name="Extends" value="2000resourceClayLumpFERBundle"/>
+		<property name="CustomIcon" value="resourceClayLump"/>
+		<property name="Group" value="FERStack4000"/>
+		<property class="Action0">
+			<property name="Create_item" value="resourceClayLump"/>
+			<property name="Create_item_count" value="4000"/>
+		</property>
+	</item>
+	
+
+</append>
+	
+	<!-- tools upgrade -->
+	<!-- Mining Rig  -->
+	<append xpath="/items/item[@name='meleeToolPickT1IronPickaxe']">
+		<effect_group tiered="false">
+			<passive_effect name="CraftingTime" operation="perc_add" value="-0.02,-0.04,-0.06,-0.08,-0.1,-0.16" tier="1,2,3,4,5,6" tags="MiningRig_FER"/>
+			<passive_effect name="CraftingTime" operation="base_add" value="-25" tags="MiningRig_FER"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']">
+		<effect_group tiered="false">
+			<passive_effect name="CraftingTime" operation="perc_add" value="-0.03,-0.06,-0.09,-0.12,-0.15,-0.25" tier="1,2,3,4,5,6" tags="MiningRig_FER"/>
+			<passive_effect name="CraftingTime" operation="base_add" value="-45" tags="MiningRig_FER"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='meleeToolPickT3Auger']">
+		<effect_group tiered="false">
+			<passive_effect name="CraftingTime" operation="perc_add" value="-0.08,-0.11,-0.14,-0.17,-0.20,-0.40" tier="1,2,3,4,5,6" tags="MiningRig_FER"/>
+			<passive_effect name="CraftingTime" operation="base_add" value="-65" tags="MiningRig_FER"/>
+		</effect_group>
+	</append>
+	
+	<!-- Extraction Furnace -->
+	<append xpath="/items/item[@name='toolBellows']">
+		<effect_group tiered="false">
+			<passive_effect name="CraftingTime" operation="base_add" value="-30" tags="ExtractionFurnace_FER"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='tooldoubleBellowsFER']">
+		<effect_group tiered="false">
+			<passive_effect name="CraftingTime" operation="base_add" value="-60" tags="ExtractionFurnace_FER"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='toolForgeCrucible']">
+		<effect_group tiered="false">
+			<passive_effect name="CraftingTime" operation="base_add" value="-90" tags="ExtractionFurnace_FER"/>
+		</effect_group>
+	</append>
+	
+	<!-- Ore Crusher  -->
+	<append xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']">
+		<effect_group tiered="false">
+			<passive_effect name="CraftingTime" operation="perc_add" value="-0.08,-0.11,-0.14,-0.17,-0.20,-0.40" tier="1,2,3,4,5,6" tags="OreCrusher_FER"/>
+			<passive_effect name="CraftingTime" operation="base_add" value="-35" tags="OreCrusher_FER"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='ToolIronCrushRollerFER']">
+		<effect_group tiered="false">
+			<passive_effect name="CraftingTime" operation="base_add" value="-60" tags="OreCrusher_FER"/>
+		</effect_group>
+	</append>
+	
+	<append xpath="/items/item[@name='tooldiamondCrushRollerFER']">
+		<effect_group tiered="false">
+			<passive_effect name="CraftingTime" operation="base_add" value="-90" tags="OreCrusher_FER"/>
+		</effect_group>
+	</append>
+	
+		
+</configs>

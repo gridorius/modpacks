@@ -1,0 +1,15 @@
+<Config>	
+	<append xpath="/ui_display_info/crafting_category_display">
+ 
+
+		<!-- Extraction Furnace -->
+		<crafting_category_list display_type="ExtractionFurnace_FER">
+			<crafting_category name="FERStack2000" icon="FER_ui_game_symbol_StackOf2000" display_name="Stack of (2000)" />
+			<crafting_category name="FERStack4000" icon="FER_ui_game_symbol_StackOf4000" display_name="Stack of (4000)" />
+		</crafting_category_list>
+		
+
+		
+	</append>		
+ 
+</Config>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <append xpath="/item_modifiers">
+    <!--
+      Packwisely pouches are chest-armor attachment mods. The C# side detects
+      them by their modifier_tags, then stores the virtual pouch contents on the
+      equipped chest armor ItemValue.Metadata. Do not add active item effects here;
+      the storage, capacity and filters are owned by Source/Pouches/*.cs.
+
+      These modifiers extend vanilla modGeneralMaster so the recipe/unlock/loot
+      systems see them like normal armor mods. T3/T4 also expose UnlockedBy to
+      match their schematics and learnable recipes.
+    -->
+
+    <!-- Ammo pouches: ammo-only virtual storage. T1 fits chest/lower-body armor; higher tiers are chest-only. -->
+    <item_modifier name="modArmorPackwiselyAmmoPouchT1" installable_tags="armorChest,armorFeet" modifier_tags="packwiselyAmmoPouch,packwiselyAmmoPouchT1" blocked_tags="noMods,packwiselyAmmoPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselySmallAmmoPouch" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mleather" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="350" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+    <item_modifier name="modArmorPackwiselyAmmoPouchT2" installable_tags="armorChest" modifier_tags="packwiselyAmmoPouch,packwiselyAmmoPouchT2" blocked_tags="noMods,packwiselyAmmoPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyAmmoPouch" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mleather" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="750" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+    <item_modifier name="modArmorPackwiselyAmmoPouchT3" installable_tags="armorChest" modifier_tags="packwiselyAmmoPouch,packwiselyAmmoPouchT3" blocked_tags="noMods,packwiselyAmmoPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyTacticalBandolier" />
+      <property name="UnlockedBy" value="modArmorPackwiselyAmmoPouchT3Schematic" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mleather" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="1400" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+    <item_modifier name="modArmorPackwiselyAmmoPouchT4" installable_tags="armorChest" modifier_tags="packwiselyAmmoPouch,packwiselyAmmoPouchT4" blocked_tags="noMods,packwiselyAmmoPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyHeavyAmmoRig" />
+      <property name="UnlockedBy" value="modArmorPackwiselyAmmoPouchT4Schematic" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mleather" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="2400" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+    <!-- Medical pouches: med-only virtual storage. T1 fits chest/lower-body armor; higher tiers are chest-only. -->
+    <item_modifier name="modArmorPackwiselyMedicalPouchT1" installable_tags="armorChest,armorFeet" modifier_tags="packwiselyMedicalPouch,packwiselyMedicalPouchT1" blocked_tags="noMods,packwiselyMedicalPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyFirstAidRoll" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mcloth" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="300" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+    <item_modifier name="modArmorPackwiselyMedicalPouchT2" installable_tags="armorChest" modifier_tags="packwiselyMedicalPouch,packwiselyMedicalPouchT2" blocked_tags="noMods,packwiselyMedicalPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyMedicalPouch" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mcloth" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="700" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+    <item_modifier name="modArmorPackwiselyMedicalPouchT3" installable_tags="armorChest" modifier_tags="packwiselyMedicalPouch,packwiselyMedicalPouchT3" blocked_tags="noMods,packwiselyMedicalPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyTraumaPouch" />
+      <property name="UnlockedBy" value="modArmorPackwiselyMedicalPouchT3Schematic" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mleather" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="1300" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+    <item_modifier name="modArmorPackwiselyMedicalPouchT4" installable_tags="armorChest" modifier_tags="packwiselyMedicalPouch,packwiselyMedicalPouchT4" blocked_tags="noMods,packwiselyMedicalPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyFieldMedicPack" />
+      <property name="UnlockedBy" value="modArmorPackwiselyMedicalPouchT4Schematic" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mleather" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="2200" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+
+    <!-- Demolitions pouches: throwable/explosive-only virtual storage. T1 fits chest/lower-body armor; higher tiers are chest-only. -->
+    <item_modifier name="modArmorPackwiselyExplosivesPouchT1" installable_tags="armorChest,armorFeet" modifier_tags="packwiselyExplosivesPouch,packwiselyExplosivesPouchT1" blocked_tags="noMods,packwiselyExplosivesPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyExplosivesPouchT1" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mleather" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="400" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+    <item_modifier name="modArmorPackwiselyExplosivesPouchT2" installable_tags="armorChest" modifier_tags="packwiselyExplosivesPouch,packwiselyExplosivesPouchT2" blocked_tags="noMods,packwiselyExplosivesPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyExplosivesPouchT2" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mleather" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="850" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+    <item_modifier name="modArmorPackwiselyExplosivesPouchT3" installable_tags="armorChest" modifier_tags="packwiselyExplosivesPouch,packwiselyExplosivesPouchT3" blocked_tags="noMods,packwiselyExplosivesPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyExplosivesPouchT3" />
+      <property name="UnlockedBy" value="modArmorPackwiselyExplosivesPouchT3Schematic" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mleather" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="1600" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+
+    <item_modifier name="modArmorPackwiselyExplosivesPouchT4" installable_tags="armorChest" modifier_tags="packwiselyExplosivesPouch,packwiselyExplosivesPouchT4" blocked_tags="noMods,packwiselyExplosivesPouch" type="attachment">
+      <property name="Extends" value="modGeneralMaster" param1="CustomIcon" />
+      <property name="CreativeMode" value="Player" />
+      <property name="CustomIcon" value="packwiselyExplosivesPouchT4" />
+      <property name="UnlockedBy" value="modArmorPackwiselyExplosivesPouchT4Schematic" />
+      <property name="Stacknumber" value="1" />
+      <property name="HoldType" value="45" />
+      <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+      <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+      <property name="Material" value="Mleather" />
+      <property name="Weight" value="1" />
+      <property name="EconomicValue" value="2600" />
+      <property name="Group" value="Mods,Armor Mods" />
+      <property name="SoundPickup" value="mod_grab" />
+      <property name="SoundPlace" value="mod_place" />
+    </item_modifier>
+  </append>
+</configs>

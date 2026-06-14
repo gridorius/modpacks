@@ -1,0 +1,17 @@
+<configs>
+	<!-- <append xpath="/items/item[@name='meleeToolTorch']">
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfEquipStop" action="RemovePart" part="Flames"/>
+			<triggered_effect trigger="onSelfWaterSubmerge" action="RemovePart" part="Flames"/>
+			<triggered_effect trigger="onSelfWaterSurface" action="AddPart" part="Flames" prefab="particleeffects/torch02_firePrefab" parentTransform="#HeldItemRoot">
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+			<triggered_effect trigger="onSelfEquipStart" action="AddPart" part="Flames" prefab="particleeffects/torch02_firePrefab" parentTransform="#HeldItemRoot">
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1"/>
+				<requirement name="IsFPV"/>
+			</triggered_effect>
+		</effect_group>
+	</append>
+	<remove xpath="/items/item[@name='apparelNightvisionGoggles']//triggered_effect[@part='HeadLightTPV']"/>
+	<remove xpath="/items/item[@name='apparelNightvisionGoggles']//triggered_effect[@part='HeadLightFPV']"/> -->
+</configs>

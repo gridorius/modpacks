@@ -1,0 +1,13 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,russian
+perkStackMasterName,progression,Perk,,,Stack Master,Мастер стаков
+perkStackMasterDesc,progression,Perk,,,"Increases maximum stack size of ALL items.","Увеличивает максимальный размер стака ВСЕХ предметов."
+perkStackMasterRank1Desc,progression,Perk,,,Organizer,Организатор
+perkStackMasterRank1LongDesc,progression,Perk,,,"You've learned basic inventory management. Stack size increased by 25%. Example: 500 becomes 625","Вы освоили базовое управление инвентарём. Размер стака увеличен на 25%. Пример: 500 становится 625"
+perkStackMasterRank2Desc,progression,Perk,,,Hoarder,Запасливый
+perkStackMasterRank2LongDesc,progression,Perk,,,"Your hoarding skills improve efficiency. Stack size increased by 50%. Example: 500 becomes 750","Ваши навыки накопления повышают эффективность. Размер стака увеличен на 50%. Пример: 500 становится 750"
+perkStackMasterRank3Desc,progression,Perk,,,Packrat,Барахольщик
+perkStackMasterRank3LongDesc,progression,Perk,,,"You can carry much more than before. Stack size increased by 75%. Example: 500 becomes 875","Вы можете нести намного больше чем раньше. Размер стака увеличен на 75%. Пример: 500 становится 875"
+perkStackMasterRank4Desc,progression,Perk,,,Inventory master,Мастер инвентаря
+perkStackMasterRank4LongDesc,progression,Perk,,,"You've mastered the art of packing. Stack size DOUBLED (+100%). Example: 500 becomes 1000","Вы овладели искусством упаковки. Размер стака УДВОЕН (+100%). Пример: 500 становится 1000"
+perkStackMasterRank5Desc,progression,Perk,,,Legendary packmaster,Легендарный упаковщик
+perkStackMasterRank5LongDesc,progression,Perk,,,"You are a legend of inventory management. Stack size increased by 150%. Example: 500 becomes 1250","Вы легенда управления инвентарём. Размер стака увеличен на 150%. Пример: 500 становится 1250"

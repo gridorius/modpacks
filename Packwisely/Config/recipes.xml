@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <append xpath="/recipes">
+    <!--
+      Crafting progression:
+        T1 = hand-craftable starter pouch.
+        T2 = workbench upgrade that consumes the T1 pouch.
+        T3/T4 = harder workbench upgrades that consume the previous pouch tier
+                and require the matching Packwisely schematic.
+
+      The pouch modifiers extend vanilla modGeneralMaster and T3/T4 expose
+      UnlockedBy, so this upgrade chain follows the same shape as other armor
+      mod upgrade/learnable setups instead of using fragile custom unlock logic.
+      Capacity is not defined here; Gears settings + PouchRegistry own live slots.
+    -->
+
+    <!-- Ammo pouch upgrade chain. -->
+    <recipe name="modArmorPackwiselyAmmoPouchT1" count="1" craft_time="10" always_unlocked="true">
+      <ingredient name="resourceCloth" count="12" />
+      <ingredient name="resourceLeather" count="4" />
+      <ingredient name="resourceDuctTape" count="1" />
+      <ingredient name="resourceSewingKit" count="1" />
+    </recipe>
+
+    <recipe name="modArmorPackwiselyAmmoPouchT2" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="modArmorPackwiselyAmmoPouchT1" count="1" />
+      <ingredient name="resourceLeather" count="14" />
+      <ingredient name="resourceDuctTape" count="4" />
+      <ingredient name="resourceMechanicalParts" count="10" />
+      <ingredient name="resourceSewingKit" count="2" />
+    </recipe>
+
+    <recipe name="modArmorPackwiselyAmmoPouchT3" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="modArmorPackwiselyAmmoPouchT2" count="1" />
+      <ingredient name="armorParts" count="12" />
+      <ingredient name="resourceForgedSteel" count="14" />
+      <ingredient name="resourceMechanicalParts" count="12" />
+      <ingredient name="resourceDuctTape" count="4" />
+      <ingredient name="resourceSewingKit" count="4" />
+    </recipe>
+
+    <recipe name="modArmorPackwiselyAmmoPouchT4" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="modArmorPackwiselyAmmoPouchT3" count="1" />
+      <ingredient name="armorParts" count="24" />
+      <ingredient name="resourceForgedSteel" count="28" />
+      <ingredient name="resourceMechanicalParts" count="18" />
+      <ingredient name="resourceElectricParts" count="10" />
+      <ingredient name="resourceLegendaryParts" count="2" />
+      <ingredient name="resourceSewingKit" count="6" />
+    </recipe>
+
+    <!-- Medical pouch upgrade chain. -->
+    <recipe name="modArmorPackwiselyMedicalPouchT1" count="1" craft_time="10" always_unlocked="true">
+      <ingredient name="resourceCloth" count="14" />
+      <ingredient name="resourceLeather" count="3" />
+      <ingredient name="resourceDuctTape" count="1" />
+      <ingredient name="medicalBandage" count="2" />
+    </recipe>
+
+    <recipe name="modArmorPackwiselyMedicalPouchT2" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="modArmorPackwiselyMedicalPouchT1" count="1" />
+      <ingredient name="resourceCloth" count="28" />
+      <ingredient name="resourceDuctTape" count="3" />
+      <ingredient name="medicalFirstAidBandage" count="4" />
+      <ingredient name="resourceSewingKit" count="2" />
+    </recipe>
+
+    <recipe name="modArmorPackwiselyMedicalPouchT3" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="modArmorPackwiselyMedicalPouchT2" count="1" />
+      <ingredient name="armorParts" count="10" />
+      <ingredient name="resourceMechanicalParts" count="10" />
+      <ingredient name="medicalFirstAidKit" count="4" />
+      <ingredient name="drugPainkillers" count="4" />
+      <ingredient name="resourceSewingKit" count="4" />
+    </recipe>
+
+    <recipe name="modArmorPackwiselyMedicalPouchT4" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="modArmorPackwiselyMedicalPouchT3" count="1" />
+      <ingredient name="armorParts" count="22" />
+      <ingredient name="resourceForgedSteel" count="18" />
+      <ingredient name="medicalFirstAidKit" count="6" />
+      <ingredient name="drugAntibiotics" count="3" />
+      <ingredient name="resourceLegendaryParts" count="2" />
+      <ingredient name="resourceSewingKit" count="6" />
+    </recipe>
+
+
+    <!-- Demolitions pouch upgrade chain. -->
+    <recipe name="modArmorPackwiselyExplosivesPouchT1" count="1" craft_time="10" always_unlocked="true">
+      <ingredient name="resourceCloth" count="10" />
+      <ingredient name="resourceLeather" count="5" />
+      <ingredient name="resourceDuctTape" count="1" />
+      <ingredient name="resourceGunPowder" count="20" />
+    </recipe>
+
+    <recipe name="modArmorPackwiselyExplosivesPouchT2" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="modArmorPackwiselyExplosivesPouchT1" count="1" />
+      <ingredient name="resourceLeather" count="16" />
+      <ingredient name="resourceMechanicalParts" count="8" />
+      <ingredient name="resourceDuctTape" count="3" />
+      <ingredient name="thrownAmmoPipeBomb" count="3" />
+    </recipe>
+
+    <recipe name="modArmorPackwiselyExplosivesPouchT3" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="modArmorPackwiselyExplosivesPouchT2" count="1" />
+      <ingredient name="armorParts" count="12" />
+      <ingredient name="resourceForgedSteel" count="12" />
+      <ingredient name="resourceMechanicalParts" count="14" />
+      <ingredient name="thrownGrenade" count="4" />
+      <ingredient name="resourceSewingKit" count="4" />
+    </recipe>
+
+    <recipe name="modArmorPackwiselyExplosivesPouchT4" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+      <ingredient name="modArmorPackwiselyExplosivesPouchT3" count="1" />
+      <ingredient name="armorParts" count="24" />
+      <ingredient name="resourceForgedSteel" count="24" />
+      <ingredient name="resourceMechanicalParts" count="18" />
+      <ingredient name="resourceElectricParts" count="8" />
+      <ingredient name="thrownTimedCharge" count="2" />
+      <ingredient name="resourceLegendaryParts" count="2" />
+    </recipe>
+  </append>
+</configs>

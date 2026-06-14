@@ -1,0 +1,219 @@
+<Config>
+	<append xpath="/recipes">
+	
+		<!-- recipe for Ore processing Machines -->
+		<!-- Mining Rig -->
+		<recipe name="MiningRig_FER" count="1" craft_area="workbench" craft_time="180" tags="craftingWorkstations,learnable,MiningRig_FER">
+			<ingredient name="resourceForgedIron" count="100"/>
+			<ingredient name="smallEngine" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="35"/>
+			<ingredient name="resourceOil" count="3"/>
+			<ingredient name="resourceElectricParts" count="25"/>
+		</recipe>
+		
+		<recipe name="ExtractionFurnace_FER" count="1" craft_area="workbench" craft_time="180" tags="craftingWorkstations,learnable,ExtractionFurnace_FER">
+			<ingredient name="resourceForgedIron" count="50"/>
+			<ingredient name="resourceCobblestones" count="100"/>
+			<ingredient name="resourceClayLump" count="100"/>
+			<ingredient name="resourceMetalPipe" count="20"/>
+		</recipe>
+		
+		<recipe name="OreCrusher_FER" count="1" craft_area="workbench" craft_time="270" tags="craftingWorkstations,learnable,OreCrusher_FER">
+			<ingredient name="resourceForgedIron" count="200"/>
+			<ingredient name="resourceForgedSteel" count="25"/>
+			<ingredient name="smallEngine" count="2"/>
+			<ingredient name="resourceMechanicalParts" count="45"/>
+			<ingredient name="resourceElectricParts" count="35"/>
+		</recipe>
+		
+		<!--Tool -->
+		<!--Double Bellow -->
+		<recipe name="tooldoubleBellowsFER" count="1" craft_area="workbench" craft_time="240" tags="craftingWorkstations,learnable,tooldoubleBellowsFER">
+			<ingredient name="resourceWood" count="100"/>
+			<ingredient name="resourceLeather" count="40"/>
+			<ingredient name="resourceMetalPipe" count="15"/>
+			<ingredient name="resourceDuctTape" count="10"/>
+			<ingredient name="resourceNail" count="25"/>
+		</recipe>
+		
+		<!--Iron Crush Roller -->
+		<recipe name="ToolIronCrushRollerFER" count="1" craft_area="workbench" craft_time="300" tags="craftingWorkstations,learnable,ToolIronCrushRollerFER,workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="75"/>
+			<ingredient name="resourceForgedSteel" count="20"/>
+			<ingredient name="resourceMetalPipe" count="15"/>
+		</recipe>
+		
+		<!--Diamond Crush Roller -->
+		<recipe name="tooldiamondCrushRollerFER" count="1" craft_area="workbench" craft_time="360" tags="craftingWorkstations,learnable,tooldiamondCrushRollerFER,workbenchCrafting">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceForgedSteel" count="75"/>
+			<ingredient name="resourceRawDiamond" count="4"/>
+		</recipe>
+		
+	<!-- recipe for resources -->
+	<!-- Mining Rig -->
+	<recipe name="resourceOreIronBoulderFER" count="1" craft_area="MiningRig_FER" craft_time="210" tags="MiningRig_FER">
+			<ingredient name="ammoGasCan" count="200"/>
+	</recipe>
+	
+	<recipe name="resourceOreLeadBoulderFER" count="1" craft_area="MiningRig_FER" craft_time="210" tags="MiningRig_FER">
+			<ingredient name="ammoGasCan" count="200"/>
+	</recipe>
+	
+	<recipe name="resourceOreRockBoulderFER" count="1" craft_area="MiningRig_FER" craft_time="165" tags="MiningRig_FER">
+			<ingredient name="ammoGasCan" count="100"/>
+	</recipe>
+	
+	<recipe name="resourceOrePotassiumNitrateBoulderFER" count="1" craft_area="MiningRig_FER" craft_time="210" tags="MiningRig_FER">
+			<ingredient name="ammoGasCan" count="200"/>
+	</recipe>
+	
+	<recipe name="resourceOreCoalBoulderFER" count="1" craft_area="MiningRig_FER" craft_time="210" tags="MiningRig_FER">
+			<ingredient name="ammoGasCan" count="200"/>
+	</recipe>
+	
+	<recipe name="resourceOreShaleBoulderFER" count="1" craft_area="MiningRig_FER" craft_time="240" tags="MiningRig_FER">
+			<ingredient name="ammoGasCan" count="250"/>
+	</recipe>
+	
+	<recipe name="resourceOreBrassBoulderFER" count="1" craft_area="MiningRig_FER" craft_time="270" tags="MiningRig_FER">
+			<ingredient name="ammoGasCan" count="350"/>
+	</recipe>
+	
+	<recipe name="resourceOreClayBoulderFER" count="1" craft_area="MiningRig_FER" craft_time="210" tags="MiningRig_FER">
+			<ingredient name="ammoGasCan" count="200"/>
+	</recipe>
+	
+	<!-- Ore Crusher  -->
+	<recipe name="emptyWoodCrateFER" count="1" craft_area="workbench" craft_time="10" tags="craftingWorkstations">
+			<ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceNail" count="6"/>
+		</recipe>
+		
+	<recipe name="resourceCrushedIronFER" count="1" craft_area="OreCrusher_FER" craft_time="270" tags="OreCrusher_FER">
+			<ingredient name="ammoGasCan" count="200"/>
+			<ingredient name="resourceOreIronBoulderFER" count="1"/>
+			<ingredient name="emptyWoodCrateFER" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceCrushedLeadFER" count="1" craft_area="OreCrusher_FER" craft_time="270" tags="OreCrusher_FER">
+			<ingredient name="ammoGasCan" count="200"/>
+			<ingredient name="resourceOreLeadBoulderFER" count="1"/>
+			<ingredient name="emptyWoodCrateFER" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceCrushedRockFER" count="1" craft_area="OreCrusher_FER" craft_time="195" tags="OreCrusher_FER">
+			<ingredient name="ammoGasCan" count="100"/>
+			<ingredient name="resourceOreRockBoulderFER" count="1"/>
+			<ingredient name="emptyWoodCrateFER" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceCrushedPotassiumNitrateFER" count="1" craft_area="OreCrusher_FER" craft_time="270" tags="OreCrusher_FER">
+			<ingredient name="ammoGasCan" count="200"/>
+			<ingredient name="resourceOrePotassiumNitrateBoulderFER" count="1"/>
+			<ingredient name="emptyWoodCrateFER" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceCrushedCoalFER" count="1" craft_area="OreCrusher_FER" craft_time="270" tags="OreCrusher_FER">
+			<ingredient name="ammoGasCan" count="200"/>
+			<ingredient name="resourceOreCoalBoulderFER" count="1"/>
+			<ingredient name="emptyWoodCrateFER" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceCrushedRawOilShaleFER" count="1" craft_area="OreCrusher_FER" craft_time="300" tags="OreCrusher_FER">
+			<ingredient name="ammoGasCan" count="250"/>
+			<ingredient name="resourceOreShaleBoulderFER" count="1"/>
+			<ingredient name="emptyWoodCrateFER" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceCrushedBrassFER" count="1" craft_area="OreCrusher_FER" craft_time="330" tags="OreCrusher_FER">
+			<ingredient name="ammoGasCan" count="350"/>
+			<ingredient name="resourceOreBrassBoulderFER" count="1"/>
+			<ingredient name="emptyWoodCrateFER" count="1"/>
+	</recipe>
+	
+	<recipe name="resourceCrushedClayFER" count="1" craft_area="OreCrusher_FER" craft_time="270" tags="OreCrusher_FER">
+			<ingredient name="ammoGasCan" count="200"/>
+			<ingredient name="resourceOreClayBoulderFER" count="1"/>
+			<ingredient name="emptyWoodCrateFER" count="1"/>
+	</recipe>
+	
+	<!-- Extraction Furnace -->
+	<!-- Stack of Iron -->
+	<recipe name="2000ScrapIronFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="210" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceOreIronBoulderFER" count="1"/>
+	</recipe>
+	
+	<recipe name="4000ScrapIronFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="240" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceCrushedIronFER" count="1"/>
+	</recipe>
+	
+	<!-- Stack of Coal -->
+	<recipe name="2000resourceCoalFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="210" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceOreCoalBoulderFER" count="1"/>
+	</recipe>
+	
+	<recipe name="4000resourceCoalFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="240" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceCrushedCoalFER" count="1"/>
+	</recipe>
+	
+	<!-- Stack of Lead -->
+	<recipe name="2000resourceScrapLeadFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="210" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceOreLeadBoulderFER" count="1"/>
+	</recipe>
+	
+	<recipe name="4000resourceScrapLeadFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="240" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceCrushedLeadFER" count="1"/>
+	</recipe>
+	
+	<!-- Stack of Rock Smal -->
+	<recipe name="2000resourceRockSmallFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="210" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceOreRockBoulderFER" count="1"/>
+	</recipe>
+	
+	<recipe name="4000resourceRockSmallFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="240" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceCrushedRockFER" count="1"/>
+	</recipe>
+	
+	<!-- Stack of Brass -->
+	<recipe name="2000resourceScrapBrassFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="210" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceOreBrassBoulderFER" count="1"/>
+	</recipe>
+	
+	<recipe name="4000resourceScrapBrassFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="240" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceCrushedBrassFER" count="1"/>
+	</recipe>
+	
+	<!-- Stack of Potassium Nitrate -->
+	<recipe name="2000resourcePotassiumNitratePowderFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="210" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceOrePotassiumNitrateBoulderFER" count="1"/>
+	</recipe>
+	
+	<recipe name="4000resourcePotassiumNitratePowderFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="240" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceCrushedPotassiumNitrateFER" count="1"/>
+	</recipe>
+	
+	<!-- Stack of Oil Shale -->
+	<recipe name="2000resourceOilShaleFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="210" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceOreShaleBoulderFER" count="1"/>
+	</recipe>
+	
+	<!-- Stack of Oil Shale -->
+	<recipe name="4000resourceOilShaleFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="240" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceCrushedRawOilShaleFER" count="1"/>
+	</recipe>
+	
+	<!-- Stack of Clay -->
+	<recipe name="2000resourceClayLumpFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="210" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceOreClayBoulderFER" count="1"/>
+	</recipe>
+	
+	<recipe name="4000resourceClayLumpFERBundle" count="1" craft_area="ExtractionFurnace_FER" craft_time="240" tags="ExtractionFurnace_FER,recipetag">
+			<ingredient name="resourceCrushedClayFER" count="1"/>
+	</recipe>
+	
+	
+	
+		
+		</append>
+</Config>

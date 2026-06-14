@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="Stack_Master_Perk"/>
+	<DisplayName value="Stack Master Perk"/>
+	<Version value="1.0"/>
+	<Description value="Adds a perk that multiplies stack sizes for all items"/>
+	<Author value="Pxntxrez"/>
+	<Website value=""/>
+</xml>

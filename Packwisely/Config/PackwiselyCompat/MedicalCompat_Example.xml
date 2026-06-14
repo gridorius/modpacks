@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  Packwisely Medical Compatibility XML
+
+  Purpose:
+  - Lets other mods add medical consumables to Packwisely without writing a DLL.
+  - Packwisely scans every loaded mod for XML files here:
+      Config/PackwiselyCompat/*.xml
+  - External compat mods can ship only ModInfo.xml + this XML folder.
+
+  Example external add-on layout:
+    Mods/BigMedicExpansion_PackwiselyCompat/
+      ModInfo.xml
+      Config/
+        PackwiselyCompat/
+          BigMedicExpansion.xml
+
+  Merge behavior:
+  - All compat files are loaded by priority, then mod/folder/file order.
+  - Lower priority loads first; higher priority overrides later.
+  - Packwisely's own files should usually use priority="0".
+  - External mod compatibility can use priority="100".
+  - Personal/user overrides can use priority="1000".
+  - mode="merge" is default.
+  - mode="replace" starts fresh for that item, then applies the entry.
+  - mode="remove" disables/removes that item from Packwisely medical compatibility.
+
+  Safety rule:
+  - Storage in the medical pouch can be broad.
+  - Manual radial use can be broad.
+  - Smart Q should stay conservative.
+  - Unknown combat stims/candies/buffs should normally use smartUse enabled="false".
+
+  Built-in radial categories:
+    RootTreatment  = shown directly on root radial
+    Injectors      = Injectors & Steroids folder
+    CandyBuffs     = Candy Buffs folder
+    UtilityBuffs   = Utility Buffs folder
+    DeathRecovery  = Death Recovery folder
+    OtherMedical   = generic modded/manual medical folder
+    Hidden         = can be stored if allowed, but does not appear in radial
+
+  Summary line kinds:
+    benefit = green, Packwisely adds +
+    cost    = red, Packwisely adds -
+    warning = yellow
+    info    = neutral
+
+  Smart use roles:
+    Bleeding, Heal, Infection, Fatigue, Concussion, Sprain, BrokenLimb, Pain, DiseaseResist
+
+  Infection cure tiers:
+    Honey, HerbalAntibiotic, Antibiotic, StrongAntibiotic
+
+  Healing strength:
+    Weak, Normal, Strong, Emergency
+-->
+
+<packwiselyMedicalCompat schema="1" modId="PackwiselyExample" priority="0">
+
+  <info
+    name="Packwisely Medical Compatibility Example"
+    author="Packwisely"
+    version="1.0.0" />
+
+  <!--
+    Optional custom categories.
+
+    This example is commented out so it does not affect gameplay.
+
+    <categories>
+      <category
+        id="SurgeryKits"
+        label="Surgery Kits"
+        locKey="my_mod_category_surgery_kits"
+        fallback="Surgery Kits"
+        icon="ui_game_symbol_medical"
+        atlas="UIAtlas"
+        sort="70" />
+    </categories>
+  -->
+
+  <items>
+
+    <!--
+      Minimal useful entry.
+      Defaults:
+      - allowed in Medical Pouch
+      - shown in Other Medical
+      - Smart Q disabled
+      - summary says modded/manual medical item
+
+      <item name="myModMedicalThing" />
+    -->
+
+    <!--
+      Strong treatment item. Smart Q may use it for healing/bleeding.
+
+      <item name="myModAdvancedFirstAidKit" mode="merge">
+        <storage allow="true" />
+        <radial show="true" category="RootTreatment" sort="20" />
+        <smartUse enabled="true">
+          <role id="Heal" strength="Strong" priority="80" />
+          <role id="Bleeding" priority="90" />
+        </smartUse>
+        <summary>
+          <line kind="benefit" text="Health 150" />
+          <line kind="benefit" text="Stops bleeding" />
+        </summary>
+      </item>
+    -->
+
+    <!--
+      Infection cure. Smart Q uses the cureTier to fit Packwisely's infection thresholds.
+
+      <item name="myModMilitaryAntibiotics">
+        <storage allow="true" />
+        <radial show="true" category="RootTreatment" sort="35" />
+        <smartUse enabled="true">
+          <role id="Infection" cureTier="StrongAntibiotic" priority="95" />
+        </smartUse>
+        <summary>
+          <line kind="benefit" text="Infection cure" />
+          <line kind="benefit" text="Strong antibiotic" />
+        </summary>
+      </item>
+    -->
+
+    <!--
+      Manual combat stim. It can be stored and manually used, but Tap Q will not spend it.
+
+      <item name="myModCombatStim">
+        <storage allow="true" />
+        <radial show="true" category="Injectors" sort="50" />
+        <smartUse enabled="false" />
+        <summary>
+          <line kind="benefit" text="Move speed" />
+          <line kind="benefit" text="Melee damage" />
+          <line kind="cost" text="Water 30" />
+          <line kind="warning" text="Manual use only" />
+        </summary>
+      </item>
+    -->
+
+    <!--
+      Explicit blacklist/removal. Useful if a broad rule catches something it should not.
+
+      <item name="myModPoisonInjector" mode="remove" />
+    -->
+
+  </items>
+
+  <!--
+    Broad match rules are advanced. They are useful for large mods, but should
+    usually keep smartUse disabled because name/tag matching can catch dangerous
+    or expensive consumables.
+  -->
+  <matchRules>
+
+    <!--
+      Example: all items whose internal name starts with myModInjector...
+
+      <match id="my_mod_manual_injectors" namePrefix="myModInjector">
+        <storage allow="true" />
+        <radial show="true" category="Injectors" sort="80" />
+        <smartUse enabled="false" />
+        <summary>
+          <line kind="info" text="Modded injector" />
+          <line kind="warning" text="Manual use only" />
+        </summary>
+      </match>
+    -->
+
+    <!--
+      Example: all items with a custom item tag exposed by the medical expansion mod.
+
+      <match id="my_mod_tagged_medical_items" tag="packwiselyMedical">
+        <storage allow="true" />
+        <radial show="true" category="OtherMedical" sort="90" />
+        <smartUse enabled="false" />
+        <summary>
+          <line kind="info" text="Modded medical item" />
+          <line kind="warning" text="Manual use only" />
+        </summary>
+      </match>
+    -->
+
+  </matchRules>
+
+</packwiselyMedicalCompat>

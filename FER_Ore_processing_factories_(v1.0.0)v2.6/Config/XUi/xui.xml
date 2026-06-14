@@ -1,0 +1,36 @@
+<Config>
+	<append xpath="/xui/ruleset">
+	
+		<!-- Mining Rig  -->
+		<window_group name="workstation_MiningRig_FER" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowToolsMiningRig_FER"/>
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput"/>
+			<window name="windowNonPagingHeader"/>
+		</window_group>
+		
+		<!-- Extraction Furnace  -->
+		<window_group name="workstation_ExtractionFurnace_FER" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowToolsExtractionFurnace_FER"/>
+			<window name="windowFuel"/>
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput"/>
+			<window name="windowNonPagingHeader"/>
+		</window_group>
+		
+		<!-- Ore Crusher  -->
+		<window_group name="workstation_OreCrusher_FER" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+			<window name="windowToolsOreCrusher_FER"/>
+			<window name="windowCraftingList"/>
+			<window name="craftingInfoPanel"/>
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput"/>
+			<window name="windowNonPagingHeader"/>
+		</window_group>
+		
+	</append>
+</Config>
