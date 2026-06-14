@@ -1,0 +1,227 @@
+<configs>
+
+<append xpath ="/buffs">
+
+<!-- *** buffShockedT2 -->
+	<!-- TRIGGERED_BY: Props = electricfencepostT2 -->
+	<!-- Handler for electrical shock -->
+	<buff name="buffShockedT2" description_key="buffShockedDesc" tooltip_key="buffShockedTooltip" icon="ui_game_symbol_electric_power" name_key="buffShockedName" icon_color="255,0,0">
+		<damage_type value="electrical"/>
+		<stack_type value="duration"/>
+		<duration value="6"/>
+		<update_rate value="1"/>
+		<display_value value="$buffShockedDisplay"/>
+		<display_value_format value="time"/>
+
+		<effect_group>
+			<!-- Blinks the display -->
+			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffShocked"/>
+		
+			<triggered_effect trigger="onSelfBuffStart" action="GetBuffDuration" reference="$shockDurationMax"/>
+			<triggered_effect trigger="onSelfBuffStart" action="GetBuffDuration" reference="$buffShockedDisplay"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffShockedDisplay" operation="set" value="4">
+				<requirement name="CVarCompare" cvar="$buffShockedDisplay" operation="LTE" value="0"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffStack" action="GetBuffDuration" reference="$buffShockedDisplay"/>
+
+			<passive_effect name="HealthChangeOT" operation="base_add" value="-10"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffShockedDisplay" operation="add" value="-1"/>
+
+			<!-- If Charged zombie, reduce time again -->
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffShockedDisplay" operation="add" value="-1">
+				<requirement name="EntityTagCompare" tags="charged"/>
+			</triggered_effect>
+
+			<!-- If Charged zombie and display is 0, remove buff -->
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffShocked">
+				<requirement name="CVarCompare" cvar="$buffShockedDisplay" operation="LTE" value="0"/>
+				<requirement name="EntityTagCompare" tags="charged"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffShockImmune">
+				<requirement name="CVarCompare" cvar="$buffShockedDisplay" operation="LTE" value="0"/>
+				<requirement name="EntityTagCompare" tags="charged"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$buffShockedDisplay"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0"/>
+
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+
+			<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="ETrapHit"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="electric_fence_impact"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="electric_fence_impact"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="StopSound" sound="electric_fence_impact"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="4"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,4"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,4"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,4"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,4"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="5"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,5"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,5"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,5"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,5"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="6"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,6"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,6"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,6"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,6"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="7"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,7"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,7"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,7"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,7"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="8"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,8"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,8"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,8"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,8"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="9"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,9"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,9"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,9"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,9"/>
+		</effect_group>
+	</buff>
+
+<!-- *** buffShockedT3 -->
+	<!-- TRIGGERED_BY: Props = electricfencepostT3 -->
+	<!-- Handler for electrical shock -->
+	<buff name="buffShockedT3" description_key="buffShockedDesc" tooltip_key="buffShockedTooltip" icon="ui_game_symbol_electric_power" name_key="buffShockedName" icon_color="255,0,0">
+		<damage_type value="electrical"/>
+		<stack_type value="duration"/>
+		<duration value="8"/>
+		<update_rate value="1"/>
+		<display_value value="$buffShockedDisplay"/>
+		<display_value_format value="time"/>
+
+		<effect_group>
+			<!-- Blinks the display -->
+			<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffShocked"/>
+		
+			<triggered_effect trigger="onSelfBuffStart" action="GetBuffDuration" reference="$shockDurationMax"/>
+			<triggered_effect trigger="onSelfBuffStart" action="GetBuffDuration" reference="$buffShockedDisplay"/>
+			<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffShockedDisplay" operation="set" value="4">
+				<requirement name="CVarCompare" cvar="$buffShockedDisplay" operation="LTE" value="0"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffStack" action="GetBuffDuration" reference="$buffShockedDisplay"/>
+
+			<passive_effect name="HealthChangeOT" operation="base_add" value="-16"/>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffShockedDisplay" operation="add" value="-1"/>
+
+			<!-- If Charged zombie, reduce time again -->
+			<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffShockedDisplay" operation="add" value="-1">
+				<requirement name="EntityTagCompare" tags="charged"/>
+			</triggered_effect>
+
+			<!-- If Charged zombie and display is 0, remove buff -->
+			<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffShocked">
+				<requirement name="CVarCompare" cvar="$buffShockedDisplay" operation="LTE" value="0"/>
+				<requirement name="EntityTagCompare" tags="charged"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffShockImmune">
+				<requirement name="CVarCompare" cvar="$buffShockedDisplay" operation="LTE" value="0"/>
+				<requirement name="EntityTagCompare" tags="charged"/>
+			</triggered_effect>
+
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$buffShockedDisplay"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0"/>
+			<triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_electric_shock" parent_transform="Spine1" local_offset="0,-.2,0"/>
+
+			<triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+
+			<triggered_effect trigger="onSelfBuffFinish" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="ETrapHit"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="RemoveParticleEffectFromEntity" particle="p_electric_shock"/>
+
+			<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="electric_fence_impact"/>
+			<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="electric_fence_impact"/>
+			<triggered_effect trigger="onSelfLeaveGame" action="StopSound" sound="electric_fence_impact"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="4"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,4"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,4"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,4"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,4"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="5"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,5"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,5"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,5"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,5"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="6"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,6"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,6"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,6"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,6"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="7"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,7"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,7"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,7"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,7"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="8"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,8"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,8"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,8"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,8"/>
+		</effect_group>
+
+		<effect_group>
+			<requirement name="CVarCompare" cvar="$shockDurationMax" operation="GTE" value="9"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".9,.05" duration="0,9"/>
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".9,.05" duration="0,9"/>
+				<passive_effect name="CrouchSpeed" operation="perc_subtract" value=".9,.05" duration="0,9"/>
+				<passive_effect name="JumpStrength" operation="perc_subtract" value=".9,.05" duration="0,9"/>
+		</effect_group>
+	</buff>
+
+</append>
+
+</configs>

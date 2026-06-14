@@ -1,0 +1,71 @@
+<config>
+
+<append xpath="/items">
+
+<item name="ammoDartIronT2">
+	<property name="Extends" value="ammoArrowIron" param1="HandMeshfile"/>
+	<property name="Meshfile" value="@:Entities/Electrical/steel_dartPrefab.prefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Stacknumber" value="2500"/> <!-- STK ammo -->
+	<property name="EconomicValue" value="34"/>
+	<property name="TraderStageTemplate" value="ammoTier1"/><!-- ammoDartIron -->
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="DisplayType" value="ammoDart"/>
+	<property name="DescriptionKey" value="ammoDartIronDesc"/>
+	<property name="SoundPickup" value="nails_grab"/>
+	<property name="SoundPlace" value="nails_place"/>
+	<property class="Action1">
+		<property name="Velocity" value="55"/>
+		<property name="Gravity" value="-4"/>
+		<property name="LifeTime" value="2"/>
+	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="22,45"/>
+		<property name="BlockDamage" value="3,8"/>
+	</property>
+	<effect_group name="ammoDartIron" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="70"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="2"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value=".1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth,metal,cloth,stone"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="65"/>
+	</effect_group>
+</item>
+
+<item name="ammoDartIronT3">
+	<property name="Extends" value="ammoArrowIron" param1="HandMeshfile"/>
+	<property name="Meshfile" value="@:Entities/Electrical/steel_dartPrefab.prefab"/>
+	<property name="HoldType" value="45"/>
+	<property name="HandMeshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Stacknumber" value="2500"/> <!-- STK ammo -->
+	<property name="EconomicValue" value="34"/>
+	<property name="TraderStageTemplate" value="ammoTier1"/><!-- ammoDartIron -->
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="DisplayType" value="ammoDart"/>
+	<property name="DescriptionKey" value="ammoDartIronDesc"/>
+	<property name="SoundPickup" value="nails_grab"/>
+	<property name="SoundPlace" value="nails_place"/>
+	<property class="Action1">
+		<property name="Velocity" value="55"/>
+		<property name="Gravity" value="-4"/>
+		<property name="LifeTime" value="2"/>
+	</property>
+	<property class="Attributes">
+		<property name="EntityDamage" value="22,45"/>
+		<property name="BlockDamage" value="3,8"/>
+	</property>
+	<effect_group name="ammoDartIron" tiered="false">
+		<passive_effect name="EntityDamage" operation="base_set" value="90"/>
+		<passive_effect name="BlockDamage" operation="base_set" value="2"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value=".1" tags="wood"/>
+		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth,metal,cloth,stone"/>
+		<passive_effect name="ProjectileVelocity" operation="base_set" value="75"/>
+	</effect_group>
+</item>
+
+</append>
+
+</config>

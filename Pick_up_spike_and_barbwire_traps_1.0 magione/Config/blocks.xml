@@ -1,0 +1,17 @@
+<configs>
+  <append xpath="/blocks/block[@name='trapSpikesWoodDmg0']">
+    <property name="CanPickup" value="true" param1="trapSpikesWoodDmg0"/>
+  </append>
+  <append xpath="/blocks/block[@name='trapSpikesIronDmg0']">
+    <property name="CanPickup" value="true" param1="trapSpikesIronDmg0" />
+  </append>
+  <append xpath="/blocks/block[@name='barbedFence']">
+    <property name="CanPickup" value="true" param1="barbedFence" />
+  </append>
+  <append xpath="/blocks/block[@name='barbedFenceDamaged01']">
+    <property name="CanPickup" value="false" />
+  </append>
+  <append xpath="/blocks/block[@name='barbedFenceDamaged02']">
+    <property name="CanPickup" value="false" />
+  </append>
+</configs>
