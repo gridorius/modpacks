@@ -1,0 +1,121 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,russian
+
+cre_BoxOfArmorMods,items,Item,,,Box of Armor Mods T1,Ящик с модификациями брони T1
+cre_BoxOfArmorModsDesc,items,Item,,,There is a random T1 armor modification inside.,Внутри лежит случайная модификация для брони T1.
+
+
+
+cre_modArmorBandolierT1,items,Item,,,Bandolier mod T1,Мод. Патронташ T1
+cre_modArmorFittingsT1,items,Item,,,Fittings mod T1,Мод. Соединения T1
+cre_modArmorPlatingT1,items,Item,,,Plate mod T1,Мод. Пластина T1
+cre_modArmorGlovesStaminaT1,items,Item,,,Ergonomic Gloves mod T1,Мод. Эргономичные Перчатки  T1
+cre_modArmorGlovesSpeedT1,items,Item,,, Assault Gloves mod T1,Мод. Штурмовые Перчатки T1
+cre_modArmorBootsSpeedT1,items,Item,,,Shock-Absorbent Soles mod T1,Мод. Амортизирующая Подошва T1
+cre_modArmorBootsStorageT1,items,Item,,,Reinforced Soles mod T1,Мод. Усиленная Подошва T1
+cre_modArmorHealthT1,items,Item,,,Health mod T1,Мод. Здоровье T1
+cre_modArmorStaminaT1,items,Item,,,Stamina mod T1,Мод. Выносливость T1
+cre_modArmorResistT1,items,Item,,,Lining mod T1,Мод. Подкладка T1
+cre_modArmorReflectionShockT1,items,Item,,,Shock Reflector mod T1,Мод. Шоковый Отражатель T1
+cre_modArmorReflectionPunchT1,items,Item,,,Repulsive Reflector mod T1,Мод. Отталкивающий Отражатель T1
+cre_modArmorReflectionFireT1,items,Item,,,Fire Reflector mod T1,Мод. Огненный Отражатель T1
+cre_modArmorAddLootT1,items,Item,,,Looter Monocle mod T1,Мод. Монокль Мародера  T1
+cre_modArmorBleedAnimalT1,items,Item,,,Vein Seeker mod T1,Мод. Искатель Вен T1
+
+cre_modArmorBandolierT2,items,Item,,,Bandolier mod T2,Мод. Патронташ T2
+cre_modArmorFittingsT2,items,Item,,,Fittings mod T2,Мод. Соединения T2
+cre_modArmorPlatingT2,items,Item,,,Plate mod T2,Мод. Пластина T2
+cre_modArmorGlovesStaminaT2,items,Item,,,Ergonomic Gloves mod T2,Мод. Эргономичные Перчатки  T2
+cre_modArmorGlovesSpeedT2,items,Item,,, Assault Gloves mod T2,Мод. Штурмовые Перчатки T2
+cre_modArmorBootsSpeedT2,items,Item,,,Shock-Absorbent Soles mod T2,Мод. Амортизирующая Подошва T2
+cre_modArmorBootsStorageT2,items,Item,,,Reinforced Soles mod T2,Мод. Усиленная Подошва T2
+cre_modArmorHealthT2,items,Item,,,Health mod T2,Мод. Здоровье T2
+cre_modArmorStaminaT2,items,Item,,,Stamina mod T2,Мод. Выносливость T2
+cre_modArmorResistT2,items,Item,,,Lining mod T2,Мод. Подкладка T2
+cre_modArmorReflectionShockT2,items,Item,,,Shock Reflector mod T2,Мод. Шоковый Отражатель T2
+cre_modArmorReflectionPunchT2,items,Item,,,Repulsive Reflector mod T2,Мод. Отталкивающий Отражатель T2
+cre_modArmorReflectionFireT2,items,Item,,,Fire Reflector mod T2,Мод. Огненный Отражатель T2
+cre_modArmorAddLootT2,items,Item,,,Looter Monocle mod T2,Мод. Монокль Мародера  T2
+cre_modArmorBleedAnimalT2,items,Item,,,Vein Seeker mod T2,Мод. Искатель Вен T2
+
+cre_modArmorBandolierT3,items,Item,,,Bandolier mod T3,Мод. Патронташ T3
+cre_modArmorFittingsT3,items,Item,,,Fittings mod T3,Мод. Соединения T3
+cre_modArmorPlatingT3,items,Item,,,Plate mod T3,Мод. Пластина T3
+cre_modArmorGlovesStaminaT3,items,Item,,,Ergonomic Gloves mod T3,Мод. Эргономичные Перчатки  T3
+cre_modArmorGlovesSpeedT3,items,Item,,, Assault Gloves mod T3,Мод. Штурмовые Перчатки T3
+cre_modArmorBootsSpeedT3,items,Item,,,Shock-Absorbent Soles mod T3,Мод. Амортизирующая Подошва T3
+cre_modArmorBootsStorageT3,items,Item,,,Reinforced Soles mod T3,Мод. Усиленная Подошва T3
+cre_modArmorHealthT3,items,Item,,,Health mod T3,Мод. Здоровье T3
+cre_modArmorStaminaT3,items,Item,,,Stamina mod T3,Мод. Выносливость T3
+cre_modArmorResistT3,items,Item,,,Lining mod T3,Мод. Подкладка T3
+cre_modArmorReflectionShockT3,items,Item,,,Shock Reflector mod T3,Мод. Шоковый Отражатель T3
+cre_modArmorReflectionPunchT3,items,Item,,,Repulsive Reflector mod T3,Мод. Отталкивающий Отражатель T3
+cre_modArmorReflectionFireT3,items,Item,,,Fire Reflector mod T3,Мод. Огненный Отражатель T3
+cre_modArmorAddLootT3,items,Item,,,Looter Monocle mod T3,Мод. Монокль Мародера  T3
+cre_modArmorBleedAnimalT3,items,Item,,,Vein Seeker mod T3,Мод. Искатель Вен T3
+
+cre_modArmorSniperT1,items,Item,,,Sniper Monocle mod T1,Мод. Монокль Снайпера T1
+cre_modArmorSniperT2,items,Item,,,Sniper Monocle mod T2,Мод. Монокль Снайпера T2
+cre_modArmorSniperT3,items,Item,,,Sniper Monocle mod T3,Мод. Монокль Снайпера T3
+
+
+cre_modArmorBandolierT1Desc,items,Item,,,Reload Speed +9%,Скорость перезарядки +9%
+cre_modArmorFittingsT1Desc,items,Item,,,Mobility +1.5%,Мобильность +1.5%
+cre_modArmorPlatingT1Desc,items,Item,,,Armor +0.9,Броня  +0.9
+cre_modArmorGlovesStaminaT1Desc,items,Item,,,Stamina drain -7%,Трата выносливости -7%
+cre_modArmorGlovesSpeedT1Desc,items,Item,,,Attack speed +15% Reload Speed +5%,Скорость атаки +15% Скорость перезарядка +5%
+cre_modArmorBootsSpeedT1Desc,items,Item,,,Movement speed +5%,Скорость движения +5%
+cre_modArmorBootsStorageT1Desc,items,Item,,,Carrying +3,Грузоподъемность +3
+cre_modArmorHealthT1Desc,items,Item,,,Health +5,Здоровье +5
+cre_modArmorStaminaT1Desc,items,Item,,,Stamina +5,Выносливость +5
+cre_modArmorResistT1Desc,items,Item,,,Crit Resistance +5%,Сопротивление Травмам +5%
+cre_modArmorReflectionShockT1Desc,items,Item,,,Electric shock (4 sec),Удар током (4 секунды)
+cre_modArmorReflectionPunchT1Desc,items,Item,,,Repulsion (3 sec),Отталкивание (3 секунды)
+cre_modArmorReflectionFireT1Desc,items,Item,,,Ignition (11 sec),Поджог (11 секунды)
+cre_modArmorAddLootT1Desc,items,Item,,,Dukes for kill and Food Chance 1%,Дюки за убийство и шанс еды 1%
+cre_modArmorBleedAnimalT1Desc,items,Item,,,Bleeding in animals upon impact +3 Extra meat,Кровотечение у животных при попадании +3 Дополнительное мясо
+
+cre_modArmorBandolierT2Desc,items,Item,,,Reload Speed +19%,Скорость перезарядки +19%
+cre_modArmorFittingsT2Desc,items,Item,,,Mobility +2.7%,Мобильность +2.7%
+cre_modArmorPlatingT2Desc,items,Item,,,Armor +1.75,Броня  +1.75
+cre_modArmorGlovesStaminaT2Desc,items,Item,,,Stamina drain -15%,Трата выносливости -15%
+cre_modArmorGlovesSpeedT2Desc,items,Item,,,Attack speed +25% Reload Speed +11%,Скорость атаки +25% Скорость перезарядка +11%
+cre_modArmorBootsSpeedT2Desc,items,Item,,,Movement speed +10%,Скорость движения +10%
+cre_modArmorBootsStorageT2Desc,items,Item,,,Carrying +6,Грузоподъемность +6
+cre_modArmorHealthT2Desc,items,Item,,,Health +10,Здоровье +10
+cre_modArmorStaminaT2Desc,items,Item,,,Stamina +10,Выносливость +10
+cre_modArmorResistT2Desc,items,Item,,,Crit Resistance +10%,Сопротивление Травмам +10%
+cre_modArmorReflectionShockT2Desc,items,Item,,,Electric shock in area (7 sec),Удар током в области (7 секунд)
+cre_modArmorReflectionPunchT2Desc,items,Item,,,Repulsion in area (5 sec),Отталкивание в области (5 секунд)
+cre_modArmorReflectionFireT2Desc,items,Item,,,Ignition in area (15 sec),Поджог в области (15 секунд)
+cre_modArmorAddLootT2Desc,items,Item,,,Dukes for kill and Food Chance 2%,Дюки за убийство и шанс еды 2%
+cre_modArmorBleedAnimalT2Desc,items,Item,,,Bleeding in animals upon impact +5 Extra meat,Кровотечение у животных при попадании +5 Дополнительное мясо
+
+cre_modArmorBandolierT3Desc,items,Item,,,Reload Speed +33%,Скорость перезарядки +33%
+cre_modArmorFittingsT3Desc,items,Item,,,Mobility +4.5%,Мобильность +4.5%
+cre_modArmorPlatingT3Desc,items,Item,,,Armor +3.5,Броня  +3.5
+cre_modArmorGlovesStaminaT3Desc,items,Item,,,Stamina drain -25%,Трата выносливости -25%
+cre_modArmorGlovesSpeedT3Desc,items,Item,,,Attack speed +37% Reload Speed +17%,Скорость атаки +37% Скорость перезарядка +17%
+cre_modArmorBootsSpeedT3Desc,items,Item,,,Movement speed +15%,Скорость движения +15%
+cre_modArmorBootsStorageT3Desc,items,Item,,,Carrying +9,Грузоподъемность +9
+cre_modArmorHealthT3Desc,items,Item,,,Health +20,Здоровье +20
+cre_modArmorStaminaT3Desc,items,Item,,,Stamina +20,Выносливость +20
+cre_modArmorResistT3Desc,items,Item,,,Crit Resistance +20%,Сопротивление Травмам +20%
+cre_modArmorReflectionShockT3Desc,items,Item,,,Electric shock in wide area(7 sec),Удар током в широкой области (7 секунд)
+cre_modArmorReflectionPunchT3Desc,items,Item,,,Repulsion in wide area(5 sec),Отталкивание в широкой области (5 секунд)
+cre_modArmorReflectionFireT3Desc,items,Item,,,Ignition in wide area(15 sec),Поджог в широкой области (15 секунд)
+cre_modArmorAddLootT3Desc,items,Item,,,Dukes for kill and Food Chance 3%,Дюки за убийство и шанс еды 3%
+cre_modArmorBleedAnimalT3Desc,items,Item,,,Bleeding in animals upon impact +7 Extra meat,Кровотечение у животных при попадании +7 Дополнительное мясо
+
+
+cre_modArmorSniperT1Desc,items,Item,,,Armor penetration +10% Head Damage +30% Penetration +1,Пробивание брони +10% Урон в голову +30% Пробитие +1
+cre_modArmorSniperT2Desc,items,Item,,,Armor penetration +20% Head Damage +45% Penetration +1,Пробивание брони +20% Урон в голову +45% Пробитие +1
+cre_modArmorSniperT3Desc,items,Item,,,Armor penetration +35% Head Damage +70% Penetration +1,Пробивание брони +35% Урон в голову +70% Пробитие +1
+
+
+
+
+
+
+
+
+

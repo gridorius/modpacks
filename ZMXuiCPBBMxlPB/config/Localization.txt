@@ -1,7 +1,0 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
-
-perkPackMuleRank1LongDesc,progression,perk Str,,,Who has time to organize their stuff perfectly? Carry ten more items without being encumbered.,,,,,,,,,,"У нормальных людей нет времени складывать свои вещи аккуратно. Вы можете нести еще десять предметов без последствий.",,,,
-perkPackMuleRank2LongDesc,progression,perk Str,,,You know it's in there somewhere. Carry an additional ten more items without being encumbered.,,,,,,,,,,"Вы знаете, что эта штука где-то здесь. Вы можете нести десять дополнительных предметов без последствий.",,,,
-perkPackMuleRank3LongDesc,progression,perk Str,,,You know exactly where everything is. Carry ten additional items without being encumbered.,,,,,,,,,,"Вы отлично знаете, что где лежит. Вы можете нести десять дополнительных предметов без последствий.",,,,
-perkPackMuleRank4LongDesc,progression,perk Str,,,"You just passed inspection, private. Carry ten more items without being encumbered.",,,,,,,,,,"Вы только что прошли проверку, рядовой.  Вы можете нести еще десять предметов без последствий.",,,,
-perkPackMuleRank5LongDesc,progression,perk Str,,,"Now you are just showing off, you are either part mule or a strongman. Carry ten more items without being encumbered.",,,,,,,,,,"Теперь вы просто хвастаетесь. Вы либо наполовину мул, либо цирковой силач. Вы можете нести еще десять предметов без последствий.",,,,

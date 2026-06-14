@@ -1,0 +1,29 @@
+<configs>
+
+
+<insertBefore xpath="/quests/quest[contains(@id, 'tier1')]/reward[3]">
+        <reward type="Item" id="creBoxOfMods" ischosen="true" value="1"/>
+		<reward type="Item" id="creBoxOfAmmo" ischosen="true" value="1"/>
+</insertBefore>
+
+<insertBefore xpath="/quests/quest[contains(@id, 'tier2')]/reward[3]">
+        <reward type="Item" id="creBoxOfMods" ischosen="true" value="1"/>
+		<reward type="Item" id="creBoxOfAmmo" ischosen="true" value="1"/>
+</insertBefore>
+
+<insertBefore xpath="/quests/quest[contains(@id, 'tier3')]/reward[3]">
+        <reward type="Item" id="creBoxOfMods" ischosen="true" value="1"/>
+		<reward type="Item" id="creBoxOfAmmo" ischosen="true" value="1"/>
+</insertBefore>
+
+<insertBefore xpath="/quests/quest[contains(@id, 'tier4')]/reward[3]">
+        <reward type="Item" id="creBoxOfMods" ischosen="true" value="1"/>
+		<reward type="Item" id="creBoxOfAmmo" ischosen="true" value="1"/>
+</insertBefore>
+
+<insertBefore xpath="/quests/quest[contains(@id, 'tier5')]/reward[3]">
+        <reward type="Item" id="creBoxOfMods" ischosen="true" value="1"/>
+		<reward type="Item" id="creBoxOfAmmo" ischosen="true" value="1"/>
+</insertBefore>
+
+</configs>

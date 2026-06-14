@@ -1,0 +1,10 @@
+<config>
+ 
+    <remove xpath="/progression/perks/perk[@name='perkTurrets']/effect_group/passive_effect[@name='JunkTurretActiveCount']"/>
+
+    <append xpath="/progression/perks/perk[@name='perkTurrets']/effect_group">
+        <passive_effect name="JunkTurretActiveCount" operation="base_set" value="0"/>
+        <passive_effect name="JunkTurretActiveCount" operation="base_add" level="1,2,3,4,5" value="0,1,2,3,4"/>
+    </append>
+	
+</config>

@@ -1,0 +1,85 @@
+<configs>
+
+<append xpath="/gameevents">
+
+
+
+
+<action_sequence name="cre_EventGiveLootT1">
+	<action class="AddItems">
+		<property name="added_items" value="casinoCoin"/>
+		<property name="added_item_counts" value="5-9"/>
+	</action>
+	
+	<action class="AddItems">
+		<property name="added_items" value="foodCanCatfood"/>
+		<property name="added_item_counts" value="1"/>
+		<requirement class="RandomRoll">
+			<property name="min_max" value="0,100"/>
+			<property name="operation" value="LTE"/>
+			<property name="value" value="1"/>
+		</requirement>
+	</action>
+</action_sequence>
+
+<action_sequence name="cre_EventGiveLootT2">
+	<action class="AddItems">
+		<property name="added_items" value="casinoCoin"/>
+		<property name="added_item_counts" value="7-15"/>
+	</action>
+	
+	<action class="AddItems">
+		<property name="added_items" value="foodCanCatfood"/>
+		<property name="added_item_counts" value="1"/>
+		<requirement class="RandomRoll">
+			<property name="min_max" value="0,100"/>
+			<property name="operation" value="LTE"/>
+			<property name="value" value="2"/>
+		</requirement>
+	</action>
+</action_sequence>
+
+<action_sequence name="cre_EventGiveLootT3">
+	<action class="AddItems">
+		<property name="added_items" value="casinoCoin"/>
+		<property name="added_item_counts" value="11-25"/>
+	</action>
+	
+	<action class="AddItems">
+		<property name="added_items" value="foodCanCatfood"/>
+		<property name="added_item_counts" value="1"/>
+		<requirement class="RandomRoll">
+			<property name="min_max" value="0,100"/>
+			<property name="operation" value="LTE"/>
+			<property name="value" value="3"/>
+		</requirement>
+	</action>
+</action_sequence>
+
+
+
+<action_sequence name="cre_EventGiveMeatT1">
+	<action class="AddItems">
+		<property name="added_items" value="foodRawMeat"/>
+		<property name="added_item_counts" value="0-2"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="cre_EventGiveMeatT2">
+	<action class="AddItems">
+		<property name="added_items" value="foodRawMeat"/>
+		<property name="added_item_counts" value="1-3"/>
+	</action>
+</action_sequence>
+
+<action_sequence name="cre_EventGiveMeatT3">
+	<action class="AddItems">
+		<property name="added_items" value="foodRawMeat"/>
+		<property name="added_item_counts" value="2-5"/>
+	</action>
+</action_sequence>
+
+
+
+</append>
+</configs>

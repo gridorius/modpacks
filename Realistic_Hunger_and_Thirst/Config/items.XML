@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+#Sydney666's Realistic Hunger and Thirst Version 1.1
+#The mod is lore friendly and adds subjective realism to 7DTD v2.5. The mod is created to tone down hunger and thirst for those who seek it. If you don't like it, or aren't seeking it simply don't use the mod.
+#The changes mean that you will only need to eat and drink 1-3 times per day. A couple of tins of food, or 5 raw meat cooked to a charred meat meal will be enough to survive. 3-4 Mason Jars of water per day will keep you fully hydrated. Drinking and eating once a day, if struggling early on, should keep you alive barely. 
+#"Grandpa's" items have not been altered in this mod.
+#Seeing "Tested" below means the item was tested and confirmed to be working correctly in game. If something is marked Tested and not working, then please check your install or any conflicts. I won't be investigating issues if I can't replicate it. 
+#Feedback is okay, but I wont be designing the mod for others. I have created this file so it's easy to edit.
+#To edit it, change the "value" settings to what you prefer. $food is for satiation and $water is for thirst. Easy!
+
+#Start Smoothies (Hazard Reducer)
+#These were slightly buffed to match all other satiation or dehydration effects.
+#Example : One affects hunger more than thirst due to their ingredients. 
+
+<!-- Oasis Smoothie - Tested -->
+<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group[@name='Hazard Reducer']/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+<set xpath="/items/item[@name='foodOasisSmoothie']/effect_group[@name='Hazard Reducer']/triggered_effect[@cvar='$waterAmountAdd']/@value">60</set>
+
+<!-- Frostbite Smoothie - Tested -->
+<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group[@name='Hazard Reducer']/triggered_effect[@cvar='$foodAmountAdd']/@value">90</set>
+<set xpath="/items/item[@name='foodFrostbiteSmoothie']/effect_group[@name='Hazard Reducer']/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+
+#End Smoothies
+
+#Start Drugs (Candy Tier)
+#These were slightly buffed to match all other satiation or dehydration effects.
+#Example : Some drugs suppress hunger and increase satiation in real life. Kind of like when you chew gum, eat a lolly/candyc.
+
+<!-- Atom Junkies-Tested -->
+<set xpath="/items/item[@name='drugAtomJunkies']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Covert Cats - Tested -->
+<set xpath="/items/item[@name='drugCovertCats']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Eye Kandy - Tested -->
+<set xpath="/items/item[@name='drugEyeKandy']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Hackers - Tested -->
+<set xpath="/items/item[@name='drugHackers']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Health Bar - Tested -->
+<set xpath="/items/item[@name='drugHealthBar']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Jail Breakers - Tested -->
+<set xpath="/items/item[@name='drugJailBreakers']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Nerd Tats - Tested -->
+<set xpath="/items/item[@name='drugNerdTats']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Oh Shitz Drops - Tested -->
+<set xpath="/items/item[@name='drugOhShitzDrops']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Rock Busters - Tested -->
+<set xpath="/items/item[@name='drugRockBusters']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Skull Crushers - Tested -->
+<set xpath="/items/item[@name='drugSkullCrushers']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Sugar Butts - Tested -->
+<set xpath="/items/item[@name='drugSugarButts']/effect_group[@name='Candy Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+#End Drugs
+
+#Start Food (Food Tier)
+#Food satiation also takes into account nutritional value in real life and the value of ingredients needed.
+#Example: A can of tuna will be healthier and more filling than a canned cat foot, chili(chili dog) or Sham.
+
+<!-- Honey - Tested -->
+<set xpath="/items/item[@name='foodHoney']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">20</set>
+
+<!-- Can Beef - Tested -->
+<set xpath="/items/item[@name='foodCanBeef']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">40</set>
+
+<!-- Can Chicken - Tested -->
+<set xpath="/items/item[@name='foodCanChicken']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">40</set>
+
+<!-- Can Lamb - Tested -->
+<set xpath="/items/item[@name='foodCanLamb']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">40</set>
+
+<!-- Can Catfood - Tested -->
+<set xpath="/items/item[@name='foodCanCatfood']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+
+<!-- Can Dogfood - Tested -->
+<set xpath="/items/item[@name='foodCanDogfood']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+
+<!-- Can Chili - Tested -->
+<set xpath="/items/item[@name='foodCanChili']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+
+<!-- Can Tuna - Tested -->
+<set xpath="/items/item[@name='foodCanTuna']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">40</set>
+
+<!-- Can Sham - Tested -->
+<set xpath="/items/item[@name='foodCanSham']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+
+<!-- Can Pasta - Tested -->
+<set xpath="/items/item[@name='foodCanPasta']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">35</set>
+
+<!-- Can Salmon - Tested -->
+<set xpath="/items/item[@name='foodCanSalmon']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">40</set>
+
+<!-- Can Miso - Tested -->
+<set xpath="/items/item[@name='foodCanMiso']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+<set xpath="/items/item[@name='foodCanMiso']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+
+<!-- Can Peas - Tested -->
+<set xpath="/items/item[@name='foodCanPeas']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">25</set>
+<set xpath="/items/item[@name='foodCanPeas']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+
+<!-- Can Pears - Tested -->
+<set xpath="/items/item[@name='foodCanPears']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">20</set>
+<set xpath="/items/item[@name='foodCanPears']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+
+<!-- Can Soup - Tested -->
+<set xpath="/items/item[@name='foodCanSoup']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">20</set>
+<set xpath="/items/item[@name='foodCanSoup']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$waterAmountAdd']/@value">40</set>
+
+<!-- Can Stock - Tested -->
+<set xpath="/items/item[@name='foodCanStock']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">10</set>
+<set xpath="/items/item[@name='foodCanStock']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+
+<!-- Grilled Corn - Tested -->
+<set xpath="/items/item[@name='foodCornOnTheCob']/effect_group[@name='Food Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+<append xpath="/items/item[@name='foodCornOnTheCob']/effect_group[@name='Food Tier 1']">
+    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="5"/>
+</append>
+
+<!-- Corn Bread - Tested -->
+<set xpath="/items/item[@name='foodCornBread']/effect_group[@name='Food Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+
+<!-- Sham Sandwich - Not Tested -->
+<set xpath="/items/item[@name='foodShamSandwich']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">20</set>
+
+<!-- CharredMeat - Tested -->
+<set xpath="/items/item[@name='foodCharredMeat']/effect_group[@name='Food Tier 0/1']/triggered_effect[@cvar='$foodAmountAdd']/@value">80</set>
+<set xpath="/items/item[@name='foodCharredMeat']/effect_group[@name='Food Tier 0/1']/display_value[@name='$waterAmountAdd']/@value">-5</set>
+
+<!-- Grilled Meat - Tested -->
+<set xpath="/items/item[@name='foodGrilledMeat']/effect_group[@name='Food Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">90</set>
+
+<!-- Boiled Meat - Tested -->
+<set xpath="/items/item[@name='foodBoiledMeat']/effect_group[@name='Food Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">90</set>
+<set xpath="/items/item[@name='foodBoiledMeat']/effect_group[@name='Food Tier 1']/triggered_effect[@cvar='$waterAmountAdd']/@value">20</set>
+
+<!-- Meat Stew - Tested -->
+<set xpath="/items/item[@name='foodMeatStew']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$foodAmountAdd']/@value">100</set>
+<set xpath="/items/item[@name='foodMeatStew']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+
+<!-- Steak and Potato - Tested -->
+<set xpath="/items/item[@name='foodSteakAndPotato']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$foodAmountAdd']/@value">100</set>
+
+<!-- Honey Glazed Sham - Tested -->
+<set xpath="/items/item[@name='foodHoneyGlazedSham']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$foodAmountAdd']/@value">98</set>
+
+<!-- Honey Brisket - Tested -->
+<set xpath="/items/item[@name='foodHoneyBrisket']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$foodAmountAdd']/@value">141</set>
+
+<!-- Sham Chowder - Tested -->
+<set xpath="/items/item[@name='foodShamChowder']/effect_group[@name='Food Tier 3']/triggered_effect[@cvar='$foodAmountAdd']/@value">70</set>
+<set xpath="/items/item[@name='foodShamChowder']/effect_group[@name='Food Tier 3']/triggered_effect[@cvar='$waterAmountAdd']/@value">20</set>
+
+<!-- Hobo Stew - Tested -->
+<set xpath="/items/item[@name='foodHoboStew']/effect_group[@name='Food Tier 3']/triggered_effect[@cvar='$foodAmountAdd']/@value">84</set>
+<set xpath="/items/item[@name='foodHoboStew']/effect_group[@name='Food Tier 3']/triggered_effect[@cvar='$waterAmountAdd']/@value">20</set>
+
+<!-- Fish Tacos - Tested -->
+<set xpath="/items/item[@name='foodFishTacos']/effect_group[@name='Food Tier 3']/triggered_effect[@cvar='$foodAmountAdd']/@value">85</set>
+
+<!-- Chili Dog - Tested -->
+<set xpath="/items/item[@name='foodChiliDog']/effect_group[@name='Food Tier 3']/triggered_effect[@cvar='$foodAmountAdd']/@value">65</set>
+
+<!-- Baked Potato - Tested -->
+<set xpath="/items/item[@name='foodBakedPotato']/effect_group[@name='Food Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+
+<!-- Blueberry Pie - Tested -->
+<set xpath="/items/item[@name='foodBlueberryPie']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$foodAmountAdd']/@value">65</set>
+
+<!-- Pumpkin Pie - Tested -->
+<set xpath="/items/item[@name='foodPumpkinPie']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$foodAmountAdd']/@value">70</set>
+
+<!-- Pumpkin Cheesecake - Tested -->
+<set xpath="/items/item[@name='foodPumpkinCheesecake']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$foodAmountAdd']/@value">75</set>
+
+<!-- Pumpkin Bread - Tested -->
+<set xpath="/items/item[@name='foodPumpkinBread']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$foodAmountAdd']/@value">50</set>
+
+<!-- Gumbo Stew - Tested -->
+<set xpath="/items/item[@name='foodGumboStew']/effect_group[@name='Food Tier 4']/triggered_effect[@cvar='$foodAmountAdd']/@value">112</set>
+<set xpath="/items/item[@name='foodGumboStew']/effect_group[@name='Food Tier 4']/triggered_effect[@cvar='$waterAmountAdd']/@value">20</set>
+
+<!-- Shepards Pie - Tested -->
+<set xpath="/items/item[@name='foodShepardsPie']/effect_group[@name='Food Tier 4']/triggered_effect[@cvar='$foodAmountAdd']/@value">104</set>
+
+<!-- Spaghetti - Tested -->
+<set xpath="/items/item[@name='foodSpaghetti']/effect_group[@name='Food Tier 4']/triggered_effect[@cvar='$foodAmountAdd']/@value">122</set>
+
+<!-- Tuna Fish Gravy Toast - Tested -->
+<set xpath="/items/item[@name='foodTunaFishGravyToast']/effect_group[@name='Food Tier 4']/triggered_effect[@cvar='$foodAmountAdd']/@value">90</set>
+
+<!-- Boiled Egg - Tested -->
+<set xpath="/items/item[@name='foodEggBoiled']/effect_group[@name='Food Tier 0/1']/triggered_effect[@cvar='$foodAmountAdd']/@value">25</set>
+
+<!-- Bacon and Eggs - Tested -->
+<set xpath="/items/item[@name='foodBaconAndEggs']/effect_group[@name='Food Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">80</set>
+
+<!-- Vegetable Stew - Tested -->
+<set xpath="/items/item[@name='foodVegetableStew']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$foodAmountAdd']/@value">80</set>
+<set xpath="/items/item[@name='foodVegetableStew']/effect_group[@name='Food Tier 2']/triggered_effect[@cvar='$waterAmountAdd']/@value">20</set>
+
+<!-- Raw Meat - Tested -->
+<set xpath="/items/item[@name='foodRawMeat']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Rotting Flesh - Tested -->
+<set xpath="/items/item[@name='foodRottingFlesh']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">10</set>
+
+<!-- Egg - Tested -->
+<set xpath="/items/item[@name='foodEgg']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Corn Meal - Tested -->
+<set xpath="/items/item[@name='foodCornMeal']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">10</set>
+<set xpath="/items/item[@name='foodCornMeal']/effect_group[@name='Food Tier 0']/triggered_effect[@action='ModifyStats'][@stat='water']/@value">-10</set>
+<set xpath="/items/item[@name='foodCornMeal']/effect_group[@name='Food Tier 0']/display_value[@name='$waterAmountAdd']/@value">-10</set>
+
+<!-- Blueberries - Tested -->
+<set xpath="/items/item[@name='foodCropBlueberries']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">10</set>
+
+<!-- Corn - Tested-->
+<set xpath="/items/item[@name='foodCropCorn']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">5</set>
+
+<!-- Grace Corn - Tested -->
+<set xpath="/items/item[@name='foodCropGraceCorn']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">10</set>
+<set xpath="/items/item[@name='foodCropGraceCorn']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='foodHealthAmount']/@value">10</set>
+
+<!-- Potato - Tested -->
+<set xpath="/items/item[@name='foodCropPotato']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">5</set>
+
+<!-- Mushrooms - Tested -->
+<set xpath="/items/item[@name='foodCropMushrooms']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Yucca Fruit - Tested -->
+<set xpath="/items/item[@name='foodCropYuccaFruit']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">10</set>
+
+<!-- Pumpkin - Tested -->
+<set xpath="/items/item[@name='foodCropPumpkin']/effect_group[@name='Food Tier 0']/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+
+<!-- Animal Fat - Tested -->
+<set xpath="/items/item[@name='resourceAnimalFat']/effect_group/triggered_effect[@cvar='$foodAmountAdd']/@value">15</set>
+<!-- Add dysentery to Animal Fat -->
+<append xpath="/items/item[@name='resourceAnimalFat']/effect_group">
+    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="set" value="15"/>
+    <display_value name="dDysenteryRisk" value=".12"/>
+    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".DiseaseRoll" operation="add" value="@$MetabolismResist"/>
+    <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchFood">
+        <requirement name="RandomRoll" seed_type="Random" min_max="1,100" operation="LTE" value="@.DiseaseRoll"/>
+    </triggered_effect>
+</append>
+
+#End Food
+
+#Start Drinks (Drink Tier)
+#Thirst also takes into account nutritional value in real life and the value of ingredients needed.
+#Example: A jar of water vs Murky Water is the same amount of water, but one hydrates better as its purified.
+
+<!-- Murky Water - Tested -->
+<set xpath="/items/item[@name='drinkJarRiverWater']/effect_group[@name='Drink Tier 0']/triggered_effect[@cvar='$waterAmountAdd']/@value">20</set>
+
+<!-- Boiled Water - Tested -->
+<set xpath="/items/item[@name='drinkJarBoiledWater']/effect_group[@name='Drink Tier 0/1']/triggered_effect[@cvar='$waterAmountAdd']/@value">50</set>
+
+<!-- Pure Mineral Water - Tested -->
+<set xpath="/items/item[@name='drinkJarPureMineralWater']/effect_group[@name='Drink Tier Found']/triggered_effect[@cvar='$waterAmountAdd']/@value">60</set>
+
+<!-- Yucca Juice Set water to 60 -->
+<set xpath="/items/item[@name='drinkJarYuccaJuice']/effect_group[@name='Drink Tier 0/1']/triggered_effect[@cvar='$waterAmountAdd']/@value">60</set>
+
+<!-- Add 10 health using foodHealthAmount -->
+<append xpath="/items/item[@name='drinkJarYuccaJuice']/effect_group[@name='Drink Tier 0/1']">
+    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="10"/>
+</append>
+
+<!-- Goldenrod Tea - Tested -->
+<set xpath="/items/item[@name='drinkJarGoldenRodTea']/effect_group[@name='Drink Tier 1']/triggered_effect[@cvar='$waterAmountAdd']/@value">60</set>
+
+<!-- Honey Tea - Tested -->
+<set xpath="/items/item[@name='drinkJarHoneyTea']/effect_group[@name='Drink Tier 1']/triggered_effect[@cvar='$waterAmountAdd']/@value">60</set>
+<set xpath="/items/item[@name='drinkJarHoneyTea']/effect_group[@name='Drink Tier 1']/triggered_effect[@cvar='$foodAmountAdd']/@value">10</set>
+
+<!-- Red Tea - Tested -->
+<set xpath="/items/item[@name='drinkJarRedTea']/effect_group[@name='Drink Tier 1']/triggered_effect[@cvar='$waterAmountAdd']/@value">60</set>
+
+<!-- Yucca Juice Smoothie - Tested -->
+<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group[@name='Drink Tier 3']/triggered_effect[@cvar='$foodAmountAdd']/@value">30</set>
+<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/effect_group[@name='Drink Tier 3']/triggered_effect[@cvar='$waterAmountAdd']/@value">78</set>
+
+<!-- Mega Crush - Tested -->
+<set xpath="/items/item[@name='drinkCanMegaCrush']/effect_group[@name='Drink Tier Found']/triggered_effect[@cvar='$waterAmountAdd']/@value">60</set>
+
+<!-- Coffee - Tested -->
+<set xpath="/items/item[@name='drinkJarCoffee']/effect_group[@name='Drink Tier 1']/triggered_effect[@cvar='$waterAmountAdd']/@value">40</set>
+#A cup of coffee and a cup of Water have similar hydration based on 2014 hydration study made in the UK. 
+
+<!-- Black Strap Coffee - Tested -->
+<set xpath="/items/item[@name='drinkJarBlackStrapCoffee']/effect_group[@name='Drink Tier Found']/triggered_effect[@cvar='$waterAmountAdd']/@value">30</set>
+#See above. Hydration levels are a little lower due to gunpowder. 
+
+<!-- Beer -->
+<set xpath="/items/item[@name='drinkJarBeer']/effect_group[@name='Drink Tier 3']/triggered_effect[@action='AddBuff']/@buff">buffProcessConsumables,buffBeer</set>
+<append xpath="/items/item[@name='drinkJarBeer']/effect_group[@name='Drink Tier 3']">
+    <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="40"/>
+</append>
+#Just like coffee, studies suggest a glass of beer and a glass of water have similar hydration levels. Please don't spam comments or dm me about "alcohol vs water" - I researched this already and this is my subjective opionion and MY mod. Just delete this entry if you don't agree. 
+#At the moment beer cannot display hydration stats (water) and also show all the buffs and benefits it uses on the tool tip. They seem to be working correctly however. If you know how to change this or run into a problem, please send me a DM on Nexus. 
+
+</configs>

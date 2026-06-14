@@ -1,0 +1,106 @@
+<configs>
+  <append xpath="/blocks">
+    <block name="manualMinigunDestroyed">
+      <property name="Material" value="Mmetal_medium" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="MaxDamage" value="200" />
+      <property name="Model" value="#@modfolder:Resources/resources.unity3d?mountedMinigunDestroyedPrefab" />
+      <property name="ModelOffset" value="0,0,0" />
+      <property name="WaterFlow" value="permitted" />
+      <property name="OnlySimpleRotations" value="true" />
+      <property name="Path" value="solid" />
+      <property class="UpgradeBlock">
+        <property name="ToBlock" value="manualMinigun" />
+        <property name="Item" value="resourceForgedSteel" />
+        <property name="ItemCount" value="20" />
+        <property name="UpgradeHitCount" value="5" />
+      </property>
+      <property class="RepairItems">
+        <property name="resourceForgedSteel" value="6" />
+      </property>
+    </block>
+
+    <block name="manualMinigun">
+      <property name="CreativeMode" value="Player" />
+      <property name="Tags" value="trapsSkill" />
+      <property name="FilterTags" value="MC_playerBlocks,SC_electrical,SC_traps" />
+      <property name="Class" value="ManualTurret, MountedMinigun" />
+
+      <!-- The mounted minigun intentionally accepts only its dedicated M193 ammo.
+           Ammo overhaul compatibility is handled by changing the ammo556M193 crafting recipe, not by accepting other 5.56 items directly. -->
+      <property name="AmmoItem" value="ammo556M193" />
+
+      <property name="MaxDamage" value="3000" />
+      <property name="MaxDistance" value="50" />
+      <property name="EntityDamage" value="120" />
+      <property name="BlockDamage" value="10" />
+      <property name="RaySpread" value="3" />
+      <property name="BurstFireRate" value="0.04" />
+      <property name="BurstRoundCount" value="60" />
+      <property name="CooldownTime" value="0" />
+      <property name="MinigunBurstFireTime" value="10" />
+      <property name="MinigunCooldownTime" value="5" />
+      <property name="YawRange" value="130" />
+      <property name="PitchRange" value="70" />
+      <property name="OverheatSound" value="minigun_overheat" />
+      <property name="OverheatDenySound" value="minigun_overheat" />
+      <property name="WakeUpSound" value="" />
+      <property name="FireSound" value="minigun_fire" />
+      <!-- Manual turret should not run the vanilla idle/retarget loop while powered. -->
+      <property name="TargetingSound" value="" />
+      <property name="IdleSound" value="" />
+      <!-- Use vanilla 2.5 muzzle flash prefabs. Scanned candidates:
+           nozzleflash, nozzleflashuzi, nozzleflash_ak, nozzleflash_m136, nozzleflash_shotgun.
+           gunfire_MG_M60 mostly reads as light/smoke on this custom prefab, so it is used as throttled smoke only. -->
+      <property name="ParticlesMuzzleFire" value="nozzleflash_ak" />
+      <property name="SuppressVanillaMuzzleParticles" value="true" />
+      <property name="MuzzleFlashForwardOffset" value="0.045" />
+      <property name="MuzzleFlashVisualInterval" value="0.04" />
+      <property name="MuzzleFlashNetworkVisible" value="true" />
+      <property name="MuzzleSmokeParticle" value="gunfire_MG_M60" />
+      <property name="MuzzleSmokeVisualInterval" value="0.18" />
+      <property name="MuzzleFlashScale" value="1.45" />
+      <!-- 2.5 camera/HUD compatibility tuning. The current public prefab has no physical ammo/heat display pod,
+           so the mounted readout uses a small fixed screen-space overlay instead of runtime model probing. -->
+      <property name="HideLocalPlayerModel" value="true" />
+      <property name="DisplayHudX" value="0.5" />
+      <property name="DisplayHudY" value="0.688" />
+      <property name="DisplayHudWidth" value="166" />
+      <property name="DisplayHudFontSize" value="39" />
+      <property name="DisplayHudLabelFontSize" value="11" />
+      <property name="DisplayHudShowLabels" value="true" />
+      <property name="DisplayHudDigitGlow" value="true" />
+      <property name="DisplayHudHeatWidthRatio" value="0.72" />
+      <property name="DisplayHudHeatSegments" value="16" />
+      <property name="DisplayHudScreenOffsetX" value="0" />
+      <property name="DisplayHudScreenOffsetY" value="0" />
+      <property name="DisplayHudShowHeatStrip" value="true" />
+      <property name="MountedCameraBackOffset" value="-0.035" />
+      <!-- Manual turret aim is intentionally slower than normal mouse-look. Raise toward 1.0 for snappier control. -->
+      <property name="MountedAimSensitivityMultiplier" value="0.45" />
+      <property name="MountedPitchDownLimit" value="20" />
+      <property name="MountedPitchUpLimit" value="30" />
+      <property name="IgnoreKeystoneOverlay" value="true" />
+      <property name="Material" value="Mmetal_medium" />
+      <property name="Place" value="TowardsPlacer" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/resources.unity3d?mountedMinigunPrefab" />
+      <property name="ModelOffset" value="0,0,0" />
+      <property name="WaterFlow" value="permitted" />
+      <property name="OnlySimpleRotations" value="true" />
+      <property name="Path" value="solid" />
+      <property name="DowngradeBlock" value="manualMinigunDestroyed" />
+      <property name="Stacknumber" value="10" />
+      <property name="EconomicValue" value="3000" />
+      <property name="Group" value="Science,TCScience" />
+
+      <!-- Preserve original behavior: self-powered. Change to 15/30 if you want a true electric turret. -->
+      <property name="RequiredPower" value="0" />
+
+      <property class="RepairItems">
+        <property name="resourceForgedSteel" value="6" />
+      </property>
+    </block>
+  </append>
+
+</configs>

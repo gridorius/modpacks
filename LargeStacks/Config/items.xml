@@ -1,0 +1,27 @@
+<configs>
+    <!-- РЕСУРСЫ - 20000 -->
+    <set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">20000</set>
+    
+    <!-- ПАТРОНЫ - 7500 -->
+    <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">7500</set>
+    
+    <!-- ДЕНЬГИ - 100000 -->
+    <set xpath="/items/item[contains(@name, 'casinoCoin')]/property[@name='Stacknumber']/@value">100000</set>
+    <set xpath="/items/item[contains(@name, 'oldCash')]/property[@name='Stacknumber']/@value">100000</set>
+    
+    <!-- ЕДА И ВОДА - 250 -->
+    <set xpath="/items/item[contains(@name, 'food')]/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[contains(@name, 'drink')]/property[@name='Stacknumber']/@value">250</set>
+    
+    <!-- МЕДИЦИНА - 250 -->
+    <set xpath="/items/item[contains(@name, 'med')]/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[contains(@name, 'bandage')]/property[@name='Stacknumber']/@value">250</set>
+    
+    <!-- ВЗРЫВЧАТКА - 300 -->
+    <set xpath="/items/item[contains(@name, 'rocket')]/property[@name='Stacknumber']/@value">300</set>
+    <set xpath="/items/item[contains(@name, 'grenade')]/property[@name='Stacknumber']/@value">300</set>
+    
+    <!-- ПРОЧЕЕ - 250 -->
+    <set xpath="/items/item[contains(@name, 'book')]/property[@name='Stacknumber']/@value">250</set>
+    <set xpath="/items/item[contains(@name, 'magazine')]/property[@name='Stacknumber']/@value">250</set>
+</configs>

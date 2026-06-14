@@ -1,0 +1,6 @@
+<config>
+<set xpath="/blocks/block/property[@name='Stacknumber']/@value">5000</set>
+<append xpath="/blocks/block[not(property[@name='Stacknumber'])]">
+<property name="Stacknumber" value="5000"/>
+</append>
+</config>

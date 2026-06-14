@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+
+
+<append xpath="/item_modifiers">
+
+<item_modifier name="modCreWeapDamageT1" installable_tags="melee,gun,ranged" modifier_tags="credamage" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreWeapDamageT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreWeapDamageT2" installable_tags="melee,gun,ranged" modifier_tags="credamage" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreWeapDamageT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TintColor" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreWeapDamageT3" installable_tags="melee,gun,ranged" modifier_tags="credamage" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreWeapDamageT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".35"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreWeapDurabT1" installable_tags="melee,gun,ranged" modifier_tags="durability" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreWeapDurabT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DegradationPerUse" operation="perc_add" value="-.15"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreWeapDurabT2" installable_tags="melee,gun,ranged" modifier_tags="durability" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreWeapDurabT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DegradationPerUse" operation="perc_add" value="-.25"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreWeapDurabT3" installable_tags="melee,gun,ranged" modifier_tags="durability" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreWeapDurabT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DegradationPerUse" operation="perc_add" value="-.4"/>
+		</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="modCreGunRPMT1" installable_tags="gun,turretRanged" modifier_tags="creTrigger" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunRPMT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="RoundsPerMinute" operation="perc_add" value=".1"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunRPMT2" installable_tags="gun,turretRanged" modifier_tags="creTrigger" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunRPMT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="RoundsPerMinute" operation="perc_add" value=".25"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunRPMT3" installable_tags="gun,turretRanged" modifier_tags="creTrigger" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunRPMT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="RoundsPerMinute" operation="perc_add" value=".5"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreGunReloadT1" installable_tags="gun,ranged" modifier_tags="crereload" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunReloadT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".15"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunReloadT2" installable_tags="gun,ranged" modifier_tags="crereload" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunReloadT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".35"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunReloadT3" installable_tags="gun,ranged" modifier_tags="crereload" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunReloadT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".6"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreGunMagazineT1" installable_tags="magazine,drumMagazine,modGunShotgunTubeExtenderMagazine" modifier_tags="magazine" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunMagazineT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="MagazineSize" operation="perc_add" value=".35"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunMagazineT2" installable_tags="magazine,drumMagazine,modGunShotgunTubeExtenderMagazine" modifier_tags="magazine" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunMagazineT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="MagazineSize" operation="perc_add" value=".75"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunMagazineT3" installable_tags="magazine,drumMagazine,modGunShotgunTubeExtenderMagazine" modifier_tags="magazine" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunMagazineT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="MagazineSize" operation="perc_add" value="1.25"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreGunGripT1" installable_tags="bottomAttachments,turretRanged" modifier_tags="grips" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunGripT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.15"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.1"/>
+			<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value="-.1"/>
+			<passive_effect name="KickDegreesVerticalMin" operation="perc_add" value="-.35"/>
+			<passive_effect name="KickDegreesVerticalMax" operation="perc_add" value="-.35"/>
+			<passive_effect name="KickDegreesHorizontalMin" operation="perc_add" value="-.35"/>
+			<passive_effect name="KickDegreesHorizontalMax" operation="perc_add" value="-.35"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunGripT2" installable_tags="bottomAttachments,turretRanged" modifier_tags="grips" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunGripT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.3"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.25"/>
+			<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value="-.2"/>
+			<passive_effect name="KickDegreesVerticalMin" operation="perc_add" value="-.65"/>
+			<passive_effect name="KickDegreesVerticalMax" operation="perc_add" value="-.65"/>
+			<passive_effect name="KickDegreesHorizontalMin" operation="perc_add" value="-.65"/>
+			<passive_effect name="KickDegreesHorizontalMax" operation="perc_add" value="-.65"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunGripT3" installable_tags="bottomAttachments,turretRanged" modifier_tags="grips" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunGripT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.7"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.5"/>
+			<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value="-.4"/>
+			<passive_effect name="KickDegreesVerticalMin" operation="perc_add" value="-.9"/>
+			<passive_effect name="KickDegreesVerticalMax" operation="perc_add" value="-.9"/>
+			<passive_effect name="KickDegreesHorizontalMin" operation="perc_add" value="-.9"/>
+			<passive_effect name="KickDegreesHorizontalMax" operation="perc_add" value="-.9"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreGunRangeT1" installable_tags="barrelAttachments,turretRanged" modifier_tags="barrelAttachment" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunRangeT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".1"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".1"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".15"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunRangeT2" installable_tags="barrelAttachments,turretRanged" modifier_tags="barrelAttachment" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunRangeT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".25"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".25"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".25"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunRangeT3" installable_tags="barrelAttachments,turretRanged" modifier_tags="barrelAttachment" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunRangeT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".5"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".5"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".4"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreGunSniperT1" installable_tags="barrelAttachments,turretRanged" modifier_tags="barrelAttachment" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunSniperT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1"/>
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".2"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".2"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value="-.75"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value="1.05">
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="1.35"/>
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.25"/>
+			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="1.35"/>
+			<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value="1.35"/>
+						
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunSniperT2" installable_tags="barrelAttachments,turretRanged" modifier_tags="barrelAttachment" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunSniperT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".4"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".4"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value="-.65"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value="1.25">
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="1.15"/>
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.35"/>
+			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="1.15"/>
+			<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value="1.15"/>
+						
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunSniperT3" installable_tags="barrelAttachments,turretRanged" modifier_tags="barrelAttachment" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunSniperT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".3"/>
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".75"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".75"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value="-.55"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value="1.5">
+				<requirement name="HasBuff" buff="buffHoldBreathAiming01"/>
+			</passive_effect>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".95"/>
+			<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.5"/>
+			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value=".95"/>
+			<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".95"/>
+						
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreGunOneBT1" installable_tags="gun,turretRanged" modifier_tags="creTrigger" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunOneBT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".55"/>
+			<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+			<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.7"/>
+			<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".05"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunOneBT2" installable_tags="gun,turretRanged" modifier_tags="creTrigger" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunOneBT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".9"/>
+			<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+			<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.7"/>
+			<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".05"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunOneBT3" installable_tags="gun,turretRanged" modifier_tags="creTrigger" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunOneBT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="1.5"/>
+			<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
+			<passive_effect name="RoundsPerMinute" operation="perc_add" value="-.7"/>
+			<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".05"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreGunShockT1" installable_tags="gun,turretRanged" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunShockT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="7"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="3"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkMachineGunner"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="7"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="3"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="revolver"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="4"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkDeadEye"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="17"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="4"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkBoomstick"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="2"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="3"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="turretRanged"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="3"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="3"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunShockT2" installable_tags="gun,turretRanged" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunShockT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="4"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkMachineGunner"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="4"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="revolver"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="6"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkDeadEye"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="30"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="6"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkBoomstick"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="4"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="4"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="turretRanged"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="7"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="4"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunShockT3" installable_tags="gun,turretRanged" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunShockT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="5"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkMachineGunner"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="5"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="revolver"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="35"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="7"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkDeadEye"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="50"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="7"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkBoomstick"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="7"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="5"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="turretRanged"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="5"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreGunBloodT1" installable_tags="gun,turretRanged" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunBloodT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkMachineGunner"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="10"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="revolver"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkDeadEye"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkBoomstick"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="3"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="turretRanged"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="7"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="other"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryBleeding"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunBloodT2" installable_tags="gun,turretRanged" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunBloodT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="19"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkMachineGunner"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="19"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="revolver"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="35"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkDeadEye"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="40"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkBoomstick"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="5"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="turretRanged"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="13"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="other"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryBleeding"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreGunBloodT3" installable_tags="gun,turretRanged" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreGunBloodT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkGunslinger"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="33"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkMachineGunner"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="33"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="revolver"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="55"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkDeadEye"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="71"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkBoomstick"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="9"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="turretRanged"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="bleedCounter" operation="add" value="1"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="other"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffInjuryBleeding"/>
+		</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="modCreBowStringT1" installable_tags="perkArchery" modifier_tags="velocity" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreBowStringT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="ProjectileVelocity" operation="perc_add" value=".1"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreBowStringT2" installable_tags="perkArchery" modifier_tags="velocity" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreBowStringT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="ProjectileVelocity" operation="perc_add" value=".25"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreBowStringT3" installable_tags="perkArchery" modifier_tags="velocity" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreBowStringT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="ProjectileVelocity" operation="perc_add" value=".5"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreBowPowerT1" installable_tags="perkArchery" modifier_tags="crebowpower" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreBowPowerT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".1"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".1"/>
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".15"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".15"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreBowPowerT2" installable_tags="perkArchery" modifier_tags="crebowpower" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreBowPowerT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".2"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".25"/>
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".25"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".25"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreBowPowerT3" installable_tags="perkArchery" modifier_tags="crebowpower" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreBowPowerT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value=".3"/>
+			<passive_effect name="WeaponHandling" operation="perc_add" value=".5"/>
+			<passive_effect name="DamageFalloffRange" operation="perc_add" value=".4"/>
+			<passive_effect name="MaxRange" operation="perc_add" value=".4"/>
+		</effect_group>
+</item_modifier>
+
+
+
+
+
+
+<item_modifier name="modCreMeleeAPMT1" installable_tags="melee" modifier_tags="crehandle" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeAPMT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".20"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeAPMT2" installable_tags="melee" modifier_tags="crehandle" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeAPMT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".35"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeAPMT3" installable_tags="melee" modifier_tags="crehandle" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeAPMT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="AttacksPerMinute" operation="perc_add" value=".55"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreMeleeStaminaT1" installable_tags="melee" modifier_tags="crehandle" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeStaminaT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.1" tags="primary,secondary"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeStaminaT2" installable_tags="melee" modifier_tags="crehandle" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeStaminaT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.2" tags="primary,secondary"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeStaminaT3" installable_tags="melee" modifier_tags="crehandle" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeStaminaT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="StaminaLoss" operation="perc_add" value="-.35" tags="primary,secondary"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreMeleeRangeT1" installable_tags="melee" modifier_tags="crehandle" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeRangeT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="perc_add" value=".3"/>
+			<passive_effect name="BlockRange" operation="perc_add" value=".3"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeRangeT2" installable_tags="melee" modifier_tags="crehandle" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeRangeT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="perc_add" value=".55"/>
+			<passive_effect name="BlockRange" operation="perc_add" value=".55"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeRangeT3" installable_tags="melee" modifier_tags="crehandle" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeRangeT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="MaxRange" operation="perc_add" value=".9"/>
+			<passive_effect name="BlockRange" operation="perc_add" value=".9"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreMeleeBlockT1" installable_tags="melee" modifier_tags="credamage" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeBlockT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="BlockDamage" operation="perc_add" value=".15"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeBlockT2" installable_tags="melee" modifier_tags="credamage" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeBlockT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="BlockDamage" operation="perc_add" value=".25"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeBlockT3" installable_tags="melee" modifier_tags="credamage" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeBlockT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+		<effect_group tiered="false">
+			<passive_effect name="BlockDamage" operation="perc_add" value=".4"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreMeleeFireT1" installable_tags="melee,perkArchery" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeFireT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="45"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="10">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="11">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+		
+		<effect_group name="always refresh existing Fire Proc0" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<!--default duration is 10-->
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="11">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+
+		<effect_group name="new Fire Proc" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="20"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="10">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="11">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+
+		<effect_group name="always refresh existing Fire Proc" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<!--default duration is 10-->
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="11">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+		
+		<effect_group name="new Fire Proc2" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="35"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="10">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="11">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+
+		<effect_group name="always refresh existing Fire Proc2" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<!--default duration is 10-->
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="11">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeFireT2" installable_tags="melee,perkArchery" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeFireT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+
+
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="77"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="15">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="17">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+		
+		<effect_group name="always refresh existing Fire Proc0" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<!--default duration is 10-->
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="17">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+
+		<effect_group name="new Fire Proc" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="33"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="15">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="17">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+
+		<effect_group name="always refresh existing Fire Proc" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<!--default duration is 10-->
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="17">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+		
+		<effect_group name="new Fire Proc2" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="63"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="15">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="17">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+
+		<effect_group name="always refresh existing Fire Proc2" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<!--default duration is 10-->
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="17">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeFireT3" installable_tags="melee,perkArchery" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeFireT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+
+
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="99"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="20">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="23">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+		
+		<effect_group name="always refresh existing Fire Proc0" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<!--default duration is 10-->
+				<triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="23">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+
+		<effect_group name="new Fire Proc" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="55"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="20">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="23">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+
+		<effect_group name="always refresh existing Fire Proc" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<!--default duration is 10-->
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="23">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+		
+		<effect_group name="new Fire Proc2" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="91"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="20">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="23">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+
+		<effect_group name="always refresh existing Fire Proc2" tiered="false">
+			<requirement name="CVarCompare" cvar="_underwater" operation="LT" value=".93"/>
+			<requirement name="HasBuff" target="other" buff="buffBurningElement"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffBurningElement"/>
+				<!--default duration is 10-->
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="ModifyCVar" target="other" cvar="$buffBurningElementDuration" operation="set" value="23">
+					<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreMeleeShockT1" installable_tags="melee,perkArchery" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeShockT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+		
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="33"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="4"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="ShockProc">
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="15"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffShocked" duration="4"/>
+		</effect_group>
+		
+		<effect_group tiered="false" name="ShockProc2">
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="25"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffShocked" duration="4"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeShockT2" installable_tags="melee,perkArchery" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeShockT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+		
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="53"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="7"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="ShockProc">
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="25"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffShocked" duration="7"/>
+		</effect_group>
+		
+		<effect_group tiered="false" name="ShockProc2">
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="40"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffShocked" duration="7"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeShockT3" installable_tags="melee,perkArchery" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeShockT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+		
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="75"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffShocked" duration="9"/>
+		</effect_group>
+
+		<effect_group tiered="false" name="ShockProc">
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="33"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffShocked" duration="9"/>
+		</effect_group>
+		
+		<effect_group tiered="false" name="ShockProc2">
+			<requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="57"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="AddBuff" target="other" buff="buffShocked" duration="9"/>
+		</effect_group>
+</item_modifier>
+
+
+
+<item_modifier name="modCreMeleeBreakT1" installable_tags="melee,perkArchery" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeBreakT1"/>
+		<property name="TraderStageTemplate" value="modsTier1"/>
+		<property name="EconomicValue" value="200"/>
+		
+		
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="Ragdoll" target="other" duration="3.1" force="255"/>
+		</effect_group>
+		
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffArmorShredding"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="7"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="Ragdoll" target="other" duration="3.1" force="215"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="3.1" force="255"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeBreakT2" installable_tags="melee,perkArchery" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeBreakT1"/>
+		<property name="CustomIconTint" value="215,135,235"/>
+		<property name="TraderStageTemplate" value="modsTier2"/>
+		<property name="EconomicValue" value="300"/>
+	
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="37"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="Ragdoll" target="other" duration="4.5" force="295"/>
+		</effect_group>
+		
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffArmorShredding"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="13"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="Ragdoll" target="other" duration="4.5" force="255"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="30"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="4.5" force="295"/>
+		</effect_group>
+</item_modifier>
+
+<item_modifier name="modCreMeleeBreakT3" installable_tags="melee,perkArchery" modifier_tags="creeffect" blocked_tags="noMods" type="attachment">
+		<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+		<property name="CustomIcon" value="modCreMeleeBreakT1"/>
+		<property name="CustomIconTint" value="255,75,15"/>
+		<property name="TraderStageTemplate" value="modsTier3"/>
+		<property name="EconomicValue" value="500"/>
+	
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="perkArchery"/>
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="51"/>
+				<triggered_effect trigger="onSelfAttackedOther" action="Ragdoll" target="other" duration="5.9" force="335"/>
+		</effect_group>
+		
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffArmorShredding"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+				<triggered_effect trigger="onSelfPrimaryActionRayHit" action="Ragdoll" target="other" duration="5.9" force="275"/>
+		</effect_group>
+		<effect_group tiered="false">
+			<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="42"/>
+				<triggered_effect trigger="onSelfSecondaryActionRayHit" action="Ragdoll" target="other" duration="5.9" force="335"/>
+		</effect_group>
+</item_modifier>
+
+</append>
+</configs>

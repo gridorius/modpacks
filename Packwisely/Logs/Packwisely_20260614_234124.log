@@ -1,0 +1,4 @@
+2026-06-14 23:41:24.925 [INFO] Logger initialized.
+2026-06-14 23:41:24.925 [INFO] Logging enabled. Debug logging disabled.
+2026-06-14 23:41:24.930 [INFO] Medical compat loaded: files=1 activeFiles=0 items=0 matchRules=0 customCategories=0
+2026-06-14 23:41:24.931 [INFO] Global settings loaded through GearsAPI

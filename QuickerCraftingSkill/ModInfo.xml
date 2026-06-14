@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="QuickerCraftingSkill" />
+		<DisplayName value="Quicker Crafting Skill Mod" />
+		<Description value="Adds a Perk to upgrade crafting speed" />
+		<Author value="Duncanois" />
+		<Version value="1.0" />
+		<Website value="" />
+</xml>

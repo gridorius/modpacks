@@ -1,0 +1,186 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,russian
+
+creBoxOfMods,items,Item,,,Box of Mods T1,Ящик с модификациями T1
+creBoxOfModsDesc,items,Item,,,There is a random T1 modification inside.,Внутри лежит случайная модификация T1.
+creBoxOfAmmo,items,Item,,,Box of Ammo,Ящик с патронами
+creBoxOfAmmoDesc,items,Item,,,Inside there are a number of different cartridges.,Внутри лежит некоторое количество патронов.
+
+
+
+
+
+modCreWeapDamageT1,items,Item,,,Damage mod T1,Мод. урона T1
+modCreWeapDurabT1,items,Item,,,Durability mod T1,Мод. прочности T1
+
+modCreGunRPMT1,items,Item,,,Rate of fire mod T1,Мод. скорострельности T1
+modCreGunReloadT1,items,Item,,,Faster Reload mod T1,Мод. быстрой перезарядки T1
+modCreGunMagazineT1,items,Item,,,Bigger magazine mod T1,Мод. большого магазина T1
+modCreGunGripT1,items,Item,,,Reliable grip mod T1,Мод. удобная рукоять T1
+modCreGunRangeT1,items,Item,,,Upgrade barrel mod T1,Мод. улучшенного ствола T1
+modCreGunShockT1,items,Item,,,Shock gun mod T1,Мод. шока для пушек T1
+modCreGunBloodT1,items,Item,,,Bleed mod T1,Мод. кровотечения для пушек T1
+
+modCreBowStringT1,items,Item,,,Bow string mod T1,Мод. тетивы для лука T1
+modCreBowPowerT1,items,Item,,,Bow power T1,Мод. мощи для лука T1
+
+modCreMeleeAPMT1,items,Item,,,Comfortable handle mod T1,Мод. удобной рукоятки T1
+modCreMeleeStaminaT1,items,Item,,,Rubber handle mod T1,Мод. резиновой рукояткиT1
+modCreMeleeBlockT1,items,Item,,,Sharp blade mod T1,Мод. острого лезвия T1
+modCreMeleeFireT1,items,Item,,,Fire mod T1,Мод. огня T1
+modCreMeleeShockT1,items,Item,,,Shock mod T1,Мод. шока T1
+modCreMeleeBreakT1,items,Item,,,Break mod T1,Мод. раскола T1
+
+
+
+
+
+modCreWeapDamageT2,items,Item,,,Damage mod T2,Мод. урона T2
+modCreWeapDurabT2,items,Item,,,Durability mod T2,Мод. прочности T2
+
+modCreGunRPMT2,items,Item,,,Rate of fire mod T2,Мод. скорострельности T2
+modCreGunReloadT2,items,Item,,,Faster Reload mod T2,Мод. быстрой перезарядки T2
+modCreGunMagazineT2,items,Item,,,Bigger magazine mod T2,Мод. большого магазина T2
+modCreGunGripT2,items,Item,,,Reliable grip mod T2,Мод. удобная рукоять T2
+modCreGunRangeT2,items,Item,,,Upgrade barrel mod T2,Мод. улучшенного ствола T2
+modCreGunShockT2,items,Item,,,Shock gun mod T2,Мод. шока для пушек T2
+modCreGunBloodT2,items,Item,,,Bleed mod T2,Мод. кровотечения для пушек T2
+
+modCreBowStringT2,items,Item,,,Bow string mod T2,Мод. тетивы для лука T2
+modCreBowPowerT2,items,Item,,,Bow power T2,Мод. мощи для лука T2
+
+modCreMeleeAPMT2,items,Item,,,Comfortable handle mod T2,Мод. удобной рукоятки T2
+modCreMeleeStaminaT2,items,Item,,,Rubber handle mod T2,Мод. резиновой рукояткиT2
+modCreMeleeBlockT2,items,Item,,,Sharp blade mod T2,Мод. острого лезвия T2
+modCreMeleeFireT2,items,Item,,,Fire mod T2,Мод. огня T2
+modCreMeleeShockT2,items,Item,,,Shock mod T2,Мод. шока T2
+modCreMeleeBreakT2,items,Item,,,Break mod T2,Мод. раскола T2
+
+
+
+
+
+modCreWeapDamageT3,items,Item,,,Damage mod T3,Мод. урона T3
+modCreWeapDurabT3,items,Item,,,Durability mod T3,Мод. прочности T3
+
+modCreGunRPMT3,items,Item,,,Rate of fire mod T3,Мод. скорострельности T3
+modCreGunReloadT3,items,Item,,,Faster Reload mod T3,Мод. быстрой перезарядки T3
+modCreGunMagazineT3,items,Item,,,Bigger magazine mod T3,Мод. большого магазина T3
+modCreGunGripT3,items,Item,,,Reliable grip mod T3,Мод. удобная рукоять T3
+modCreGunRangeT3,items,Item,,,Upgrade barrel mod T3,Мод. улучшенного ствола T3
+modCreGunShockT3,items,Item,,,Shock gun mod T3,Мод. шока для пушек T3
+modCreGunBloodT3,items,Item,,,Bleed mod T3,Мод. кровотечения для пушек T3
+
+modCreBowStringT3,items,Item,,,Bow string mod T3,Мод. тетивы для лука T3
+modCreBowPowerT3,items,Item,,,Bow power T3,Мод. мощи для лука T3
+
+modCreMeleeAPMT3,items,Item,,,Comfortable handle mod T3,Мод. удобной рукоятки T3
+modCreMeleeStaminaT3,items,Item,,,Rubber handle mod T3,Мод. резиновой рукояткиT3
+modCreMeleeBlockT3,items,Item,,,Sharp blade mod T3,Мод. острого лезвия T3
+modCreMeleeFireT3,items,Item,,,Fire mod T3,Мод. огня T3
+modCreMeleeShockT3,items,Item,,,Shock mod T3,Мод. шока T3
+modCreMeleeBreakT3,items,Item,,,Break mod T3,Мод. раскола T3
+
+
+
+modCreGunSniperT1,items,Item,,,Sniper mod T1,Мод. Снайпер T1
+modCreGunOneBT1,items,Item,,,One shot mod T1,Мод. Одного Выстрела T1
+modCreMeleeRangeT1,items,Item,,,Steel Handle mod T1,Мод. Стальная Рукоять T1
+
+modCreGunSniperT2,items,Item,,,Sniper mod T2,Мод. Снайпер T2
+modCreGunOneBT2,items,Item,,,One shot mod T2,Мод. Одного Выстрела T2
+modCreMeleeRangeT2,items,Item,,,Steel Handle mod T2,Мод. Стальная Рукоять T2
+
+modCreGunSniperT3,items,Item,,,Sniper mod T3,Мод. Снайпер T3
+modCreGunOneBT3,items,Item,,,One shot mod T3,Мод. Одного Выстрела T3
+modCreMeleeRangeT3,items,Item,,,Steel Handle mod T3,Мод. Стальная Рукоять T3
+
+
+modCreGunSniperT1Desc,items,Item,,,Damage +10% Range +20% Aiming +30%,Урон +10% Дальность +20% Прицеливание +30%
+modCreGunOneBT1Desc,items,Item,,,Damage +55% Fire rate -70%,Урон +55% Скорострельность -70%
+modCreMeleeRangeT1Desc,items,Item,,,Range +30%,Дальность +30%
+
+modCreGunSniperT2Desc,items,Item,,,Damage +20% Range +40% Aiming +50%,Урон +20% Дальность +40% Прицеливание +50%
+modCreGunOneBT2Desc,items,Item,,,Damage +90% Fire rate -70%,Урон +90% Скорострельность -70%
+modCreMeleeRangeT2Desc,items,Item,,,Range +55%,Дальность +55%
+
+modCreGunSniperT3Desc,items,Item,,,Damage +30% Range +75% Aiming +75%,Урон +30% Дальность +75% Прицеливание +75%
+modCreGunOneBT3Desc,items,Item,,,Damage +150% Fire rate -70%,Урон +150% Скорострельность -70%
+modCreMeleeRangeT3Desc,items,Item,,,Range +90%,Дальность +90%
+
+
+
+
+
+
+modCreWeapDamageT1Desc,items,Item,,,Damage +10%,Урон +10%
+modCreWeapDurabT1Desc,items,Item,,,Degradation process -15%,Трата прочности -15%
+
+modCreGunRPMT1Desc,items,Item,,,Fire rate +10%,Скорострельность +10%
+modCreGunReloadT1Desc,items,Item,,,Faster Reload speed +15%,Скорость перезарядки +15%
+modCreGunMagazineT1Desc,items,Item,,,Magazine size +35%,Размер магазина +35%
+modCreGunGripT1Desc,items,Item,,,Accuracy +15%,Точность +15%
+modCreGunRangeT1Desc,items,Item,,,Range +10% Handling +15%,Дальность +10% Сведение +15%
+modCreGunShockT1Desc,items,Item,,,Shock chance 3%/7%/15%,Шанс шока 3%/7%/15%
+modCreGunBloodT1Desc,items,Item,,,Bleed chance 6%/10%/25%,Шанс кровотока 6%/10%/25%
+
+modCreBowStringT1Desc,items,Item,,,Fly speed +10%,Сила полета +10%
+modCreBowPowerT1Desc,items,Item,,,Damage and range +10%,Урон и дальность +10%
+
+modCreMeleeAPMT1Desc,items,Item,,,Attack speed +20%,Скорость атаки +20%
+modCreMeleeStaminaT1Desc,items,Item,,,Stamina loss -10%,Трата выносливости -10%
+modCreMeleeBlockT1Desc,items,Item,,,Damage to block +15%,Урон по блокам +15%
+modCreMeleeFireT1Desc,items,Item,,,Fire chance 20%/35%,Шанс поджога 20%/35%
+modCreMeleeShockT1Desc,items,Item,,,Shock chance 15%/25%,Шанс шока 15%/25%
+modCreMeleeBreakT1Desc,items,Item,,,Reduces armor and Throws back chance 7%/20% ,Снижает броню и откидывает с шансом 7%/20%
+
+
+
+
+
+modCreWeapDamageT2Desc,items,Item,,,Damage +20%,Урон +20%
+modCreWeapDurabT2Desc,items,Item,,,Degradation process -25%,Трата прочности -25%
+
+modCreGunRPMT2Desc,items,Item,,,Fire rate +25%,Скорострельность +25%
+modCreGunReloadT2Desc,items,Item,,,Faster Reload speed +35%,Скорость перезарядки +35%
+modCreGunMagazineT2Desc,items,Item,,,Magazine size +75%,Размер магазина +75%
+modCreGunGripT2Desc,items,Item,,,Accuracy +30%,Точность +30%
+modCreGunRangeT2Desc,items,Item,,,Range +25% Handling +25%,Дальность +25% Сведение +25%
+modCreGunShockT2Desc,items,Item,,,Shock chance 7%/10%/25%,Шанс шока 7%/10%/25%
+modCreGunBloodT2Desc,items,Item,,,Bleed chance 10%/19%/35%,Шанс кровотока 10%/19%/35%
+
+modCreBowStringT2Desc,items,Item,,,Fly speed +25%,Сила полета +25%
+modCreBowPowerT2Desc,items,Item,,,Damage and range +20%,Урон и дальность +20%
+
+modCreMeleeAPMT2Desc,items,Item,,,Attack speed +35%,Скорость атаки +35%
+modCreMeleeStaminaT2Desc,items,Item,,,Stamina loss -20%,Трата выносливости -20%
+modCreMeleeBlockT2Desc,items,Item,,,Damage to block +25%,Урон по блокам +25%
+modCreMeleeFireT2Desc,items,Item,,,Fire chance 33%/63%,Шанс поджога 33%/63%
+modCreMeleeShockT2Desc,items,Item,,,Shock chance 25%/40%,Шанс шока 25%/40%
+modCreMeleeBreakT2Desc,items,Item,,,Reduces armor and Throws back chance 13%/30% ,Снижает броню и откидывает с шансом 13%/30%
+
+
+
+
+
+modCreWeapDamageT3Desc,items,Item,,,Damage +35%,Урон +35%
+modCreWeapDurabT3Desc,items,Item,,,Degradation process -40%,Трата прочности -40%
+
+modCreGunRPMT3Desc,items,Item,,,Fire rate +50%,Скорострельность +50%
+modCreGunReloadT3Desc,items,Item,,,Faster Reload speed +60%,Скорость перезарядки +60%
+modCreGunMagazineT3Desc,items,Item,,,Magazine size +125%,Размер магазина +125%
+modCreGunGripT3Desc,items,Item,,,Accuracy +70%,Точность +70%
+modCreGunRangeT3Desc,items,Item,,,Range +50% Handling +40%,Дальность +50% Сведение +40%
+modCreGunShockT3Desc,items,Item,,,Shock chance 10%/15%/35%,Шанс шока 10%/15%/35%
+modCreGunBloodT3Desc,items,Item,,,Bleed chance 20%/33%/55%,Шанс кровотока 20%/33%/55%
+
+modCreBowStringT3Desc,items,Item,,,Fly speed +50%,Сила полета +50%
+modCreBowPowerT3Desc,items,Item,,,Damage and range +30%,Урон и дальность +30%
+
+modCreMeleeAPMT3Desc,items,Item,,,Attack speed +55%,Скорость атаки +55%
+modCreMeleeStaminaT3Desc,items,Item,,,Stamina loss -35%,Трата выносливости -35%
+modCreMeleeBlockT3Desc,items,Item,,,Damage to block +40%,Урон по блокам +40%
+modCreMeleeFireT3Desc,items,Item,,,Fire chance 55%/91%,Шанс поджога 55%/91%
+modCreMeleeShockT3Desc,items,Item,,,Shock chance 33%/57%,Шанс шока 33%/57%
+modCreMeleeBreakT3Desc,items,Item,,,Reduces armor and Throws back chance 20%/42% ,Снижает броню и откидывает с шансом 20%/42%
+
+

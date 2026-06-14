@@ -1,0 +1,45 @@
+<AbasiyanikMoreZombieSpawns>
+
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='dz01']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='nz01']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='dz02']/@maxcount">6</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='nz02']/@maxcount">9</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='dz03']/@maxcount">9</set>
+	<set xpath="/spawning/biome[@name='pine_forest']/spawn[@id='nz03']/@maxcount">9</set>
+
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='dz01']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='nz04']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='dz04']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='nz01']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='dz02']/@maxcount">9</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='nz02']/@maxcount">12</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='dz03']/@maxcount">9</set>
+	<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@id='nz03']/@maxcount">12</set>
+
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='dz01']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='nz04']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='dz04']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='nz01']/@maxcount">6</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='dz02']/@maxcount">9</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='nz02']/@maxcount">9</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='dz03']/@maxcount">9</set>
+	<set xpath="/spawning/biome[@name='desert']/spawn[@id='nz03']/@maxcount">12</set>
+
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='dz01']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='nz04']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='dz04']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='nz01']/@maxcount">6</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='dz02']/@maxcount">12</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='nz02']/@maxcount">12</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='dz03']/@maxcount">12</set>
+	<set xpath="/spawning/biome[@name='snow']/spawn[@id='nz03']/@maxcount">12</set>
+
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='dz01']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='dz04']/@maxcount">3</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='nz01']/@maxcount">6</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='dz02']/@maxcount">12</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='nz02']/@maxcount">12</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='dz03']/@maxcount">12</set>
+	<set xpath="/spawning/biome[@name='wasteland']/spawn[@id='nz03']/@maxcount">12</set>
+
+</AbasiyanikMoreZombieSpawns>

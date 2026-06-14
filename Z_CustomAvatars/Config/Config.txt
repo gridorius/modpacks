@@ -1,5 +1,5 @@
-LastUsedAvatar:GF2CheyanneDefault
-TransparencyMode:1
+LastUsedAvatar:Charger3507
+TransparencyMode:0
 AimMode:1
 ArmsMode:1
 SpringBonesMode:1
@@ -11,7 +11,7 @@ CameraYOffset:0
 CameraXOffset:0
 HipsYOffset:0
 KnuckleOffset:-0.22
-DanceEntries:10
-DanceVolume:50
+DanceEntries:20
+DanceVolume:100
 HandPos:0.000,0.000,0.000
 HandRot:-90.0,0.0,0.0

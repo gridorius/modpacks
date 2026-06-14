@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ForgeUpgrade" />
+	<DisplayName value="ForgeUpgrade" />
+	<Description value="Add some upgrade for your forge"/>
+	<Author value="Akhyrion" />
+	<Version value="1.0" />
+	<Website value="" />
+    <SkipWithAntiCheat value="true" />
+</xml>

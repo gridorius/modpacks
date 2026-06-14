@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+<!-- Sydney666's Realistic Hunger and Thirst v1.1 - UI Display Fixes -->
+<!-- Adds missing display entries for Beer (water) and Yucca Juice (health) -->
+
+<!-- Add water display to Beer (DisplayType="waterBeer") -->
+<append xpath="/ui_display_info/item_display/item_display_info[@display_type='waterBeer']">
+	<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+</append>
+
+<!-- Add health display to Yucca Juice (DisplayType="water") -->
+<append xpath="/ui_display_info/item_display/item_display_info[@display_type='water']">
+	<display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+</append>
+
+</configs>

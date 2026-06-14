@@ -1,0 +1,99 @@
+<configs>
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='empty']">
+		<lootgroup name="DropBoxofModsReg">
+			<item name="creBoxOfMods" count="1" prob=".03"/>
+			<item name="resourcePaper" count="1" prob=".97"/>
+		</lootgroup>
+		<lootgroup name="DropBoxofModsStrong">
+			<item name="creBoxOfMods" count="1" prob=".55"/>
+			<item name="resourcePaper" count="1" prob=".45"/>
+		</lootgroup>
+		<lootgroup name="DropBoxofModsBoss">
+			<item name="creBoxOfMods" count="1" prob=".7"/>
+			<item name="creBoxOfMods" count="2" prob=".3"/>
+		</lootgroup>
+		
+		<lootgroup name="DropBoxofAmmoReg">
+			<item name="creBoxOfAmmo" count="1" prob=".05"/>
+			<item name="resourcePaper" count="1" prob=".95"/>
+		</lootgroup>
+		<lootgroup name="DropBoxofAmmoStrong">
+			<item name="creBoxOfAmmo" count="1" prob=".75"/>
+			<item name="resourcePaper" count="1" prob=".25"/>
+		</lootgroup>
+		<lootgroup name="DropBoxofAmmoBoss">
+			<item name="creBoxOfAmmo" count="1" prob=".5"/>
+			<item name="creBoxOfAmmo" count="2" prob=".5"/>
+		</lootgroup>
+		
+		
+		
+		<lootgroup name="cre_WeaponModsBase">
+			<item name="modCreWeapDamageT1" count="1"/>
+			<item name="modCreWeapDurabT1" count="1"/>
+			<item name="modCreBowStringT1" count="1"/>
+			<item name="modCreBowPowerT1" count="1"/>
+			<item name="modCreGunRPMT1" count="1"/>
+			<item name="modCreGunReloadT1" count="1"/>
+		</lootgroup>
+		
+		
+		<lootgroup name="cre_WeaponModsRange">
+			<item name="modCreGunMagazineT1" count="1"/>
+			<item name="modCreGunGripT1" count="1"/>
+			<item name="modCreGunRangeT1" count="1"/>
+			<item name="modCreGunSniperT1" count="1"/>
+			<item name="modCreGunOneBT1" count="1"/>
+			<item name="modCreGunShockT1" count="1"/>
+			<item name="modCreGunBloodT1" count="1"/>
+			
+		</lootgroup>
+		
+		<lootgroup name="cre_WeaponModsMelee">
+			<item name="modCreMeleeAPMT1" count="1"/>
+			<item name="modCreMeleeStaminaT1" count="1"/>
+			<item name="modCreMeleeRangeT1" count="1"/>
+			<item name="modCreMeleeBlockT1" count="1"/>
+			<item name="modCreMeleeFireT1" count="1"/>
+			<item name="modCreMeleeShockT1" count="1"/>
+			<item name="modCreMeleeBreakT1" count="1"/>
+		</lootgroup>
+		
+		<lootgroup name="cre_WeaponMods">
+			<item group="cre_WeaponModsBase"/>
+			<item group="cre_WeaponModsRange"/>
+			<item group="cre_WeaponModsMelee"/>
+		</lootgroup>
+			
+	</insertBefore>
+	
+	<append xpath="/lootcontainers">
+		<lootcontainer name="DropBoxOfAmmo" count="1" size="6,1" sound_open="SupplyDrops/open_supply_crate" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true">
+			<item group="groupAmmoSmallNoArrow" count="5,7"/>
+		</lootcontainer>
+		
+		<lootcontainer name="cre_DropBoxOfMods" count="1" size="6,1" sound_open="UseActions/open_mailbox" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true">
+			<item group="cre_WeaponMods" count="1"/>
+		</lootcontainer>
+		
+	</append>
+	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackReg']">
+		<item group="DropBoxofModsReg" count="1"/>
+		<item group="DropBoxofAmmoReg" count="1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']">
+		<item group="DropBoxofModsStrong" count="1"/>
+		<item group="DropBoxofAmmoStrong" count="1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']">
+		<item group="DropBoxofModsBoss" count="1"/>
+		<item group="DropBoxofAmmoBoss" count="1"/>
+	</append>
+	
+	
+	
+	
+
+</configs>

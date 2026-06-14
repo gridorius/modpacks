@@ -1,0 +1,52 @@
+<config>
+        <append xpath="/recipes">
+
+        <recipe name="ForgeT2" count="1" tags="learnable,perkAdvancedEngineering">
+	<ingredient name="resourceRockSmall" count="500"/>
+	<ingredient name="resourceClayLump" count="600"/>
+	<ingredient name="resourceLeather" count="35"/>
+	<ingredient name="resourceDuctTape" count="20"/>
+	<ingredient name="resourceMetalPipe" count="35"/>
+</recipe> 
+
+        <recipe name="ForgeT3" count="1" craft_time="450" tags="learnable">
+	<ingredient name="resourceRockSmall" count="2500"/>
+	<ingredient name="resourceClayLump" count="1600"/>
+	<ingredient name="resourceLeather" count="75"/>
+	<ingredient name="resourceDuctTape" count="35"/>
+	<ingredient name="resourceMetalPipe" count="75"/>
+</recipe> 
+ 
+<recipe name="toolAnvilT2" count="1" craft_time="300" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+	<ingredient name="resourceForgedIron" count="500"/>
+	<ingredient name="resourceMetalPipe" count="250"/>
+        <ingredient name="resourceNail" count="250"/>
+        <ingredient name="resourceForgedSteel" count="150"/>	
+</recipe>
+
+<recipe name="toolAnvilT3" count="1" craft_time="450" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedIron" count="1000"/>
+	<ingredient name="resourceMetalPipe" count="500"/>
+        <ingredient name="resourceNail" count="500"/>
+        <ingredient name="resourceForgedSteel" count="250"/>	
+</recipe>
+
+<recipe name="toolBellowsT2" count="1" craft_time="300" craft_area="workbench" tags="learnable,perkAdvancedEngineering">
+	<ingredient name="resourceForgedSteel" count="150"/>
+	<ingredient name="resourceLeather" count="200"/>
+	<ingredient name="resourceMetalPipe" count="50"/>
+	<ingredient name="resourceDuctTape" count="75"/>
+	<ingredient name="resourceNail" count="75"/>
+</recipe>
+
+<recipe name="toolBellowsT3" count="1" craft_time="450" craft_area="workbench" tags="learnable">
+	<ingredient name="resourceForgedSteel" count="250"/>
+	<ingredient name="resourceLeather" count="350"/>
+	<ingredient name="resourceMetalPipe" count="100"/>
+	<ingredient name="resourceDuctTape" count="150"/>
+	<ingredient name="resourceNail" count="150"/>
+</recipe>
+
+</append>
+
+</config>

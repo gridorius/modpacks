@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnarquiaZTrader>
+	<!-- PT-BR: Mude Language para pt-BR, es ou en. As mensagens usadas no chat saem do bloco Message do idioma escolhido. -->
+	<!-- ES: Cambia Language a pt-BR, es o en. Los mensajes del chat se toman del bloque Message del idioma elegido. -->
+	<!-- EN: Change Language to pt-BR, es, or en. Chat messages are read from the Message block for the selected language. -->
+	<Trader>
+		<!-- PT-BR: true fecha o trader durante a Lua de Sangue. false deixa sempre aberto. -->
+		<!-- ES: true cierra el trader durante la Luna de Sangre. false lo deja siempre abierto. -->
+		<!-- EN: true closes the trader during Blood Moon. false keeps it always open. -->
+		<BloodMoonClose>true</BloodMoonClose>
+
+		<!-- PT-BR: true envia mensagem no chat quando fecha e quando abre. -->
+		<!-- ES: true envia mensaje al chat cuando cierra y cuando abre. -->
+		<!-- EN: true sends a chat message when traders close and open. -->
+		<Announce>true</Announce>
+
+		<!-- PT-BR: intervalo em segundos para checar o estado da Lua de Sangue. -->
+		<!-- ES: intervalo en segundos para revisar el estado de la Luna de Sangre. -->
+		<!-- EN: interval in seconds used to check the Blood Moon state. -->
+		<CheckIntervalSeconds>2</CheckIntervalSeconds>
+
+		<!-- PT-BR: idiomas aceitos: pt-BR, es, en. Tambem aceita br, pt, esp e eng. -->
+		<!-- ES: idiomas aceptados: pt-BR, es, en. Tambien acepta br, pt, esp y eng. -->
+		<!-- EN: accepted languages: pt-BR, es, en. Also accepts br, pt, esp, and eng. -->
+		<Language>pt-BR</Language>
+
+		<Messages>
+			<Message language="pt-BR">
+				<Close>[FFD700]Traders fechados: [FF0000]Lua de Sangue[-] comecou[-]</Close>
+				<Open>[00FF00]Traders abertos: Lua de Sangue terminou[-]</Open>
+			</Message>
+
+			<Message language="es">
+				<Close>[FFD700]Traders cerrados: [FF0000]Luna de Sangre[-] comenzo[-]</Close>
+				<Open>[00FF00]Traders abiertos: la Luna de Sangre termino[-]</Open>
+			</Message>
+
+			<Message language="en">
+				<Close>[FFD700]Traders closed: [FF0000]Blood Moon[-] has started[-]</Close>
+				<Open>[00FF00]Traders open: Blood Moon has ended[-]</Open>
+			</Message>
+		</Messages>
+	</Trader>
+</AnarquiaZTrader>

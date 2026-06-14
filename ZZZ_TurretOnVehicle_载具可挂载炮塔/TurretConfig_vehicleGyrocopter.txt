@@ -1,0 +1,46 @@
+// 吸附距离（米）
+// Adhesion distance (meters)
+AdhesionDistance=5
+
+// =====================================================
+// 坐标说明 Coordinate Explanation:
+// X = 左右偏移 (Left/Right offset) -> 负左，正右
+// Y = 高度偏移 (Height offset) -> 正值向上
+// Z = 前后偏移 (Front/Back offset) -> 正值向前，负值向后
+// =====================================================
+
+// 槽位1：正中央，稍微靠后
+// Slot 1: Center, slightly rear
+Slot1=0,0.0,2.3
+
+// 槽位2：左前方（相对阵列）
+// Slot 2: Front left (relative to formation)
+Slot2=0,0.0,2.3
+
+// 槽位3：右前方（相对阵列）
+// Slot 3: Front right (relative to formation)
+Slot3=0,0.0,2.3
+
+// 槽位4：左后方
+// Slot 4: Back left
+Slot4=0,0.0,2.3
+
+// 槽位5：右后方
+// Slot 5: Back right
+Slot5=0,0.0,2.3
+
+// 槽位6：更左侧
+// Slot 6: Further left
+Slot6=0,0.0,2.3
+
+// 槽位7：更右侧
+// Slot 7: Further right
+Slot7=0,0.0,2.3
+
+// 槽位8：最左后
+// Slot 8: Furthest back left
+Slot8=0,0.0,2.3
+
+// 槽位9：最右后
+// Slot 9: Furthest back right
+Slot9=0,0.0,2.3

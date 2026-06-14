@@ -1,0 +1,17 @@
+<configs>
+  <append xpath="/windows">
+    <!-- Matches the original author layout: ammo is drawn over the model's built-in display area. -->
+    <window name="windowMinigunAmmo">
+      <rect name="minigunAmmo" pos="-194,55" width="168" visible="true">
+        <rect width="188" height="46">
+          <sprite depth="4" name="Icon" atlas="ItemIconAtlas" sprite="ammo556M193" size="39,35" pos="130,-6" color="{staticoncolor}" foregroundlayer="true" />
+          <label depth="6" name="TextContent" pos="115,-26" font_size="28" color="[white]" justify="right" pivot="right" text="0" width="250" height="30" />
+        </rect>
+      </rect>
+    </window>
+
+    <window name="windowMinigunCrosshair">
+      <sprite name="minigunCrosshair" pivot="center" globalopacity="false" visible="false" sprite="crosshair_minigun" />
+    </window>
+  </append>
+</configs>

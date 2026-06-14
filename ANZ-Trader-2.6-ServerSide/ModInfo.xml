@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="ANZ-Trader" />
+    <DisplayName value="ANZ_Trader 24 horas" />
+    <Description value="ADDON PARA FECHAR O TRADER NA LUA DE SANGUE" />
+    <Author value="Willi Tecnico" />
+    <Version value="2.5" />
+	  <Website value="www.anarquia-z.com" />
+</xml>

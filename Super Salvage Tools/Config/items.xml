@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+    <set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='AttacksPerMinute']/@value">75</set> <!-- Default 50 -->
+    <set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='StaminaLoss']/@value">5.5</set> <!-- Default 16.5 -->
+    <set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='DegradationMax']/@value">600,1400</set> <!-- Default 200,700-->
+    <set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/effect_group[@name='meleeToolSalvageT1Wrench']/passive_effect[@name='BlockDamage' and (@operation='base_set')]/@value">117</set> <!-- Default 39 -->
+
+    <set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='AttacksPerMinute']/@value">75</set> <!-- Default 50 -->
+    <set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='StaminaLoss']/@value">6</set> <!-- Default 18 -->
+    <set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='DegradationMax']/@value">2100,4350</set> <!-- Default 700,1450-->
+    <set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/effect_group[@name='meleeToolSalvageT2Ratchet']/passive_effect[@name='BlockDamage' and (@operation='base_set')]/@value">210</set> <!-- Default 70 -->
+
+    <set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='AttacksPerMinute']/@value">75</set> <!-- Default 50 -->
+    <set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='StaminaLoss']/@value">6.6</set> <!-- Default 20 -->
+    <set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='DegradationMax']/@value">4350,7350</set> <!-- Default 1450,2450-->
+    <set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/effect_group[@name='meleeToolSalvageT3ImpactDriver']/passive_effect[@name='BlockDamage' and (@operation='base_set')]/@value">330</set> <!-- Default 110 -->
+</configs>

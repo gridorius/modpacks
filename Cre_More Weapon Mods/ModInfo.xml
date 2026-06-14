@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="Cre_MoreWeaponMods" />
+	<DisplayName value="Cre_More Weapon Mods" />
+	<Description value="Add melee and range mods"/>
+	<Author value="crepercrep" />
+	<Version value="1.2" />
+	<Website value="" />
+    <SkipWithAntiCheat value="true" />
+</xml>

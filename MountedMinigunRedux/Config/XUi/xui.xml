@@ -1,0 +1,6 @@
+<configs>
+  <append xpath="/xui/ruleset[@name='default']/window_group[@name='powercamera']">
+    <window name="windowMinigunAmmo" anchor="RightBottom" />
+    <window name="windowMinigunCrosshair" />
+  </append>
+</configs>

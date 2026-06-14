@@ -1,0 +1,7 @@
+<configs>
+
+<append xpath="/traders/trader_item_groups/trader_item_group[@name='traderAlways']">
+		<item name="cre_BoxOfArmorMods" count="1"/>
+	</append>
+
+</configs>

@@ -1,0 +1,27 @@
+<configs>
+
+<append xpath="//lootgroup[@name='schematicsModsAndGeneralT0']">
+	<item name="ForgeT2Schematic"/>
+	<item name="toolBellowsT2Schematic"/>
+	<item name="toolAnvilT2Schematic"/>
+ </append>
+
+<append xpath="//lootgroup[@name='schematicsModsAndGeneralT1']">
+        <item name="ForgeT3Schematic"/>
+	<item name="toolBellowsT3Schematic"/>
+	<item name="toolAnvilT3Schematic"/>	
+</append>
+	
+<append xpath="//lootgroup[@name='schematicsModsAndGeneralT1']">
+	<item name="ForgeT2Schematic" prob="0.4"/>
+        <item name="ForgeT3Schematic" prob="0.2"/>
+</append>
+
+<append xpath="//lootgroup[@name='workstationToolsScaled']">
+	<item name="toolAnvilT2" loot_prob_template="ProbT1"/>
+	<item name="toolBellowsT2" loot_prob_template="ProbT2"/>
+	<item name="toolAnvilT3" loot_prob_template="ProbT1"/>
+	<item name="toolBellowsT3" loot_prob_template="ProbT2"/>
+</append>
+ 
+</configs>

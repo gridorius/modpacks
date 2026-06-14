@@ -1,0 +1,48 @@
+<configs>
+
+	<append xpath="/spawning/biome[@name='pine_forest']">
+		<spawn id="doaksbanhhd01" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersDay" notags="commercial,industrial,downtown" />
+		<spawn id="noaksbanhhn01" maxcount="1" respawndelay="2" time="Night" entitygroup="OaksBanditHeadHuntersNight" notags="commercial,industrial,downtown" />
+		<spawn id="doaksbanhhd02" maxcount="1" respawndelay="3" time="Day" entitygroup="OaksBanditHeadHuntersDay" tags="commercial,industrial" notags="downtown" />
+		<spawn id="noaksbanhhn02" maxcount="1" respawndelay="3" time="Night" entitygroup="OaksBanditHeadHuntersNight" tags="commercial,industrial" notags="downtown" />
+		<spawn id="doaksbanhhd03" maxcount="1" respawndelay="3" time="Day" entitygroup="OaksBanditHeadHuntersNight" tags="downtown" />
+		<spawn id="noaksbanhhn03" maxcount="1" respawndelay="3" time="Night" entitygroup="OaksBanditHeadHuntersNight" tags="downtown" />
+	</append>
+	
+	<append xpath="/spawning/biome[@name='burnt_forest']">
+		<spawn id="doaksbanhhd01" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersDay" notags="commercial,industrial,downtown" />
+		<spawn id="noaksbanhhn01" maxcount="2" respawndelay="1.5" time="Night" entitygroup="OaksBanditHeadHuntersNight" notags="commercial,industrial,downtown" />
+		<spawn id="doaksbanhhd02" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersDay" tags="commercial,industrial" notags="downtown" />
+		<spawn id="noaksbanhhn02" maxcount="1" respawndelay="2" time="Night" entitygroup="OaksBanditHeadHuntersNight" tags="commercial,industrial" notags="downtown" />
+		<spawn id="doaksbanhhd03" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersNight" tags="downtown" />
+		<spawn id="noaksbanhhn03" maxcount="1" respawndelay="2" time="Night" entitygroup="OaksBanditHeadHuntersNight" tags="downtown" />
+	</append>
+	
+	<append xpath="/spawning/biome[@name='desert']">
+		<spawn id="doaksbanhhd01" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersDay" notags="commercial,industrial,downtown" />
+		<spawn id="noaksbanhhn01" maxcount="2" respawndelay="1.5" time="Night" entitygroup="OaksBanditHeadHuntersNight" notags="commercial,industrial,downtown" />
+		<spawn id="doaksbanhhd02" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersDay" tags="commercial,industrial" notags="downtown" />
+		<spawn id="noaksbanhhn02" maxcount="1" respawndelay="2" time="Night" entitygroup="OaksBanditHeadHuntersNight" tags="commercial,industrial" notags="downtown" />
+		<spawn id="doaksbanhhd03" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersNight" tags="downtown" />
+		<spawn id="noaksbanhhn03" maxcount="1" respawndelay="2" time="Night" entitygroup="OaksBanditHeadHuntersNight" tags="downtown" />
+	</append>	
+	
+	<append xpath="/spawning/biome[@name='snow']">
+		<spawn id="doaksbanhhd01" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersDay" notags="commercial,industrial,downtown" />
+		<spawn id="noaksbanhhn01" maxcount="2" respawndelay="1.5" time="Night" entitygroup="OaksBanditHeadHuntersNight" notags="commercial,industrial,downtown" />
+		<spawn id="doaksbanhhd02" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersDay" tags="commercial,industrial" notags="downtown" />
+		<spawn id="noaksbanhhn02" maxcount="1" respawndelay="2" time="Night" entitygroup="OaksBanditHeadHuntersNight" tags="commercial,industrial" notags="downtown" />
+		<spawn id="doaksbanhhd03" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersNight" tags="downtown" />
+		<spawn id="noaksbanhhn03" maxcount="1" respawndelay="2" time="Night" entitygroup="OaksBanditHeadHuntersNight" tags="downtown" />
+	</append>	
+	
+	<append xpath="/spawning/biome[@name='wasteland']">
+		<spawn id="doaksbanhhd01" maxcount="2" respawndelay="0.5" time="Day" entitygroup="OaksBanditHeadHuntersDay" notags="commercial,industrial,downtown" />
+		<spawn id="noaksbanhhn01" maxcount="2" respawndelay="0.25" time="Night" entitygroup="OaksBanditHeadHuntersNight" notags="commercial,industrial,downtown" />
+		<spawn id="doaksbanhhd02" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersDay" tags="commercial,industrial" notags="downtown" />
+		<spawn id="noaksbanhhn02" maxcount="1" respawndelay="2" time="Night" entitygroup="OaksBanditHeadHuntersNight" tags="commercial,industrial" notags="downtown" />
+		<spawn id="doaksbanhhd03" maxcount="1" respawndelay="2" time="Day" entitygroup="OaksBanditHeadHuntersNight" tags="downtown" />
+		<spawn id="noaksbanhhn03" maxcount="1" respawndelay="2" time="Night" entitygroup="OaksBanditHeadHuntersNight" tags="downtown" />
+	</append>	
+	
+</configs>

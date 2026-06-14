@@ -1,0 +1,163 @@
+<configs>
+  <append xpath="/recipes">
+    <recipe name="ammo556M193" count="1" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceBulletTip" count="3" />
+      <ingredient name="resourceScrapIron" count="3" />
+      <ingredient name="resourceGunPowder" count="6" />
+      <ingredient name="resourceBulletCasing" count="1" />
+    </recipe>
+
+    <recipe name="ammoBundleammo556M193" count="1" craft_time="360" craft_area="workbench" tags="workbenchCrafting">
+      <ingredient name="resourceBulletTip" count="240" />
+      <ingredient name="resourceScrapIron" count="240" />
+      <ingredient name="resourceGunPowder" count="480" />
+      <ingredient name="resourceBulletCasing" count="80" />
+    </recipe>
+
+    <recipe name="manualMinigun" count="1" craft_area="workbench" tags="workbenchCrafting,perkAdvancedEngineering">
+      <ingredient name="resourceForgedSteel" count="50" />
+      <ingredient name="gunMGT1AK47Parts" count="10" />
+      <ingredient name="resourceOil" count="25" />
+      <ingredient name="resourceScrapPolymers" count="25" />
+      <ingredient name="resourceMechanicalParts" count="50" />
+      <effect_group>
+        <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".56,.56,.56,.34,.15" tags="resourceForgedSteel,gunMGT1AK47Parts,resourceOil,resourceScrapPolymers" />
+      </effect_group>
+    </recipe>
+  </append>
+
+  <!--
+    Ammo overhaul compatibility for the custom minigun round only.
+
+    The turret still accepts only ammo556M193. These conditionals only change how ammo556M193
+    and its bundle are crafted so the recipe matches the active ammo ecosystem.
+
+    Vanilla/default and EFTX vanilla-only modes intentionally keep the base recipe above.
+    IZY/VN modes are covered by IZY_RMP_556pack when that pack is present; otherwise they remain vanilla.
+  -->
+
+  <!-- IZY 5.56 pack: mirror ammo556mmBulletBall ingredients from the provided compatibility file. -->
+  <conditional>
+    <if cond="mod_loaded('IZY_RMP_556pack')">
+      <remove xpath="/recipes/recipe[@name='ammo556M193']" />
+      <remove xpath="/recipes/recipe[@name='ammoBundleammo556M193']" />
+      <append xpath="/recipes">
+        <recipe name="ammo556M193" count="1" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceBulletTip" count="1" />
+          <ingredient name="resourceGunPowder" count="1" />
+          <ingredient name="resourceScrapIron" count="1" />
+          <ingredient name="resourceBulletCasing" count="1" />
+        </recipe>
+
+        <recipe name="ammoBundleammo556M193" count="1" craft_time="360" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceBulletTip" count="80" />
+          <ingredient name="resourceGunPowder" count="80" />
+          <ingredient name="resourceScrapIron" count="80" />
+          <ingredient name="resourceBulletCasing" count="80" />
+        </recipe>
+      </append>
+    </if>
+  </conditional>
+
+  <!-- EFT / EFTX normal 5.56 modes: mirror ammoEft55645NATO ingredients. -->
+  <conditional>
+    <if cond="mod_loaded('EFT_Overhaul')">
+      <remove xpath="/recipes/recipe[@name='ammo556M193']" />
+      <remove xpath="/recipes/recipe[@name='ammoBundleammo556M193']" />
+      <append xpath="/recipes">
+        <recipe name="ammo556M193" count="1" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceMedCaliberBulletTip" count="1" />
+          <ingredient name="resource_item_other_powder_green" count="9" />
+          <ingredient name="resourceMedCaliberCasing" count="1" />
+        </recipe>
+
+        <recipe name="ammoBundleammo556M193" count="1" craft_time="360" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceMedCaliberBulletTip" count="80" />
+          <ingredient name="resource_item_other_powder_green" count="720" />
+          <ingredient name="resourceMedCaliberCasing" count="80" />
+        </recipe>
+      </append>
+    </if>
+  </conditional>
+
+  <conditional>
+    <if cond="mod_loaded('Z2_EFTX_Both_Ammo')">
+      <remove xpath="/recipes/recipe[@name='ammo556M193']" />
+      <remove xpath="/recipes/recipe[@name='ammoBundleammo556M193']" />
+      <append xpath="/recipes">
+        <recipe name="ammo556M193" count="1" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceMedCaliberBulletTip" count="1" />
+          <ingredient name="resource_item_other_powder_green" count="9" />
+          <ingredient name="resourceMedCaliberCasing" count="1" />
+        </recipe>
+
+        <recipe name="ammoBundleammo556M193" count="1" craft_time="360" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceMedCaliberBulletTip" count="80" />
+          <ingredient name="resource_item_other_powder_green" count="720" />
+          <ingredient name="resourceMedCaliberCasing" count="80" />
+        </recipe>
+      </append>
+    </if>
+  </conditional>
+
+  <!-- EFTX EFT-only mode: mirror its ammoEft55645NATO recipe, which uses generic EFTX powder. -->
+  <conditional>
+    <if cond="mod_loaded('Z2_EFTX_EFT_Only_Ammo')">
+      <remove xpath="/recipes/recipe[@name='ammo556M193']" />
+      <remove xpath="/recipes/recipe[@name='ammoBundleammo556M193']" />
+      <append xpath="/recipes">
+        <recipe name="ammo556M193" count="1" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceMedCaliberBulletTip" count="1" />
+          <ingredient name="resource_item_other_powder" count="3" />
+          <ingredient name="resourceMedCaliberCasing" count="1" />
+        </recipe>
+
+        <recipe name="ammoBundleammo556M193" count="1" craft_time="360" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceMedCaliberBulletTip" count="80" />
+          <ingredient name="resource_item_other_powder" count="240" />
+          <ingredient name="resourceMedCaliberCasing" count="80" />
+        </recipe>
+      </append>
+    </if>
+  </conditional>
+
+  <conditional>
+    <if cond="mod_loaded('Z2_EFTX_IZY_Uses_All_The_Ammo')">
+      <remove xpath="/recipes/recipe[@name='ammo556M193']" />
+      <remove xpath="/recipes/recipe[@name='ammoBundleammo556M193']" />
+      <append xpath="/recipes">
+        <recipe name="ammo556M193" count="1" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceMedCaliberBulletTip" count="1" />
+          <ingredient name="resource_item_other_powder_green" count="9" />
+          <ingredient name="resourceMedCaliberCasing" count="1" />
+        </recipe>
+
+        <recipe name="ammoBundleammo556M193" count="1" craft_time="360" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceMedCaliberBulletTip" count="80" />
+          <ingredient name="resource_item_other_powder_green" count="720" />
+          <ingredient name="resourceMedCaliberCasing" count="80" />
+        </recipe>
+      </append>
+    </if>
+  </conditional>
+
+  <conditional>
+    <if cond="mod_loaded('Z2_EFTX_EFT_IZY_Ammo_CrossOver')">
+      <remove xpath="/recipes/recipe[@name='ammo556M193']" />
+      <remove xpath="/recipes/recipe[@name='ammoBundleammo556M193']" />
+      <append xpath="/recipes">
+        <recipe name="ammo556M193" count="1" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceMedCaliberBulletTip" count="1" />
+          <ingredient name="resource_item_other_powder_green" count="9" />
+          <ingredient name="resourceMedCaliberCasing" count="1" />
+        </recipe>
+
+        <recipe name="ammoBundleammo556M193" count="1" craft_time="360" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceMedCaliberBulletTip" count="80" />
+          <ingredient name="resource_item_other_powder_green" count="720" />
+          <ingredient name="resourceMedCaliberCasing" count="80" />
+        </recipe>
+      </append>
+    </if>
+  </conditional>
+</configs>

@@ -1,0 +1,324 @@
+<configs>
+
+	<append xpath="/entity_classes">
+	
+	    <entity_class name="npcBanditOakHeadHuntersM60Template" extends="npcRangedBanditTemplate"> 
+			<property name="UserSpawnType" value="None"/>
+			<property name="Tags" value="entity,male,npc,walker,ranged"/>
+			<property name="Names" value="Template" />	
+			<property name="Faction" value="bandits"/>
+			<property name="IsEnemyEntity" value="true"/> 
+			<property name="HandItem" value="gunNPCOakHeadHuntersM60"/>
+			<property name="RightHandJointName" value="M60" />
+			<property name="AITask-5" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=6;minRange=2;maxRange=15;unreachableRange=40"/>  <!-- set duration == rounds?  -->
+			<property name="LootDropEntityClass" value="EntityNPCLootContainerPipePistol" />
+		</entity_class>
+	
+	    <entity_class name="npcBanditOakHeadHuntersTRifleTemplate" extends="npcRangedBanditTemplate"> 
+			<property name="UserSpawnType" value="None"/>
+			<property name="Tags" value="entity,male,npc,walker,ranged"/>
+			<property name="Names" value="Template" />	
+			<property name="Faction" value="bandits"/>
+			<property name="IsEnemyEntity" value="true"/> 
+			<property name="HandItem" value="gunNPCOakHeadHuntersTRifle"/>
+			<property name="RightHandJointName" value="TRifle" />
+			<property name="AITask-5" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=6;minRange=2;maxRange=15;unreachableRange=40"/>  <!-- set duration == rounds?  -->
+			<property name="LootDropEntityClass" value="EntityNPCLootContainerPipePistol" />
+		</entity_class>
+	
+	    <entity_class name="npcBanditOakHeadHuntersPistolTemplate" extends="npcRangedBanditTemplate"> 
+			<property name="UserSpawnType" value="None"/>
+			<property name="Tags" value="entity,male,npc,walker,ranged"/>
+			<property name="Names" value="Template" />	
+			<property name="Faction" value="bandits"/>
+			<property name="IsEnemyEntity" value="true"/> 
+			<property name="HandItem" value="gunNPCOakHeadHuntersPistol"/>
+			<property name="RightHandJointName" value="Pistol" />
+			<property name="AITask-5" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=6;minRange=2;maxRange=15;unreachableRange=40"/>  <!-- set duration == rounds?  -->
+			<property name="LootDropEntityClass" value="EntityNPCLootContainerPipePistol" />
+		</entity_class>
+
+         <entity_class name="npcBanditOakHeadHuntersDPistolTemplate" extends="npcRangedBanditTemplate"> 
+			<property name="UserSpawnType" value="None"/>
+			<property name="Tags" value="entity,male,npc,walker,ranged"/>
+			<property name="Names" value="Template" />	
+			<property name="Faction" value="bandits"/>
+			<property name="IsEnemyEntity" value="true"/> 
+			<property name="HandItem" value="gunNPCOakHeadHuntersDPistol"/>
+			<property name="RightHandJointName" value="DPistol" />
+			<property name="AITask-5" value="RangedAttackTarget" data="itemType=1;cooldown=4;duration=6;minRange=2;maxRange=15;unreachableRange=40"/>  <!-- set duration == rounds?  -->
+			<property name="LootDropEntityClass" value="EntityNPCLootContainerPipePistol" />
+		</entity_class>			
+
+        <entity_class name="npcBanditOakHeadHuntersAxeTemplate" extends="npcMeleeBanditTemplate">
+			<property name="UserSpawnType" value="None"/>
+			<property name="Tags" value="entity,male,npc,walker,melee"/>
+			<property name="Names" value="Template" />	
+			<property name="Faction" value="bandits"/>
+			<property name="IsEnemyEntity" value="true"/> 
+			<property name="HandItem" value="meleeNPCOakHeadHuntersAxe"/>
+			<property name="RightHandJointName" value="Axe" />
+			<property name="LootDropEntityClass" value="EntityNPCLootContainerAxe" />
+		</entity_class>
+		
+		<entity_class name="npcBanditOakHeadHuntersBatTemplate" extends="npcMeleeBanditTemplate">
+			<property name="UserSpawnType" value="None"/>
+			<property name="Tags" value="entity,male,npc,walker,melee"/>
+			<property name="Names" value="Template" />	
+			<property name="Faction" value="bandits"/>
+			<property name="IsEnemyEntity" value="true"/> 
+			<property name="HandItem" value="meleeNPCOakHeadHuntersBatWood"/>
+			<property name="RightHandJointName" value="Bat" />
+			<property name="LootDropEntityClass" value="EntityNPCLootContainerBat" />
+		</entity_class>
+
+        <entity_class name="npcBanditOakHeadHuntersMacheteTemplate" extends="npcMeleeBanditTemplate">
+			<property name="UserSpawnType" value="None"/>
+			<property name="Tags" value="entity,male,npc,walker,melee"/>
+			<property name="Names" value="Template" />	
+			<property name="Faction" value="bandits"/>
+			<property name="IsEnemyEntity" value="true"/> 
+			<property name="HandItem" value="meleeNPCOakHeadHuntersMachete"/>
+			<property name="RightHandJointName" value="Machete" />
+			<property name="LootDropEntityClass" value="EntityNPCLootContainerMachete" />
+		</entity_class>
+
+        <entity_class name="npcBanditOakHeadHuntersClubTemplate" extends="npcMeleeBanditTemplate" >
+			<property name="UserSpawnType" value="None"/>
+			<property name="Tags" value="entity,male,npc,walker,melee"/>
+			<property name="Names" value="Template" />	
+			<property name="Faction" value="bandits"/>
+			<property name="IsEnemyEntity" value="true"/> 
+			<property name="HandItem" value="meleeNPCOakHeadHuntersClubWood"/>
+			<property name="RightHandJointName" value="Club" />
+			<property name="LootDropEntityClass" value="EntityNPCLootContainerClub" />
+		</entity_class>			
+		
+
+		<entity_class name="npcBanditOakHeadHuntersAxe" extends="npcBanditOakHeadHuntersAxeTemplate"> 
+			<property name="UserSpawnType" value="Menu"/><property name="Tags" value="entity,female,npc,walker,melee,bandit,DRMid"/>
+			<property name="Faction" value="bandits"/>
+			<property name="Names" value="Lizzy May" />
+			<property name="Mesh" value="#@modfolder:Resources/NPCHeadHunters.unity3d?NPCHeadHunterFireAxe"/>
+            <property name="LookAtAngle" value="90"/>
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<property name="SoundHurt" value="player1painlg"/>
+			<property name="SoundHurtSmall" value="player1painsm"/>
+			<property name="SoundDeath" value="player1death"/>
+			<property name="SoundStamina" value="player1stamina"/>
+			<property name="SoundDrownPain" value="player1drownpain"/>
+			<property name="SoundWaterSurface" value="player1drownsurface"/>
+			<property name="SoundDrownDeath" value="player1drowndeath"/>
+			<property name="SoundJump" value="player1Jump"/>
+			<property name="SoundLandSoft" value="player1LandSoft"/>
+			<property name="SoundLandHard" value="player1LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="player1stamina" />
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="player1stamina"/>
+			<property name="SoundAttack" value="player1stamina"/>
+			<property name="SoundSense" value="player1stamina"/>
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic, NPCModHostileRangedBasic"/>
+			<property name="Class" value="EntityNPCBandit, SCore" />
+		</entity_class>	
+		
+		<entity_class name="npcBanditOakHeadHuntersBat" extends="npcBanditOakHeadHuntersBatTemplate"> 
+			<property name="UserSpawnType" value="Menu"/><property name="Tags" value="entity,female,npc,walker,melee,bandit,DRMid"/>
+			<property name="Faction" value="bandits"/>
+			<property name="Names" value="King Moneybags" />
+			<property name="Mesh" value="#@modfolder:Resources/NPCHeadHunters.unity3d?NPCHeadHunterBat"/>
+            <property name="LookAtAngle" value="90"/>
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<property name="SoundHurt" value="player1painlg"/>
+			<property name="SoundHurtSmall" value="player1painsm"/>
+			<property name="SoundDeath" value="player1death"/>
+			<property name="SoundStamina" value="player1stamina"/>
+			<property name="SoundDrownPain" value="player1drownpain"/>
+			<property name="SoundWaterSurface" value="player1drownsurface"/>
+			<property name="SoundDrownDeath" value="player1drowndeath"/>
+			<property name="SoundJump" value="player1Jump"/>
+			<property name="SoundLandSoft" value="player1LandSoft"/>
+			<property name="SoundLandHard" value="player1LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="player1stamina" />
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="player1stamina"/>
+			<property name="SoundAttack" value="player1stamina"/>
+			<property name="SoundSense" value="player1stamina"/>
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic, NPCModHostileRangedBasic"/>
+			<property name="Class" value="EntityNPCBandit, SCore" /> 
+		</entity_class>		
+
+        <entity_class name="npcBanditOakHeadHuntersMachete" extends="npcBanditOakHeadHuntersMacheteTemplate"> 
+			<property name="UserSpawnType" value="Menu"/><property name="Tags" value="entity,female,npc,walker,melee,bandit,DRMid"/>
+			<property name="Faction" value="bandits"/>
+			<property name="Names" value="King Moneybags" />
+			<property name="Mesh" value="#@modfolder:Resources/NPCHeadHunters.unity3d?NPCHeadHunterBat"/>
+            <property name="LookAtAngle" value="90"/>
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<property name="SoundHurt" value="player1painlg"/>
+			<property name="SoundHurtSmall" value="player1painsm"/>
+			<property name="SoundDeath" value="player1death"/>
+			<property name="SoundStamina" value="player1stamina"/>
+			<property name="SoundDrownPain" value="player1drownpain"/>
+			<property name="SoundWaterSurface" value="player1drownsurface"/>
+			<property name="SoundDrownDeath" value="player1drowndeath"/>
+			<property name="SoundJump" value="player1Jump"/>
+			<property name="SoundLandSoft" value="player1LandSoft"/>
+			<property name="SoundLandHard" value="player1LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="player1stamina" />
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="player1stamina"/>
+			<property name="SoundAttack" value="player1stamina"/>
+			<property name="SoundSense" value="player1stamina"/>
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic, NPCModHostileRangedBasic"/>
+			<property name="Class" value="EntityNPCBandit, SCore" /> 
+		</entity_class>		
+
+        <entity_class name="npcBanditOakHeadHuntersClub" extends="npcBanditOakHeadHuntersClubTemplate"> 
+			<property name="UserSpawnType" value="Menu"/><property name="Tags" value="entity,female,npc,walker,melee,bandit,DRMid"/>
+			<property name="Faction" value="bandits"/>
+			<property name="Names" value="King Moneybags" />
+			<property name="Mesh" value="#@modfolder:Resources/NPCHeadHunters.unity3d?NPCHeadHunterClub"/>
+            <property name="LookAtAngle" value="90"/>
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<property name="SoundHurt" value="player1painlg"/>
+			<property name="SoundHurtSmall" value="player1painsm"/>
+			<property name="SoundDeath" value="player1death"/>
+			<property name="SoundStamina" value="player1stamina"/>
+			<property name="SoundDrownPain" value="player1drownpain"/>
+			<property name="SoundWaterSurface" value="player1drownsurface"/>
+			<property name="SoundDrownDeath" value="player1drowndeath"/>
+			<property name="SoundJump" value="player1Jump"/>
+			<property name="SoundLandSoft" value="player1LandSoft"/>
+			<property name="SoundLandHard" value="player1LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="player1stamina" />
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="player1stamina"/>
+			<property name="SoundAttack" value="player1stamina"/>
+			<property name="SoundSense" value="player1stamina"/>	
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic, NPCModHostileRangedBasic"/>
+			<property name="Class" value="EntityNPCBandit, SCore" />
+		</entity_class>		
+
+		<entity_class name="npcBanditOakHeadHuntersPistol" extends="npcBanditOakHeadHuntersPistolTemplate"> 
+			<property name="UserSpawnType" value="Menu"/><property name="Tags" value="entity,female,npc,walker,ranged,bandit,DRMid"/>
+			<property name="Faction" value="bandits"/>
+			<property name="Names" value="King Moneybags" />
+			<property name="Mesh" value="#@modfolder:Resources/NPCHeadHunters.unity3d?NPCHeadHunterPistol"/>
+			<property name="LookAtAngle" value="90"/>
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<property name="SoundHurt" value="player1painlg"/>
+			<property name="SoundHurtSmall" value="player1painsm"/>
+			<property name="SoundDeath" value="player1death"/>
+			<property name="SoundStamina" value="player1stamina"/>
+			<property name="SoundDrownPain" value="player1drownpain"/>
+			<property name="SoundWaterSurface" value="player1drownsurface"/>
+			<property name="SoundDrownDeath" value="player1drowndeath"/>
+			<property name="SoundJump" value="player1Jump"/>
+			<property name="SoundLandSoft" value="player1LandSoft"/>
+			<property name="SoundLandHard" value="player1LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="player1stamina" />
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="player1stamina"/>
+			<property name="SoundAttack" value="player1stamina"/>
+			<property name="SoundSense" value="player1stamina"/>
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic, NPCModHostileRangedBasic"/>
+			<property name="Class" value="EntityNPCBandit, SCore" />
+		</entity_class>	
+
+        <entity_class name="npcBanditOakHeadHuntersDPistol" extends="npcBanditOakHeadHuntersDPistolTemplate"> 
+			<property name="UserSpawnType" value="Menu"/><property name="Tags" value="entity,female,npc,walker,ranged,bandit,DRMid"/>
+			<property name="Faction" value="bandits"/>
+			<property name="Names" value="King Moneybags" />
+			<property name="Mesh" value="#@modfolder:Resources/NPCHeadHunters.unity3d?NPCHeadHunterDPistol"/>
+			<property name="LookAtAngle" value="90"/>
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<property name="SoundHurt" value="player1painlg"/>
+			<property name="SoundHurtSmall" value="player1painsm"/>
+			<property name="SoundDeath" value="player1death"/>
+			<property name="SoundStamina" value="player1stamina"/>
+			<property name="SoundDrownPain" value="player1drownpain"/>
+			<property name="SoundWaterSurface" value="player1drownsurface"/>
+			<property name="SoundDrownDeath" value="player1drowndeath"/>
+			<property name="SoundJump" value="player1Jump"/>
+			<property name="SoundLandSoft" value="player1LandSoft"/>
+			<property name="SoundLandHard" value="player1LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="player1stamina" />
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="player1stamina"/>
+			<property name="SoundAttack" value="player1stamina"/>
+			<property name="SoundSense" value="player1stamina"/>	
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic, NPCModHostileRangedBasic"/>
+			<property name="Class" value="EntityNPCBandit, SCore" />
+		</entity_class>	
+
+        <entity_class name="npcBanditOakHeadHuntersTRifle" extends="npcBanditOakHeadHuntersTRifleTemplate"> 
+			<property name="UserSpawnType" value="Menu"/><property name="Tags" value="entity,female,npc,walker,ranged,bandit,DRMid"/>
+			<property name="Faction" value="bandits"/>
+			<property name="Names" value="King Moneybags" />
+			<property name="Mesh" value="#@modfolder:Resources/NPCHeadHunters.unity3d?NPCHeadHunterTRifle"/>
+			<property name="LookAtAngle" value="90"/>
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<property name="SoundHurt" value="player1painlg"/>
+			<property name="SoundHurtSmall" value="player1painsm"/>
+			<property name="SoundDeath" value="player1death"/>
+			<property name="SoundStamina" value="player1stamina"/>
+			<property name="SoundDrownPain" value="player1drownpain"/>
+			<property name="SoundWaterSurface" value="player1drownsurface"/>
+			<property name="SoundDrownDeath" value="player1drowndeath"/>
+			<property name="SoundJump" value="player1Jump"/>
+			<property name="SoundLandSoft" value="player1LandSoft"/>
+			<property name="SoundLandHard" value="player1LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="player1stamina" />
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="player1stamina"/>
+			<property name="SoundAttack" value="player1stamina"/>
+			<property name="SoundSense" value="player1stamina"/>	
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic, NPCModHostileRangedBasic"/>
+			<property name="Class" value="EntityNPCBandit, SCore" />
+		</entity_class>
+
+        <entity_class name="npcBanditOakHeadHuntersM60" extends="npcBanditOakHeadHuntersM60Template"> 
+			<property name="UserSpawnType" value="Menu"/><property name="Tags" value="entity,female,npc,walker,ranged,bandit,DRMid"/>
+			<property name="Faction" value="bandits"/>
+			<property name="Names" value="King Moneybags" />
+			<property name="Mesh" value="#@modfolder:Resources/NPCHeadHunters.unity3d?NPCHeadHunterM60"/>
+			<property name="LookAtAngle" value="90"/>
+			<property name="LootDropProb" value="0.2"/> 
+			<property name="LootDropEntityClass" value="EntityLootContainerRegular"/>
+			<property name="SoundHurt" value="player1painlg"/>
+			<property name="SoundHurtSmall" value="player1painsm"/>
+			<property name="SoundDeath" value="player1death"/>
+			<property name="SoundStamina" value="player1stamina"/>
+			<property name="SoundDrownPain" value="player1drownpain"/>
+			<property name="SoundWaterSurface" value="player1drownsurface"/>
+			<property name="SoundDrownDeath" value="player1drowndeath"/>
+			<property name="SoundJump" value="player1Jump"/>
+			<property name="SoundLandSoft" value="player1LandSoft"/>
+			<property name="SoundLandHard" value="player1LandHard"/>
+			<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
+			<property name="SoundRandom" value="player1stamina" />
+			<property name="SoundRandomTime" value="60"/>
+			<property name="SoundAlert" value="player1stamina"/>
+			<property name="SoundAttack" value="player1stamina"/>
+			<property name="SoundSense" value="player1stamina"/>
+			<property name="AIPackages" value="NPCModCoreNoChat, NPCModHostileMeleeBasic, NPCModHostileRangedBasic"/>
+			<property name="Class" value="EntityNPCBandit, SCore" />
+		</entity_class>
+
+    </append>			
+	
+</configs>

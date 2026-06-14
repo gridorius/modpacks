@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<removeattribute xpath="/traders/trader_info[@id='1']/@open_time" />
+	<removeattribute xpath="/traders/trader_info[@id='1']/@close_time" />
+	<removeattribute xpath="/traders/trader_info[@id='2']/@open_time" />
+	<removeattribute xpath="/traders/trader_info[@id='2']/@close_time" />
+	<removeattribute xpath="/traders/trader_info[@id='6']/@open_time" />
+	<removeattribute xpath="/traders/trader_info[@id='6']/@close_time" />
+	<removeattribute xpath="/traders/trader_info[@id='7']/@open_time" />
+	<removeattribute xpath="/traders/trader_info[@id='7']/@close_time" />
+	<removeattribute xpath="/traders/trader_info[@id='8']/@open_time" />
+	<removeattribute xpath="/traders/trader_info[@id='8']/@close_time" />
+	<removeattribute xpath="/traders/trader_info[@id='9']/@open_time" />
+	<removeattribute xpath="/traders/trader_info[@id='9']/@close_time" />
+</configs>

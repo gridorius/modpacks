@@ -1,0 +1,73 @@
+<configs>
+
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='empty']">
+		<lootgroup name="DropArmorModsRegular">
+			<item name="cre_BoxOfArmorMods" count="1" prob=".01"/>
+			<item name="resourcePaper" count="1" prob=".99"/>
+		</lootgroup>
+		<lootgroup name="DropArmorModsStrong">
+			<item name="cre_BoxOfArmorMods" count="1" prob=".39"/>
+			<item name="resourcePaper" count="1" prob=".61"/>
+		</lootgroup>
+		<lootgroup name="DropArmorModsBoss">
+			<item name="cre_BoxOfArmorMods" count="1" prob=".79"/>
+			<item name="cre_BoxOfArmorMods" count="2" prob=".21"/>
+		</lootgroup>
+		
+		
+		
+		<lootgroup name="cre_ArmorModsAll">
+			<item name="cre_modArmorFittingsT1" count="1"/>
+			<item name="cre_modArmorPlatingT1" count="1"/>
+			<item name="cre_modArmorHealthT1" count="1"/>
+			<item name="cre_modArmorStaminaT1" count="1"/>
+			<item name="cre_modArmorResistT1" count="1"/>
+		</lootgroup>
+		
+		<lootgroup name="cre_ArmorModsChest">
+			<item name="cre_modArmorBandolierT1" count="1"/>
+			<item name="cre_modArmorReflectionShockT1" count="1"/>
+			<item name="cre_modArmorReflectionPunchT1" count="1"/>
+			<item name="cre_modArmorReflectionFireT1" count="1"/>
+		</lootgroup>
+		
+		<lootgroup name="cre_ArmorModsOther">
+			<item name="cre_modArmorGlovesStaminaT1" count="1"/>
+			<item name="cre_modArmorGlovesSpeedT1" count="1"/>
+			<item name="cre_modArmorBootsSpeedT1" count="1"/>
+			<item name="cre_modArmorBootsStorageT1" count="1"/>
+			<item name="cre_modArmorAddLootT1" count="1"/>
+			<item name="cre_modArmorBleedAnimalT1" count="1"/>
+			<item name="cre_modArmorSniperT1" count="1"/>
+		</lootgroup>
+		
+		
+		<lootgroup name="cre_ArmorMods">
+			<item group="cre_ArmorModsAll"/>
+			<item group="cre_ArmorModsChest"/>
+			<item group="cre_ArmorModsOther"/>
+		</lootgroup>
+		
+	</insertBefore>
+	
+	<append xpath="/lootcontainers">
+		<lootcontainer name="cre_DropArmorMods" count="1" size="6,1" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualBaseTemplate" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true">
+			<item group="cre_ArmorMods" count="1"/>
+		</lootcontainer>
+	</append>
+	
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackReg']">
+		<item group="DropArmorModsRegular" count="1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']">
+		<item group="DropArmorModsStrong" count="1"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']">
+		<item group="DropArmorModsBoss" count="1"/>
+	</append>
+	
+	
+	
+
+</configs>

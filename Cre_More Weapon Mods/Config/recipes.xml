@@ -1,0 +1,270 @@
+<configs>
+
+<append xpath="/recipes">
+
+<recipe name="modCreWeapDamageT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreWeapDamageT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreWeapDurabT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreWeapDurabT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+
+
+<recipe name="modCreGunRPMT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunRPMT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreGunReloadT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunReloadT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreGunMagazineT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunMagazineT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreGunGripT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunGripT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreGunRangeT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunRangeT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreGunSniperT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunSniperT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreGunOneBT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunOneBT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreGunShockT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunShockT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreGunBloodT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunBloodT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+
+
+
+
+<recipe name="modCreBowStringT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreBowStringT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreBowPowerT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreBowPowerT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+
+
+
+
+<recipe name="modCreMeleeAPMT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeAPMT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreMeleeStaminaT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeStaminaT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreMeleeRangeT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeRangeT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreMeleeBlockT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeBlockT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreMeleeFireT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeFireT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreMeleeShockT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeShockT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+<recipe name="modCreMeleeBreakT2" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeBreakT1" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="15"/>
+	<ingredient name="resourceDuctTape" count="3"/>
+</recipe>
+
+
+
+
+<recipe name="modCreWeapDamageT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreWeapDamageT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreWeapDurabT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreWeapDurabT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+
+
+<recipe name="modCreGunRPMT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunRPMT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreGunReloadT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunReloadT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreGunMagazineT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunMagazineT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreGunGripT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunGripT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreGunRangeT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunRangeT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreGunSniperT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunSniperT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreGunOneBT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunOneBT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreGunShockT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunShockT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreGunBloodT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreGunBloodT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+
+
+
+
+<recipe name="modCreBowStringT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreBowStringT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreBowPowerT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreBowPowerT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+
+
+
+
+<recipe name="modCreMeleeAPMT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeAPMT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreMeleeStaminaT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeStaminaT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreMeleeRangeT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeRangeT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreMeleeBlockT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeBlockT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreMeleeFireT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeFireT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreMeleeShockT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeShockT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+<recipe name="modCreMeleeBreakT3" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="modCreMeleeBreakT2" count="3"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+	<ingredient name="resourceDuctTape" count="5"/>
+</recipe>
+
+</append>
+
+</configs>

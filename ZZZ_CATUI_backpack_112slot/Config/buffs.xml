@@ -1,0 +1,8 @@
+<CATUI>
+   <!-- buff 上帝模式 -->
+	<set xpath="/buffs/buff[@name='god']/effect_group/passive_effect[@name='CarryCapacity']/@value">112</set>
+   <!-- buff 类固醇药物 -->
+	<set xpath="/buffs/buff[@name='buffDrugSteroids']/effect_group/passive_effect[@name='CarryCapacity']/@value">112</set>
+   <!-- buff 夜晚负重（系数0.001 全解锁） -->
+	<set xpath="/buffs/buff[@name='buffEncumberedInv']/effect_group/triggered_effect[@operation='multiply']/@value">0.001</set>
+</CATUI>

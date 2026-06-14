@@ -1,0 +1,35 @@
+<AbasiyanikMoreZombieSpawns>
+
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesert']/text()" delim="\n" op="remove">
+		zombiePlagueSpitter
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesert']/text()" delim="\n" op="add">
+		zombiePlagueSpitter, 0.14286
+	</csv>
+
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="remove">
+		zombiePlagueSpitter
+		zombiePlagueSpitterFeral, .1
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesDesertNight']/text()" delim="\n" op="add">
+		zombiePlagueSpitter, 0.13514
+		zombiePlagueSpitterFeral, 0.01351
+	</csv>
+
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/text()" delim="\n" op="remove">
+		zombieFrostclaw
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesSnow']/text()" delim="\n" op="add">
+		zombieFrostclaw, 0.14286
+	</csv>
+
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/text()" delim="\n" op="remove">
+		zombieFrostclaw
+		zombieFrostclawFeral, .1
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesSnowNight']/text()" delim="\n" op="add">
+		zombieFrostclaw, 0.13514
+		zombieFrostclawFeral, 0.01351
+	</csv>
+
+</AbasiyanikMoreZombieSpawns>

@@ -1,0 +1,6 @@
+<ZombieLootDrop>
+
+<!-- Changes zombie loot drops from 2%-3% range to 10% (only affects human zombies) -->
+	<set xpath="/entity_classes/entity_class[contains(@name, 'zombie')]/property[contains(@name, 'LootDropProb')]/@value">.10</set>
+	
+</ZombieLootDrop>

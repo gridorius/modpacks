@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+    <Name value="TrackQuestInMap"/>
+    <DisplayName value="Track Quest in Map"/>
+    <Author value="Interzoneism"/>
+    <Description value="When clicking a quest waypoint on the map it sets it as your tracked/active quest."/>
+    <Website value="NA"/>
+    <Version value="1.0.0"/>
+</xml>

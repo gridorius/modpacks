@@ -1,0 +1,40 @@
+<configs>
+	<!-- We must go through 'item_display' to reach the list -->
+	<append xpath="/ui_display_info/item_display">
+		<item_display_info display_type="9mmJunkTurret" display_group="groupRanged">
+			<display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged"/>
+			<display_entry name="MagazineSize" title_key="statMagazineSize"/>
+			<display_entry name="RoundsPerMinute" title_key="statRoundsPerMinute"/>
+			<display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange"/>
+			<!-- <display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" show_inverted="true"/> -->
+			<display_entry name="DegradationMax" title_key="statDegradationMax"/>
+		</item_display_info>
+		
+		<item_display_info display_type="762JunkTurret" display_group="groupRanged">
+			<display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged"/>
+			<display_entry name="MagazineSize" title_key="statMagazineSize"/>
+			<display_entry name="RoundsPerMinute" title_key="statRoundsPerMinute"/>
+			<display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange"/>
+			<!-- <display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" show_inverted="true"/> -->
+			<display_entry name="DegradationMax" title_key="statDegradationMax"/>
+		</item_display_info>
+		
+		<item_display_info display_type="ShotgunJunkTurret" display_group="groupRanged">
+			<display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged"/>
+			<display_entry name="MagazineSize" title_key="statMagazineSize"/>
+			<display_entry name="RoundsPerMinute" title_key="statRoundsPerMinute"/>
+			<display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange"/>
+			<!-- <display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" show_inverted="true"/> -->
+			<display_entry name="DegradationMax" title_key="statDegradationMax"/>
+		</item_display_info>
+		
+		<item_display_info display_type="44magnumJunkTurret" display_group="groupRanged">
+			<display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged"/>
+			<display_entry name="MagazineSize" title_key="statMagazineSize"/>
+			<display_entry name="RoundsPerMinute" title_key="statRoundsPerMinute"/>
+			<display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange"/>
+			<!-- <display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" show_inverted="true"/> -->
+			<display_entry name="DegradationMax" title_key="statDegradationMax"/>
+		</item_display_info>
+	</append>
+</configs>

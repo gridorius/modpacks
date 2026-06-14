@@ -1,0 +1,8 @@
+<CATUI>
+	<!-- 背包窗口缩放比例 -->
+    <setattribute xpath="//window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']" name="transform_scale">0.64</setattribute>
+	<!-- 背包格子 - 行数 -->
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">8</set>
+	<!-- 背包格子 - 列数 -->
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">14</set>
+</CATUI>

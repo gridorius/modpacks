@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+
+         <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']">
+		<display_entry icon="toolApiaryExtractor,toolApiaryBroodBox,resourceWaterFilter,chemistryStation,ForgeT2,toolBellowsT2,toolAnvilT2" name_key="workstationsT4-1,workstationsT4-3,workstationsT4-5,workstationsT4-6" has_quality="false" unlock_level="40,44,48,50">
+                 <unlock_entry item="toolBellowsT2" unlock_tier="1"/>
+                 <unlock_entry item="toolAnvilT2" unlock_tier="1"/>
+                 <unlock_entry item="ForgeT2" unlock_tier="1"/>
+         </display_entry>
+
+	 <effect_group>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="toolBellowsT2"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="toolAnvilT2"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="ForgeT2"/>
+         </effect_group>
+
+         </append>
+
+	
+</config>

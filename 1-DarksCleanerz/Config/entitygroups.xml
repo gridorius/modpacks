@@ -1,0 +1,854 @@
+<configs>
+	
+		<!-- Spawning for Core characters   -->
+	<insertAfter xpath="/entitygroups/entitygroup[last()]">
+
+		<!-- Cleaner NPC entity groups -->
+
+		<entitygroup name="npcDarksCleanerzGroupGS01">
+			npcCleanerAxe, 0.555
+			npcCleanerBat, 0.555
+			npcCleanerClub, 0.555
+			npcCleanerKnife, 0.555
+			npcCleanerMachete, 0.555
+			npcCleanerPistol, 0.555
+            npcCleanerGAxe, 0.555
+			npcCleanerGBat, 0.555
+			npcCleanerGClub, 0.555
+			npcCleanerGKnife, 0.555
+			npcCleanerGMachete, 0.555
+			npcCleanerGPistol, 0.555
+            npcCleanerOAxe, 0.555
+			npcCleanerOBat, 0.555
+			npcCleanerOClub, 0.555
+			npcCleanerOKnife, 0.555
+			npcCleanerOMachete, 0.555
+			npcCleanerOPistol, 0.555
+			none, 90
+		</entitygroup>
+
+		<entitygroup name="npcDarksCleanerzGroupGS50">
+			npcCleanerAK47, 0.333
+			npcCleanerAxe, 0.333
+			npcCleanerBat, 0.333
+			npcCleanerClub, 0.333
+			npcCleanerDPistol, 0.333
+			npcCleanerKnife, 0.333
+			npcCleanerMachete, 0.333
+			npcCleanerPistol, 0.333
+			npcCleanerPShotgun, 0.333
+			npcCleanerSMG, 0.333
+            npcCleanerGAK47, 0.333
+			npcCleanerGAxe, 0.333
+			npcCleanerGBat, 0.333
+			npcCleanerGClub, 0.333
+			npcCleanerGDPistol, 0.333
+			npcCleanerGKnife, 0.333
+			npcCleanerGMachete, 0.333
+			npcCleanerGPistol, 0.333
+			npcCleanerGPShotgun, 0.333
+			npcCleanerGSMG, 0.333
+            npcCleanerOAK47, 0.333
+			npcCleanerOAxe, 0.333
+			npcCleanerOBat, 0.333
+			npcCleanerOClub, 0.333
+			npcCleanerODPistol, 0.333
+			npcCleanerOKnife, 0.333
+			npcCleanerOMachete, 0.333
+			npcCleanerOPistol, 0.333
+			npcCleanerOPShotgun, 0.333
+			npcCleanerOSMG, 0.333
+			none, 90
+		</entitygroup>
+
+		<entitygroup name="npcDarksCleanerzGroupGS100">
+			npcCleanerAK47, 0.285
+			npcCleanerAShotgun, 0.285
+			npcCleanerAxe, 0.285
+			npcCleanerBat, 0.285
+			npcCleanerClub, 0.285
+			npcCleanerDPistol, 0.285
+			npcCleanerKnife, 0.285
+			npcCleanerM60, 0.285
+			npcCleanerMachete, 0.285
+			npcCleanerPistol, 0.285
+			npcCleanerPShotgun, 0.285
+			npcCleanerSMG, 0.285
+			npcCleanerSRifle, 0.285
+			npcCleanerTRifle, 0.285
+            npcCleanerGAK47, 0.285
+			npcCleanerGAShotgun, 0.285
+			npcCleanerGAxe, 0.285
+			npcCleanerGBat, 0.285
+			npcCleanerGClub, 0.285
+			npcCleanerGDPistol, 0.285
+			npcCleanerGKnife, 0.285
+			npcCleanerGM60, 0.285
+			npcCleanerGMachete, 0.285
+			npcCleanerGPistol, 0.285
+			npcCleanerGPShotgun, 0.285
+			npcCleanerGSMG, 0.285
+			npcCleanerGSRifle, 0.285
+			npcCleanerGTRifle, 0.285
+            npcCleanerOAK47, 0.285
+			npcCleanerOAShotgun, 0.285
+			npcCleanerOAxe, 0.285
+			npcCleanerOBat, 0.285
+			npcCleanerOClub, 0.285
+			npcCleanerODPistol, 0.285
+			npcCleanerOKnife, 0.285
+			npcCleanerOM60, 0.285
+			npcCleanerOMachete, 0.285
+			npcCleanerOPistol, 0.285
+			npcCleanerOPShotgun, 0.285
+			npcCleanerOSMG, 0.285
+			npcCleanerOSRifle, 0.285
+			npcCleanerOTRifle, 0.285
+			none, 88
+		</entitygroup>
+
+	</insertAfter>
+	
+	<!-- SLEEPER VOLUMES -->
+	
+	<!-- Bandits ALL -->	
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS01']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerDPistol
+			npcCleanerKnife
+			npcCleanerM60
+			npcCleanerMachete
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .0125
+			npcCleanerGEmptyHand
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGDPistol
+			npcCleanerGKnife
+			npcCleanerGM60
+			npcCleanerGMachete
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .0125
+			npcCleanerOEmptyHand
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerODPistol
+			npcCleanerOKnife
+			npcCleanerOM60
+			npcCleanerOMachete
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .0125
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS50']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerDPistol
+			npcCleanerKnife
+			npcCleanerM60
+			npcCleanerMachete
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .0125
+			npcCleanerGEmptyHand
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGDPistol
+			npcCleanerGKnife
+			npcCleanerGM60
+			npcCleanerGMachete
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .0125
+			npcCleanerOEmptyHand
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerODPistol
+			npcCleanerOKnife
+			npcCleanerOM60
+			npcCleanerOMachete
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .0125
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS100']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerDPistol
+			npcCleanerKnife
+			npcCleanerM60
+			npcCleanerMachete
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .0125
+			npcCleanerGEmptyHand
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGDPistol
+			npcCleanerGKnife
+			npcCleanerGM60
+			npcCleanerGMachete
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .0125
+			npcCleanerOEmptyHand
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerODPistol
+			npcCleanerOKnife
+			npcCleanerOM60
+			npcCleanerOMachete
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .0125
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS200']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerDPistol
+			npcCleanerKnife
+			npcCleanerM60
+			npcCleanerMachete
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .0125
+			npcCleanerGEmptyHand
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGDPistol
+			npcCleanerGKnife
+			npcCleanerGM60
+			npcCleanerGMachete
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .0125
+			npcCleanerOEmptyHand
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerODPistol
+			npcCleanerOKnife
+			npcCleanerOM60
+			npcCleanerOMachete
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .0125
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS400']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerDPistol
+			npcCleanerKnife
+			npcCleanerM60
+			npcCleanerMachete
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .0125
+			npcCleanerGEmptyHand
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGDPistol
+			npcCleanerGKnife
+			npcCleanerGM60
+			npcCleanerGMachete
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .0125
+			npcCleanerOEmptyHand
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerODPistol
+			npcCleanerOKnife
+			npcCleanerOM60
+			npcCleanerOMachete
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .0125
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS800']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerDPistol
+			npcCleanerKnife
+			npcCleanerM60
+			npcCleanerMachete
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .0125
+			npcCleanerGEmptyHand
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGDPistol
+			npcCleanerGKnife
+			npcCleanerGM60
+			npcCleanerGMachete
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .0125
+			npcCleanerOEmptyHand
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerODPistol
+			npcCleanerOKnife
+			npcCleanerOM60
+			npcCleanerOMachete
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .0125
+	</csv>
+	
+	<!-- Bandits MELEE -->	
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS01']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerKnife
+			npcCleanerMachete
+			npcCleanerGEmptyHand
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGKnife
+			npcCleanerGMachete
+			npcCleanerOEmptyHand
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerOKnife
+			npcCleanerOMachete
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS50']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerKnife
+			npcCleanerMachete
+			npcCleanerGEmptyHand
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGKnife
+			npcCleanerGMachete
+			npcCleanerOEmptyHand
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerOKnife
+			npcCleanerOMachete
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS100']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerKnife
+			npcCleanerMachete
+			npcCleanerGEmptyHand
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGKnife
+			npcCleanerGMachete
+			npcCleanerOEmptyHand
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerOKnife
+			npcCleanerOMachete
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS200']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerKnife
+			npcCleanerMachete
+			npcCleanerGEmptyHand
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGKnife
+			npcCleanerGMachete
+			npcCleanerOEmptyHand
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerOKnife
+			npcCleanerOMachete
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS400']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerKnife
+			npcCleanerMachete
+			npcCleanerGEmptyHand
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGKnife
+			npcCleanerGMachete
+			npcCleanerOEmptyHand
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerOKnife
+			npcCleanerOMachete
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS800']/text()" delim="\n" op="add" >
+			npcCleanerEmptyHand
+			npcCleanerAxe
+			npcCleanerBat
+			npcCleanerClub
+			npcCleanerKnife
+			npcCleanerMachete
+			npcCleanerGEmptyHand
+			npcCleanerGAxe
+			npcCleanerGBat
+			npcCleanerGClub
+			npcCleanerGKnife
+			npcCleanerGMachete
+			npcCleanerOEmptyHand
+			npcCleanerOAxe
+			npcCleanerOBat
+			npcCleanerOClub
+			npcCleanerOKnife
+			npcCleanerOMachete
+	</csv>
+	
+	<!-- Bandits RANGED -->	
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS01']/text()" delim="\n" op="add" >
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS50']/text()" delim="\n" op="add" >
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS100']/text()" delim="\n" op="add" >
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS200']/text()" delim="\n" op="add" >
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS400']/text()" delim="\n" op="add" >
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS800']/text()" delim="\n" op="add" >
+			npcCleanerAK47
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerPistol
+			npcCleanerPShotgun
+			npcCleanerSMG
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+            npcCleanerGAK47
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGPistol
+			npcCleanerGPShotgun
+			npcCleanerGSMG
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+            npcCleanerOAK47
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOPistol
+			npcCleanerOPShotgun
+			npcCleanerOSMG
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	
+	<!-- Bandits BOSS -->	
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS01']/text()" delim="\n" op="add" >
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS50']/text()" delim="\n" op="add" >
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS100']/text()" delim="\n" op="add" >
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS200']/text()" delim="\n" op="add" >
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS400']/text()" delim="\n" op="add" >
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS800']/text()" delim="\n" op="add" >
+			npcCleanerAShotgun
+			npcCleanerDPistol
+			npcCleanerM60
+			npcCleanerSRifle
+			npcCleanerTRifle
+			npcCleanerRocketL, .01
+			npcCleanerGAShotgun
+			npcCleanerGDPistol
+			npcCleanerGM60
+			npcCleanerGSRifle
+			npcCleanerGTRifle
+			npcCleanerGRocketL, .01
+			npcCleanerOAShotgun
+			npcCleanerODPistol
+			npcCleanerOM60
+			npcCleanerOSRifle
+			npcCleanerOTRifle
+			npcCleanerORocketL, .01
+	</csv>
+	
+</configs>

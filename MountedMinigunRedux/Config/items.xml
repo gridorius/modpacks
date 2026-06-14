@@ -1,0 +1,24 @@
+<configs>
+  <append xpath="/items">
+    <item name="ammo556M193">
+      <property name="Extends" value="ammo762mmBulletBall" />
+      <property name="CustomIcon" value="ammo556M193" />
+      <property name="Tags" value="ammo762mm" />
+      <property name="Stacknumber" value="1200" />
+      <property name="EconomicValue" value="15" />
+      <effect_group name="ammo556M193" tiered="false">
+        <passive_effect name="EntityDamage" operation="base_set" value="120" tags="perkDeadEye,perkMachineGunner" />
+        <passive_effect name="BlockDamage" operation="base_set" value="10" tags="perkDeadEye,perkMachineGunner" />
+      </effect_group>
+    </item>
+
+    <item name="ammoBundleammo556M193">
+      <property name="Extends" value="ammoBundle762mmBulletBall" />
+      <property name="CustomIcon" value="ammo556M193" />
+      <property name="EconomicValue" value="1600" />
+      <property class="Action0">
+        <property name="Create_item" value="ammo556M193" />
+      </property>
+    </item>
+  </append>
+</configs>

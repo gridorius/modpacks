@@ -1,0 +1,45 @@
+<config>
+
+<append xpath="/items">
+	<!-- Box of mods-->
+<item name="creBoxOfMods">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="HoldType" value="45"/>
+	<property name="TraderGroup" value="Mods"/>
+	<property name="Group" value="Mods"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="BoxOfMods"/>
+	<property name="CustomIconTint" value="FFFFFF"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="EconomicValue" value="95"/>
+	<property name="DescriptionKey" value="creBoxOfModsDesc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenLootBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Sound_start" value="open_fridge"/>
+		<property name="LootList" value="cre_DropBoxOfMods"/>
+	</property>
+</item>
+
+<item name="creBoxOfAmmo">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="HoldType" value="45"/>
+	<property name="TraderGroup" value="Ammo/Weapons"/>
+	<property name="Group" value="Ammo/Weapons"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="BoxOfAmmo"/>
+	<property name="CustomIconTint" value="FFFFFF"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="EconomicValue" value="125"/>
+	<property name="DescriptionKey" value="creBoxOfAmmoDesc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenLootBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Sound_start" value="crate_wood_open"/>
+		<property name="LootList" value="DropBoxOfAmmo"/>
+	</property>
+</item>
+
+</append>
+	
+</config>

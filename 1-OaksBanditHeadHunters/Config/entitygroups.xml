@@ -1,0 +1,235 @@
+<configs>
+
+	<append xpath="/entitygroups">
+
+	<!-- *** DAY -->	
+	<entitygroup name="OaksBanditHeadHuntersDay">
+		npcBanditOakHeadHuntersAxe, 1
+		npcBanditOakHeadHuntersBat, 1
+		npcBanditOakHeadHuntersMachete, 1
+		npcBanditOakHeadHuntersClub, 1
+		npcBanditOakHeadHuntersPistol, 1
+		npcBanditOakHeadHuntersDPistol, 1
+		npcBanditOakHeadHuntersTRifle, 1
+		npcBanditOakHeadHuntersM60, 1
+		none, 92
+	</entitygroup>
+	
+	<!-- *** NIGHT -->	
+	<entitygroup name="OaksBanditHeadHuntersNight">
+		npcBanditOakHeadHuntersAxe, 1.25
+		npcBanditOakHeadHuntersBat, 1.25
+		npcBanditOakHeadHuntersMachete, 1.25
+		npcBanditOakHeadHuntersClub, 1.25
+		npcBanditOakHeadHuntersPistol, 1.25
+		npcBanditOakHeadHuntersDPistol, 1.25
+		npcBanditOakHeadHuntersTRifle, 1.25
+		npcBanditOakHeadHuntersM60, 1.25
+		none, 90
+	</entitygroup>
+
+	</append>
+	
+	<!-- SLEEPER VOLUMES -->
+	
+	<!-- Bandits ALL -->	
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS01']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS50']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS100']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS200']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS400']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsAllGroupGS800']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	
+	<!-- Bandits MELEE -->	
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS01']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS50']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS100']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS200']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS400']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsMeleeGroupGS800']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe
+		npcBanditOakHeadHuntersBat
+		npcBanditOakHeadHuntersMachete
+		npcBanditOakHeadHuntersClub
+	</csv>
+	
+	<!-- Bandits RANGED -->	
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS01']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS50']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS100']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS200']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS400']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsRangedGroupGS800']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	
+	<!-- Bandits BOSS -->	
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS01']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe, .5
+		npcBanditOakHeadHuntersBat, .5
+		npcBanditOakHeadHuntersMachete, .5
+		npcBanditOakHeadHuntersClub, .5
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS50']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe, .5
+		npcBanditOakHeadHuntersBat, .5
+		npcBanditOakHeadHuntersMachete, .5
+		npcBanditOakHeadHuntersClub, .5
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS100']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe, .5
+		npcBanditOakHeadHuntersBat, .5
+		npcBanditOakHeadHuntersMachete, .5
+		npcBanditOakHeadHuntersClub, .5
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS200']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe, .5
+		npcBanditOakHeadHuntersBat, .5
+		npcBanditOakHeadHuntersMachete, .5
+		npcBanditOakHeadHuntersClub, .5
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS400']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe, .5
+		npcBanditOakHeadHuntersBat, .5
+		npcBanditOakHeadHuntersMachete, .5
+		npcBanditOakHeadHuntersClub, .5
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+	<csv xpath="/entitygroups/entitygroup[@name='npcBanditsBossGroupGS800']/text()" delim="\n" op="add" >
+		npcBanditOakHeadHuntersAxe, .5
+		npcBanditOakHeadHuntersBat, .5
+		npcBanditOakHeadHuntersMachete, .5
+		npcBanditOakHeadHuntersClub, .5
+		npcBanditOakHeadHuntersPistol
+		npcBanditOakHeadHuntersDPistol
+		npcBanditOakHeadHuntersTRifle
+		npcBanditOakHeadHuntersM60
+	</csv>
+
+</configs>

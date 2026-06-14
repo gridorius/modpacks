@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configs>
+
+
+
+<append xpath="/item_modifiers">
+
+
+
+
+<item_modifier name="cre_modArmorBandolierT1" installable_tags="armorChest" modifier_tags="ammo" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBandolierT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffBandolierChestT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffBandolierChestT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorBandolierT2" installable_tags="armorChest" modifier_tags="ammo" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBandolierT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffBandolierChestT2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffBandolierChestT2"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorBandolierT3" installable_tags="armorChest" modifier_tags="ammo" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBandolierT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffBandolierChestT3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffBandolierChestT3"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorFittingsT1" installable_tags="armor" modifier_tags="movement" blocked_tags="noMods,lightArmor" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorFittingsT1"/>
+	<property name="DisplayType" value="modArmorMobility"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="Mobility" operation="perc_add" value=".015"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value=".009" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value=".019" tags="running"/>
+		<display_value name="dStaminaChangeOT" value=".019"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorFittingsT2" installable_tags="armor" modifier_tags="movement" blocked_tags="noMods,lightArmor" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorFittingsT1"/>
+	<property name="DisplayType" value="modArmorMobility"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="Mobility" operation="perc_add" value=".027"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value=".019" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value=".051" tags="running"/>
+		<display_value name="dStaminaChangeOT" value=".051"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorFittingsT3" installable_tags="armor" modifier_tags="movement" blocked_tags="noMods,lightArmor" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorFittingsT1"/>
+	<property name="DisplayType" value="modArmorMobility"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="Mobility" operation="perc_add" value=".045"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value=".031" tags="walking"/>
+		<passive_effect name="StaminaChangeOT" operation="perc_add" value=".073" tags="running"/>
+		<display_value name="dStaminaChangeOT" value=".073"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorPlatingT1" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods,heavyArmor" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorPlatingT1"/>
+	<property name="DisplayType" value="modArmor"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="0.9"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorPlatingT2" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods,heavyArmor" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorPlatingT1"/>
+	<property name="DisplayType" value="modArmor"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="1.75"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorPlatingT3" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods,heavyArmor" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorPlatingT1"/>
+	<property name="DisplayType" value="modArmor"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="PhysicalDamageResist" operation="base_add" value="3.5"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorGlovesStaminaT1" installable_tags="armorHands" modifier_tags="cre_hands" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorGlovesStaminaT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHands"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffHandStaminaT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffHandStaminaT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorGlovesStaminaT2" installable_tags="armorHands" modifier_tags="cre_hands" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorGlovesStaminaT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHands"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffHandStaminaT2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffHandStaminaT2"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorGlovesStaminaT3" installable_tags="armorHands" modifier_tags="cre_hands" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorGlovesStaminaT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHands"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffHandStaminaT3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffHandStaminaT3"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorGlovesSpeedT1" installable_tags="armorHands" modifier_tags="cre_hands" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorGlovesSpeedT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHands"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffHandSpeedT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffHandSpeedT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorGlovesSpeedT2" installable_tags="armorHands" modifier_tags="cre_hands" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorGlovesSpeedT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHands"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffHandSpeedT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffHandSpeedT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorGlovesSpeedT3" installable_tags="armorHands" modifier_tags="cre_hands" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorGlovesSpeedT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHands"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffHandSpeedT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffHandSpeedT1"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorBootsSpeedT1" installable_tags="armorFeet" modifier_tags="cre_boots" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBootsSpeedT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffBootsSpeedT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffBootsSpeedT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorBootsSpeedT2" installable_tags="armorFeet" modifier_tags="cre_boots" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBootsSpeedT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffBootsSpeedT2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffBootsSpeedT2"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorBootsSpeedT3" installable_tags="armorFeet" modifier_tags="cre_boots" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBootsSpeedT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffBootsSpeedT3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffBootsSpeedT3"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorBootsStorageT1" installable_tags="armorFeet" modifier_tags="cre_boots" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBootsStorageT1"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="3"/>
+		<display_value name="dCarryCapacity" value="3"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorBootsStorageT2" installable_tags="armorFeet" modifier_tags="cre_boots" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBootsStorageT1"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="6"/>
+		<display_value name="dCarryCapacity" value="6"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorBootsStorageT3" installable_tags="armorFeet" modifier_tags="cre_boots" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBootsStorageT1"/>
+	<property name="DisplayType" value="modCarryCapacity"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="CarryCapacity" operation="base_add" value="9"/>
+		<display_value name="dCarryCapacity" value="9"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorHealthT1" installable_tags="armor" modifier_tags="cre_stat" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorHealthT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="HealthMax" operation="base_add" value="5"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorHealthT2" installable_tags="armor" modifier_tags="cre_stat" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorHealthT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="115,215,135"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="HealthMax" operation="base_add" value="10"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorHealthT3" installable_tags="armor" modifier_tags="cre_stat" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorHealthT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="175,255,15"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="HealthMax" operation="base_add" value="20"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorStaminaT1" installable_tags="armor" modifier_tags="cre_stat" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorStaminaT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="StaminaMax" operation="base_add" value="5"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorStaminaT2" installable_tags="armor" modifier_tags="cre_stat" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorStaminaT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="115,215,135"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="StaminaMax" operation="base_add" value="10"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorStaminaT3" installable_tags="armor" modifier_tags="cre_stat" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorStaminaT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="175,255,15"/>
+
+	<effect_group tiered="false">
+		<passive_effect name="StaminaMax" operation="base_add" value="20"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorResistT1" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorResistT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffResistT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffResistT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorResistT2" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorResistT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffResistT2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffResistT2"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorResistT3" installable_tags="armor" modifier_tags="resistance" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorResistT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffResistT3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffResistT3"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorReflectionShockT1" installable_tags="armorChest" modifier_tags="cre_Reflection" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorReflectionShockT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffReflectionShockT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffReflectionShockT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorReflectionShockT2" installable_tags="armorChest" modifier_tags="cre_Reflection" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorReflectionShockT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffReflectionShockT2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffReflectionShockT2"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorReflectionShockT3" installable_tags="armorChest" modifier_tags="cre_Reflection" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorReflectionShockT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffReflectionShockT3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffReflectionShockT3"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorReflectionPunchT1" installable_tags="armorChest" modifier_tags="cre_Reflection" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorReflectionPunchT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffReflectionPunchT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffReflectionPunchT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorReflectionPunchT2" installable_tags="armorChest" modifier_tags="cre_Reflection" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorReflectionPunchT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffReflectionPunchT2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffReflectionPunchT2"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorReflectionPunchT3" installable_tags="armorChest" modifier_tags="cre_Reflection" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorReflectionPunchT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffReflectionPunchT3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffReflectionPunchT3"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorReflectionFireT1" installable_tags="armorChest" modifier_tags="cre_Reflection" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorReflectionFireT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffReflectionFireT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffReflectionFireT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorReflectionFireT2" installable_tags="armorChest" modifier_tags="cre_Reflection" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorReflectionFireT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffReflectionFireT2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffReflectionFireT2"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorReflectionFireT3" installable_tags="armorChest" modifier_tags="cre_Reflection" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorReflectionFireT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorChest"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffReflectionFireT3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffReflectionFireT3"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorAddLootT1" installable_tags="armorHead" modifier_tags="cre_HeadBonus" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorAddLootT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHead"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffAddLootT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffAddLootT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorAddLootT2" installable_tags="armorHead" modifier_tags="cre_HeadBonus" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorAddLootT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHead"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffAddLootT2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffAddLootT2"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorAddLootT3" installable_tags="armorHead" modifier_tags="cre_HeadBonus" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorAddLootT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHead"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffAddLootT3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffAddLootT3"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorBleedAnimalT1" installable_tags="armorHead" modifier_tags="cre_HeadBonus" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBleedAnimalT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHead"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffAnimalBleedT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffAnimalBleedT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorBleedAnimalT2" installable_tags="armorHead" modifier_tags="cre_HeadBonus" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBleedAnimalT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHead"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffAnimalBleedT2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffAnimalBleedT2"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorBleedAnimalT3" installable_tags="armorHead" modifier_tags="cre_HeadBonus" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorBleedAnimalT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHead"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffAnimalBleedT3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffAnimalBleedT3"/>
+	</effect_group>
+</item_modifier>
+
+
+
+
+
+<item_modifier name="cre_modArmorSniperT1" installable_tags="armorHead" modifier_tags="cre_HeadBonus" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorSniperT1"/>
+	<property name="EconomicValue" value="200"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHead"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffArmorSniperT1"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffArmorSniperT1"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorSniperT2" installable_tags="armorHead" modifier_tags="cre_HeadBonus" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorSniperT1"/>
+	<property name="EconomicValue" value="400"/>
+	<property name="CustomIconTint" value="215,135,235"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHead"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffArmorSniperT2"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffArmorSniperT2"/>
+	</effect_group>
+</item_modifier>
+
+<item_modifier name="cre_modArmorSniperT3" installable_tags="armorHead" modifier_tags="cre_HeadBonus" blocked_tags="noMods" type="attachment">
+	<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+	<property name="CustomIcon" value="cre_modArmorSniperT1"/>
+	<property name="EconomicValue" value="700"/>
+	<property name="CustomIconTint" value="255,75,15"/>
+
+	<effect_group tiered="false">
+		<requirement name="ItemHasTags" tags="armorHead"/>
+			<triggered_effect trigger="onSelfEquipStart" action="AddBuff" buff="cre_buffArmorSniperT3"/>
+			<triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="cre_buffArmorSniperT3"/>
+	</effect_group>
+</item_modifier>
+
+</append>
+</configs>

@@ -1,0 +1,26 @@
+<config>
+
+<append xpath="/items">
+
+<item name="cre_BoxOfArmorMods">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="HoldType" value="45"/>
+	<property name="TraderGroup" value="Mods"/>
+	<property name="Group" value="Mods"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="cre_BoxOfArmorMods"/>
+	<property name="CustomIconTint" value="FFFFFF"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+	<property name="EconomicValue" value="175"/>
+	<property name="DescriptionKey" value="cre_BoxOfArmorModsDesc"/>
+	<property class="Action0">
+		<property name="Class" value="OpenLootBundle"/>
+		<property name="Delay" value="0"/>
+		<property name="Sound_start" value="open_fridge"/>
+		<property name="LootList" value="cre_DropArmorMods"/>
+	</property>
+</item>
+
+</append>
+	
+</config>

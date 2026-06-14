@@ -1,0 +1,8 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,russian
+
+
+shotgunTurretSlug,blocks,block,,,"Slug Auto ShotGun","Автоматическая турель-дробовик (бронебойный)"
+shotgunTurretSlugDesc,blocks,block,,,"The turret allows you to use armor-piercing rounds. At the same time, the turret is equipped with an improved viewing angle by adding two cameras, increased rate of fire and range of fire. It's perfect now!","Турель позволяющая вам использовать бронебойные патроны. При этом турель оснащена улучшенным углом обзора путём добавления двух камеры, повышена скорострельность и дальность стрельбы. Теперь идеально!"
+
+trapsT6Name,progression,Attribute,,,"Slug Auto ShotGun","Автоматическая турель-дробовик (бронебойный)"
+trapsT6,progression,Attribute,,,"Slug Auto ShotGun","Автоматическая турель-дробовик (бронебойный)"
