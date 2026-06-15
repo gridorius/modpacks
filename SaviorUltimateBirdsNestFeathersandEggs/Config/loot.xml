@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lootcontainers>
+    <setattribute xpath="/lootcontainers/lootgroup[@name='groupBirdNest01']/item[@name='resourceFeather']" name="count">100</setattribute>
+    <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest01']/item[@name='resourceFeather']/@loot_prob_template">guaranteed</set>
+
+    <setattribute xpath="/lootcontainers/lootgroup[@name='groupBirdNest01']/item[@name='foodEgg']" name="count">15</setattribute>
+    <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest01']/item[@name='foodEgg']/@loot_prob_template">guaranteed</set>
+
+    <setattribute xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='resourceFeather']" name="count">100</setattribute>
+    <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='resourceFeather']/@loot_prob_template">guaranteed</set>
+
+    <setattribute xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']" name="count">15</setattribute>
+    <set xpath="/lootcontainers/lootgroup[@name='groupBirdNest02']/item[@name='foodEgg']/@loot_prob_template">guaranteed</set>
+</lootcontainers>

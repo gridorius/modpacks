@@ -68,13 +68,13 @@
           <Property type="arrayValues" allowedValues="not active" />
         </Selector>
         <Selector name="QuickLootThemeStatus" displayKey="qlSettingQuickLootThemeStatus" tooltipKey="qlSettingQuickLootThemeStatusTooltip" defaultValue="Auto: Native colors">
-          <Property type="arrayValues" allowedValues="Auto: CATUI colors" />
+          <Property type="arrayValues" allowedValues="CATUI colors" />
         </Selector>
         <Selector name="QuickLootNativeSyncPatchStatus" displayKey="qlSettingQuickLootNativeSyncPatchStatus" tooltipKey="qlSettingQuickLootNativeSyncPatchStatusTooltip" defaultValue="disabled by settings">
-          <Property type="arrayValues" allowedValues="disabled by settings" />
+          <Property type="arrayValues" allowedValues="ACTIVE" />
         </Selector>
         <Selector name="QuickLootMultiUserStatus" displayKey="qlSettingQuickLootMultiUserStatus" tooltipKey="qlSettingQuickLootMultiUserStatusTooltip" defaultValue="Off">
-          <Property type="arrayValues" allowedValues="Off" />
+          <Property type="arrayValues" allowedValues="On" />
         </Selector>
         <Selector name="StorageSyncCompatibilityModeStatus" displayKey="qlSettingStorageSyncCompatibilityModeStatus" tooltipKey="qlSettingStorageSyncCompatibilityModeStatusTooltip" defaultValue="Auto">
           <Property type="arrayValues" allowedValues="Auto" />
