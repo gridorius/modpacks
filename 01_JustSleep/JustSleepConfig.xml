@@ -1,0 +1,11 @@
+<JustSleepConfig>
+	<!-- ### Search for "Unity KeyCode Names" to find a detailed list of keycodes -->
+	<SleepKey>F</SleepKey>
+	
+	<!-- ### When you're able to go sleep and when you'll wake up -->
+	<SleepTime>22</SleepTime>
+	<WakeupTime>6</WakeupTime>
+	
+	<!-- ### percentage of players that need to sleep for the night to skip. 0.66 = 66% - meaning 2/3 players. 0.49 = 50% of players (1/2) -->
+	<MultiplayerThreshold>1.00</MultiplayerThreshold>
+</JustSleepConfig>

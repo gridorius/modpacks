@@ -1,0 +1,6 @@
+Key,english
+sleepPrompt,"Press ( {0} ) to sleep"
+waitingForPlayersPrompt,"Waiting for players"
+justSleepTooEarly,"You can only go to sleep at {0}."
+justSleepBloodMoon,"You can't sleep during the blood moon!"
+justSleepNotYourBedroll,"You can't sleep on someone elses bedroll!"

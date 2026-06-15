@@ -1,0 +1,21 @@
+<configs>
+	<append xpath="/buffs">
+	<!-- ### JustSleep -->
+		<buff name="buffJustSleep" hidden="false">
+		<stack_type value="ignore"/>
+			<duration value="0"/>
+            <!--effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="LogMessage" message="Added buffJustSleep"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="LogMessage" message="Removed buffJustSleep"/>
+            </effect_group-->
+		</buff>
+		<buff name="buffSleepSequence" hidden="false">
+		<stack_type value="ignore"/>
+			<duration value="0"/>
+            <!--effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="LogMessage" message="Added buffSleepSequence"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="LogMessage" message="Removed buffSleepSequence"/>
+            </effect_group-->
+		</buff>
+	</append>
+</configs>

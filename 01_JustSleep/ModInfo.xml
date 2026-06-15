@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <xml>
+	<Name value="DVS_JustSleep"/>
+	<DisplayName value="JustSleep Mod"/>
+	<Version value="1.0.0"/>
+	<Description value="Enables you to sleep on a bedroll"/>
+	<Author value="BryanDVS"/>
+	<Website value=""/>
+ </xml>

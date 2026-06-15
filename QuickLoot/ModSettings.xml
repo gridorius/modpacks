@@ -56,7 +56,7 @@
           <Property type="arrayValues" allowedValues="ACTIVE" />
         </Selector>
         <Selector name="MountedLootingDetectedStatus" displayKey="qlSettingMountedLootingDetectedStatus" tooltipKey="qlSettingMountedLootingDetectedStatusTooltip" defaultValue="not active">
-          <Property type="arrayValues" allowedValues="ACTIVE" />
+          <Property type="arrayValues" allowedValues="not active" />
         </Selector>
         <Selector name="StorageSyncDetectedStatus" displayKey="qlSettingStorageSyncDetectedStatus" tooltipKey="qlSettingStorageSyncDetectedStatusTooltip" defaultValue="not active">
           <Property type="arrayValues" allowedValues="not active" />
@@ -68,13 +68,13 @@
           <Property type="arrayValues" allowedValues="not active" />
         </Selector>
         <Selector name="QuickLootThemeStatus" displayKey="qlSettingQuickLootThemeStatus" tooltipKey="qlSettingQuickLootThemeStatusTooltip" defaultValue="Auto: Native colors">
-          <Property type="arrayValues" allowedValues="CATUI colors" />
+          <Property type="arrayValues" allowedValues="Auto: CATUI colors" />
         </Selector>
         <Selector name="QuickLootNativeSyncPatchStatus" displayKey="qlSettingQuickLootNativeSyncPatchStatus" tooltipKey="qlSettingQuickLootNativeSyncPatchStatusTooltip" defaultValue="disabled by settings">
-          <Property type="arrayValues" allowedValues="ACTIVE" />
+          <Property type="arrayValues" allowedValues="disabled by settings" />
         </Selector>
         <Selector name="QuickLootMultiUserStatus" displayKey="qlSettingQuickLootMultiUserStatus" tooltipKey="qlSettingQuickLootMultiUserStatusTooltip" defaultValue="Off">
-          <Property type="arrayValues" allowedValues="On" />
+          <Property type="arrayValues" allowedValues="Off" />
         </Selector>
         <Selector name="StorageSyncCompatibilityModeStatus" displayKey="qlSettingStorageSyncCompatibilityModeStatus" tooltipKey="qlSettingStorageSyncCompatibilityModeStatusTooltip" defaultValue="Auto">
           <Property type="arrayValues" allowedValues="Auto" />
