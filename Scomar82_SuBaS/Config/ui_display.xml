@@ -1,0 +1,22 @@
+<Scomar82_SuBaS>
+
+	<append xpath="/ui_display_info/crafting_category_display">	
+		<crafting_category_list display_type="Schematicswp">
+			<crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources"/>
+			<crafting_category name="Quest" icon="ui_game_symbol_quest" display_name="lblCategoryQuest"/>
+			<crafting_category name="Books" icon="ui_game_symbol_book" display_name="lblCategoryPerkbooks"/>
+			<crafting_category name="Schematics" icon="ui_game_symbol_assemble" display_name="lblCategorySchematics"/>
+			<crafting_category name="Special" icon="ui_game_symbol_star" display_name="lblCategorySpecial"/>
+		</crafting_category_list>	
+	</append>
+
+	<append xpath="/ui_display_info/item_display">
+
+		<item_display_info display_type="MasterBookScrapper" display_group="modArmors" >
+			<display_entry name="dLootStageFlat" title_key="statLootStage" display_leading_plus="true"/>
+			<display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="BarteringBuying" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true"/>
+		</item_display_info>
+
+	</append>
+</Scomar82_SuBaS>

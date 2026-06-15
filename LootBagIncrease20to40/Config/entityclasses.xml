@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+<set xpath="/entity_classes/entity_class[starts-with(@name,'zombie')]/property[@name='LootDropProb']/@value">0.2</set>
+
+<set xpath="/entity_classes/entity_class[contains(@name,'Feral')]/property[@name='LootDropProb']/@value">0.25</set>
+
+<insertAfter xpath="/entity_classes/entity_class[contains(@name,'Radiated')]/property[@name='Mesh']">
+        <property name="LootDropProb" value="0.3"/>
+    </insertAfter>
+
+<set xpath="/entity_classes/entity_class[contains(@name,'Charged')]/property[@name='LootDropProb']/@value">0.35</set>
+
+<set xpath="/entity_classes/entity_class[contains(@name,'Infernal')]/property[@name='LootDropProb']/@value">0.4</set>
+
+</configs>

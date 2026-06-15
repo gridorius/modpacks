@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scomar82_SuBaS>
+
+	<set xpath="/items/item[@name='blankNoteMaster']/property[@name='Material']/@value">MSchematicParts</set>
+	<set xpath="/items/item[@name='questMaster']/property[@name='Material']/@value">MSchematicParts</set>
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Material']/@value">MSchematicParts</set>
+	<set xpath="/items/item[@name='questMaster']/property[@name='Weight']/@value">8</set>
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Weight']/@value">8</set>
+	<set xpath="/items/item[@name='blankNoteMaster']/property[@name='Weight']/@value">8</set>
+	
+	<insertAfter xpath="/items/item[@name='schematicMaster']/property[@name='AltItemTypeIcon']">
+        <property name="AltItemTypeIconColor" value="255,102,0" />
+    </insertAfter>
+	
+	<append xpath="/items/item[@name='schematicNoQualityMaster']">
+		<property name="Group" value="Schematics"/>
+	</append>
+	
+	<append xpath="/items/item[@name='schematicNoQualityRecipeMaster']">
+		<property name="Group" value="Schematics"/>
+	</append>
+	
+	<append xpath="/items">
+	
+		<item name="MSchematicParts">
+			<property name="CustomIcon" value="resourcePaper"/>
+			<property name="CustomIconTint" value="00CCCC"/>
+			<property name="DescriptionKey" value="MSchematicPartsDesc"/>
+			<property name="HoldType" value="21"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MSchematicParts"/>
+			<property name="Stacknumber" value="1000"/>
+			<property name="FuelValue" value="5"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="Group" value="Resources"/>
+		</item>
+		
+		<item name="spKill100">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="cntBookPile13"/>
+			<property name="CustomIconTint" value="CC0000"/>
+			<property name="DescriptionKey" value="q_Kill100Desc"/>
+			<property name="Group" value="Quest"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_Kill100" />
+			</property>
+		</item>
+		
+		<item name="spKill250">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="cntBookPile13"/>
+			<property name="CustomIconTint" value="CC0000"/>
+			<property name="DescriptionKey" value="q_Kill250Desc"/>
+			<property name="Group" value="Quest"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_Kill250" />
+			</property>
+		</item>
+		
+		<item name="spTGH">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="cntBookPile05"/>
+			<property name="CustomIconTint" value="CC6600"/>
+			<property name="DescriptionKey" value="HuntingTGHDesc"/>
+			<property name="Group" value="Quest"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_TGH" />
+			</property>
+		</item>
+		
+		<item name="spHdsA">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="cntBookPile05"/>
+			<property name="CustomIconTint" value="CC6600"/>
+			<property name="DescriptionKey" value="HuntingsADesc"/>
+			<property name="Group" value="Quest"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_HdsA" />
+			</property>
+		</item>
+		
+		<item name="spGrace">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="cntBookPile13"/>
+			<property name="CustomIconTint" value="CC0000"/>
+			<property name="DescriptionKey" value="q_GraceDesc"/>
+			<property name="Group" value="Quest"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_Grace" />
+			</property>
+		</item>
+		
+		<item name="spDireWolf">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="cntBookPile13"/>
+			<property name="CustomIconTint" value="CC0000"/>
+			<property name="DescriptionKey" value="q_DireWolfDesc"/>
+			<property name="Group" value="Quest"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_DireWolf" />
+			</property>
+		</item>
+		
+		<item name="spGreenThumb">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="cntBookPile05"/>
+			<property name="CustomIconTint" value="66CC00"/>
+			<property name="DescriptionKey" value="spGreenThumbDesc"/>
+			<property name="Group" value="Quest"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_GreenThumb" />
+			</property>
+		</item>
+		
+		<item name="spBuildingMats">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="cntBookPile05"/>
+			<property name="CustomIconTint" value="CCCC33"/>
+			<property name="DescriptionKey" value="FetchspBuildingMatsDesc"/>
+			<property name="Group" value="Quest"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_BuildingMats" />
+			</property>
+		</item>
+		
+		<item name="spSkillPointBook">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="cntBookPile05"/>
+			<property name="CustomIconTint" value="CCCC33"/>
+			<property name="DescriptionKey" value="SkillPointDesc"/>
+			<property name="Group" value="Quest"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_SkillPointBook" />
+			</property>
+		</item>
+		
+		<item name="spTeleScroll">
+			<property name="Extends" value="challengeQuestMaster" />
+			<property name="CustomIcon" value="cntBookPile05"/>
+			<property name="CustomIconTint" value="CCCC33"/>
+			<property name="DescriptionKey" value="TeleScrollDesc"/>
+			<property name="Group" value="Quest"/>
+			<property class="Action0">
+				<property name="QuestGiven" value="q_SkillPointBook" />
+			</property>
+		</item>
+		
+		<item name="TeleScroll">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CustomIcon" value="resourcePaper"/>
+			<property name="CustomIconTint" value="ffb90f"/>
+			<property name="DescriptionKey" value="TeleScrollDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="200"/>
+			<property name="Group" value="Special"/>
+			<property name="SoundPickup" value="book_grab"/>
+			<property name="SoundPlace" value="book_place"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+			</property>
+			<effect_group tiered="false" name="Teleport">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="TeleportToBedroll"/>
+			</effect_group>
+		</item>
+		
+		<item name="TeleScrollLC">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CustomIcon" value="resourcePaper"/>
+			<property name="CustomIconTint" value="A020F0"/>
+			<property name="DescriptionKey" value="TeleScrollLCDesc"/>
+			<property name="Stacknumber" value="20"/>
+			<property name="EconomicValue" value="200"/>
+			<property name="Group" value="Special"/>
+			<property name="SoundPickup" value="book_grab"/>
+			<property name="SoundPlace" value="book_place"/>
+			<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Sound_start" value="read_skillbook"/>
+			</property>
+			<effect_group tiered="false" name="Teleport">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="TeleportToLC"/>
+			</effect_group>
+		</item>
+		
+	</append>
+	
+</Scomar82_SuBaS>

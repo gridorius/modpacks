@@ -1,0 +1,90 @@
+
+<configs>
+
+<append xpath="/blocks/block[@name='terrStone']">
+	<drop event="Harvest" name="resourceScrapIron" count="0,5" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceCoal" count="0,1" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceScrapLead" count="0,1" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceScrapBrass" prob=".5 " count="0,1" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceOilShale" count="0,1" tag="HcorpA"/>
+
+</append>
+
+<append xpath="/blocks/block[@name='terrDirt']">
+
+	<drop event="Harvest" name="resourceCrushedSand" count="0,5" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceClayLump" count="0,10" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceCoal" prob=".3" count="0,1" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceOilShale" prob=".3" count="0,1" tag="HcorpA"/>
+	<drop event="Harvest" name="resourcePaper" prob=".05" count="0,1" tag="HcorpA"/>	
+	<drop event="Harvest" name="resourceCloth" prob=".05" count="0,1" tag="HcorpA"/>
+
+</append>
+
+<append xpath="/blocks/block[@name='terrSnow']">
+
+	<drop event="Harvest" name="resourceCrushedSand" count="0,5" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceClayLump" count="0,10" tag="HcorpA"/>
+	<drop event="Harvest" name="resourcePaper" prob=".05" count="0,1" tag="HcorpA"/>	
+	<drop event="Harvest" name="resourceCloth" prob=".05" count="0,1" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceYuccaFibers" count="0,1" tag="HcorpA"/>
+
+</append>
+
+<append xpath="/blocks/block[@name='terrDesertGround']">
+
+	<drop event="Harvest" name="resourceCrushedSand" count="0,5" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceClayLump" count="0,10" tag="HcorpsA"/>
+	<drop event="Harvest" name="resourceCoal" prob=".3" count="0,1" tag="HcropsA"/>
+	<drop event="Harvest" name="resourceOilShale" prob=".3" count="0,1" tag="HcorpA"/>
+	<drop event="Harvest" name="resourcePaper" prob=".05" count="0,1" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceCloth" prob=".05" count="0,1" tag="HcorpA"/>
+
+</append>
+
+<append xpath="/blocks/block[@name='terrForestGround']">
+
+	<drop event="Harvest" name="resourceCrushedSand" count="0,5" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceClayLump" count="0,10" tag="HcorpsA"/>
+	<drop event="Harvest" name="resourceCoal" prob=".3" count="0,1" tag="HcropsA"/>
+	<drop event="Harvest" name="resourceOilShale" prob=".3" count="0,1" tag="HcorpA"/>
+	<drop event="Harvest" name="resourcePaper" prob=".05" count="0,1" tag="HcorpA"/>
+	<drop event="Harvest" name="resourceCloth" prob=".05" count="0,1" tag="HcorpA"/>
+
+</append>
+
+
+
+<append xpath="/blocks/block[@name='terrGravel']">
+
+	<drop event="Harvest" name="resourceSilverNugget" prob=".1" count="0,1" tag="HcorpE"/>
+	<drop event="Harvest" name="resourceGoldNugget" prob=".05" count="0,1" tag="HcorpE"/>
+	<drop event="Harvest" name="resourceRawDiamond" prob= ".01" count="0,1" tag="HcorpE"/>
+	<drop event="Harvest" name="resourceRockSmall" prob= ".5" count="0,3" tag="HcorpE"/>
+	<drop event="Harvest" name="resourceCrushedSand" prob= ".5" count="0,5" tag="HcorpE"/>
+
+</append>
+
+
+
+<append xpath="/blocks/block[@name='terrDestroyedStone']">
+
+	<drop event="Harvest" name="casinoCoin" prob=".2" count="3" tag="HcorpE"/>
+	<drop event="Harvest" name="resourceElectricParts" prob=".1" count="0,1" tag="HcorpE"/>
+	<drop event="Harvest" name="resourceMechanicalParts" prob=".1" count="0,1" tag="HcorpE"/>
+	<drop event="Harvest" name="resourceMetalPipe" prob= ".2" count="0,1" tag="HcorpE"/>
+	<drop event="Harvest" name="resourceRockSmall" prob= ".6" count="0,3" tag="HcorpE"/>
+	<drop event="Harvest" name="resourceCrushedSand" prob= ".6" count="0,5" tag="HcorpE"/>
+
+</append>
+
+<append xpath="/blocks/block[@name='terrDestroyedWoodDebris']">
+
+	<drop event="Harvest" name="woodLogPillar100" prob=".3" count="1" tag="HcorpE"/>
+	<drop event="Harvest" name="foodHoney" prob= ".1" count="1" tag="HcorpE"/>
+
+</append>
+
+
+
+</configs>

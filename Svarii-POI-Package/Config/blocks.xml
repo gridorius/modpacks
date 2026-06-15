@@ -1,0 +1,188 @@
+<configs>
+<append xpath="/blocks">
+		<block name="glassBroken_01_svr">
+			<property name="Extends" value="glassBroken_01" />
+			<property name="CustomIcon" value="glassBroken_01" />
+	        	<property name="ModelOffset" value="0,0.5,0.9"/>
+	        	<property name="ItemTypeIcon" value="other"/>			
+		</block>
+		<block name="glassBroken_02_svr">
+			<property name="Extends" value="glassBroken_02" />
+	        	<property name="ModelOffset" value="0,0.5,0.9"/>
+			<property name="CustomIcon" value="glassBroken_02" />
+	        	<property name="ItemTypeIcon" value="other"/>			
+		</block>
+		<block name="glassBroken_03_svr">
+			<property name="Extends" value="glassBroken_03" />
+			<property name="CustomIcon" value="glassBroken_03" />
+	       		<property name="ModelOffset" value="0,0.5,0.9"/>
+	        	<property name="ItemTypeIcon" value="other"/>			
+		</block>
+
+		<block  name="glassBroken_04_svr">
+			<property name="Extends" value="glassBrokenCapLeft" />
+			<property name="CustomIcon" value="glassBrokenCapLeft" />
+	        	<property name="ModelOffset" value="0,0.5,0.9"/>
+	        	<property name="ItemTypeIcon" value="other"/>			
+		</block>
+		<block  name="glassBroken_05_svr">
+			<property name="Extends" value="glassBrokenCapRight" />
+			<property name="CustomIcon" value="glassBrokenCapRight" />
+	        	<property name="ModelOffset" value="0,0.5,0.9"/>
+	        	<property name="ItemTypeIcon" value="other"/>			
+		</block>
+		<block  name="pushButtonSwitch01_svr">
+			<property name="Extends" value="pushButtonSwitch01" />
+	        	<property name="ModelOffset" value="1,0,0"/>
+	        	<property name="ItemTypeIcon" value="other"/>			
+		</block>
+		<block  name="conduitSingleCentered_svr">
+			<property name="Extends" value="conduitSingleCentered" />
+	        	<property name="ModelOffset" value="1,0,0"/>
+	        	<property name="ItemTypeIcon" value="other"/>			
+		</block>
+		<block  name="plywood_offset_svr">
+			<property name="Extends" value="plywoodOsbCTRPlate" />
+	        	<property name="ModelOffset" value="0,1,0"/>
+	        	<property name="ItemTypeIcon" value="other"/>			
+		</block>
+
+    <block name="terrainFiller_Fake">
+        <property name="Extends" value="terrainFiller"/>
+        <property name="MaxDamage" value="1"/>
+        <property name="CustomIcon" value="terrainFiller"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="goreHumanSkull_SVR">
+        <property name="Extends" value="goreHumanSkull"/>
+        <property name="CustomIcon" value="goreHumanSkull"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="0,-1.5,0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="bloodDecor06_01SVR">
+        <property name="Extends" value="bloodDecor06"/>
+        <property name="CustomIcon" value="bloodDecor06"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="0,-0.2,0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="bloodDecor06_02SVR">
+        <property name="Extends" value="bloodDecor06"/>
+        <property name="CustomIcon" value="bloodDecor06"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="0,1,0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="horseshoe01Offset01_SVR">
+        <property name="Extends" value="horseshoe_01"/>
+        <property name="ModelOffset" value="-0.05,.5,-.5"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="showerHandle01OffsetLeft_SVR">
+        <property name="Material" value="Mmetal_thin"/>
+        <property name="Shape" value="ModelEntity"/>
+        <property name="Model" value="Entities/Plumbing/showerHandlePrefab"/>
+        <property name="ModelOffset" value="0,0,-1"/>
+        <property name="CustomIcon" value="powerSwitch01"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="lightPanelLED_SVR">
+        <property name="Extends" value="lightPanelLEDWhite"/>
+        <property name="CustomIcon" value="lightPanelLEDWhite"/>
+        <property name="CustomIconTint" value="#938D87"/>
+        <property name="TintColor" value="#A0A0A0"/>
+        <property name="SortOrder2" value="0601"/>
+        <property name="ModelOffset" value="0, 1.5, 0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="satelliteUnitLarge_SVR">
+        <property name="Extends" value="satelliteUnitLarge"/>
+        <property name="CustomIcon" value="satelliteUnitLarge"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="0,1.5,0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="pushButtonSwitch01HalfOffsetLeft_SVR">
+        <property name="Extends" value="pushButtonSwitch01"/>
+        <property name="CustomIcon" value="pushButtonSwitch01"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="-0.5,0,0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="pushButtonSwitch01HalfOffsetRight_SVR">
+        <property name="Extends" value="pushButtonSwitch01"/>
+        <property name="CustomIcon" value="pushButtonSwitch01"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="1.5,0,0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="conduitSingleCenteredHalfOffsetRight_SVR">
+        <property name="Extends" value="conduitSingleCentered"/>
+        <property name="CustomIcon" value="conduitSingleCentered"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="1.5,0,0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="awningCornerLeftRed_SVR">
+        <property name="Extends" value="awningCornerLeftRed"/>
+        <property name="CustomIcon" value="awningCornerLeftRed"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="0,0,-0.5"/>
+        <property name="ItemTypeIcon" value="block_damage"/>
+    </block>
+
+    <block name="awningStraightRed_SVR">
+        <property name="Extends" value="awningStraightRed"/>
+        <property name="CustomIcon" value="awningStraightRed"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="0,0,-0.5"/>
+        <property name="ItemTypeIcon" value="block_damage"/>
+    </block>
+
+    <block name="awningCornerRightRed_SVR">
+        <property name="Extends" value="awningCornerRightRed"/>
+        <property name="CustomIcon" value="awningCornerRight"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="0,0,-0.5"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="pictureSmallRandomHelperOffset_SVR">
+        <property name="Extends" value="pictureSmallRandomHelper"/>
+        <property name="CustomIcon" value="pictureSmallRandomHelper"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="-0.5,0.5,0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="radioHamOffset01_SVR">
+        <property name="Extends" value="radioHam"/>
+        <property name="CustomIcon" value="radioHam"/>
+        <property name="IndicatorIcon" value="Offset"/>
+        <property name="CustomIconTint" value="#A0A0A0"/>
+        <property name="ModelOffset" value="0,0.5,-0.5"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+    <block name="modularRopeTiledOffset_SVR">
+        <property name="Extends" value="modularRopeTiledSideCentered"/>
+        <property name="ModelOffset" value="-1.2,0,0"/>
+        <property name="ItemTypeIcon" value="other"/>
+    </block>
+
+</append>
+</configs>

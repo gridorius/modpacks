@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="TechFreqsAutoPickupPlants" />
+	<DisplayName value="TechFreqs Auto Pickup Plants"/>
+	<Description value="Adds an Auto Pickup for Plants or Crops using Configurable Toggle Key and Radius in config json. " />
+	<Author value="TechFreq" />
+	<Version value="1.5" />
+	<Website value="https://beacons.ai/techfreq" />
+</xml>

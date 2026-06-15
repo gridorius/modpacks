@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<append xpath="/controls">
+		<item_part_slot_anz>
+			<rect controller="${controller}" style="itemPartStack, hover" width="185" height="58" sound_play_on_hover="[default_hover]">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-2,3" width="185" height="63" color="[black]" type="sliced" fillcenter="false" />
+				<sprite name="background" color="[darkGrey]" height="59" pos="0,1" width="182" type="sliced"/>
+				<label depth="4" pos="6,-13" width="120" height="28" text="{partname}" font_size="17" justify="left" />
+				<sprite name="itemIcon" depth="4" width="40" height="40" atlas="{partatlas}" sprite="{particon}" color="{particoncolor}" visible="{partvisible}" pos="158,-30" pivot="center" foregroundlayer="true" />
+				<label depth="4" pos="4,-16" width="176" height="28" text="EMPTY MODIFIER SLOT" text_key="${empty_slot_text_key}" font_size="15" justify="center" visible="{emptyvisible}" />
+			</rect>
+		</item_part_slot_anz>
+	</append>
+	<append xpath="/controls">
+		<vehicle_part_slot_anz>
+			<rect controller="VehiclePartStack" style="vehicleStack, hover" width="185" height="58" sound_play_on_hover="[default_hover]">
+				<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-2,3" width="185" height="63" color="[black]" type="sliced" fillcenter="false" />
+				<sprite name="background" color="[darkGrey]" height="59" pos="0,1" width="182" type="sliced"/>
+				<label depth="4" pos="6,-13" width="120" height="28" text="{partname}" font_size="17" justify="left" />
+				<sprite name="itemIcon" depth="4" width="40" height="40" atlas="{partatlas}" sprite="{particon}" color="{particoncolor}" visible="{partvisible}" pos="158,-30" pivot="center" foregroundlayer="true" />
+				<label depth="4" pos="4,-16" width="176" height="28" text="EMPTY MODIFIER SLOT" text_key="xuiEmptyModifierSlot" font_size="15" justify="center" visible="{emptyvisible}" />
+			</rect>
+		</vehicle_part_slot_anz>
+	</append>
+
+</configs>

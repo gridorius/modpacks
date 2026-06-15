@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scomar82_SuBaS>
+
+	<append xpath="/quests">
+
+		<quest id="q_Kill100">
+			<property name="name_key" value="q_Kill100"/>
+			<property name="offer_key" value="q_Kill100Desc"/>
+			<property name="subtitle_key" value="q_Kill100"/>
+			<property name="description_key" value="q_Kill100Desc"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			<property name="repeatable" value="true"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="EntityKill" entityflags="zombie" value="100"/>
+				
+			<reward type="Exp" value="10000"/>
+			<reward type="Item" id="casinoCoin" value="2500"/>
+		</quest>
+		
+		<quest id="q_Kill250">
+			<property name="name_key" value="q_Kill250"/>
+			<property name="offer_key" value="q_Kill250Desc"/>
+			<property name="subtitle_key" value="q_Kill250"/>
+			<property name="description_key" value="q_Kill250Desc"/>
+			<property name="icon" value="ui_game_symbol_zombie"/>
+			<property name="repeatable" value="true"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="EntityKill" entityflags="zombie" value="250"/>
+				
+			<reward type="Exp" value="20000"/>
+			<reward type="Item" id="casinoCoin" value="7500"/>
+			<reward type="SkillPoints" value="1"/>
+		</quest>
+		
+		<quest id="q_TGH">
+			<property name="name_key" value="q_TGH"/>
+			<property name="offer_key" value="q_TGHDesc"/>
+			<property name="subtitle_key" value="q_TGH"/>
+			<property name="description_key" value="q_TGHDesc"/>
+			<property name="icon" value="ui_game_symbol_tracking_bear"/>
+			<property name="repeatable" value="true"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="hard"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="EntityKill" id="animalBear" value="3"/>
+				<objective type="EntityKill" id="animalMountainLion" value="3"/>
+				<objective type="EntityKill" id="animalStag" value="3"/>
+				
+			<reward type="Exp" value="10000"/>
+			<reward type="Item" id="casinoCoin" value="4000"/>
+		</quest>
+		
+		<quest id="q_HdsA">
+			<property name="name_key" value="q_HdsA"/>
+			<property name="offer_key" value="q_HdsADesc"/>
+			<property name="subtitle_key" value="q_HdsA"/>
+			<property name="description_key" value="q_HdsADesc"/>
+			<property name="icon" value="ui_game_symbol_tracking_rabbit"/>
+			<property name="repeatable" value="true"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="EntityKill" id="animalRabbit" value="5"/>
+				<objective type="EntityKill" id="animalChicken" value="5"/>
+				<objective type="EntityKill" id="animalCoyote" value="5"/>
+				
+			<reward type="Exp" value="7500"/>
+			<reward type="Item" id="casinoCoin" value="2500"/>
+		</quest>
+		
+		<quest id="q_Grace">
+			<property name="name_key" value="q_Grace"/>
+			<property name="offer_key" value="q_GraceDesc"/>
+			<property name="subtitle_key" value="q_Grace"/>
+			<property name="description_key" value="q_GraceDesc"/>
+			<property name="icon" value="ui_game_symbol_tracking_pig"/>
+			<property name="repeatable" value="true"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="medium"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="EntityKill" id="animalBossGrace" value="1"/>
+				
+			<reward type="Exp" value="4000"/>
+			<reward type="Item" id="casinoCoin" value="5000"/>
+			<reward type="SkillPoints" value="1"/>
+		</quest>
+		
+		<quest id="q_DireWolf">
+			<property name="name_key" value="q_DireWolf"/>
+			<property name="offer_key" value="q_DireWolfDesc"/>
+			<property name="subtitle_key" value="q_DireWolf"/>
+			<property name="description_key" value="q_DireWolfDesc"/>
+			<property name="icon" value="ui_game_symbol_tracking_wolf"/>
+			<property name="repeatable" value="true"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="hard"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="EntityKill" id="animalDireWolf" value="2"/>
+				
+			<reward type="Exp" value="8000"/>
+			<reward type="Item" id="casinoCoin" value="6000"/>
+			<reward type="SkillPoints" value="1"/>
+		</quest>
+		
+		<quest id="q_GreenThumb">
+			<property name="name_key" value="q_GreenThumb"/>
+			<property name="offer_key" value="q_GreenThumbDesc"/>
+			<property name="subtitle_key" value="q_GreenThumb"/>
+			<property name="description_key" value="q_GreenThumbDesc"/>
+			<property name="icon" value="ui_game_symbol_crops"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="BlockPlace" id="plantedPotato1" value="3"/>
+				<objective type="BlockPlace" id="plantedCorn1" value="3"/>
+				<objective type="BlockPlace" id="plantedPumpkin1" value="3"/>
+				<objective type="BlockPlace" id="plantedMushroom1" value="3"/>
+			
+			<reward type="Exp" value="1000"/>
+			<reward type="Item" id="casinoCoin" value="250"/>
+			<reward type="Item" id="foodCornBread" value="3"/>
+			<reward type="Item" id="foodBakedPotato" value="3"/>
+			<reward type="Item" id="foodPumpkinPie" value="1"/>
+		</quest>
+		
+		<quest id="q_BuildingMats">
+			<property name="name_key" value="q_BuildingMats"/>
+			<property name="offer_key" value="q_BuildingMatsDesc"/>
+			<property name="subtitle_key" value="q_BuildingMats"/>
+			<property name="description_key" value="q_BuildingMatsDesc"/>
+			<property name="icon" value="ui_game_symbol_cement"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="FetchKeep" id="resourceRockSmall" value="750"/>
+				<objective type="FetchKeep" id="resourceCrushedSand" value="500"/>
+				<objective type="FetchKeep" id="resourceCement" value="250"/>
+			
+			<reward type="Exp" value="1500"/>
+			<reward type="Item" id="casinoCoin" value="250"/>
+			<reward type="Item" id="resourceConcreteMix" value="275"/>
+		</quest>
+		
+		<quest id="q_SkillPointBook">
+			<property name="name_key" value="q_SkillPointBook"/>
+			<property name="offer_key" value="q_SkillPointBookDesc"/>
+			<property name="subtitle_key" value="q_SkillPointBook"/>
+			<property name="description_key" value="q_SkillPointBookDesc"/>
+			<property name="icon" value="ui_game_symbol_fire"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="FetchKeep" id="MSchematicParts" value="1"/>
+			
+			<reward type="SkillPoints" value="1"/>
+		</quest>
+		
+	</append>
+
+</Scomar82_SuBaS>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++Sammeln und Besitzen Muster+++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->		
+<!--		
+		<quest id="q_sammeln">
+			<property name="name_key" value="q_muster_name"/>
+			<property name="offer_key" value="q_muster_Desc"/>
+			<property name="subtitle_key" value="q_muster_subtitle"/>
+			<property name="description_key" value="q_muster_Desc"/>
+			<property name="icon" value="ui_game_symbol_food"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="FetchKeep" id="muster" value="1"/>
+				<objective type="FetchKeep" id="muster" value="1"/>		
+				<objective type="FetchKeep" id="muster" value="1"/>
+			
+			<reward type="Exp" value="500"/>
+			<reward type="Item" id="muster" value="1"/>
+		</quest>
+-->		
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++Sammeln und Craften Muster+++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!--
+		<quest id="q_sammeln_und_craften">
+			<property name="name_key" value="q_muster_name"/>
+			<property name="offer_key" value="q_muster_Desc"/>
+			<property name="subtitle_key" value="q_muster_subtitle"/>
+			<property name="description_key" value="q_muster_Desc"/>
+			<property name="icon" value="ui_game_symbol_food"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="FetchKeep" id="muster" value="20" phase="1"/>		
+				<objective type="Craft">
+					<property name="phase" value="2"/>
+					<property name="item" value="muster"/>
+					<property name="count" value="1"/>
+				</objective>
+			
+			<reward type="Exp" value="500"/>
+			<reward type="Item" id="muster" value="1"/>
+		</quest>
+-->	
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++Platzieren Muster+++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!--
+		<quest id="q_sammeln_und_craften">
+			<property name="name_key" value="q_muster_name"/>
+			<property name="offer_key" value="q_muster_Desc"/>
+			<property name="subtitle_key" value="q_muster_subtitle"/>
+			<property name="description_key" value="q_muster_Desc"/>
+			<property name="icon" value="ui_game_symbol_food"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="difficulty" value="veryeasy"/>
+			<property name="shareable" value="false"/>
+			
+				<objective type="BlockPlace" id="muster" value="1"/>
+			
+			<reward type="Exp" value="500"/>
+			<reward type="Item" id="muster" value="1"/>
+		</quest>
+-->			

@@ -1,0 +1,23 @@
+<Scomar82_SuBaS>
+
+	<append xpath="/buffs">
+	
+		<buff name="TeleportToBedroll" hidden="false" name_key="" description_key="" icon="ui_game_symbol_map_bed">
+			<stack_type value="replace"/>
+			<duration value="2"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_teleport_bedroll" allow_client_call="true" />
+			</effect_group>
+		</buff>
+		
+		<buff name="TeleportToLC" hidden="false" name_key="" description_key="" icon="ui_game_symbol_trophy">
+			<stack_type value="replace" />
+			<duration value="2" />
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_teleport_landclaim" allow_client_call="true" />
+			</effect_group>
+		</buff>
+		
+	</append>
+	
+</Scomar82_SuBaS>

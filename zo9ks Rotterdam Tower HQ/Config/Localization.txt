@@ -1,0 +1,2 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+zo9k112_Rotterdam_IndustriesHQ_Tower,POI,POIName,,x,Rotterdam Industries HQ by zo9ks,,,,,,,,,,,,,

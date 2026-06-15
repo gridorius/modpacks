@@ -9,6 +9,6 @@
 	-->
 	<remove xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='ElectricalTrapXP']"/>
 	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
-		<passive_effect name="ElectricalTrapXP" operation="base_set" level="1,2,3,4,5" value=".2,.4,.6,.8,1.0"/>
+		<passive_effect name="ElectricalTrapXP" operation="base_set" level="1,2,3,4,5" value=".4,.8,1.2,1.6,2.0"/>
 	</append>
 </config>

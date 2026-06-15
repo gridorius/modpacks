@@ -1,0 +1,86 @@
+<Scomar82_SuBaS>
+
+	<append xpath="/gameevents">
+	
+		<action_sequence name="challenge_group_reward_SuBaS">
+			<property name="allow_user_trigger" value="false" />
+			<property name="action_type" value="Game" />
+
+			<action class="AddXP">
+				<property name="xp_amount" value="20000" />
+			</action>
+			<action class="AddItems">
+				<property name="added_items" value="MSchematicParts"/>
+				<property name="added_item_counts" value="300"/>
+			</action>
+		</action_sequence>
+	
+		<action_sequence name="challenge_reward_GRSW">
+			<property name="allow_user_trigger" value="false" />
+			<property name="action_type" value="Game" />
+
+			<action class="AddXP">
+				<property name="xp_amount" value="2500" />
+			</action>
+			<action class="AddItems">
+				<property name="added_items" value="casinoCoin"/>
+				<property name="added_item_counts" value="100"/>
+			</action>
+		</action_sequence>
+		
+		<action_sequence name="challenge_reward_CraftSW">
+			<property name="allow_user_trigger" value="false" />
+			<property name="action_type" value="Game" />
+
+			<action class="AddXP">
+				<property name="xp_amount" value="3000" />
+			</action>
+			<action class="AddItems">
+				<property name="added_items" value="casinoCoin"/>
+				<property name="added_item_counts" value="100"/>
+			</action>
+		</action_sequence>
+		
+		<action_sequence name="challenge_reward_placeSW">
+			<property name="allow_user_trigger" value="false" />
+			<property name="action_type" value="Game" />
+
+			<action class="AddXP">
+				<property name="xp_amount" value="3500" />
+			</action>
+			<action class="AddItems">
+				<property name="added_items" value="MSchematicParts"/>
+				<property name="added_item_counts" value="10"/>
+			</action>
+		</action_sequence>
+		
+		<action_sequence name="challenge_reward_scrapSW">
+			<property name="allow_user_trigger" value="false" />
+			<property name="action_type" value="Game" />
+
+			<action class="AddXP">
+				<property name="xp_amount" value="3500" />
+			</action>
+			<action class="AddItems">
+				<property name="added_items" value="questRewardT1SkillMagazineBundle"/>
+				<property name="added_item_counts" value="1"/>
+			</action>
+		</action_sequence>
+		
+		<action_sequence name="challenge_reward_CraftspGT">
+			<property name="allow_user_trigger" value="false" />
+			<property name="action_type" value="Game" />
+
+			<action class="AddXP">
+				<property name="xp_amount" value="4000" />
+			</action>
+			<action class="AddItems">
+				<property name="added_items" value="questRewardT1SkillMagazineBundle"/>
+				<property name="added_item_counts" value="2"/>
+			</action>
+		</action_sequence>
+		
+		
+	</append>
+
+</Scomar82_SuBaS>

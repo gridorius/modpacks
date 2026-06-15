@@ -1,0 +1,8 @@
+<xml>
+	<Name value="PVD" />
+	<DisplayName value="Perks Variable Description" />
+	<Description value="Automatically calculates and displays real-time perk values based on the player's current rank, eliminating the need for separate localization entries for each level." />
+	<Author value="Krokoziabras" />
+	<Version value="1.0" />
+	<Website value="" />
+</xml>

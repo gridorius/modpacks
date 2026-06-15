@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="OMR_SmartQueueCraft"/>
+    <DisplayName value="OMR Smart Queue Craft"/>
+    <Version value="0.1.0"/>
+    <Description value="EN: Instant crafting with queue flush to reduce freeze on huge craft counts. TR: Yuksek adetli craftlarda donmayi azaltmak icin kuyrugu toplu bosaltan anlik craft."/>
+    <Author value="OMR"/>
+    <Website value=""/>
+</xml>

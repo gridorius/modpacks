@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<set xpath="//window[@name='windowAssemble']//grid[@name='parts']/@rows">5</set>
+	<set xpath="//window[@name='windowAssemble']//grid[@name='parts']/@cols">2</set>
+	<set xpath="//window[@name='windowAssemble']//grid[@name='parts']/@cell_width">187</set>
+
+	<remove xpath="//window[@name='windowAssemble']//grid[@name='parts']/item_part_slot"/>
+	<append xpath="//window[@name='windowAssemble']//grid[@name='parts']">
+		<item_part_slot_anz controller="ItemPartStack" empty_slot_text_key="xuiEmptyModifierSlot" />
+	</append>
+	<set xpath="//window[@name='windowAssembleDrone']//grid[@name='parts']/@rows">5</set>
+	<set xpath="//window[@name='windowAssembleDrone']//grid[@name='parts']/@cols">2</set>
+	<set xpath="//window[@name='windowAssembleDrone']//grid[@name='parts']/@cell_width">187</set>
+	<remove xpath="//window[@name='windowAssembleDrone']//grid[@name='parts']/item_part_slot"/>
+	<append xpath="//window[@name='windowAssembleDrone']//grid[@name='parts']">
+		<item_part_slot_anz controller="ItemDronePartStack" empty_slot_text_key="xuiEmptyModifierSlot" />
+	</append>
+	<set xpath="//window[@name='windowVehicle']//grid[@name='parts']/@rows">5</set>
+	<set xpath="//window[@name='windowVehicle']//grid[@name='parts']/@cols">2</set>
+	<set xpath="//window[@name='windowVehicle']//grid[@name='parts']/@cell_width">187</set>
+	<remove xpath="//window[@name='windowVehicle']//grid[@name='parts']/vehicle_part_slot"/>
+	<append xpath="//window[@name='windowVehicle']//grid[@name='parts']">
+		<vehicle_part_slot_anz />
+	</append>
+
+</configs>

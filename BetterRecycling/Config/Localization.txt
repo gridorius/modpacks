@@ -1,0 +1,243 @@
+Key,English,japanese
+
+MPipeGunParts,PipeGun Material Bundle,"パイプ武器素材バンドル"
+MPipeGunPartsDesc,"You can acquire materials for pipe weapons.","パイプ武器(共通)の素材を獲得できます"
+MPistolParts,Pistol Material Bundle,"ハンドガン素材バンドル"
+MPistolPartsDesc,"You can acquire materials for handgun.","ハンドガンの素材を獲得できます"
+MSMG5Parts,SMG Material Bundle,"SMG素材バンドル"
+MSMG5PartsDesc,"You can acquire materials for SMG.","SMGの素材を獲得できます"
+MMagnum44Parts,44Magnum Material Bundle,"44マグナム素材バンドル"
+MMagnum44PartsDesc,"You can acquire materials for 44Magnum.","44マグナムの素材を獲得できます"
+MDesertVultureParts,DesertVulture Material Bundle,"デザートヴァルチャー素材バンドル"
+MDesertVulturePartsDesc,"You can acquire materials for DesertVulture.","デザートヴァルチャーの素材を獲得できます"
+MDoubleBarrelParts,DoubleBarrelShotgun Material Bundle,"2連ショットガン素材バンドル"
+MDoubleBarrelPartsDesc,"You can acquire materials for DoubleBarrelShotgun.","2連ショットガンの素材を獲得できます"
+MPumpShotgunParts,PumpShotgun Material Bundle,"ポンプアクション式ショットガン素材バンドル"
+MPumpShotgunPartsDesc,"You can acquire materials for PumpShotgun.","ポンプアクション式ショットガンの素材を獲得できます"
+MAutoShotgunParts,AutoShotgun Material Bundle,"オートショットガン素材バンドル"
+MAutoShotgunPartsDesc,"You can acquire materials for AutoShotgun.","オートショットガンの素材を獲得できます"
+MHuntingRifleParts,HuntingRifle Material Bundle,"狩猟ライフル素材バンドル"
+MHuntingRiflePartsDesc,"You can acquire materials for HuntingRifle.","狩猟ライフルの素材を獲得できます"
+MLeverActionRifleParts,LeverActionRifle Material Bundle,"レバーアクションライフル素材バンドル"
+MLeverActionRiflePartsDesc,"You can acquire materials for LeverActionRifle.","レバーアクションライフルの素材を獲得できます"
+MSniperRifleParts,SniperRifle Material Bundle,"スナイパーライフル素材バンドル"
+MSniperRiflePartsDesc,"You can acquire materials for SniperRifle.","スナイパーライフルの素材を獲得できます"
+MAK47Parts,AK47 Material Bundle,"AK47マシンガン素材バンドル"
+MAK47PartsDesc,"You can acquire materials for AK47.","AK47マシンガンの素材を獲得できます"
+MTacticalARParts,TacticalAR Material Bundle,"タクティカルアサルトライフル素材バンドル"
+MTacticalARPartsDesc,"You can acquire materials for TacticalAR.","タクティカルアサルトライフルの素材を獲得できます"
+MM60Parts,M60 Material Bundle,"M60マシンガン素材バンドル"
+MM60PartsDesc,"You can acquire materials for M60.","M60マシンガンの素材を獲得できます"
+MBRocketLauncherParts,RocketLauncher Material Bundle,"ロケットランチャー素材バンドル"
+MBRocketLauncherPartsDesc,"You can acquire materials for RocketLauncher.","ロケットランチャーの素材を獲得できます"
+MWoodenBowParts,WoodenBow Material Bundle,"木の弓素材バンドル"
+MWoodenBowPartsDesc,"You can acquire materials for WoodenBow.","木の弓の素材を獲得できます"
+MCompoundBowParts,CompoundBow Material Bundle,"複合弓素材バンドル"
+MCompoundBowPartsDesc,"You can acquire materials for CompoundBow.","複合弓の素材を獲得できます"
+MIronCrossbowParts,IronCrossbow Material Bundle,"鉄製クロスボウ素材バンドル"
+MIronCrossbowPartsDesc,"You can acquire materials for IronCrossbow.","鉄製クロスボウの素材を獲得できます"
+MCompoundCrossbowParts,CompoundCrossbow Material Bundle,"複合クロスボウ素材バンドル"
+MCompoundCrossbowPartsDesc,"You can acquire materials for CompoundCrossbow.","複合クロスボウの素材を獲得できます"
+MJunkSledgeParts,JunkSledge Material Bundle,"ロボットスレッジ素材バンドル"
+MJunkSledgePartsDesc,"You can acquire materials for JunkSledge.","ロボットスレッジの素材を獲得できます"
+MBJunkTurretParts,JunkTurret Material Bundle,"ロボット砲台素材バンドル"
+MBJunkTurretPartsDesc,"You can acquire materials for JunkTurret.","ロボット砲台の素材を獲得できます"
+MJunkDroneParts,JunkDrone Material Bundle,"ロボットドローン素材バンドル"
+MJunkDronePartsDesc,"You can acquire materials for JunkDrone.","ロボットドローンの素材を獲得できます"
+MHuntingKnifeParts,HuntingKnife Material Bundle,"狩猟ナイフ素材バンドル"
+MHuntingKnifePartsDesc,"You can acquire materials for HuntingKnife.","狩猟ナイフの素材を獲得できます"
+MMacheteParts,Machete Material Bundle,"マチェーテ素材バンドル"
+MMachetePartsDesc,"You can acquire materials for Machete.","マチェーテの素材を獲得できます"
+MBaseballBatParts,BaseballBat Material Bundle,"ベースボールバット素材バンドル"
+MBaseballBatPartsDesc,"You can acquire materials for BaseballBat.","ベースボールバットの素材を獲得できます"
+MSteelClubParts,SteelClub Material Bundle,"鋼鉄製棍棒素材バンドル"
+MSteelClubPartsDesc,"You can acquire materials for SteelClub.","鋼鉄製棍棒の素材を獲得できます"
+MPipeBatonParts,PipeBaton Material Bundle,"パイプバトン素材バンドル"
+MPipeBatonPartsDesc,"You can acquire materials for PipeBaton.","パイプバトンの素材を獲得できます"
+MStunBatonParts,StunBaton Material Bundle,"スタンバトン素材バンドル"
+MStunBatonPartsDesc,"You can acquire materials for StunBaton.","スタンバトンの素材を獲得できます"
+MIronSpearParts,IronSpear Material Bundle,"鉄槍素材バンドル"
+MIronSpearPartsDesc,"You can acquire materials for IronSpear.","鉄槍の素材を獲得できます"
+MSteelSpearParts,SteelSpear Material Bundle,"鋼鉄槍素材バンドル"
+MSteelSpearPartsDesc,"You can acquire materials for SteelSpear.","鋼鉄槍の素材を獲得できます"
+MIronSledgehammerParts,IronSledgehammer Material Bundle,"鉄製スレッジハンマー素材バンドル"
+MIronSledgehammerPartsDesc,"You can acquire materials for IronSledgehammer.","鉄製スレッジハンマーの素材を獲得できます"
+MSteelSledgehammerParts,SteelSledgehammer Material Bundle,"鋼鉄製スレッジハンマー素材バンドル"
+MSteelSledgehammerPartsDesc,"You can acquire materials for SteelSledgehammer.","鋼鉄製スレッジハンマーの素材を獲得できます"
+MIronKnucklesParts,IronKnuckles Material Bundle,"鉄ナックル素材バンドル"
+MIronKnucklesPartsDesc,"You can acquire materials for IronKnuckles.","鉄ナックルの素材を獲得できます"
+MSteelKnucklesParts,SteelKnuckles Material Bundle,"鉄鋼ナックル素材バンドル"
+MSteelKnucklesPartsDesc,"You can acquire materials for SteelKnuckles.","鉄鋼ナックルの素材を獲得できます"
+MClawHammerParts,ClawHammer Material Bundle,"くぎ抜きハンマー素材バンドル"
+MClawHammerPartsDesc,"You can acquire materials for ClawHammer.","くぎ抜きハンマーの素材を獲得できます"
+MNailgunParts,Nailgun Material Bundle,"ネイルガン素材バンドル"
+MNailgunPartsDesc,"You can acquire materials for Nailgun.","ネイルガンの素材を獲得できます"
+MIronToolParts,IronTool Material Bundle,"鉄ツール素材バンドル"
+MIronToolPartsDesc,"You can acquire materials for IronTool.","鉄ツールの素材を獲得できます"
+MSteelToolParts,SteelTool Material Bundle,"鉄鋼ツール素材バンドル"
+MSteelToolPartsDesc,"You can acquire materials for SteelTool.","鉄鋼ツールの素材を獲得できます"
+MIronShovelParts,IronShovel Material Bundle,"鉄ショベル素材バンドル"
+MIronShovelPartsDesc,"You can acquire materials for IronShovel.","鉄ショベルの素材を獲得できます"
+MBMotorToolParts,MotorTool Material Bundle,"動力ツール素材バンドル"
+MBMotorToolPartsDesc,"You can acquire materials for MotorTool.","動力ツールの素材を獲得できます"
+MWrenchParts,Wrench Material Bundle,"レンチ素材バンドル"
+MWrenchPartsDesc,"You can acquire materials for Wrench.","レンチの素材を獲得できます"
+MRatchetParts,Ratchet Material Bundle,"ラチェット素材バンドル"
+MRatchetPartsDesc,"You can acquire materials for Ratchet.","ラチェットの素材を獲得できます"
+MImpactDriverParts,ImpactDriver Material Bundle,"衝撃ドライバー素材バンドル"
+MImpactDriverPartsDesc,"You can acquire materials for ImpactDriver.","衝撃ドライバーの素材を獲得できます"
+MFlashlightParts,Flashlight Material Bundle,"フラッシュライト素材バンドル"
+MFlashlightPartsDesc,"You can acquire materials for Flashlight.","フラッシュライトの素材を獲得できます"
+MWireToolParts,WireTool Material Bundle,"配線ツール素材バンドル"
+MWireToolPartsDesc,"You can acquire materials for WireTool.","配線ツールの素材を獲得できます"
+MPaintToolParts,PaintTool Material Bundle,"はけ素材バンドル"
+MPaintToolPartsDesc,"You can acquire materials for PaintTool.","はけの素材を獲得できます"
+
+MBarrel,BarrelAttachment Material Bundle,"バレル改造パーツ素材バンドル"
+MBarrelDesc,"You can acquire materials for BarrelAttachment.","バレル改造パーツの素材を獲得できます"
+MMuzzleBrake,MuzzleBrake Material Bundle,"マズルブレーキ改造パーツ素材バンドル"
+MMuzzleBrakeDesc,"You can acquire materials for MuzzleBrake.","マズルブレーキ改造パーツの素材を獲得できます"
+MLaserSight,LaserSight Material Bundle,"レーザー照準改造パーツ素材バンドル"
+MLaserSightDesc,"You can acquire materials for LaserSight.","レーザー照準改造パーツの素材を獲得できます"
+MFlashlight,Flashlight Material Bundle,"武器用フラッシュライト改造パーツ素材バンドル"
+MFlashlightDesc,"You can acquire materials for Flashlight.","武器用フラッシュライト改造パーツの素材を獲得できます"
+MScopeSmall,x2Scope Material Bundle,"2xスコープ改造パーツ素材バンドル"
+MScopeSmallDesc,"You can acquire materials for x2Scope.","2xスコープ改造パーツの素材を獲得できます"
+MScopeMedium,x4Scope Material Bundle,"4xスコープ改造パーツ素材バンドル"
+MScopeMediumDesc,"You can acquire materials for x4Scope.","4xスコープ改造パーツの素材を獲得できます"
+MScopeLarge,x8Scope Material Bundle,"8xスコープ改造パーツ素材バンドル"
+MScopeLargeDesc,"You can acquire materials for x8Scope.","8xスコープ改造パーツの素材を獲得できます"
+MReflexSight,ReflexSight Material Bundle,"リフレックス照準改造パーツ素材バンドル"
+MReflexSightDesc,"You can acquire materials for ReflexSight.","リフレックス照準改造パーツの素材を獲得できます"
+MTriggerGroupSemi,TriggerGroupSemi Material Bundle,"引き金式武器グループ:セミ改造パーツ素材バンドル"
+MTriggerGroupSemiDesc,"You can acquire materials for TriggerGroupSemi.","引き金式武器グループ:セミ改造パーツの素材を獲得できます"
+MTriggerGroupC,TriggerGroupBurst3/Automatic Material Bundle,"引き金式武器グループ:バースト/フルオート改造パーツ素材バンドル"
+MTriggerGroupCDesc,"You can acquire materials for TriggerGroupBurst3/Automatic.","引き金式武器グループ:バースト/フルオート改造パーツの素材を獲得できます"
+MWASteel,SteelWeaponAttachment Material Bundle,"鋼鉄製改造パーツ素材バンドル"
+MWASteelDesc,"You can acquire materials for SteelWeaponAttachment.","鋼鉄製武器改造パーツの素材(共通)を獲得できます"
+MWAIron,IronWeaponAttachment Material Bundle,"鉄製改造パーツ素材バンドル"
+MWAIronDesc,"You can acquire materials for IronWeaponAttachment.","鉄製武器改造パーツの素材(共通)を獲得できます"
+MDrumMagazine,DrumMagazine Material Bundle,"ドラム型弾倉改造パーツ素材バンドル"
+MDrumMagazineDesc,"You can acquire materials for DrumMagazine.","ドラム型弾倉改造パーツの素材を獲得できます"
+MBurningShaft,BurningShaft Material Bundle,"バーニングシャフト改造パーツ素材バンドル"
+MBurningShaftDesc,"You can acquire materials for BurningShaft.","バーニングシャフト改造パーツの素材を獲得できます"
+MDiamondTip,DiamondTip Material Bundle,"ダイヤモンドブレードチップ改造パーツ素材バンドル"
+MDiamondTipDesc,"You can acquire materials for DiamondTip.","ダイヤモンドブレードチップ改造パーツの素材を獲得できます"
+MStunBatonRepulsor,StunBatonRepulsor Material Bundle,"スタンバトンリパルサー改造パーツ素材バンドル"
+MStunBatonRepulsorDesc,"You can acquire materials for StunBatonRepulsor.","スタンバトンリパルサー改造パーツの素材を獲得できます"
+MFuelTank,FuelTank Material Bundle,"動力ツールタンク改造パーツ素材バンドル"
+MFuelTankDesc,"You can acquire materials for FuelTank.","動力ツールタンク改造パーツの素材を獲得できます"
+
+MBandolier,Bandolier Material Bundle,"弾帯改造パーツ素材バンドル"
+MBandolierDesc,"You can acquire materials for Bandolier.","弾帯改造パーツの素材を獲得できます"
+
+MImprovedFittings,ArmorFittings Material Bundle,"接合部改造パーツ素材バンドル"
+MImprovedFittingsDesc,"You can acquire materials for ArmorFittings.","接合部改造パーツの素材を獲得できます"
+
+MCustomizedFittings,AdvancedArmorFittings Material Bundle,"上級接合部改造パーツ素材バンドル"
+MCustomizedFittingsDesc,"You can acquire materials for AdvancedArmorFittings.","上級接合部改造パーツの素材を獲得できます"
+
+MPlatingBasic,PlatingBasic Material Bundle,"アーマープレーティング改造パーツ素材バンドル"
+MPlatingBasicDesc,"You can acquire materials for PlatingBasic.","アーマープレーティング改造パーツの素材を獲得できます"
+
+MPlatingReinforced,AdvancedArmorPlating Material Bundle,"上級アーマープレーティング改造パーツ素材バンドル"
+MPlatingReinforcedDesc,"You can acquire materials for AdvancedArmorPlating.","上級アーマープレーティング改造パーツの素材を獲得できます"
+
+MStoragePocket,StoragePocket Material Bundle,"アーマーポケット改造パーツ素材バンドル"
+MStoragePocketDesc,"You can acquire materials for StoragePocket.","アーマーポケット改造パーツの素材を獲得できます"
+MDStoragePocket,DoubleStoragePocket Material Bundle,"アーマーダブルポケット改造パーツ素材バンドル"
+MDStoragePocketDesc,"You can acquire materials for DoubleStoragePocket.","アーマーダブルポケット改造パーツの素材を獲得できます"
+MTStoragePocket,TripleStoragePocket Material Bundle,"アーマートリプルポケット改造パーツ素材バンドル"
+MTStoragePocketDesc,"You can acquire materials for TripleStoragePocket.","アーマートリプルポケット改造パーツの素材を獲得できます"
+MQStoragePocket,QuadStoragePocket Material Bundle,"アーマークアッドポケット改造パーツ素材バンドル"
+MQStoragePocketDesc,"You can acquire materials for QuadStoragePocket.","アーマークアッドポケット改造パーツの素材を獲得できます"
+MMuffledConnectors,MuffledConnectors Material Bundle,"静音コネクター改造パーツ素材バンドル"
+MMuffledConnectorsDesc,"You can acquire materials for MuffledConnectors.","静音コネクター改造パーツの素材を獲得できます"
+MAMuffledConnectors,AdvancedMuffledConnectors Material Bundle,"高性能静音コネクター改造パーツ素材バンドル"
+MAMuffledConnectorsDesc,"You can acquire materials for AdvancedMuffledConnectors.","高性能静音コネクター改造パーツの素材を獲得できます"
+MImpactBracing,ImpactBracing Material Bundle,"衝撃ブレーシング改造パーツ素材バンドル"
+MImpactBracingDesc,"You can acquire materials for ImpactBracing.","衝撃ブレーシング改造パーツの素材を獲得できます"
+MStealthBoots,StealthBoots Material Bundle,"ステルスブーツ改造パーツ素材バンドル"
+MStealthBootsDesc,"You can acquire materials for StealthBoots.","ステルスブーツ改造パーツの素材を獲得できます"
+
+MWaterPurifier,WaterPurifier Material Bundle,"浄水器改造パーツ素材バンドル"
+MWaterPurifierDesc,"You can acquire materials for WaterPurifier.","浄水器改造パーツの素材を獲得できます"
+MHelmetLight,HelmetLight Material Bundle,"ヘルメットライト改造パーツ素材バンドル"
+MHelmetLightDesc,"You can acquire materials for HelmetLight.","ヘルメットライト改造パーツの素材を獲得できます"
+MCigar,Cigar Material Bundle,"葉巻素材バンドル"
+MCigarDesc,"You can acquire materials for Cigar.","葉巻の素材を獲得できます"
+
+MFuelSaver,FuelSaver Material Bundle,"車両用省燃料改造パーツ素材バンドル"
+MFuelSaverDesc,"You can acquire materials for FuelSaver.","車両用省燃料改造パーツの素材を獲得できます"
+MHeadlights,Headlights Material Bundle,"車両用オフロードヘッドライト改造パーツ素材バンドル"
+MHeadlightsDesc,"You can acquire materials for Headlights.","車両用オフロードヘッドライト改造パーツの素材を獲得できます"
+MSuperCharger,SuperCharger Material Bundle,"車両スーパーチャージャー改造パーツ素材バンドル"
+MSuperChargerDesc,"You can acquire materials for SuperCharger.","車両スーパーチャージャー改造パーツの素材を獲得できます"
+MExpandedSeat,ExpandedSeat Material Bundle,"車両用座席拡大改造パーツ素材バンドル"
+MExpandedSeatDesc,"You can acquire materials for ExpandedSeat.","車両用座席拡大改造パーツの素材を獲得できます"
+MReserveFuelTank,ReserveFuelTank Material Bundle,"車両用予備燃料タンク改造パーツ素材バンドル"
+MReserveFuelTankDesc,"You can acquire materials for ReserveFuelTank.","車両用予備燃料タンク改造パーツの素材を獲得できます"
+MVCommon,Vehicle Attachment Common Material Bundle,"車両用共通改造パーツ素材バンドル"
+MVCommonDesc,"You can acquire materials for Vehicle Attachments(Common).","車両用共通改造パーツの素材を獲得できます"
+
+MDCommon,Drone Attachments Common Material Bundle,"ロボットドローン共通改造パーツ素材バンドル"
+MDCommonDesc,"You can acquire materials for Drone Attachments(Common).","ロボットドローン共通改造パーツの素材を獲得できます"
+MDHeadlamp,Drone Headlamp Material Bundle,"ロボットドローンヘッドランプ改造パーツ素材バンドル"
+MDHeadlampDesc,"You can acquire materials for Drone Headlamp.","ロボットドローンヘッドランプ改造パーツの素材を獲得できます"
+MDBooster,Drone Morale Booster Material Bundle,"ロボットドローン士気ブースター改造パーツ素材バンドル"
+MDBoosterDesc,"You can acquire materials for Drone Morale Booster.","ロボットドローン士気ブースター改造パーツの素材を獲得できます"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

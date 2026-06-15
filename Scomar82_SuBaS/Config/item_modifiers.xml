@@ -1,0 +1,27 @@
+<Scomar82_SuBaS>
+
+	<append xpath="/item_modifiers">
+
+		<item_modifier name="modMasterBookScrapper" installable_tags="armorChest" modifier_tags="attributeBoost" blocked_tags="noMods" type="attachment">
+			<property name="Extends" value="modGeneralMaster" param1="CustomIcon"/>
+			<property name="CustomIcon" value="challengeQuestMaster"/>
+			<property name="CustomIconTint" value="228b22"/>
+			<property name="DisplayType" value="MasterBookScrapper"/>
+			<property name="Material" value="Mpaper"/>
+			<property name="Group" value="Special"/>
+			<property name="EconomicValue" value="1500"/>
+
+			<effect_group tiered="false">
+				<passive_effect name="LootStage" operation="base_add" value="25"/>
+				<passive_effect name="PlayerExpGain" operation="perc_add" value=".2"/>
+				<passive_effect name="BarteringBuying" operation="base_add" value=".15"/>
+				<passive_effect name="BarteringSelling" operation="base_add" value=".15"/>
+					<display_value name="dLootStageFlat" value="25"/>
+					<display_value name="dPlayerExpGain" value=".2"/>
+					<display_value name="dbartering" value=".15"/>
+			</effect_group>
+		</item_modifier>
+
+	</append>
+
+</Scomar82_SuBaS>

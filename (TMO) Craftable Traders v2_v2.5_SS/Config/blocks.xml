@@ -1,0 +1,129 @@
+<Config>
+<append xpath="/blocks">
+
+
+	
+<block name="TMO_TraderJoel">
+	<property name="SellableToTrader" value="false"/>
+	<property name="ItemTypeIcon" value="star"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="SpawnClass" value="npcTraderJoel"/>
+	<property name="IndexName" value="Trader"/>
+	<property name="DescriptionKey" value="TMO_TraderJoelDesc"/>
+	<property name="CustomIcon" value="decoMannequinMale"/>
+	<property name="CustomIconTint" value="255, 0, 0"/> 
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/Commercial/mannequinMalePrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket,player"/>
+	<property name="StabilitySupport" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="LD04"/>
+	<property name="SortOrder2" value="0511"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+<block name="TMO_TraderRekt">
+	<property name="SellableToTrader" value="false"/>
+	<property name="ItemTypeIcon" value="star"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="SpawnClass" value="npcTraderRekt"/>
+	<property name="IndexName" value="Trader"/>
+	<property name="DescriptionKey" value="TMO_TraderRektDesc"/>
+	<property name="CustomIcon" value="decoMannequinMale"/>
+	<property name="CustomIconTint" value="0, 255, 0"/> 
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/Commercial/mannequinMalePrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="StabilitySupport" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="LD04"/>
+	<property name="SortOrder2" value="0512"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+<block name="TMO_TraderHugh">
+	<property name="SellableToTrader" value="false"/>
+	<property name="ItemTypeIcon" value="star"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="SpawnClass" value="npcTraderHugh"/>
+	<property name="IndexName" value="Trader"/>
+	<property name="DescriptionKey" value="TMO_TraderHughDesc"/>
+	<property name="CustomIcon" value="decoMannequinMale"/>
+	<property name="CustomIconTint" value="0, 0, 255"/> 
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/Commercial/mannequinMalePrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="StabilitySupport" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="LD04"/>
+	<property name="SortOrder2" value="0513"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+<block name="TMO_TraderBob">
+	<property name="SellableToTrader" value="false"/>
+	<property name="ItemTypeIcon" value="star"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="SpawnClass" value="npcTraderBob"/>
+	<property name="IndexName" value="Trader"/>
+	<property name="DescriptionKey" value="TMO_TraderBobDesc"/>
+	<property name="CustomIcon" value="decoMannequinMale"/>
+	<property name="CustomIconTint" value="255, 255, 0"/> 
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/Commercial/mannequinMalePrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="StabilitySupport" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="LD04"/>
+	<property name="SortOrder2" value="0514"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+<block name="TMO_TraderJen">
+	<property name="SellableToTrader" value="false"/>
+	<property name="ItemTypeIcon" value="star"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="SpawnClass" value="npcTraderJen"/>
+	<property name="IndexName" value="Trader"/>
+	<property name="DescriptionKey" value="TMO_TraderJenDesc"/>
+	<property name="CustomIcon" value="decoMannequinFemale"/>
+	<property name="CustomIconTint" value="255, 0, 255"/> 
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Mmetal_medium"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/Commercial/mannequinFemalePrefab.prefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="StabilitySupport" value="false"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="LD04"/>
+	<property name="SortOrder2" value="0515"/>
+	<property name="FilterTags" value="MC_helpers,SC_questblocks"/>
+</block>
+
+
+
+</append>
+</Config>

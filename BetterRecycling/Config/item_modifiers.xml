@@ -1,0 +1,310 @@
+<configs>
+	<!--Weapon Attachments-->
+	<append xpath="/item_modifiers/item_modifier[@name='modGunBarrelExtender']">
+		<property name="Material" value="MBarrel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMuzzleBrake']">
+		<property name="Material" value="MMuzzleBrake"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+		<property name="Material" value="MBarrel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunLaserSight']">
+		<property name="Material" value="MLaserSight"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunFlashlight']">
+		<property name="Material" value="MFlashlight"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeSmall']">
+		<property name="Material" value="MScopeSmall"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeMedium']">
+		<property name="Material" value="MScopeMedium"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunScopeLarge']">
+		<property name="Material" value="MScopeLarge"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']">
+		<property name="Material" value="MReflexSight"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupSemi']">
+		<property name="Material" value="MTriggerGroupSemi"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupBurst3']">
+		<property name="Material" value="MTriggerGroupC"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunTriggerGroupAutomatic']">
+		<property name="Material" value="MTriggerGroupC"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunRetractingStock']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunBipod']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunForegrip']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modShotgunSawedOffBarrel']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunDuckbill']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunChoke']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunDrumMagazineExtender']">
+		<property name="Material" value="MDrumMagazine"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunShotgunTubeExtenderMagazine']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunCrippleEm']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<set xpath="/item_modifiers/item_modifier[@name='modGunBowPolymerString']/property[@name='Material']/@value">MWASteel</set>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunBowPolymerString']">
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunBowArrowRest']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMeleeTheHunter']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modGunMeleeRadRemover']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeSerratedBlade']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeTemperedBlade']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeWeightedHead']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeStructuralBrace']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeErgonomicGrip']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeFortifyingGrip']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBarbedWire']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalSpikes']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubMetalChain']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']">
+		<property name="Material" value="MBurningShaft"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeFiremansAxeMod']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeGraveDigger']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeBunkerBuster']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeIronBreaker']">
+		<property name="Material" value="MWASteel"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeWoodSplitter']">
+		<property name="Material" value="MWAIron"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeDiamondTip']">
+		<property name="Material" value="MDiamondTip"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modMeleeStunBatonRepulsor']">
+		<property name="Material" value="MStunBatonRepulsor"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modFuelTankSmall']">
+		<property name="Material" value="MFuelTank"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modFuelTankLarge']">
+		<property name="Material" value="MFuelTank"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<!--Armor Attachments-->
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorBandolier']">
+		<property name="Material" value="MBandolier"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<!-- 2.0 removed! -->
+	<!--
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorInsulatedLiner']">
+		<property name="Material" value="MInsulatedLiner"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorCoolingMesh']">
+		<property name="Material" value="MCoolingMesh"/>
+		<property name="Weight" value="1"/>
+	</append>
+	-->
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorImprovedFittings']">
+		<property name="Material" value="MImprovedFittings"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorCustomizedFittings']">
+		<property name="Material" value="MCustomizedFittings"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorPlatingBasic']">
+		<property name="Material" value="MPlatingBasic"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorPlatingReinforced']">
+		<property name="Material" value="MPlatingReinforced"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorStoragePocket']">
+		<property name="Material" value="MStoragePocket"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorDoubleStoragePocket']">
+		<property name="Material" value="MDStoragePocket"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorTripleStoragePocket']">
+		<property name="Material" value="MTStoragePocket"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorQuadStoragePocket']">
+		<property name="Material" value="MQStoragePocket"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorMuffledConnectors']">
+		<property name="Material" value="MMuffledConnectors"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorAdvancedMuffledConnectors']">
+		<property name="Material" value="MAMuffledConnectors"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorImpactBracing']">
+		<property name="Material" value="MImpactBracing"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorStealthBoots']">
+		<property name="Material" value="MStealthBoots"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorWaterPurifier']">
+		<property name="Material" value="MWaterPurifier"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorHelmetLight']">
+		<property name="Material" value="MHelmetLight"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modArmorCigar']">
+		<property name="Material" value="MCigar"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<!-- Other Misc -->
+	<!-- Vehicle Attachments-->
+	<append xpath="/item_modifiers/item_modifier[@name='modVehicleFuelSaver']">
+		<property name="Material" value="MFuelSaver"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modVehicleOffRoadHeadlights']">
+		<property name="Material" value="MHeadlights"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modVehicleSuperCharger']">
+		<property name="Material" value="MSuperCharger"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modVehicleExpandedSeat']">
+		<property name="Material" value="MExpandedSeat"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modVehicleReserveFuelTank']">
+		<property name="Material" value="MReserveFuelTank"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modVehiclePlow']">
+		<property name="Material" value="MVCommon"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modVehicleArmor']">
+		<property name="Material" value="MVCommon"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<!-- Drone Attachments-->
+	<append xpath="/item_modifiers/item_modifier[@name='modRoboticDroneArmorPlatingMod']">
+		<property name="Material" value="MDCommon"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modRoboticDroneCargoMod']">
+		<property name="Material" value="MDCommon"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modRoboticDroneMedicMod']">
+		<property name="Material" value="MDCommon"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modRoboticDroneHeadlampMod']">
+		<property name="Material" value="MDHeadlamp"/>
+		<property name="Weight" value="1"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='modRoboticDroneMoraleBoosterMod']">
+		<property name="Material" value="MDBooster"/>
+		<property name="Weight" value="1"/>
+	</append>
+</configs>

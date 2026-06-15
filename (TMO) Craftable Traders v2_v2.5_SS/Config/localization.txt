@@ -1,0 +1,16 @@
+Key,Source,Context,Changes,English
+
+TMO_TraderJoel,blocks,block,workstation,"[FF3B3B]T[FF4A3A]r[FF5939]a[FF6838]d[FF7737]e[FF8636]r[FF9535] [FFA033]J[FF8A2A]o[FF7421]e[FF5E18]l[-]"
+TMO_TraderJoelDesc,blocks,block,workstation,"A craftable premium trader block that spawns Trader Joel. Requires [FFFF00]25,000 Casino Coins[-] to craft, offering access to exclusive trades and a strategic ally for your base."
+
+TMO_TraderRekt,blocks,block,workstation,"[3BFF3B]T[4AFF3A]r[59FF39]a[68FF38]d[77FF37]e[86FF36]r[95FF35] [6BFF2A]R[54FF21]e[3DFF18]k[26FF0F]t[-]"
+TMO_TraderRektDesc,blocks,block,workstation,"A craftable premium trader block that spawns Trader Rekt. Requires [FFFF00]25,000 Casino Coins[-] to craft, providing unique trade options and a valuable companion for your survival."
+
+TMO_TraderHugh,blocks,block,workstation,"[3B7BFF]T[4A86FF]r[5991FF]a[689CFF]d[77A7FF]e[86B2FF]r[95BDFF] [6FA7FF]H[588FFF]u[4177FF]g[2A5FFF]h[-]"
+TMO_TraderHughDesc,blocks,block,workstation,"A craftable premium trader block that spawns Trader Hugh. Requires [FFFF00]25,000 Casino Coins[-] to craft, unlocking specialized trades and a powerful ally for your outpost."
+
+TMO_TraderBob,blocks,block,workstation,"[FFF33B]T[FFF04A]r[FFED59]a[FFEA68]d[FFE777]e[FFE486]r[FFE195] [FFD72A]B[FFC421]o[FFB118]b[-]"
+TMO_TraderBobDesc,blocks,block,workstation,"A craftable premium trader block that spawns Trader Bob. Requires [FFFF00]25,000 Casino Coins[-] to craft, granting access to rare goods and a dependable partner in survival."
+
+TMO_TraderJen,blocks,block,workstation,"[FF3BFF]T[FF4AFF]r[FF59FF]a[FF68FF]d[FF77FF]e[FF86FF]r[FF95FF] [FF5AFF]J[FF3FEA]e[FF24D5]n[-]"
+TMO_TraderJenDesc,blocks,block,workstation,"A craftable premium trader block that spawns Trader Jen. Requires [FFFF00]25,000 Casino Coins[-] to craft, offering exclusive trade opportunities and a skilled ally for your stronghold."

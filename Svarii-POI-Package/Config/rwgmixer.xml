@@ -1,0 +1,23 @@
+<configs>
+    <append xpath="/rwgmixer">
+        <prefab_spawn_adjust partial_name="park_azaroth_svarii" biomeTags="forest" min_count="1"/> 
+        <prefab_spawn_adjust partial_name="church_01_svarii" min_count="1"/>    
+        <prefab_spawn_adjust partial_name="house_burnt_01_exd_svarii" min_count="1"/>
+        <prefab_spawn_adjust partial_name="farmsworth_residence_svarii" biomeTags="burntforest,wasteland" min_count="1"/>
+        <prefab_spawn_adjust partial_name="park_residential_01_exd_svarii" biomeTags="forest" min_count="1"/>
+        <prefab_spawn_adjust partial_name="graveyard_01_svarii" min_count="1"/>                
+        <prefab_spawn_adjust partial_name="house_shanty_01_svarii" min_count="1"/>
+        <prefab_spawn_adjust partial_name="house_old_cottage_oneHalf_svarii" min_count="1"/>
+    </append>
+	<append xpath="/rwgmixer/streettile">
+		<streettile name="rwg_tile_gateway_straight_clock_svarii_01">
+			<property name="mintiles" value="1"/>
+			<property name="maxtiles" value="3"/>
+		</streettile>
+		<streettile name="rwg_tile_gateway_straight_clock_svarii_01">
+			<property name="mintiles" value="1"/>
+			<property name="maxtiles" value="3"/>
+		</streettile>
+	</append>
+</configs>
+

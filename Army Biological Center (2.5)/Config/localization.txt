@@ -1,0 +1,2 @@
+Key,file,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,German,spanish,italian,japanese,koreana,polish,brazilian,russian,schinese,tchinese
+Army_Biological_Center,POI,POIName,,x,Army Biological Center,,,,,,,,,,,,,

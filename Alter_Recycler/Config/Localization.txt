@@ -1,4 +1,0 @@
-Key,English
-lblContextActionRecycle,Recycle
-recycler,Recycler
-recyclerDesc,Use a recycler to scrap items into their original components.

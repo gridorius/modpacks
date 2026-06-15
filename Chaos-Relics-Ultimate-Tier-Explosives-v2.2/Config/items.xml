@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<append xpath="/items">
+		<!-- Ultimate Tier 1 Boru Bombası -->
+		<item name="U1PipeBomb">
+			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="UBoruBombasi" />
+			<property name="CustomIconTint" value="#008000" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="25" />
+			<property name="DropScale" value="2.5" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="20" />
+			<property name="EconomicValue" value="60" />
+			<property name="TraderStageTemplate" value="baseTier1" />
+			<property name="UnlockedBy" value="craftingExplosives" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı, Toprağa bonus hasar -->
+			<property name="Weight" value="0" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="312" />
+			<property name="Explosion.ParticleIndex" value="20" />
+			<property name="Explosion.RadiusBlocks" value="5" />
+			<property name="Explosion.RadiusEntities" value="5" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="80" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value=".4" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="ActivationTransformToHide" value="Sparks" />
+			<property name="SoundPickup" value="pipebomb_grab" />
+			<property name="SoundPlace" value="pipebomb_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="8" />
+				<property name="Throw_strength_max" value="50" />
+				<property name="Max_strain_time" value="1.25" />
+				<property name="Sound_start" value="swoosh" />
+				<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger" />
+				<property name="triggerEffectShootDualsense" value="ShotgunShoot" />
+				<property name="triggerEffectShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+				<property name="Delay" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="5" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="312" />
+				<display_value name="dFuseTime" value="4" />
+				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 2 Boru Bombası -->
+		<item name="U2PipeBomb">
+			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="UBoruBombasi" />
+			<property name="CustomIconTint" value="#00FFFF" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="25" />
+			<property name="DropScale" value="2.5" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="20" />
+			<property name="EconomicValue" value="70" />
+			<property name="TraderStageTemplate" value="baseTier1" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı, Toprağa bonus hasar -->
+			<property name="Weight" value="0" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="588" />
+			<property name="Explosion.ParticleIndex" value="20" />
+			<property name="Explosion.RadiusBlocks" value="6" />
+			<property name="Explosion.RadiusEntities" value="6" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="85" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value=".4" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="ActivationTransformToHide" value="Sparks" />
+			<property name="SoundPickup" value="pipebomb_grab" />
+			<property name="SoundPlace" value="pipebomb_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="8" />
+				<property name="Throw_strength_max" value="50" />
+				<property name="Max_strain_time" value="1.25" />
+				<property name="Sound_start" value="swoosh" />
+				<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger" />
+				<property name="triggerEffectShootDualsense" value="ShotgunShoot" />
+				<property name="triggerEffectShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+				<property name="Delay" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="6" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="588" />
+				<display_value name="dFuseTime" value="4" />
+				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 3 Boru Bombası -->
+		<item name="U3PipeBomb">
+			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="UBoruBombasi" />
+			<property name="CustomIconTint" value="#FFFF00" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="25" />
+			<property name="DropScale" value="2.5" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="20" />
+			<property name="EconomicValue" value="90" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı, Toprağa bonus hasar -->
+			<property name="Weight" value="0" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="900" />
+			<property name="Explosion.ParticleIndex" value="21" />
+			<property name="Explosion.RadiusBlocks" value="7" />
+			<property name="Explosion.RadiusEntities" value="7" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="90" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value=".4" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="ActivationTransformToHide" value="Sparks" />
+			<property name="SoundPickup" value="pipebomb_grab" />
+			<property name="SoundPlace" value="pipebomb_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="8" />
+				<property name="Throw_strength_max" value="50" />
+				<property name="Max_strain_time" value="1.25" />
+				<property name="Sound_start" value="swoosh" />
+				<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger" />
+				<property name="triggerEffectShootDualsense" value="ShotgunShoot" />
+				<property name="triggerEffectShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+				<property name="Delay" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="7" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="900" />
+				<display_value name="dFuseTime" value="4" />
+				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 4 Boru Bombası -->
+		<item name="U4PipeBomb">
+			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="UBoruBombasi" />
+			<property name="CustomIconTint" value="#A569BD" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="25" />
+			<property name="DropScale" value="2.5" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="20" />
+			<property name="EconomicValue" value="100" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı, Toprağa bonus hasar -->
+			<property name="Weight" value="0" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1320" />
+			<property name="Explosion.ParticleIndex" value="21" />
+			<property name="Explosion.RadiusBlocks" value="8" />
+			<property name="Explosion.RadiusEntities" value="8" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="95" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value=".4" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="ActivationTransformToHide" value="Sparks" />
+			<property name="SoundPickup" value="pipebomb_grab" />
+			<property name="SoundPlace" value="pipebomb_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="8" />
+				<property name="Throw_strength_max" value="50" />
+				<property name="Max_strain_time" value="1.25" />
+				<property name="Sound_start" value="swoosh" />
+				<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger" />
+				<property name="triggerEffectShootDualsense" value="ShotgunShoot" />
+				<property name="triggerEffectShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+				<property name="Delay" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="8" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1320" />
+				<display_value name="dFuseTime" value="4" />
+				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 5 Boru Bombası -->
+		<item name="U5PipeBomb">
+			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="UBoruBombasi" />
+			<property name="CustomIconTint" value="#F10000" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/PipeBomb/PipeBombPrefab.prefab" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="25" />
+			<property name="DropScale" value="2.5" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="20" />
+			<property name="EconomicValue" value="110" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı, Toprağa bonus hasar -->
+			<property name="Weight" value="0" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1900" />
+			<property name="Explosion.ParticleIndex" value="21" />
+			<property name="Explosion.RadiusBlocks" value="10" />
+			<property name="Explosion.RadiusEntities" value="10" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="100" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value=".4" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="ActivationTransformToHide" value="Sparks" />
+			<property name="SoundPickup" value="pipebomb_grab" />
+			<property name="SoundPlace" value="pipebomb_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="8" />
+				<property name="Throw_strength_max" value="50" />
+				<property name="Max_strain_time" value="1.25" />
+				<property name="Sound_start" value="swoosh" />
+				<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger" />
+				<property name="triggerEffectShootDualsense" value="ShotgunShoot" />
+				<property name="triggerEffectShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+				<property name="Delay" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="10" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1900" />
+				<display_value name="dFuseTime" value="4" />
+				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 1 Dinamit -->
+		<item name="U1Dinamit">
+			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="UDinamit" />
+			<property name="CustomIconTint" value="#008000" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="66" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Dynamite/dynamitePrefab.prefab" />
+			<property name="DropScale" value="2.5" />
+			<property name="Material" value="MDynamite" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="105" />
+			<property name="TraderStageTemplate" value="baseTier2" />
+			<property name="Weight" value="0" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="ActivationTransformToHide" value="Sparks" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="700" />
+			<property name="Explosion.ParticleIndex" value="22" />
+			<property name="Explosion.RadiusBlocks" value="6" />
+			<property name="Explosion.RadiusEntities" value="6" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value=".2" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="SoundPickup" value="dynamite_grab" />
+			<property name="SoundPlace" value="dynamite_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="6" />
+				<property name="Throw_strength_max" value="28" />
+				<property name="Max_strain_time" value="1.25" />
+				<property name="Sound_start" value="swoosh" />
+				<property name="triggerEffectTriggerPullDualsense" value="RifleTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="PistolTrigger" />
+				<property name="triggerEffectTriggerShootDualsense" value="MGShoot" />
+				<property name="triggerEffectTriggerShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+				<property name="Delay" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="6" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="700" />
+				<display_value name="dFuseTime" value="4" />
+				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 2 Dinamit -->
+		<item name="U2Dinamit">
+			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="UDinamit" />
+			<property name="CustomIconTint" value="#00FFFF" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="66" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Dynamite/dynamitePrefab.prefab" />
+			<property name="DropScale" value="2.5" />
+			<property name="Material" value="MDynamite" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="110" />
+			<property name="TraderStageTemplate" value="baseTier2" />
+			<property name="Weight" value="0" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="ActivationTransformToHide" value="Sparks" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="940" />
+			<property name="Explosion.ParticleIndex" value="22" />
+			<property name="Explosion.RadiusBlocks" value="7" />
+			<property name="Explosion.RadiusEntities" value="7" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value=".2" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="SoundPickup" value="dynamite_grab" />
+			<property name="SoundPlace" value="dynamite_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="6" />
+				<property name="Throw_strength_max" value="28" />
+				<property name="Max_strain_time" value="1.25" />
+				<property name="Sound_start" value="swoosh" />
+				<property name="triggerEffectTriggerPullDualsense" value="RifleTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="PistolTrigger" />
+				<property name="triggerEffectTriggerShootDualsense" value="MGShoot" />
+				<property name="triggerEffectTriggerShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+				<property name="Delay" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="7" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="940" />
+				<display_value name="dFuseTime" value="4" />
+				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 3 Dinamit -->
+		<item name="U3Dinamit">
+			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="UDinamit" />
+			<property name="CustomIconTint" value="#FFFF00" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="66" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Dynamite/dynamitePrefab.prefab" />
+			<property name="DropScale" value="2.5" />
+			<property name="Material" value="MDynamite" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="115" />
+			<property name="TraderStageTemplate" value="baseTier2" />
+			<property name="Weight" value="0" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="ActivationTransformToHide" value="Sparks" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1160" />
+			<property name="Explosion.ParticleIndex" value="22" />
+			<property name="Explosion.RadiusBlocks" value="7" />
+			<property name="Explosion.RadiusEntities" value="7" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value=".2" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="SoundPickup" value="dynamite_grab" />
+			<property name="SoundPlace" value="dynamite_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="6" />
+				<property name="Throw_strength_max" value="28" />
+				<property name="Max_strain_time" value="1.25" />
+				<property name="Sound_start" value="swoosh" />
+				<property name="triggerEffectTriggerPullDualsense" value="RifleTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="PistolTrigger" />
+				<property name="triggerEffectTriggerShootDualsense" value="MGShoot" />
+				<property name="triggerEffectTriggerShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+				<property name="Delay" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="7" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1160" />
+				<display_value name="dFuseTime" value="4" />
+				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 4 Dinamit -->
+		<item name="U4Dinamit">
+			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="UDinamit" />
+			<property name="CustomIconTint" value="#A569BD" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="66" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Dynamite/dynamitePrefab.prefab" />
+			<property name="DropScale" value="2.5" />
+			<property name="Material" value="MDynamite" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="125" />
+			<property name="TraderStageTemplate" value="baseTier2" />
+			<property name="Weight" value="0" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="ActivationTransformToHide" value="Sparks" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1540" />
+			<property name="Explosion.ParticleIndex" value="22" />
+			<property name="Explosion.RadiusBlocks" value="8" />
+			<property name="Explosion.RadiusEntities" value="8" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value=".2" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="SoundPickup" value="dynamite_grab" />
+			<property name="SoundPlace" value="dynamite_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="6" />
+				<property name="Throw_strength_max" value="28" />
+				<property name="Max_strain_time" value="1.25" />
+				<property name="Sound_start" value="swoosh" />
+				<property name="triggerEffectTriggerPullDualsense" value="RifleTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="PistolTrigger" />
+				<property name="triggerEffectTriggerShootDualsense" value="MGShoot" />
+				<property name="triggerEffectTriggerShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+				<property name="Delay" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="8" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1540" />
+				<display_value name="dFuseTime" value="4" />
+				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 5 Dinamit -->
+		<item name="U5Dinamit">
+			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="UDinamit" />
+			<property name="CustomIconTint" value="#F10000" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="66" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Dynamite/dynamitePrefab.prefab" />
+			<property name="DropScale" value="2.5" />
+			<property name="Material" value="MDynamite" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="135" />
+			<property name="TraderStageTemplate" value="baseTier2" />
+			<property name="Weight" value="0" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="ActivationTransformToHide" value="Sparks" />
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1900" />
+			<property name="Explosion.ParticleIndex" value="22" />
+			<property name="Explosion.RadiusBlocks" value="10" />
+			<property name="Explosion.RadiusEntities" value="10" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value=".2" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="SoundPickup" value="dynamite_grab" />
+			<property name="SoundPlace" value="dynamite_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="6" />
+				<property name="Throw_strength_max" value="28" />
+				<property name="Max_strain_time" value="1.25" />
+				<property name="Sound_start" value="swoosh" />
+				<property name="triggerEffectTriggerPullDualsense" value="RifleTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="PistolTrigger" />
+				<property name="triggerEffectTriggerShootDualsense" value="MGShoot" />
+				<property name="triggerEffectTriggerShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+				<property name="Delay" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="10" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1900" />
+				<display_value name="dFuseTime" value="4" />
+				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 1 El Bombası -->
+		<item name="U1Grenade">
+			<property name="Extends" value="thrownGrenadeContact" param1="ExplodeOnHit" />
+			<property name="CustomIcon" value="UElBombasi" />
+			<property name="CustomIconTint" value="#008000" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="EconomicValue" value="80" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="451" />
+			<property name="Explosion.ParticleIndex" value="13" />
+			<property name="Explosion.RadiusBlocks" value="6" />
+			<property name="Explosion.RadiusEntities" value="6" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="75" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="3" />
+			<property name="StickPercent" value=".3" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="6" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="451" />
+				<display_value name="dFuseTime" value="3" />
+			</effect_group>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<property name="Sound_start" value="grenade_pullpin" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+		</item>
+		<!-- Ultimate Tier 2 El Bombası -->
+		<item name="U2Grenade">
+			<property name="Extends" value="thrownGrenadeContact" param1="ExplodeOnHit" />
+			<property name="CustomIcon" value="UElBombasi" />
+			<property name="CustomIconTint" value="#00FFFF" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="EconomicValue" value="90" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="685" />
+			<property name="Explosion.ParticleIndex" value="13" />
+			<property name="Explosion.RadiusBlocks" value="7" />
+			<property name="Explosion.RadiusEntities" value="7" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="80" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="3" />
+			<property name="StickPercent" value=".3" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="7" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="685" />
+				<display_value name="dFuseTime" value="3" />
+			</effect_group>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<property name="Sound_start" value="grenade_pullpin" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+		</item>
+		<!-- Ultimate Tier 3 El Bombası -->
+		<item name="U3Grenade">
+			<property name="Extends" value="thrownGrenadeContact" param1="ExplodeOnHit" />
+			<property name="CustomIcon" value="UElBombasi" />
+			<property name="CustomIconTint" value="#FFFF00" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="EconomicValue" value="100" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="842" />
+			<property name="Explosion.ParticleIndex" value="13" />
+			<property name="Explosion.RadiusBlocks" value="7" />
+			<property name="Explosion.RadiusEntities" value="7" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="85" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="3" />
+			<property name="StickPercent" value=".3" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="7" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="842" />
+				<display_value name="dFuseTime" value="3" />
+			</effect_group>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<property name="Sound_start" value="grenade_pullpin" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+		</item>
+		<!-- Ultimate Tier 4 El Bombası -->
+		<item name="U4Grenade">
+			<property name="Extends" value="thrownGrenadeContact" param1="ExplodeOnHit" />
+			<property name="CustomIcon" value="UElBombasi" />
+			<property name="CustomIconTint" value="#A569BD" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="EconomicValue" value="110" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1046" />
+			<property name="Explosion.ParticleIndex" value="13" />
+			<property name="Explosion.RadiusBlocks" value="8" />
+			<property name="Explosion.RadiusEntities" value="8" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="95" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="3" />
+			<property name="StickPercent" value=".3" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="8" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1046" />
+				<display_value name="dFuseTime" value="3" />
+			</effect_group>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<property name="Sound_start" value="grenade_pullpin" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+		</item>
+		<!-- Ultimate Tier 5 El Bombası -->
+		<item name="U5Grenade">
+			<property name="Extends" value="thrownGrenadeContact" param1="ExplodeOnHit" />
+			<property name="CustomIcon" value="UElBombasi" />
+			<property name="CustomIconTint" value="#F10000" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="EconomicValue" value="130" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1600" />
+			<property name="Explosion.ParticleIndex" value="13" />
+			<property name="Explosion.RadiusBlocks" value="10" />
+			<property name="Explosion.RadiusEntities" value="10" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="100" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="3" />
+			<property name="StickPercent" value=".3" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="10" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1600" />
+				<display_value name="dFuseTime" value="3" />
+			</effect_group>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<property name="Sound_start" value="grenade_pullpin" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+		</item>
+		<!-- Ultimate Tier 1 Temaslı El Bombası -->
+		<item name="U1GrenadeContact">
+			<property name="Extends" value="thrownGrenadeContact" />
+			<property name="CustomIcon" value="UTemasliElBombasi" />
+			<property name="CustomIconTint" value="#008000" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="EconomicValue" value="80" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="451" />
+			<property name="Explosion.ParticleIndex" value="13" />
+			<property name="Explosion.RadiusBlocks" value="6" />
+			<property name="Explosion.RadiusEntities" value="6" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="75" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="6" />
+			<property name="FusePrimeOnActivate" value="true" />
+			<property name="ExplodeOnHit" value="true" />
+			<property name="StickPercent" value=".5" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="6" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="451" />
+				<display_value name="dFuseTime" value="6" />
+			</effect_group>
+			<property name="ThrowableDecoy" value="true" />
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<property name="Sound_start" value="grenade_pullpin" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+		</item>
+		<!-- Ultimate Tier 2 Temaslı El Bombası -->
+		<item name="U2GrenadeContact">
+			<property name="Extends" value="thrownGrenadeContact" />
+			<property name="CustomIcon" value="UTemasliElBombasi" />
+			<property name="CustomIconTint" value="#00FFFF" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="EconomicValue" value="95" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="685" />
+			<property name="Explosion.ParticleIndex" value="13" />
+			<property name="Explosion.RadiusBlocks" value="7" />
+			<property name="Explosion.RadiusEntities" value="7" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="80" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="6" />
+			<property name="FusePrimeOnActivate" value="true" />
+			<property name="ExplodeOnHit" value="true" />
+			<property name="StickPercent" value=".5" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="7" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="685" />
+				<display_value name="dFuseTime" value="6" />
+			</effect_group>
+			<property name="ThrowableDecoy" value="true" />
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<property name="Sound_start" value="grenade_pullpin" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+		</item>
+		<!-- Ultimate Tier 3 Temaslı El Bombası -->
+		<item name="U3GrenadeContact">
+			<property name="Extends" value="thrownGrenadeContact" />
+			<property name="CustomIcon" value="UTemasliElBombasi" />
+			<property name="CustomIconTint" value="#FFFF00" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="EconomicValue" value="105" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="842" />
+			<property name="Explosion.ParticleIndex" value="13" />
+			<property name="Explosion.RadiusBlocks" value="7" />
+			<property name="Explosion.RadiusEntities" value="7" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="85" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="6" />
+			<property name="FusePrimeOnActivate" value="true" />
+			<property name="ExplodeOnHit" value="true" />
+			<property name="StickPercent" value=".5" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="7" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="842" />
+				<display_value name="dFuseTime" value="6" />
+			</effect_group>
+			<property name="ThrowableDecoy" value="true" />
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<property name="Sound_start" value="grenade_pullpin" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+		</item>
+		<!-- Ultimate Tier 4 Temaslı El Bombası -->
+		<item name="U4GrenadeContact">
+			<property name="Extends" value="thrownGrenadeContact" />
+			<property name="CustomIcon" value="UTemasliElBombasi" />
+			<property name="CustomIconTint" value="#A569BD" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="EconomicValue" value="115" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1046" />
+			<property name="Explosion.ParticleIndex" value="13" />
+			<property name="Explosion.RadiusBlocks" value="8" />
+			<property name="Explosion.RadiusEntities" value="8" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="90" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="6" />
+			<property name="FusePrimeOnActivate" value="true" />
+			<property name="ExplodeOnHit" value="true" />
+			<property name="StickPercent" value=".5" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="8" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1046" />
+				<display_value name="dFuseTime" value="6" />
+			</effect_group>
+			<property name="ThrowableDecoy" value="true" />
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<property name="Sound_start" value="grenade_pullpin" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+		</item>
+		<!-- Ultimate Tier 5 Temaslı El Bombası -->
+		<item name="U5GrenadeContact">
+			<property name="Extends" value="thrownGrenadeContact" />
+			<property name="CustomIcon" value="UTemasliElBombasi" />
+			<property name="CustomIconTint" value="#F10000" />
+			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Grenade/GrenadePrefab.prefab" />
+			<property name="DisplayType" value="ammoGrenade" />
+			<property name="EconomicValue" value="115" />
+			<!-- Bloka vurulan hasar, Varlığa vurulan hasar, Parçacık patlama efekti, Blok yarıçapı, Varlık yarıçapı -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1600" />
+			<property name="Explosion.ParticleIndex" value="13" />
+			<property name="Explosion.RadiusBlocks" value="10" />
+			<property name="Explosion.RadiusEntities" value="10" />
+			<property name="Explosion.DamageBonus.earth" value="0" />
+			<property name="Explosion.DamageBonus.water" value="0" />
+			<property name="Explosion.BlastPower" value="100" />
+			<!-- Bekleme süresi -->
+			<property name="FuseTime" value="6" />
+			<property name="FusePrimeOnActivate" value="true" />
+			<property name="ExplodeOnHit" value="true" />
+			<property name="StickPercent" value=".5" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="10" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1600" />
+				<display_value name="dFuseTime" value="6" />
+			</effect_group>
+			<property name="ThrowableDecoy" value="true" />
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<property name="Sound_start" value="grenade_pullpin" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+		</item>
+		<!-- Ultimate Tier 1 Saatli Bomba -->
+		<item name="U1TimedCharge">
+			<property name="Extends" value="thrownTimedCharge" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="USaatliBomba" />
+			<property name="CustomIconTint" value="#008000" />
+			<property name="DisplayType" value="ammoGrenadeTimedCharge" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="62" />
+			<property name="ActivationTransformToHide" value="Armed" />
+			<property name="DropScale" value="1.8" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="350" />
+			<property name="Weight" value="0" />
+			<!-- Blok hasarı, Varlığa vurulan hasar, Parçacık patlama efekti, Varlık yarıçap -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1000" />
+			<property name="Explosion.ParticleIndex" value="21" />
+			<property name="Explosion.RadiusEntities" value="4" />
+			<property name="Explosion.BlastPower" value="75" />
+			<!-- Bekleme süresi -->
+			<property name="FusePrimeOnActivate" value="true" />
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value="1" />
+			<property name="UnlockedBy" value="craftingExplosives" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="SoundUnholster" value="charge_unholster" />
+			<property name="SoundStick" value="charge_stick" />
+			<property name="SoundTick" value="charge_beep,.8" />
+			<property name="SoundPickup" value="timedcharge_grab" />
+			<property name="SoundPlace" value="timedcharge_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="15" />
+				<property name="Max_strain_time" value="0" />
+				<property name="Sound_start" value="charge_throw" />
+				<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger" />
+				<property name="triggerEffectShootDualsense" value="ShotgunShoot" />
+				<property name="triggerEffectShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="4" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1000" />
+				<display_value name="dFuseTime" value="4" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 2 Saatli Bomba -->
+		<item name="U2TimedCharge">
+			<property name="Extends" value="thrownTimedCharge" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="USaatliBomba" />
+			<property name="CustomIconTint" value="#00FFFF" />
+			<property name="DisplayType" value="ammoGrenadeTimedCharge" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="62" />
+			<property name="ActivationTransformToHide" value="Armed" />
+			<property name="DropScale" value="1.8" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="450" />
+			<property name="Weight" value="0" />
+			<!-- Blok hasarı, Varlığa vurulan hasar, Parçacık patlama efekti, Varlık yarıçap -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="1500" />
+			<property name="Explosion.ParticleIndex" value="21" />
+			<property name="Explosion.RadiusEntities" value="5" />
+			<property name="Explosion.BlastPower" value="80" />
+			<!-- Bekleme süresi -->
+			<property name="FusePrimeOnActivate" value="true" />
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value="1" />
+			<property name="UnlockedBy" value="craftingExplosives" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="SoundUnholster" value="charge_unholster" />
+			<property name="SoundStick" value="charge_stick" />
+			<property name="SoundTick" value="charge_beep,.8" />
+			<property name="SoundPickup" value="timedcharge_grab" />
+			<property name="SoundPlace" value="timedcharge_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="15" />
+				<property name="Max_strain_time" value="0" />
+				<property name="Sound_start" value="charge_throw" />
+				<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger" />
+				<property name="triggerEffectShootDualsense" value="ShotgunShoot" />
+				<property name="triggerEffectShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="5" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="1500" />
+				<display_value name="dFuseTime" value="4" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 3 Saatli Bomba -->
+		<item name="U3TimedCharge">
+			<property name="Extends" value="thrownTimedCharge" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="USaatliBomba" />
+			<property name="CustomIconTint" value="#FFFF00" />
+			<property name="DisplayType" value="ammoGrenadeTimedCharge" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="62" />
+			<property name="ActivationTransformToHide" value="Armed" />
+			<property name="DropScale" value="1.8" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="500" />
+			<property name="Weight" value="0" />
+			<!-- Blok hasarı, Varlığa vurulan hasar, Parçacık patlama efekti, Varlık yarıçap -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="2000" />
+			<property name="Explosion.ParticleIndex" value="21" />
+			<property name="Explosion.RadiusEntities" value="6" />
+			<property name="Explosion.BlastPower" value="85" />
+			<!-- Bekleme süresi -->
+			<property name="FusePrimeOnActivate" value="true" />
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value="1" />
+			<property name="UnlockedBy" value="craftingExplosives" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="SoundUnholster" value="charge_unholster" />
+			<property name="SoundStick" value="charge_stick" />
+			<property name="SoundTick" value="charge_beep,.8" />
+			<property name="SoundPickup" value="timedcharge_grab" />
+			<property name="SoundPlace" value="timedcharge_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="15" />
+				<property name="Max_strain_time" value="0" />
+				<property name="Sound_start" value="charge_throw" />
+				<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger" />
+				<property name="triggerEffectShootDualsense" value="ShotgunShoot" />
+				<property name="triggerEffectShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="6" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="2000" />
+				<display_value name="dFuseTime" value="4" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 4 Saatli Bomba -->
+		<item name="U4TimedCharge">
+			<property name="Extends" value="thrownTimedCharge" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="USaatliBomba" />
+			<property name="CustomIconTint" value="#A569BD" />
+			<property name="DisplayType" value="ammoGrenadeTimedCharge" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="62" />
+			<property name="ActivationTransformToHide" value="Armed" />
+			<property name="DropScale" value="1.8" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="600" />
+			<property name="Weight" value="0" />
+			<!-- Blok hasarı, Varlığa vurulan hasar, Parçacık patlama efekti, Varlık yarıçap -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="2500" />
+			<property name="Explosion.ParticleIndex" value="21" />
+			<property name="Explosion.RadiusEntities" value="8" />
+			<property name="Explosion.BlastPower" value="90" />
+			<!-- Bekleme süresi -->
+			<property name="FusePrimeOnActivate" value="true" />
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value="1" />
+			<property name="UnlockedBy" value="craftingExplosives" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="SoundUnholster" value="charge_unholster" />
+			<property name="SoundStick" value="charge_stick" />
+			<property name="SoundTick" value="charge_beep,.8" />
+			<property name="SoundPickup" value="timedcharge_grab" />
+			<property name="SoundPlace" value="timedcharge_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="15" />
+				<property name="Max_strain_time" value="0" />
+				<property name="Sound_start" value="charge_throw" />
+				<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger" />
+				<property name="triggerEffectShootDualsense" value="ShotgunShoot" />
+				<property name="triggerEffectShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="8" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="2500" />
+				<display_value name="dFuseTime" value="4" />
+			</effect_group>
+		</item>
+		<!-- Ultimate Tier 5 Saatli Bomba -->
+		<item name="U5TimedCharge">
+			<property name="Extends" value="thrownTimedCharge" />
+			<property name="ItemTypeIcon" value="explosion" />
+			<property name="CustomIcon" value="USaatliBomba" />
+			<property name="CustomIconTint" value="#F10000" />
+			<property name="DisplayType" value="ammoGrenadeTimedCharge" />
+			<property name="Class" value="ItemClassTimeBomb" />
+			<property name="HoldType" value="62" />
+			<property name="ActivationTransformToHide" value="Armed" />
+			<property name="DropScale" value="1.8" />
+			<property name="Material" value="Mmetal" />
+			<property name="Stacknumber" value="10" />
+			<property name="EconomicValue" value="800" />
+			<property name="Weight" value="0" />
+			<!-- Blok hasarı, Varlığa vurulan hasar, Parçacık patlama efekti, Varlık yarıçap -->
+			<property name="Explosion.BlockDamage" value="5" />
+			<property name="Explosion.EntityDamage" value="3100" />
+			<property name="Explosion.ParticleIndex" value="21" />
+			<property name="Explosion.RadiusEntities" value="10" />
+			<property name="Explosion.BlastPower" value="100" />
+			<!-- Bekleme süresi -->
+			<property name="FusePrimeOnActivate" value="true" />
+			<property name="FuseTime" value="4" />
+			<!-- Bitiş: Saniye cinsinden süre için gerekli, maksimum 6 -->
+			<property name="StickPercent" value="1" />
+			<property name="UnlockedBy" value="craftingExplosives" />
+			<property name="Group" value="Ammo/Weapons,Ammo" />
+			<property name="SoundUnholster" value="charge_unholster" />
+			<property name="SoundStick" value="charge_stick" />
+			<property name="SoundTick" value="charge_beep,.8" />
+			<property name="SoundPickup" value="timedcharge_grab" />
+			<property name="SoundPlace" value="timedcharge_place" />
+			<property class="Action0">
+				<property name="Class" value="ThrowAway" />
+				<property name="Delay" value="1.2" />
+				<property name="Throw_strength_default" value="15" />
+				<property name="Max_strain_time" value="0" />
+				<property name="Sound_start" value="charge_throw" />
+				<property name="triggerEffectTriggerPullDualsense" value="ShotgunTrigger" />
+				<property name="triggerEffectTriggerPullXbox" value="ShotgunTrigger" />
+				<property name="triggerEffectShootDualsense" value="ShotgunShoot" />
+				<property name="triggerEffectShootXbox" value="PistolShoot" />
+			</property>
+			<property class="Action1">
+				<property name="Class" value="Activate" />
+				<property name="Delay" value="1" />
+				<requirement name="CVarCompare" cvar="_underwater" operation="LT" value="1" />
+			</property>
+			<property name="ThrowableDecoy" value="true" />
+			<effect_group tiered="false">
+				<display_value name="dExRadius" value="10" />
+				<display_value name="dExBlockDamage" value="5" />
+				<display_value name="dExEntityDamage" value="3100" />
+				<display_value name="dFuseTime" value="4" />
+			</effect_group>
+		</item>
+	</append>
+</configs>

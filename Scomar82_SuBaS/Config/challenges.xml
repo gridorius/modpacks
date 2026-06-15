@@ -1,0 +1,50 @@
+<Scomar82_SuBaS>
+
+	<append xpath="challenges">
+		
+		<challenge_category name="SuBaS" title_key="xuiSuBaS" icon="ui_game_symbol_book"/>
+	
+			<challenge_group	category="SuBaS" name="SuBaS1" title_key="challengeSuBaS1"
+								reward_text_key="challengeRewardBonusSuBas" reward_event="challenge_group_reward_SuBaS" link_challenges="true"/>
+	
+				<challenge	name="gatherRes" title_key="challengeGatherResSW" icon="ui_game_symbol_challenge_basics_gather_resources" group="SuBaS1"
+							short_description_key="challengeGatherResSWShort" description_key="challengeGatherResSWDesc"
+							reward_text_key="CRewardGRSW" reward_event="challenge_reward_GRSW">
+							<objective type="Gather" item="resourceWood" count="150"/>
+							<objective type="Gather" item="resourceScrapIron" count="100"/>
+							<objective type="Gather" item="resourceScrapPolymers" count="50"/>
+							<objective type="Gather" item="resourceDuctTape" count="3"/>
+				</challenge>
+	
+				<challenge	name="craftSW" title_key="challengeCraftSW" icon="ui_game_symbol_hammer" group="SuBaS1"
+							short_description_key="challengeCraftSWShort" description_key="challengeCraftSWDesc"
+							reward_text_key="CRewardCraftSW" reward_event="challenge_reward_CraftSW">
+							<objective type="Craft" item="Schematicswp" count="1"/>
+				</challenge>
+				
+				<challenge	name="placeSW" title_key="challengeplaceSW" icon="ui_game_symbol_workbench" group="SuBaS1"
+							short_description_key="challengeplaceSWShort" description_key="challengeplaceSWDesc"
+							reward_text_key="CRewardplaceSW" reward_event="challenge_reward_placeSW">
+							<objective type="BlockPlace" block="Schematicswp" count="1"/>
+				</challenge>
+				
+				<challenge	name="scrapSW" title_key="challengeScrapSuBaS" icon="ui_game_symbol_scrap" group="SuBaS1"
+							short_description_key="challengeScrapSuBaSShort" description_key="challengeScrapSuBaSDesc"
+							reward_text_key="CRewardscrapSW" reward_event="challenge_reward_scrapSW">
+							<objective type="Gather" item="MSchematicParts" count="12"/>
+				</challenge>
+				
+				<challenge	name="craftspGT" title_key="challengeCraftspGT" icon="ui_game_symbol_hammer" group="SuBaS1"
+							short_description_key="challengeCraftspGTShort" description_key="challengeCraftspGTDesc"
+							reward_text_key="CRewardCraftspGT" reward_event="challenge_reward_CraftspGT">
+							<objective type="Craft" item="spGreenThumb" count="1"/>
+				</challenge>
+				
+				<challenge	name="groupCompleteChallengeSuBaS1" title_key="groupCompleteChallengeSuBaS1" icon="ui_game_symbol_challenge_basics_redeem_rewards" group="SuBaS1"
+							short_description_key="groupCompleteChallengeSuBaS1Short" description_key="groupCompleteChallengeSuBaS1Desc" redeem_always="false">
+							<objective type="ChallengeComplete" challenge="SuBaS1" is_redeemed="true" is_group="true"/>
+				</challenge>
+				
+	</append>
+
+</Scomar82_SuBaS>

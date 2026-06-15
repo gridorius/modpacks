@@ -1,0 +1,19 @@
+<dotvb>
+	<append xpath="/buffs">
+		<buff name="travel_blindness" name_key="TravelBuff_Blind" >
+			<stack_type value="replace"/>
+			<duration value="1"/>
+			<display_value value="duration"/>
+
+			<effect_group>
+				<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" />
+				<triggered_effect trigger="onSelfEnteredGame" action="RemoveBuff" buff="travel_blindness"/>
+			</effect_group>
+
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="0" effect_name="FadeToBlack"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="FadeToBlack"/>
+			</effect_group>
+		</buff>
+	</append>
+</dotvb>

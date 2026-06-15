@@ -1,0 +1,38 @@
+<configs>
+    <!-- Anvil: 10x faster for BOTH smelting and crafting (10% of base time) -->
+    <!-- We remove the weird requirement so it always applies when equipped -->
+    <remove xpath="/items/item[@name='toolAnvil']/effect_group/requirement[@name='!HoldingItemHasTags']" />
+    <set xpath="/items/item[@name='toolAnvil']/effect_group/passive_effect[@name='CraftingTime' and @operation='perc_add']/@value">-0.9</set>
+    <!-- Add smelting speedup (not in vanilla anvil, but this makes it speed up everything) -->
+    <append xpath="/items/item[@name='toolAnvil']/effect_group">
+        <passive_effect name="CraftingSmeltTime" operation="perc_add" value="-0.9" tags="forge" />
+    </append>
+    <!-- Update display text in UI to show the speedup accurately (0.1x time) -->
+    <set xpath="/items/item[@name='toolAnvil']/effect_group/display_value[@name='dCraftingTime']/@value">0.1</set>
+    <append xpath="/items/item[@name='toolAnvil']/effect_group">
+        <display_value key="dCraftingSmeltTime" value="0.1" />
+    </append>
+
+    <!-- Bellows: 10x faster for BOTH smelting and crafting (10% of base time) -->
+    <set xpath="/items/item[@name='toolBellows']/effect_group/passive_effect[@name='CraftingSmeltTime' and @operation='perc_add']/@value">-0.9</set>
+    <!-- Add crafting speedup (not in vanilla bellows, but this makes it speed up everything) -->
+    <append xpath="/items/item[@name='toolBellows']/effect_group">
+        <passive_effect name="CraftingTime" operation="perc_add" value="-0.9" tags="forge" />
+    </append>
+    <!-- Update display text in UI to show the speedup accurately (0.1x time) -->
+    <set xpath="/items/item[@name='toolBellows']/effect_group/display_value[@name='dCraftingSmeltTime']/@value">0.1</set>
+    <append xpath="/items/item[@name='toolBellows']/effect_group">
+        <display_value key="dCraftingTime" value="0.1" />
+    </append>
+
+    <!-- Crucible: Add 10x faster for BOTH smelting and crafting (not in vanilla, but this mods it in) -->
+    <!-- This append should now work with the correct name 'toolForgeCrucible' -->
+    <append xpath="/items/item[@name='toolForgeCrucible']">
+        <effect_group tiered="false">
+            <passive_effect name="CraftingSmeltTime" operation="perc_add" value="-0.9" tags="forge" />
+            <passive_effect name="CraftingTime" operation="perc_add" value="-0.9" tags="forge" />
+            <display_value key="dCraftingSmeltTime" value="0.1" />
+            <display_value key="dCraftingTime" value="0.1" />
+        </effect_group>
+    </append>
+</configs>

@@ -1,0 +1,5 @@
+<configs>
+	<setattribute xpath="/windows/window[@name='windowQuestObjectives']" name="height">600</setattribute>
+	<setattribute xpath="/windows/window[@name='windowQuestObjectives']/rect[@name='content']" name="height">554</setattribute>
+	<setattribute xpath="/windows/window[@name='windowQuestObjectives']/rect[@name='content']//grid[@name='objectiveList']" name="rows">20</setattribute>
+</configs>

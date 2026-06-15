@@ -1,0 +1,28 @@
+<Scomar82_SuBaS>
+	
+	<conditional>		
+		<if cond="mod_loaded('XRamosZUI')">
+			<append xpath="/xui/ruleset">
+				<window_group name="workstation_Schematicswp" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+					<window name="windowCraftingListWorkbench"/>
+					<window name="craftingInfoPanel"/>
+					<window name="windowOutput"/>
+					<window name="windowCraftingQueue"/>
+					<window name="windowNonPagingHeader"/>
+				</window_group>
+			</append>
+		</if>
+		<else>
+			<append xpath="/xui/ruleset">
+				<window_group name="workstation_Schematicswp" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
+					<window name="windowCraftingList"/>
+					<window name="craftingInfoPanel"/>
+					<window name="windowCraftingQueue"/>
+					<window name="windowOutput"/>
+					<window name="windowNonPagingHeader"/>
+				</window_group>
+			</append>
+		</else>
+	</conditional>
+	
+</Scomar82_SuBaS>

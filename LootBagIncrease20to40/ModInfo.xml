@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="LootBagIncrease20to40" />
+	<DisplayName value="LootBagIncrease20to40" />
+	<Description value="You can now loot more lootbags in zombie"/>
+	<Author value="Akhyrion" />
+	<Version value="1.0" />
+	<Website value="" />
+    <SkipWithAntiCheat value="true" />
+</xml>

@@ -1,0 +1,335 @@
+<configs>
+	<insertAfter xpath="/progression/attributes/attribute[@name='attCrafting']">
+		<attribute name="attmoon" name_key="MoonKey" desc_key="MoonDesc" min_level="1" max_level="1" icon="Moon">
+			<level_requirements level="1">
+				<requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints01"/>
+			</level_requirements>
+			<effect_group>
+				<effect_description level="1" desc_key="MoonBase" long_desc_key="MoonLongDesc"/>
+			</effect_group>
+		</attribute>
+	</insertAfter>
+	<insertAfter xpath="/progression/perks/perk[@name='perkLockPicking']">
+		<!-- Limbus Company Inspired Skills -->
+		<skill name="skillLimbusEGO" name_key="skillLimbusEGOname" parent="attmoon" desc_key="skillLimbusEGODesc" min_level="1" max_level="1" icon="Icon_Limbus_EGO" hidden="false">
+			<effect_group/>
+		</skill>
+		<skill name="skillLimbusBody" name_key="skillLimbusBodyname" parent="attmoon" desc_key="skillLimbusBodyDesc" min_level="1" max_level="1" icon="Icon_Limbus_Body" hidden="false">
+			<effect_group/>
+		</skill>
+		<skill name="skillLimbusMind" name_key="skillLimbusMindname" parent="attmoon" desc_key="skillLimbusMindDesc" min_level="1" max_level="1" icon="Icon_Limbus_Mind" hidden="false">
+			<effect_group/>
+		</skill>
+		<skill name="skillLimbusTechnique" name_key="skillLimbusTechniquename" parent="attmoon" desc_key="skillLimbusTechniqueDesc" min_level="1" max_level="1" icon="Icon_Limbus_Technique" hidden="false">
+			<effect_group/>
+		</skill>
+		<skill name="skillLimbusResonance" name_key="skillLimbusResonancename" parent="attmoon" desc_key="skillLimbusResonanceDesc" min_level="1" max_level="1" icon="Icon_Limbus_Resonance" hidden="false">
+			<effect_group/>
+		</skill>
+		<!-- EGO: Leadership, trade, loot, mastery -->
+		<perk name="Acorp" max_level="31" parent="skillLimbusEGO" name_key="Acorpname" desc_key="AcorpDesc" icon="S1A">
+			<effect_group>
+				<passive_effect name="BarteringBuying" operation="base_add" level="1,30" value=".02,.08"/>
+				<passive_effect name="BarteringSelling" operation="base_add" level="11,30" value=".02,.08"/>
+				<passive_effect name="BarteringSelling" operation="base_add" level="31" value=".1"/>
+				<passive_effect name="BarteringBuying" operation="base_add" level="31" value=".1"/>
+				<passive_effect name="SecretStash" operation="base_add" level="1,30" value="10,70"/>
+				<passive_effect name="SecretStash" operation="base_add" level="31" value="250"/>
+				<passive_effect name="WeaponHandling" operation="perc_add" level="31" value="1"/>
+				<passive_effect name="QuestRewardChoiceCount" operation="base_add" level="31" value="2"/>
+				<passive_effect name="QuestBonusItemReward" operation="perc_add" level="1,31" value=".05,.8"/>
+				<effect_description level="1,30" desc_key="ACPA" long_desc_key="ACPD"/>
+				<effect_description level="31" desc_key="ACPE" long_desc_key="ACPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Jcorp" max_level="31" parent="skillLimbusEGO" name_key="Jcorpname" desc_key="JcorpDesc" icon="S1J">
+			<effect_group>
+				<passive_effect name="LootStage" operation="perc_add" level="1,30" value=".05,.5"/>
+				<passive_effect name="LootQuantity" operation="perc_add" level="1,30" value=".1,0.6"/>
+				<passive_effect name="LootStage" operation="perc_add" level="31" value="1"/>
+				<passive_effect name="LootQuantity" operation="perc_add" level="31" value="1"/>
+				<effect_description level="1,30" desc_key="JCPA" long_desc_key="JCPD"/>
+				<effect_description level="31" desc_key="JCPE" long_desc_key="JCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Xcorp" max_level="31" parent="skillLimbusEGO" name_key="Xcorpname" desc_key="XcorpDesc" icon="S1X">
+			<effect_group>
+				<passive_effect name="HealthMax" operation="base_add" level="1,30" value="10,300"/>
+				<passive_effect name="HealthMax" operation="base_add" level="31" value="350"/>
+				<passive_effect name="HealthLoss" operation="perc_subtract" level="31" value=".1"/>
+				<effect_description level="1,30" desc_key="XCPA" long_desc_key="XCPD"/>
+				<effect_description level="31" desc_key="XCPE" long_desc_key="XCPD"/>
+			</effect_group>
+		</perk>
+		<!-- Body: Stamina, health, resistance, regeneration -->
+		<perk name="Icorp" max_level="31" parent="skillLimbusBody" name_key="Icorpname" desc_key="IcorpDesc" icon="S1I">
+			<effect_group>
+				<passive_effect name="BuffResistance" operation="base_add" level="1,30" value=".1,0.5" tags="buffBurningMolotov,buffBurningElement,buffBurningEnvironment,buffBurningEnvironmentHack"/>
+				<passive_effect name="BuffResistance" operation="base_add" level="31" value="1" tags="buffBurningMolotov,buffBurningElement,buffBurningEnvironment,buffBurningEnvironmentHack"/>
+				<passive_effect name="BuffResistance" operation="base_add" level="31" value="1" tags="buffRadiation03"/>
+				<passive_effect name="WeaponHandling" operation="perc_add" level="1,31" value=".05,.35" tgas="perkDemolitionsExpert"/>
+				<effect_description level="1,30" desc_key="ICPA" long_desc_key="ICPD"/>
+				<effect_description level="31" desc_key="ICPE" long_desc_key="ICPD"/>
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="2.7" cvar="buffBurningMolotovDuration" operation="set" value="16">
+					<requirement name="ProgressionLevel" progression_name="Icorp" operation="Equals" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="2.7" cvar="buffBurningMolotovDuration" operation="set" value="20">
+					<requirement name="ProgressionLevel" progression_name="Icorp" operation="Equals" value="10"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="2.7" cvar="buffBurningMolotovDuration" operation="set" value="30">
+					<requirement name="ProgressionLevel" progression_name="Icorp" operation="Equals" value="20"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="2.7" cvar="buffBurningMolotovDuration" operation="set" value="40">
+					<requirement name="ProgressionLevel" progression_name="Icorp" operation="Equals" value="30"/>
+				</triggered_effect>
+				<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="positionAOE" range="2.7" cvar="buffBurningMolotovDuration" operation="set" value="60">
+					<requirement name="ProgressionLevel" progression_name="Icorp" operation="Equals" value="31"/>
+				</triggered_effect>
+			</effect_group>
+		</perk>
+		<perk name="Kcorp" max_level="31" parent="skillLimbusBody" name_key="Kcorpname" desc_key="KcorpDesc" icon="S1K">
+			<effect_group>
+				<passive_effect name="HealthChangeOT" operation="base_add" level="1,30" value=".01,.35"/>
+				<passive_effect name="HealthChangeOT" operation="base_add" level="31" value="1"/>
+				<effect_description level="1,30" desc_key="KCPA" long_desc_key="KCPD"/>
+				<effect_description level="31" desc_key="KCPE" long_desc_key="KCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Mcorp" max_level="31" parent="skillLimbusBody" name_key="Mcorpname" desc_key="McorpDesc" icon="S1M">
+			<effect_group>
+				<passive_effect name="StaminaMax" operation="base_add" value="10,350" level="1,30"/>
+				<passive_effect name="StaminaMax" operation="base_add" value="450" level="31"/>
+				<passive_effect name="HyperthermalResist" operation="base_add" level="31" value="15"/>
+				<passive_effect name="HypothermalResist" operation="base_add" level="31" value="15"/>
+				<effect_description level="1,30" desc_key="MCPA" long_desc_key="MCPD"/>
+				<effect_description level="31" desc_key="MCPE" long_desc_key="MCPD"/>
+			</effect_group>
+		</perk>
+		<!-- Mind: Crafting, intellect, drugs, experience -->
+		<perk name="Lcorp" max_level="31" parent="skillLimbusMind" name_key="Lcorpname" desc_key="LcorpDesc" icon="S1L">
+			<effect_group>
+				<effect_description level="1,30" desc_key="LCPA" long_desc_key="LCPD"/>
+				<effect_description level="31" desc_key="LCPE" long_desc_key="LCPD"/>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismDuration" operation="set" value="1">
+					<requirement name="ProgressionLevel" progression_name="Lcorp" operation="Equals" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismDuration" operation="set" value="0.5">
+					<requirement name="ProgressionLevel" progression_name="Lcorp" operation="Equals" value="10"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismDuration" operation="set" value="0.35">
+					<requirement name="ProgressionLevel" progression_name="Lcorp" operation="Equals" value="20"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$MetabolismDuration" operation="set" value="0.2">
+					<requirement name="ProgressionLevel" progression_name="Lcorp" operation="Equals" value="31"/>
+				</triggered_effect>
+			</effect_group>
+		</perk>
+		<perk name="Ncorp" max_level="31" parent="skillLimbusMind" name_key="Ncorpname" desc_key="NcorpDesc" icon="S1N">
+			<effect_group>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="1,30" value=".05,.45" tags="perkJavelinMaster"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,30" value=".05,.8" tags="perkJavelinMaster"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="31" value=".5" tags="perkJavelinMaster"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="31" value="1" tags="perkJavelinMaster"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,30" value=".05,1.5" tags="perkSkullCrusher"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="31" value="2.5" tags="perkSkullCrusher"/>
+				<passive_effect name="MaxRange" operation="perc_add" level="31" value="1" tags="perkSkullCrusher"/>
+				<passive_effect name="BlockRange" operation="perc_add" level="31" value="1" tags="perkSkullCrusher"/>
+				<passive_effect name="PlayerExpGain" operation="perc_add" value="0.1,0.8 " level="1,30"/>
+				<passive_effect name="PlayerExpGain" operation="perc_add" value="1" level="31"/>
+				<effect_description level="1,30" desc_key="NCPA" long_desc_key="NCPD"/>
+				<effect_description level="31" desc_key="NCPE" long_desc_key="NCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Ucorp" max_level="31" parent="skillLimbusMind" name_key="Ucorpname" desc_key="UcorpDesc" icon="S1U">
+			<effect_group>
+				<passive_effect name="CraftingTime" operation="perc_add" level="1,31" value="-.09,-.5"/>
+				<passive_effect name="CraftingTier" operation="base_add" level="31" value="1"/>
+				<effect_description level="1,30" desc_key="UCPA" long_desc_key="UCPD"/>
+				<effect_description level="31" desc_key="UCPE" long_desc_key="UCPD"/>
+			</effect_group>
+		</perk>
+		<!-- Technique: Melee, ranged, mining, harvesting -->
+		<perk name="Bcorp" max_level="31" parent="skillLimbusTechnique" name_key="Bcorpname" desc_key="BcorpDesc" icon="S1B">
+			<effect_group>
+				<passive_effect name="MaxRange" operation="perc_add" level="1,10" value=".1,.35" tags="ranged"/>
+				<passive_effect name="MaxRange" operation="perc_add" level="11,20" value=".35,.55" tags="ranged"/>
+				<passive_effect name="MaxRange" operation="perc_add" level="21,30" value=".55,.95" tags="ranged"/>
+				<passive_effect name="MaxRange" operation="perc_add" level="31" value="1.7" tags="ranged"/>
+				<passive_effect name="MaxRange" operation="perc_add" level="31" value="2" tags="perkMiner69r"/>
+				<passive_effect name="DamageFalloffRange" operation="base_add" level="31" value="3" tags="perkBoomstick"/>
+				<effect_description level="1,30" desc_key="BCPA" long_desc_key="BCPD"/>
+				<effect_description level="31" desc_key="BCPE" long_desc_key="BCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Ccorp" max_level="31" parent="skillLimbusTechnique" name_key="Ccorpname" desc_key="CcorpDesc" icon="S1C">
+			<effect_group>
+				<requirement name="ItemHasTags" tags="perkBrawler"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="6,30" value=".2,.6"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,30" value=".2,0.7"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="31" value="1.2"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="31" value="1.5"/>
+				<passive_effect name="RunSpeed" operation="perc_add" level="31" value=".35"/>
+				<passive_effect name="WalkSpeed" operation="perc_add" level="31" value=".3"/>
+				<passive_effect name="MaxRange" operation="perc_add" level="31" value="1"/>
+				<passive_effect name="Mobility" operation="perc_add" value="0.25" level="31"/>
+				<effect_description level="1,30" desc_key="CCPA" long_desc_key="CCPD"/>
+				<effect_description level="31" desc_key="CCPE" long_desc_key="CCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Dcorp" max_level="31" parent="skillLimbusTechnique" name_key="Dcorpname" desc_key="DcorpDesc" icon="S1D">
+			<effect_group>
+				<passive_effect name="HarvestCount" operation="perc_add" level="1,30" value=".03,.7" tags="oreWoodHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="31" value="1" tags="oreWoodHarvest"/>
+				<passive_effect name="BlockDamage" operation="perc_add" value="1" level="31"/>
+				<effect_description level="1,30" desc_key="DCPA" long_desc_key="DCPD"/>
+				<effect_description level="31" desc_key="DCPE" long_desc_key="DCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Gcorp" max_level="31" parent="skillLimbusTechnique" name_key="Gcorpname" desc_key="GcorpDesc" icon="S1G">
+			<effect_group>
+				<passive_effect name="JumpStrength" operation="perc_add" level="1,30" value=".2,1"/>
+				<passive_effect name="JumpStrength" operation="perc_add" level="31" value="1.2"/>
+				<passive_effect name="StaminaLoss" operation="perc_add" level="31" value="-.25" tags="jumping"/>
+				<passive_effect name="FallingBlockDamage" operation="perc_add" level="31" value="-.2"/>
+				<effect_description level="1,30" desc_key="GCPA" long_desc_key="GCPD"/>
+				<effect_description level="31" desc_key="GCPE" long_desc_key="GCPD"/>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$parkourBonus" operation="add" value="0">
+					<requirement name="ProgressionLevel" progression_name="Gcorp" operation="Equals" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$parkourBonus" operation="add" value=".01">
+					<requirement name="ProgressionLevel" progression_name="Gcorp" operation="Equals" value="10"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$parkourBonus" operation="add" value=".02">
+					<requirement name="ProgressionLevel" progression_name="Gcorp" operation="Equals" value="20"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$parkourBonus" operation="add" value=".05">
+					<requirement name="ProgressionLevel" progression_name="Gcorp" operation="Equals" value="30"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$parkourBonus" operation="add" value=".08">
+					<requirement name="ProgressionLevel" progression_name="Gcorp" operation="Equals" value="31"/>
+				</triggered_effect>
+			</effect_group>
+		</perk>
+		<perk name="Hcorp" max_level="31" parent="skillLimbusTechnique" name_key="Hcorpname" desc_key="HcorpDesc" icon="S1H">
+			<effect_group>
+				<passive_effect name="HarvestCount" operation="base_set" level="1,30" value="1,15" tags="HcorpA"/>
+				<passive_effect name="HarvestCount" operation="base_set" level="31" value="18" tags="HcorpA"/>
+				<passive_effect name="HarvestCount" operation="base_set" level="31" value="2" tags="HcorpE"/>
+				<effect_description level="1,30" desc_key="HCPA" long_desc_key="HCPD"/>
+				<effect_description level="31" desc_key="HCPE" long_desc_key="HCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Ocorp" max_level="31" parent="skillLimbusTechnique" name_key="Ocorpname" desc_key="OcorpDesc" icon="S1O">
+			<effect_group>
+				<passive_effect name="HarvestCount" operation="perc_add" level="1,30" value=".06,.5" tags="salvageHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="31" value="1" tags="salvageHarvest"/>
+				<passive_effect name="BlockDamage" operation="perc_add" level="31" value=".5" tags="perkSalvageOperations"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="31" value=".3" tags="perkSalvageOperations"/>
+				<effect_description level="1,30" desc_key="OCPA" long_desc_key="OCPD"/>
+				<effect_description level="31" desc_key="OCPE" long_desc_key="OCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Tcorp" max_level="31" parent="skillLimbusTechnique" name_key="Tcorpname" desc_key="TcorpDesc" icon="S1T">
+			<effect_group>
+				<passive_effect name="RoundsPerMinute" operation="perc_add" level="1,30" value=".1,.55" tags="ranged"/>
+				<passive_effect name="RoundsPerMinute" operation="perc_add" level="31" value="1" tags="ranged"/>
+				<passive_effect name="RoundsPerMinute" operation="perc_add" level="31" value="1" tags="perkSalvageOperations,perkMiner69r"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="1,30" value=".1,.5" tags="ranged"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="31" value=".75" tags="ranged"/>
+				<effect_description level="1,30" desc_key="TCPA" long_desc_key="TCPD"/>
+				<effect_description level="31" desc_key="TCPE" long_desc_key="TCPD"/>
+			</effect_group>
+		</perk>
+		<!-- Resonance: Stealth, turrets, armor, special effects -->
+		<perk name="Ecorp" max_level="31" parent="skillLimbusResonance" name_key="Ecorpname" desc_key="EcorpDesc" icon="S1E">
+			<effect_group>
+				<passive_effect name="TargetArmor" operation="perc_add" level="1,30" value="-.1,-.2" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,turretRanged,perkPenetrator,perkArchery"/>
+				<passive_effect name="TargetArmor" operation="perc_add" level="31" value="-.3" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,turretRanged,perkPenetrator,perkArchery"/>
+				<passive_effect name="EntityPenetrationCount" operation="perc_add" level="31" value="2" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,turretRanged,perkPenetrator,perkArchery"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,31" value=".05,.35" tags="ranged"/>
+				<passive_effect name="BlockDamage" operation="perc_add" level="1,31" value=".05,.35" tags="ranged"/>
+				<effect_description level="1,30" desc_key="ECPA" long_desc_key="ECPD"/>
+				<effect_description level="31" desc_key="ECPE" long_desc_key="ECPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Fcorp" max_level="31" parent="skillLimbusResonance" name_key="Fcorpname" desc_key="FcorpDesc" icon="S1F">
+			<effect_group>
+				<passive_effect name="LockPickTime" operation="perc_subtract" level="1,30" value=".05,.12"/>
+				<passive_effect name="LockPickBreakChance" operation="perc_subtract" level="1,30" value=".1,.2"/>
+				<passive_effect name="LockPickTime" operation="perc_subtract" level="31" value="0.2"/>
+				<passive_effect name="LockPickBreakChance" operation="perc_subtract" level="31" value=".55"/>
+				<passive_effect name="LootQuantity" operation="perc_add" level="1,30" value=".2,.8" tags="buriedTreasure"/>
+				<passive_effect name="LootQuantity" operation="perc_add" level="31" value="1" tags="buriedTreasure"/>
+				<effect_description level="1,30" desc_key="FCPA" long_desc_key="FCPD"/>
+				<effect_description level="31" desc_key="FCPE" long_desc_key="FCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Pcorp" max_level="31" parent="skillLimbusResonance" name_key="Pcorpname" desc_key="PcorpDesc" icon="S1P">
+			<effect_group>
+				<passive_effect name="MagazineSize" operation="perc_add" level="1,30" value="0.2,1" tags="ranged"/>
+				<passive_effect name="MagazineSize" operation="perc_add" level="31" value="2" tags="ranged"/>
+				<passive_effect name="MagazineSize" operation="base_add" level="31" value="8" tags="perkArchery"/>
+				<passive_effect name="MagazineSize" operation="base_add" level="31" value="1" tags="perkMiner69r"/>
+				<effect_description level="1,30" desc_key="PCPA" long_desc_key="PCPD"/>
+				<effect_description level="31" desc_key="PCPE" long_desc_key="PCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Qcorp" max_level="31" parent="skillLimbusResonance" name_key="Qcorpname" desc_key="QcorpDesc" icon="S1Q">
+			<effect_group>
+				<passive_effect name="DegradationPerUse" operation="perc_add" level="1,31" value="-.05,-.5" tags="melee,ranged"/>
+				<passive_effect name="DegradationPerUse" operation="perc_add" level="31" value="-.5" tags="heavyArmorDeg,lightArmorDeg"/>
+				<effect_description level="1,30" desc_key="QCPA" long_desc_key="QCPD"/>
+				<effect_description level="31" desc_key="QCPE" long_desc_key="QCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Rcorp" max_level="31" parent="skillLimbusResonance" name_key="Rcorpname" desc_key="RcorpDesc" icon="S1R">
+			<effect_group>
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,31" value=".05,.6" tags="perkElectrocutioner"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,31" value=".05,.6" tags="perkDeepCuts"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,31" value=".05,.3" tags="perkDemolitionsExpert"/>
+				<passive_effect name="BlockDamage" operation="perc_add" level="1,31" value=".05,1" tags="perkDemolitionsExpert"/>
+				<passive_effect name="MaxRange" operation="perc_add" level="31" value="8" tags="perkElectrocutioner"/>
+				<passive_effect name="BlockRange" operation="perc_add" level="31" value="8" tags="perkElectrocutioner"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" level="31" value=".6" tags="perkDeepCuts"/>
+				<passive_effect name="PhysicalDamageResist" operation="perc_add" level="31" value=".8" tags="heavyArmor"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="10" value="1" tags="cropHarvest,wildCropsHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="20" value="3" tags="cropHarvest,wildCropsHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="30" value="5" tags="cropHarvest,wildCropsHarvest"/>
+				<passive_effect name="HarvestCount" operation="perc_add" level="31" value="10" tags="cropHarvest,wildCropsHarvest"/>
+				<effect_description level="1,30" desc_key="RCPA" long_desc_key="RCPD"/>
+				<effect_description level="31" desc_key="RCPE" long_desc_key="RCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Scorp" max_level="31" parent="skillLimbusResonance" name_key="Scorpname" desc_key="ScorpDesc" icon="S1S">
+			<effect_group>
+				<passive_effect name="MagazineSize" operation="base_add" level="1,31" value="20,350" tags="turretRanged"/>
+				<passive_effect name="JunkTurretActiveRange" operation="base_add" level="1,30" value="1,30"/>
+				<passive_effect name="JunkTurretActiveRange" operation="base_add" level="31" value="35"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" level="31" value="0.5" tags="perkTurrets"/>
+				<passive_effect name="JunkTurretActiveCount" operation="base_add" level="31" value="15"/>
+				<passive_effect name="EntityDamage" operation="base_set" level="31" value="0.5" tags="perkTurrets"/>
+				<effect_description level="1,30" desc_key="SCPA" long_desc_key="SCPD"/>
+				<effect_description level="31" desc_key="SCPE" long_desc_key="SCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Vcorp" max_level="31" parent="skillLimbusResonance" name_key="Vcorpname" desc_key="VcorpDesc" icon="S1V">
+			<effect_group>
+				<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1"/>
+				<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other"/>
+				<passive_effect name="DamageBonus" operation="base_add" level="1,30" value=".4,25"/>
+				<passive_effect name="DamageBonus" operation="base_add" level="31" value="3"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="1,30" value=".2,3"/>
+				<passive_effect name="EntityDamage" operation="perc_add" level="31" value="4"/>
+				<effect_description level="1,30" desc_key="VCPA" long_desc_key="VCPD"/>
+				<effect_description level="31" desc_key="VCPE" long_desc_key="VCPD"/>
+			</effect_group>
+		</perk>
+		<perk name="Wcorp" max_level="31" parent="skillLimbusResonance" name_key="Wcorpname" desc_key="WcorpDesc" icon="S1W">
+			<effect_group>
+				<passive_effect name="HarvestCount" operation="base_set" level="1,30" value="2,18" tags="zombieHarvest"/>
+				<effect_description level="1,30" desc_key="WCPA" long_desc_key="WCPD"/>
+				<effect_description level="31" desc_key="WCPE" long_desc_key="WCPD"/>
+			</effect_group>
+		</perk>
+	</insertAfter>
+</configs>

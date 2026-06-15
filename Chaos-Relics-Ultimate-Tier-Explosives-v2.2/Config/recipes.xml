@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<append xpath="/recipes">
+		<!-- Ultimate Tier 1 Boru Bombası -->
+		<recipe name="U1PipeBomb" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="3" />
+			<ingredient name="resourceGunPowder" count="13" />
+			<ingredient name="resourceMetalPipe" count="1" />
+		</recipe>
+		<!-- Ultimate Tier 2 Boru Bombası -->
+		<recipe name="U2PipeBomb" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="4" />
+			<ingredient name="resourceGunPowder" count="13" />
+			<ingredient name="resourceMetalPipe" count="2" />
+			<ingredient name="resourceForgedSteel" count="6" />
+		</recipe>
+		<!-- Ultimate Tier 3 Boru Bombası -->
+		<recipe name="U3PipeBomb" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="15" />
+			<ingredient name="resourceGunPowder" count="20" />
+			<ingredient name="resourceMetalPipe" count="3" />
+			<ingredient name="resourceForgedSteel" count="6" />
+		</recipe>
+		<!-- Ultimate Tier 4 Boru Bombası -->
+		<recipe name="U4PipeBomb" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="30" />
+			<ingredient name="resourceGunPowder" count="25" />
+			<ingredient name="resourceMetalPipe" count="4" />
+			<ingredient name="resourceForgedSteel" count="8" />
+		</recipe>
+		<!-- Ultimate Tier 5 Boru Bombası -->
+		<recipe name="U5PipeBomb" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="40" />
+			<ingredient name="resourceGunPowder" count="35" />
+			<ingredient name="resourceMetalPipe" count="5" />
+			<ingredient name="resourceForgedSteel" count="12" />
+		</recipe>
+		<!-- Ultimate Tier 1 Dinamit -->
+		<recipe name="U1Dinamit" count="1" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="5" />
+			<ingredient name="resourceGunPowder" count="20" />
+			<ingredient name="resourceForgedSteel" count="2" />
+			<ingredient name="resourceDuctTape" count="2" />
+			<ingredient name="resourcePaper" count="12" />
+		</recipe>
+		<!-- Ultimate Tier 2 Dinamit -->
+		<recipe name="U2Dinamit" count="1" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="20" />
+			<ingredient name="resourceGunPowder" count="20" />
+			<ingredient name="resourceForgedSteel" count="4" />
+			<ingredient name="resourceDuctTape" count="2" />
+			<ingredient name="resourcePaper" count="20" />
+		</recipe>
+		<!-- Ultimate Tier 3 Dinamit -->
+		<recipe name="U3Dinamit" count="1" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="30" />
+			<ingredient name="resourceGunPowder" count="20" />
+			<ingredient name="resourceForgedSteel" count="8" />
+			<ingredient name="resourceDuctTape" count="3" />
+			<ingredient name="resourcePaper" count="25" />
+		</recipe>
+		<!-- Ultimate Tier 4 Dinamit -->
+		<recipe name="U4Dinamit" count="1" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="70" />
+			<ingredient name="resourceGunPowder" count="22" />
+			<ingredient name="resourceForgedSteel" count="12" />
+			<ingredient name="resourceDuctTape" count="4" />
+			<ingredient name="resourcePaper" count="35" />
+		</recipe>
+		<!-- Ultimate Tier 5 Dinamit -->
+		<recipe name="U5Dinamit" count="1" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceYuccaFibers" count="100" />
+			<ingredient name="resourceGunPowder" count="25" />
+			<ingredient name="resourceForgedSteel" count="16" />
+			<ingredient name="resourceDuctTape" count="6" />
+			<ingredient name="resourcePaper" count="50" />
+		</recipe>
+		<!-- Ultimate Tier 1 El Bombası -->
+		<recipe name="U1Grenade" count="1" craft_time="16" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceGunPowder" count="14" />
+			<ingredient name="resourceForgedIron" count="5" />
+			<ingredient name="resourceSpring" count="3" />
+		</recipe>
+		<!-- Ultimate Tier 2 El Bombası -->
+		<recipe name="U2Grenade" count="1" craft_time="16" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="4" />
+			<ingredient name="resourceGunPowder" count="14" />
+			<ingredient name="resourceForgedIron" count="15" />
+			<ingredient name="resourceSpring" count="4" />
+		</recipe>
+		<!-- Ultimate Tier 3 El Bombası -->
+		<recipe name="U3Grenade" count="1" craft_time="16" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="6" />
+			<ingredient name="resourceGunPowder" count="15" />
+			<ingredient name="resourceForgedIron" count="25" />
+			<ingredient name="resourceSpring" count="5" />
+		</recipe>
+		<!-- Ultimate Tier 4 El Bombası -->
+		<recipe name="U4Grenade" count="1" craft_time="16" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="8" />
+			<ingredient name="resourceGunPowder" count="20" />
+			<ingredient name="resourceForgedIron" count="35" />
+			<ingredient name="resourceSpring" count="7" />
+		</recipe>
+		<!-- Ultimate Tier 5 El Bombası -->
+		<recipe name="U5Grenade" count="1" craft_time="16" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="10" />
+			<ingredient name="resourceGunPowder" count="25" />
+			<ingredient name="resourceForgedIron" count="55" />
+			<ingredient name="resourceSpring" count="9" />
+		</recipe>
+		<!-- Ultimate Tier 1 Temaslı El Bombası -->
+		<recipe name="U1GrenadeContact" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="2" />
+			<ingredient name="resourceGunPowder" count="14" />
+			<ingredient name="resourceForgedIron" count="5" />
+			<ingredient name="resourceSpring" count="3" />
+		</recipe>
+		<!-- Ultimate Tier 2 Temaslı El Bombası -->
+		<recipe name="U2GrenadeContact" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="4" />
+			<ingredient name="resourceGunPowder" count="14" />
+			<ingredient name="resourceForgedIron" count="15" />
+			<ingredient name="resourceSpring" count="4" />
+		</recipe>
+		<!-- Ultimate Tier 3 Temaslı El Bombası -->
+		<recipe name="U3GrenadeContact" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="6" />
+			<ingredient name="resourceGunPowder" count="15" />
+			<ingredient name="resourceForgedIron" count="25" />
+			<ingredient name="resourceSpring" count="5" />
+		</recipe>
+		<!-- Ultimate Tier 4 Temaslı El Bombası -->
+		<recipe name="U4GrenadeContact" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="8" />
+			<ingredient name="resourceGunPowder" count="20" />
+			<ingredient name="resourceForgedIron" count="35" />
+			<ingredient name="resourceSpring" count="7" />
+		</recipe>
+		<!-- Ultimate Tier 5 Temaslı El Bombası -->
+		<recipe name="U5GrenadeContact" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceMechanicalParts" count="10" />
+			<ingredient name="resourceGunPowder" count="25" />
+			<ingredient name="resourceForgedIron" count="55" />
+			<ingredient name="resourceSpring" count="9" />
+		</recipe>
+		<!-- Ultimate Tier 1 Saatli Bomba -->
+		<recipe name="U1TimedCharge" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="25" />
+			<ingredient name="resourceGunPowder" count="20" />
+			<ingredient name="resourceElectricParts" count="2" />
+			<ingredient name="resourceForgedIron" count="10" />
+		</recipe>
+		<!-- Ultimate Tier 2 Saatli Bomba -->
+		<recipe name="U2TimedCharge" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="35" />
+			<ingredient name="resourceGunPowder" count="40" />
+			<ingredient name="resourceElectricParts" count="5" />
+			<ingredient name="resourceForgedIron" count="30" />
+		</recipe>
+		<!-- Ultimate Tier 3 Saatli Bomba -->
+		<recipe name="U3TimedCharge" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="55" />
+			<ingredient name="resourceGunPowder" count="50" />
+			<ingredient name="resourceElectricParts" count="6" />
+			<ingredient name="resourceForgedIron" count="40" />
+		</recipe>
+		<!-- Ultimate Tier 4 Saatli Bomba -->
+		<recipe name="U4TimedCharge" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="100" />
+			<ingredient name="resourceGunPowder" count="60" />
+			<ingredient name="resourceElectricParts" count="8" />
+			<ingredient name="resourceForgedIron" count="50" />
+		</recipe>
+		<!-- Ultimate Tier 5 Saatli Bomba -->
+		<recipe name="U5TimedCharge" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+			<ingredient name="resourceScrapIron" count="250" />
+			<ingredient name="resourceGunPowder" count="80" />
+			<ingredient name="resourceElectricParts" count="10" />
+			<ingredient name="resourceForgedIron" count="70" />
+		</recipe>
+	</append>
+</configs>

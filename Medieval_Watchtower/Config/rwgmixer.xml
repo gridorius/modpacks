@@ -1,0 +1,9 @@
+<rwgmixer>
+
+	<append xpath="/rwgmixer">
+
+		<prefab_spawn_adjust partial_name="Medieval_Watchtower" min_count="1" max_count="2"/>
+
+	</append>
+
+</rwgmixer>

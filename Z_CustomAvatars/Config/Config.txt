@@ -1,4 +1,4 @@
-LastUsedAvatar:Charger3507
+LastUsedAvatar:HSRFireflySpringMissive
 TransparencyMode:0
 AimMode:1
 ArmsMode:1

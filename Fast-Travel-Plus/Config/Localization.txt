@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+xuiFastTravelLimit,UI,XUI,x,,Fast Travel Limit,,
+lblTeleportToWaypoint,UI,Tooltip,,,Fast Travel to Selected Waypoint,,
+dotvbTravelToken,items,Item,,,dotvb's Travel Token,,
+dotvbTravelTokenDesc,items,Item,,,Adds a permanent +1 to your fast travel limit.,,

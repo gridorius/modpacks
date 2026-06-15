@@ -1,0 +1,5 @@
+<dotvb>
+	<append xpath="/styles/global">
+		<style_entry name="travel_sound" 	value="#@modfolder:Sounds/travel_sound.unity3d?FTP_TravelSound"/>
+	</append>
+</dotvb>

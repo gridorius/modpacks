@@ -1,0 +1,69 @@
+<Phys1csGamez>
+
+
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='count']/@value">0, 0, 0</set>
+	
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='forest_countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='forest_countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='forest_countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='forest_countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	
+
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='bforest_countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='bforest_countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='bforest_countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='bforest_countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	
+
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='bforest_town']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='bforest_town']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='bforest_town']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='bforest_town']/property[@name='count']/@value">0, 0, 0</set>
+	
+
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='count']/@value">0, 0, 0</set>
+	
+	
+
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='town']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='count']/@value">0, 0, 0</set>
+
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='city']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='city']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='city']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='city']/property[@name='count']/@value">0, 0, 0</set>
+
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='wasteland_city']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='wasteland_city']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='wasteland_city']/property[@name='count']/@value">0, 0, 0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='wasteland_city']/property[@name='count']/@value">0, 0, 0</set>
+
+	
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='citybig']/property[@name='count']/@value">10, 10, 10</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='citybig']/property[@name='tiles']/@value">14, 100</set>
+	
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='citybig']/property[@name='count']/@value">10, 10, 10</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='citybig']/property[@name='tiles']/@value">14, 100</set>
+	
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='citybig']/property[@name='count']/@value">10, 10, 10</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='citybig']/property[@name='tiles']/@value">14, 200</set>
+	
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='citybig']/property[@name='count']/@value">20, 20, 20</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='citybig']/property[@name='tiles']/@value">28, 400</set>
+	
+	<set xpath="/rwgmixer/township[@name='citybig']/property[@name='biomes']/@value">forest,burntforest,desert,snow,wasteland</set>
+	
+
+
+	
+
+	
+</Phys1csGamez>

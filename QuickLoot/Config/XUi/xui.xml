@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <append xpath="/xui/ruleset[@name='default']">
+        <window_group name="quickLootPanel" actionSet="false">
+            <window name="quickLootPanel"/>
+        </window_group>
+    </append>
+</configs>

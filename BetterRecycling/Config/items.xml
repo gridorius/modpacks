@@ -1,0 +1,2037 @@
+<configs>
+	<!-- Ranged Weapon -->
+	<!-- T0 Pipe -->
+	<set xpath="/items/item[@name='gunHandgunT0PipePistol']/property[@name='Material']/@value">MPipeGunParts</set>
+	<append xpath="/items/item[@name='gunHandgunT0PipePistol']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='gunShotgunT0PipeShotgun']/property[@name='Material']/@value">MPipeGunParts</set>
+	<append xpath="/items/item[@name='gunShotgunT0PipeShotgun']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='gunRifleT0PipeRifle']/property[@name='Material']/@value">MPipeGunParts</set>
+	<append xpath="/items/item[@name='gunRifleT0PipeRifle']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='gunMGT0PipeMachineGun']/property[@name='Material']/@value">MPipeGunParts</set>
+	<append xpath="/items/item[@name='gunMGT0PipeMachineGun']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<append xpath="/items">
+		<item name="MPipeGunParts">
+			<property name="DescriptionKey" value="MPipeGunPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MPipeGunParts"/>
+			<property name="CustomIcon" value="gunHandgunT0PipePistol"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceMetalPipe,resourceGlue,resourceWood"/>
+				<property name="Create_item_count" value="4,2,6"/>
+			</property>
+		</item>
+	</append>
+	<!-- Pistols -->
+	
+	<set xpath="/items/item[@name='gunHandgunT1Pistol']/property[@name='Material']/@value">MPistolParts</set>
+	
+	<set xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='Material']/@value">MSMG5Parts</set>
+	<set xpath="/items/item[@name='gunHandgunT3SMG5']/property[@name='Weight']/@value">1</set>
+	
+	<set xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='Material']/@value">MMagnum44Parts</set>
+	<set xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@name='Weight']/@value">1</set>
+	
+	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@name='Material']/@value">MDesertVultureParts</set>
+	<set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@name='Weight']/@value">1</set>
+	
+	<append xpath="/items">
+		<item name="MPistolParts">
+			<property name="DescriptionKey" value="MPistolPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MPistolParts"/>
+			<property name="CustomIcon" value="gunHandgunT1Pistol"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunHandgunT1PistolParts,resourceForgedIron,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="1,5,1,1"/>
+			</property>
+		</item>
+		
+		<item name="MSMG5Parts">
+			<property name="DescriptionKey" value="MSMG5PartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MSMG5Parts"/>
+			<property name="CustomIcon" value="gunHandgunT3SMG5"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunHandgunT1PistolParts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="13,100,13,25"/>
+			</property>
+		</item>
+		
+		<item name="MMagnum44Parts">
+			<property name="DescriptionKey" value="MMagnum44PartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MMagnum44Parts"/>
+			<property name="CustomIcon" value="gunHandgunT2Magnum44"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunHandgunT1PistolParts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="7,40,7,13"/>
+			</property>
+		</item>
+		
+		<item name="MDesertVultureParts">
+			<property name="DescriptionKey" value="MDesertVulturePartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MDesertVultureParts"/>
+			<property name="CustomIcon" value="gunHandgunT3DesertVulture"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunHandgunT1PistolParts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="13,100,13,25"/>
+			</property>
+		</item>
+	</append>
+
+	<!-- Shotguns -->
+	
+	<set xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@name='Material']/@value">MDoubleBarrelParts</set>
+	
+	<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='Material']/@value">MPumpShotgunParts</set>
+	<set xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@name='Weight']/@value">1</set>
+	
+	<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='Material']/@value">MAutoShotgunParts</set>
+	<set xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@name='Weight']/@value">1</set>
+	
+	<append xpath="/items">
+		<item name="MDoubleBarrelParts">
+			<property name="DescriptionKey" value="MDoubleBarrelPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MDoubleBarrelParts"/>
+			<property name="CustomIcon" value="gunShotgunT1DoubleBarrel"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunShotgunT1DoubleBarrelParts,resourceForgedIron,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="1,5,1,1"/>
+			</property>
+		</item>
+		
+		<item name="MPumpShotgunParts">
+			<property name="DescriptionKey" value="MPumpShotgunPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MPumpShotgunParts"/>
+			<property name="CustomIcon" value="gunShotgunT2PumpShotgun"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunShotgunT1DoubleBarrelParts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="7,40,7,13"/>
+			</property>
+		</item>
+		
+		<item name="MAutoShotgunParts">
+			<property name="DescriptionKey" value="MAutoShotgunPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MAutoShotgunParts"/>
+			<property name="CustomIcon" value="gunShotgunT3AutoShotgun"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunShotgunT1DoubleBarrelParts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="13,100,13,25"/>
+			</property>
+		</item>
+	</append>
+	
+	<!--Rifles -->
+	
+	<set xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='Material']/@value">MHuntingRifleParts</set>
+	
+	<set xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='Material']/@value">MLeverActionRifleParts</set>
+	<set xpath="/items/item[@name='gunRifleT2LeverActionRifle']/property[@name='Weight']/@value">1</set>
+	
+	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='Material']/@value">MSniperRifleParts</set>
+	<set xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@name='Weight']/@value">1</set>
+	
+	<append xpath="/items">
+		<item name="MHuntingRifleParts">
+			<property name="DescriptionKey" value="MHuntingRiflePartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MHuntingRifleParts"/>
+			<property name="CustomIcon" value="gunRifleT1HuntingRifle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunRifleT1HuntingRifleParts,resourceForgedIron,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="1,5,1,1"/>
+			</property>
+		</item>
+		
+		<item name="MLeverActionRifleParts">
+			<property name="DescriptionKey" value="MLeverActionRiflePartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MLeverActionRifleParts"/>
+			<property name="CustomIcon" value="gunRifleT2LeverActionRifle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunRifleT1HuntingRifleParts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="7,40,7,13"/>
+			</property>
+		</item>
+		
+		<item name="MSniperRifleParts">
+			<property name="DescriptionKey" value="MSniperRiflePartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MSniperRifleParts"/>
+			<property name="CustomIcon" value="gunRifleT3SniperRifle"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunRifleT1HuntingRifleParts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="13,100,13,25"/>
+			</property>
+		</item>
+	</append>
+		
+	<!--MachineGuns -->
+	
+	<set xpath="/items/item[@name='gunMGT1AK47']/property[@name='Material']/@value">MAK47Parts</set>
+	
+	<set xpath="/items/item[@name='gunMGT2TacticalAR']/property[@name='Material']/@value">MTacticalARParts</set>
+	<set xpath="/items/item[@name='gunMGT2TacticalAR']/property[@name='Weight']/@value">1</set>
+	
+	<set xpath="/items/item[@name='gunMGT3M60']/property[@name='Material']/@value">MM60Parts</set>
+	<set xpath="/items/item[@name='gunMGT3M60']/property[@name='Weight']/@value">1</set>
+	
+	<append xpath="/items">
+		<item name="MAK47Parts">
+			<property name="DescriptionKey" value="MAK47PartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MAK47Parts"/>
+			<property name="CustomIcon" value="gunMGT1AK47"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunMGT1AK47Parts,resourceForgedIron,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="1,5,1,1"/>
+			</property>
+		</item>
+		
+		<item name="MTacticalARParts">
+			<property name="DescriptionKey" value="MTacticalARPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MTacticalARParts"/>
+			<property name="CustomIcon" value="gunMGT2TacticalAR"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunMGT1AK47Parts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="7,40,7,13"/>
+			</property>
+		</item>
+		
+		<item name="MM60Parts">
+			<property name="DescriptionKey" value="MM60PartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MM60Parts"/>
+			<property name="CustomIcon" value="gunMGT3M60"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunMGT1AK47Parts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="13,100,13,25"/>
+			</property>
+		</item>
+	</append>
+	
+	<!--Rocket Launcher -->
+	
+	<set xpath="/items/item[@name='gunExplosivesT3RocketLauncher']/property[@name='Material']/@value">MBRocketLauncherParts</set>
+	
+	<append xpath="/items">
+		<item name="MBRocketLauncherParts">
+			<property name="DescriptionKey" value="MBRocketLauncherPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MBRocketLauncherParts"/>
+			<property name="CustomIcon" value="gunExplosivesT3RocketLauncher"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunExplosivesT3RocketLauncherParts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="1,20,3,3"/>
+			</property>
+		</item>
+	</append>
+	
+	<!--Archerys -->
+	
+	<set xpath="/items/item[@name='gunBowT1WoodenBow']/property[@name='Material']/@value">MWoodenBowParts</set>
+	
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/property[@name='Material']/@value">MCompoundBowParts</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundBow']/property[@name='Weight']/@value">1</set>
+	
+	<set xpath="/items/item[@name='gunBowT1IronCrossbow']/property[@name='Material']/@value">MIronCrossbowParts</set>
+	
+	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='Material']/@value">MCompoundCrossbowParts</set>
+	<set xpath="/items/item[@name='gunBowT3CompoundCrossbow']/property[@name='Weight']/@value">1</set>
+	
+	<append xpath="/items">
+		<item name="MWoodenBowParts">
+			<property name="DescriptionKey" value="MWoodenBowPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MWoodenBowParts"/>
+			<property name="CustomIcon" value="gunBowT1WoodenBow"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunBowT1WoodenBowParts,resourceWood,resourceLeather,resourceDuctTape"/>
+				<property name="Create_item_count" value="1,5,1,1"/>
+			</property>
+		</item>
+		
+		<item name="MCompoundBowParts">
+			<property name="DescriptionKey" value="MCompoundBowPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MCompoundBowParts"/>
+			<property name="CustomIcon" value="gunBowT3CompoundBow"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunBowT1WoodenBowParts,resourceLeather,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="13,25,13,25"/>
+			</property>
+		</item>
+		
+		<item name="MIronCrossbowParts">
+			<property name="DescriptionKey" value="MIronCrossbowPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MIronCrossbowParts"/>
+			<property name="CustomIcon" value="gunBowT1IronCrossbow"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunBowT1WoodenBowParts,resourceForgedIron,resourceDuctTape,resourceWood"/>
+				<property name="Create_item_count" value="7,35,7,35"/>
+			</property>
+		</item>
+		
+		<item name="MCompoundCrossbowParts">
+			<property name="DescriptionKey" value="MCompoundCrossbowPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MCompoundCrossbowParts"/>
+			<property name="CustomIcon" value="gunBowT3CompoundCrossbow"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunBowT1WoodenBowParts,resourceForgedSteel,resourceDuctTape,resourceLeather"/>
+				<property name="Create_item_count" value="13,100,13,25"/>
+			</property>
+		</item>
+	</append>
+	
+	<!-- Robots -->
+	<set xpath="/items/item[@name='gunBotT1JunkSledge']/property[@name='Material']/@value">MJunkSledgeParts</set>
+	
+	<set xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='Material']/@value">MBJunkTurretParts</set>
+	<set xpath="/items/item[@name='gunBotT2JunkTurret']/property[@name='Weight']/@value">1</set>
+	
+	<set xpath="/items/item[@name='gunBotT3JunkDrone']/property[@name='Material']/@value">MJunkDroneParts</set>
+	<set xpath="/items/item[@name='gunBotT3JunkDrone']/property[@name='Weight']/@value">1</set>
+	
+	<append xpath="/items">
+		<item name="MJunkSledgeParts">
+			<property name="DescriptionKey" value="MJunkSledgePartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MJunkSledgeParts"/>
+			<property name="CustomIcon" value="gunBotT1JunkSledge"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunBotRoboticsParts,resourceForgedIron,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="1,40,10,10"/>
+			</property>
+		</item>
+		
+		<item name="MBJunkTurretParts">
+			<property name="DescriptionKey" value="MJunkTurretPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MBJunkTurretParts"/>
+			<property name="CustomIcon" value="gunBotT2JunkTurret"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunBotRoboticsParts,resourceForgedSteel,resourceDuctTape,resourceSpring"/>
+				<property name="Create_item_count" value="1,40,10,10"/>
+			</property>
+		</item>
+		
+		<item name="MJunkDroneParts">
+			<property name="DescriptionKey" value="MJunkDronePartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MJunkDroneParts"/>
+			<property name="CustomIcon" value="gunBotT3JunkDrone"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="gunBotRoboticsParts,resourceForgedSteel,resourceDuctTape,motionsensor"/>
+				<property name="Create_item_count" value="1,10,10,2"/>
+			</property>
+		</item>
+	</append>
+	
+	<!-- Melee Weapon -->
+	<!-- Knives-->
+	<set xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']/property[@name='Material']/@value">MHuntingKnifeParts</set>
+	<append xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='Material']/@value">MMacheteParts</set>
+	<set xpath="/items/item[@name='meleeWpnBladeT3Machete']/property[@name='Weight']/@value">1</set>
+	
+	<append xpath="/items">
+		<item name="MHuntingKnifeParts">
+			<property name="DescriptionKey" value="MHuntingKnifePartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MHuntingKnifeParts"/>
+			<property name="CustomIcon" value="meleeWpnBladeT1HuntingKnife"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+				<property name="Create_item_count" value="8,4,2,2"/>
+			</property>
+		</item>
+		
+		<item name="MMacheteParts">
+			<property name="DescriptionKey" value="MMachetePartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MMacheteParts"/>
+			<property name="CustomIcon" value="meleeWpnBladeT3Machete"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeWpnBladeT3MacheteParts,resourceForgedSteel,resourceWood,resourceDuctTape"/>
+				<property name="Create_item_count" value="1,10,10,3"/>
+			</property>
+		</item>
+	</append>
+	
+	<!-- Clubs-->
+	<set xpath="/items/item[@name='meleeWpnClubT1BaseballBat']/property[@name='Material']/@value">MBaseballBatParts</set>
+	<append xpath="/items/item[@name='meleeWpnClubT1BaseballBat']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeWpnClubT3SteelClub']/property[@name='Material']/@value">MSteelClubParts</set>
+	
+	<append xpath="/items">
+		<item name="MBaseballBatParts">
+			<property name="DescriptionKey" value="MBaseballBatPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MBaseballBatParts"/>
+			<property name="CustomIcon" value="meleeWpnClubT1BaseballBat"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+				<property name="Create_item_count" value="20,10,1,1"/>
+			</property>
+		</item>
+		
+		<item name="MSteelClubParts">
+			<property name="DescriptionKey" value="MSteelClubPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MSteelClubParts"/>
+			<property name="CustomIcon" value="meleeWpnClubT3SteelClub"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeWpnClubT3SteelClubParts,resourceForgedSteel,resourceWood,resourceDuctTape"/>
+				<property name="Create_item_count" value="1,10,10,3"/>
+			</property>
+		</item>
+	</append>
+	
+	<!-- Batons-->
+	<set xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']/property[@name='Material']/@value">MPipeBatonParts</set>
+	<append xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeWpnBatonT2StunBaton']/property[@name='Material']/@value">MStunBatonParts</set>
+	
+	<append xpath="/items">
+		<item name="MPipeBatonParts">
+			<property name="DescriptionKey" value="MPipeBatonPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MPipeBatonParts"/>
+			<property name="CustomIcon" value="meleeWpnBatonT0PipeBaton"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceMetalPipe,resourceLeather"/>
+				<property name="Create_item_count" value="4,3"/>
+			</property>
+		</item>
+		
+		<item name="MStunBatonParts">
+			<property name="DescriptionKey" value="MStunBatonPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MStunBatonParts"/>
+			<property name="CustomIcon" value="meleeWpnBatonT2StunBaton"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeWpnBatonT2StunBatonParts,resourceForgedIron,resourceDuctTape,resourceElectricParts"/>
+				<property name="Create_item_count" value="1,5,2,2"/>
+			</property>
+		</item>
+	</append>
+	
+	<!--Spears-->
+	<set xpath="/items/item[@name='meleeWpnSpearT1IronSpear']/property[@name='Material']/@value">MIronSpearParts</set>
+	<append xpath="/items/item[@name='meleeWpnSpearT1IronSpear']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']/property[@name='Material']/@value">MSteelSpearParts</set>
+	
+	<append xpath="/items">
+		<item name="MIronSpearParts">
+			<property name="DescriptionKey" value="MIronSpearPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MIronSpearParts"/>
+			<property name="CustomIcon" value="meleeWpnSpearT1IronSpear"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+				<property name="Create_item_count" value="16,10,2,2"/>
+			</property>
+		</item>
+		
+		<item name="MSteelSpearParts">
+			<property name="DescriptionKey" value="MSteelSpearPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MSteelSpearParts"/>
+			<property name="CustomIcon" value="meleeWpnSpearT3SteelSpear"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeWpnSpearT3SteelSpearParts,resourceForgedSteel,resourceWood,resourceDuctTape"/>
+				<property name="Create_item_count" value="1,10,10,3"/>
+			</property>
+		</item>
+	</append>
+	
+	<!-- Sledgehammers -->
+	<set xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']/property[@name='Material']/@value">MIronSledgehammerParts</set>
+	<append xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']/property[@name='Material']/@value">MSteelSledgehammerParts</set>
+	
+	<append xpath="/items">
+		<item name="MIronSledgehammerParts">
+			<property name="DescriptionKey" value="MIronSledgehammerPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MIronSledgehammerParts"/>
+			<property name="CustomIcon" value="meleeWpnSledgeT1IronSledgehammer"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+				<property name="Create_item_count" value="30,10,2,2"/>
+			</property>
+		</item>
+		
+		<item name="MSteelSledgehammerParts">
+			<property name="DescriptionKey" value="MSteelSledgehammerPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MSteelSledgehammerParts"/>
+			<property name="CustomIcon" value="meleeWpnSledgeT3SteelSledgehammer"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeWpnSledgeT3SteelSledgehammerParts,resourceForgedSteel,resourceWood,resourceDuctTape"/>
+				<property name="Create_item_count" value="1,10,10,3"/>
+			</property>
+		</item>
+	</append>
+	
+	<!-- Knuckles -->
+	<set xpath="/items/item[@name='meleeWpnKnucklesT1IronKnuckles']/property[@name='Material']/@value">MIronKnucklesParts</set>
+	<append xpath="/items/item[@name='meleeWpnKnucklesT1IronKnuckles']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnuckles']/property[@name='Material']/@value">MSteelKnucklesParts</set>
+	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnuckles']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<append xpath="/items">
+		<item name="MIronKnucklesParts">
+			<property name="DescriptionKey" value="MIronKnucklesPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MIronKnucklesParts"/>
+			<property name="CustomIcon" value="meleeWpnKnucklesT1IronKnuckles"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceMechanicalParts,resourceLeather,resourceDuctTape"/>
+				<property name="Create_item_count" value="12,4,2,2"/>
+			</property>
+		</item>
+		
+		<item name="MSteelKnucklesParts">
+			<property name="DescriptionKey" value="MSteelKnucklesPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MSteelKnucklesParts"/>
+			<property name="CustomIcon" value="meleeWpnKnucklesT3SteelKnuckles"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeWpnKnucklesT3SteelKnucklesParts,resourceForgedSteel,resourceLeather,resourceDuctTape"/>
+				<property name="Create_item_count" value="1,10,3,3"/>
+			</property>
+		</item>
+	</append>
+	
+	<!-- Tools -->
+	<!--Miner69r-->
+	
+	<set xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@name='Material']/@value">MClawHammerParts</set>
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@name='Material']/@value">MNailgunParts</set>
+	
+	<set xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']/property[@name='Material']/@value">MIronToolParts</set>
+	<append xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeToolAxeT2SteelAxe']/property[@name='Material']/@value">MSteelToolParts</set>
+	
+	<set xpath="/items/item[@name='meleeToolPickT1IronPickaxe']/property[@name='Material']/@value">MIronToolParts</set>
+	<append xpath="/items/item[@name='meleeToolPickT1IronPickaxe']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']/property[@name='Material']/@value">MSteelToolParts</set>
+	
+	<set xpath="/items/item[@name='meleeToolShovelT1IronShovel']/property[@name='Material']/@value">MIronShovelParts</set><!--Recipe slightly different from others-->
+	<append xpath="/items/item[@name='meleeToolShovelT1IronShovel']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeToolShovelT2SteelShovel']/property[@name='Material']/@value">MSteelToolParts</set>
+	
+	<set xpath="/items/item[@name='meleeToolAxeT3Chainsaw']/property[@name='Material']/@value">MBMotorToolParts</set>
+	
+	<set xpath="/items/item[@name='meleeToolPickT3Auger']/property[@name='Material']/@value">MBMotorToolParts</set>
+	
+	<append xpath="/items">
+		<item name="MClawHammerParts">
+			<property name="DescriptionKey" value="MClawHammerPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MClawHammerParts"/>
+			<property name="CustomIcon" value="meleeToolRepairT1ClawHammer"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+				<property name="Create_item_count" value="12,6,2,2"/>
+			</property>
+		</item>
+		
+		<item name="MNailgunParts">
+			<property name="DescriptionKey" value="MIronToolPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MNailgunParts"/>
+			<property name="CustomIcon" value="meleeToolRepairT3Nailgun"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeToolAxeT3ChainsawParts,resourceForgedSteel,resourceMechanicalParts,resourceSpring"/>
+				<property name="Create_item_count" value="1,16,6,3"/>
+			</property>
+		</item>
+		
+		<item name="MIronToolParts">
+			<property name="DescriptionKey" value="MClawHammerPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MIronToolParts"/>
+			<property name="CustomIcon" value="meleeToolAxeT1IronFireaxe"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+				<property name="Create_item_count" value="20,10,2,2"/>
+			</property>
+		</item>
+		
+		<item name="MSteelToolParts">
+			<property name="DescriptionKey" value="MSteelToolPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MSteelToolParts"/>
+			<property name="CustomIcon" value="meleeToolAxeT2SteelAxe"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeToolAllSteelParts,resourceForgedSteel,resourceWood,resourceDuctTape"/>
+				<property name="Create_item_count" value="1,10,10,3"/>
+			</property>
+		</item>
+		
+		<item name="MIronShovelParts">
+			<property name="DescriptionKey" value="MIronShovelPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MIronShovelParts"/>
+			<property name="CustomIcon" value="meleeToolShovelT1IronShovel"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceWood,resourceLeather,resourceDuctTape"/>
+				<property name="Create_item_count" value="16,10,2,2"/>
+			</property>
+		</item>
+		
+		<item name="MBMotorToolParts">
+			<property name="DescriptionKey" value="MBMotorToolPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MBMotorToolParts"/>
+			<property name="CustomIcon" value="meleeToolAxeT3Chainsaw"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeToolAxeT3ChainsawParts,vehicleBicycleHandlebars,smallEngine,resourceForgedSteel"/>
+				<property name="Create_item_count" value="1,1,1,10"/>
+			</property>
+		</item>
+	</append>
+	
+	<!--Harvesting -->
+	
+	<set xpath="/items/item[@name='meleeToolSalvageT1Wrench']/property[@name='Material']/@value">MWrenchParts</set>
+	<append xpath="/items/item[@name='meleeToolSalvageT1Wrench']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeToolSalvageT2Ratchet']/property[@name='Material']/@value">MRatchetParts</set>
+
+	<set xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']/property[@name='Material']/@value">MImpactDriverParts</set>
+	
+	<append xpath="/items">
+		<item name="MWrenchParts">
+			<property name="DescriptionKey" value="MWrenchPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MWrenchParts"/>
+			<property name="CustomIcon" value="meleeToolSalvageT1Wrench"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceMechanicalParts,resourceDuctTape"/>
+				<property name="Create_item_count" value="12,4,2"/>
+			</property>
+		</item>
+		
+		<item name="MRatchetParts">
+			<property name="DescriptionKey" value="MRatchetPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MRatchetParts"/>
+			<property name="CustomIcon" value="meleeToolSalvageT2Ratchet"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeToolAllSteelParts,resourceForgedSteel,resourceMechanicalParts,resourceSpring"/>
+				<property name="Create_item_count" value="1,8,5,2"/>
+			</property>
+		</item>
+		
+		<item name="MImpactDriverParts">
+			<property name="DescriptionKey" value="MImpactDriverPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MImpactDriverParts"/>
+			<property name="CustomIcon" value="meleeToolSalvageT3ImpactDriver"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="meleeToolAxeT3ChainsawParts,resourceForgedSteel,resourceMechanicalParts,resourceSpring"/>
+				<property name="Create_item_count" value="1,16,6,3"/>
+			</property>
+		</item>
+	</append>
+	
+	<!-- Misc -->
+	<set xpath="/items/item[@name='meleeToolFlashlight02']/property[@name='Material']/@value">MFlashlightParts</set>
+	<set xpath="/items/item[@name='meleeToolFlashlight02']/property[@name='Weight']/@value">1</set>
+	
+	<set xpath="/items/item[@name='meleeToolWireTool']/property[@name='Material']/@value">MWireToolParts</set>
+	<append xpath="/items/item[@name='meleeToolWireTool']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<set xpath="/items/item[@name='meleeToolPaintTool']/property[@name='Material']/@value">MPaintToolParts</set>
+	<append xpath="/items/item[@name='meleeToolPaintTool']">
+		<property name="Weight" value="1"/>
+	</append>
+	
+	<append xpath="/items">
+		<item name="MFlashlightParts">
+			<property name="DescriptionKey" value="MFlashlightPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MFlashlightParts"/>
+			<property name="CustomIcon" value="meleeToolFlashlight02"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceElectricParts,resourceDuctTape,resourceScrapPolymers"/>
+				<property name="Create_item_count" value="1,10,4,4"/>
+			</property>
+		</item>
+		
+		<item name="MWireToolParts">
+			<property name="DescriptionKey" value="MWireToolPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MWireToolParts"/>
+			<property name="CustomIcon" value="meleeToolWireTool"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="9,3"/>
+			</property>
+		</item>
+		
+		<item name="MPaintToolParts">
+			<property name="DescriptionKey" value="MPaintToolPartsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MPaintToolParts"/>
+			<property name="CustomIcon" value="meleeToolPaintTool"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceWood,resourceLeather"/>
+				<property name="Create_item_count" value="2,1"/>
+			</property>
+		</item>
+	</append>
+	
+	<!-- Modifiers -->
+	<!--Weapon Attachments-->
+	<append xpath="/items">
+		<item name="MBarrel">
+			<property name="DescriptionKey" value="MBarrelDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MBarrel"/>
+			<property name="CustomIcon" value="modGunBarrelExtender"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceOil,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="10,5,2,2"/>
+			</property>
+		</item>
+		
+		<item name="MMuzzleBrake">
+			<property name="DescriptionKey" value="MMuzzleBrakeDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MMuzzleBrake"/>
+			<property name="CustomIcon" value="modGunMuzzleBrake"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceScrapPolymers,resourceOil,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="10,5,2,2"/>
+			</property>
+		</item>
+		
+		<item name="MLaserSight">
+			<property name="DescriptionKey" value="MLaserSightDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MLaserSight"/>
+			<property name="CustomIcon" value="modGunLaserSight"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceGlue,resourceElectricParts,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="10,2,10,2"/>
+			</property>
+		</item>
+		
+		<item name="MFlashlight">
+			<property name="DescriptionKey" value="MFlashlightDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MFlashlight"/>
+			<property name="CustomIcon" value="modGunFlashlight"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScrapPolymers,resourceGlue,resourceElectricParts,meleeToolFlashlight02"/>
+				<property name="Create_item_count" value="10,2,5,1"/>
+			</property>
+		</item>
+		
+		<item name="MScopeSmall">
+			<property name="DescriptionKey" value="MScopeSmallDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MScopeSmall"/>
+			<property name="CustomIcon" value="modGunScopeSmall"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScopeLens,resourceForgedIron,resourceScrapPolymers,resourceGlue"/>
+				<property name="Create_item_count" value="2,10,5,2"/>
+			</property>
+		</item>
+		
+		<item name="MScopeMedium">
+			<property name="DescriptionKey" value="MScopeMediumDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MScopeMedium"/>
+			<property name="CustomIcon" value="modGunScopeMedium"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScopeLens,resourceForgedSteel,resourceScrapPolymers,resourceGlue"/>
+				<property name="Create_item_count" value="4,10,8,3"/>
+			</property>
+		</item>
+		
+		<item name="MScopeLarge">
+			<property name="DescriptionKey" value="MScopeLargeDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MScopeLarge"/>
+			<property name="CustomIcon" value="modGunScopeLarge"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScopeLens,resourceForgedSteel,resourceScrapPolymers,resourceGlue"/>
+				<property name="Create_item_count" value="8,10,10,5"/>
+			</property>
+		</item>
+		
+		<item name="MReflexSight">
+			<property name="DescriptionKey" value="MReflexSightDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MReflexSight"/>
+			<property name="CustomIcon" value="modGunReflexSight"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceGlue,resourceElectricParts"/>
+				<property name="Create_item_count" value="10,10,5,10"/>
+			</property>
+		</item>
+		
+		<item name="MTriggerGroupSemi">
+			<property name="DescriptionKey" value="MTriggerGroupSemiDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MTriggerGroupSemi"/>
+			<property name="CustomIcon" value="modGunTriggerGroupSemi"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceScrapPolymers,resourceGlue,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="5,5,5,10"/>
+			</property>
+		</item>
+		
+		<item name="MTriggerGroupC">
+			<property name="DescriptionKey" value="MTriggerGroupCDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MTriggerGroupC"/>
+			<property name="CustomIcon" value="modGunTriggerGroupBurst"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceGlue,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="5,5,5,10"/>
+			</property>
+		</item>
+		
+		<item name="MWASteel">
+			<property name="DescriptionKey" value="MWASteelDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MWASteel"/>
+			<property name="CustomIcon" value="modGunRetractingStock"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceGlue,resourceMechanicalParts,resourceSpring"/>
+				<property name="Create_item_count" value="5,5,5,10"/>
+			</property>
+		</item>
+		
+		<item name="MWAIron">
+			<property name="DescriptionKey" value="MWAIronDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MWAIron"/>
+			<property name="CustomIcon" value="modGunBipod"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceGlue,resourceMechanicalParts,resourceSpring"/>
+				<property name="Create_item_count" value="5,5,5,10"/>
+			</property>
+		</item>
+		
+		<item name="MDrumMagazine">
+			<property name="DescriptionKey" value="MDrumMagazineDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MDrumMagazine"/>
+			<property name="CustomIcon" value="modGunDrumMagazineExtender"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceOil,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="20,10,4,4"/>
+			</property>
+		</item>
+		
+		<item name="MBurningShaft">
+			<property name="DescriptionKey" value="MBurningShaftDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MBurningShaft"/>
+			<property name="CustomIcon" value="modMeleeClubBurningShaft"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceGlue,resourceOil,ammoGasCan"/>
+				<property name="Create_item_count" value="5,5,5,30"/>
+			</property>
+		</item>
+		
+		<item name="MDiamondTip">
+			<property name="DescriptionKey" value="MDiamondTipDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MDiamondTip"/>
+			<property name="CustomIcon" value="modMeleeDiamondTip"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceGlue,resourceMechanicalParts,resourceRawDiamond"/>
+				<property name="Create_item_count" value="5,5,5,3"/>
+			</property>
+		</item>
+		
+		<item name="MStunBatonRepulsor">
+			<property name="DescriptionKey" value="MStunBatonRepulsorDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MStunBatonRepulsor"/>
+			<property name="CustomIcon" value="modMeleeStunBatonRepulsor"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceDuctTape,resourceElectricParts,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="5,5,10,5"/>
+			</property>
+		</item>
+		
+		<item name="MFuelTank">
+			<property name="DescriptionKey" value="MFuelTankDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MFuelTank"/>
+			<property name="CustomIcon" value="modFuelTankSmall"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceDuctTape,ammoGasCan"/>
+				<property name="Create_item_count" value="5,2,2,10"/>
+			</property>
+		</item>
+		<!--Armor Attachments-->
+		<item name="MBandolier">
+			<property name="DescriptionKey" value="MBandolierDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MBandolier"/>
+			<property name="CustomIcon" value="modArmorBandolier"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceCloth,resourceScrapPolymers,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="100,2,15,3,1"/>
+			</property>
+		</item>
+		<item name="MInsulatedLiner">
+			<property name="DescriptionKey" value="MInsulatedLinerDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MInsulatedLiner"/>
+			<property name="CustomIcon" value="modArmorInsulatedLiner"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceCloth,resourceScrapPolymers,resourceDuctTape,resourceSewingKit"/>
+				<property name="Create_item_count" value="100,2,2,1"/>
+			</property>
+		</item>
+		<item name="MCoolingMesh">
+			<property name="DescriptionKey" value="MCoolingMeshDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MCoolingMesh"/>
+			<property name="CustomIcon" value="modArmorCoolingMesh"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScrapPolymers,resourceGlue,resourceOil,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="10,2,2,2,1"/>
+			</property>
+		</item>
+		<item name="MImprovedFittings">
+			<property name="DescriptionKey" value="MImprovedFittingsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MImprovedFittings"/>
+			<property name="CustomIcon" value="modArmorImprovedFittings"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScrapPolymers,resourceLeather,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="10,4,1,4,1"/>
+			</property>
+		</item>
+		<item name="MCustomizedFittings">
+			<property name="DescriptionKey" value="MCustomizedFittingsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MCustomizedFittings"/>
+			<property name="CustomIcon" value="modArmorCustomizedFittings"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScrapPolymers,resourceLeather,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="20,8,2,8,1"/>
+			</property>
+		</item>
+		<item name="MPlatingBasic">
+			<property name="DescriptionKey" value="MPlatingBasicDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MPlatingBasic"/>
+			<property name="CustomIcon" value="modArmorPlatingBasic"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceLeather,resourceScrapPolymers,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="2,5,1,2,1"/>
+			</property>
+		</item>
+		<item name="MPlatingReinforced">
+			<property name="DescriptionKey" value="MPlatingReinforcedDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MPlatingReinforced"/>
+			<property name="CustomIcon" value="modArmorPlatingReinforced"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedIron,resourceScrapPolymers,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="10,10,2,4,1"/>
+			</property>
+		</item>
+		<item name="MStoragePocket">
+			<property name="DescriptionKey" value="MStoragePocketDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MStoragePocket"/>
+			<property name="CustomIcon" value="modArmorStoragePocket"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScrapPolymers,resourceLeather,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="10,6,1,4,1"/>
+			</property>
+		</item>
+		<item name="MDStoragePocket">
+			<property name="DescriptionKey" value="MDStoragePocketDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MDStoragePocket"/>
+			<property name="CustomIcon" value="modArmorDoubleStoragePocket"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScrapPolymers,resourceLeather,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="15,8,2,4,2"/>
+			</property>
+		</item>
+		<item name="MTStoragePocket">
+			<property name="DescriptionKey" value="MTStoragePocketDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MTStoragePocket"/>
+			<property name="CustomIcon" value="modArmorTripleStoragePocket"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScrapPolymers,resourceLeather,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="20,10,3,4,3"/>
+			</property>
+		</item>
+		<item name="MTStoragePocket">
+			<property name="DescriptionKey" value="MTStoragePocketDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MTStoragePocket"/>
+			<property name="CustomIcon" value="modArmorTripleStoragePocket"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScrapPolymers,resourceLeather,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="20,10,3,4,3"/>
+			</property>
+		</item>
+		<item name="MQStoragePocket">
+			<property name="DescriptionKey" value="MQStoragePocketDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MQStoragePocket"/>
+			<property name="CustomIcon" value="modArmorQuadStoragePocket"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceScrapPolymers,resourceLeather,resourceDuctTape,resourceSewingKit,resourceLegendaryParts"/>
+				<property name="Create_item_count" value="40,20,6,6,1"/>
+			</property>
+		</item>
+		<item name="MMuffledConnectors">
+			<property name="DescriptionKey" value="MMuffledConnectorsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MMuffledConnectors"/>
+			<property name="CustomIcon" value="modArmorMuffledConnectors"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="4,30,1,4,1"/>
+			</property>
+		</item>
+		<item name="MAMuffledConnectors">
+			<property name="DescriptionKey" value="MAMuffledConnectorsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MAMuffledConnectors"/>
+			<property name="CustomIcon" value="modArmorAdvancedMuffledConnectors"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="5,60,2,5,1"/>
+			</property>
+		</item>
+		<item name="MImpactBracing">
+			<property name="DescriptionKey" value="MImpactBracingDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MImpactBracing"/>
+			<property name="CustomIcon" value="modArmorImpactBracing"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceDuctTape,resourceMechanicalParts,resourceSpring,resourceSewingKit"/>
+				<property name="Create_item_count" value="5,2,20,20,1"/>
+			</property>
+		</item>
+		<item name="MStealthBoots">
+			<property name="DescriptionKey" value="MStealthBootsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MStealthBoots"/>
+			<property name="CustomIcon" value="modArmorStealthBoots"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceDuctTape,resourceMechanicalParts,resourceSewingKit"/>
+				<property name="Create_item_count" value="5,60,2,5,1"/>
+			</property>
+		</item>
+		<item name="MWaterPurifier">
+			<property name="DescriptionKey" value="MWaterPurifierDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MWaterPurifier"/>
+			<property name="CustomIcon" value="modArmorWaterPurifier"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceDuctTape,resourceCoal,resourceSewingKit"/>
+				<property name="Create_item_count" value="5,10,2,30,1"/>
+			</property>
+		</item>
+		<item name="MHelmetLight">
+			<property name="DescriptionKey" value="MHelmetLightDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MHelmetLight"/>
+			<property name="CustomIcon" value="modArmorHelmetLight"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceDuctTape,resourceSewingKit,meleeToolFlashlight02"/>
+				<property name="Create_item_count" value="5,2,2,1,1"/>
+			</property>
+		</item>
+		<item name="MCigar">
+			<property name="DescriptionKey" value="MCigarDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MCigar"/>
+			<property name="CustomIcon" value="apparelCigar"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceYuccaFibers,resourcePaper,resourceTestosteroneExtract"/>
+				<property name="Create_item_count" value="250,1,1"/>
+			</property>
+		</item>
+		<!--Vehicle Attachments-->
+		<item name="MFuelSaver">
+			<property name="DescriptionKey" value="MFuelSaverDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MFuelSaver"/>
+			<property name="CustomIcon" value="modVehicleFuelSaver"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceAcid,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="5,10,4,4"/>
+			</property>
+		</item>
+		<item name="MHeadlights">
+			<property name="DescriptionKey" value="MHeadlightsDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MHeadlights"/>
+			<property name="CustomIcon" value="modVehicleOffRoadHeadlights"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceElectricParts,resourceHeadlight"/>
+				<property name="Create_item_count" value="5,10,4,4"/>
+			</property>
+		</item>
+		<item name="MSuperCharger">
+			<property name="DescriptionKey" value="MSuperChargerDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MSuperCharger"/>
+			<property name="CustomIcon" value="modVehicleSuperCharger"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceMetalPipe,resourceRadiator,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="10,10,1,4"/>
+			</property>
+		</item>
+		<item name="MExpandedSeat">
+			<property name="DescriptionKey" value="MExpandedSeatDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MExpandedSeat"/>
+			<property name="CustomIcon" value="modVehicleExpandedSeat"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceCloth,resourceLeather,resourceSpring"/>
+				<property name="Create_item_count" value="5,100,4,4"/>
+			</property>
+		</item>
+		<item name="MReserveFuelTank">
+			<property name="DescriptionKey" value="MReserveFuelTankDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MReserveFuelTank"/>
+			<property name="CustomIcon" value="modVehicleReserveFuelTank"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="5,5,10,4"/>
+			</property>
+		</item>
+		<item name="MVCommon"><!-- modVehiclePlow,modVehicleArmor -->
+			<property name="DescriptionKey" value="MVCommonDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MVCommon"/>
+			<property name="CustomIcon" value="modVehiclePlow"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceMetalPipe,resourceScrapPolymers,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="10,10,10,4"/>
+			</property>
+		</item>
+		<!-- Drone Attachments-->
+		<item name="MDCommon">
+			<property name="DescriptionKey" value="MDCommonDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MDCommon"/>
+			<property name="CustomIcon" value="modRoboticDroneArmorPlatingMod"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceScrapPolymers,resourceElectricParts,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="5,10,4,4"/>
+			</property>
+		</item>
+		<item name="MDHeadlamp">
+			<property name="DescriptionKey" value="MDHeadlampDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MDHeadlamp"/>
+			<property name="CustomIcon" value="modRoboticDroneHeadlampMod"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceHeadlight,resourceElectricParts,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="5,1,4,4"/>
+			</property>
+		</item>
+		<item name="MDBooster">
+			<property name="DescriptionKey" value="MDBoosterDesc"/>
+			<property name="HoldType" value="45"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MDBooster"/>
+			<property name="CustomIcon" value="modRoboticDroneMoraleBoosterMod"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="Weight" value="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="resourceForgedSteel,resourceCloth,resourceElectricParts,resourceMechanicalParts"/>
+				<property name="Create_item_count" value="5,100,4,4"/>
+			</property>
+		</item>
+	</append>
+
+</configs>

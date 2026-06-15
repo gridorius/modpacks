@@ -1,0 +1,27 @@
+<configs>
+<append xpath="/recipes">
+
+	<recipe name="TMO_TraderJoel" count="1" craft_area="workbench" craft_time="240">
+		<ingredient name="casinoCoin" count="25000"/>
+	</recipe>
+	<recipe name="TMO_TraderRekt" count="1" craft_area="workbench" craft_time="240">
+		<ingredient name="casinoCoin" count="25000"/>
+	</recipe>
+		<recipe name="TMO_TraderHugh" count="1" craft_area="workbench" craft_time="240">
+		<ingredient name="casinoCoin" count="25000"/>
+	</recipe>
+	
+		<recipe name="TMO_TraderBob" count="1" craft_area="workbench" craft_time="240">
+		<ingredient name="casinoCoin" count="25000"/>
+	</recipe>
+		<recipe name="TMO_TraderJen" count="1" craft_area="workbench" craft_time="240">
+		<ingredient name="casinoCoin" count="25000"/>
+	</recipe>
+
+	
+</append>
+
+
+</configs>
+
+

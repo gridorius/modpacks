@@ -743,10 +743,13 @@
 	</append>
 
 	<!-- 制作队列 -->
+	<setattribute xpath="//window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid" name="rows">2</setattribute>
+	<setattribute xpath="//window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid" name="cols">7</setattribute>
 	<setattribute xpath="//window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']" name="pos">88,-15</setattribute>
 	<setattribute xpath="//window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']" name="pos">-86,0</setattribute>
 	<setattribute xpath="//window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']" name="cell_width">80</setattribute>
 	<setattribute xpath="//window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']" name="cell_height">80</setattribute>
+	<setattribute xpath="//window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']" name="transform_scale">0.7</setattribute>
 
 	<!-- 箱子支持快捷键锁定栏位 -->
 	<setattribute xpath="//window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/item_stack" name="allow_clicklock">true</setattribute>

@@ -1,0 +1,994 @@
+<configs>
+	<append xpath="/materials">
+		<material id="MPipeGunParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MPipeGunParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MPistolParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MPistolParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MSMG5Parts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MSMG5Parts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MMagnum44Parts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MMagnum44Parts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MDesertVultureParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MDesertVultureParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MDoubleBarrelParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MDoubleBarrelParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MPumpShotgunParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MPumpShotgunParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MAutoShotgunParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MAutoShotgunParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MHuntingRifleParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MHuntingRifleParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MLeverActionRifleParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MLeverActionRifleParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MSniperRifleParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MSniperRifleParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MAK47Parts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MAK47Parts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MTacticalARParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MTacticalARParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MM60Parts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MM60Parts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MBRocketLauncherParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MBRocketLauncherParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MWoodenBowParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MWoodenBowParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MCompoundBowParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MCompoundBowParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MIronCrossbowParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MIronCrossbowParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MCompoundCrossbowParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MCompoundCrossbowParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MJunkSledgeParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MJunkSledgeParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MBJunkTurretParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MBJunkTurretParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MJunkDroneParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MJunkDroneParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MHuntingKnifeParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MHuntingKnifeParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MMacheteParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MMacheteParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MBaseballBatParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MBaseballBatParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MSteelClubParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MSteelClubParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MPipeBatonParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MPipeBatonParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MStunBatonParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MStunBatonParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MIronSpearParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MIronSpearParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MSteelSpearParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MSteelSpearParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MIronSledgehammerParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MIronSledgehammerParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MSteelSledgehammerParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MSteelSledgehammerParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MIronKnucklesParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MIronSledgehammerParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MSteelKnucklesParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MSteelKnucklesParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MClawHammerParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MClawHammerParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MNailgunParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MNailgunParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MIronToolParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MIronToolParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MSteelToolParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MSteelToolParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MIronShovelParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MIronShovelParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MBMotorToolParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MBMotorToolParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MWrenchParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MWrenchParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MRatchetParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MRatchetParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MImpactDriverParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MImpactDriverParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MFlashlightParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MFlashlightParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MWireToolParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MWireToolParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MPaintToolParts">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MPaintToolParts"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MBarrel">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MBarrel"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MMuzzleBrake">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MMuzzleBrake"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MFlashlight">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MFlashlight"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MLaserSight">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MLaserSight"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MScopeSmall">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MScopeSmall"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MScopeMedium">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MScopeMedium"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MScopeLarge">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MScopeLarge"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MReflexSight">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MReflexSight"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MTriggerGroupSemi">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MTriggerGroupSemi"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MTriggerGroupC">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MTriggerGroupC"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MWASteel">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MWASteel"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MWAIron">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MWAIron"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MDrumMagazine">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MDrumMagazine"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MBurningShaft">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MBurningShaft"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MDiamondTip">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MDiamondTip"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MStunBatonRepulsor">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MStunBatonRepulsor"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MFuelTank">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MFuelTank"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MBandolier">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MBandolier"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MInsulatedLiner">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MInsulatedLiner"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MCoolingMesh">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MCoolingMesh"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MImprovedFittings">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MImprovedFittings"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MCustomizedFittings">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MCustomizedFittings"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MPlatingBasic">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MPlatingBasic"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MPlatingReinforced">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MPlatingReinforced"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MStoragePocket">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MStoragePocket"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MDStoragePocket">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MDStoragePocket"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MTStoragePocket">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MTStoragePocket"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MQStoragePocket">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MQStoragePocket"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MMuffledConnectors">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MMuffledConnectors"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MAMuffledConnectors">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MAMuffledConnectors"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MImpactBracing">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MImpactBracing"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MStealthBoots">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MStealthBoots"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MWaterPurifier">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MWaterPurifier"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MHelmetLight">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MHelmetLight"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MCigar">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MCigar"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MFuelSaver">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MFuelSaver"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MHeadlights">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MHeadlights"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MSuperCharger">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MSuperCharger"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MExpandedSeat">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MExpandedSeat"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MReserveFuelTank">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MReserveFuelTank"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MVCommon">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MVCommon"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MDCommon">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MDCommon"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MDHeadlamp">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MDHeadlamp"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+		<material id="MDBooster">
+			<property name="damage_category" value="metal"/>
+			<property name="surface_category" value="metal"/>
+			<property name="forge_category" value="MDBooster"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="20"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="Experience" value="2"/>
+		</material>
+	</append>
+</configs>

@@ -7,7 +7,7 @@
 		<!-- PT-BR: true fecha o trader durante a Lua de Sangue. false deixa sempre aberto. -->
 		<!-- ES: true cierra el trader durante la Luna de Sangre. false lo deja siempre abierto. -->
 		<!-- EN: true closes the trader during Blood Moon. false keeps it always open. -->
-		<BloodMoonClose>true</BloodMoonClose>
+		<BloodMoonClose>false</BloodMoonClose>
 
 		<!-- PT-BR: true envia mensagem no chat quando fecha e quando abre. -->
 		<!-- ES: true envia mensaje al chat cuando cierra y cuando abre. -->

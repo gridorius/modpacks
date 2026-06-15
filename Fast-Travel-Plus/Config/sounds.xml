@@ -1,0 +1,8 @@
+<dotvb>
+	<append xpath="/Sounds">
+		<SoundDataNode name="travel_sound"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI.prefab"/>
+			<Noise ID="0" noise="20" time="2" muffled_when_crouched="0.65" heat_map_strength="0.03" heat_map_time="45"/>
+			<AudioClip ClipName="#@modfolder:Sounds/travel_sound.unity3d?FTP_TravelSound"/>
+		</SoundDataNode>
+	</append>
+</dotvb>

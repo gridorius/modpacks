@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModSettings>
+  <Global>
+    <Tab name="General" displayKey="qlSettingsTabGeneral" tooltipKey="">
+      <Category name="General" displayKey="qlSettingsCategoryGeneral" tooltipKey="">
+        <Switch name="QuickLootEnabled" displayKey="qlSettingQuickLootEnabled" tooltipKey="qlSettingQuickLootEnabledTooltip" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="QuickLootAutoShow" displayKey="qlSettingQuickLootAutoShow" tooltipKey="qlSettingQuickLootAutoShowTooltip" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="ShowPickupPopup" displayKey="qlSettingShowPickupPopup" tooltipKey="qlSettingShowPickupPopupTooltip" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="PlayPickupSound" displayKey="qlSettingPlayPickupSound" tooltipKey="qlSettingPlayPickupSoundTooltip" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="DebugMode" displayKey="qlSettingDebugMode" tooltipKey="qlSettingDebugModeTooltip" defaultValue="Off" leftValue="Off" rightValue="On" />
+      </Category>
+      <Category name="AccessSafety" displayKey="qlSettingsCategoryAccessSafety" tooltipKey="qlSettingsCategoryAccessSafetyTooltip">
+        <Switch name="AllowPlayerOwnedStorage" displayKey="qlSettingAllowPlayerOwnedStorage" tooltipKey="qlSettingAllowPlayerOwnedStorageTooltip" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="AllowLandClaimStorage" displayKey="qlSettingAllowLandClaimStorage" tooltipKey="qlSettingAllowLandClaimStorageTooltip" defaultValue="Off" leftValue="Off" rightValue="On" />
+        <Switch name="AllowTraderAreaQuickLoot" displayKey="qlSettingAllowTraderAreaQuickLoot" tooltipKey="qlSettingAllowTraderAreaQuickLootTooltip" defaultValue="Off" leftValue="Off" rightValue="On" />
+        <Switch name="AllowMultiUserQuickLoot" displayKey="qlSettingAllowMultiUserQuickLoot" tooltipKey="qlSettingAllowMultiUserQuickLootTooltip" defaultValue="Off" leftValue="Off" rightValue="On" />
+        <Selector name="PlayerDeathBackpackMode" displayKey="qlSettingPlayerDeathBackpackMode" tooltipKey="qlSettingPlayerDeathBackpackModeTooltip" defaultValue="VanillaSafe">
+          <Property type="arrayValues" allowedValues="VanillaSafe,OwnOnly,Disabled" />
+        </Selector>
+      </Category>
+      <Category name="Interface" displayKey="qlSettingsCategoryInterface" tooltipKey="">
+        <Selector name="UIStylePreset" displayKey="qlSettingUiStylePreset" tooltipKey="qlSettingUiStylePresetTooltip" defaultValue="Auto">
+          <Property type="arrayValues" allowedValues="Auto,Native,CATUI,SteelUI,Compact,HighContrast" />
+        </Selector>
+        <Switch name="UIShowIcons" displayKey="qlSettingShowIcons" tooltipKey="qlSettingShowIconsTooltip" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Switch name="UIShowFooter" displayKey="qlSettingShowFooter" tooltipKey="qlSettingShowFooterTooltip" defaultValue="On" leftValue="Off" rightValue="On" />
+        <Slider name="UIPanelOffsetX" displayKey="qlSettingPanelOffsetX" tooltipKey="qlSettingPanelOffsetXTooltip" defaultValue="300">
+          <Property increment="10" minValue="-850" maxValue="850" type="incrementalValuesInt" />
+        </Slider>
+        <Slider name="UIPanelOffsetY" displayKey="qlSettingPanelOffsetY" tooltipKey="qlSettingPanelOffsetYTooltip" defaultValue="70">
+          <Property increment="10" minValue="-450" maxValue="450" type="incrementalValuesInt" />
+        </Slider>
+      </Category>
+    </Tab>
+    <Tab name="Controls" displayKey="qlSettingsTabControls" tooltipKey="">
+      <Category name="Modifier" displayKey="qlSettingsCategoryModifier" tooltipKey="qlSettingsCategoryModifierTooltip">
+        <Selector name="QuickLootModifier" displayKey="qlSettingQuickLootModifier" tooltipKey="qlSettingQuickLootModifierTooltip" defaultValue="Alt">
+          <Property type="arrayValues" allowedValues="Alt,Shift,Ctrl" />
+        </Selector>
+      </Category>
+      <Category name="ActionKeys" displayKey="qlSettingsCategoryActionKeys" tooltipKey="qlSettingsCategoryActionKeysTooltip">
+        <Binding name="TakeSelected" displayKey="qlSettingTakeSelected" tooltipKey="qlSettingTakeSelectedTooltip" />
+        <Binding name="TakeAll" displayKey="qlSettingTakeAll" tooltipKey="qlSettingTakeAllTooltip" />
+        <Binding name="SelectPrevious" displayKey="qlSettingSelectPrevious" tooltipKey="qlSettingSelectPreviousTooltip" />
+        <Binding name="SelectNext" displayKey="qlSettingSelectNext" tooltipKey="qlSettingSelectNextTooltip" />
+        <Binding name="JumpTop" displayKey="qlSettingJumpTop" tooltipKey="qlSettingJumpTopTooltip" />
+        <Binding name="JumpBottom" displayKey="qlSettingJumpBottom" tooltipKey="qlSettingJumpBottomTooltip" />
+      </Category>
+    </Tab>
+    <Tab name="Compatibility" displayKey="qlSettingsTabCompatibility" tooltipKey="qlSettingsTabCompatibilityTooltip">
+      <Category name="CompatibilityStatus" displayKey="qlSettingsCategoryCompatibilityStatus" tooltipKey="qlSettingsCategoryCompatibilityStatusTooltip">
+        <Selector name="QuartzDetectedStatus" displayKey="qlSettingQuartzDetectedStatus" tooltipKey="qlSettingQuartzDetectedStatusTooltip" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="ACTIVE" />
+        </Selector>
+        <Selector name="PackWiselyDetectedStatus" displayKey="qlSettingPackWiselyDetectedStatus" tooltipKey="qlSettingPackWiselyDetectedStatusTooltip" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="ACTIVE" />
+        </Selector>
+        <Selector name="MountedLootingDetectedStatus" displayKey="qlSettingMountedLootingDetectedStatus" tooltipKey="qlSettingMountedLootingDetectedStatusTooltip" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="ACTIVE" />
+        </Selector>
+        <Selector name="StorageSyncDetectedStatus" displayKey="qlSettingStorageSyncDetectedStatus" tooltipKey="qlSettingStorageSyncDetectedStatusTooltip" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="not active" />
+        </Selector>
+        <Selector name="CatUiDetectedStatus" displayKey="qlSettingCatUiDetectedStatus" tooltipKey="qlSettingCatUiDetectedStatusTooltip" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="ACTIVE" />
+        </Selector>
+        <Selector name="SteelUiDetectedStatus" displayKey="qlSettingSteelUiDetectedStatus" tooltipKey="qlSettingSteelUiDetectedStatusTooltip" defaultValue="not active">
+          <Property type="arrayValues" allowedValues="not active" />
+        </Selector>
+        <Selector name="QuickLootThemeStatus" displayKey="qlSettingQuickLootThemeStatus" tooltipKey="qlSettingQuickLootThemeStatusTooltip" defaultValue="Auto: Native colors">
+          <Property type="arrayValues" allowedValues="CATUI colors" />
+        </Selector>
+        <Selector name="QuickLootNativeSyncPatchStatus" displayKey="qlSettingQuickLootNativeSyncPatchStatus" tooltipKey="qlSettingQuickLootNativeSyncPatchStatusTooltip" defaultValue="disabled by settings">
+          <Property type="arrayValues" allowedValues="ACTIVE" />
+        </Selector>
+        <Selector name="QuickLootMultiUserStatus" displayKey="qlSettingQuickLootMultiUserStatus" tooltipKey="qlSettingQuickLootMultiUserStatusTooltip" defaultValue="Off">
+          <Property type="arrayValues" allowedValues="On" />
+        </Selector>
+        <Selector name="StorageSyncCompatibilityModeStatus" displayKey="qlSettingStorageSyncCompatibilityModeStatus" tooltipKey="qlSettingStorageSyncCompatibilityModeStatusTooltip" defaultValue="Auto">
+          <Property type="arrayValues" allowedValues="Auto" />
+        </Selector>
+        <Selector name="QuickLootUiPatchStatus" displayKey="qlSettingQuickLootUiPatchStatus" tooltipKey="qlSettingQuickLootUiPatchStatusTooltip" defaultValue="Quartz-scrollview">
+          <Property type="arrayValues" allowedValues="Quartz-scrollview + CATUI colors" />
+        </Selector>
+      </Category>
+    </Tab>
+  </Global>
+  <World />
+</ModSettings>

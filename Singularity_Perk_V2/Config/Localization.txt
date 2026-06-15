@@ -1,0 +1,192 @@
+﻿Key,Source,Context,Changes,English
+
+<!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- SingularityPerk -->
+<!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+<!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+attmoon,progression,Attribute,New,Singularity Perk
+MoonKey,progression,Attribute,New,Singularity Skills
+MoonDesc,progression,Attribute,New,End Game Perks based on city Singularity
+MoonBase,progression,Attribute,New,Unlock perks
+MoonLongDesc,progression,Attribute,New,"Perks Based on Project Moon Games. Very expensive beware."
+
+skillLimbusEGOname,progression,Skill,New,Singularity E.G.O.
+skillLimbusEGODesc,progression,Skill,New,Unlocks perks related to leadership, trade, and mastery.
+skillLimbusBodyname,progression,Skill,New,Singularity Body
+skillLimbusBodyDesc,progression,Skill,New,Unlocks perks related to stamina, health, and resistance.
+skillLimbusMindname,progression,Skill,New,Singularity Mind
+skillLimbusMindDesc,progression,Skill,New,Unlocks perks related to intellect, crafting, and experience.
+skillLimbusTechniquename,progression,Skill,New,Singularity Technique
+skillLimbusTechniqueDesc,progression,Skill,New,Unlocks perks related to combat, mining, and harvesting.
+skillLimbusResonancename,progression,Skill,New,Singularity Resonance
+skillLimbusResonanceDesc,progression,Skill,New,Unlocks perks related to stealth, turrets, and special effects.
+
+
+Acorp,progression,Attribute,New,ACorp
+Acorpname,progression,Attribute,New,A Corp
+AcorpDesc,progression,Attribute,New,Better at Trade
+ACPA,progression,Attribute,New,"Improve buying/selling prices by {v:2,8}%, Secret Stash by {v:10,70}, and quest reward by {v:5,80}%."
+ACPE,progression,Attribute,New,"Singularity Mastery = Take 2 quest rewards, improve weapon handling by 100%, Secret Stash by 250, and prices by 10%."
+ACPD,progression,Attribute,New,"A Corp represents the leadership and economic backbone of the city, excelling in trade negotiations and maximizing quest rewards."
+
+Bcorp,progression,Attribute,New,BCorp
+Bcorpname,progression,Attribute,New,B Corp
+BcorpDesc,progression,Attribute,New,Improve Weapon Range
+BCPA,progression,Attribute,New,"Improve ranged weapon range by {v:10,95}%."
+BCPE,progression,Attribute,New,"Singularity Mastery = Massively improve weapon range by 170%, tool range by 200%, and boomstick falloff range by 3m."
+BCPD,progression,Attribute,New,"B Corp specializes in surveillance and ranged combat, extending weapon reach and amplifying damage for those who strike from afar."
+
+Ccorp,progression,Attribute,New,CCorp
+Ccorpname,progression,Attribute,New,C Corp
+CcorpDesc,progression,Attribute,New,Improve Unarmed
+CCPA,progression,Attribute,New,"Improve unarmed damage by {v:20,70}% and attack speed by {v:20,60}%."
+CCPE,progression,Attribute,New,"Singularity Mastery = Improve unarmed damage by 150%, speed by 120%, movement speed by 35%, and range by 100%."
+CCPD,progression,Attribute,New,"C Corp, known as Claw Corp, is the city's enforcer, mastering unarmed combat with devastating speed and power."
+
+Dcorp,progression,Attribute,New,DCorp
+Dcorpname,progression,Attribute,New,D Corp
+DcorpDesc,progression,Attribute,New,Improve ore and wood harvesting
+DCPA,progression,Attribute,New,"Improve resource and mining yield by {v:3,70}%."
+DCPE,progression,Attribute,New,"Singularity Mastery = Increase harvest yield by 100% and block damage by 100%."
+DCPD,progression,Attribute,New,"D Corp is the foundation of resource extraction, vastly improving mining and wood harvesting for all industrial needs."
+
+Ecorp,progression,Attribute,New,ECorp
+Ecorpname,progression,Attribute,New,E Corp
+EcorpDesc,progression,Attribute,New,Provide armor penetration or ignore armor
+ECPA,progression,Attribute,New,"Ignore {v:10,20}% of enemy armor and improve ranged damage by {v:5,35}%."
+ECPE,progression,Attribute,New,"Singularity Mastery = Ranged weapons pierce 2 extra entities, ignoring 30% of armor."
+ECPD,progression,Attribute,New,"E Corp pioneers advanced ballistics, enhancing armor penetration and ranged weapon effectiveness against even the toughest foes."
+
+Fcorp,progression,Attribute,New,FCorp
+Fcorpname,progression,Attribute,New,F Corp
+FcorpDesc,progression,Attribute,New,Improve Lockpicking and Buried Treasure reward
+FCPA,progression,Attribute,New,"Reduce lockpicking time by {v:5,12}%, break chance by {v:10,20}%, and improve buried treasure loot by {v:20,80}%."
+FCPE,progression,Attribute,New,"Singularity Mastery = Reduce lockpick break chance by 55%, time by 20%, and improve buried treasure reward by 100%."
+FCPD,progression,Attribute,New,"F Corp employs fairy technology to unlock any barrier, making lockpicking effortless and uncovering greater buried treasures."
+
+Gcorp,progression,Attribute,New,GCorp
+Gcorpname,progression,Attribute,New,G Corp
+GcorpDesc,progression,Attribute,New,Reduce fall damage and increase jump height
+GCPA,progression,Attribute,New,"Increase jump height by {v:20,100}%."
+GCPE,progression,Attribute,New,"Singularity Mastery = Increase jump height by 120%, reduce jump stamina cost by 25%, and reduce fall damage by 20%."
+GCPD,progression,Attribute,New,"G Corp manipulates gravity, reducing fall damage and boosting jump height to traverse the cityscape with ease."
+
+Hcorp,progression,Attribute,New,HCorp
+Hcorpname,progression,Attribute,New,H Corp
+HcorpDesc,progression,Attribute,New,Harvesting terrain gives extra resource
+HCPA,progression,Attribute,New,"Harvesting terrain gives {v:1,15} extra resources."
+HCPE,progression,Attribute,New,"Singularity Mastery = Digging gravel and debris gives up to 18 extra resources, significantly increasing harvest rate."
+HCPD,progression,Attribute,New,"H Corp transforms the landscape, granting extra resources from terrain and uncovering hidden valuables beneath the surface."
+
+Icorp,progression,Attribute,New,ICorp
+Icorpname,progression,Attribute,New,I Corp
+IcorpDesc,progression,Attribute,New,Resist Fire
+ICPA,progression,Attribute,New,"Increase fire and elemental resistance by {v:10,50}% and demolition handling by {v:5,35}%."
+ICPE,progression,Attribute,New,"Singularity Mastery = Completely immune to fire and radiation (100% resistance)."
+ICPD,progression,Attribute,New,"I Corp provides cutting-edge protection, granting resistance and eventual immunity to fire and radiation hazards."
+
+Jcorp,progression,Attribute,New,JCorp
+Jcorpname,progression,Attribute,New,J Corp
+JcorpDesc,progression,Attribute,New,Increase loot quantity and stage
+JCPA,progression,Attribute,New,"Increase loot stage by {v:5,50}% and loot quantity by {v:10,60}%."
+JCPE,progression,Attribute,New,"Singularity Mastery = Significantly increase loot quality and quantity by 100%."
+JCPD,progression,Attribute,New,"J Corp is the master of scavenging, increasing both the quantity and quality of loot found throughout the city."
+
+Kcorp,progression,Attribute,New,KCorp
+Kcorpname,progression,Attribute,New,K Corp
+KcorpDesc,progression,Attribute,New,Increase regeneration
+KCPA,progression,Attribute,New,"Increase passive health regeneration by {v:0.01,0.35} HP."
+KCPE,progression,Attribute,New,"Singularity Mastery = Significantly increase regeneration to 1 HP per tick."
+KCPD,progression,Attribute,New,"K Corp advances medical science, accelerating natural regeneration and recovery for all members."
+
+Lcorp,progression,Attribute,New,LCorp
+Lcorpname,progression,Attribute,New,L Corp
+LcorpDesc,progression,Attribute,New,Increase drug duration every 10 levels
+LCPA,progression,Attribute,New,"Increase drug effect duration at milestone levels. Drugs last twice as long at level 10, and nearly three times as long at level 20."
+LCPE,progression,Attribute,New,"Singularity Mastery = Maximize drug duration, making all pharmaceutical effects last five times longer."
+LCPD,progression,Attribute,New,"L Corp extends the effects of pharmaceuticals, making every dose last longer and enhancing their benefits."
+
+Mcorp,progression,Attribute,New,MCorp
+Mcorpname,progression,Attribute,New,M Corp
+McorpDesc,progression,Attribute,New,Increase stamina
+MCPA,progression,Attribute,New,"Increase max stamina by {v:10,350}."
+MCPE,progression,Attribute,New,"Singularity Mastery = Increase max stamina by 450 and add 15 weather resistance."
+MCPD,progression,Attribute,New,"M Corp boosts stamina reserves and weather resistance, keeping operatives energized and protected in any environment."
+
+Ncorp,progression,Attribute,New,NCorp
+Ncorpname,progression,Attribute,New,N Corp
+NcorpDesc,progression,Attribute,New,"Improve spear, hammer, and XP gain"
+NCPA,progression,Attribute,New,"Improve spear damage by {v:5,80}%, hammer damage by {v:5,150}%, attack speed by {v:5,45}%, and XP gain by {v:10,80}%."
+NCPE,progression,Attribute,New,"Singularity Mastery = Improve spear damage by 100%, hammer damage by 250%, attack speed by 50%, range by 100%, and XP gain by 100%."
+NCPD,progression,Attribute,New,"N Corp trains specialists in spear and hammer combat, while also accelerating experience gain for rapid advancement."
+
+Ocorp,progression,Attribute,New,OCorp
+Ocorpname,progression,Attribute,New,O Corp
+OcorpDesc,progression,Attribute,New,Currently handle salvage
+OCPA,progression,Attribute,New,"Improve salvage yield by {v:6,50}%."
+OCPE,progression,Attribute,New,"Singularity Mastery = Increase salvage yield by 100%, tool damage by 50%, and attack speed by 30%."
+OCPD,progression,Attribute,New,"O Corp leads in salvage operations, increasing yield from dismantling and repurposing the city's remnants."
+
+Pcorp,progression,Attribute,New,PCorp
+Pcorpname,progression,Attribute,New,P Corp
+PcorpDesc,progression,Attribute,New,Currently handle ammo capacity
+PCPA,progression,Attribute,New,"Extend ranged magazine capacity by {v:20,100}%."
+PCPE,progression,Attribute,New,"Singularity Mastery = Extend magazine capacity by 200%, add 8 to bow ammo, and 1 to auger/chainsaw."
+PCPD,progression,Attribute,New,"P Corp engineers advanced ammunition systems, expanding magazine capacity and enabling new options for ranged weapons."
+
+Qcorp,progression,Attribute,New,QCorp
+Qcorpname,progression,Attribute,New,Q Corp
+QcorpDesc,progression,Attribute,New,Increase weapon durability
+QCPA,progression,Attribute,New,"Reduce weapon and tool degradation by {v:5,50}%."
+QCPE,progression,Attribute,New,"Singularity Mastery = Reduce weapon, tool, and armor degradation by 50%."
+QCPD,progression,Attribute,New,"Q Corp develops durable weaponry and armor, reducing wear and extending the lifespan of all equipment."
+
+Rcorp,progression,Attribute,New,RCorp
+Rcorpname,progression,Attribute,New,R Corp
+RcorpDesc,progression,Attribute,New,"Improve knife, baton, and explosive; every 10 levels gain extra harvest from crops"
+RCPA,progression,Attribute,New,"Improve knife and baton damage by {v:5,60}%, explosive damage by {v:5,30}%, and block damage by {v:5,100}%."
+RCPE,progression,Attribute,New,"Singularity Mastery = Give baton 8 extra range, improve knife speed by 60%, heavy armor resistance by 80%, and crop harvest by 10."
+RCPD,progression,Attribute,New,"R Corp innovates in close-quarters and explosive tactics, improving knives, batons, and crop yields for sustainable combat and food."
+
+Scorp,progression,Attribute,New,SCorp
+Scorpname,progression,Attribute,New,S Corp
+ScorpDesc,progression,Attribute,New,Junk turret specialization
+SCPA,progression,Attribute,New,"Improve junk turret active range by {v:1,30}m and magazine size by {v:20,350}."
+SCPE,progression,Attribute,New,"Singularity Mastery = Deploy up to 15 extra junk turrets, with 35m range and 50% faster reload."
+SCPD,progression,Attribute,New,"S Corp specializes in automated defense, enhancing junk turret capabilities and allowing for greater battlefield control."
+
+Tcorp,progression,Attribute,New,TCorp
+Tcorpname,progression,Attribute,New,T Corp
+TcorpDesc,progression,Attribute,New,Improve reload speed and fire rate
+TCPA,progression,Attribute,New,"Improve fire rate by {v:10,55}% and reload speed by {v:10,50}%."
+TCPE,progression,Attribute,New,"Singularity Mastery = Improve fire rate by 100%, tool attack speed by 100%, and reload speed by 75%."
+TCPD,progression,Attribute,New,"T Corp refines weapon mechanisms, increasing reload speed, fire rate, and tool efficiency for relentless offense."
+
+Ucorp,progression,Attribute,New,UCorp
+Ucorpname,progression,Attribute,New,U Corp
+UcorpDesc,progression,Attribute,New,Improve crafting speed
+UCPA,progression,Attribute,New,"Reduce crafting time by {v:9,50}%."
+UCPE,progression,Attribute,New,"Singularity Mastery = Reduce crafting time by 50% and add 1 crafting tier."
+UCPD,progression,Attribute,New,"U Corp streamlines production, accelerating crafting speed and unlocking higher-tier creations for the city's advancement."
+
+Vcorp,progression,Attribute,New,VCorp
+Vcorpname,progression,Attribute,New,V Corp
+VcorpDesc,progression,Attribute,New,Improve sneak damage
+VCPA,progression,Attribute,New,"Add {v:0.4,25} to sneak multiplier and improve sneak damage by {v:20,300}%."
+VCPE,progression,Attribute,New,"Singularity Mastery = Add 3 to sneak multiplier and 400% to sneak damage."
+VCPD,progression,Attribute,New,"V Corp perfects stealth operations, greatly increasing sneak damage and ensuring silent eliminations."
+
+Wcorp,progression,Attribute,New,WCorp
+Wcorpname,progression,Attribute,New,W Corp
+WcorpDesc,progression,Attribute,New,Improve zombie harvesting
+WCPA,progression,Attribute,New,"Extract {v:2,18} extra resources from butchering zombies."
+WCPE,progression,Attribute,New,"Singularity Mastery = Maximize zombie harvesting efficiency."
+WCPD,progression,Attribute,New,"W Corp optimizes zombie harvesting, extracting more resources from the undead and improving overall efficiency."
+
+Xcorp,progression,Attribute,New,XCorp
+Xcorpname,progression,Attribute,New,X Corp
+XcorpDesc,progression,Attribute,New,Improve health bar
+XCPA,progression,Attribute,New,"Increase max health by {v:10,300}."
+XCPE,progression,Attribute,New,"Singularity Mastery = Increase max health by 350 and reduce max health loss by 10%."
+XCPD,progression,Attribute,New,"X Corp enhances personal resilience, improving health bars and reducing incoming damage for unmatched survivability."

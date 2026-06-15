@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="TechFreqsFasterForge" />
+    <DisplayName value="TechFreqsFasterForge" />
+    <Description value="Increase smelting and crafting time when using the Crucible, Anvil and Bellows faster for the forge, requiring them for speed boosts. Server-side compatible." />
+    <Author value="TechFreq" />
+    <Version value="1.0" />
+    <Website value="https://beacons.ai/techfreq"/>
+</xml>
