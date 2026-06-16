@@ -1,35 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <quests>
-	
-	<!-- CHALLENGES  ### Any category that gets completed awards 1 Skill Point instead of EXP-->
-	<append xpath="/quests/quest[contains(@id,'challengegroup_reward')]">
-		<reward type="SkillPoints" value="1"/>
-	</append>
-	<remove xpath="/quests/quest[contains(@id,'challengegroup_reward')]/reward[@type='Exp']"/>
-	
 	<!-- TIERS  ### Tiers that get completed award 1-6 Skill Points -->
 	<!-- quest_tier1complete -->
-	<insertAfter xpath="/quests/quest[@id='quest_tier1complete']/reward[@type='Item']">
+	<insertAfter xpath="/quests/quest[starts-with(@id,'tier1_')]/reward[@id='casinoCoin']">
 		<reward type="SkillPoints" value="1" chainreward="false"/>
 	</insertAfter>
 	<!-- quest_tier2complete -->
-	<insertAfter xpath="/quests/quest[@id='quest_tier2complete']/reward[@type='Item']">
+	<insertAfter xpath="/quests/quest[starts-with(@id,'tier2_')]/reward[@id='casinoCoin']">
 		<reward type="SkillPoints" value="2" chainreward="false"/>
 	</insertAfter>
 	<!-- quest_tier3complete -->
-	<insertAfter xpath="/quests/quest[@id='quest_tier3complete']/reward[@type='Item']">
+	<insertAfter xpath="/quests/quest[starts-with(@id,'tier3_')]/reward[@id='casinoCoin']">
 		<reward type="SkillPoints" value="3" chainreward="false"/>
 	</insertAfter>
 	<!-- quest_tier4complete -->
-	<insertAfter xpath="/quests/quest[@id='quest_tier4complete']/reward[@type='Item']">
+	<insertAfter xpath="/quests/quest[starts-with(@id,'tier4_')]/reward[@id='casinoCoin']">
 		<reward type="SkillPoints" value="4" chainreward="false"/>
 	</insertAfter>
 	<!-- quest_tier5complete -->
-	<insertAfter xpath="/quests/quest[@id='quest_tier5complete']/reward[@type='Item']">
+	<insertAfter xpath="/quests/quest[starts-with(@id,'tier5_')]/reward[@id='casinoCoin']">
 		<reward type="SkillPoints" value="5" chainreward="false"/>
 	</insertAfter>
 	<!-- quest_tier6complete -->
-	<insertAfter xpath="/quests/quest[@id='quest_tier6complete']/reward[@type='Item']">
+	<insertAfter xpath="/quests/quest[starts-with(@id,'tier6_')]/reward[@id='casinoCoin']">
 		<reward type="SkillPoints" value="6" chainreward="false"/>
 	</insertAfter>
 	
