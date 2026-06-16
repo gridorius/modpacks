@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+
+
+<!-- Den3_TitanTurretDrumSchematic 設計図の扱い -->
+
+<append xpath="/items">
+    <item name="Den3_TitanTurretDrumSchematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="DescriptionKey" value="Den3_TitanTurretDrumSchematicDesc"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Den3modTitanTurretDrumMagazineExtender"/>
+
+	<property name="EconomicValue" value="800"/><!-- schematicMaster では800 -->
+
+<!-- ここを設定すると、説明文に自動的に Den3_TitanTurretDrum の内容が加わる仕様になってた。 -->
+	<property name="Unlocks" value="Den3_TitanTurretDrum"/>
+
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Den3_TitanTurretDrum" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+    </item>
+</append>
+
+
+<!-- デバック用。上記の覚えたものをリセットする本。 -->
+<append xpath="/items">
+    <item name="Den3_TitanTurretDrumForget">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="DescriptionKey" value="Den3_TitanTurretDrumForgetDesc"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="schematicMaster"/>
+    	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="Den3_TitanTurretDrum" operation="set" value="0"/>
+    	</effect_group>
+    </item>
+</append>
+
+</configs>

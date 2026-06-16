@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+
+<!-- タイタンドラムマガジンの性能設定。引き上げる。 -->
+
+    <append xpath="/item_modifiers">
+	<item_modifier name="Den3_TitanTurretDrum" installable_tags="turretRanged" modifier_tags="magazine" blocked_tags="noMods,magazine,shotgun,gun" type="attachment">
+	<property name="Extends" value="modGeneralMaster"/>
+
+	<property name="CustomIcon" value="Den3modTitanTurretDrumMagazineExtender"/>
+
+<!-- 設計図 -->
+	<property name="UnlockedBy" value="Den3_TitanTurretDrumSchematic"/>
+	<property name="TraderStageTemplate" value="modsTier3"/>
+	<property name="EconomicValue" value="5600"/> <!-- 値段 材料費1585x0.7x5+α -->
+
+	<effect_group tiered="false">
+		<passive_effect name="MagazineSize" operation="base_add" value="3000"/>
+		<passive_effect name="BurstRoundCount" operation="base_set" value="3000"/>
+
+<!-- ダメージ調整 -->
+		<passive_effect name="EntityDamage" operation="perc_add" value="0.5"/>
+
+  <!-- Rank 1:  -->
+  <passive_effect name="EntityDamage" operation="perc_add" value="0.2" tags="perkTurrets">
+    <requirement name="ProgressionLevel" progression_name="perkTurrets" operation="Equals" value="1"/>
+  </passive_effect>
+
+  <!-- Rank 2:  -->
+  <passive_effect name="EntityDamage" operation="perc_add" value="0.4" tags="perkTurrets">
+    <requirement name="ProgressionLevel" progression_name="perkTurrets" operation="Equals" value="2"/>
+  </passive_effect>
+
+  <!-- Rank 3:  -->
+  <passive_effect name="EntityDamage" operation="perc_add" value="0.6" tags="perkTurrets">
+    <requirement name="ProgressionLevel" progression_name="perkTurrets" operation="Equals" value="3"/>
+  </passive_effect>
+
+  <!-- Rank 4:  -->
+  <passive_effect name="EntityDamage" operation="perc_add" value="0.8" tags="perkTurrets">
+    <requirement name="ProgressionLevel" progression_name="perkTurrets" operation="Equals" value="4"/>
+  </passive_effect>
+
+  <!-- Rank 5:  -->
+  <passive_effect name="EntityDamage" operation="perc_add" value="1.0" tags="perkTurrets">
+    <requirement name="ProgressionLevel" progression_name="perkTurrets" operation="Equals" value="5"/>
+  </passive_effect>
+
+
+
+<!-- 連射速度（RPM）を調整。perkTurretsは反映されないので、turretRangedも併用する。 -->
+	<passive_effect name="RoundsPerMinute" operation="perc_add" value="1"/>
+
+  <!-- Rank 1:  -->
+  <passive_effect name="RoundsPerMinute" operation="perc_add" value=".3" tags="perkTurrets,turretRanged">
+    <requirement name="ProgressionLevel" progression_name="perkTurrets" operation="Equals" value="1"/>
+  </passive_effect>
+
+  <!-- Rank 2:  -->
+  <passive_effect name="RoundsPerMinute" operation="perc_add" value=".6" tags="perkTurrets,turretRanged">
+    <requirement name="ProgressionLevel" progression_name="perkTurrets" operation="Equals" value="2"/>
+  </passive_effect>
+
+  <!-- Rank 3:  -->
+  <passive_effect name="RoundsPerMinute" operation="perc_add" value=".9" tags="perkTurrets,turretRanged">
+    <requirement name="ProgressionLevel" progression_name="perkTurrets" operation="Equals" value="3"/>
+  </passive_effect>
+
+  <!-- Rank 4:  -->
+  <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.2" tags="perkTurrets,turretRanged">
+    <requirement name="ProgressionLevel" progression_name="perkTurrets" operation="Equals" value="4"/>
+  </passive_effect>
+
+  <!-- Rank 5:  -->
+  <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.5" tags="perkTurrets,turretRanged">
+    <requirement name="ProgressionLevel" progression_name="perkTurrets" operation="Equals" value="5"/>
+  </passive_effect>
+
+
+
+<!-- 壊れにくくする。 -->
+		<passive_effect name="DegradationPerUse" operation="perc_add" value="-.8" tags="turretRanged,perkTurrets"/>
+
+		<passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-.5"/>
+<!-- 有効射程 -->
+		<passive_effect name="DamageFalloffRange" operation="perc_add" value=".5"/>
+		<passive_effect name="MaxRange" operation="perc_add" value=".5"/>
+
+<!-- 持った時の命中制度 -->
+		<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.1"/>
+		<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.6"/>
+
+<!-- 連射中、弾を撃つごとに拡散 -->
+	<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".02"/>
+
+<!-- 反動が小さくなる。-->
+	<passive_effect name="KickDegreesVerticalMin" operation="perc_add" value="-.9"/>
+	<passive_effect name="KickDegreesVerticalMax" operation="perc_add" value="-.9"/>
+	<passive_effect name="KickDegreesHorizontalMin" operation="perc_add" value="-.9"/>
+	<passive_effect name="KickDegreesHorizontalMax" operation="perc_add" value="-.9"/>
+
+<!-- 歩く速度を低下。 -->
+	<passive_effect name="WalkSpeed" operation="perc_add" value="-.8"/>
+
+<!-- 歩行中のスタミナ回復を低下。 -->
+	<passive_effect name="StaminaChangeOT" operation="perc_add" value="-.3" tags="swimming,walking"/>
+
+<!-- 走る速度を低下。 -->
+	<passive_effect name="RunSpeed" operation="perc_add" value="-.8"/>
+
+<!-- しゃがみ移動速度を低下。 -->
+	<passive_effect name="CrouchSpeed" operation="perc_add" value="-.8"/>
+
+<!-- 水中では動けない。 -->
+	<passive_effect name="WalkSpeed" operation="base_set" value="0" tags="swimming"/>
+	<passive_effect name="RunSpeed" operation="base_set" value="0" tags="swimming"/>
+
+
+<!-- ジャンプ高さを低下(1は100%)-->
+	<passive_effect name="JumpStrength" operation="perc_add" value="-.5"/>
+
+<!-- ジャンプ動作時のスタミナ消費が増加。-->
+	<passive_effect name="StaminaLoss" operation="perc_add" value=".5" tags="jumping"/>
+
+	</effect_group>
+		<property name="DescriptionKey" value="Den3_TitanTurretDrumDesc"/>
+	</item_modifier>
+    </append>
+</configs>	
+	   

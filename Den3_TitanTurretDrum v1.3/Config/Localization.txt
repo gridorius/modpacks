@@ -1,0 +1,10 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,japanese
+
+Den3_TitanTurretDrum,item_modifiers,item_modifier,,,Robotic Turret Giant Magazine Mod,,ロボット砲台用巨大弾倉
+Den3_TitanTurretDrumDesc,item_modifiers,item_modifier,,,"A massive magazine designed for robotic turrets. It can hold up to 3000 rounds of ammunition and also enhances turret performance based on your Robotics Inventor skill level.\nHowever, it’s extremely heavy — equipping it will nearly immobilize you. \nIntended for stationary defense use.",,"3000発の弾薬が装填できる巨大な弾倉です。　また、「ロボット発明家」のレベルによって、ロボット砲台の性能も引き上げます。\nしかし非常に重いので、装備するとほとんど移動できなくなります。\n設置での使用を想定してます。"
+
+Den3_TitanTurretDrumSchematic,item,item,,,Schematic: Robotic Turret Giant Magazine Mod,,改造パーツ設計図「ロボット砲台用巨大弾倉」
+Den3_TitanTurretDrumSchematicDesc,item,item,,,Reading this teaches you how to craft the Robotic Turret Giant Magazine Mod,,読むと「ロボット砲台用巨大弾倉」の作成方法を習得します。
+
+Den3_TitanTurretDrumForget,items,item,,,Debug only. Forget the Robotic Turret Giant Magazine Mod,,デバック用。「ロボット砲台用巨大弾倉」を忘れる。
+Den3_TitanTurretDrumForgetDesc,items,item,,,Debug only. Forget the Robotic Turret Giant Magazine Mod,,デバック用。「ロボット砲台用巨大弾倉」を忘れる。

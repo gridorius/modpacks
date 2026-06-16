@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <append xpath="/recipes">
+
+<!-- Den3_TitanTurretDrum「ドラムマガジン」の6倍ほどのコストにした。 -->
+	<recipe name="Den3_TitanTurretDrum" count="1" craft_time="600" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceForgedSteel" count="90"/>
+		<ingredient name="resourceForgedIron" count="30"/>
+		<ingredient name="resourceMechanicalParts" count="24"/>
+		<ingredient name="resourceScrapPolymers" count="50"/>
+		<ingredient name="resourceOil" count="15"/>
+	</recipe>
+
+
+
+<!-- ジャンクタレットの弾をα20と同じように「鉄材」から作る -->
+
+<!-- Regular、鉄材3 -->
+	<recipe name="ammoJunkTurretRegular" count="1">
+		<ingredient name="resourceScrapIron" count="3"/><!-- Default 3 -->
+	</recipe>
+
+	<recipe name="ammoBundleJunkTurretRegular" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceScrapIron" count="2400"/>
+	</recipe>
+
+<!-- Shell、鹿玉1、鉄材1 -->
+	<recipe name="ammoJunkTurretShell" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceScrapIron" count="1"/>
+		<ingredient name="resourceBuckshot" count="1"/>
+	</recipe>
+
+	<recipe name="ammoBundleJunkTurretShell" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceScrapIron" count="800"/>
+		<ingredient name="resourceBuckshot" count="800"/>
+	</recipe>
+
+<!-- AP、鉄材6 -->
+<!-- これは変わってなかったか確認できなかった。
+	<recipe name="ammoJunkTurretAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceScrapIron" count="6"/>
+	</recipe>
+
+	<recipe name="ammoBundleJunkTurretAP" count="1" craft_time="360" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<ingredient name="resourceScrapIron" count="4800"/>
+	</recipe>
+-->
+
+    </append>
+</configs>
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+
+<!-- Mod商品の追加 -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupRangedMods']">
+		<item name="Den3_TitanTurretDrum"/>
+	</append>
+
+<!-- 設計図、販売確認 -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']">
+		<item name="Den3_TitanTurretDrumSchematic"/>
+	</append>
+
+<!-- ロボット系の設計図のテーブルに追加・・・がいいらしい。 -->
+	<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+		<item name="Den3_TitanTurretDrumSchematic"/>
+	</append>
+
+
+</configs>
