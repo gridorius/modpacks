@@ -1,0 +1,73 @@
+<configs>
+    <append xpath="/entity_classes">
+
+        <!-- ===================================================== -->
+        <!-- 挑战奖励箱通用模板                                    -->
+        <!-- ===================================================== -->
+        <entity_class name="challengerRewardChest_template">
+            <property name="Class" value="EntityLootContainer"/>
+            <property name="UserSpawnType" value="None"/>
+            <property name="ModelType" value="Custom"/>
+
+            <property name="Prefab" value="Backpack"/>
+            <property name="Parent" value="Backpack"/>
+
+            <property name="IsEnemyEntity" value="false"/>
+            <property name="TimeStayAfterDeath" value="2400"/>
+            <property name="Faction" value="none"/>
+        </entity_class>
+
+
+        <!-- ===================================================== -->
+        <!-- 低阶奖励箱：T1-T3                                     -->
+        <!-- ===================================================== -->
+        <entity_class name="challengerRewardChestLow" extends="challengerRewardChest_template">
+            <property name="UserSpawnType" value="Console"/>
+
+            <property name="Mesh" value="#@modfolder:Resources/challenger_chests.unity3d?chest_normal.prefab"/>
+
+            <!-- 默认兜底 loot，实际奖励事件里会 override -->
+            <property name="LootListOnDeath" value="lootgroupChallengerRewardT1"/>
+        </entity_class>
+
+
+        <!-- ===================================================== -->
+        <!-- 困难奖励箱：T4-T6                                     -->
+        <!-- ===================================================== -->
+        <entity_class name="challengerRewardChestHard" extends="challengerRewardChest_template">
+            <property name="UserSpawnType" value="Console"/>
+
+            <property name="Mesh" value="#@modfolder:Resources/challenger_chests.unity3d?chest_hard.prefab"/>
+
+            <!-- 默认兜底 loot -->
+            <property name="LootListOnDeath" value="lootgroupChallengerRewardT4"/>
+        </entity_class>
+
+
+        <!-- ===================================================== -->
+        <!-- 地狱奖励箱：T7-T10                                    -->
+        <!-- ===================================================== -->
+        <entity_class name="challengerRewardChestHell" extends="challengerRewardChest_template">
+            <property name="UserSpawnType" value="Console"/>
+
+            <property name="Mesh" value="#@modfolder:Resources/challenger_chests.unity3d?chest_hell.prefab"/>
+
+            <!-- 默认兜底 loot -->
+            <property name="LootListOnDeath" value="lootgroupChallengerRewardT7"/>
+        </entity_class>
+
+
+        <!-- ===================================================== -->
+        <!-- 额外挑战奖励箱                                        -->
+        <!-- ===================================================== -->
+        <entity_class name="challengerRewardChestExtra" extends="challengerRewardChest_template">
+            <property name="UserSpawnType" value="Console"/>
+
+            <property name="Mesh" value="#@modfolder:Resources/challenger_chests.unity3d?chest_extra.prefab"/>
+
+            <!-- 默认兜底 loot -->
+            <property name="LootListOnDeath" value="lootgroupChallengerRewardExtraMinor"/>
+        </entity_class>
+
+    </append>
+</configs>

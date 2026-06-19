@@ -1,0 +1,655 @@
+<configs>
+    <append xpath="/blocks">
+        
+        <block name="cntChallengerCrate_normal">
+            <property name="CreativeMode" value="Player"/>
+            <property name="UnlockedBy" value="cntChallengerCrate_normalSchematic"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+                <property class="TEFeatureLockable"/>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_normal"/>
+            <property name="DescriptionKey" value="cntChallengerCrate_normalDesc"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_normal"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="15000"/>
+            <property name="SoundPickup" value="cratesteel_grab"/>
+            <property name="SoundPlace" value="cratesteel_place"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntChallengerCrateNormal_insecure"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0004"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+        <block name="cntChallengerCrateNormal_insecure">
+            <property name="CreativeMode" value="None"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_normal"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_normal"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="15000"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+ <block name="cntChallengerCrate_hard">
+            <property name="CreativeMode" value="Player"/>
+            <property name="UnlockedBy" value="cntChallengerCrate_hardSchematic"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+                <property class="TEFeatureLockable"/>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_hard"/>
+            <property name="DescriptionKey" value="cntChallengerCrate_hardDesc"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_hard"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="15000"/>
+            <property name="SoundPickup" value="cratesteel_grab"/>
+            <property name="SoundPlace" value="cratesteel_place"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntChallengerCrateHard_insecure"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0004"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+        <block name="cntChallengerCrateHard_insecure">
+            <property name="CreativeMode" value="None"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_hard"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_hard"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="15000"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+
+ <block name="cntChallengerCrate_hell">
+            <property name="CreativeMode" value="Player"/>
+            <property name="UnlockedBy" value="cntChallengerCrate_hellSchematic"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+                <property class="TEFeatureLockable"/>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_hell"/>
+            <property name="DescriptionKey" value="cntChallengerCrate_hellDesc"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_hell"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="15000"/>
+            <property name="SoundPickup" value="cratesteel_grab"/>
+            <property name="SoundPlace" value="cratesteel_place"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntChallengerCrateHell_insecure"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0004"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+        <block name="cntChallengerCrateHell_insecure">
+            <property name="CreativeMode" value="None"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_hell"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_hell"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="15000"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+
+
+ <block name="cntChallengerCrate_extra">
+            <property name="CreativeMode" value="Player"/>
+            <property name="UnlockedBy" value="cntChallengerCrate_extraSchematic"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+                <property class="TEFeatureLockable"/>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_extra"/>
+            <property name="DescriptionKey" value="cntChallengerCrate_extraDesc"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_extra"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="15000"/>
+            <property name="SoundPickup" value="cratesteel_grab"/>
+            <property name="SoundPlace" value="cratesteel_place"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntChallengerCrate_extra_insecure"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0004"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+        <block name="cntChallengerCrate_extra_insecure">
+            <property name="CreativeMode" value="None"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_extra"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_extra"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="15000"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+        <block name="cntChallengerCrate_blackhole">
+            <property name="CreativeMode" value="Player"/>
+            <property name="UnlockedBy" value="cntChallengerCrate_blackholeSchematic"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+                <property class="TEFeatureLockable"/>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_blackhole"/>
+            <property name="DescriptionKey" value="cntChallengerCrate_blackholeDesc"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_blackhole"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="30000"/>
+            <property name="SoundPickup" value="cratesteel_grab"/>
+            <property name="SoundPlace" value="cratesteel_place"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntChallengerCrate_blackhole_insecure"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0004"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+        <block name="cntChallengerCrate_blackhole_insecure">
+            <property name="CreativeMode" value="None"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_blackhole"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_blackhole"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="30000"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+        <block name="cntChallengerCrate_goldmarine">
+            <property name="CreativeMode" value="Player"/>
+            <property name="UnlockedBy" value="cntChallengerCrate_goldmarineSchematic"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+                <property class="TEFeatureLockable"/>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_goldmarine"/>
+            <property name="DescriptionKey" value="cntChallengerCrate_goldmarineDesc"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_goldmarine"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="30000"/>
+            <property name="SoundPickup" value="cratesteel_grab"/>
+            <property name="SoundPlace" value="cratesteel_place"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntChallengerCrate_goldmarine_insecure"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0004"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+        <block name="cntChallengerCrate_goldmarine_insecure">
+            <property name="CreativeMode" value="None"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_goldmarine"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_goldmarine"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="30000"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+
+        <block name="cntChallengerCrate_mutated">
+            <property name="CreativeMode" value="Player"/>
+            <property name="UnlockedBy" value="cntChallengerCrate_mutatedSchematic"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+                <property class="TEFeatureLockable"/>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_mutated"/>
+            <property name="DescriptionKey" value="cntChallengerCrate_mutatedDesc"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_mutated"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="30000"/>
+            <property name="SoundPickup" value="cratesteel_grab"/>
+            <property name="SoundPlace" value="cratesteel_place"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntChallengerCrate_mutated_insecure"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0004"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+        <block name="cntChallengerCrate_mutated_insecure">
+            <property name="CreativeMode" value="None"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_mutated"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_mutated"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="30000"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+        <block name="cntChallengerCrate_cyberpunk">
+            <property name="CreativeMode" value="Player"/>
+            <property name="UnlockedBy" value="cntChallengerCrate_cyberpunkSchematic"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+                <property class="TEFeatureLockable"/>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_cyberpunk"/>
+            <property name="DescriptionKey" value="cntChallengerCrate_cyberpunkDesc"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_cyberpunk"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="30000"/>
+            <property name="SoundPickup" value="cratesteel_grab"/>
+            <property name="SoundPlace" value="cratesteel_place"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntChallengerCrate_cyberpunk_insecure"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0004"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+        <block name="cntChallengerCrate_cyberpunk_insecure">
+            <property name="CreativeMode" value="None"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_cyberpunk"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_cyberpunk"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="30000"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+
+        <block name="cntChallengerCrate_nature">
+            <property name="CreativeMode" value="Player"/>
+            <property name="UnlockedBy" value="cntChallengerCrate_natureSchematic"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+                <property class="TEFeatureLockable"/>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_nature"/>
+            <property name="DescriptionKey" value="cntChallengerCrate_natureDesc"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_nature"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="30000"/>
+            <property name="SoundPickup" value="cratesteel_grab"/>
+            <property name="SoundPlace" value="cratesteel_place"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntChallengerCrate_nature_insecure"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0004"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+        <block name="cntChallengerCrate_nature_insecure">
+            <property name="CreativeMode" value="None"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_nature"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_nature"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="30000"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+
+
+        <block name="cntChallengerCrate_evilhand">
+            <property name="CreativeMode" value="Player"/>
+            <property name="UnlockedBy" value="cntChallengerCrate_evilhandSchematic"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+                <property class="TEFeatureLockable"/>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_evilhand"/>
+            <property name="DescriptionKey" value="cntChallengerCrate_evilhandDesc"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_evilhand"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="FuelValue" value="300"/>
+            <property name="EconomicValue" value="6"/>
+            <property name="MaxDamage" value="30000"/>
+            <property name="SoundPickup" value="cratesteel_grab"/>
+            <property name="SoundPlace" value="cratesteel_place"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DowngradeBlock" value="cntChallengerCrate_evilhand_insecure"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0004"/>
+            <property name="Group" value="Building,advBuilding"/>
+            <property name="Tags" value="timecharge"/>
+            <property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+        </block>
+
+        <block name="cntChallengerCrate_evilhand_insecure">
+            <property name="CreativeMode" value="None"/>
+            <property name="Class" value="CompositeTileEntity"/>
+            <property class="CompositeFeatures">
+                <property class="TEFeatureStorage">
+                    <property name="LootList" value="playerSteelWritableStorage"/>
+                </property>
+            </property>
+
+            <property name="CustomIcon" value="icon_challengercrate_evilhand"/>
+            <property name="Material" value="Msteel"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="#@modfolder:Resources/challenger_crates.unity3d?crate_evilhand"/>
+            <property name="WaterFlow" value="permitted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="30000"/>
+            <property class="RepairItems">
+                <property name="resourceForgedSteel" value="10"/>
+            </property>
+            <drop event="Destroy" name="resourceScrapIron" count="10,30"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="SortOrder1" value="B106"/>
+            <property name="SortOrder2" value="0005"/>
+        </block>
+
+
+
+
+    </append>
+</configs>

@@ -1,0 +1,1032 @@
+
+<configs>
+
+    <!-- ================================================= -->
+    <!-- 1. 定星突击步枪品质模板 (T1–T10)                   -->
+    <!-- ================================================= -->
+    <append xpath="/lootcontainers/lootqualitytemplates">
+        <lootqualitytemplate name="AstrofixQualityT1">
+            <qualitytemplate level="1,999999" default_quality="1">
+                <loot quality="1" prob="1.0"/>
+            </qualitytemplate>
+        </lootqualitytemplate>
+        <lootqualitytemplate name="AstrofixQualityT2">
+            <qualitytemplate level="1,999999" default_quality="1">
+                <loot quality="1" prob="0.60"/>
+                <loot quality="2" prob="0.40"/>
+            </qualitytemplate>
+        </lootqualitytemplate>
+        <lootqualitytemplate name="AstrofixQualityT3">
+            <qualitytemplate level="1,999999" default_quality="2">
+                <loot quality="2" prob="0.70"/>
+                <loot quality="3" prob="0.30"/>
+            </qualitytemplate>
+        </lootqualitytemplate>
+        <lootqualitytemplate name="AstrofixQualityT4">
+            <qualitytemplate level="1,999999" default_quality="2">
+                <loot quality="2" prob="0.40"/>
+                <loot quality="3" prob="0.60"/>
+            </qualitytemplate>
+        </lootqualitytemplate>
+        <lootqualitytemplate name="AstrofixQualityT5">
+            <qualitytemplate level="1,999999" default_quality="3">
+                <loot quality="3" prob="0.70"/>
+                <loot quality="4" prob="0.30"/>
+            </qualitytemplate>
+        </lootqualitytemplate>
+        <lootqualitytemplate name="AstrofixQualityT6">
+            <qualitytemplate level="1,999999" default_quality="3">
+                <loot quality="3" prob="0.40"/>
+                <loot quality="4" prob="0.60"/>
+            </qualitytemplate>
+        </lootqualitytemplate>
+        <lootqualitytemplate name="AstrofixQualityT7">
+            <qualitytemplate level="1,999999" default_quality="4">
+                <loot quality="4" prob="0.70"/>
+                <loot quality="5" prob="0.30"/>
+            </qualitytemplate>
+        </lootqualitytemplate>
+        <lootqualitytemplate name="AstrofixQualityT8">
+            <qualitytemplate level="1,999999" default_quality="4">
+                <loot quality="4" prob="0.40"/>
+                <loot quality="5" prob="0.60"/>
+            </qualitytemplate>
+        </lootqualitytemplate>
+        <lootqualitytemplate name="AstrofixQualityT9">
+            <qualitytemplate level="1,999999" default_quality="5">
+                <loot quality="5" prob="0.75"/>
+                <loot quality="6" prob="0.25"/>
+            </qualitytemplate>
+        </lootqualitytemplate>
+        <lootqualitytemplate name="AstrofixQualityT10">
+            <qualitytemplate level="1,999999" default_quality="5">
+                <loot quality="5" prob="0.25"/>
+                <loot quality="6" prob="0.75"/>
+            </qualitytemplate>
+        </lootqualitytemplate>
+    </append>
+
+    <!-- ================================================= -->
+    <!-- 0. 挑战书掉落池提前定义                            -->
+    <!-- ================================================= -->
+    <insertBefore xpath="/lootcontainers/lootgroup[1]">
+
+        <lootgroup name="groupChallengerScrollsT1T2" count="1">
+            <item name="itemChallengerChallengeScrollT1" prob="4"/>
+            <item name="itemChallengerChallengeScrollT2" prob="1"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerScrollsT1T3" count="1">
+            <item name="itemChallengerChallengeScrollT1" prob="6"/>
+            <item name="itemChallengerChallengeScrollT2" prob="3"/>
+            <item name="itemChallengerChallengeScrollT3" prob="1"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerScrollsT1T4" count="1">
+            <item name="itemChallengerChallengeScrollT1" prob="8"/>
+            <item name="itemChallengerChallengeScrollT2" prob="4"/>
+            <item name="itemChallengerChallengeScrollT3" prob="2"/>
+            <item name="itemChallengerChallengeScrollT4" prob="1"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerScrollsT1T7" count="1">
+            <item name="itemChallengerChallengeScrollT1" prob="12"/>
+            <item name="itemChallengerChallengeScrollT2" prob="8"/>
+            <item name="itemChallengerChallengeScrollT3" prob="4"/>
+            <item name="itemChallengerChallengeScrollT4" prob="2"/>
+            <item name="itemChallengerChallengeScrollT5" prob="1.5"/>
+            <item name="itemChallengerChallengeScrollT6" prob="1"/>
+            <item name="itemChallengerChallengeScrollT7" prob="0.5"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerScrollsT1T8" count="1">
+            <item name="itemChallengerChallengeScrollT1" prob="14"/>
+            <item name="itemChallengerChallengeScrollT2" prob="9"/>
+            <item name="itemChallengerChallengeScrollT3" prob="5"/>
+            <item name="itemChallengerChallengeScrollT4" prob="3"/>
+            <item name="itemChallengerChallengeScrollT5" prob="2"/>
+            <item name="itemChallengerChallengeScrollT6" prob="1.5"/>
+            <item name="itemChallengerChallengeScrollT7" prob="1"/>
+            <item name="itemChallengerChallengeScrollT8" prob="0.5"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerScrollsT1T9" count="1">
+            <item name="itemChallengerChallengeScrollT1" prob="16"/>
+            <item name="itemChallengerChallengeScrollT2" prob="10"/>
+            <item name="itemChallengerChallengeScrollT3" prob="6"/>
+            <item name="itemChallengerChallengeScrollT4" prob="4"/>
+            <item name="itemChallengerChallengeScrollT5" prob="3"/>
+            <item name="itemChallengerChallengeScrollT6" prob="2"/>
+            <item name="itemChallengerChallengeScrollT7" prob="1.5"/>
+            <item name="itemChallengerChallengeScrollT8" prob="1"/>
+            <item name="itemChallengerChallengeScrollT9" prob="0.5"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerScrollsT1T10" count="1">
+            <item name="itemChallengerChallengeScrollT1" prob="18"/>
+            <item name="itemChallengerChallengeScrollT2" prob="11"/>
+            <item name="itemChallengerChallengeScrollT3" prob="7"/>
+            <item name="itemChallengerChallengeScrollT4" prob="5"/>
+            <item name="itemChallengerChallengeScrollT5" prob="3.5"/>
+            <item name="itemChallengerChallengeScrollT6" prob="2.5"/>
+            <item name="itemChallengerChallengeScrollT7" prob="2"/>
+            <item name="itemChallengerChallengeScrollT8" prob="1.5"/>
+            <item name="itemChallengerChallengeScrollT9" prob="1"/>
+            <item name="itemChallengerChallengeScrollT10" prob="0.5"/>
+        </lootgroup>
+
+    </insertBefore>
+
+    <!-- ================================================= -->
+    <!-- 2. 全部掉落池定义                                   -->
+    <!-- ================================================= -->
+    <append xpath="/lootcontainers">
+
+        <!-- ============================================= -->
+        <!-- 2a. 护甲插件成品 — MK等级子池 (8种等概率)      -->
+        <!-- ============================================= -->
+
+        <lootgroup name="groupChallengerArmorMK1" count="1">
+            <item name="modArmorKineticRecoilCoreMK1"/>
+            <item name="modArmorEmergencyHealingCanisterMK1"/>
+            <item name="modArmorBloodFrenzyCharmMK1"/>
+            <item name="modArmorStormGrounderMK1"/>
+            <item name="modArmorPlaguePurifierPumpMK1"/>
+            <item name="modArmorCalamityStabilityFieldMK1"/>
+            <item name="modArmorThornDeflectionPlateA7"/>
+            <item name="modArmorEmberRekindlePlateA9"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorMK2" count="1">
+            <item name="modArmorKineticRecoilCoreMK2"/>
+            <item name="modArmorEmergencyHealingCanisterMK2"/>
+            <item name="modArmorBloodFrenzyCharmMK2"/>
+            <item name="modArmorStormGrounderMK2"/>
+            <item name="modArmorPlaguePurifierPumpMK2"/>
+            <item name="modArmorCalamityStabilityFieldMK2"/>
+            <item name="modArmorThornDeflectionPlateA72"/>
+            <item name="modArmorEmberRekindlePlateA92"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorMK3" count="1">
+            <item name="modArmorKineticRecoilCoreMK3"/>
+            <item name="modArmorEmergencyHealingCanisterMK3"/>
+            <item name="modArmorBloodFrenzyCharmMK3"/>
+            <item name="modArmorStormGrounderMK3"/>
+            <item name="modArmorPlaguePurifierPumpMK3"/>
+            <item name="modArmorCalamityStabilityFieldMK3"/>
+            <item name="modArmorThornDeflectionPlateA73"/>
+            <item name="modArmorEmberRekindlePlateA93"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorMK4" count="1">
+            <item name="modArmorKineticRecoilCoreMK4"/>
+            <item name="modArmorEmergencyHealingCanisterMK4"/>
+            <item name="modArmorBloodFrenzyCharmMK4"/>
+            <item name="modArmorStormGrounderMK4"/>
+            <item name="modArmorPlaguePurifierPumpMK4"/>
+            <item name="modArmorCalamityStabilityFieldMK4"/>
+            <item name="modArmorThornDeflectionPlateA74"/>
+            <item name="modArmorEmberRekindlePlateA94"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorMK5" count="1">
+            <item name="modArmorKineticRecoilCoreMK5"/>
+            <item name="modArmorEmergencyHealingCanisterMK5"/>
+            <item name="modArmorBloodFrenzyCharmMK5"/>
+            <item name="modArmorStormGrounderMK5"/>
+            <item name="modArmorPlaguePurifierPumpMK5"/>
+            <item name="modArmorCalamityStabilityFieldMK5"/>
+            <item name="modArmorThornDeflectionPlateA75"/>
+            <item name="modArmorEmberRekindlePlateA95"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorMK6" count="1">
+            <item name="modArmorKineticRecoilCoreMK6"/>
+            <item name="modArmorEmergencyHealingCanisterMK6"/>
+            <item name="modArmorBloodFrenzyCharmMK6"/>
+            <item name="modArmorStormGrounderMK6"/>
+            <item name="modArmorPlaguePurifierPumpMK6"/>
+            <item name="modArmorCalamityStabilityFieldMK6"/>
+            <item name="modArmorThornDeflectionPlateA76"/>
+            <item name="modArmorEmberRekindlePlateA96"/>
+        </lootgroup>
+
+
+        <!-- ============================================= -->
+        <!-- 2b. 护甲插件图纸 — MK等级子池 (8种等概率)      -->
+        <!-- ============================================= -->
+
+        <lootgroup name="groupChallengerArmorSchematicMK1" count="1">
+            <item name="modArmorKineticRecoilCoreMK1Schematic"/>
+            <item name="modArmorEmergencyHealingCanisterMK1Schematic"/>
+            <item name="modArmorBloodFrenzyCharmMK1Schematic"/>
+            <item name="modArmorStormGrounderMK1Schematic"/>
+            <item name="modArmorPlaguePurifierPumpMK1Schematic"/>
+            <item name="modArmorCalamityStabilityFieldMK1Schematic"/>
+            <item name="modArmorThornDeflectionPlateA7Schematic"/>
+            <item name="modArmorEmberRekindlePlateA9Schematic"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorSchematicMK2" count="1">
+            <item name="modArmorKineticRecoilCoreMK2Schematic"/>
+            <item name="modArmorEmergencyHealingCanisterMK2Schematic"/>
+            <item name="modArmorBloodFrenzyCharmMK2Schematic"/>
+            <item name="modArmorStormGrounderMK2Schematic"/>
+            <item name="modArmorPlaguePurifierPumpMK2Schematic"/>
+            <item name="modArmorCalamityStabilityFieldMK2Schematic"/>
+            <item name="modArmorThornDeflectionPlateA72Schematic"/>
+            <item name="modArmorEmberRekindlePlateA92Schematic"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorSchematicMK3" count="1">
+            <item name="modArmorKineticRecoilCoreMK3Schematic"/>
+            <item name="modArmorEmergencyHealingCanisterMK3Schematic"/>
+            <item name="modArmorBloodFrenzyCharmMK3Schematic"/>
+            <item name="modArmorStormGrounderMK3Schematic"/>
+            <item name="modArmorPlaguePurifierPumpMK3Schematic"/>
+            <item name="modArmorCalamityStabilityFieldMK3Schematic"/>
+            <item name="modArmorThornDeflectionPlateA73Schematic"/>
+            <item name="modArmorEmberRekindlePlateA93Schematic"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorSchematicMK4" count="1">
+            <item name="modArmorKineticRecoilCoreMK4Schematic"/>
+            <item name="modArmorEmergencyHealingCanisterMK4Schematic"/>
+            <item name="modArmorBloodFrenzyCharmMK4Schematic"/>
+            <item name="modArmorStormGrounderMK4Schematic"/>
+            <item name="modArmorPlaguePurifierPumpMK4Schematic"/>
+            <item name="modArmorCalamityStabilityFieldMK4Schematic"/>
+            <item name="modArmorThornDeflectionPlateA74Schematic"/>
+            <item name="modArmorEmberRekindlePlateA94Schematic"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorSchematicMK5" count="1">
+            <item name="modArmorKineticRecoilCoreMK5Schematic"/>
+            <item name="modArmorEmergencyHealingCanisterMK5Schematic"/>
+            <item name="modArmorBloodFrenzyCharmMK5Schematic"/>
+            <item name="modArmorStormGrounderMK5Schematic"/>
+            <item name="modArmorPlaguePurifierPumpMK5Schematic"/>
+            <item name="modArmorCalamityStabilityFieldMK5Schematic"/>
+            <item name="modArmorThornDeflectionPlateA75Schematic"/>
+            <item name="modArmorEmberRekindlePlateA95Schematic"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorSchematicMK6" count="1">
+            <item name="modArmorKineticRecoilCoreMK6Schematic"/>
+            <item name="modArmorEmergencyHealingCanisterMK6Schematic"/>
+            <item name="modArmorBloodFrenzyCharmMK6Schematic"/>
+            <item name="modArmorStormGrounderMK6Schematic"/>
+            <item name="modArmorPlaguePurifierPumpMK6Schematic"/>
+            <item name="modArmorCalamityStabilityFieldMK6Schematic"/>
+            <item name="modArmorThornDeflectionPlateA76Schematic"/>
+            <item name="modArmorEmberRekindlePlateA96Schematic"/>
+        </lootgroup>
+
+
+        <!-- ============================================= -->
+        <!-- 2c. 武器插件成品 — WA等级子池 (3种等概率)      -->
+        <!-- ============================================= -->
+
+        <lootgroup name="groupChallengerWeaponWA1" count="1">
+            <item name="modWeaponFireChaserSwarmWA1"/>
+            <item name="modWeaponFrostGrenadeNestWA1"/>
+            <item name="modWeaponLightningChainCapacitorWA1"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponWA2" count="1">
+            <item name="modWeaponFireChaserSwarmWA2"/>
+            <item name="modWeaponFrostGrenadeNestWA2"/>
+            <item name="modWeaponLightningChainCapacitorWA2"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponWA3" count="1">
+            <item name="modWeaponFireChaserSwarmWA3"/>
+            <item name="modWeaponFrostGrenadeNestWA3"/>
+            <item name="modWeaponLightningChainCapacitorWA3"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponWA4" count="1">
+            <item name="modWeaponFireChaserSwarmWA4"/>
+            <item name="modWeaponFrostGrenadeNestWA4"/>
+            <item name="modWeaponLightningChainCapacitorWA4"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponWA5" count="1">
+            <item name="modWeaponFireChaserSwarmWA5"/>
+            <item name="modWeaponFrostGrenadeNestWA5"/>
+            <item name="modWeaponLightningChainCapacitorWA5"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponWA6" count="1">
+            <item name="modWeaponFireChaserSwarmWA6"/>
+            <item name="modWeaponFrostGrenadeNestWA6"/>
+            <item name="modWeaponLightningChainCapacitorWA6"/>
+        </lootgroup>
+
+
+        <!-- ============================================= -->
+        <!-- 2d. 武器插件图纸 — WA等级子池 (3种等概率)      -->
+        <!-- ============================================= -->
+
+        <lootgroup name="groupChallengerWeaponSchematicWA1" count="1">
+            <item name="modWeaponFireChaserSwarmWA1Schematic"/>
+            <item name="modWeaponFrostGrenadeNestWA1Schematic"/>
+            <item name="modWeaponLightningChainCapacitorWA1Schematic"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponSchematicWA2" count="1">
+            <item name="modWeaponFireChaserSwarmWA2Schematic"/>
+            <item name="modWeaponFrostGrenadeNestWA2Schematic"/>
+            <item name="modWeaponLightningChainCapacitorWA2Schematic"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponSchematicWA3" count="1">
+            <item name="modWeaponFireChaserSwarmWA3Schematic"/>
+            <item name="modWeaponFrostGrenadeNestWA3Schematic"/>
+            <item name="modWeaponLightningChainCapacitorWA3Schematic"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponSchematicWA4" count="1">
+            <item name="modWeaponFireChaserSwarmWA4Schematic"/>
+            <item name="modWeaponFrostGrenadeNestWA4Schematic"/>
+            <item name="modWeaponLightningChainCapacitorWA4Schematic"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponSchematicWA5" count="1">
+            <item name="modWeaponFireChaserSwarmWA5Schematic"/>
+            <item name="modWeaponFrostGrenadeNestWA5Schematic"/>
+            <item name="modWeaponLightningChainCapacitorWA5Schematic"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponSchematicWA6" count="1">
+            <item name="modWeaponFireChaserSwarmWA6Schematic"/>
+            <item name="modWeaponFrostGrenadeNestWA6Schematic"/>
+            <item name="modWeaponLightningChainCapacitorWA6Schematic"/>
+        </lootgroup>
+
+
+        <!-- ============================================= -->
+        <!-- 2e. 符石珠宝 — P等级子池 (9种: 3类型×3部位)   -->
+        <!--     纯成品，无图纸                              -->
+        <!-- ============================================= -->
+
+        <lootgroup name="groupChallengerRuneP1" count="1">
+            <item name="modArmorVitalityUpperP1"/>
+            <item name="modArmorVitalityMiddleP1"/>
+            <item name="modArmorVitalityLowerP1"/>
+            <item name="modArmorConquestUpperP1"/>
+            <item name="modArmorConquestMiddleP1"/>
+            <item name="modArmorConquestLowerP1"/>
+            <item name="modArmorTenacityUpperP1"/>
+            <item name="modArmorTenacityMiddleP1"/>
+            <item name="modArmorTenacityLowerP1"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneP2" count="1">
+            <item name="modArmorVitalityUpperP2"/>
+            <item name="modArmorVitalityMiddleP2"/>
+            <item name="modArmorVitalityLowerP2"/>
+            <item name="modArmorConquestUpperP2"/>
+            <item name="modArmorConquestMiddleP2"/>
+            <item name="modArmorConquestLowerP2"/>
+            <item name="modArmorTenacityUpperP2"/>
+            <item name="modArmorTenacityMiddleP2"/>
+            <item name="modArmorTenacityLowerP2"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneP3" count="1">
+            <item name="modArmorVitalityUpperP3"/>
+            <item name="modArmorVitalityMiddleP3"/>
+            <item name="modArmorVitalityLowerP3"/>
+            <item name="modArmorConquestUpperP3"/>
+            <item name="modArmorConquestMiddleP3"/>
+            <item name="modArmorConquestLowerP3"/>
+            <item name="modArmorTenacityUpperP3"/>
+            <item name="modArmorTenacityMiddleP3"/>
+            <item name="modArmorTenacityLowerP3"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneP4" count="1">
+            <item name="modArmorVitalityUpperP4"/>
+            <item name="modArmorVitalityMiddleP4"/>
+            <item name="modArmorVitalityLowerP4"/>
+            <item name="modArmorConquestUpperP4"/>
+            <item name="modArmorConquestMiddleP4"/>
+            <item name="modArmorConquestLowerP4"/>
+            <item name="modArmorTenacityUpperP4"/>
+            <item name="modArmorTenacityMiddleP4"/>
+            <item name="modArmorTenacityLowerP4"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneP5" count="1">
+            <item name="modArmorVitalityUpperP5"/>
+            <item name="modArmorVitalityMiddleP5"/>
+            <item name="modArmorVitalityLowerP5"/>
+            <item name="modArmorConquestUpperP5"/>
+            <item name="modArmorConquestMiddleP5"/>
+            <item name="modArmorConquestLowerP5"/>
+            <item name="modArmorTenacityUpperP5"/>
+            <item name="modArmorTenacityMiddleP5"/>
+            <item name="modArmorTenacityLowerP5"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneP6" count="1">
+            <item name="modArmorVitalityUpperP6"/>
+            <item name="modArmorVitalityMiddleP6"/>
+            <item name="modArmorVitalityLowerP6"/>
+            <item name="modArmorConquestUpperP6"/>
+            <item name="modArmorConquestMiddleP6"/>
+            <item name="modArmorConquestLowerP6"/>
+            <item name="modArmorTenacityUpperP6"/>
+            <item name="modArmorTenacityMiddleP6"/>
+            <item name="modArmorTenacityLowerP6"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneP7" count="1">
+            <item name="modArmorVitalityUpperP7"/>
+            <item name="modArmorVitalityMiddleP7"/>
+            <item name="modArmorVitalityLowerP7"/>
+            <item name="modArmorConquestUpperP7"/>
+            <item name="modArmorConquestMiddleP7"/>
+            <item name="modArmorConquestLowerP7"/>
+            <item name="modArmorTenacityUpperP7"/>
+            <item name="modArmorTenacityMiddleP7"/>
+            <item name="modArmorTenacityLowerP7"/>
+        </lootgroup>
+
+
+        <!-- ============================================= -->
+        <!-- 2f. 定星专属武器配件 (11种，无等级)             -->
+        <!--     纯成品，无图纸                              -->
+        <!-- ============================================= -->
+
+        <lootgroup name="groupChallengerMilitechMods" count="1">
+            <item name="modAstroxfixDMR"/>
+            <item name="modMilitech_SalvoCore"/>
+            <item name="modMilitech_BarrageCore"/>
+            <item name="modMilitech_ShardSplitter"/>
+            <item name="modMilitech_OverchargeRounds"/>
+            <item name="modMilitech_ChainAmplifier"/>
+            <item name="modMilitech_FlameBarrage"/>
+            <item name="modMilitech_FrostBarrage"/>
+            <item name="modMilitech_ShockChain"/>
+            <item name="modMilitech_QuickChargeMag"/>
+            <item name="modMilitech_PowerDumpMag"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerMilitechModsX2" count="2">
+            <item name="modAstroxfixDMR"/>
+            <item name="modMilitech_SalvoCore"/>
+            <item name="modMilitech_BarrageCore"/>
+            <item name="modMilitech_ShardSplitter"/>
+            <item name="modMilitech_OverchargeRounds"/>
+            <item name="modMilitech_ChainAmplifier"/>
+            <item name="modMilitech_FlameBarrage"/>
+            <item name="modMilitech_FrostBarrage"/>
+            <item name="modMilitech_ShockChain"/>
+            <item name="modMilitech_QuickChargeMag"/>
+            <item name="modMilitech_PowerDumpMag"/>
+        </lootgroup>
+
+
+        <!-- ============================================= -->
+        <!-- 2g. 各Tier护甲池 (图纸60% + 成品40%)           -->
+        <!--     Wither P10 T9 3% / T10 8% 纯成品           -->
+        <!-- ============================================= -->
+
+        <lootgroup name="groupChallengerArmorT1" count="1">
+            <item group="groupChallengerArmorSchematicMK1" prob="60"/>
+            <item group="groupChallengerArmorMK1" prob="40"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorT2" count="1">
+            <item group="groupChallengerArmorSchematicMK1" prob="42"/>
+            <item group="groupChallengerArmorMK1" prob="28"/>
+            <item group="groupChallengerArmorSchematicMK2" prob="18"/>
+            <item group="groupChallengerArmorMK2" prob="12"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorT3" count="1">
+            <item group="groupChallengerArmorSchematicMK1" prob="30"/>
+            <item group="groupChallengerArmorMK1" prob="20"/>
+            <item group="groupChallengerArmorSchematicMK2" prob="21"/>
+            <item group="groupChallengerArmorMK2" prob="14"/>
+            <item group="groupChallengerArmorSchematicMK3" prob="9"/>
+            <item group="groupChallengerArmorMK3" prob="6"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorT4" count="1">
+            <item group="groupChallengerArmorSchematicMK2" prob="30"/>
+            <item group="groupChallengerArmorMK2" prob="20"/>
+            <item group="groupChallengerArmorSchematicMK3" prob="21"/>
+            <item group="groupChallengerArmorMK3" prob="14"/>
+            <item group="groupChallengerArmorSchematicMK4" prob="9"/>
+            <item group="groupChallengerArmorMK4" prob="6"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorT5" count="1">
+            <item group="groupChallengerArmorSchematicMK2" prob="15"/>
+            <item group="groupChallengerArmorMK2" prob="10"/>
+            <item group="groupChallengerArmorSchematicMK3" prob="30"/>
+            <item group="groupChallengerArmorMK3" prob="20"/>
+            <item group="groupChallengerArmorSchematicMK4" prob="15"/>
+            <item group="groupChallengerArmorMK4" prob="10"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorT6" count="1">
+            <item group="groupChallengerArmorSchematicMK3" prob="27"/>
+            <item group="groupChallengerArmorMK3" prob="18"/>
+            <item group="groupChallengerArmorSchematicMK4" prob="24"/>
+            <item group="groupChallengerArmorMK4" prob="16"/>
+            <item group="groupChallengerArmorSchematicMK5" prob="9"/>
+            <item group="groupChallengerArmorMK5" prob="6"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorT7" count="1">
+            <item group="groupChallengerArmorSchematicMK3" prob="15"/>
+            <item group="groupChallengerArmorMK3" prob="10"/>
+            <item group="groupChallengerArmorSchematicMK4" prob="30"/>
+            <item group="groupChallengerArmorMK4" prob="20"/>
+            <item group="groupChallengerArmorSchematicMK5" prob="15"/>
+            <item group="groupChallengerArmorMK5" prob="10"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerArmorT8" count="1">
+            <item group="groupChallengerArmorSchematicMK4" prob="30"/>
+            <item group="groupChallengerArmorMK4" prob="20"/>
+            <item group="groupChallengerArmorSchematicMK5" prob="24"/>
+            <item group="groupChallengerArmorMK5" prob="16"/>
+            <item group="groupChallengerArmorSchematicMK6" prob="6"/>
+            <item group="groupChallengerArmorMK6" prob="4"/>
+        </lootgroup>
+
+        <!-- T9: MK5 35% MK6 20% + Wither P10 3% (下调高级掉率, 核心靠制作) -->
+        <lootgroup name="groupChallengerArmorT9" count="1">
+            <item group="groupChallengerArmorSchematicMK5" prob="21"/>
+            <item group="groupChallengerArmorMK5" prob="14"/>
+            <item group="groupChallengerArmorSchematicMK6" prob="12"/>
+            <item group="groupChallengerArmorMK6" prob="8"/>
+            <item name="modArmorWitherAdaptiveExoskeletonP10" prob="3"/>
+        </lootgroup>
+
+        <!-- T10: MK5 15% MK6 30% + Wither P10 8% (下调高级掉率) -->
+        <lootgroup name="groupChallengerArmorT10" count="1">
+            <item group="groupChallengerArmorSchematicMK5" prob="9"/>
+            <item group="groupChallengerArmorMK5" prob="6"/>
+            <item group="groupChallengerArmorSchematicMK6" prob="18"/>
+            <item group="groupChallengerArmorMK6" prob="12"/>
+            <item name="modArmorWitherAdaptiveExoskeletonP10" prob="8"/>
+        </lootgroup>
+
+
+        <!-- ============================================= -->
+        <!-- 2h. 各Tier武器池 (图纸60% + 成品40%)           -->
+        <!--     动能机芯WP3成品掉落率 = 同Tier MK6概率     -->
+        <!-- ============================================= -->
+
+        <lootgroup name="groupChallengerWeaponT1" count="1">
+            <item group="groupChallengerWeaponSchematicWA1" prob="60"/>
+            <item group="groupChallengerWeaponWA1" prob="40"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponT2" count="1">
+            <item group="groupChallengerWeaponSchematicWA1" prob="42"/>
+            <item group="groupChallengerWeaponWA1" prob="28"/>
+            <item group="groupChallengerWeaponSchematicWA2" prob="18"/>
+            <item group="groupChallengerWeaponWA2" prob="12"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponT3" count="1">
+            <item group="groupChallengerWeaponSchematicWA1" prob="30"/>
+            <item group="groupChallengerWeaponWA1" prob="20"/>
+            <item group="groupChallengerWeaponSchematicWA2" prob="21"/>
+            <item group="groupChallengerWeaponWA2" prob="14"/>
+            <item group="groupChallengerWeaponSchematicWA3" prob="9"/>
+            <item group="groupChallengerWeaponWA3" prob="6"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponT4" count="1">
+            <item group="groupChallengerWeaponSchematicWA2" prob="30"/>
+            <item group="groupChallengerWeaponWA2" prob="20"/>
+            <item group="groupChallengerWeaponSchematicWA3" prob="21"/>
+            <item group="groupChallengerWeaponWA3" prob="14"/>
+            <item group="groupChallengerWeaponSchematicWA4" prob="9"/>
+            <item group="groupChallengerWeaponWA4" prob="6"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponT5" count="1">
+            <item group="groupChallengerWeaponSchematicWA2" prob="15"/>
+            <item group="groupChallengerWeaponWA2" prob="10"/>
+            <item group="groupChallengerWeaponSchematicWA3" prob="30"/>
+            <item group="groupChallengerWeaponWA3" prob="20"/>
+            <item group="groupChallengerWeaponSchematicWA4" prob="15"/>
+            <item group="groupChallengerWeaponWA4" prob="10"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponT6" count="1">
+            <item group="groupChallengerWeaponSchematicWA3" prob="27"/>
+            <item group="groupChallengerWeaponWA3" prob="18"/>
+            <item group="groupChallengerWeaponSchematicWA4" prob="24"/>
+            <item group="groupChallengerWeaponWA4" prob="16"/>
+            <item group="groupChallengerWeaponSchematicWA5" prob="9"/>
+            <item group="groupChallengerWeaponWA5" prob="6"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponT7" count="1">
+            <item group="groupChallengerWeaponSchematicWA3" prob="15"/>
+            <item group="groupChallengerWeaponWA3" prob="10"/>
+            <item group="groupChallengerWeaponSchematicWA4" prob="30"/>
+            <item group="groupChallengerWeaponWA4" prob="20"/>
+            <item group="groupChallengerWeaponSchematicWA5" prob="15"/>
+            <item group="groupChallengerWeaponWA5" prob="10"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerWeaponT8" count="1">
+            <item group="groupChallengerWeaponSchematicWA4" prob="30"/>
+            <item group="groupChallengerWeaponWA4" prob="20"/>
+            <item group="groupChallengerWeaponSchematicWA5" prob="24"/>
+            <item group="groupChallengerWeaponWA5" prob="16"/>
+            <item group="groupChallengerWeaponSchematicWA6" prob="6"/>
+            <item group="groupChallengerWeaponWA6" prob="4"/>
+            <item name="modWeaponKineticEscalatorWP3" prob="10"/>
+        </lootgroup>
+
+        <!-- T9: WA5 35% WA6 20% + Kinetic 20 (下调高级掉率) -->
+        <lootgroup name="groupChallengerWeaponT9" count="1">
+            <item group="groupChallengerWeaponSchematicWA5" prob="21"/>
+            <item group="groupChallengerWeaponWA5" prob="14"/>
+            <item group="groupChallengerWeaponSchematicWA6" prob="12"/>
+            <item group="groupChallengerWeaponWA6" prob="8"/>
+            <item name="modWeaponKineticEscalatorWP3" prob="20"/>
+        </lootgroup>
+
+        <!-- T10: WA5 15% WA6 30% + Kinetic 30 (下调高级掉率) -->
+        <lootgroup name="groupChallengerWeaponT10" count="1">
+            <item group="groupChallengerWeaponSchematicWA5" prob="9"/>
+            <item group="groupChallengerWeaponWA5" prob="6"/>
+            <item group="groupChallengerWeaponSchematicWA6" prob="18"/>
+            <item group="groupChallengerWeaponWA6" prob="12"/>
+            <item name="modWeaponKineticEscalatorWP3" prob="30"/>
+        </lootgroup>
+
+
+        <!-- ============================================= -->
+        <!-- 2i. 各Tier符石池 (纯成品，P分布)               -->
+        <!-- ============================================= -->
+
+        <lootgroup name="groupChallengerRuneT1" count="1">
+            <item group="groupChallengerRuneP1" prob="100"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneT2" count="1">
+            <item group="groupChallengerRuneP1" prob="70"/>
+            <item group="groupChallengerRuneP2" prob="30"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneT3" count="1">
+            <item group="groupChallengerRuneP1" prob="50"/>
+            <item group="groupChallengerRuneP2" prob="35"/>
+            <item group="groupChallengerRuneP3" prob="15"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneT4" count="1">
+            <item group="groupChallengerRuneP2" prob="50"/>
+            <item group="groupChallengerRuneP3" prob="35"/>
+            <item group="groupChallengerRuneP4" prob="15"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneT5" count="1">
+            <item group="groupChallengerRuneP2" prob="25"/>
+            <item group="groupChallengerRuneP3" prob="50"/>
+            <item group="groupChallengerRuneP4" prob="25"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneT6" count="1">
+            <item group="groupChallengerRuneP3" prob="45"/>
+            <item group="groupChallengerRuneP4" prob="40"/>
+            <item group="groupChallengerRuneP5" prob="15"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneT7" count="1">
+            <item group="groupChallengerRuneP3" prob="25"/>
+            <item group="groupChallengerRuneP4" prob="50"/>
+            <item group="groupChallengerRuneP5" prob="25"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneT8" count="1">
+            <item group="groupChallengerRuneP4" prob="50"/>
+            <item group="groupChallengerRuneP5" prob="40"/>
+            <item group="groupChallengerRuneP6" prob="10"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneT9" count="1">
+            <item group="groupChallengerRuneP5" prob="60"/>
+            <item group="groupChallengerRuneP6" prob="40"/>
+        </lootgroup>
+
+        <lootgroup name="groupChallengerRuneT10" count="1">
+            <item group="groupChallengerRuneP6" prob="80"/>
+            <item group="groupChallengerRuneP7" prob="20"/>
+        </lootgroup>
+
+
+        <!-- ============================================= -->
+        <!-- 2j. 各Tier定星步枪池 (品质模板，纯成品)        -->
+        <!-- ============================================= -->
+
+        <lootgroup name="groupChallengerAstrofixT1" count="1" loot_quality_template="AstrofixQualityT1">
+            <item name="astrofix_machinegun"/>
+        </lootgroup>
+        <lootgroup name="groupChallengerAstrofixT2" count="1" loot_quality_template="AstrofixQualityT2">
+            <item name="astrofix_machinegun"/>
+        </lootgroup>
+        <lootgroup name="groupChallengerAstrofixT3" count="1" loot_quality_template="AstrofixQualityT3">
+            <item name="astrofix_machinegun"/>
+        </lootgroup>
+        <lootgroup name="groupChallengerAstrofixT4" count="1" loot_quality_template="AstrofixQualityT4">
+            <item name="astrofix_machinegun"/>
+        </lootgroup>
+        <lootgroup name="groupChallengerAstrofixT5" count="1" loot_quality_template="AstrofixQualityT5">
+            <item name="astrofix_machinegun"/>
+        </lootgroup>
+        <lootgroup name="groupChallengerAstrofixT6" count="1" loot_quality_template="AstrofixQualityT6">
+            <item name="astrofix_machinegun"/>
+        </lootgroup>
+        <lootgroup name="groupChallengerAstrofixT7" count="1" loot_quality_template="AstrofixQualityT7">
+            <item name="astrofix_machinegun"/>
+        </lootgroup>
+        <lootgroup name="groupChallengerAstrofixT8" count="1" loot_quality_template="AstrofixQualityT8">
+            <item name="astrofix_machinegun"/>
+        </lootgroup>
+        <lootgroup name="groupChallengerAstrofixT9" count="1" loot_quality_template="AstrofixQualityT9">
+            <item name="astrofix_machinegun"/>
+        </lootgroup>
+        <lootgroup name="groupChallengerAstrofixT10" count="1" loot_quality_template="AstrofixQualityT10">
+            <item name="astrofix_machinegun"/>
+        </lootgroup>
+
+
+        <!-- ================================================= -->
+        <!-- 3. 最终奖励组 — 主掉落池                           -->
+        <!--    权重: 护甲30 / 武器25 / 符石25 / 定星10        -->
+        <!--    T8+ 追加专属配件: T8=10 / T9=40 / T10=25       -->
+        <!-- ================================================= -->
+
+        <lootgroup name="lootgroupChallengerRewardT1Optional" count="1">
+            <item group="groupChallengerArmorT1" prob="30"/>
+            <item group="groupChallengerWeaponT1" prob="25"/>
+            <item group="groupChallengerRuneT1" prob="25"/>
+            <item group="groupChallengerAstrofixT1" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardT1" count="all">
+            <item name="casinoCoin" count="300,600"/>
+            <item name="resourceChallengerShard" count="5,10"/>
+            <item group="lootgroupChallengerRewardT1Optional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardT2Optional" count="1">
+            <item group="groupChallengerArmorT2" prob="30"/>
+            <item group="groupChallengerWeaponT2" prob="25"/>
+            <item group="groupChallengerRuneT2" prob="25"/>
+            <item group="groupChallengerAstrofixT2" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardT2" count="all">
+            <item name="casinoCoin" count="500,1000"/>
+            <item name="resourceChallengerCrystal" count="4,8"/>
+            <item group="lootgroupChallengerRewardT2Optional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardT3Optional" count="1">
+            <item group="groupChallengerArmorT3" prob="30"/>
+            <item group="groupChallengerWeaponT3" prob="25"/>
+            <item group="groupChallengerRuneT3" prob="25"/>
+            <item group="groupChallengerAstrofixT3" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardT3" count="all">
+            <item name="casinoCoin" count="800,1500"/>
+            <item name="resourceChallengerCore" count="3,6"/>
+            <item group="lootgroupChallengerRewardT3Optional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardT4Optional" count="1">
+            <item group="groupChallengerArmorT4" prob="30"/>
+            <item group="groupChallengerWeaponT4" prob="25"/>
+            <item group="groupChallengerRuneT4" prob="25"/>
+            <item group="groupChallengerAstrofixT4" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardT4" count="all">
+            <item name="casinoCoin" count="1200,2500"/>
+            <item name="resourceChallengerWeave" count="3,5"/>
+            <item group="lootgroupChallengerRewardT4Optional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardT5Optional" count="2">
+            <item group="groupChallengerArmorT5" prob="30"/>
+            <item group="groupChallengerWeaponT5" prob="25"/>
+            <item group="groupChallengerRuneT5" prob="25"/>
+            <item group="groupChallengerAstrofixT5" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardT5" count="all">
+            <item name="casinoCoin" count="2000,4000"/>
+            <item name="resourceChallengerSingularity" count="2,4"/>
+            <item group="lootgroupChallengerRewardT5Optional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardT6Optional" count="2">
+            <item group="groupChallengerArmorT6" prob="30"/>
+            <item group="groupChallengerWeaponT6" prob="25"/>
+            <item group="groupChallengerRuneT6" prob="25"/>
+            <item group="groupChallengerAstrofixT6" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardT6" count="all">
+            <item name="casinoCoin" count="3000,6000"/>
+            <item name="resourceChallengerEntropy" count="2,4"/>
+            <item group="lootgroupChallengerRewardT6Optional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardT7Optional" count="3">
+            <item group="groupChallengerArmorT7" prob="30"/>
+            <item group="groupChallengerWeaponT7" prob="25"/>
+            <item group="groupChallengerRuneT7" prob="25"/>
+            <item group="groupChallengerAstrofixT7" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardT7" count="all">
+            <item name="casinoCoin" count="5000,8000"/>
+            <item name="resourceChallengerEntropy" count="4,6"/>
+            <item group="lootgroupChallengerRewardT7Optional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardT8Optional" count="3">
+            <item group="groupChallengerArmorT8" prob="30"/>
+            <item group="groupChallengerWeaponT8" prob="25"/>
+            <item group="groupChallengerRuneT8" prob="25"/>
+            <item group="groupChallengerAstrofixT8" prob="10"/>
+            <item group="groupChallengerMilitechMods" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardT8" count="all">
+            <item name="casinoCoin" count="7000,12000"/>
+            <item name="resourceChallengerEntropy" count="6,8"/>
+            <item group="lootgroupChallengerRewardT8Optional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardT9Optional" count="4">
+            <item group="groupChallengerArmorT9" prob="30"/>
+            <item group="groupChallengerWeaponT9" prob="25"/>
+            <item group="groupChallengerRuneT9" prob="25"/>
+            <item group="groupChallengerAstrofixT9" prob="10"/>
+            <item group="groupChallengerMilitechModsX2" prob="40"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardT9" count="all">
+            <item name="casinoCoin" count="10000,18000"/>
+            <item name="resourceChallengerEntropy" count="8,10"/>
+            <item group="lootgroupChallengerRewardT9Optional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardT10Optional" count="4">
+            <item group="groupChallengerArmorT10" prob="30"/>
+            <item group="groupChallengerWeaponT10" prob="25"/>
+            <item group="groupChallengerRuneT10" prob="25"/>
+            <item group="groupChallengerAstrofixT10" prob="10"/>
+            <item group="groupChallengerMilitechModsX2" prob="25"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardT10" count="all">
+            <item name="casinoCoin" count="15000,25000"/>
+            <item name="resourceChallengerEntropy" count="10,15"/>
+            <item group="lootgroupChallengerRewardT10Optional" count="1"/>
+        </lootgroup>
+
+
+  
+
+        <lootgroup name="lootgroupChallengerRewardExtraMinorOptional" count="1">
+            <item group="groupChallengerArmorT2" prob="30"/>
+            <item group="groupChallengerWeaponT2" prob="25"/>
+            <item group="groupChallengerRuneT2" prob="25"/>
+            <item group="groupChallengerAstrofixT2" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardExtraMinor" count="all">
+            <item name="casinoCoin" count="500,1000"/>
+            <item name="resourceChallengerCrystal" count="4,8"/>
+            <item group="lootgroupChallengerRewardExtraMinorOptional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardExtraMidOptional" count="1">
+            <item group="groupChallengerArmorT3" prob="30"/>
+            <item group="groupChallengerWeaponT3" prob="25"/>
+            <item group="groupChallengerRuneT3" prob="25"/>
+            <item group="groupChallengerAstrofixT3" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardExtraMid" count="all">
+            <item name="casinoCoin" count="800,1500"/>
+            <item name="resourceChallengerCore" count="3,6"/>
+            <item group="lootgroupChallengerRewardExtraMidOptional" count="1"/>
+        </lootgroup>
+
+        <lootgroup name="lootgroupChallengerRewardExtraHighOptional" count="2">
+            <item group="groupChallengerArmorT5" prob="30"/>
+            <item group="groupChallengerWeaponT5" prob="25"/>
+            <item group="groupChallengerRuneT5" prob="25"/>
+            <item group="groupChallengerAstrofixT5" prob="10"/>
+        </lootgroup>
+        <lootgroup name="lootgroupChallengerRewardExtraHigh" count="all">
+            <item name="casinoCoin" count="2000,4000"/>
+            <item name="resourceChallengerSingularity" count="2,4"/>
+            <item group="lootgroupChallengerRewardExtraHighOptional" count="1"/>
+        </lootgroup>
+
+        <!-- ================================================= -->
+        <!-- 4. 额外挑战奖励组                                   -->
+        <!--    Extra Minor: T2分布, 2件                        -->
+        <!--    Extra Mid:   T3分布, 3件                        -->
+        <!--    Extra High:  T5分布, 4件                        -->
+        <!-- ================================================= -->
+        <!-- 5. 奖励容器定义                                     -->
+        <!-- ================================================= -->
+
+        <lootcontainer name="lootgroupChallengerRewardT1" count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardT1"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardT2" count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardT2"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardT3" count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardT3"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardT4" count="1" size="8,5" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardT4"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardT5" count="1" size="8,5" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardT5"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardT6" count="1" size="8,5" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardT6"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardT7" count="1" size="8,6" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardT7"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardT8" count="1" size="8,6" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardT8"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardT9" count="1" size="8,6" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardT9"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardT10" count="1" size="8,6" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardT10"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardExtraMinor" count="1" size="8,4" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardExtraMinor"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardExtraMid" count="1" size="8,5" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardExtraMid"/>
+        </lootcontainer>
+        <lootcontainer name="lootgroupChallengerRewardExtraHigh" count="1" size="8,6" sound_open="UseActions/open_chest" sound_close="UseActions/close_chest" open_time="1" ignore_loot_abundance="true">
+            <item group="lootgroupChallengerRewardExtraHigh"/>
+        </lootcontainer>
+
+    </append>
+
+
+    <!-- ================================================= -->
+    <!-- 7. 挑战书 → 僵尸掉落袋追加                          -->
+    <!-- ================================================= -->
+    <!-- 普通僵尸: T1-T2 (1.5%) -->
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackReg']">
+        <item group="groupChallengerScrollsT1T2" prob="0.015"/>
+    </append>
+
+    <!-- 强壮僵尸: T1-T3 (2%) -->
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackStrong']">
+        <item group="groupChallengerScrollsT1T3" prob="0.02"/>
+    </append>
+
+    <!-- Boss僵尸: T1-T4 (3%) -->
+    <append xpath="/lootcontainers/lootgroup[@name='groupZpackBoss']">
+        <item group="groupChallengerScrollsT1T4" prob="0.03"/>
+    </append>
+
+
+    <!-- ================================================= -->
+    <!-- 8. 挑战书 → T7-T10 奖励箱追加 (低概率)             -->
+    <!-- ================================================= -->
+    <!-- T7 奖励箱: T1-T7 (5%) -->
+    <append xpath="/lootcontainers/lootgroup[@name='lootgroupChallengerRewardT7']">
+        <item group="groupChallengerScrollsT1T7" prob="5"/>
+    </append>
+
+    <!-- T8 奖励箱: T1-T8 (7%) -->
+    <append xpath="/lootcontainers/lootgroup[@name='lootgroupChallengerRewardT8']">
+        <item group="groupChallengerScrollsT1T8" prob="7"/>
+    </append>
+
+    <!-- T9 奖励箱: T1-T9 (10%) -->
+    <append xpath="/lootcontainers/lootgroup[@name='lootgroupChallengerRewardT9']">
+        <item group="groupChallengerScrollsT1T9" prob="10"/>
+    </append>
+
+    <!-- T10 奖励箱: T1-T10 (15%) -->
+    <append xpath="/lootcontainers/lootgroup[@name='lootgroupChallengerRewardT10']">
+        <item group="groupChallengerScrollsT1T10" prob="15"/>
+    </append>
+
+</configs>

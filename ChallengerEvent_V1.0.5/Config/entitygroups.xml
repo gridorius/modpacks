@@ -1,0 +1,326 @@
+<configs>
+	<append xpath="/entitygroups">
+
+		<!-- ============================================================ -->
+		<!-- T1  杂兵群 —— 最弱基础僵尸，用于低难度挑战                     -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_Trash">
+			zombieSteve
+			zombieJoe
+			zombieMoe
+			zombieYo
+			zombieArlene
+			zombieDarlene
+			zombieNurse
+			zombiePartyGirl
+			zombieBusinessMan
+			zombieSteveCrawler
+			zombieFemaleFat
+			animalZombieDog, .05
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- T2  混混群 —— 普通僵尸 + 少量 Feral 变种（权重稀释）            -->
+		<!-- 修正了原 animalDireWolf 为 animalZombieBear                  -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_NormalMixed">
+			zombieSpider, .8
+			zombieSpiderFeral, .2
+			zombieBoe, .8
+			zombieBoeFeral, .2
+			zombieJoe, .8
+			zombieJoeFeral, .2
+			zombieSteve, .8
+			zombieSteveFeral, .2
+			zombieTomClark, .8
+			zombieTomClarkFeral, .2
+			zombieMoe, .8
+			zombieMoeFeral, .2
+			zombieYo, .8
+			zombieYoFeral, .2
+			zombieBusinessMan, .8
+			zombieBusinessManFeral, .2
+			zombieArlene, .8
+			zombieArleneFeral, .2
+			zombieDarlene, .8
+			zombieDarleneFeral, .2
+			zombieMarlene, .8
+			zombieMarleneFeral, .2
+			zombieLumberjack, .8
+			zombieLumberjackFeral, .2
+			zombieNurse, .8
+			zombieNurseFeral, .2
+			zombieSteveCrawler, .9
+			zombieSteveCrawlerFeral, .1
+			zombieFatHawaiian, .8
+			zombieFatHawaiianFeral, .2
+			zombieBowler, .1
+			zombieBowlerFeral, .1
+			animalZombieDog, .05
+			animalZombieBear, .01
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- T3  狂暴群 —— 全部由 Feral 变种组成，速度与攻击大幅提升         -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_Feral">
+			zombieArleneFeral
+			zombieBikerFeral
+			zombieBoeFeral
+			zombieBowlerFeral
+			zombieBurntFeral
+			zombieBusinessManFeral
+			zombieChuckFeral
+			zombieDarleneFeral
+			zombieFatCopFeral
+			zombieFatHawaiianFeral
+			zombieFemaleFatFeral
+			zombieInmateFeral
+			zombieJanitorFeral
+			zombieJoeFeral
+			zombieLabFeral
+			zombieLumberjackFeral
+			zombieMaleHazmatFeral
+			zombieMarleneFeral
+			zombieMoeFeral
+			zombieMutatedFeral
+			zombieNurseFeral
+			zombiePartyGirlFeral
+			zombiePlagueSpitterFeral
+			zombieRancherFeral
+			zombieScreamerFeral
+			zombieSkateboarderFeral
+			zombieSoldierFeral
+			zombieSpiderFeral
+			zombieSteveFeral
+			zombieSteveCrawlerFeral
+			zombieTomClarkFeral
+			zombieUtilityWorkerFeral
+			zombieWightFeral
+			zombieYoFeral
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- T4  辐射群 —— 以 Radiated 为主，搭配少数 Charged 精英           -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_Radiated">
+			<!-- Radiated 变种 -->
+			zombieSpiderRadiated
+			zombieBoeRadiated
+			zombieBikerRadiated
+			zombieBurntRadiated
+			zombieBusinessManRadiated
+			zombieDarleneRadiated
+			zombieFatCopRadiated
+			zombieFatHawaiianRadiated
+			zombieFemaleFatRadiated
+			zombieInmateRadiated
+			zombieJanitorRadiated
+			zombieJoeRadiated
+			zombieLumberjackRadiated
+			zombieMaleHazmatRadiated
+			zombieMoeRadiated
+			zombieMutatedRadiated
+			zombieNurseRadiated
+			zombiePlagueSpitterRadiated
+			zombieRancherRadiated
+			zombieScreamerRadiated
+			zombieSkateboarderRadiated
+			zombieSteveRadiated
+			zombieTomClarkRadiated
+			zombieUtilityWorkerRadiated
+			zombieWightRadiated
+			zombieYoRadiated
+			<!-- 少数 Charged 精英（低权重） -->
+			zombieMaleHazmatCharged, .3
+			zombieMutatedCharged, .3
+			zombieWightCharged, .3
+			zombieSpiderCharged, .2
+			zombieBoeCharged, .2
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- T5  充能精英群 —— 以 Charged 为主，混合少量 Infernal             -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_RadiatedElite">
+			<!-- Charged 变种（主力） -->
+			zombieArleneCharged
+			zombieBoeCharged
+			zombieBurntCharged
+			zombieBusinessManCharged
+			zombieChuckCharged
+			zombieDarleneCharged
+			zombieInmateCharged
+			zombieJanitorCharged
+			zombieJoeCharged
+			zombieLabCharged
+			zombieMaleHazmatCharged
+			zombieMarleneCharged
+			zombieMutatedCharged
+			zombieNurseCharged
+			zombiePartyGirlCharged
+			zombiePlagueSpitterCharged
+			zombieRancherCharged
+			zombieScreamerCharged
+			zombieSkateboarderCharged
+			zombieSpiderCharged
+			zombieSteveCharged
+			zombieTomClarkCharged
+			zombieUtilityWorkerCharged
+			zombieWightCharged
+			zombieYoCharged
+			<!-- 少量 Infernal 作为精英头目 -->
+			zombieWightInfernal, .3
+			zombieMutatedInfernal, .3
+			zombieBikerInfernal, .3
+			zombieSoldierInfernal, .3
+			zombieSpiderInfernal, .2
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- T6  地狱先锋群 —— Infernal 为主，搭配强力 Charged              -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_InfernalFront">
+			<!-- Infernal 变种 -->
+			zombieBikerInfernal
+			zombieBoeInfernal
+			zombieBowlerInfernal
+			zombieBurntInfernal
+			zombieBusinessManInfernal
+			zombieChuckInfernal
+			zombieDarleneInfernal
+			zombieFatCopInfernal
+			zombieFatHawaiianInfernal
+			zombieFemaleFatInfernal
+			zombieInmateInfernal
+			zombieJanitorInfernal
+			zombieLumberjackInfernal
+			zombieMaleHazmatInfernal
+			zombieMoeInfernal
+			zombieMutatedInfernal
+			zombiePlagueSpitterInfernal
+			zombieRancherInfernal
+			zombieSkateboarderInfernal
+			zombieSoldierInfernal
+			zombieSpiderInfernal
+			zombieUtilityWorkerInfernal
+			zombieWightInfernal
+			zombieYoInfernal
+			<!-- 保留部分 Charged 丰富池子 -->
+			zombieWightCharged, .5
+			zombieMutatedCharged, .5
+			zombieMaleHazmatCharged, .5
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- T7  地狱军团 —— 全 Infernal，纯粹的地狱火海                     -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_Infernal">
+			zombieBikerInfernal
+			zombieBoeInfernal
+			zombieBowlerInfernal
+			zombieBurntInfernal
+			zombieBusinessManInfernal
+			zombieChuckInfernal
+			zombieDarleneInfernal
+			zombieFatCopInfernal
+			zombieFatHawaiianInfernal
+			zombieFemaleFatInfernal
+			zombieInmateInfernal
+			zombieJanitorInfernal
+			zombieLumberjackInfernal
+			zombieMaleHazmatInfernal
+			zombieMoeInfernal
+			zombieMutatedInfernal
+			zombiePlagueSpitterInfernal
+			zombieRancherInfernal
+			zombieSkateboarderInfernal
+			zombieSoldierInfernal
+			zombieSpiderInfernal
+			zombieUtilityWorkerInfernal
+			zombieWightInfernal
+			zombieYoInfernal
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- T8  地狱精英群 —— Infernal + 爆破者（Demolition）加入           -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_HellElite">
+			zombieDemolition, .3
+			zombieBikerInfernal
+			zombieBoeInfernal
+			zombieBurntInfernal
+			zombieFatCopInfernal
+			zombieMaleHazmatInfernal
+			zombieMutatedInfernal
+			zombieSoldierInfernal
+			zombieSpiderInfernal
+			zombieWightInfernal
+			zombieYoInfernal
+			<!-- 复数自爆威胁 -->
+			zombieDemolition, .3
+			zombieWightInfernal, .8
+			zombieMutatedInfernal, .8
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- T9  地狱首领群 —— 高密度爆破 + 最强 Infernal + 巨兽             -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_HellBoss">
+			zombieDemolition
+			zombieDemolition, .7
+			zombieMutatedInfernal
+			zombieWightInfernal
+			zombieBikerInfernal, .8
+			zombieSoldierInfernal, .8
+			zombieFatCopInfernal, .7
+			zombieMaleHazmatInfernal, .7
+			zombieSpiderInfernal, .7
+			animalZombieBear, .4
+			animalBossGrace, .1
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- T10 终极异变群 —— 纯顶级 Infernal + 爆破者，无弱者               -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_Ultimate">
+			zombieDemolition
+			zombieMutatedInfernal
+			zombieWightInfernal
+			zombieBikerInfernal
+			zombieSoldierInfernal
+			zombieSpiderInfernal
+			zombieBurntInfernal
+			zombieFatCopInfernal
+			zombieMaleHazmatInfernal
+			zombiePlagueSpitterInfernal
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- T11 大 BOSS 战群                  -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_BossGroup">
+			zombieDemolition
+			zombieDemolition, .8
+			zombieMutatedInfernal
+			zombieWightInfernal
+			zombieSpiderInfernal
+			zombieBikerInfernal
+			zombieSoldierInfernal
+			animalBossGrace, .3
+		</entitygroup>
+
+		<!-- ============================================================ -->
+		<!-- 可选：动物专用群（用于特殊事件）                                -->
+		<!-- ============================================================ -->
+		<entitygroup name="Challenger_Animals">
+			animalZombieDog, .9
+			animalZombieBear, .08
+			animalZombieBoar, .8
+			animalZombieVulture, .7
+			animalZombieVultureRadiated, .3
+			animalBossGrace, .02
+		</entitygroup>
+
+	</append>
+</configs>

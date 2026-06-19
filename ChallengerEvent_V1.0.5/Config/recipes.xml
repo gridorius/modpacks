@@ -1,0 +1,968 @@
+<configs>
+    <append xpath="/recipes">
+
+        <!-- ========================================================================== -->
+        <!-- Challenger 货币兑换 (5条)                                                    -->
+        <!-- ========================================================================== -->
+
+        <!-- 30 残蚀碎片 + 500 金币 → 10 烧结晶体 -->
+        <recipe name="resourceChallengerCrystal" count="10" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceChallengerShard" count="30"/>
+            <ingredient name="casinoCoin" count="500"/>
+        </recipe>
+
+        <!-- 40 烧结晶体 + 2000 金币 → 10 谐振核心 -->
+        <recipe name="resourceChallengerCore" count="10" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceChallengerCrystal" count="40"/>
+            <ingredient name="casinoCoin" count="2000"/>
+        </recipe>
+
+        <!-- 40 谐振核心 + 8000 金币 → 10 相位编织体 -->
+        <recipe name="resourceChallengerWeave" count="10" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceChallengerCore" count="40"/>
+            <ingredient name="casinoCoin" count="8000"/>
+        </recipe>
+
+        <!-- 40 相位编织体 + 32000 金币 → 10 奇点凝块 -->
+        <recipe name="resourceChallengerSingularity" count="10" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="40"/>
+            <ingredient name="casinoCoin" count="32000"/>
+        </recipe>
+
+        <!-- 60 奇点凝块 + 128000 金币 → 10 定熵基石 -->
+        <recipe name="resourceChallengerEntropy" count="10" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="60"/>
+            <ingredient name="casinoCoin" count="128000"/>
+        </recipe>
+
+
+        <!-- ========================================================================== -->
+        <!-- 护甲插件 — KineticRecoilCore MK1-6                                          -->
+        <!-- ========================================================================== -->
+
+        <recipe name="modArmorKineticRecoilCoreMK1" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerShard" count="50"/>
+            <ingredient name="casinoCoin" count="1000"/>
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceGlue" count="3"/>
+        </recipe>
+        <recipe name="modArmorKineticRecoilCoreMK2" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCrystal" count="40"/>
+            <ingredient name="casinoCoin" count="3000"/>
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceGlue" count="5"/>
+        </recipe>
+        <recipe name="modArmorKineticRecoilCoreMK3" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCore" count="30"/>
+            <ingredient name="casinoCoin" count="8000"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="15"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceOil" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+        <recipe name="modArmorKineticRecoilCoreMK4" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modArmorKineticRecoilCoreMK5" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="40"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modArmorKineticRecoilCoreMK6" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="120000"/>
+            <ingredient name="resourceForgedSteel" count="60"/>
+            <ingredient name="resourceMechanicalParts" count="50"/>
+            <ingredient name="resourceElectricParts" count="40"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="40"/>
+        </recipe>
+
+
+        <!-- EmergencyHealingCanister MK1-6 -->
+        <recipe name="modArmorEmergencyHealingCanisterMK1" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerShard" count="50"/>
+            <ingredient name="casinoCoin" count="1000"/>
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceGlue" count="3"/>
+        </recipe>
+        <recipe name="modArmorEmergencyHealingCanisterMK2" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCrystal" count="40"/>
+            <ingredient name="casinoCoin" count="3000"/>
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceGlue" count="5"/>
+        </recipe>
+        <recipe name="modArmorEmergencyHealingCanisterMK3" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCore" count="30"/>
+            <ingredient name="casinoCoin" count="8000"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="15"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceOil" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+        <recipe name="modArmorEmergencyHealingCanisterMK4" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modArmorEmergencyHealingCanisterMK5" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="40"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modArmorEmergencyHealingCanisterMK6" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="120000"/>
+            <ingredient name="resourceForgedSteel" count="60"/>
+            <ingredient name="resourceMechanicalParts" count="50"/>
+            <ingredient name="resourceElectricParts" count="40"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="40"/>
+        </recipe>
+
+
+        <!-- BloodFrenzyCharm MK1-6 -->
+        <recipe name="modArmorBloodFrenzyCharmMK1" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerShard" count="50"/>
+            <ingredient name="casinoCoin" count="1000"/>
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceGlue" count="3"/>
+        </recipe>
+        <recipe name="modArmorBloodFrenzyCharmMK2" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCrystal" count="40"/>
+            <ingredient name="casinoCoin" count="3000"/>
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceGlue" count="5"/>
+        </recipe>
+        <recipe name="modArmorBloodFrenzyCharmMK3" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCore" count="30"/>
+            <ingredient name="casinoCoin" count="8000"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="15"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceOil" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+        <recipe name="modArmorBloodFrenzyCharmMK4" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modArmorBloodFrenzyCharmMK5" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="40"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modArmorBloodFrenzyCharmMK6" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="120000"/>
+            <ingredient name="resourceForgedSteel" count="60"/>
+            <ingredient name="resourceMechanicalParts" count="50"/>
+            <ingredient name="resourceElectricParts" count="40"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="40"/>
+        </recipe>
+
+
+        <!-- StormGrounder MK1-6 -->
+        <recipe name="modArmorStormGrounderMK1" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerShard" count="50"/>
+            <ingredient name="casinoCoin" count="1000"/>
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceGlue" count="3"/>
+        </recipe>
+        <recipe name="modArmorStormGrounderMK2" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCrystal" count="40"/>
+            <ingredient name="casinoCoin" count="3000"/>
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceGlue" count="5"/>
+        </recipe>
+        <recipe name="modArmorStormGrounderMK3" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCore" count="30"/>
+            <ingredient name="casinoCoin" count="8000"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="15"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceOil" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+        <recipe name="modArmorStormGrounderMK4" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modArmorStormGrounderMK5" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="40"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modArmorStormGrounderMK6" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="120000"/>
+            <ingredient name="resourceForgedSteel" count="60"/>
+            <ingredient name="resourceMechanicalParts" count="50"/>
+            <ingredient name="resourceElectricParts" count="40"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="40"/>
+        </recipe>
+
+
+        <!-- PlaguePurifierPump MK1-6 -->
+        <recipe name="modArmorPlaguePurifierPumpMK1" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerShard" count="50"/>
+            <ingredient name="casinoCoin" count="1000"/>
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceGlue" count="3"/>
+        </recipe>
+        <recipe name="modArmorPlaguePurifierPumpMK2" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCrystal" count="40"/>
+            <ingredient name="casinoCoin" count="3000"/>
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceGlue" count="5"/>
+        </recipe>
+        <recipe name="modArmorPlaguePurifierPumpMK3" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCore" count="30"/>
+            <ingredient name="casinoCoin" count="8000"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="15"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceOil" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+        <recipe name="modArmorPlaguePurifierPumpMK4" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modArmorPlaguePurifierPumpMK5" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="40"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modArmorPlaguePurifierPumpMK6" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="120000"/>
+            <ingredient name="resourceForgedSteel" count="60"/>
+            <ingredient name="resourceMechanicalParts" count="50"/>
+            <ingredient name="resourceElectricParts" count="40"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="40"/>
+        </recipe>
+
+
+        <!-- CalamityStabilityField MK1-6 -->
+        <recipe name="modArmorCalamityStabilityFieldMK1" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerShard" count="50"/>
+            <ingredient name="casinoCoin" count="1000"/>
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceGlue" count="3"/>
+        </recipe>
+        <recipe name="modArmorCalamityStabilityFieldMK2" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCrystal" count="40"/>
+            <ingredient name="casinoCoin" count="3000"/>
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceGlue" count="5"/>
+        </recipe>
+        <recipe name="modArmorCalamityStabilityFieldMK3" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCore" count="30"/>
+            <ingredient name="casinoCoin" count="8000"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="15"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceOil" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+        <recipe name="modArmorCalamityStabilityFieldMK4" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modArmorCalamityStabilityFieldMK5" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="40"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modArmorCalamityStabilityFieldMK6" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="120000"/>
+            <ingredient name="resourceForgedSteel" count="60"/>
+            <ingredient name="resourceMechanicalParts" count="50"/>
+            <ingredient name="resourceElectricParts" count="40"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="40"/>
+        </recipe>
+
+
+        <!-- ========================================================================== -->
+        <!-- 荆棘偏转甲 — ThornDeflectionPlate A7/A72-A76                               -->
+        <!-- ========================================================================== -->
+        <recipe name="modArmorThornDeflectionPlateA7" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modArmorThornDeflectionPlateA72" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="25000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modArmorThornDeflectionPlateA73" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="40000"/>
+            <ingredient name="resourceForgedSteel" count="35"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modArmorThornDeflectionPlateA74" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="45"/>
+            <ingredient name="resourceMechanicalParts" count="35"/>
+            <ingredient name="resourceElectricParts" count="30"/>
+            <ingredient name="resourceOil" count="25"/>
+            <ingredient name="resourceScrapPolymers" count="30"/>
+        </recipe>
+        <recipe name="modArmorThornDeflectionPlateA75" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="100000"/>
+            <ingredient name="resourceForgedSteel" count="55"/>
+            <ingredient name="resourceMechanicalParts" count="45"/>
+            <ingredient name="resourceElectricParts" count="35"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="35"/>
+        </recipe>
+        <recipe name="modArmorThornDeflectionPlateA76" count="1" craft_time="45" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="20"/>
+            <ingredient name="casinoCoin" count="200000"/>
+            <ingredient name="resourceForgedSteel" count="70"/>
+            <ingredient name="resourceMechanicalParts" count="55"/>
+            <ingredient name="resourceElectricParts" count="45"/>
+            <ingredient name="resourceOil" count="35"/>
+            <ingredient name="resourceScrapPolymers" count="45"/>
+        </recipe>
+
+
+        <!-- ========================================================================== -->
+        <!-- 余烬复燃板 — EmberRekindlePlate A9/A92-A96                                 -->
+        <!-- ========================================================================== -->
+        <recipe name="modArmorEmberRekindlePlateA9" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modArmorEmberRekindlePlateA92" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="25000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modArmorEmberRekindlePlateA93" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="40000"/>
+            <ingredient name="resourceForgedSteel" count="35"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modArmorEmberRekindlePlateA94" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="45"/>
+            <ingredient name="resourceMechanicalParts" count="35"/>
+            <ingredient name="resourceElectricParts" count="30"/>
+            <ingredient name="resourceOil" count="25"/>
+            <ingredient name="resourceScrapPolymers" count="30"/>
+        </recipe>
+        <recipe name="modArmorEmberRekindlePlateA95" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="100000"/>
+            <ingredient name="resourceForgedSteel" count="55"/>
+            <ingredient name="resourceMechanicalParts" count="45"/>
+            <ingredient name="resourceElectricParts" count="35"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="35"/>
+        </recipe>
+        <recipe name="modArmorEmberRekindlePlateA96" count="1" craft_time="45" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="20"/>
+            <ingredient name="casinoCoin" count="200000"/>
+            <ingredient name="resourceForgedSteel" count="70"/>
+            <ingredient name="resourceMechanicalParts" count="55"/>
+            <ingredient name="resourceElectricParts" count="45"/>
+            <ingredient name="resourceOil" count="35"/>
+            <ingredient name="resourceScrapPolymers" count="45"/>
+        </recipe>
+
+
+        <!-- ========================================================================== -->
+        <!-- 凋零适应外骨骼 P10                                                        -->
+        <!-- ========================================================================== -->
+        <recipe name="modArmorWitherAdaptiveExoskeletonP10" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="20"/>
+            <ingredient name="casinoCoin" count="200000"/>
+            <ingredient name="resourceForgedSteel" count="80"/>
+            <ingredient name="resourceMechanicalParts" count="60"/>
+            <ingredient name="resourceElectricParts" count="50"/>
+            <ingredient name="resourceOil" count="40"/>
+            <ingredient name="resourceScrapPolymers" count="50"/>
+        </recipe>
+
+
+        <!-- ========================================================================== -->
+        <!-- 武器插件 — FireChaserSwarm WA1-6                                            -->
+        <!-- ========================================================================== -->
+        <recipe name="modWeaponFireChaserSwarmWA1" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerShard" count="50"/>
+            <ingredient name="casinoCoin" count="1000"/>
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceGlue" count="3"/>
+        </recipe>
+        <recipe name="modWeaponFireChaserSwarmWA2" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCrystal" count="40"/>
+            <ingredient name="casinoCoin" count="3000"/>
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceGlue" count="5"/>
+        </recipe>
+        <recipe name="modWeaponFireChaserSwarmWA3" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCore" count="30"/>
+            <ingredient name="casinoCoin" count="8000"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="15"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceOil" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+        <recipe name="modWeaponFireChaserSwarmWA4" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modWeaponFireChaserSwarmWA5" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="40"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modWeaponFireChaserSwarmWA6" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="120000"/>
+            <ingredient name="resourceForgedSteel" count="60"/>
+            <ingredient name="resourceMechanicalParts" count="50"/>
+            <ingredient name="resourceElectricParts" count="40"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="40"/>
+        </recipe>
+
+
+        <!-- FrostGrenadeNest WA1-6 -->
+        <recipe name="modWeaponFrostGrenadeNestWA1" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerShard" count="50"/>
+            <ingredient name="casinoCoin" count="1000"/>
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceGlue" count="3"/>
+        </recipe>
+        <recipe name="modWeaponFrostGrenadeNestWA2" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCrystal" count="40"/>
+            <ingredient name="casinoCoin" count="3000"/>
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceGlue" count="5"/>
+        </recipe>
+        <recipe name="modWeaponFrostGrenadeNestWA3" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCore" count="30"/>
+            <ingredient name="casinoCoin" count="8000"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="15"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceOil" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+        <recipe name="modWeaponFrostGrenadeNestWA4" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modWeaponFrostGrenadeNestWA5" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="40"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modWeaponFrostGrenadeNestWA6" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="120000"/>
+            <ingredient name="resourceForgedSteel" count="60"/>
+            <ingredient name="resourceMechanicalParts" count="50"/>
+            <ingredient name="resourceElectricParts" count="40"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="40"/>
+        </recipe>
+
+
+        <!-- LightningChainCapacitor WA1-6 -->
+        <recipe name="modWeaponLightningChainCapacitorWA1" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerShard" count="50"/>
+            <ingredient name="casinoCoin" count="1000"/>
+            <ingredient name="resourceForgedIron" count="10"/>
+            <ingredient name="resourceMechanicalParts" count="5"/>
+            <ingredient name="resourceGlue" count="3"/>
+        </recipe>
+        <recipe name="modWeaponLightningChainCapacitorWA2" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCrystal" count="40"/>
+            <ingredient name="casinoCoin" count="3000"/>
+            <ingredient name="resourceForgedIron" count="20"/>
+            <ingredient name="resourceMechanicalParts" count="10"/>
+            <ingredient name="resourceElectricParts" count="5"/>
+            <ingredient name="resourceGlue" count="5"/>
+        </recipe>
+        <recipe name="modWeaponLightningChainCapacitorWA3" count="1" craft_time="25" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerCore" count="30"/>
+            <ingredient name="casinoCoin" count="8000"/>
+            <ingredient name="resourceForgedSteel" count="15"/>
+            <ingredient name="resourceMechanicalParts" count="15"/>
+            <ingredient name="resourceElectricParts" count="10"/>
+            <ingredient name="resourceOil" count="5"/>
+            <ingredient name="resourceScrapPolymers" count="10"/>
+        </recipe>
+        <recipe name="modWeaponLightningChainCapacitorWA4" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerWeave" count="30"/>
+            <ingredient name="casinoCoin" count="20000"/>
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceElectricParts" count="15"/>
+            <ingredient name="resourceOil" count="10"/>
+            <ingredient name="resourceScrapPolymers" count="15"/>
+        </recipe>
+        <recipe name="modWeaponLightningChainCapacitorWA5" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="20"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="40"/>
+            <ingredient name="resourceMechanicalParts" count="30"/>
+            <ingredient name="resourceElectricParts" count="25"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="25"/>
+        </recipe>
+        <recipe name="modWeaponLightningChainCapacitorWA6" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+            <ingredient name="casinoCoin" count="120000"/>
+            <ingredient name="resourceForgedSteel" count="60"/>
+            <ingredient name="resourceMechanicalParts" count="50"/>
+            <ingredient name="resourceElectricParts" count="40"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="40"/>
+        </recipe>
+
+
+        <!-- ========================================================================== -->
+        <!-- 动能递增机芯 WP3                                                           -->
+        <!-- ========================================================================== -->
+        <recipe name="modWeaponKineticEscalatorWP3" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="30"/>
+            <ingredient name="casinoCoin" count="75000"/>
+            <ingredient name="resourceForgedSteel" count="50"/>
+            <ingredient name="resourceMechanicalParts" count="40"/>
+            <ingredient name="resourceElectricParts" count="30"/>
+            <ingredient name="resourceOil" count="25"/>
+            <ingredient name="resourceScrapPolymers" count="30"/>
+        </recipe>
+
+
+        <!-- ========================================================================== -->
+        <!-- 定星专属武器配件 (11种)                                                    -->
+        <!-- ========================================================================== -->
+        <recipe name="modAstroxfixDMR" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modMilitech_SalvoCore" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modMilitech_BarrageCore" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modMilitech_ShardSplitter" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modMilitech_OverchargeRounds" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modMilitech_ChainAmplifier" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modMilitech_FlameBarrage" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modMilitech_FrostBarrage" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modMilitech_ShockChain" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modMilitech_QuickChargeMag" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+        <recipe name="modMilitech_PowerDumpMag" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+            <ingredient name="casinoCoin" count="35000"/>
+            <ingredient name="resourceForgedSteel" count="30"/>
+            <ingredient name="resourceMechanicalParts" count="25"/>
+            <ingredient name="resourceElectricParts" count="20"/>
+            <ingredient name="resourceOil" count="15"/>
+            <ingredient name="resourceScrapPolymers" count="20"/>
+        </recipe>
+
+
+        <!-- ========================================================================== -->
+        <!-- Challenger 箱子 (10 个奖杯箱 — 全部定熵基石, workbench)                      -->
+        <!-- ========================================================================== -->
+
+        <!-- 普通挑战箱 -->
+        <recipe name="cntChallengerCrate_normal" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="5"/>
+            <ingredient name="casinoCoin" count="50000"/>
+            <ingredient name="resourceForgedSteel" count="80"/>
+            <ingredient name="resourceMechanicalParts" count="40"/>
+            <ingredient name="resourceScrapPolymers" count="30"/>
+            <ingredient name="resourceGlue" count="20"/>
+        </recipe>
+
+        <!-- 困难挑战箱 -->
+        <recipe name="cntChallengerCrate_hard" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="8"/>
+            <ingredient name="casinoCoin" count="80000"/>
+            <ingredient name="resourceForgedSteel" count="100"/>
+            <ingredient name="resourceMechanicalParts" count="50"/>
+            <ingredient name="resourceElectricParts" count="40"/>
+            <ingredient name="resourceOil" count="20"/>
+            <ingredient name="resourceScrapPolymers" count="40"/>
+        </recipe>
+
+        <!-- 地狱挑战箱 -->
+        <recipe name="cntChallengerCrate_hell" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="12"/>
+            <ingredient name="casinoCoin" count="120000"/>
+            <ingredient name="resourceForgedSteel" count="120"/>
+            <ingredient name="resourceMechanicalParts" count="60"/>
+            <ingredient name="resourceElectricParts" count="50"/>
+            <ingredient name="resourceOil" count="30"/>
+            <ingredient name="resourceScrapPolymers" count="50"/>
+            <ingredient name="resourceSpring" count="20"/>
+        </recipe>
+
+        <!-- 额外挑战箱 -->
+        <recipe name="cntChallengerCrate_extra" count="1" craft_time="35" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="8"/>
+            <ingredient name="casinoCoin" count="80000"/>
+            <ingredient name="resourceForgedSteel" count="100"/>
+            <ingredient name="resourceMechanicalParts" count="45"/>
+            <ingredient name="resourceElectricParts" count="35"/>
+            <ingredient name="resourceScrapPolymers" count="45"/>
+            <ingredient name="resourceDuctTape" count="15"/>
+        </recipe>
+
+        <!-- 黑洞箱 -->
+        <recipe name="cntChallengerCrate_blackhole" count="1" craft_time="50" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="20"/>
+            <ingredient name="casinoCoin" count="200000"/>
+            <ingredient name="resourceForgedSteel" count="150"/>
+            <ingredient name="resourceMechanicalParts" count="80"/>
+            <ingredient name="resourceElectricParts" count="60"/>
+            <ingredient name="resourceOil" count="40"/>
+            <ingredient name="resourceScrapPolymers" count="60"/>
+            <ingredient name="resourceSpring" count="30"/>
+        </recipe>
+
+        <!-- 金海箱 -->
+        <recipe name="cntChallengerCrate_goldmarine" count="1" craft_time="50" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="20"/>
+            <ingredient name="casinoCoin" count="200000"/>
+            <ingredient name="resourceForgedSteel" count="150"/>
+            <ingredient name="resourceMechanicalParts" count="70"/>
+            <ingredient name="resourceElectricParts" count="50"/>
+            <ingredient name="resourceOil" count="50"/>
+            <ingredient name="resourceScrapPolymers" count="70"/>
+            <ingredient name="resourceGlue" count="30"/>
+        </recipe>
+
+        <!-- 突变箱 -->
+        <recipe name="cntChallengerCrate_mutated" count="1" craft_time="50" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="20"/>
+            <ingredient name="casinoCoin" count="200000"/>
+            <ingredient name="resourceForgedSteel" count="140"/>
+            <ingredient name="resourceMechanicalParts" count="75"/>
+            <ingredient name="resourceElectricParts" count="55"/>
+            <ingredient name="resourceOil" count="45"/>
+            <ingredient name="resourceScrapPolymers" count="65"/>
+            <ingredient name="resourceDuctTape" count="25"/>
+        </recipe>
+
+        <!-- 赛博箱 -->
+        <recipe name="cntChallengerCrate_cyberpunk" count="1" craft_time="50" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="20"/>
+            <ingredient name="casinoCoin" count="200000"/>
+            <ingredient name="resourceForgedSteel" count="130"/>
+            <ingredient name="resourceMechanicalParts" count="80"/>
+            <ingredient name="resourceElectricParts" count="70"/>
+            <ingredient name="resourceOil" count="35"/>
+            <ingredient name="resourceScrapPolymers" count="60"/>
+            <ingredient name="resourceSpring" count="20"/>
+        </recipe>
+
+        <!-- 自然箱 -->
+        <recipe name="cntChallengerCrate_nature" count="1" craft_time="50" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="20"/>
+            <ingredient name="casinoCoin" count="200000"/>
+            <ingredient name="resourceForgedSteel" count="120"/>
+            <ingredient name="resourceMechanicalParts" count="60"/>
+            <ingredient name="resourceOil" count="50"/>
+            <ingredient name="resourceScrapPolymers" count="60"/>
+            <ingredient name="resourceGlue" count="30"/>
+            <ingredient name="resourceDuctTape" count="20"/>
+        </recipe>
+
+        <!-- 魔手箱 -->
+        <recipe name="cntChallengerCrate_evilhand" count="1" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceChallengerEntropy" count="30"/>
+            <ingredient name="casinoCoin" count="300000"/>
+            <ingredient name="resourceForgedSteel" count="160"/>
+            <ingredient name="resourceMechanicalParts" count="90"/>
+            <ingredient name="resourceElectricParts" count="70"/>
+            <ingredient name="resourceOil" count="50"/>
+            <ingredient name="resourceScrapPolymers" count="80"/>
+            <ingredient name="resourceSpring" count="30"/>
+            <ingredient name="resourceDuctTape" count="25"/>
+        </recipe>
+
+
+        <!-- ========================================================================== -->
+        <!-- 挑战书合成 (T2→T10, 3×低级书 + 10×对应石头)                                -->
+        <!-- T1-T3 无需石头；T4-T10 按掉落分布用对应石头                                 -->
+        <!-- ========================================================================== -->
+
+        <!-- T2: 3×T1 → 1×T2 (无需石头) -->
+        <recipe name="itemChallengerChallengeScrollT2" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="itemChallengerChallengeScrollT1" count="3"/>
+        </recipe>
+
+        <!-- T3: 3×T2 → 1×T3 (无需石头) -->
+        <recipe name="itemChallengerChallengeScrollT3" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="itemChallengerChallengeScrollT2" count="3"/>
+        </recipe>
+
+        <!-- T4: 3×T3 + 10×残蚀碎片 -->
+        <recipe name="itemChallengerChallengeScrollT4" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="itemChallengerChallengeScrollT3" count="3"/>
+            <ingredient name="resourceChallengerShard" count="10"/>
+        </recipe>
+
+        <!-- T5: 3×T4 + 10×烧结晶体 -->
+        <recipe name="itemChallengerChallengeScrollT5" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="itemChallengerChallengeScrollT4" count="3"/>
+            <ingredient name="resourceChallengerCrystal" count="10"/>
+        </recipe>
+
+        <!-- T6: 3×T5 + 10×谐振核心 -->
+        <recipe name="itemChallengerChallengeScrollT6" count="1" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="itemChallengerChallengeScrollT5" count="3"/>
+            <ingredient name="resourceChallengerCore" count="10"/>
+        </recipe>
+
+        <!-- T7: 3×T6 + 10×相位编织体 -->
+        <recipe name="itemChallengerChallengeScrollT7" count="1" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="itemChallengerChallengeScrollT6" count="3"/>
+            <ingredient name="resourceChallengerWeave" count="10"/>
+        </recipe>
+
+        <!-- T8: 3×T7 + 10×奇点凝块 -->
+        <recipe name="itemChallengerChallengeScrollT8" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="itemChallengerChallengeScrollT7" count="3"/>
+            <ingredient name="resourceChallengerSingularity" count="10"/>
+        </recipe>
+
+        <!-- T9: 3×T8 + 10×定熵基石 -->
+        <recipe name="itemChallengerChallengeScrollT9" count="1" craft_time="25" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="itemChallengerChallengeScrollT8" count="3"/>
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+        </recipe>
+
+        <!-- T10: 3×T9 + 10×定熵基石 -->
+        <recipe name="itemChallengerChallengeScrollT10" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="itemChallengerChallengeScrollT9" count="3"/>
+            <ingredient name="resourceChallengerEntropy" count="10"/>
+        </recipe>
+
+        <!-- ========================================================================== -->
+        <!-- 能量补充包 — energyBundle (汽油+硝石)                                        -->
+        <!-- ========================================================================== -->
+        <recipe name="energyBundle" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="ammoGasCan" count="500"/>
+            <ingredient name="resourcePotassiumNitratePowder" count="50"/>
+        </recipe>
+
+    </append>
+</configs>

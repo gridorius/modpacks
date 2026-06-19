@@ -1,0 +1,639 @@
+Key,Source,Context,Changes,english,schinese
+modArmorKineticRecoilCoreMK1,items,Item,New,[8B4513]Kinetic Recoil Core MK1[-],[8B4513]动能反冲核心·MK1[-]
+modArmorKineticRecoilCoreMK1Desc,items,Item,New,"A cybernetic kinetic converter that discharges an omnidirectional shockwave when the wearer is hit. When Health is above [32CD32]35%[-]: radius [FFD700]4m[-]; [FF4500]8[-] Bashing damage with strong knockback. When Health is at or below [32CD32]35%[-]: radius extends to [FFD700]5.5m[-]. Hit enemies have a [FFA500]45%[-] chance to be ragdolled for 1s. You gain [708090]25%[-] physical damage resistance for 5s. Cooldown: [00BFFF]6s[-].","赛博动能转换装置——能将受击产生的动能瞬间转化为全向冲击脉冲。生命值高于[32CD32]35%[-]时：半径[FFD700]4米[-]；造成[FF4500]8[-]点钝击伤害并强力击退。生命值不高于[32CD32]35%[-]时：半径扩大至[FFD700]5.5米[-]。被击中的敌人有[FFA500]45%[-]概率倒地1秒。自身获得[708090]25%[-]物理减伤，持续5秒。冷却时间：[00BFFF]6秒[-]。"
+buffMK1KineticRecoilResistName,buffs,Buff,New,Kinetic Shield,动能护盾
+buffMK1KineticRecoilResistDesc,buffs,Buff,New,Physical damage resistance increased by [708090]25%[-].,物理伤害抗性提升[708090]25%[-]。
+
+modArmorKineticRecoilCoreMK2,items,Item,New,[FF8C00]Kinetic Recoil Core MK2[-],[FF8C00]动能反冲核心·MK2[-]
+modArmorKineticRecoilCoreMK2Desc,items,Item,New,"A cybernetic kinetic converter that discharges an omnidirectional shockwave when the wearer is hit. When Health is above [32CD32]35%[-]: radius [FFD700]5.5m[-]; [FF4500]15[-] Bashing damage with strong knockback. When Health is at or below [32CD32]35%[-]: radius extends to [FFD700]7m[-]. Hit enemies have a [FFA500]45%[-] chance to be ragdolled for 1s. You gain [708090]35%[-] physical damage resistance for 5s. Cooldown: [00BFFF]6s[-].","赛博动能转换装置——能将受击产生的动能瞬间转化为全向冲击脉冲。生命值高于[32CD32]35%[-]时：半径[FFD700]5.5米[-]；造成[FF4500]15[-]点钝击伤害并强力击退。生命值不高于[32CD32]35%[-]时：半径扩大至[FFD700]7米[-]。被击中的敌人有[FFA500]45%[-]概率倒地1秒。自身获得[708090]35%[-]物理减伤，持续5秒。冷却时间：[00BFFF]6秒[-]。"
+buffMK2KineticRecoilResistName,buffs,Buff,New,Kinetic Shield,动能护盾
+buffMK2KineticRecoilResistDesc,buffs,Buff,New,Physical damage resistance increased by [708090]35%[-].,物理伤害抗性提升[708090]35%[-]。
+
+modArmorKineticRecoilCoreMK3,items,Item,New,[B8860B]Kinetic Recoil Core MK3[-],[B8860B]动能反冲核心·MK3[-]
+modArmorKineticRecoilCoreMK3Desc,items,Item,New,"A cybernetic kinetic converter that discharges an omnidirectional shockwave when the wearer is hit. When Health is above [32CD32]35%[-]: radius [FFD700]6.5m[-]; [FF4500]18.6[-] Bashing damage with strong knockback. When Health is at or below [32CD32]35%[-]: radius extends to [FFD700]8.375m[-]. Hit enemies have a [FFA500]45%[-] chance to be ragdolled for 1s. You gain [708090]41.25%[-] physical damage resistance for 5s. Cooldown: [00BFFF]6s[-].","赛博动能转换装置——能将受击产生的动能瞬间转化为全向冲击脉冲。生命值高于[32CD32]35%[-]时：半径[FFD700]6.5米[-]；造成[FF4500]18.6[-]点钝击伤害并强力击退。生命值不高于[32CD32]35%[-]时：半径扩大至[FFD700]8.375米[-]。被击中的敌人有[FFA500]45%[-]概率倒地1秒。自身获得[708090]41.25%[-]物理减伤，持续5秒。冷却时间：[00BFFF]6秒[-]。"
+buffMK3KineticRecoilResistName,buffs,Buff,New,Kinetic Shield,动能护盾
+buffMK3KineticRecoilResistDesc,buffs,Buff,New,Physical damage resistance increased by [708090]41.25%[-].,物理伤害抗性提升[708090]41.25%[-]。
+
+modArmorKineticRecoilCoreMK4,items,Item,New,[2E8B57]Kinetic Recoil Core MK4[-],[2E8B57]动能反冲核心·MK4[-]
+modArmorKineticRecoilCoreMK4Desc,items,Item,New,"A cybernetic kinetic converter that discharges an omnidirectional shockwave when the wearer is hit. When Health is above [32CD32]35%[-]: radius [FFD700]7.5m[-]; [FF4500]22.2[-] Bashing damage with strong knockback. When Health is at or below [32CD32]35%[-]: radius extends to [FFD700]9.75m[-]. Hit enemies have a [FFA500]45%[-] chance to be ragdolled for 1s. You gain [708090]47.5%[-] physical damage resistance for 5s. Cooldown: [00BFFF]6s[-].","赛博动能转换装置——能将受击产生的动能瞬间转化为全向冲击脉冲。生命值高于[32CD32]35%[-]时：半径[FFD700]7.5米[-]；造成[FF4500]22.2[-]点钝击伤害并强力击退。生命值不高于[32CD32]35%[-]时：半径扩大至[FFD700]9.75米[-]。被击中的敌人有[FFA500]45%[-]概率倒地1秒。自身获得[708090]47.5%[-]物理减伤，持续5秒。冷却时间：[00BFFF]6秒[-]。"
+buffMK4KineticRecoilResistName,buffs,Buff,New,Kinetic Shield,动能护盾
+buffMK4KineticRecoilResistDesc,buffs,Buff,New,Physical damage resistance increased by [708090]47.5%[-].,物理伤害抗性提升[708090]47.5%[-]。
+
+modArmorKineticRecoilCoreMK5,items,Item,New,[4169E1]Kinetic Recoil Core MK5[-],[4169E1]动能反冲核心·MK5[-]
+modArmorKineticRecoilCoreMK5Desc,items,Item,New,"A cybernetic kinetic converter that discharges an omnidirectional shockwave when the wearer is hit. When Health is above [32CD32]35%[-]: radius [FFD700]8.5m[-]; [FF4500]25.8[-] Bashing damage with strong knockback. When Health is at or below [32CD32]35%[-]: radius extends to [FFD700]11.125m[-]. Hit enemies have a [FFA500]45%[-] chance to be ragdolled for 1s. You gain [708090]53.75%[-] physical damage resistance for 5s. Cooldown: [00BFFF]6s[-].","赛博动能转换装置——能将受击产生的动能瞬间转化为全向冲击脉冲。生命值高于[32CD32]35%[-]时：半径[FFD700]8.5米[-]；造成[FF4500]25.8[-]点钝击伤害并强力击退。生命值不高于[32CD32]35%[-]时：半径扩大至[FFD700]11.125米[-]。被击中的敌人有[FFA500]45%[-]概率倒地1秒。自身获得[708090]53.75%[-]物理减伤，持续5秒。冷却时间：[00BFFF]6秒[-]。"
+buffMK5KineticRecoilResistName,buffs,Buff,New,Kinetic Shield,动能护盾
+buffMK5KineticRecoilResistDesc,buffs,Buff,New,Physical damage resistance increased by [708090]53.75%[-].,物理伤害抗性提升[708090]53.75%[-]。
+
+modArmorKineticRecoilCoreMK6,items,Item,New,[9932CC]Kinetic Recoil Core MK6[-],[9932CC]动能反冲核心·MK6[-]
+modArmorKineticRecoilCoreMK6Desc,items,Item,New,"A cybernetic kinetic converter that discharges an omnidirectional shockwave when the wearer is hit. When Health is above [32CD32]35%[-]: radius [FFD700]9.5m[-]; [FF4500]29.4[-] Bashing damage with strong knockback. When Health is at or below [32CD32]35%[-]: radius extends to [FFD700]12.5m[-]. Hit enemies have a [FFA500]45%[-] chance to be ragdolled for 1s. You gain [708090]60%[-] physical damage resistance for 5s. Cooldown: [00BFFF]6s[-].","赛博动能转换装置——能将受击产生的动能瞬间转化为全向冲击脉冲。生命值高于[32CD32]35%[-]时：半径[FFD700]9.5米[-]；造成[FF4500]29.4[-]点钝击伤害并强力击退。生命值不高于[32CD32]35%[-]时：半径扩大至[FFD700]12.5米[-]。被击中的敌人有[FFA500]45%[-]概率倒地1秒。自身获得[708090]60%[-]物理减伤，持续5秒。冷却时间：[00BFFF]6秒[-]。"
+buffMK6KineticRecoilResistName,buffs,Buff,New,Kinetic Shield,动能护盾
+buffMK6KineticRecoilResistDesc,buffs,Buff,New,Physical damage resistance increased by [708090]60%[-].,物理伤害抗性提升[708090]60%[-]。
+
+modArmorEmergencyHealingCanisterMK1,items,Item,New,[8B4513]Emergency Healing Canister MK1[-],[8B4513]应急治疗罐·MK1[-]
+modArmorEmergencyHealingCanisterMK1Desc,items,Item,New,"A nano-med dispenser synced to your biomonitor — when the flesh falters, the steel heals. When Health is at or below [32CD32]50%[-]: automatically deploys [FFA500]1[-] healing canister, creating a medic mist zone of [FFD700]6m[-] radius for [FFA500]10s[-]. Allies inside the zone recover [32CD32]10[-] Health per tick ([FFA500]1s[-] interval). Cooldown: [00BFFF]15s[-].","与生物监测器直连的纳米医疗分配器——肉身凋零之际，钢铁取而代之。生命值不高于[32CD32]50%[-]时：自动投掷[FFA500]1[-]枚治疗罐，在[FFD700]6米[-]半径内生成医疗雾区域，持续[FFA500]10秒[-]。区域内友方每跳恢复[32CD32]10[-]点生命（间隔[FFA500]1秒[-]）。冷却时间：[00BFFF]15秒[-]。"
+
+modArmorEmergencyHealingCanisterMK2,items,Item,New,[FF8C00]Emergency Healing Canister MK2[-],[FF8C00]应急治疗罐·MK2[-]
+modArmorEmergencyHealingCanisterMK2Desc,items,Item,New,"An enhanced bio-chem dispenser with expanded dispersal field and accelerated cell-regeneration formula. When Health is at or below [32CD32]50%[-]: automatically deploys [FFA500]1[-] healing canister, creating a medic mist zone of [FFD700]8m[-] radius for [FFA500]10s[-]. Allies inside the zone recover [32CD32]18[-] Health per tick ([FFA500]1s[-] interval). Cooldown: [00BFFF]12s[-].","升级型生化分配器——拓展扩散场与加速细胞再生配方。生命值不高于[32CD32]50%[-]时：自动投掷[FFA500]1[-]枚治疗罐，在[FFD700]8米[-]半径内生成医疗雾区域，持续[FFA500]10秒[-]。区域内友方每跳恢复[32CD32]18[-]点生命（间隔[FFA500]1秒[-]）。冷却时间：[00BFFF]12秒[-]。"
+
+modArmorEmergencyHealingCanisterMK3,items,Item,New,[B8860B]Emergency Healing Canister MK3[-],[B8860B]应急治疗罐·MK3[-]
+modArmorEmergencyHealingCanisterMK3Desc,items,Item,New,"A high-efficiency dispenser with overclocked nano-mist generation matrix. When Health is at or below [32CD32]50%[-]: automatically deploys [FFA500]1[-] healing canister, creating a medic mist zone of [FFD700]9.5m[-] radius for [FFA500]10s[-]. Allies inside the zone recover [32CD32]18[-] Health every [FFA500]0.9s[-]. Cooldown: [00BFFF]12s[-].","高效型分配器——搭载超频纳米雾气生成矩阵。生命值不高于[32CD32]50%[-]时：自动投掷[FFA500]1[-]枚治疗罐，在[FFD700]9.5米[-]半径内生成医疗雾区域，持续[FFA500]10秒[-]。区域内友方每[FFA500]0.9秒[-]恢复[32CD32]18[-]点生命。冷却时间：[00BFFF]12秒[-]。"
+
+modArmorEmergencyHealingCanisterMK4,items,Item,New,[2E8B57]Emergency Healing Canister MK4[-],[2E8B57]应急治疗罐·MK4[-]
+modArmorEmergencyHealingCanisterMK4Desc,items,Item,New,"A twin-canister array fed by recombinant stem-cell serum — twice the coverage, accelerated pulse rate. When Health is at or below [32CD32]50%[-]: automatically deploys [FFA500]2[-] healing canisters, each creating a medic mist zone of [FFD700]11m[-] radius for [FFA500]10s[-]. Allies inside the zone recover [32CD32]18[-] Health every [FFA500]0.8s[-]. Cooldown: [00BFFF]12s[-].","双罐阵列——注入重组干细胞血清，双倍覆盖面积，加速脉冲频率。生命值不高于[32CD32]50%[-]时：自动投掷[FFA500]2[-]枚治疗罐，每枚在[FFD700]11米[-]半径内生成医疗雾区域，持续[FFA500]10秒[-]。区域内友方每[FFA500]0.8秒[-]恢复[32CD32]18[-]点生命。冷却时间：[00BFFF]12秒[-]。"
+
+modArmorEmergencyHealingCanisterMK5,items,Item,New,[4169E1]Emergency Healing Canister MK5[-],[4169E1]应急治疗罐·MK5[-]
+modArmorEmergencyHealingCanisterMK5Desc,items,Item,New,"Military-grade triage array with hyper-pulse delivery system — the line between life and death is measured in milliseconds. When Health is at or below [32CD32]50%[-]: automatically deploys [FFA500]2[-] healing canisters, each creating a medic mist zone of [FFD700]12.5m[-] radius for [FFA500]10s[-]. Allies inside the zone recover [32CD32]18[-] Health every [FFA500]0.7s[-]. Cooldown: [00BFFF]12s[-].","军用级分诊阵列——搭载超脉冲递送系统，生死不过毫秒之差。生命值不高于[32CD32]50%[-]时：自动投掷[FFA500]2[-]枚治疗罐，每枚在[FFD700]12.5米[-]半径内生成医疗雾区域，持续[FFA500]10秒[-]。区域内友方每[FFA500]0.7秒[-]恢复[32CD32]18[-]点生命。冷却时间：[00BFFF]12秒[-]。"
+
+modArmorEmergencyHealingCanisterMK6,items,Item,New,[9932CC]Emergency Healing Canister MK6[-],[9932CC]应急治疗罐·MK6[-]
+modArmorEmergencyHealingCanisterMK6Desc,items,Item,New,"The pinnacle of battlefield bio-automation — a triple-canister hive launcher with maximum dispersal and near-instantaneous healing pulses. When Health is at or below [32CD32]50%[-]: automatically deploys [FFA500]3[-] healing canisters, each creating a medic mist zone of [FFD700]14m[-] radius for [FFA500]10s[-]. Allies inside the zone recover [32CD32]18[-] Health every [FFA500]0.6s[-]. Cooldown: [00BFFF]12s[-].","战场生物自动化的巅峰之作——三罐蜂巢发射器，极致扩散与近乎瞬时的治疗脉冲。生命值不高于[32CD32]50%[-]时：自动投掷[FFA500]3[-]枚治疗罐，每枚在[FFD700]14米[-]半径内生成医疗雾区域，持续[FFA500]10秒[-]。区域内友方每[FFA500]0.6秒[-]恢复[32CD32]18[-]点生命。冷却时间：[00BFFF]12秒[-]。"
+
+modArmorBloodFrenzyCharmMK1,items,Item,New,[8B4513]Blood Frenzy Charm MK1[-],[8B4513]鲜血狂热护符·MK1[-]
+modArmorBloodFrenzyCharmMK1Desc,items,Item,New,"A vampiric bio-implant that floods your veins with combat stimulants upon a killing blow. On kill: [FFA500]40%[-] chance to enter Blood Frenzy for [00BFFF]6s[-], gaining [FF8C00]12%[-] movement speed, [FF4500]15%[-] attack speed, and [32CD32]+2[-] Stamina/sec.","吸血鬼生物植入体——杀戮信号触发时向血管注入战斗兴奋剂。击杀时：[FFA500]40%[-]概率进入鲜血狂热状态，持续[00BFFF]6秒[-]，获得[FF8C00]12%[-]移动速度、[FF4500]15%[-]攻击速度与[32CD32]+2[-]耐力/秒。"
+buffMK1BloodFrenzyName,buffs,Buff,New,Blood Frenzy,鲜血狂热
+buffMK1BloodFrenzyDesc,buffs,Buff,New,Movement speed [FF8C00]+12%[-]; attack speed [FF4500]+15%[-]; stamina recovery [32CD32]+2/s[-].,移动速度[FF8C00]+12%[-]；攻击速度[FF4500]+15%[-]；耐力恢复[32CD32]+2/秒[-]。
+
+modArmorBloodFrenzyCharmMK2,items,Item,New,[FF8C00]Blood Frenzy Charm MK2[-],[FF8C00]鲜血狂热护符·MK2[-]
+modArmorBloodFrenzyCharmMK2Desc,items,Item,New,"A refined vampiric bio-implant with amplified adrenal response. On kill: [FFA500]50%[-] chance to enter Blood Frenzy for [00BFFF]6s[-], gaining [FF8C00]21%[-] movement speed, [FF4500]26%[-] attack speed, and [32CD32]+3[-] Stamina/sec.","精炼型吸血鬼生物植入体——强化肾上腺素响应。击杀时：[FFA500]50%[-]概率进入鲜血狂热状态，持续[00BFFF]6秒[-]，获得[FF8C00]21%[-]移动速度、[FF4500]26%[-]攻击速度与[32CD32]+3[-]耐力/秒。"
+buffMK2BloodFrenzyName,buffs,Buff,New,Blood Frenzy,鲜血狂热
+buffMK2BloodFrenzyDesc,buffs,Buff,New,Movement speed [FF8C00]+21%[-]; attack speed [FF4500]+26%[-]; stamina recovery [32CD32]+3/s[-].,移动速度[FF8C00]+21%[-]；攻击速度[FF4500]+26%[-]；耐力恢复[32CD32]+3/秒[-]。
+
+modArmorBloodFrenzyCharmMK3,items,Item,New,[B8860B]Blood Frenzy Charm MK3[-],[B8860B]鲜血狂热护符·MK3[-]
+modArmorBloodFrenzyCharmMK3Desc,items,Item,New,"A precision-tuned hemophage circuit that sharpens the kill-response threshold. On kill: [FFA500]54%[-] chance to enter Blood Frenzy for [00BFFF]6s[-], gaining [FF8C00]24%[-] movement speed, [FF4500]27.5%[-] attack speed, and [32CD32]+3.2[-] Stamina/sec.","精密调谐嗜血回路——锐化杀戮响应阈值。击杀时：[FFA500]54%[-]概率进入鲜血狂热状态，持续[00BFFF]6秒[-]，获得[FF8C00]24%[-]移动速度、[FF4500]27.5%[-]攻击速度与[32CD32]+3.2[-]耐力/秒。"
+
+modArmorBloodFrenzyCharmMK4,items,Item,New,[2E8B57]Blood Frenzy Charm MK4[-],[2E8B57]鲜血狂热护符·MK4[-]
+modArmorBloodFrenzyCharmMK4Desc,items,Item,New,"A lethal combat regulator that pushes the body into perpetual overdrive. On kill: [FFA500]58%[-] chance to enter Blood Frenzy for [00BFFF]6s[-], gaining [FF8C00]27%[-] movement speed, [FF4500]29%[-] attack speed, and [32CD32]+3.4[-] Stamina/sec.","致命战斗调节器——将身体推入持续超频状态。击杀时：[FFA500]58%[-]概率进入鲜血狂热状态，持续[00BFFF]6秒[-]，获得[FF8C00]27%[-]移动速度、[FF4500]29%[-]攻击速度与[32CD32]+3.4[-]耐力/秒。"
+
+modArmorBloodFrenzyCharmMK5,items,Item,New,[4169E1]Blood Frenzy Charm MK5[-],[4169E1]鲜血狂热护符·MK5[-]
+modArmorBloodFrenzyCharmMK5Desc,items,Item,New,"A near-sentient slaughter-interface — the line between man and beast dissolves in a crimson haze. On kill: [FFA500]62%[-] chance to enter Blood Frenzy for [00BFFF]6s[-], gaining [FF8C00]30%[-] movement speed, [FF4500]30.5%[-] attack speed, and [32CD32]+3.6[-] Stamina/sec.","近乎有知觉的屠戮界面——人兽之界在猩红迷雾中消融。击杀时：[FFA500]62%[-]概率进入鲜血狂热状态，持续[00BFFF]6秒[-]，获得[FF8C00]30%[-]移动速度、[FF4500]30.5%[-]攻击速度与[32CD32]+3.6[-]耐力/秒。"
+
+modArmorBloodFrenzyCharmMK6,items,Item,New,[9932CC]Blood Frenzy Charm MK6[-],[9932CC]鲜血狂热护符·MK6[-]
+modArmorBloodFrenzyCharmMK6Desc,items,Item,New,"The apex predator implant — every heartbeat becomes a war drum, every kill a symphony of carnage. On kill: [FFA500]66%[-] chance to enter Blood Frenzy for [00BFFF]6s[-], gaining [FF8C00]33%[-] movement speed, [FF4500]32%[-] attack speed, and [32CD32]+3.8[-] Stamina/sec.","顶级掠食者植入体——每一次心跳皆成战鼓，每一击杀戮皆为屠戮交响。击杀时：[FFA500]66%[-]概率进入鲜血狂热状态，持续[00BFFF]6秒[-]，获得[FF8C00]33%[-]移动速度、[FF4500]32%[-]攻击速度与[32CD32]+3.8[-]耐力/秒。"
+
+modArmorStormGrounderMK1,items,Item,New,[8B4513]Storm Grounder MK1[-],[8B4513]风暴接地器·MK1[-]
+modArmorStormGrounderMK1Desc,items,Item,New,"A high-voltage static discharge array woven into your boots — when stamina runs dry, the storm answers. When Stamina is at or below [32CD32]40%[-]: instantly restores [FFD700]25%[-] max Stamina, reduces stamina consumption by [708090]30%[-] for [FFA500]15s[-], and unleashes an electromagnetic shockwave of [FFD700]5m[-] radius that [FFA500]shocks[-] nearby enemies. Deals [FF4500]450[-] Electrical damage to Storm/Swift elite enemies. Cooldown: [00BFFF]25s[-].","编织于战靴中的高压静电释放阵列——耐力耗尽之际，风暴响应召唤。耐力不高于[32CD32]40%[-]时：立即恢复[FFD700]25%[-]最大耐力，耐力消耗降低[708090]30%[-]持续[FFA500]15秒[-]，并释放[FFD700]5米[-]半径电磁震荡波[FFA500]电击[-]附近敌人。对雷暴/迅捷精英造成[FF4500]450[-]点电击伤害。冷却时间：[00BFFF]25秒[-]。"
+buffMK1StormGrounderStaminaEfficiencyName,buffs,Buff,New,Static Overcharge,静电过载
+buffMK1StormGrounderStaminaEfficiencyDesc,buffs,Buff,New,Stamina consumption reduced by [708090]30%[-].,耐力消耗降低[708090]30%[-]。
+
+modArmorStormGrounderMK2,items,Item,New,[FF8C00]Storm Grounder MK2[-],[FF8C00]风暴接地器·MK2[-]
+modArmorStormGrounderMK2Desc,items,Item,New,"An overcharged capacitor array with amplified discharge radius and elite-hunting voltage. When Stamina is at or below [32CD32]40%[-]: instantly restores [FFD700]35%[-] max Stamina, reduces stamina consumption by [708090]35%[-] for [FFA500]15s[-], and unleashes an electromagnetic shockwave of [FFD700]7m[-] radius dealing [FF4500]100[-] Electrical damage and [FFA500]shocking[-] enemies. Deals [FF4500]650[-] Electrical damage to Storm/Swift elite enemies. Cooldown: [00BFFF]25s[-].","过载电容器阵列——强化放电半径与精英狩猎电压。耐力不高于[32CD32]40%[-]时：立即恢复[FFD700]35%[-]最大耐力，耐力消耗降低[708090]35%[-]持续[FFA500]15秒[-]，释放[FFD700]7米[-]半径电磁震荡波，造成[FF4500]100[-]点电击伤害并[FFA500]电击[-]敌人。对雷暴/迅捷精英造成[FF4500]650[-]点电击伤害。冷却时间：[00BFFF]25秒[-]。"
+buffMK2StormGrounderStaminaEfficiencyName,buffs,Buff,New,Static Overcharge,静电过载
+buffMK2StormGrounderStaminaEfficiencyDesc,buffs,Buff,New,Stamina consumption reduced by [708090]35%[-].,耐力消耗降低[708090]35%[-]。
+
+modArmorStormGrounderMK3,items,Item,New,[B8860B]Storm Grounder MK3[-],[B8860B]风暴接地器·MK3[-]
+modArmorStormGrounderMK3Desc,items,Item,New,"A tri-phase discharge modulator for expanded shockwave coverage and intensified voltage. When Stamina is at or below [32CD32]40%[-]: instantly restores [FFD700]41.25%[-] max Stamina, reduces stamina consumption by [708090]42.5%[-] for [FFA500]15s[-], and unleashes an electromagnetic shockwave of [FFD700]8.25m[-] radius dealing [FF4500]145[-] Electrical damage and [FFA500]shocking[-] enemies. Deals [FF4500]650[-] Electrical damage to Storm/Swift elite enemies. Cooldown: [00BFFF]25s[-].","三相位放电调制器——拓展震荡波覆盖范围并强化电压。耐力不高于[32CD32]40%[-]时：立即恢复[FFD700]41.25%[-]最大耐力，耐力消耗降低[708090]42.5%[-]持续[FFA500]15秒[-]，释放[FFD700]8.25米[-]半径电磁震荡波，造成[FF4500]145[-]点电击伤害并[FFA500]电击[-]敌人。对雷暴/迅捷精英造成[FF4500]650[-]点电击伤害。冷却时间：[00BFFF]25秒[-]。"
+
+modArmorStormGrounderMK4,items,Item,New,[2E8B57]Storm Grounder MK4[-],[2E8B57]风暴接地器·MK4[-]
+modArmorStormGrounderMK4Desc,items,Item,New,"A quad-core discharge engine that turns your footsteps into rolling thunder. When Stamina is at or below [32CD32]40%[-]: instantly restores [FFD700]47.5%[-] max Stamina, reduces stamina consumption by [708090]50%[-] for [FFA500]15s[-], and unleashes an electromagnetic shockwave of [FFD700]9.5m[-] radius dealing [FF4500]190[-] Electrical damage and [FFA500]shocking[-] enemies. Deals [FF4500]650[-] Electrical damage to Storm/Swift elite enemies. Cooldown: [00BFFF]25s[-].","四核放电机芯——化脚步为滚滚雷霆。耐力不高于[32CD32]40%[-]时：立即恢复[FFD700]47.5%[-]最大耐力，耐力消耗降低[708090]50%[-]持续[FFA500]15秒[-]，释放[FFD700]9.5米[-]半径电磁震荡波，造成[FF4500]190[-]点电击伤害并[FFA500]电击[-]敌人。对雷暴/迅捷精英造成[FF4500]650[-]点电击伤害。冷却时间：[00BFFF]25秒[-]。"
+
+modArmorStormGrounderMK5,items,Item,New,[4169E1]Storm Grounder MK5[-],[4169E1]风暴接地器·MK5[-]
+modArmorStormGrounderMK5Desc,items,Item,New,"A military-grade ground-fault weapon — the earth itself becomes a conductor of your fury. When Stamina is at or below [32CD32]40%[-]: instantly restores [FFD700]53.75%[-] max Stamina, reduces stamina consumption by [708090]57.5%[-] for [FFA500]15s[-], and unleashes an electromagnetic shockwave of [FFD700]10.75m[-] radius dealing [FF4500]235[-] Electrical damage and [FFA500]shocking[-] enemies. Deals [FF4500]650[-] Electrical damage to Storm/Swift elite enemies. Cooldown: [00BFFF]25s[-].","军用级接地武器——大地本身化为传导怒火之导体。耐力不高于[32CD32]40%[-]时：立即恢复[FFD700]53.75%[-]最大耐力，耐力消耗降低[708090]57.5%[-]持续[FFA500]15秒[-]，释放[FFD700]10.75米[-]半径电磁震荡波，造成[FF4500]235[-]点电击伤害并[FFA500]电击[-]敌人。对雷暴/迅捷精英造成[FF4500]650[-]点电击伤害。冷却时间：[00BFFF]25秒[-]。"
+
+modArmorStormGrounderMK6,items,Item,New,[9932CC]Storm Grounder MK6[-],[9932CC]风暴接地器·MK6[-]
+modArmorStormGrounderMK6Desc,items,Item,New,"The eye of the storm made manifest — a singularity-grade discharge array that rewrites the local electromagnetic spectrum. When Stamina is at or below [32CD32]40%[-]: instantly restores [FFD700]60%[-] max Stamina, reduces stamina consumption by [708090]65%[-] for [FFA500]15s[-], and unleashes an electromagnetic shockwave of [FFD700]12m[-] radius dealing [FF4500]280[-] Electrical damage and [FFA500]shocking[-] enemies. Deals [FF4500]650[-] Electrical damage to Storm/Swift elite enemies. Cooldown: [00BFFF]25s[-].","风暴之眼降世——奇点级放电阵列，重写局部电磁光谱。耐力不高于[32CD32]40%[-]时：立即恢复[FFD700]60%[-]最大耐力，耐力消耗降低[708090]65%[-]持续[FFA500]15秒[-]，释放[FFD700]12米[-]半径电磁震荡波，造成[FF4500]280[-]点电击伤害并[FFA500]电击[-]敌人。对雷暴/迅捷精英造成[FF4500]650[-]点电击伤害。冷却时间：[00BFFF]25秒[-]。"
+
+modArmorPlaguePurifierPumpMK1,items,Item,New,[8B4513]Plague Purifier Pump MK1[-],[8B4513]瘟疫净化泵·MK1[-]
+modArmorPlaguePurifierPumpMK1Desc,items,Item,New,"A shoulder-mounted filtration array that detects and neutralizes airborne pathogens and radiation. When afflicted by Plague/Radiation/Wither: instantly [32CD32]cleanses all negative effects[-] and deploys a purifier mist zone of [FFD700]6m[-] radius for [FFA500]5s[-]. Allies in mist recover [32CD32]5[-] Health/sec and become [708090]immune[-] to plague/radiation/wither. Enemies in mist deal [FF4500]10%[-] less damage. You also gain [32CD32]+20%[-] healing received for [FFA500]8s[-]. Cooldown: [00BFFF]10s[-].","肩载过滤阵列——侦测并中和空气中病原体与辐射。受到瘟疫/辐射/凋零影响时：立即[32CD32]清除所有负面效果[-]，在[FFD700]6米[-]半径内生成净化雾区域，持续[FFA500]5秒[-]。雾内友方每秒恢复[32CD32]5[-]点生命并获得对瘟疫/辐射/凋零的[708090]免疫[-]。雾内敌人伤害降低[FF4500]10%[-]。自身治疗效果提升[32CD32]+20%[-]，持续[FFA500]8秒[-]。冷却时间：[00BFFF]10秒[-]。"
+buffMK1PlaguePurifierPumpHealingBoostName,buffs,Buff,New,Purified Circulation,净化循环
+buffMK1PlaguePurifierPumpHealingBoostDesc,buffs,Buff,New,Healing received increased by [32CD32]20%[-].,受到的治疗效果提升[32CD32]20%[-]。
+
+modArmorPlaguePurifierPumpMK2,items,Item,New,[FF8C00]Plague Purifier Pump MK2[-],[FF8C00]瘟疫净化泵·MK2[-]
+modArmorPlaguePurifierPumpMK2Desc,items,Item,New,"An upgraded dual-chamber filter with extended mist dispersion and stronger purification. When afflicted by Plague/Radiation/Wither: instantly [32CD32]cleanses all negative effects[-] and deploys a purifier mist zone of [FFD700]8m[-] radius for [FFA500]8s[-]. Allies in mist recover [32CD32]10[-] Health/sec and become [708090]immune[-] to plague/radiation/wither. Enemies in mist deal [FF4500]15%[-] less damage. You also gain [32CD32]+30%[-] healing received for [FFA500]8s[-]. Cooldown: [00BFFF]10s[-].","升级型双腔过滤器——拓展雾化扩散与强化净化力。受到瘟疫/辐射/凋零影响时：立即[32CD32]清除所有负面效果[-]，在[FFD700]8米[-]半径内生成净化雾区域，持续[FFA500]8秒[-]。雾内友方每秒恢复[32CD32]10[-]点生命并获得对瘟疫/辐射/凋零的[708090]免疫[-]。雾内敌人伤害降低[FF4500]15%[-]。自身治疗效果提升[32CD32]+30%[-]，持续[FFA500]8秒[-]。冷却时间：[00BFFF]10秒[-]。"
+buffMK2PlaguePurifierPumpHealingBoostName,buffs,Buff,New,Purified Circulation,净化循环
+buffMK2PlaguePurifierPumpHealingBoostDesc,buffs,Buff,New,Healing received increased by [32CD32]30%[-].,受到的治疗效果提升[32CD32]30%[-]。
+
+modArmorPlaguePurifierPumpMK3,items,Item,New,[B8860B]Plague Purifier Pump MK3[-],[B8860B]瘟疫净化泵·MK3[-]
+modArmorPlaguePurifierPumpMK3Desc,items,Item,New,"A tri-filter nanite dispersal unit with accelerated purification pulse rate. When afflicted by Plague/Radiation/Wither: instantly [32CD32]cleanses all negative effects[-] and deploys a purifier mist zone of [FFD700]9.5m[-] radius for [FFA500]8.5s[-] ([FFA500]0.9s[-] tick rate). Allies in mist recover [32CD32]10[-] Health/tick and become [708090]immune[-] to plague/radiation/wither. Enemies in mist deal [FF4500]15%[-] less damage. You also gain [32CD32]+32%[-] healing received for [FFA500]8s[-]. Cooldown: [00BFFF]10s[-].","三过滤纳米分散单元——加速净化脉冲频率。受到瘟疫/辐射/凋零影响时：立即[32CD32]清除所有负面效果[-]，在[FFD700]9.5米[-]半径内生成净化雾区域，持续[FFA500]8.5秒[-]（[FFA500]0.9秒[-]跳动间隔）。雾内友方每跳恢复[32CD32]10[-]点生命并获得对瘟疫/辐射/凋零的[708090]免疫[-]。雾内敌人伤害降低[FF4500]15%[-]。自身治疗效果提升[32CD32]+32%[-]，持续[FFA500]8秒[-]。冷却时间：[00BFFF]10秒[-]。"
+
+modArmorPlaguePurifierPumpMK4,items,Item,New,[2E8B57]Plague Purifier Pump MK4[-],[2E8B57]瘟疫净化泵·MK4[-]
+modArmorPlaguePurifierPumpMK4Desc,items,Item,New,"A wide-spectrum cleansing reactor capable of turning the tide against biochemical warfare. When afflicted by Plague/Radiation/Wither: instantly [32CD32]cleanses all negative effects[-] and deploys a purifier mist zone of [FFD700]11m[-] radius for [FFA500]9s[-] ([FFA500]0.8s[-] tick rate). Allies in mist recover [32CD32]10[-] Health/tick and become [708090]immune[-] to plague/radiation/wither. Enemies in mist deal [FF4500]15%[-] less damage. You also gain [32CD32]+34%[-] healing received for [FFA500]8s[-]. Cooldown: [00BFFF]10s[-].","广谱净化反应炉——扭转生化战局势之力。受到瘟疫/辐射/凋零影响时：立即[32CD32]清除所有负面效果[-]，在[FFD700]11米[-]半径内生成净化雾区域，持续[FFA500]9秒[-]（[FFA500]0.8秒[-]跳动间隔）。雾内友方每跳恢复[32CD32]10[-]点生命并获得对瘟疫/辐射/凋零的[708090]免疫[-]。雾内敌人伤害降低[FF4500]15%[-]。自身治疗效果提升[32CD32]+34%[-]，持续[FFA500]8秒[-]。冷却时间：[00BFFF]10秒[-]。"
+
+modArmorPlaguePurifierPumpMK5,items,Item,New,[4169E1]Plague Purifier Pump MK5[-],[4169E1]瘟疫净化泵·MK5[-]
+modArmorPlaguePurifierPumpMK5Desc,items,Item,New,"A military sanitization array designed for total environmental decontamination in active warzones. When afflicted by Plague/Radiation/Wither: instantly [32CD32]cleanses all negative effects[-] and deploys a purifier mist zone of [FFD700]12.5m[-] radius for [FFA500]9.5s[-] ([FFA500]0.7s[-] tick rate). Allies in mist recover [32CD32]10[-] Health/tick and become [708090]immune[-] to plague/radiation/wither. Enemies in mist deal [FF4500]15%[-] less damage. You also gain [32CD32]+36%[-] healing received for [FFA500]8s[-]. Cooldown: [00BFFF]10s[-].","军用消毒阵列——专为活跃战区环境全面净化而设计。受到瘟疫/辐射/凋零影响时：立即[32CD32]清除所有负面效果[-]，在[FFD700]12.5米[-]半径内生成净化雾区域，持续[FFA500]9.5秒[-]（[FFA500]0.7秒[-]跳动间隔）。雾内友方每跳恢复[32CD32]10[-]点生命并获得对瘟疫/辐射/凋零的[708090]免疫[-]。雾内敌人伤害降低[FF4500]15%[-]。自身治疗效果提升[32CD32]+36%[-]，持续[FFA500]8秒[-]。冷却时间：[00BFFF]10秒[-]。"
+
+modArmorPlaguePurifierPumpMK6,items,Item,New,[9932CC]Plague Purifier Pump MK6[-],[9932CC]瘟疫净化泵·MK6[-]
+modArmorPlaguePurifierPumpMK6Desc,items,Item,New,"A singularity-grade purification core — when the world rots, you breathe clean. When afflicted by Plague/Radiation/Wither: instantly [32CD32]cleanses all negative effects[-] and deploys a purifier mist zone of [FFD700]14m[-] radius for [FFA500]10s[-] ([FFA500]0.6s[-] tick rate). Allies in mist recover [32CD32]10[-] Health/tick and become [708090]immune[-] to plague/radiation/wither. Enemies in mist deal [FF4500]15%[-] less damage. You also gain [32CD32]+38%[-] healing received for [FFA500]8s[-]. Cooldown: [00BFFF]10s[-].","奇点级净化核心——世界腐烂之际，你呼吸纯净。受到瘟疫/辐射/凋零影响时：立即[32CD32]清除所有负面效果[-]，在[FFD700]14米[-]半径内生成净化雾区域，持续[FFA500]10秒[-]（[FFA500]0.6秒[-]跳动间隔）。雾内友方每跳恢复[32CD32]10[-]点生命并获得对瘟疫/辐射/凋零的[708090]免疫[-]。雾内敌人伤害降低[FF4500]15%[-]。自身治疗效果提升[32CD32]+38%[-]，持续[FFA500]8秒[-]。冷却时间：[00BFFF]10秒[-]。"
+
+modArmorThornDeflectionPlateA7,items,Item,New,[8B4513]Thorn Deflection Plate A7[-],[8B4513]荆棘偏转甲·A7[-]
+modArmorThornDeflectionPlateA7Desc,items,Item,New,"A reactive carapace plate that retaliates with a spray of serrated shrapnel upon impact. On receiving damage: [FFA500]35%[-] chance to unleash a [FFD700]4m[-] radius Slashing burst dealing [FF4500]100[-] damage with [708090]knockback[-], inflicting [FF4500]bleeding[-] on affected enemies.","反应式甲壳板——受击时迸射锯齿破片以牙还牙。受到伤害时：[FFA500]35%[-]概率在[FFD700]4米[-]半径内释放斩击爆发，造成[FF4500]100[-]点[708090]击退[-]伤害并令命中敌人陷入[FF4500]流血[-]。"
+
+modArmorThornDeflectionPlateA72,items,Item,New,[FF8C00]Thorn Deflection Plate A72[-],[FF8C00]荆棘偏转甲·A72[-]
+modArmorThornDeflectionPlateA72Desc,items,Item,New,"A reinforced reactive plate with denser shrapnel matrix and wider fragmentation arc. On receiving damage: [FFA500]45%[-] chance to unleash a [FFD700]6m[-] radius Slashing burst dealing [FF4500]150[-] damage with [708090]knockback[-], inflicting [FF4500]bleeding[-] on affected enemies.","强化型反应甲板——更密集破片矩阵，更宽碎甲弧。受到伤害时：[FFA500]45%[-]概率在[FFD700]6米[-]半径内释放斩击爆发，造成[FF4500]150[-]点[708090]击退[-]伤害并令命中敌人陷入[FF4500]流血[-]。"
+
+modArmorThornDeflectionPlateA73,items,Item,New,[B8860B]Thorn Deflection Plate A73[-],[B8860B]荆棘偏转甲·A73[-]
+modArmorThornDeflectionPlateA73Desc,items,Item,New,"An overclocked reactive plate with expanded kill-zone and brutal shred-force. On receiving damage: [FFA500]49%[-] chance to unleash a [FFD700]7m[-] radius Slashing burst dealing [FF4500]195[-] damage with [708090]knockback[-], inflicting [FF4500]bleeding[-] on affected enemies.","超频反应甲板——拓展杀戮区域与残暴撕扯力。受到伤害时：[FFA500]49%[-]概率在[FFD700]7米[-]半径内释放斩击爆发，造成[FF4500]195[-]点[708090]击退[-]伤害并令命中敌人陷入[FF4500]流血[-]。"
+
+modArmorThornDeflectionPlateA74,items,Item,New,[2E8B57]Thorn Deflection Plate A74[-],[2E8B57]荆棘偏转甲·A74[-]
+modArmorThornDeflectionPlateA74Desc,items,Item,New,"A heavy riposte carapace that turns defense into a bladed massacre. On receiving damage: [FFA500]53%[-] chance to unleash a [FFD700]8m[-] radius Slashing burst dealing [FF4500]240[-] damage with [708090]knockback[-], inflicting [FF4500]bleeding[-] on affected enemies.","重型反击甲壳——化防御为利刃屠杀。受到伤害时：[FFA500]53%[-]概率在[FFD700]8米[-]半径内释放斩击爆发，造成[FF4500]240[-]点[708090]击退[-]伤害并令命中敌人陷入[FF4500]流血[-]。"
+
+modArmorThornDeflectionPlateA75,items,Item,New,[4169E1]Thorn Deflection Plate A75[-],[4169E1]荆棘偏转甲·A75[-]
+modArmorThornDeflectionPlateA75Desc,items,Item,New,"A battleground reaper plate — every blow you take becomes a death sentence to those nearby. On receiving damage: [FFA500]57%[-] chance to unleash a [FFD700]9m[-] radius Slashing burst dealing [FF4500]285[-] damage with [708090]knockback[-], inflicting [FF4500]bleeding[-] on affected enemies.","战场收割甲板——你所承受的每一击皆为周身的死刑宣判。受到伤害时：[FFA500]57%[-]概率在[FFD700]9米[-]半径内释放斩击爆发，造成[FF4500]285[-]点[708090]击退[-]伤害并令命中敌人陷入[FF4500]流血[-]。"
+
+modArmorThornDeflectionPlateA76,items,Item,New,[9932CC]Thorn Deflection Plate A76[-],[9932CC]荆棘偏转甲·A76[-]
+modArmorThornDeflectionPlateA76Desc,items,Item,New,"A mythic-grade razor storm generator — the mere act of striking you invites a hurricane of steel. On receiving damage: [FFA500]61%[-] chance to unleash a [FFD700]10m[-] radius Slashing burst dealing [FF4500]330[-] damage with [708090]knockback[-], inflicting [FF4500]bleeding[-] on affected enemies.","神话级利刃风暴发生器——攻击你的行为本身便邀请钢铁飓风。受到伤害时：[FFA500]61%[-]概率在[FFD700]10米[-]半径内释放斩击爆发，造成[FF4500]330[-]点[708090]击退[-]伤害并令命中敌人陷入[FF4500]流血[-]。"
+
+modArmorCalamityStabilityFieldMK1,items,Item,New,[8B4513]Calamity Stability Field MK1[-],[8B4513]灾厄稳定场·MK1[-]
+modArmorCalamityStabilityFieldMK1Desc,items,Item,New,"A localized reality anchor that counteracts dimensional corruption and withering energies. When afflicted by Calamity/Wither: generates a stabilization field of [FFD700]15m[-] radius for [FFA500]8s[-]. Allies in field gain [708090]+20%[-] Buff Resistance, [FF8C00]+10%[-] movement speed, and [32CD32]+20%[-] stamina recovery. Enemies in field are [708090]knocked back[-] and accumulate elemental weakness stacks (max [FFA500]3[-], each [FF4500]-5%[-] elemental resistance). Cooldown: [00BFFF]30s[-].","局部现实锚定装置——反制维度腐化与凋零能量。受到灾厄/凋零影响时：在[FFD700]15米[-]半径内生成稳定场，持续[FFA500]8秒[-]。场内友方获得[708090]+20%[-]Buff抗性、[FF8C00]+10%[-]移动速度与[32CD32]+20%[-]耐力恢复。场内敌人被[708090]击退[-]并累积元素弱点层数（最多[FFA500]3[-]层，每层[FF4500]-5%[-]元素抗性）。冷却时间：[00BFFF]30秒[-]。"
+buffMK1CalamityStabilityFieldPlayerName,buffs,Buff,New,Stability Field,稳定场
+buffMK1CalamityStabilityFieldPlayerDesc,buffs,Buff,New,Buff Resistance [708090]+20%[-]; movement speed [FF8C00]+10%[-]; stamina recovery [32CD32]+20%[-].,Buff抗性[708090]+20%[-]；移动速度[FF8C00]+10%[-]；耐力恢复[32CD32]+20%[-]。
+
+modArmorCalamityStabilityFieldMK2,items,Item,New,[FF8C00]Calamity Stability Field MK2[-],[FF8C00]灾厄稳定场·MK2[-]
+modArmorCalamityStabilityFieldMK2Desc,items,Item,New,"A reinforced reality anchor with expanded spatial coverage and reduced cooldown. When afflicted by Calamity/Wither: generates a stabilization field of [FFD700]20m[-] radius for [FFA500]14s[-]. Allies in field gain [708090]+20%[-] Buff Resistance, [FF8C00]+10%[-] movement speed, and [32CD32]+20%[-] stamina recovery. Enemies in field are [708090]knocked back[-] and accumulate elemental weakness stacks (max [FFA500]3[-], each [FF4500]-5%[-] elemental resistance). Cooldown: [00BFFF]20s[-].","强化型现实锚定装置——拓展空间覆盖并缩短冷却时间。受到灾厄/凋零影响时：在[FFD700]20米[-]半径内生成稳定场，持续[FFA500]14秒[-]。场内友方获得[708090]+20%[-]Buff抗性、[FF8C00]+10%[-]移动速度与[32CD32]+20%[-]耐力恢复。场内敌人被[708090]击退[-]并累积元素弱点层数（最多[FFA500]3[-]层，每层[FF4500]-5%[-]元素抗性）。冷却时间：[00BFFF]20秒[-]。"
+buffMK2CalamityStabilityFieldPlayerName,buffs,Buff,New,Stability Field,稳定场
+buffMK2CalamityStabilityFieldPlayerDesc,buffs,Buff,New,Buff Resistance [708090]+20%[-]; movement speed [FF8C00]+10%[-]; stamina recovery [32CD32]+20%[-].,Buff抗性[708090]+20%[-]；移动速度[FF8C00]+10%[-]；耐力恢复[32CD32]+20%[-]。
+
+modArmorCalamityStabilityFieldMK3,items,Item,New,[B8860B]Calamity Stability Field MK3[-],[B8860B]灾厄稳定场·MK3[-]
+modArmorCalamityStabilityFieldMK3Desc,items,Item,New,"An exponentially scaled reality anchor with wider dimensional lock-down radius. When afflicted by Calamity/Wither: generates a stabilization field of [FFD700]23.75m[-] radius for [FFA500]14.8s[-]. Allies in field gain [708090]+20%[-] Buff Resistance, [FF8C00]+10%[-] movement speed, and [32CD32]+20%[-] stamina recovery. Enemies in field are [708090]knocked back[-] and accumulate elemental weakness stacks (max [FFA500]3[-], each [FF4500]-5%[-] elemental resistance). Cooldown: [00BFFF]20s[-].","指数级扩增现实锚定——更广维度封锁半径。受到灾厄/凋零影响时：在[FFD700]23.75米[-]半径内生成稳定场，持续[FFA500]14.8秒[-]。场内友方获得[708090]+20%[-]Buff抗性、[FF8C00]+10%[-]移动速度与[32CD32]+20%[-]耐力恢复。场内敌人被[708090]击退[-]并累积元素弱点层数（最多[FFA500]3[-]层，每层[FF4500]-5%[-]元素抗性）。冷却时间：[00BFFF]20秒[-]。"
+
+modArmorCalamityStabilityFieldMK4,items,Item,New,[2E8B57]Calamity Stability Field MK4[-],[2E8B57]灾厄稳定场·MK4[-]
+modArmorCalamityStabilityFieldMK4Desc,items,Item,New,"A continental-grade reality anchor capable of pacifying entire combat zones from dimensional collapse. When afflicted by Calamity/Wither: generates a stabilization field of [FFD700]27.5m[-] radius for [FFA500]15.6s[-]. Allies in field gain [708090]+20%[-] Buff Resistance, [FF8C00]+10%[-] movement speed, and [32CD32]+20%[-] stamina recovery. Enemies in field are [708090]knocked back[-] and accumulate elemental weakness stacks (max [FFA500]3[-], each [FF4500]-5%[-] elemental resistance). Cooldown: [00BFFF]20s[-].","大陆级现实锚定——足以安抚整片战区免于维度崩塌。受到灾厄/凋零影响时：在[FFD700]27.5米[-]半径内生成稳定场，持续[FFA500]15.6秒[-]。场内友方获得[708090]+20%[-]Buff抗性、[FF8C00]+10%[-]移动速度与[32CD32]+20%[-]耐力恢复。场内敌人被[708090]击退[-]并累积元素弱点层数（最多[FFA500]3[-]层，每层[FF4500]-5%[-]元素抗性）。冷却时间：[00BFFF]20秒[-]。"
+
+modArmorCalamityStabilityFieldMK5,items,Item,New,[4169E1]Calamity Stability Field MK5[-],[4169E1]灾厄稳定场·MK5[-]
+modArmorCalamityStabilityFieldMK5Desc,items,Item,New,"A planetary-scale dimensional fortress — you do not merely resist corruption; you overwrite local reality. When afflicted by Calamity/Wither: generates a stabilization field of [FFD700]31.25m[-] radius for [FFA500]16.4s[-]. Allies in field gain [708090]+20%[-] Buff Resistance, [FF8C00]+10%[-] movement speed, and [32CD32]+20%[-] stamina recovery. Enemies in field are [708090]knocked back[-] and accumulate elemental weakness stacks (max [FFA500]3[-], each [FF4500]-5%[-] elemental resistance). Cooldown: [00BFFF]20s[-].","行星级维度堡垒——你不再仅仅抵御腐化，而是覆写局部现实。受到灾厄/凋零影响时：在[FFD700]31.25米[-]半径内生成稳定场，持续[FFA500]16.4秒[-]。场内友方获得[708090]+20%[-]Buff抗性、[FF8C00]+10%[-]移动速度与[32CD32]+20%[-]耐力恢复。场内敌人被[708090]击退[-]并累积元素弱点层数（最多[FFA500]3[-]层，每层[FF4500]-5%[-]元素抗性）。冷却时间：[00BFFF]20秒[-]。"
+
+modArmorCalamityStabilityFieldMK6,items,Item,New,[9932CC]Calamity Stability Field MK6[-],[9932CC]灾厄稳定场·MK6[-]
+modArmorCalamityStabilityFieldMK6Desc,items,Item,New,"The terminal reality anchor — space and time obey your will within this field. When afflicted by Calamity/Wither: generates a stabilization field of [FFD700]35m[-] radius for [FFA500]17.2s[-]. Allies in field gain [708090]+20%[-] Buff Resistance, [FF8C00]+10%[-] movement speed, and [32CD32]+20%[-] stamina recovery. Enemies in field are [708090]knocked back[-] and accumulate elemental weakness stacks (max [FFA500]3[-], each [FF4500]-5%[-] elemental resistance). Cooldown: [00BFFF]20s[-].","终极现实锚定——在此场内，空间与时间服从你的意志。受到灾厄/凋零影响时：在[FFD700]35米[-]半径内生成稳定场，持续[FFA500]17.2秒[-]。场内友方获得[708090]+20%[-]Buff抗性、[FF8C00]+10%[-]移动速度与[32CD32]+20%[-]耐力恢复。场内敌人被[708090]击退[-]并累积元素弱点层数（最多[FFA500]3[-]层，每层[FF4500]-5%[-]元素抗性）。冷却时间：[00BFFF]20秒[-]。"
+
+modArmorEmberRekindlePlateA9,items,Item,New,[8B4513]Ember Rekindle Plate A9[-],[8B4513]余烬复燃板·A9[-]
+modArmorEmberRekindlePlateA9Desc,items,Item,New,"A palm-mounted incendiary array that erupts on impact — fire begets fire. When damaged: [FFA500]20%[-] chance to trigger a [FFD700]4m[-] radius Heat eruption dealing [FF4500]500[-] damage and igniting enemies. On weapon hit: [FFA500]10%[-] chance to trigger eruption. Killing a burning enemy detonates them in a [FFD700]3m[-] corpse explosion dealing [FF4500]250[-] Heat damage.","掌载燃烧阵列——受击即喷发，火焰孕育火焰。受到伤害时：[FFA500]20%[-]概率在[FFD700]4米[-]半径内触发火焰喷发，造成[FF4500]500[-]点高温伤害并点燃敌人。武器命中时：[FFA500]10%[-]概率触发喷发。击杀燃烧敌人时引发[FFD700]3米[-]尸爆，造成[FF4500]250[-]点高温伤害。"
+
+modArmorEmberRekindlePlateA92,items,Item,New,[FF8C00]Ember Rekindle Plate A92[-],[FF8C00]余烬复燃板·A92[-]
+modArmorEmberRekindlePlateA92Desc,items,Item,New,"A reinforced palm-ignition module with wider eruption radius and explosive corpse detonation. When damaged: [FFA500]25%[-] chance to trigger a [FFD700]5m[-] radius Heat eruption dealing [FF4500]650[-] damage and igniting enemies. On weapon hit: [FFA500]15%[-] chance to trigger eruption. Killing a burning enemy detonates them in a [FFD700]4m[-] corpse explosion dealing [FF4500]450[-] Heat damage.","强化型掌载点火模块——拓展喷发半径与尸爆威力。受到伤害时：[FFA500]25%[-]概率在[FFD700]5米[-]半径内触发火焰喷发，造成[FF4500]650[-]点高温伤害并点燃敌人。武器命中时：[FFA500]15%[-]概率触发喷发。击杀燃烧敌人时引发[FFD700]4米[-]尸爆，造成[FF4500]450[-]点高温伤害。"
+
+modArmorEmberRekindlePlateA93,items,Item,New,[B8860B]Ember Rekindle Plate A93[-],[B8860B]余烬复燃板·A93[-]
+modArmorEmberRekindlePlateA93Desc,items,Item,New,"An overclocked combustion array with higher trigger sensitivity and blast intensity. When damaged: [FFA500]27%[-] chance to trigger a [FFD700]6m[-] radius Heat eruption dealing [FF4500]875[-] damage and igniting enemies. On weapon hit: [FFA500]16%[-] chance to trigger eruption. Killing a burning enemy detonates them in a [FFD700]4.75m[-] corpse explosion dealing [FF4500]585[-] Heat damage.","超频燃烧阵列——更高触发灵敏度与爆炸强度。受到伤害时：[FFA500]27%[-]概率在[FFD700]6米[-]半径内触发火焰喷发，造成[FF4500]875[-]点高温伤害并点燃敌人。武器命中时：[FFA500]16%[-]概率触发喷发。击杀燃烧敌人时引发[FFD700]4.75米[-]尸爆，造成[FF4500]585[-]点高温伤害。"
+
+modArmorEmberRekindlePlateA94,items,Item,New,[2E8B57]Ember Rekindle Plate A94[-],[2E8B57]余烬复燃板·A94[-]
+modArmorEmberRekindlePlateA94Desc,items,Item,New,"A furnace-core gauntlet — the battlefield becomes your personal crematorium. When damaged: [FFA500]29%[-] chance to trigger a [FFD700]7m[-] radius Heat eruption dealing [FF4500]1100[-] damage and igniting enemies. On weapon hit: [FFA500]17%[-] chance to trigger eruption. Killing a burning enemy detonates them in a [FFD700]5.5m[-] corpse explosion dealing [FF4500]720[-] Heat damage.","熔炉核心护手——战场化为你的私人火葬场。受到伤害时：[FFA500]29%[-]概率在[FFD700]7米[-]半径内触发火焰喷发，造成[FF4500]1100[-]点高温伤害并点燃敌人。武器命中时：[FFA500]17%[-]概率触发喷发。击杀燃烧敌人时引发[FFD700]5.5米[-]尸爆，造成[FF4500]720[-]点高温伤害。"
+
+modArmorEmberRekindlePlateA95,items,Item,New,[4169E1]Ember Rekindle Plate A95[-],[4169E1]余烬复燃板·A95[-]
+modArmorEmberRekindlePlateA95Desc,items,Item,New,"An inferno-core armament — your strikes leave nothing but ash and embers. When damaged: [FFA500]31%[-] chance to trigger a [FFD700]8m[-] radius Heat eruption dealing [FF4500]1325[-] damage and igniting enemies. On weapon hit: [FFA500]18%[-] chance to trigger eruption. Killing a burning enemy detonates them in a [FFD700]6.25m[-] corpse explosion dealing [FF4500]855[-] Heat damage.","炼狱核心武装——你的打击只留下灰烬与余火。受到伤害时：[FFA500]31%[-]概率在[FFD700]8米[-]半径内触发火焰喷发，造成[FF4500]1325[-]点高温伤害并点燃敌人。武器命中时：[FFA500]18%[-]概率触发喷发。击杀燃烧敌人时引发[FFD700]6.25米[-]尸爆，造成[FF4500]855[-]点高温伤害。"
+
+modArmorEmberRekindlePlateA96,items,Item,New,[9932CC]Ember Rekindle Plate A96[-],[9932CC]余烬复燃板·A96[-]
+modArmorEmberRekindlePlateA96Desc,items,Item,New,"A solar-flare ignition matrix — you are the spark that ends worlds. When damaged: [FFA500]33%[-] chance to trigger a [FFD700]9m[-] radius Heat eruption dealing [FF4500]1550[-] damage and igniting enemies. On weapon hit: [FFA500]19%[-] chance to trigger eruption. Killing a burning enemy detonates them in a [FFD700]7m[-] corpse explosion dealing [FF4500]990[-] Heat damage.","太阳耀斑点火矩阵——你是终结世界的火花。受到伤害时：[FFA500]33%[-]概率在[FFD700]9米[-]半径内触发火焰喷发，造成[FF4500]1550[-]点高温伤害并点燃敌人。武器命中时：[FFA500]19%[-]概率触发喷发。击杀燃烧敌人时引发[FFD700]7米[-]尸爆，造成[FF4500]990[-]点高温伤害。"
+
+modArmorWitherAdaptiveExoskeletonP10,items,Item,New,[9932CC]Wither Adaptive Exoskeleton P10[-],[9932CC]凋零适应外骨骼·P10[-]
+modArmorWitherAdaptiveExoskeletonP10Desc,items,Item,New,"A biomechanical exoskeleton evolved specifically to resist and overwrite dimensional corruption. Passively grants [708090]+15%[-] Elemental Resistance, [708090]+15%[-] Physical Resistance, [FF8C00]+10%[-] movement speed, [32CD32]+35[-] Max Health, and [FFD700]+30[-] Max Stamina. Every [FFA500]10s[-]: automatically [32CD32]cleanses[-] Calamity/Wither debuffs and grants [708090]immunity[-] to them for [FFA500]5s[-].","专为抵御与覆写维度腐化而进化的生物机械外骨骼。常驻[708090]+15%[-]元素抗性、[708090]+15%[-]物理抗性、[FF8C00]+10%[-]移动速度、[32CD32]+35[-]最大生命值与[FFD700]+30[-]最大耐力。每[FFA500]10秒[-]：自动[32CD32]清除[-]灾厄/凋零减益效果并获得[708090]免疫[-]，持续[FFA500]5秒[-]。"
+buffP10WitherAdaptiveExoskeletonImmunityName,buffs,Buff,New,Wither Immunity,凋零免疫
+buffP10WitherAdaptiveExoskeletonImmunityDesc,buffs,Buff,New,Immune to Wither and Calamity debuffs.,免疫凋零与灾厄效果。
+
+modWeaponFireChaserSwarmWA1,items,Item,New,[8B4513]Fire Chaser Swarm WA1[-],[8B4513]追火蜂群模块·WA1[-]
+modWeaponFireChaserSwarmWA1Desc,items,Item,New,"A swarm-intelligence micro-missile hive that launches heat-seeking firebolts on impact. On Primary/Secondary hit: [FFA500]10%[-] chance to launch [FFA500]5[-] homing firebolts, each dealing [FF4500]25%[-] weapon damage as Heat in a [FFD700]1.6m[-] radius and [FF4500]igniting[-] enemies.","蜂群智能微型导弹巢——命中时发射热追踪火焰弹。主/副武器命中时：[FFA500]10%[-]概率发射[FFA500]5[-]枚追踪火焰弹，每枚在[FFD700]1.6米[-]半径内造成[FF4500]25%[-]武器伤害的高温伤害并[FF4500]点燃[-]敌人。"
+
+modWeaponFireChaserSwarmWA2,items,Item,New,[FF8C00]Fire Chaser Swarm WA2[-],[FF8C00]追火蜂群模块·WA2[-]
+modWeaponFireChaserSwarmWA2Desc,items,Item,New,"An enhanced swarm hive with improved hit-rate, velocity, and explosive yield. On Primary/Secondary hit: [FFA500]13%[-] chance to launch [FFA500]5[-] homing firebolts, each dealing [FF4500]32.5%[-] weapon damage as Heat in a [FFD700]1.92m[-] radius and [FF4500]igniting[-] enemies.","强化型蜂群巢——提升命中率、弹速与爆炸当量。主/副武器命中时：[FFA500]13%[-]概率发射[FFA500]5[-]枚追踪火焰弹，每枚在[FFD700]1.92米[-]半径内造成[FF4500]32.5%[-]武器伤害的高温伤害并[FF4500]点燃[-]敌人。"
+
+modWeaponFireChaserSwarmWA3,items,Item,New,[B8860B]Fire Chaser Swarm WA3[-],[B8860B]追火蜂群模块·WA3[-]
+modWeaponFireChaserSwarmWA3Desc,items,Item,New,"An upgraded swarm launcher with an extra bolt per volley and intensified warhead payload. On Primary/Secondary hit: [FFA500]16%[-] chance to launch [FFA500]6[-] homing firebolts, each dealing [FF4500]42.25%[-] weapon damage as Heat in a [FFD700]2.3m[-] radius and [FF4500]igniting[-] enemies.","升级型蜂群发射器——每轮齐射增加一枚弹头并强化战斗部载荷。主/副武器命中时：[FFA500]16%[-]概率发射[FFA500]6[-]枚追踪火焰弹，每枚在[FFD700]2.3米[-]半径内造成[FF4500]42.25%[-]武器伤害的高温伤害并[FF4500]点燃[-]敌人。"
+
+modWeaponFireChaserSwarmWA4,items,Item,New,[2E8B57]Fire Chaser Swarm WA4[-],[2E8B57]追火蜂群模块·WA4[-]
+modWeaponFireChaserSwarmWA4Desc,items,Item,New,"A precision swarm array with significantly improved trigger frequency and blast radius. On Primary/Secondary hit: [FFA500]19%[-] chance to launch [FFA500]6[-] homing firebolts, each dealing [FF4500]54.9%[-] weapon damage as Heat in a [FFD700]2.76m[-] radius and [FF4500]igniting[-] enemies.","精准蜂群阵列——大幅提升触发频率与爆炸半径。主/副武器命中时：[FFA500]19%[-]概率发射[FFA500]6[-]枚追踪火焰弹，每枚在[FFD700]2.76米[-]半径内造成[FF4500]54.9%[-]武器伤害的高温伤害并[FF4500]点燃[-]敌人。"
+
+modWeaponFireChaserSwarmWA5,items,Item,New,[4169E1]Fire Chaser Swarm WA5[-],[4169E1]追火蜂群模块·WA5[-]
+modWeaponFireChaserSwarmWA5Desc,items,Item,New,"A war-forged swarm broadcaster — seven bolts per trigger, each a miniature sun. On Primary/Secondary hit: [FFA500]22%[-] chance to launch [FFA500]7[-] homing firebolts, each dealing [FF4500]71.4%[-] weapon damage as Heat in a [FFD700]3.32m[-] radius and [FF4500]igniting[-] enemies.","战铸蜂群播撒器——每轮齐射七枚弹头，每一枚皆为微型太阳。主/副武器命中时：[FFA500]22%[-]概率发射[FFA500]7[-]枚追踪火焰弹，每枚在[FFD700]3.32米[-]半径内造成[FF4500]71.4%[-]武器伤害的高温伤害并[FF4500]点燃[-]敌人。"
+
+modWeaponFireChaserSwarmWA6,items,Item,New,[9932CC]Fire Chaser Swarm WA6[-],[9932CC]追火蜂群模块·WA6[-]
+modWeaponFireChaserSwarmWA6Desc,items,Item,New,"The apex swarm intelligence — seven bolts of near-total weapon energy conversion, each a harbinger of immolation. On Primary/Secondary hit: [FFA500]24%[-] chance to launch [FFA500]7[-] homing firebolts, each dealing [FF4500]92.8%[-] weapon damage as Heat in a [FFD700]3.98m[-] radius and [FF4500]igniting[-] enemies.","顶级蜂群智能——七枚近乎完全武器能量转化的弹头，每一枚皆是焚灭先驱。主/副武器命中时：[FFA500]24%[-]概率发射[FFA500]7[-]枚追踪火焰弹，每枚在[FFD700]3.98米[-]半径内造成[FF4500]92.8%[-]武器伤害的高温伤害并[FF4500]点燃[-]敌人。"
+
+modWeaponFrostGrenadeNestWA1,items,Item,New,[8B4513]Frost Grenade Nest WA1[-],[8B4513]冰霜榴弹巢·WA1[-]
+modWeaponFrostGrenadeNestWA1Desc,items,Item,New,"A cryo-grenade dispenser that lobs freezing orbs around the target on impact — turning the battlefield into a walk-in freezer. On Primary/Secondary hit: [FFA500]10%[-] chance to lob [FFA500]3[-] frost grenades around the target, each dealing [FF4500]150%[-] weapon damage as Cold in a [FFD700]3.2m[-] radius, inflicting [708090]30%[-] slow for [FFA500]5s[-] and [FF4500]Frost Crack[-] (+10% damage taken, [FFA500]3s[-]).","低温榴弹分配器——命中时向目标周围抛掷冻结球，化战场为步入式冷库。主/副武器命中时：[FFA500]10%[-]概率向目标周围抛掷[FFA500]3[-]枚冰霜榴弹，每枚在[FFD700]3.2米[-]半径内造成[FF4500]150%[-]武器伤害的低温伤害，附加[708090]30%[-]减速持续[FFA500]5秒[-]与[FF4500]霜裂[-]（+10%受到伤害，[FFA500]3秒[-]）。"
+
+modWeaponFrostGrenadeNestWA2,items,Item,New,[FF8C00]Frost Grenade Nest WA2[-],[FF8C00]冰霜榴弹巢·WA2[-]
+modWeaponFrostGrenadeNestWA2Desc,items,Item,New,"An enhanced cryo-dispenser with wider blast radii and improved weapon damage conversion. On Primary/Secondary hit: [FFA500]13%[-] chance to lob [FFA500]3[-] frost grenades around the target, each dealing [FF4500]195%[-] weapon damage as Cold in a [FFD700]3.84m[-] radius, inflicting [708090]30%[-] slow for [FFA500]5s[-] and [FF4500]Frost Crack[-] (+10% damage taken, [FFA500]3s[-]).","强化型低温分配器——拓宽爆炸半径并提升武器伤害转化。主/副武器命中时：[FFA500]13%[-]概率向目标周围抛掷[FFA500]3[-]枚冰霜榴弹，每枚在[FFD700]3.84米[-]半径内造成[FF4500]195%[-]武器伤害的低温伤害，附加[708090]30%[-]减速持续[FFA500]5秒[-]与[FF4500]霜裂[-]（+10%受到伤害，[FFA500]3秒[-]）。"
+buffWA2FrostGrenadeNestSlowName,buffs,Buff,New,Frostbite,霜噬
+buffWA2FrostGrenadeNestSlowDesc,buffs,Buff,New,Movement speed reduced by [708090]30%[-].,移动速度降低[708090]30%[-]。
+buffWA2FrostGrenadeNestFrostCrackName,buffs,Buff,New,Frost Crack,霜裂
+buffWA2FrostGrenadeNestFrostCrackDesc,buffs,Buff,New,Incoming damage increased by [FF4500]10%[-].,受到的伤害增加[FF4500]10%[-]。
+
+modWeaponFrostGrenadeNestWA3,items,Item,New,[B8860B]Frost Grenade Nest WA3[-],[B8860B]冰霜榴弹巢·WA3[-]
+modWeaponFrostGrenadeNestWA3Desc,items,Item,New,"An overclocked cryo-launcher with an additional grenade per volley and extreme weapon damage scaling. On Primary/Secondary hit: [FFA500]16%[-] chance to lob [FFA500]4[-] frost grenades around the target, each dealing [FF4500]253.5%[-] weapon damage as Cold in a [FFD700]4.61m[-] radius, inflicting [708090]30%[-] slow for [FFA500]5s[-] and [FF4500]Frost Crack[-] (+10% damage taken, [FFA500]3s[-]).","超频低温发射器——每轮齐射增加一枚榴弹并极大幅武器伤害倍率。主/副武器命中时：[FFA500]16%[-]概率向目标周围抛掷[FFA500]4[-]枚冰霜榴弹，每枚在[FFD700]4.61米[-]半径内造成[FF4500]253.5%[-]武器伤害的低温伤害，附加[708090]30%[-]减速持续[FFA500]5秒[-]与[FF4500]霜裂[-]（+10%受到伤害，[FFA500]3秒[-]）。"
+
+modWeaponFrostGrenadeNestWA4,items,Item,New,[2E8B57]Frost Grenade Nest WA4[-],[2E8B57]冰霜榴弹巢·WA4[-]
+modWeaponFrostGrenadeNestWA4Desc,items,Item,New,"A tactical-grade cryo-saturation system — wider blasts, more frequent triggers. On Primary/Secondary hit: [FFA500]19%[-] chance to lob [FFA500]4[-] frost grenades around the target, each dealing [FF4500]329.6%[-] weapon damage as Cold in a [FFD700]5.53m[-] radius, inflicting [708090]30%[-] slow for [FFA500]5s[-] and [FF4500]Frost Crack[-] (+10% damage taken, [FFA500]3s[-]).","战术级低温饱和系统——更广爆炸范围，更高触发频率。主/副武器命中时：[FFA500]19%[-]概率向目标周围抛掷[FFA500]4[-]枚冰霜榴弹，每枚在[FFD700]5.53米[-]半径内造成[FF4500]329.6%[-]武器伤害的低温伤害，附加[708090]30%[-]减速持续[FFA500]5秒[-]与[FF4500]霜裂[-]（+10%受到伤害，[FFA500]3秒[-]）。"
+
+modWeaponFrostGrenadeNestWA5,items,Item,New,[4169E1]Frost Grenade Nest WA5[-],[4169E1]冰霜榴弹巢·WA5[-]
+modWeaponFrostGrenadeNestWA5Desc,items,Item,New,"A sub-zero carpet-bombing module — five grenades blanket the kill zone in permafrost. On Primary/Secondary hit: [FFA500]22%[-] chance to lob [FFA500]5[-] frost grenades around the target, each dealing [FF4500]428.4%[-] weapon damage as Cold in a [FFD700]6.64m[-] radius, inflicting [708090]30%[-] slow for [FFA500]5s[-] and [FF4500]Frost Crack[-] (+10% damage taken, [FFA500]3s[-]).","极寒地毯轰炸模块——五枚榴弹以永冻覆盖杀戮区域。主/副武器命中时：[FFA500]22%[-]概率向目标周围抛掷[FFA500]5[-]枚冰霜榴弹，每枚在[FFD700]6.64米[-]半径内造成[FF4500]428.4%[-]武器伤害的低温伤害，附加[708090]30%[-]减速持续[FFA500]5秒[-]与[FF4500]霜裂[-]（+10%受到伤害，[FFA500]3秒[-]）。"
+
+modWeaponFrostGrenadeNestWA6,items,Item,New,[9932CC]Frost Grenade Nest WA6[-],[9932CC]冰霜榴弹巢·WA6[-]
+modWeaponFrostGrenadeNestWA6Desc,items,Item,New,"An ice-age-in-a-canister — the ultimate cryo-saturation weapon, five grenades at near-sixfold weapon damage. On Primary/Secondary hit: [FFA500]24%[-] chance to lob [FFA500]5[-] frost grenades around the target, each dealing [FF4500]556.9%[-] weapon damage as Cold in a [FFD700]7.96m[-] radius, inflicting [708090]30%[-] slow for [FFA500]5s[-] and [FF4500]Frost Crack[-] (+10% damage taken, [FFA500]3s[-]).","罐装冰河时代——终极低温饱和武器，五枚榴弹近六倍武器伤害。主/副武器命中时：[FFA500]24%[-]概率向目标周围抛掷[FFA500]5[-]枚冰霜榴弹，每枚在[FFD700]7.96米[-]半径内造成[FF4500]556.9%[-]武器伤害的低温伤害，附加[708090]30%[-]减速持续[FFA500]5秒[-]与[FF4500]霜裂[-]（+10%受到伤害，[FFA500]3秒[-]）。"
+
+modWeaponLightningChainCapacitorWA1,items,Item,New,[8B4513]Lightning Chain Capacitor WA1[-],[8B4513]雷链电容器·WA1[-]
+modWeaponLightningChainCapacitorWA1Desc,items,Item,New,"A high-voltage discharge module that arcs chain lightning between enemies on impact. On Primary/Secondary hit: [FFA500]8%[-] chance to trigger chain lightning ([FFA500]1[-] initial bolt + [FFA500]4[-] chains), dealing [FF4500]35%[-] weapon damage as Electrical in a [FFD700]2m[-] radius. Chain targets have [FFA500]20%[-] chance to be [FF4500]shocked[-].","高压放电器——命中时在敌人之间电弧连锁闪电。主/副武器命中时：[FFA500]8%[-]概率触发连锁闪电（[FFA500]1[-]道初始闪电+[FFA500]4[-]次连锁），在[FFD700]2米[-]半径内造成[FF4500]35%[-]武器伤害的电击伤害。连锁目标有[FFA500]20%[-]概率被[FF4500]电击[-]。"
+
+modWeaponLightningChainCapacitorWA2,items,Item,New,[FF8C00]Lightning Chain Capacitor WA2[-],[FF8C00]雷链电容器·WA2[-]
+modWeaponLightningChainCapacitorWA2Desc,items,Item,New,"An amplified capacitor with increased trigger rate, wider initial blast, and stronger weapon scaling. On Primary/Secondary hit: [FFA500]9%[-] chance to trigger chain lightning ([FFA500]1[-] initial bolt + [FFA500]4[-] chains), dealing [FF4500]45.5%[-] weapon damage as Electrical in a [FFD700]2.4m[-] radius. Chain targets have [FFA500]20%[-] chance to be [FF4500]shocked[-].","放大电容器——提升触发率、扩大初始爆炸范围并强化武器伤害倍率。主/副武器命中时：[FFA500]9%[-]概率触发连锁闪电（[FFA500]1[-]道初始闪电+[FFA500]4[-]次连锁），在[FFD700]2.4米[-]半径内造成[FF4500]45.5%[-]武器伤害的电击伤害。连锁目标有[FFA500]20%[-]概率被[FF4500]电击[-]。"
+
+modWeaponLightningChainCapacitorWA3,items,Item,New,[B8860B]Lightning Chain Capacitor WA3[-],[B8860B]雷链电容器·WA3[-]
+modWeaponLightningChainCapacitorWA3Desc,items,Item,New,"A dual-bolt capacitor that fires two initial lightning strikes per trigger for multiplied devastation. On Primary/Secondary hit: [FFA500]10%[-] chance to trigger [FFA500]2[-] lightning bolts ([FFA500]4[-] chains each), each dealing [FF4500]59.2%[-] weapon damage as Electrical in a [FFD700]2.88m[-] radius. Chain targets have [FFA500]20%[-] chance to be [FF4500]shocked[-].","双雷电容器——每次触发发射两道初始闪电，倍增毁灭。主/副武器命中时：[FFA500]10%[-]概率触发[FFA500]2[-]道闪电（各[FFA500]4[-]次连锁），每道在[FFD700]2.88米[-]半径内造成[FF4500]59.2%[-]武器伤害的电击伤害。连锁目标有[FFA500]20%[-]概率被[FF4500]电击[-]。"
+
+modWeaponLightningChainCapacitorWA4,items,Item,New,[2E8B57]Lightning Chain Capacitor WA4[-],[2E8B57]雷链电容器·WA4[-]
+modWeaponLightningChainCapacitorWA4Desc,items,Item,New,"A storm-grade capacitor array with an extra chain link and substantially higher damage throughput. On Primary/Secondary hit: [FFA500]10%[-] chance to trigger [FFA500]2[-] lightning bolts ([FFA500]5[-] chains each), each dealing [FF4500]76.9%[-] weapon damage as Electrical in a [FFD700]3.46m[-] radius. Chain targets have [FFA500]20%[-] chance to be [FF4500]shocked[-].","风暴级电容器阵列——增加一次连锁并大幅提升伤害输出。主/副武器命中时：[FFA500]10%[-]概率触发[FFA500]2[-]道闪电（各[FFA500]5[-]次连锁），每道在[FFD700]3.46米[-]半径内造成[FF4500]76.9%[-]武器伤害的电击伤害。连锁目标有[FFA500]20%[-]概率被[FF4500]电击[-]。"
+
+modWeaponLightningChainCapacitorWA5,items,Item,New,[4169E1]Lightning Chain Capacitor WA5[-],[4169E1]雷链电容器·WA5[-]
+modWeaponLightningChainCapacitorWA5Desc,items,Item,New,"A tri-bolt thunderhead — three simultaneous lightning strikes that cascade through enemy ranks at near-full weapon power. On Primary/Secondary hit: [FFA500]11%[-] chance to trigger [FFA500]3[-] lightning bolts ([FFA500]5[-] chains each), each dealing [FF4500]100%[-] weapon damage as Electrical in a [FFD700]4.15m[-] radius. Chain targets have [FFA500]20%[-] chance to be [FF4500]shocked[-].","三雷暴云——三道同时闪电以近乎全额武器威力在敌阵中连锁。主/副武器命中时：[FFA500]11%[-]概率触发[FFA500]3[-]道闪电（各[FFA500]5[-]次连锁），每道在[FFD700]4.15米[-]半径内造成[FF4500]100%[-]武器伤害的电击伤害。连锁目标有[FFA500]20%[-]概率被[FF4500]电击[-]。"
+
+modWeaponLightningChainCapacitorWA6,items,Item,New,[9932CC]Lightning Chain Capacitor WA6[-],[9932CC]雷链电容器·WA6[-]
+modWeaponLightningChainCapacitorWA6Desc,items,Item,New,"The god-array capacitor — three bolts at 130% weapon power, each chaining five times across the battlefield. On Primary/Secondary hit: [FFA500]12%[-] chance to trigger [FFA500]3[-] lightning bolts ([FFA500]5[-] chains each), each dealing [FF4500]130%[-] weapon damage as Electrical in a [FFD700]4.98m[-] radius. Chain targets have [FFA500]20%[-] chance to be [FF4500]shocked[-].","神级电容器阵列——三道130%武器威力的闪电，各在战场上连锁五次。主/副武器命中时：[FFA500]12%[-]概率触发[FFA500]3[-]道闪电（各[FFA500]5[-]次连锁），每道在[FFD700]4.98米[-]半径内造成[FF4500]130%[-]武器伤害的电击伤害。连锁目标有[FFA500]20%[-]概率被[FF4500]电击[-]。"
+
+modWeaponKineticEscalatorWP3,items,Item,New,[B8860B]Kinetic Escalator WP3[-],[B8860B]动能递增机芯·WP3[-]
+modWeaponKineticEscalatorWP3Desc,items,Item,New,"A recursive combat accelerator — every strike sharpens the next, every hit fuels your advance. On attack end: gain [FFA500]+1[-] attack kinetic stack. On hit: gain [FFA500]+1[-] attack and [FFA500]+1[-] movement kinetic stack. Each attack stack grants [FF4500]+2%[-] attack speed and [708090]+1%[-] buff resistance. Each movement stack grants [FF8C00]+1%[-] movement speed. Max [FFD700]10[-] stacks each. Stacks decay rapidly after [FFA500]2s[-] without attacking. On reload: retain [FFA500]50%[-] stacks.","递归式战斗加速器——每一击磨砺下一击，每一命中推动你的推进。攻击结束时：获得[FFA500]+1[-]攻击动能层数。命中时：额外获得[FFA500]+1[-]攻击层数与[FFA500]+1[-]移动层数。每层攻击动能提供[FF4500]+2%[-]攻击速度与[708090]+1%[-]Buff抗性。每层移动动能提供[FF8C00]+1%[-]移动速度。各最多[FFD700]10[-]层。停止攻击[FFA500]2秒[-]后快速衰减。换弹时：保留[FFA500]50%[-]层数。"
+buffWP3KineticEscalatorCoreName,buffs,Buff,New,Kinetic Escalation,动能递增
+buffWP3KineticEscalatorCoreDesc,buffs,Buff,New,Attack stacks: [FF4500]+{cWP3KineticAtkBonus:0.#}%[-] atk speed & [708090]+{cWP3KineticResistBonus:0.#}%[-] buff resist; Move stacks: [FF8C00]+{cWP3KineticMoveBonus:0.#}%[-] speed.,攻击层数：[FF4500]+{cWP3KineticAtkBonus:0.#}%[-]攻速&[708090]+{cWP3KineticResistBonus:0.#}%[-]Buff抗性；移动层数：[FF8C00]+{cWP3KineticMoveBonus:0.#}%[-]速度。
+
+modArmorVitalityUpperP1,items,Item,New,[8B4513]Vitality Rune — Head P1[-],[8B4513]活力符石·头部P1[-]
+modArmorVitalityUpperP1Desc,items,Item,New,"A basic biometric augment etched with vitality sigils. Passively grants [32CD32]+5[-] Max Health and [FFD700]+3[-] Max Stamina.","刻有活力符文的基础生物计量增强体。常驻[32CD32]+5[-]最大生命值与[FFD700]+3[-]最大耐力。"
+modArmorVitalityMiddleP1,items,Item,New,[8B4513]Vitality Rune — Chest P1[-],[8B4513]活力符石·胸甲P1[-]
+modArmorVitalityMiddleP1Desc,items,Item,New,"A basic biometric augment etched with vitality sigils. Passively grants [32CD32]+5[-] Max Health and [FFD700]+3[-] Max Stamina.","刻有活力符文的基础生物计量增强体。常驻[32CD32]+5[-]最大生命值与[FFD700]+3[-]最大耐力。"
+modArmorVitalityLowerP1,items,Item,New,[8B4513]Vitality Rune — Feet P1[-],[8B4513]活力符石·足部P1[-]
+modArmorVitalityLowerP1Desc,items,Item,New,"A basic biometric augment etched with vitality sigils. Passively grants [32CD32]+5[-] Max Health and [FFD700]+3[-] Max Stamina.","刻有活力符文的基础生物计量增强体。常驻[32CD32]+5[-]最大生命值与[FFD700]+3[-]最大耐力。"
+
+modArmorVitalityUpperP2,items,Item,New,[FF8C00]Vitality Rune — Head P2[-],[FF8C00]活力符石·头部P2[-]
+modArmorVitalityUpperP2Desc,items,Item,New,"A refined vitality circuit with denser biometric weave. Passively grants [32CD32]+19[-] Max Health and [FFD700]+6.4[-] Max Stamina.","精炼型活力回路——更致密的生物计量织层。常驻[32CD32]+19[-]最大生命值与[FFD700]+6.4[-]最大耐力。"
+modArmorVitalityMiddleP2,items,Item,New,[FF8C00]Vitality Rune — Chest P2[-],[FF8C00]活力符石·胸甲P2[-]
+modArmorVitalityMiddleP2Desc,items,Item,New,"A refined vitality circuit with denser biometric weave. Passively grants [32CD32]+19[-] Max Health and [FFD700]+6.4[-] Max Stamina.","精炼型活力回路——更致密的生物计量织层。常驻[32CD32]+19[-]最大生命值与[FFD700]+6.4[-]最大耐力。"
+modArmorVitalityLowerP2,items,Item,New,[FF8C00]Vitality Rune — Feet P2[-],[FF8C00]活力符石·足部P2[-]
+modArmorVitalityLowerP2Desc,items,Item,New,"A refined vitality circuit with denser biometric weave. Passively grants [32CD32]+19[-] Max Health and [FFD700]+6.4[-] Max Stamina.","精炼型活力回路——更致密的生物计量织层。常驻[32CD32]+19[-]最大生命值与[FFD700]+6.4[-]最大耐力。"
+
+modArmorVitalityUpperP3,items,Item,New,[B8860B]Vitality Rune — Head P3[-],[B8860B]活力符石·头部P3[-]
+modArmorVitalityUpperP3Desc,items,Item,New,"An advanced vitality matrix with amplified bio-capacitance. Passively grants [32CD32]+33[-] Max Health and [FFD700]+9.8[-] Max Stamina.","高级活力矩阵——放大生物电容。常驻[32CD32]+33[-]最大生命值与[FFD700]+9.8[-]最大耐力。"
+modArmorVitalityMiddleP3,items,Item,New,[B8860B]Vitality Rune — Chest P3[-],[B8860B]活力符石·胸甲P3[-]
+modArmorVitalityMiddleP3Desc,items,Item,New,"An advanced vitality matrix with amplified bio-capacitance. Passively grants [32CD32]+33[-] Max Health and [FFD700]+9.8[-] Max Stamina.","高级活力矩阵——放大生物电容。常驻[32CD32]+33[-]最大生命值与[FFD700]+9.8[-]最大耐力。"
+modArmorVitalityLowerP3,items,Item,New,[B8860B]Vitality Rune — Feet P3[-],[B8860B]活力符石·足部P3[-]
+modArmorVitalityLowerP3Desc,items,Item,New,"An advanced vitality matrix with amplified bio-capacitance. Passively grants [32CD32]+33[-] Max Health and [FFD700]+9.8[-] Max Stamina.","高级活力矩阵——放大生物电容。常驻[32CD32]+33[-]最大生命值与[FFD700]+9.8[-]最大耐力。"
+
+modArmorVitalityUpperP4,items,Item,New,[2E8B57]Vitality Rune — Head P4[-],[2E8B57]活力符石·头部P4[-]
+modArmorVitalityUpperP4Desc,items,Item,New,"A high-output vitality reactor for sustained combat endurance. Passively grants [32CD32]+47[-] Max Health and [FFD700]+13.2[-] Max Stamina.","高输出活力反应堆——维持持久作战耐力。常驻[32CD32]+47[-]最大生命值与[FFD700]+13.2[-]最大耐力。"
+modArmorVitalityMiddleP4,items,Item,New,[2E8B57]Vitality Rune — Chest P4[-],[2E8B57]活力符石·胸甲P4[-]
+modArmorVitalityMiddleP4Desc,items,Item,New,"A high-output vitality reactor for sustained combat endurance. Passively grants [32CD32]+47[-] Max Health and [FFD700]+13.2[-] Max Stamina.","高输出活力反应堆——维持持久作战耐力。常驻[32CD32]+47[-]最大生命值与[FFD700]+13.2[-]最大耐力。"
+modArmorVitalityLowerP4,items,Item,New,[2E8B57]Vitality Rune — Feet P4[-],[2E8B57]活力符石·足部P4[-]
+modArmorVitalityLowerP4Desc,items,Item,New,"A high-output vitality reactor for sustained combat endurance. Passively grants [32CD32]+47[-] Max Health and [FFD700]+13.2[-] Max Stamina.","高输出活力反应堆——维持持久作战耐力。常驻[32CD32]+47[-]最大生命值与[FFD700]+13.2[-]最大耐力。"
+
+modArmorVitalityUpperP5,items,Item,New,[4169E1]Vitality Rune — Head P5[-],[4169E1]活力符石·头部P5[-]
+modArmorVitalityUpperP5Desc,items,Item,New,"A military-grade vitality core — the line between flesh and machine dissolves. Passively grants [32CD32]+61[-] Max Health and [FFD700]+16.6[-] Max Stamina.","军用级活力核心——肉体与机械的界限消融。常驻[32CD32]+61[-]最大生命值与[FFD700]+16.6[-]最大耐力。"
+modArmorVitalityMiddleP5,items,Item,New,[4169E1]Vitality Rune — Chest P5[-],[4169E1]活力符石·胸甲P5[-]
+modArmorVitalityMiddleP5Desc,items,Item,New,"A military-grade vitality core — the line between flesh and machine dissolves. Passively grants [32CD32]+61[-] Max Health and [FFD700]+16.6[-] Max Stamina.","军用级活力核心——肉体与机械的界限消融。常驻[32CD32]+61[-]最大生命值与[FFD700]+16.6[-]最大耐力。"
+modArmorVitalityLowerP5,items,Item,New,[4169E1]Vitality Rune — Feet P5[-],[4169E1]活力符石·足部P5[-]
+modArmorVitalityLowerP5Desc,items,Item,New,"A military-grade vitality core — the line between flesh and machine dissolves. Passively grants [32CD32]+61[-] Max Health and [FFD700]+16.6[-] Max Stamina.","军用级活力核心——肉体与机械的界限消融。常驻[32CD32]+61[-]最大生命值与[FFD700]+16.6[-]最大耐力。"
+
+modArmorVitalityUpperP6,items,Item,New,[9932CC]Vitality Rune — Head P6[-],[9932CC]活力符石·头部P6[-]
+modArmorVitalityUpperP6Desc,items,Item,New,"A singularity-grade vitality anchor — your body is now a fortress of biomass. Passively grants [32CD32]+75[-] Max Health and [FFD700]+20[-] Max Stamina.","奇点级活力锚定——你的身躯已成生物质堡垒。常驻[32CD32]+75[-]最大生命值与[FFD700]+20[-]最大耐力。"
+modArmorVitalityMiddleP6,items,Item,New,[9932CC]Vitality Rune — Chest P6[-],[9932CC]活力符石·胸甲P6[-]
+modArmorVitalityMiddleP6Desc,items,Item,New,"A singularity-grade vitality anchor — your body is now a fortress of biomass. Passively grants [32CD32]+75[-] Max Health and [FFD700]+20[-] Max Stamina.","奇点级活力锚定——你的身躯已成生物质堡垒。常驻[32CD32]+75[-]最大生命值与[FFD700]+20[-]最大耐力。"
+modArmorVitalityLowerP6,items,Item,New,[9932CC]Vitality Rune — Feet P6[-],[9932CC]活力符石·足部P6[-]
+modArmorVitalityLowerP6Desc,items,Item,New,"A singularity-grade vitality anchor — your body is now a fortress of biomass. Passively grants [32CD32]+75[-] Max Health and [FFD700]+20[-] Max Stamina.","奇点级活力锚定——你的身躯已成生物质堡垒。常驻[32CD32]+75[-]最大生命值与[FFD700]+20[-]最大耐力。"
+
+modArmorVitalityUpperP7,items,Item,New,[FF4500]Vitality Rune — Head P7[-],[FF4500]活力符石·头部P7[-]
+modArmorVitalityUpperP7Desc,items,Item,New,"A mythical vitality core — legendary. Passively grants [32CD32]+80[-] Max Health, [FFD700]+25[-] Max Stamina, [FF4500]5%[-] Life Steal, and [FFA500]+15[-] Carry Capacity.","神话级活力核心——传奇品质。常驻[32CD32]+80[-]最大生命值、[FFD700]+25[-]最大耐力、[FF4500]5%[-]攻击吸血与[FFA500]+15[-]负重。"
+modArmorVitalityMiddleP7,items,Item,New,[FF4500]Vitality Rune — Chest P7[-],[FF4500]活力符石·胸甲P7[-]
+modArmorVitalityMiddleP7Desc,items,Item,New,"A mythical vitality core — legendary. Passively grants [32CD32]+80[-] Max Health, [FFD700]+25[-] Max Stamina, [FF4500]5%[-] Life Steal, and [FFA500]+15[-] Carry Capacity.","神话级活力核心——传奇品质。常驻[32CD32]+80[-]最大生命值、[FFD700]+25[-]最大耐力、[FF4500]5%[-]攻击吸血与[FFA500]+15[-]负重。"
+modArmorVitalityLowerP7,items,Item,New,[FF4500]Vitality Rune — Feet P7[-],[FF4500]活力符石·足部P7[-]
+modArmorVitalityLowerP7Desc,items,Item,New,"A mythical vitality core — legendary. Passively grants [32CD32]+80[-] Max Health, [FFD700]+25[-] Max Stamina, [FF4500]5%[-] Life Steal, and [FFA500]+15[-] Carry Capacity.","神话级活力核心——传奇品质。常驻[32CD32]+80[-]最大生命值、[FFD700]+25[-]最大耐力、[FF4500]5%[-]攻击吸血与[FFA500]+15[-]负重。"
+
+modArmorConquestUpperP1,items,Item,New,[8B4513]Conquest Rune — Head P1[-],[8B4513]征服符石·头部P1[-]
+modArmorConquestUpperP1Desc,items,Item,New,"A battle-forged offensive sigil that sharpens your killing edge. Passively grants [FF4500]+10[-] Entity Damage, [FF4500]+10%[-] Total Damage, and [FFA500]+3%[-] Armor Penetration.","战铸进攻符文——磨砺杀戮之刃。常驻[FF4500]+10[-]基础攻击力、[FF4500]+10%[-]总伤害与[FFA500]+3%[-]护甲穿透。"
+modArmorConquestMiddleP1,items,Item,New,[8B4513]Conquest Rune — Chest P1[-],[8B4513]征服符石·胸甲P1[-]
+modArmorConquestMiddleP1Desc,items,Item,New,"A battle-forged offensive sigil that sharpens your killing edge. Passively grants [FF4500]+10[-] Entity Damage, [FF4500]+10%[-] Total Damage, and [FFA500]+3%[-] Armor Penetration.","战铸进攻符文——磨砺杀戮之刃。常驻[FF4500]+10[-]基础攻击力、[FF4500]+10%[-]总伤害与[FFA500]+3%[-]护甲穿透。"
+modArmorConquestLowerP1,items,Item,New,[8B4513]Conquest Rune — Feet P1[-],[8B4513]征服符石·足部P1[-]
+modArmorConquestLowerP1Desc,items,Item,New,"A battle-forged offensive sigil that sharpens your killing edge. Passively grants [FF4500]+10[-] Entity Damage, [FF4500]+10%[-] Total Damage, and [FFA500]+3%[-] Armor Penetration.","战铸进攻符文——磨砺杀戮之刃。常驻[FF4500]+10[-]基础攻击力、[FF4500]+10%[-]总伤害与[FFA500]+3%[-]护甲穿透。"
+
+modArmorConquestUpperP2,items,Item,New,[FF8C00]Conquest Rune — Head P2[-],[FF8C00]征服符石·头部P2[-]
+modArmorConquestUpperP2Desc,items,Item,New,"A reinforced combat circuit with amplified offensive throughput. Passively grants [FF4500]+20[-] Entity Damage, [FF4500]+20%[-] Total Damage, and [FFA500]+3.6%[-] Armor Penetration.","强化型战斗回路——放大进攻输出。常驻[FF4500]+20[-]基础攻击力、[FF4500]+20%[-]总伤害与[FFA500]+3.6%[-]护甲穿透。"
+modArmorConquestMiddleP2,items,Item,New,[FF8C00]Conquest Rune — Chest P2[-],[FF8C00]征服符石·胸甲P2[-]
+modArmorConquestMiddleP2Desc,items,Item,New,"A reinforced combat circuit with amplified offensive throughput. Passively grants [FF4500]+20[-] Entity Damage, [FF4500]+20%[-] Total Damage, and [FFA500]+3.6%[-] Armor Penetration.","强化型战斗回路——放大进攻输出。常驻[FF4500]+20[-]基础攻击力、[FF4500]+20%[-]总伤害与[FFA500]+3.6%[-]护甲穿透。"
+modArmorConquestLowerP2,items,Item,New,[FF8C00]Conquest Rune — Feet P2[-],[FF8C00]征服符石·足部P2[-]
+modArmorConquestLowerP2Desc,items,Item,New,"A reinforced combat circuit with amplified offensive throughput. Passively grants [FF4500]+20[-] Entity Damage, [FF4500]+20%[-] Total Damage, and [FFA500]+3.6%[-] Armor Penetration.","强化型战斗回路——放大进攻输出。常驻[FF4500]+20[-]基础攻击力、[FF4500]+20%[-]总伤害与[FFA500]+3.6%[-]护甲穿透。"
+
+modArmorConquestUpperP3,items,Item,New,[B8860B]Conquest Rune — Head P3[-],[B8860B]征服符石·头部P3[-]
+modArmorConquestUpperP3Desc,items,Item,New,"An advanced annihilation matrix for superior armor shredding. Passively grants [FF4500]+30[-] Entity Damage, [FF4500]+30%[-] Total Damage, and [FFA500]+4.2%[-] Armor Penetration.","高级歼灭矩阵——极致碎甲之力。常驻[FF4500]+30[-]基础攻击力、[FF4500]+30%[-]总伤害与[FFA500]+4.2%[-]护甲穿透。"
+modArmorConquestMiddleP3,items,Item,New,[B8860B]Conquest Rune — Chest P3[-],[B8860B]征服符石·胸甲P3[-]
+modArmorConquestMiddleP3Desc,items,Item,New,"An advanced annihilation matrix for superior armor shredding. Passively grants [FF4500]+30[-] Entity Damage, [FF4500]+30%[-] Total Damage, and [FFA500]+4.2%[-] Armor Penetration.","高级歼灭矩阵——极致碎甲之力。常驻[FF4500]+30[-]基础攻击力、[FF4500]+30%[-]总伤害与[FFA500]+4.2%[-]护甲穿透。"
+modArmorConquestLowerP3,items,Item,New,[B8860B]Conquest Rune — Feet P3[-],[B8860B]征服符石·足部P3[-]
+modArmorConquestLowerP3Desc,items,Item,New,"An advanced annihilation matrix for superior armor shredding. Passively grants [FF4500]+30[-] Entity Damage, [FF4500]+30%[-] Total Damage, and [FFA500]+4.2%[-] Armor Penetration.","高级歼灭矩阵——极致碎甲之力。常驻[FF4500]+30[-]基础攻击力、[FF4500]+30%[-]总伤害与[FFA500]+4.2%[-]护甲穿透。"
+
+modArmorConquestUpperP4,items,Item,New,[2E8B57]Conquest Rune — Head P4[-],[2E8B57]征服符石·头部P4[-]
+modArmorConquestUpperP4Desc,items,Item,New,"A heavy assault protocol overclocked for sustained devastation. Passively grants [FF4500]+40[-] Entity Damage, [FF4500]+40%[-] Total Damage, and [FFA500]+4.8%[-] Armor Penetration.","重型突击协议——超频持续毁灭。常驻[FF4500]+40[-]基础攻击力、[FF4500]+40%[-]总伤害与[FFA500]+4.8%[-]护甲穿透。"
+modArmorConquestMiddleP4,items,Item,New,[2E8B57]Conquest Rune — Chest P4[-],[2E8B57]征服符石·胸甲P4[-]
+modArmorConquestMiddleP4Desc,items,Item,New,"A heavy assault protocol overclocked for sustained devastation. Passively grants [FF4500]+40[-] Entity Damage, [FF4500]+40%[-] Total Damage, and [FFA500]+4.8%[-] Armor Penetration.","重型突击协议——超频持续毁灭。常驻[FF4500]+40[-]基础攻击力、[FF4500]+40%[-]总伤害与[FFA500]+4.8%[-]护甲穿透。"
+modArmorConquestLowerP4,items,Item,New,[2E8B57]Conquest Rune — Feet P4[-],[2E8B57]征服符石·足部P4[-]
+modArmorConquestLowerP4Desc,items,Item,New,"A heavy assault protocol overclocked for sustained devastation. Passively grants [FF4500]+40[-] Entity Damage, [FF4500]+40%[-] Total Damage, and [FFA500]+4.8%[-] Armor Penetration.","重型突击协议——超频持续毁灭。常驻[FF4500]+40[-]基础攻击力、[FF4500]+40%[-]总伤害与[FFA500]+4.8%[-]护甲穿透。"
+
+modArmorConquestUpperP5,items,Item,New,[4169E1]Conquest Rune — Head P5[-],[4169E1]征服符石·头部P5[-]
+modArmorConquestUpperP5Desc,items,Item,New,"A warhead-grade combat array — every shot is a declaration of annihilation. Passively grants [FF4500]+50[-] Entity Damage, [FF4500]+50%[-] Total Damage, and [FFA500]+5.4%[-] Armor Penetration.","弹头级战斗阵列——每一击皆为歼灭宣言。常驻[FF4500]+50[-]基础攻击力、[FF4500]+50%[-]总伤害与[FFA500]+5.4%[-]护甲穿透。"
+modArmorConquestMiddleP5,items,Item,New,[4169E1]Conquest Rune — Chest P5[-],[4169E1]征服符石·胸甲P5[-]
+modArmorConquestMiddleP5Desc,items,Item,New,"A warhead-grade combat array — every shot is a declaration of annihilation. Passively grants [FF4500]+50[-] Entity Damage, [FF4500]+50%[-] Total Damage, and [FFA500]+5.4%[-] Armor Penetration.","弹头级战斗阵列——每一击皆为歼灭宣言。常驻[FF4500]+50[-]基础攻击力、[FF4500]+50%[-]总伤害与[FFA500]+5.4%[-]护甲穿透。"
+modArmorConquestLowerP5,items,Item,New,[4169E1]Conquest Rune — Feet P5[-],[4169E1]征服符石·足部P5[-]
+modArmorConquestLowerP5Desc,items,Item,New,"A warhead-grade combat array — every shot is a declaration of annihilation. Passively grants [FF4500]+50[-] Entity Damage, [FF4500]+50%[-] Total Damage, and [FFA500]+5.4%[-] Armor Penetration.","弹头级战斗阵列——每一击皆为歼灭宣言。常驻[FF4500]+50[-]基础攻击力、[FF4500]+50%[-]总伤害与[FFA500]+5.4%[-]护甲穿透。"
+
+modArmorConquestUpperP6,items,Item,New,[9932CC]Conquest Rune — Head P6[-],[9932CC]征服符石·头部P6[-]
+modArmorConquestUpperP6Desc,items,Item,New,"A doomsday-grade offensive paradigm — armor is merely a suggestion. Passively grants [FF4500]+60[-] Entity Damage, [FF4500]+60%[-] Total Damage, and [FFA500]+6%[-] Armor Penetration.","末日级进攻范式——护甲不过是建议。常驻[FF4500]+60[-]基础攻击力、[FF4500]+60%[-]总伤害与[FFA500]+6%[-]护甲穿透。"
+modArmorConquestMiddleP6,items,Item,New,[9932CC]Conquest Rune — Chest P6[-],[9932CC]征服符石·胸甲P6[-]
+modArmorConquestMiddleP6Desc,items,Item,New,"A doomsday-grade offensive paradigm — armor is merely a suggestion. Passively grants [FF4500]+60[-] Entity Damage, [FF4500]+60%[-] Total Damage, and [FFA500]+6%[-] Armor Penetration.","末日级进攻范式——护甲不过是建议。常驻[FF4500]+60[-]基础攻击力、[FF4500]+60%[-]总伤害与[FFA500]+6%[-]护甲穿透。"
+modArmorConquestLowerP6,items,Item,New,[9932CC]Conquest Rune — Feet P6[-],[9932CC]征服符石·足部P6[-]
+modArmorConquestLowerP6Desc,items,Item,New,"A doomsday-grade offensive paradigm — armor is merely a suggestion. Passively grants [FF4500]+60[-] Entity Damage, [FF4500]+60%[-] Total Damage, and [FFA500]+6%[-] Armor Penetration.","末日级进攻范式——护甲不过是建议。常驻[FF4500]+60[-]基础攻击力、[FF4500]+60%[-]总伤害与[FFA500]+6%[-]护甲穿透。"
+
+modArmorConquestUpperP7,items,Item,New,[FF4500]Conquest Rune — Head P7[-],[FF4500]征服符石·头部P7[-]
+modArmorConquestUpperP7Desc,items,Item,New,"A mythical executioner's sigil — legendary. Passively grants [FF4500]+65[-] Entity Damage, [FF4500]+65%[-] Total Damage, [FFA500]+7%[-] Armor Penetration, [FF4500]+5%[-] Critical Chance, [FFA500]+1[-] Pierce Target, and [FF8C00]+10%[-] Reload Speed.","神话级处刑者符文——传奇品质。常驻[FF4500]+65[-]基础攻击力、[FF4500]+65%[-]总伤害、[FFA500]+7%[-]护甲穿透、[FF4500]+5%[-]暴击率、[FFA500]+1[-]穿透目标与[FF8C00]+10%[-]换弹速度。"
+modArmorConquestMiddleP7,items,Item,New,[FF4500]Conquest Rune — Chest P7[-],[FF4500]征服符石·胸甲P7[-]
+modArmorConquestMiddleP7Desc,items,Item,New,"A mythical executioner's sigil — legendary. Passively grants [FF4500]+65[-] Entity Damage, [FF4500]+65%[-] Total Damage, [FFA500]+7%[-] Armor Penetration, [FF4500]+5%[-] Critical Chance, [FFA500]+1[-] Pierce Target, and [FF8C00]+10%[-] Reload Speed.","神话级处刑者符文——传奇品质。常驻[FF4500]+65[-]基础攻击力、[FF4500]+65%[-]总伤害、[FFA500]+7%[-]护甲穿透、[FF4500]+5%[-]暴击率、[FFA500]+1[-]穿透目标与[FF8C00]+10%[-]换弹速度。"
+modArmorConquestLowerP7,items,Item,New,[FF4500]Conquest Rune — Feet P7[-],[FF4500]征服符石·足部P7[-]
+modArmorConquestLowerP7Desc,items,Item,New,"A mythical executioner's sigil — legendary. Passively grants [FF4500]+65[-] Entity Damage, [FF4500]+65%[-] Total Damage, [FFA500]+7%[-] Armor Penetration, [FF4500]+5%[-] Critical Chance, [FFA500]+1[-] Pierce Target, and [FF8C00]+10%[-] Reload Speed.","神话级处刑者符文——传奇品质。常驻[FF4500]+65[-]基础攻击力、[FF4500]+65%[-]总伤害、[FFA500]+7%[-]护甲穿透、[FF4500]+5%[-]暴击率、[FFA500]+1[-]穿透目标与[FF8C00]+10%[-]换弹速度。"
+
+modArmorTenacityUpperP1,items,Item,New,[8B4513]Tenacity Rune — Head P1[-],[8B4513]坚韧符石·头部P1[-]
+modArmorTenacityUpperP1Desc,items,Item,New,"A defensive ward sigil that hardens body and mind against the wasteland. Passively grants [708090]+2%[-] Physical Resist, [708090]+2%[-] Elemental Resist, and [FFD700]-2%[-] Stamina Consumption.","防御结界符文——在废土中硬化身心。常驻[708090]+2%[-]物理抗性、[708090]+2%[-]元素抗性与[FFD700]-2%[-]耐力消耗。"
+modArmorTenacityMiddleP1,items,Item,New,[8B4513]Tenacity Rune — Chest P1[-],[8B4513]坚韧符石·胸甲P1[-]
+modArmorTenacityMiddleP1Desc,items,Item,New,"A defensive ward sigil that hardens body and mind against the wasteland. Passively grants [708090]+2%[-] Physical Resist, [708090]+2%[-] Elemental Resist, and [FFD700]-2%[-] Stamina Consumption.","防御结界符文——在废土中硬化身心。常驻[708090]+2%[-]物理抗性、[708090]+2%[-]元素抗性与[FFD700]-2%[-]耐力消耗。"
+modArmorTenacityLowerP1,items,Item,New,[8B4513]Tenacity Rune — Feet P1[-],[8B4513]坚韧符石·足部P1[-]
+modArmorTenacityLowerP1Desc,items,Item,New,"A defensive ward sigil that hardens body and mind against the wasteland. Passively grants [708090]+2%[-] Physical Resist, [708090]+2%[-] Elemental Resist, and [FFD700]-2%[-] Stamina Consumption.","防御结界符文——在废土中硬化身心。常驻[708090]+2%[-]物理抗性、[708090]+2%[-]元素抗性与[FFD700]-2%[-]耐力消耗。"
+
+modArmorTenacityUpperP2,items,Item,New,[FF8C00]Tenacity Rune — Head P2[-],[FF8C00]坚韧符石·头部P2[-]
+modArmorTenacityUpperP2Desc,items,Item,New,"A reinforced bastion circuit with improved multi-layer protection. Passively grants [708090]+3%[-] Physical Resist, [708090]+3%[-] Elemental Resist, and [FFD700]-3%[-] Stamina Consumption.","强化型堡垒回路——改进多层防护。常驻[708090]+3%[-]物理抗性、[708090]+3%[-]元素抗性与[FFD700]-3%[-]耐力消耗。"
+modArmorTenacityMiddleP2,items,Item,New,[FF8C00]Tenacity Rune — Chest P2[-],[FF8C00]坚韧符石·胸甲P2[-]
+modArmorTenacityMiddleP2Desc,items,Item,New,"A reinforced bastion circuit with improved multi-layer protection. Passively grants [708090]+3%[-] Physical Resist, [708090]+3%[-] Elemental Resist, and [FFD700]-3%[-] Stamina Consumption.","强化型堡垒回路——改进多层防护。常驻[708090]+3%[-]物理抗性、[708090]+3%[-]元素抗性与[FFD700]-3%[-]耐力消耗。"
+modArmorTenacityLowerP2,items,Item,New,[FF8C00]Tenacity Rune — Feet P2[-],[FF8C00]坚韧符石·足部P2[-]
+modArmorTenacityLowerP2Desc,items,Item,New,"A reinforced bastion circuit with improved multi-layer protection. Passively grants [708090]+3%[-] Physical Resist, [708090]+3%[-] Elemental Resist, and [FFD700]-3%[-] Stamina Consumption.","强化型堡垒回路——改进多层防护。常驻[708090]+3%[-]物理抗性、[708090]+3%[-]元素抗性与[FFD700]-3%[-]耐力消耗。"
+
+modArmorTenacityUpperP3,items,Item,New,[B8860B]Tenacity Rune — Head P3[-],[B8860B]坚韧符石·头部P3[-]
+modArmorTenacityUpperP3Desc,items,Item,New,"An advanced aegis matrix for superior dual-element hardening. Passively grants [708090]+4%[-] Physical Resist, [708090]+4%[-] Elemental Resist, and [FFD700]-4%[-] Stamina Consumption.","高级圣盾矩阵——极致双元素硬化。常驻[708090]+4%[-]物理抗性、[708090]+4%[-]元素抗性与[FFD700]-4%[-]耐力消耗。"
+modArmorTenacityMiddleP3,items,Item,New,[B8860B]Tenacity Rune — Chest P3[-],[B8860B]坚韧符石·胸甲P3[-]
+modArmorTenacityMiddleP3Desc,items,Item,New,"An advanced aegis matrix for superior dual-element hardening. Passively grants [708090]+4%[-] Physical Resist, [708090]+4%[-] Elemental Resist, and [FFD700]-4%[-] Stamina Consumption.","高级圣盾矩阵——极致双元素硬化。常驻[708090]+4%[-]物理抗性、[708090]+4%[-]元素抗性与[FFD700]-4%[-]耐力消耗。"
+modArmorTenacityLowerP3,items,Item,New,[B8860B]Tenacity Rune — Feet P3[-],[B8860B]坚韧符石·足部P3[-]
+modArmorTenacityLowerP3Desc,items,Item,New,"An advanced aegis matrix for superior dual-element hardening. Passively grants [708090]+4%[-] Physical Resist, [708090]+4%[-] Elemental Resist, and [FFD700]-4%[-] Stamina Consumption.","高级圣盾矩阵——极致双元素硬化。常驻[708090]+4%[-]物理抗性、[708090]+4%[-]元素抗性与[FFD700]-4%[-]耐力消耗。"
+
+modArmorTenacityUpperP4,items,Item,New,[2E8B57]Tenacity Rune — Head P4[-],[2E8B57]坚韧符石·头部P4[-]
+modArmorTenacityUpperP4Desc,items,Item,New,"A heavy bulwark protocol — you are not merely resistant; you are inevitable. Passively grants [708090]+5%[-] Physical Resist, [708090]+5%[-] Elemental Resist, and [FFD700]-5%[-] Stamina Consumption.","重型壁垒协议——你不仅仅具有抗性，你是不可阻挡的。常驻[708090]+5%[-]物理抗性、[708090]+5%[-]元素抗性与[FFD700]-5%[-]耐力消耗。"
+modArmorTenacityMiddleP4,items,Item,New,[2E8B57]Tenacity Rune — Chest P4[-],[2E8B57]坚韧符石·胸甲P4[-]
+modArmorTenacityMiddleP4Desc,items,Item,New,"A heavy bulwark protocol — you are not merely resistant; you are inevitable. Passively grants [708090]+5%[-] Physical Resist, [708090]+5%[-] Elemental Resist, and [FFD700]-5%[-] Stamina Consumption.","重型壁垒协议——你不仅仅具有抗性，你是不可阻挡的。常驻[708090]+5%[-]物理抗性、[708090]+5%[-]元素抗性与[FFD700]-5%[-]耐力消耗。"
+modArmorTenacityLowerP4,items,Item,New,[2E8B57]Tenacity Rune — Feet P4[-],[2E8B57]坚韧符石·足部P4[-]
+modArmorTenacityLowerP4Desc,items,Item,New,"A heavy bulwark protocol — you are not merely resistant; you are inevitable. Passively grants [708090]+5%[-] Physical Resist, [708090]+5%[-] Elemental Resist, and [FFD700]-5%[-] Stamina Consumption.","重型壁垒协议——你不仅仅具有抗性，你是不可阻挡的。常驻[708090]+5%[-]物理抗性、[708090]+5%[-]元素抗性与[FFD700]-5%[-]耐力消耗。"
+
+modArmorTenacityUpperP5,items,Item,New,[4169E1]Tenacity Rune — Head P5[-],[4169E1]坚韧符石·头部P5[-]
+modArmorTenacityUpperP5Desc,items,Item,New,"A fortress-grade defense matrix — the wasteland breaks against you. Passively grants [708090]+6%[-] Physical Resist, [708090]+6%[-] Elemental Resist, and [FFD700]-6%[-] Stamina Consumption.","堡垒级防御矩阵——废土在你面前碎裂。常驻[708090]+6%[-]物理抗性、[708090]+6%[-]元素抗性与[FFD700]-6%[-]耐力消耗。"
+modArmorTenacityMiddleP5,items,Item,New,[4169E1]Tenacity Rune — Chest P5[-],[4169E1]坚韧符石·胸甲P5[-]
+modArmorTenacityMiddleP5Desc,items,Item,New,"A fortress-grade defense matrix — the wasteland breaks against you. Passively grants [708090]+6%[-] Physical Resist, [708090]+6%[-] Elemental Resist, and [FFD700]-6%[-] Stamina Consumption.","堡垒级防御矩阵——废土在你面前碎裂。常驻[708090]+6%[-]物理抗性、[708090]+6%[-]元素抗性与[FFD700]-6%[-]耐力消耗。"
+modArmorTenacityLowerP5,items,Item,New,[4169E1]Tenacity Rune — Feet P5[-],[4169E1]坚韧符石·足部P5[-]
+modArmorTenacityLowerP5Desc,items,Item,New,"A fortress-grade defense matrix — the wasteland breaks against you. Passively grants [708090]+6%[-] Physical Resist, [708090]+6%[-] Elemental Resist, and [FFD700]-6%[-] Stamina Consumption.","堡垒级防御矩阵——废土在你面前碎裂。常驻[708090]+6%[-]物理抗性、[708090]+6%[-]元素抗性与[FFD700]-6%[-]耐力消耗。"
+
+modArmorTenacityUpperP6,items,Item,New,[9932CC]Tenacity Rune — Head P6[-],[9932CC]坚韧符石·头部P6[-]
+modArmorTenacityUpperP6Desc,items,Item,New,"An unbreakable bastion core — you are the last wall standing. Passively grants [708090]+7%[-] Physical Resist, [708090]+7%[-] Elemental Resist, and [FFD700]-7%[-] Stamina Consumption.","不破堡垒核心——你是最后屹立之墙。常驻[708090]+7%[-]物理抗性、[708090]+7%[-]元素抗性与[FFD700]-7%[-]耐力消耗。"
+modArmorTenacityMiddleP6,items,Item,New,[9932CC]Tenacity Rune — Chest P6[-],[9932CC]坚韧符石·胸甲P6[-]
+modArmorTenacityMiddleP6Desc,items,Item,New,"An unbreakable bastion core — you are the last wall standing. Passively grants [708090]+7%[-] Physical Resist, [708090]+7%[-] Elemental Resist, and [FFD700]-7%[-] Stamina Consumption.","不破堡垒核心——你是最后屹立之墙。常驻[708090]+7%[-]物理抗性、[708090]+7%[-]元素抗性与[FFD700]-7%[-]耐力消耗。"
+modArmorTenacityLowerP6,items,Item,New,[9932CC]Tenacity Rune — Feet P6[-],[9932CC]坚韧符石·足部P6[-]
+modArmorTenacityLowerP6Desc,items,Item,New,"An unbreakable bastion core — you are the last wall standing. Passively grants [708090]+7%[-] Physical Resist, [708090]+7%[-] Elemental Resist, and [FFD700]-7%[-] Stamina Consumption.","不破堡垒核心——你是最后屹立之墙。常驻[708090]+7%[-]物理抗性、[708090]+7%[-]元素抗性与[FFD700]-7%[-]耐力消耗。"
+
+modArmorTenacityUpperP7,items,Item,New,[FF4500]Tenacity Rune — Head P7[-],[FF4500]坚韧符石·头部P7[-]
+modArmorTenacityUpperP7Desc,items,Item,New,"A mythical indestructible aegis — legendary. Passively grants [708090]+8%[-] Physical Resist, [708090]+8%[-] Elemental Resist, [FFD700]-8%[-] Stamina Consumption, [FFA500]-50%[-] Fall Damage, and [32CD32]+30s[-] Breath Hold.","神话级不灭圣盾——传奇品质。常驻[708090]+8%[-]物理抗性、[708090]+8%[-]元素抗性、[FFD700]-8%[-]耐力消耗、[FFA500]-50%[-]坠落伤害与[32CD32]+30秒[-]憋气时间。"
+modArmorTenacityMiddleP7,items,Item,New,[FF4500]Tenacity Rune — Chest P7[-],[FF4500]坚韧符石·胸甲P7[-]
+modArmorTenacityMiddleP7Desc,items,Item,New,"A mythical indestructible aegis — legendary. Passively grants [708090]+8%[-] Physical Resist, [708090]+8%[-] Elemental Resist, [FFD700]-8%[-] Stamina Consumption, [FFA500]-50%[-] Fall Damage, and [32CD32]+30s[-] Breath Hold.","神话级不灭圣盾——传奇品质。常驻[708090]+8%[-]物理抗性、[708090]+8%[-]元素抗性、[FFD700]-8%[-]耐力消耗、[FFA500]-50%[-]坠落伤害与[32CD32]+30秒[-]憋气时间。"
+modArmorTenacityLowerP7,items,Item,New,[FF4500]Tenacity Rune — Feet P7[-],[FF4500]坚韧符石·足部P7[-]
+modArmorTenacityLowerP7Desc,items,Item,New,"A mythical indestructible aegis — legendary. Passively grants [708090]+8%[-] Physical Resist, [708090]+8%[-] Elemental Resist, [FFD700]-8%[-] Stamina Consumption, [FFA500]-50%[-] Fall Damage, and [32CD32]+30s[-] Breath Hold.","神话级不灭圣盾——传奇品质。常驻[708090]+8%[-]物理抗性、[708090]+8%[-]元素抗性、[FFD700]-8%[-]耐力消耗、[FFA500]-50%[-]坠落伤害与[32CD32]+30秒[-]憋气时间。"
+
+astrofix_machinegun,items,Item,New,[00BFFF]Astrofix Assault Rifle[-],[00BFFF]定星突击步枪[-]
+astrofix_machinegunDesc,items,Item,New,"A Militech next-gen smart-weapon platform with onboard ballistic co-processor and energy ammo cycling. Locks onto [FFA500]body[-] by default and unleashes mildly-homing volleys. Virtual magazine: [FFD700]45[-] rounds, auto-recharges from a [FFD700]1000[-]-point energy pool after [FFA500]1.5s[-] ceasefire ([00BFFF]3s[-] from 0 to full). High-velocity tracking rounds ([FFD700]120[-] m/s) with arcing trajectory.","军用科技下一代智能武器平台——内置弹道协处理器与能量弹药循环系统。默认锁定目标[FFA500]躯干[-]，倾泻追踪弹幕。虚拟弹匣：[FFD700]45[-]发，停火[FFA500]1.5秒[-]后自动从[FFD700]1000[-]点能量池充能（[00BFFF]3秒[-]充满）。极高初速（[FFD700]120[-]），弹丸带轻度追踪弧圈弹道。"
+
+modAstroxfixDMR,items,Item,New,[B8860B]Militech DMR Conversion Kit[-],[B8860B]军用科技精准射手改装套件[-]
+modAstroxfixDMRDesc,items,Item,New,"A precision hunter protocol purpose-built for the Astrofix. Sacrifices fire rate for one-shot penetration. Fire rate: [FFA500]0.3s[-]/shot. [FF4500]8x[-] weapon damage, [FF4500]8x[-] ammo consumption. [FFA500]+1[-] pierce. Lock aim switches to [FF4500]head[-]. Spread minimized ([FFD700]1.5[-] hipfire, [FFD700]0.02[-] aim multiplier).","为定星量身打造的精准猎杀协议——牺牲射速换取一击致命的穿透力。射速：[FFA500]0.3秒[-]/发。[FF4500]8倍[-]武器伤害，[FF4500]8倍[-]弹药消耗。[FFA500]+1[-]穿透。锁定部位强制切换至[FF4500]头部[-]。散布极低（腰射[FFD700]1.5[-]度，瞄准倍率[FFD700]0.02[-]）。"
+
+modMilitech_SalvoCore,items,Item,New,[FF8C00]Militech Salvo Core[-],[FF8C00]齐射核心[-]
+modMilitech_SalvoCoreDesc,items,Item,New,"Ballistic sync co-processor — two rounds per trigger pull at the cost of individual punch. Fires [FFA500]+1[-] extra projectile per shot. Per-projectile damage reduced to [FF4500]70%[-] (net ~[FF4500]1.4x[-] total output).","弹道同步协处理器——一次扣机双丸齐射，以降低单发质量为代价换取爆发火力。每发多[FFA500]+1[-]枚弹丸。单发伤害降至[FF4500]70%[-]（总输出约[FF4500]1.4倍[-]）。"
+
+modMilitech_BarrageCore,items,Item,New,[B8860B]Militech Barrage Core[-],[B8860B]弹幕核心[-]
+modMilitech_BarrageCoreDesc,items,Item,New,"Full-auto fire-hose protocol — triple projectiles sweep the kill zone. Fires [FFA500]+2[-] extra projectiles per shot. Per-projectile damage reduced to [FF4500]65%[-] (net ~[FF4500]1.95x[-] total output). Ideal for suppression and crowd clearance.","全自动火力倾泻协议——三重弹丸横扫地场。每发多[FFA500]+2[-]枚弹丸。单发伤害降至[FF4500]65%[-]（总输出约[FF4500]1.95倍[-]）。适合压制与清场。"
+
+modMilitech_ShardSplitter,items,Item,New,[B8860B]Militech Shard Splitter[-],[B8860B]碎片分裂器[-]
+modMilitech_ShardSplitterDesc,items,Item,New,"Impact-activated micro-cutting grid — primary rounds split into a cluster of smart submunitions. [FFA500]+1[-] chain projectile per split. Submunition scale reduced to [FFD700]50%[-]. Split generation fixed at [FFA500]1[-]. Base weapon damage [FF4500]-0.1[-] (multiplier offset).","命中瞬间激活微观切割网格——主弹丸分裂为一簇智能碎片。分裂弹丸[FFA500]+1[-]枚，尺寸缩小至[FFD700]50%[-]，分裂代数固定[FFA500]1[-]次。武器基础伤害[FF4500]-0.1[-]（倍率偏移）。"
+
+modMilitech_OverchargeRounds,items,Item,New,[4169E1]Militech Overcharge Rounds[-],[4169E1]过充弹药[-]
+modMilitech_OverchargeRoundsDesc,items,Item,New,"Overloads the energy pool output conduit — massive muzzle energy gain at the expense of fire rate and velocity. Weapon damage [FF4500]+1.0[-] multiplier. Fire rate [FFA500]-20%[-] (delay x1.2). Projectile velocity [FFA500]-20%[-] (x0.8). Punch through light armor.","将能量池输出管道超载——大幅提升枪口动能，代价是射速与弹速下降。武器伤害倍率[FF4500]+1.0[-]。射速[FFA500]-20%[-]（延迟×1.2）。弹丸初速[FFA500]-20%[-]（×0.8）。足以贯穿轻型装甲。"
+
+modMilitech_ChainAmplifier,items,Item,New,[B8860B]Militech Chain Amplifier[-],[B8860B]链式增幅器[-]
+modMilitech_ChainAmplifierDesc,items,Item,New,"Optimizes the onboard micro-splitter engine to allow secondary fragmentation — wider area coverage at a slight damage cost. Chain split generation [FFA500]+1[-]. Submunition scale reduced by [FFD700]20%[-] (x0.8). Base weapon damage [FF4500]-0.1[-].","优化弹丸内部微型分裂引擎——允许碎片二次分裂，以轻微减伤换取更广面杀伤。链式分裂代数[FFA500]+1[-]。分裂弹丸尺寸缩减[FFD700]20%[-]（×0.8）。武器基础伤害[FF4500]-0.1[-]。"
+
+modMilitech_FlameBarrage,items,Item,New,[4169E1]Militech Flame Barrage Protocol[-],[4169E1]火焰弹幕协议[-]
+modMilitech_FlameBarrageDesc,items,Item,New,"Militech incendiary protocol — on fire, [FFA500]10%[-] chance to release a swarm of [FFA500]5[-] homing fire-chasers from the weapon. Each bolt deals [FF4500]50%[-] weapon damage as Heat and [FF4500]ignites[-] targets (burn + fire DoT). Arcing homing flight, zero gravity, high speed.","军用科技燃烧协议——开火时[FFA500]10%[-]概率从枪身释放[FFA500]5[-]枚追踪火蜂。每枚造成[FF4500]50%[-]武器伤害的高温伤害并[FF4500]点燃[-]目标（燃烧+持续火焰伤害）。弧圈追踪，无重力，高速飞行。"
+
+modMilitech_FrostBarrage,items,Item,New,[4169E1]Militech Frost Barrage Protocol[-],[4169E1]冰霜弹幕协议[-]
+modMilitech_FrostBarrageDesc,items,Item,New,"Militech cryo-saturation protocol — on fire, [FFA500]10%[-] chance to launch [FFA500]4[-] homing frost crystals from the weapon. Each deals [FF4500]30%[-] weapon damage as Cold and inflicts [708090]slow[-] + Frost Crack ([FF4500]+10%[-] damage taken). Arcing homing flight with [FFD700]1m[-] cryo blast radius.","军用科技急冻协议——开火时[FFA500]10%[-]概率发射[FFA500]4[-]枚追踪冰晶。每枚造成[FF4500]30%[-]武器伤害的低温伤害，附加[708090]减速[-]与冻裂（[FF4500]+10%[-]受到伤害）。弧线追踪，[FFD700]1米[-]低温爆炸半径。"
+
+modMilitech_ShockChain,items,Item,New,[9932CC]Militech Shock Chain Protocol[-],[9932CC]电弧链协议[-]
+modMilitech_ShockChainDesc,items,Item,New,"Militech high-voltage arc generator — on fire, [FFA500]10%[-] chance to fire a single lightning bolt that splits into [FFA500]3[-] secondary arcs on impact, chaining between enemies. All arcs deal [FF4500]100%[-] weapon damage as Electrical with [FF4500]shock[-] stun chance. Bullet velocity [FFD700]80[-] m/s, zero gravity, 1s lifetime.","军用科技高压电弧发生器——开火时[FFA500]10%[-]概率发射一枚闪电弹丸，命中后分裂为[FFA500]3[-]道次级电弧在敌人之间连锁跳跃。所有电弧均造成[FF4500]100%[-]武器伤害的电击伤害并附带[FF4500]电击[-]硬直概率。弹速[FFD700]80[-]，无重力，生存1秒。"
+
+modMilitech_QuickChargeMag,items,Item,New,[2E8B57]Militech Quick-Charge Mag[-],[2E8B57]快充弹匣[-]
+modMilitech_QuickChargeMagDesc,items,Item,New,"Militech recalibrated energy cycling lines — larger virtual magazine with shortened ammo reconstruction time. Virtual magazine [FFD700]+45[-] (total [FFD700]90[-] rounds). Full charge time [00BFFF]-1s[-] (from [FFA500]3s[-] to [FFA500]2s[-]). Faster recovery between firefights.","军用科技重新校准能量循环管线——扩容虚拟弹匣并缩短弹药重构时间。虚拟弹匣[FFD700]+45[-]（总计[FFD700]90[-]发）。满充时间[00BFFF]-1秒[-]（从[FFA500]3秒[-]缩短至[FFA500]2秒[-]）。交火间隙更快回复火力。"
+
+modMilitech_PowerDumpMag,items,Item,New,[4169E1]Militech Power-Dump Mag[-],[4169E1]能量转储弹匣[-]
+modMilitech_PowerDumpMagDesc,items,Item,New,"Diverts half the energy pool capacitance into the magazine array for burst-grade sustained fire — at the cost of longer recharge delay and reduced total energy. Energy pool [FFD700]-500[-] (down to [FF4500]500[-]). Virtual magazine [FFD700]+90[-] (total [FFD700]135[-] rounds). Charge delay [FFA500]+1s[-] (from [FFA500]1.5s[-] to [FFA500]2.5s[-]).","将能量池一半电容转移至弹匣阵列——换取爆发级持续火力，代价是充能延迟增加且总能量储备降低。能量池[FFD700]-500[-]（降至[FF4500]500[-]）。虚拟弹匣[FFD700]+90[-]（总计[FFD700]135[-]发）。充能延迟[FFA500]+1秒[-]（从[FFA500]1.5秒[-]延长至[FFA500]2.5秒[-]）。"
+
+# ============================================================
+# Challenger Schematics (79)
+# ============================================================
+modArmorKineticRecoilCoreMK1Schematic,items,Item,New,[8B4513]Schematic: Kinetic Recoil Core MK1[-],[8B4513]图纸：动能反冲核心·MK1[-]
+modArmorKineticRecoilCoreMK2Schematic,items,Item,New,[FF8C00]Schematic: Kinetic Recoil Core MK2[-],[FF8C00]图纸：动能反冲核心·MK2[-]
+modArmorKineticRecoilCoreMK3Schematic,items,Item,New,[B8860B]Schematic: Kinetic Recoil Core MK3[-],[B8860B]图纸：动能反冲核心·MK3[-]
+modArmorKineticRecoilCoreMK4Schematic,items,Item,New,[2E8B57]Schematic: Kinetic Recoil Core MK4[-],[2E8B57]图纸：动能反冲核心·MK4[-]
+modArmorKineticRecoilCoreMK5Schematic,items,Item,New,[4169E1]Schematic: Kinetic Recoil Core MK5[-],[4169E1]图纸：动能反冲核心·MK5[-]
+modArmorKineticRecoilCoreMK6Schematic,items,Item,New,[9932CC]Schematic: Kinetic Recoil Core MK6[-],[9932CC]图纸：动能反冲核心·MK6[-]
+
+modArmorEmergencyHealingCanisterMK1Schematic,items,Item,New,[8B4513]Schematic: Emergency Healing Canister MK1[-],[8B4513]图纸：应急治疗罐·MK1[-]
+modArmorEmergencyHealingCanisterMK2Schematic,items,Item,New,[FF8C00]Schematic: Emergency Healing Canister MK2[-],[FF8C00]图纸：应急治疗罐·MK2[-]
+modArmorEmergencyHealingCanisterMK3Schematic,items,Item,New,[B8860B]Schematic: Emergency Healing Canister MK3[-],[B8860B]图纸：应急治疗罐·MK3[-]
+modArmorEmergencyHealingCanisterMK4Schematic,items,Item,New,[2E8B57]Schematic: Emergency Healing Canister MK4[-],[2E8B57]图纸：应急治疗罐·MK4[-]
+modArmorEmergencyHealingCanisterMK5Schematic,items,Item,New,[4169E1]Schematic: Emergency Healing Canister MK5[-],[4169E1]图纸：应急治疗罐·MK5[-]
+modArmorEmergencyHealingCanisterMK6Schematic,items,Item,New,[9932CC]Schematic: Emergency Healing Canister MK6[-],[9932CC]图纸：应急治疗罐·MK6[-]
+
+modArmorBloodFrenzyCharmMK1Schematic,items,Item,New,[8B4513]Schematic: Blood Frenzy Charm MK1[-],[8B4513]图纸：鲜血狂热护符·MK1[-]
+modArmorBloodFrenzyCharmMK2Schematic,items,Item,New,[FF8C00]Schematic: Blood Frenzy Charm MK2[-],[FF8C00]图纸：鲜血狂热护符·MK2[-]
+modArmorBloodFrenzyCharmMK3Schematic,items,Item,New,[B8860B]Schematic: Blood Frenzy Charm MK3[-],[B8860B]图纸：鲜血狂热护符·MK3[-]
+modArmorBloodFrenzyCharmMK4Schematic,items,Item,New,[2E8B57]Schematic: Blood Frenzy Charm MK4[-],[2E8B57]图纸：鲜血狂热护符·MK4[-]
+modArmorBloodFrenzyCharmMK5Schematic,items,Item,New,[4169E1]Schematic: Blood Frenzy Charm MK5[-],[4169E1]图纸：鲜血狂热护符·MK5[-]
+modArmorBloodFrenzyCharmMK6Schematic,items,Item,New,[9932CC]Schematic: Blood Frenzy Charm MK6[-],[9932CC]图纸：鲜血狂热护符·MK6[-]
+
+modArmorStormGrounderMK1Schematic,items,Item,New,[8B4513]Schematic: Storm Grounder MK1[-],[8B4513]图纸：风暴接地器·MK1[-]
+modArmorStormGrounderMK2Schematic,items,Item,New,[FF8C00]Schematic: Storm Grounder MK2[-],[FF8C00]图纸：风暴接地器·MK2[-]
+modArmorStormGrounderMK3Schematic,items,Item,New,[B8860B]Schematic: Storm Grounder MK3[-],[B8860B]图纸：风暴接地器·MK3[-]
+modArmorStormGrounderMK4Schematic,items,Item,New,[2E8B57]Schematic: Storm Grounder MK4[-],[2E8B57]图纸：风暴接地器·MK4[-]
+modArmorStormGrounderMK5Schematic,items,Item,New,[4169E1]Schematic: Storm Grounder MK5[-],[4169E1]图纸：风暴接地器·MK5[-]
+modArmorStormGrounderMK6Schematic,items,Item,New,[9932CC]Schematic: Storm Grounder MK6[-],[9932CC]图纸：风暴接地器·MK6[-]
+
+modArmorPlaguePurifierPumpMK1Schematic,items,Item,New,[8B4513]Schematic: Plague Purifier Pump MK1[-],[8B4513]图纸：瘟疫净化泵·MK1[-]
+modArmorPlaguePurifierPumpMK2Schematic,items,Item,New,[FF8C00]Schematic: Plague Purifier Pump MK2[-],[FF8C00]图纸：瘟疫净化泵·MK2[-]
+modArmorPlaguePurifierPumpMK3Schematic,items,Item,New,[B8860B]Schematic: Plague Purifier Pump MK3[-],[B8860B]图纸：瘟疫净化泵·MK3[-]
+modArmorPlaguePurifierPumpMK4Schematic,items,Item,New,[2E8B57]Schematic: Plague Purifier Pump MK4[-],[2E8B57]图纸：瘟疫净化泵·MK4[-]
+modArmorPlaguePurifierPumpMK5Schematic,items,Item,New,[4169E1]Schematic: Plague Purifier Pump MK5[-],[4169E1]图纸：瘟疫净化泵·MK5[-]
+modArmorPlaguePurifierPumpMK6Schematic,items,Item,New,[9932CC]Schematic: Plague Purifier Pump MK6[-],[9932CC]图纸：瘟疫净化泵·MK6[-]
+
+modArmorCalamityStabilityFieldMK1Schematic,items,Item,New,[8B4513]Schematic: Calamity Stability Field MK1[-],[8B4513]图纸：灾厄稳定场·MK1[-]
+modArmorCalamityStabilityFieldMK2Schematic,items,Item,New,[FF8C00]Schematic: Calamity Stability Field MK2[-],[FF8C00]图纸：灾厄稳定场·MK2[-]
+modArmorCalamityStabilityFieldMK3Schematic,items,Item,New,[B8860B]Schematic: Calamity Stability Field MK3[-],[B8860B]图纸：灾厄稳定场·MK3[-]
+modArmorCalamityStabilityFieldMK4Schematic,items,Item,New,[2E8B57]Schematic: Calamity Stability Field MK4[-],[2E8B57]图纸：灾厄稳定场·MK4[-]
+modArmorCalamityStabilityFieldMK5Schematic,items,Item,New,[4169E1]Schematic: Calamity Stability Field MK5[-],[4169E1]图纸：灾厄稳定场·MK5[-]
+modArmorCalamityStabilityFieldMK6Schematic,items,Item,New,[9932CC]Schematic: Calamity Stability Field MK6[-],[9932CC]图纸：灾厄稳定场·MK6[-]
+
+modArmorThornDeflectionPlateA7Schematic,items,Item,New,[8B4513]Schematic: Thorn Deflection Plate A7[-],[8B4513]图纸：荆棘偏转甲·A7[-]
+modArmorThornDeflectionPlateA72Schematic,items,Item,New,[FF8C00]Schematic: Thorn Deflection Plate A72[-],[FF8C00]图纸：荆棘偏转甲·A72[-]
+modArmorThornDeflectionPlateA73Schematic,items,Item,New,[B8860B]Schematic: Thorn Deflection Plate A73[-],[B8860B]图纸：荆棘偏转甲·A73[-]
+modArmorThornDeflectionPlateA74Schematic,items,Item,New,[2E8B57]Schematic: Thorn Deflection Plate A74[-],[2E8B57]图纸：荆棘偏转甲·A74[-]
+modArmorThornDeflectionPlateA75Schematic,items,Item,New,[4169E1]Schematic: Thorn Deflection Plate A75[-],[4169E1]图纸：荆棘偏转甲·A75[-]
+modArmorThornDeflectionPlateA76Schematic,items,Item,New,[9932CC]Schematic: Thorn Deflection Plate A76[-],[9932CC]图纸：荆棘偏转甲·A76[-]
+
+modArmorEmberRekindlePlateA9Schematic,items,Item,New,[8B4513]Schematic: Ember Rekindle Plate A9[-],[8B4513]图纸：余烬复燃板·A9[-]
+modArmorEmberRekindlePlateA92Schematic,items,Item,New,[FF8C00]Schematic: Ember Rekindle Plate A92[-],[FF8C00]图纸：余烬复燃板·A92[-]
+modArmorEmberRekindlePlateA93Schematic,items,Item,New,[B8860B]Schematic: Ember Rekindle Plate A93[-],[B8860B]图纸：余烬复燃板·A93[-]
+modArmorEmberRekindlePlateA94Schematic,items,Item,New,[2E8B57]Schematic: Ember Rekindle Plate A94[-],[2E8B57]图纸：余烬复燃板·A94[-]
+modArmorEmberRekindlePlateA95Schematic,items,Item,New,[4169E1]Schematic: Ember Rekindle Plate A95[-],[4169E1]图纸：余烬复燃板·A95[-]
+modArmorEmberRekindlePlateA96Schematic,items,Item,New,[9932CC]Schematic: Ember Rekindle Plate A96[-],[9932CC]图纸：余烬复燃板·A96[-]
+
+modArmorWitherAdaptiveExoskeletonP10Schematic,items,Item,New,[9932CC]Schematic: Wither Adaptive Exoskeleton P10[-],[9932CC]图纸：凋零适应外骨骼·P10[-]
+
+modWeaponFireChaserSwarmWA1Schematic,items,Item,New,[8B4513]Schematic: Fire Chaser Swarm WA1[-],[8B4513]图纸：追火蜂群模块·WA1[-]
+modWeaponFireChaserSwarmWA2Schematic,items,Item,New,[FF8C00]Schematic: Fire Chaser Swarm WA2[-],[FF8C00]图纸：追火蜂群模块·WA2[-]
+modWeaponFireChaserSwarmWA3Schematic,items,Item,New,[B8860B]Schematic: Fire Chaser Swarm WA3[-],[B8860B]图纸：追火蜂群模块·WA3[-]
+modWeaponFireChaserSwarmWA4Schematic,items,Item,New,[2E8B57]Schematic: Fire Chaser Swarm WA4[-],[2E8B57]图纸：追火蜂群模块·WA4[-]
+modWeaponFireChaserSwarmWA5Schematic,items,Item,New,[4169E1]Schematic: Fire Chaser Swarm WA5[-],[4169E1]图纸：追火蜂群模块·WA5[-]
+modWeaponFireChaserSwarmWA6Schematic,items,Item,New,[9932CC]Schematic: Fire Chaser Swarm WA6[-],[9932CC]图纸：追火蜂群模块·WA6[-]
+
+modWeaponFrostGrenadeNestWA1Schematic,items,Item,New,[8B4513]Schematic: Frost Grenade Nest WA1[-],[8B4513]图纸：冰霜榴弹巢·WA1[-]
+modWeaponFrostGrenadeNestWA2Schematic,items,Item,New,[FF8C00]Schematic: Frost Grenade Nest WA2[-],[FF8C00]图纸：冰霜榴弹巢·WA2[-]
+modWeaponFrostGrenadeNestWA3Schematic,items,Item,New,[B8860B]Schematic: Frost Grenade Nest WA3[-],[B8860B]图纸：冰霜榴弹巢·WA3[-]
+modWeaponFrostGrenadeNestWA4Schematic,items,Item,New,[2E8B57]Schematic: Frost Grenade Nest WA4[-],[2E8B57]图纸：冰霜榴弹巢·WA4[-]
+modWeaponFrostGrenadeNestWA5Schematic,items,Item,New,[4169E1]Schematic: Frost Grenade Nest WA5[-],[4169E1]图纸：冰霜榴弹巢·WA5[-]
+modWeaponFrostGrenadeNestWA6Schematic,items,Item,New,[9932CC]Schematic: Frost Grenade Nest WA6[-],[9932CC]图纸：冰霜榴弹巢·WA6[-]
+
+modWeaponLightningChainCapacitorWA1Schematic,items,Item,New,[8B4513]Schematic: Lightning Chain Capacitor WA1[-],[8B4513]图纸：雷链电容器·WA1[-]
+modWeaponLightningChainCapacitorWA2Schematic,items,Item,New,[FF8C00]Schematic: Lightning Chain Capacitor WA2[-],[FF8C00]图纸：雷链电容器·WA2[-]
+modWeaponLightningChainCapacitorWA3Schematic,items,Item,New,[B8860B]Schematic: Lightning Chain Capacitor WA3[-],[B8860B]图纸：雷链电容器·WA3[-]
+modWeaponLightningChainCapacitorWA4Schematic,items,Item,New,[2E8B57]Schematic: Lightning Chain Capacitor WA4[-],[2E8B57]图纸：雷链电容器·WA4[-]
+modWeaponLightningChainCapacitorWA5Schematic,items,Item,New,[4169E1]Schematic: Lightning Chain Capacitor WA5[-],[4169E1]图纸：雷链电容器·WA5[-]
+modWeaponLightningChainCapacitorWA6Schematic,items,Item,New,[9932CC]Schematic: Lightning Chain Capacitor WA6[-],[9932CC]图纸：雷链电容器·WA6[-]
+
+modWeaponKineticEscalatorWP3Schematic,items,Item,New,[B8860B]Schematic: Kinetic Escalator WP3[-],[B8860B]图纸：动能递增机芯·WP3[-]
+
+modAstroxfixDMRSchematic,items,Item,New,[B8860B]Schematic: Militech DMR Conversion Kit[-],[B8860B]图纸：军用科技精准射手改装套件[-]
+modMilitech_SalvoCoreSchematic,items,Item,New,[FF8C00]Schematic: Militech Salvo Core[-],[FF8C00]图纸：齐射核心[-]
+modMilitech_BarrageCoreSchematic,items,Item,New,[B8860B]Schematic: Militech Barrage Core[-],[B8860B]图纸：弹幕核心[-]
+modMilitech_ShardSplitterSchematic,items,Item,New,[B8860B]Schematic: Militech Shard Splitter[-],[B8860B]图纸：碎片分裂器[-]
+modMilitech_OverchargeRoundsSchematic,items,Item,New,[4169E1]Schematic: Militech Overcharge Rounds[-],[4169E1]图纸：过充弹药[-]
+modMilitech_ChainAmplifierSchematic,items,Item,New,[B8860B]Schematic: Militech Chain Amplifier[-],[B8860B]图纸：链式增幅器[-]
+modMilitech_FlameBarrageSchematic,items,Item,New,[4169E1]Schematic: Militech Flame Barrage Protocol[-],[4169E1]图纸：火焰弹幕协议[-]
+modMilitech_FrostBarrageSchematic,items,Item,New,[4169E1]Schematic: Militech Frost Barrage Protocol[-],[4169E1]图纸：冰霜弹幕协议[-]
+modMilitech_ShockChainSchematic,items,Item,New,[9932CC]Schematic: Militech Shock Chain Protocol[-],[9932CC]图纸：电弧链协议[-]
+modMilitech_QuickChargeMagSchematic,items,Item,New,[2E8B57]Schematic: Militech Quick-Charge Mag[-],[2E8B57]图纸：快充弹匣[-]
+modMilitech_PowerDumpMagSchematic,items,Item,New,[4169E1]Schematic: Militech Power-Dump Mag[-],[4169E1]图纸：能量转储弹匣[-]
+
+# ============================================================
+# Challenger Blocks (10)
+# ============================================================
+cntChallengerCrate_normal,blocks,Block,New,Challenger Normal Crate,挑战者普通箱子
+cntChallengerCrate_normalDesc,blocks,Block,New,"A sturdy storage crate earned from completing Challenger trials. The first milestone of a challenger''s journey.","通过完成挑战者试炼获得的坚固储物箱。挑战者之旅的第一个里程碑。"
+
+cntChallengerCrate_hard,blocks,Block,New,Challenger Hard Crate,挑战者困难箱子
+cntChallengerCrate_hardDesc,blocks,Block,New,"A reinforced storage crate awarded for conquering difficult Challenger trials. Proof of growing strength.","为攻克困难挑战者试炼而颁发的强化储物箱。实力增长的证明。"
+
+cntChallengerCrate_hell,blocks,Block,New,Challenger Hell Crate,挑战者地狱箱子
+cntChallengerCrate_hellDesc,blocks,Block,New,"An infernal-forged storage crate that only the strongest challengers can claim. Radiates an ominous heat.","唯有最强者方可获取的地狱铸造储物箱。散发着不祥的热量。"
+
+cntChallengerCrate_extra,blocks,Block,New,Challenger Extra Crate,挑战者额外箱子
+cntChallengerCrate_extraDesc,blocks,Block,New,"A bonus storage crate from unexpected reinforcements during a challenge. Fortune favors the bold.","挑战中意外增援带来的奖励储物箱。勇者得天眷。"
+
+cntChallengerCrate_blackhole,blocks,Block,New,Challenger Black Hole Crate,挑战者黑洞箱子
+cntChallengerCrate_blackholeDesc,blocks,Block,New,"A crate forged from collapsed matter. Its interior seems deeper than its exterior — a trophy for defying impossible odds.","由坍缩物质铸造的箱子。内部似乎比外部更深邃——为挑战不可能而生的奖杯。"
+
+cntChallengerCrate_goldmarine,blocks,Block,New,Challenger Gold Marine Crate,挑战者金海箱子
+cntChallengerCrate_goldmarineDesc,blocks,Block,New,"A golden oceanic crate that gleams with the light of sunken treasures. A luxury trophy for the elite challenger.","闪耀着沉没宝藏光芒的黄金海洋箱。精英挑战者的奢华奖杯。"
+
+cntChallengerCrate_mutated,blocks,Block,New,Challenger Mutated Crate,挑战者突变箱子
+cntChallengerCrate_mutatedDesc,blocks,Block,New,"A crate twisted by dimensional corruption yet repurposed into a storage vessel. Beauty in mutation.","被维度腐化扭曲却又被重塑为储物容器的箱子。突变之美。"
+
+cntChallengerCrate_cyberpunk,blocks,Block,New,Challenger Cyberpunk Crate,挑战者赛博箱子
+cntChallengerCrate_cyberpunkDesc,blocks,Block,New,"A high-tech crate bristling with neon circuitry and chrome plating. The future is now.","布满了霓虹电路与镀铬装甲的高科技箱子。未来已至。"
+
+cntChallengerCrate_nature,blocks,Block,New,Challenger Nature Crate,挑战者自然箱子
+cntChallengerCrate_natureDesc,blocks,Block,New,"A crate grown from living wood and reinforced with steel — nature and industry in harmony.","由活木生长并以钢铁强化的箱子——自然与工业的和谐之作。"
+
+cntChallengerCrate_evilhand,blocks,Block,New,Challenger Evil Hand Crate,挑战者魔手箱子
+cntChallengerCrate_evilhandDesc,blocks,Block,New,"A crate etched with malevolent sigils that seem to move in the dark. The ultimate challenger''s trophy — wielding the hand of fate itself.","刻有邪恶符文、在黑暗中似乎会动的箱子。终极挑战者的奖杯——执掌命运之手。"
+
+# ============================================================
+# Challenger Currencies (6)
+# ============================================================
+resourceChallengerShard,items,Item,New,[8B4513]Corroded Shard[-],[8B4513]残蚀碎片[-]
+resourceChallengerShardDesc,items,Item,New,"Nano-core fragments eroded by time and radiation, yet faint residual energy still lingers within.","被时间与辐射侵蚀的纳米核心碎屑，但仍残留微弱能量。"
+
+resourceChallengerCrystal,items,Item,New,[FF8C00]Sintered Crystal[-],[FF8C00]烧结晶体[-]
+resourceChallengerCrystalDesc,items,Item,New,"A purified crystal reformed under extreme heat and pressure. Clear energy pathways pulse within.","在高温高压下重组的净化晶体，能量脉络清晰。"
+
+resourceChallengerCore,items,Item,New,[B8860B]Resonance Core[-],[B8860B]谐振核心[-]
+resourceChallengerCoreDesc,items,Item,New,"A self-harmonizing energy core that emits a constant low hum. Its stability defies explanation.","稳定自谐变的能量核心，发出持续的低声嗡鸣。"
+
+resourceChallengerWeave,items,Item,New,[2E8B57]Phase Weave[-],[2E8B57]相位编织体[-]
+resourceChallengerWeaveDesc,items,Item,New,"An energy fabric woven from intersecting layers of spatial phase. Cold to the touch yet surging with thermal energy.","多层空间相位交织的能量织物，触感冰凉却涌动热力。"
+
+resourceChallengerSingularity,items,Item,New,[4169E1]Singularity Clot[-],[4169E1]奇点凝块[-]
+resourceChallengerSingularityDesc,items,Item,New,"A clot of armor-encased micro-singularity. Abnormally heavy and occasionally distorts nearby light.","微型奇点被装甲包裹后的凝块，重量异常，偶尔扭曲周围光线。"
+
+resourceChallengerEntropy,items,Item,New,[9932CC]Entropy Keystone[-],[9932CC]定熵基石[-]
+resourceChallengerEntropyDesc,items,Item,New,"The ultimate energy crystal that opposes heat death itself. All chaos resolves to order in its presence.","对抗热寂的终极能量结晶，一切混乱在其周围归于秩序。"
+
+# ============================================================
+# Block Schematic Localization (10)
+# ============================================================
+cntChallengerCrate_normalSchematic,items,Item,New,[8B4513]Schematic: Challenger Normal Crate[-],[8B4513]图纸：挑战者普通箱子[-]
+cntChallengerCrate_hardSchematic,items,Item,New,[FF8C00]Schematic: Challenger Hard Crate[-],[FF8C00]图纸：挑战者困难箱子[-]
+cntChallengerCrate_hellSchematic,items,Item,New,[B8860B]Schematic: Challenger Hell Crate[-],[B8860B]图纸：挑战者地狱箱子[-]
+cntChallengerCrate_extraSchematic,items,Item,New,[2E8B57]Schematic: Challenger Extra Crate[-],[2E8B57]图纸：挑战者额外箱子[-]
+cntChallengerCrate_blackholeSchematic,items,Item,New,[4169E1]Schematic: Challenger Black Hole Crate[-],[4169E1]图纸：挑战者黑洞箱子[-]
+cntChallengerCrate_goldmarineSchematic,items,Item,New,[4169E1]Schematic: Challenger Gold Marine Crate[-],[4169E1]图纸：挑战者金海箱子[-]
+cntChallengerCrate_mutatedSchematic,items,Item,New,[4169E1]Schematic: Challenger Mutated Crate[-],[4169E1]图纸：挑战者突变箱子[-]
+cntChallengerCrate_cyberpunkSchematic,items,Item,New,[4169E1]Schematic: Challenger Cyberpunk Crate[-],[4169E1]图纸：挑战者赛博箱子[-]
+cntChallengerCrate_natureSchematic,items,Item,New,[4169E1]Schematic: Challenger Nature Crate[-],[4169E1]图纸：挑战者自然箱子[-]
+cntChallengerCrate_evilhandSchematic,items,Item,New,[9932CC]Schematic: Challenger Evil Hand Crate[-],[9932CC]图纸：挑战者魔手箱子[-]
+
+# ============================================================
+# Ammo Module
+# ============================================================
+ammoAstrofixMG_NormalModule,items,Item,New,[00BFFF]Astrofix MG Module[-],[00BFFF]定星机枪模块[-]
+ammoAstrofixMG_NormalModuleDesc,items,Item,New,"Standard-issue energy ammunition module for the Astrofix Assault Rifle. Provides the baseline smart-weapon ballistics.","定星突击步枪的标准能量弹药模块。提供基础智能武器弹道性能。"
+
+# ============================================================
+# Challenger Scrolls (11)
+# ============================================================
+itemChallengerChallengeScrollBase,items,Item,New,Challenger Scroll,挑战者召唤书
+itemChallengerChallengeScrollBaseDesc,items,Item,New,"A mysterious scroll inscribed with runic sigils. When activated, it summons a wave of corrupted challengers for you to prove your worth.","刻有符文印记的神秘卷轴。激活后将召唤一波被腐化的挑战者，等待你证明自己的价值。"
+
+itemChallengerChallengeScrollT1,items,Item,New,[8B4513]Challenger Scroll — T1: Infected Cleanup[-],[8B4513]挑战者召唤书·T1：感染者清理[-]
+itemChallengerChallengeScrollT1Desc,items,Item,New,"Summons a Tier 1 challenger wave: [FFA500]12[-] infected trash units. Max [FFA500]8[-] alive. Time limit: [00BFFF]120s[-].","召唤T1挑战者波次：[FFA500]12[-]只普通感染者。同时最多[FFA500]8[-]只。限时[00BFFF]120秒[-]。"
+
+itemChallengerChallengeScrollT2,items,Item,New,[FF8C00]Challenger Scroll — T2: Mixed Horde[-],[FF8C00]挑战者召唤书·T2：混合尸潮[-]
+itemChallengerChallengeScrollT2Desc,items,Item,New,"Summons a Tier 2 challenger wave: [FFA500]18[-] mixed normal units with elite buffs. Max [FFA500]10[-] alive. Time limit: [00BFFF]150s[-].","召唤T2挑战者波次：[FFA500]18[-]只混编普通感染者（附带精英Buff）。同时最多[FFA500]10[-]只。限时[00BFFF]150秒[-]。"
+
+itemChallengerChallengeScrollT3,items,Item,New,[B8860B]Challenger Scroll — T3: Frenzied Feral[-],[B8860B]挑战者召唤书·T3：狂暴感染者[-]
+itemChallengerChallengeScrollT3Desc,items,Item,New,"Summons a Tier 3 challenger wave: [FFA500]14[-] mixed normals + [FFA500]14[-] ferals. Max [FFA500]14[-] alive. 2 spawn groups. Time limit: [00BFFF]180s[-].","召唤T3挑战者波次：[FFA500]14[-]只混编普通 + [FFA500]14[-]只狂暴。同时最多[FFA500]14[-]只。2波次。限时[00BFFF]180秒[-]。"
+
+itemChallengerChallengeScrollT4,items,Item,New,[2E8B57]Challenger Scroll — T4: Radiated Horde[-],[2E8B57]挑战者召唤书·T4：辐射尸群[-]
+itemChallengerChallengeScrollT4Desc,items,Item,New,"Summons a Tier 4 challenger wave: [FFA500]40[-] radiated units with [FF4500]6[-] elite buff types. Max [FFA500]16[-] alive. [FF4500]25%[-] bonus challenge chance. Time limit: [00BFFF]210s[-].","召唤T4挑战者波次：[FFA500]40[-]只辐射感染者（[FF4500]6[-]种精英Buff）。同时最多[FFA500]16[-]只。[FF4500]25%[-]概率触发额外挑战。限时[00BFFF]210秒[-]。"
+
+itemChallengerChallengeScrollT5,items,Item,New,[4169E1]Challenger Scroll — T5: Empowered Elite[-],[4169E1]挑战者召唤书·T5：充能精英[-]
+itemChallengerChallengeScrollT5Desc,items,Item,New,"Summons a Tier 5 challenger wave: [FFA500]30[-] radiated + [FFA500]25[-] elite radiated. Max [FFA500]20[-] alive. 2 spawn groups. [FF4500]35%[-] bonus challenge chance. Time limit: [00BFFF]240s[-].","召唤T5挑战者波次：[FFA500]30[-]只辐射 + [FFA500]25[-]只精英辐射。同时最多[FFA500]20[-]只。2波次。[FF4500]35%[-]概率触发额外挑战。限时[00BFFF]240秒[-]。"
+
+itemChallengerChallengeScrollT6,items,Item,New,[9932CC]Challenger Scroll — T6: Infernal Vanguard[-],[9932CC]挑战者召唤书·T6：地狱先锋[-]
+itemChallengerChallengeScrollT6Desc,items,Item,New,"Summons a Tier 6 challenger wave: [FFA500]35[-] elite radiated + [FFA500]40[-] infernal front. Max [FFA500]20[-] alive. 2 spawn groups. [FF4500]50%[-] bonus challenge chance. Time limit: [00BFFF]270s[-].","召唤T6挑战者波次：[FFA500]35[-]只精英辐射 + [FFA500]40[-]只地狱先锋。同时最多[FFA500]20[-]只。2波次。[FF4500]50%[-]概率触发额外挑战。限时[00BFFF]270秒[-]。"
+
+itemChallengerChallengeScrollT7,items,Item,New,[FF4500]Challenger Scroll — T7: Hell Legion[-],[FF4500]挑战者召唤书·T7：地狱军团[-]
+itemChallengerChallengeScrollT7Desc,items,Item,New,"Summons a Tier 7 challenger wave: [FFA500]35[-] infernal front + [FFA500]40[-] infernal + [FFA500]20[-] elite radiated. Max [FFA500]20[-] alive. 3 spawn groups. [FF4500]Guaranteed[-] bonus challenge. Time limit: [00BFFF]300s[-].","召唤T7挑战者波次：[FFA500]35[-]只地狱先锋 + [FFA500]40[-]只地狱 + [FFA500]20[-]只精英辐射。同时最多[FFA500]20[-]只。3波次。[FF4500]必定[-]触发额外挑战。限时[00BFFF]300秒[-]。"
+
+itemChallengerChallengeScrollT8,items,Item,New,[FF4500]Challenger Scroll — T8: Hell Elite[-],[FF4500]挑战者召唤书·T8：地狱精英[-]
+itemChallengerChallengeScrollT8Desc,items,Item,New,"Summons a Tier 8 challenger wave: [FFA500]45[-] infernal + [FFA500]45[-] hell elite + [FFA500]30[-] elite radiated. Max [FFA500]20[-] alive. 3 spawn groups. [FF4500]Guaranteed[-] bonus challenge. Time limit: [00BFFF]330s[-].","召唤T8挑战者波次：[FFA500]45[-]只地狱 + [FFA500]45[-]只地狱精英 + [FFA500]30[-]只精英辐射。同时最多[FFA500]20[-]只。3波次。[FF4500]必定[-]触发额外挑战。限时[00BFFF]330秒[-]。"
+
+itemChallengerChallengeScrollT9,items,Item,New,[FF4500]Challenger Scroll — T9: Hell Warlord[-],[FF4500]挑战者召唤书·T9：地狱首领[-]
+itemChallengerChallengeScrollT9Desc,items,Item,New,"Summons a Tier 9 challenger wave: [FFA500]60[-] hell elite + [FFA500]50[-] hell boss + [FFA500]50[-] infernal. Max [FFA500]20[-] alive. 3 spawn groups. [FF4500]Guaranteed[-] bonus challenge. Time limit: [00BFFF]390s[-].","召唤T9挑战者波次：[FFA500]60[-]只地狱精英 + [FFA500]50[-]只地狱首领 + [FFA500]50[-]只地狱。同时最多[FFA500]20[-]只。3波次。[FF4500]必定[-]触发额外挑战。限时[00BFFF]390秒[-]。"
+
+itemChallengerChallengeScrollT10,items,Item,New,[FF4500]Challenger Scroll — T10: Ultimate Aberration[-],[FF4500]挑战者召唤书·T10：终极异变[-]
+itemChallengerChallengeScrollT10Desc,items,Item,New,"Summons the ultimate Tier 10 challenger wave: [FFA500]70[-] hell boss + [FFA500]70[-] ultimate + [FFA500]60[-] hell elite. Max [FFA500]15[-] alive. 3 spawn groups. [FF4500]Wither Aura[-] active. Time limit: [00BFFF]480s[-]. The end of all challenges.","召唤终极T10挑战者波次：[FFA500]70[-]只地狱首领 + [FFA500]70[-]只终极异变 + [FFA500]60[-]只地狱精英。同时最多[FFA500]15[-]只。3波次。[FF4500]凋零光环[-]激活。限时[00BFFF]480秒[-]。一切挑战的终点。"
+
+# ============================================================
+# Energy Bundle
+# ============================================================
+energyBundle,items,Item,New,[00BFFF]Energy Recharge Pack[-],[00BFFF]能量补充包[-]
+energyBundleDesc,items,Item,New,"A portable high-density energy cell. Recharges your held smart weapon energy pool by [FFD700]500[-] points. Compatible with Astrofix series smart firearms.","便携式高密度能量电池。为手中智能武器能量池补充[FFD700]500[-]点能量。适配定星系列智能枪械。"
+
+challengerGuideTitle,Journal Tip,Journal Tip,New,Survivor Pre-Deployment Briefing,幸存者战前须知
+challengerGuideCloseHint,Journal Tip,Journal Tip,New,Press TAB to close,按 TAB 键关闭
+challengerGuideMessage,Journal Tip,Journal Tip,New,"[FFD700]You have entered the realm of the Challenger Hunt[-] — the most dangerous yet most rewarding trial in the wasteland. Memorize the following; it may save your life at critical moments.\n\n[FFD700]I. Challenge Scrolls[-]\nChallenge Scrolls are the [FFA500]key to initiating trials[-] and your ticket to high-tier hunts.\n\n[00BFFF]Acquisition:[-] Purchase from [00BFFF]traders[-], or obtain from [FFD700]""Reward Packs""[-] dropped by slain zombies.\n[00BFFF]Crafting Upgrades:[-] Multiple low-tier scrolls can be combined at a [00BFFF]Workbench[-] into [32CD32]higher-tier scrolls[-], which significantly increase challenge rewards.\n[FF4500]Use With Caution:[-] These are additional challenges designed for [FF4500]mid-to-late game[-] warriors. Do not use them lightly if your gear is not ready.\n\n[FFD700]II. Smart Weapons[-]\nYour smart weapon breaks free from traditional magazine limits — it requires [32CD32]no manual reloading[-]. After you stop firing, the virtual magazine automatically draws energy from the [00BFFF]energy pool[-] to replenish ammo.\n\nBoth [FFA500]virtual magazine capacity[-] and [FFA500]recharge speed[-] can be enhanced with specialized mods.\n[FF4500]But it is not infinite:[-] each recharge consumes energy from the pool. Once the energy pool is [FF4500]depleted[-], the weapon can no longer reload.\n\n[FFD700]III. Energy Recharge Packs[-]\nWhen your energy pool runs low, use an [00BFFF]Energy Recharge Pack[-] to reactivate your smart weapon.\n\n[00BFFF]Usage:[-] First switch to the smart weapon that needs recharging, then find the Energy Recharge Pack in your backpack and [32CD32]click to use[-].\n[00BFFF]Crafting Recipe:[-] Craft at a [00BFFF]Chemistry Station[-]. [FF4500]Stockpile sufficient materials in advance[-] to avoid running out of ammunition mid-battle.","[FFD700]你已经进入了猎杀挑战的领域[-]——这是废土上最危险也最丰厚的试炼。以下内容请牢记，它们会在关键时刻救你一命。\n\n[FFD700]一、挑战卷轴[-]\n挑战卷轴是[FFA500]开启试炼的钥匙[-]，也是高阶狩猎的门票。\n\n[00BFFF]获取途径：[-]可在[00BFFF]商人处[-]直接购买，或通过击杀丧尸后掉落的[FFD700]""奖励包""[-]中开出。\n[00BFFF]合成进阶：[-]多份低级卷轴可在[00BFFF]制作台中[-]合成为[32CD32]更高级别的卷轴[-]，对应的挑战奖励也会大幅提升。\n[FF4500]谨慎决定：[-]请注意，这是为[FF4500]中后期战士[-]设计的额外挑战，装备尚未成型时请勿轻易使用。\n\n[FFD700]二、智能武器[-]\n你手中的智能武器突破了传统弹匣的限制——它[32CD32]无需手动换弹[-]。停止射击后，虚拟弹夹会自动从[00BFFF]能量池[-]中抽取能量并恢复弹药。\n\n[FFA500]虚拟弹夹容量[-]和[FFA500]充能速度[-]均可通过专用模组进行强化。\n[FF4500]但这并非无限：[-]每次充能都会消耗能量池。一旦能量池[FF4500]枯竭[-]，武器将无法继续填弹。\n\n[FFD700]三、能量补充包[-]\n当能量池见底时，你需要使用[00BFFF]能量补充包[-]来重新激活你的智能武器。\n\n[00BFFF]使用方法：[-]先切换至需要补充的智能武器，然后在背包中找到能量补充包并[32CD32]点击使用[-]。\n[00BFFF]制作配方：[-]在[00BFFF]化学工作台上[-]制作。[FF4500]请提前储备足够的材料[-]，以免在战斗中弹尽粮绝。"

@@ -1,0 +1,284 @@
+<Nanami_cyber> 
+    <append xpath="/windows">
+   
+        <window name="windowChallengerHud"
+                anchor="CenterTop"
+                controller="GameEvent.SequenceActions.XUiC_ChallengerHud, ChallengerEvent"
+                width="1920"
+                height="1080">
+
+            <rect name="challengerHudRoot"
+                pivot="center"
+                pos="0,-200"
+                width="1920"
+                height="1080"
+                depth="30">
+
+                <!-- Slot 0 -->
+                <rect name="challengeSlot0"
+                    pivot="center"
+                    pos="0,455"
+                    width="340"
+                    height="86"
+                    depth="1"
+                    visible="false">
+
+                    <sprite name="challengeBack0"
+                            depth="1"
+                            pivot="center"
+                            pos="0,0"
+                            width="340"
+                            height="86"
+                            sprite="menu_empty"
+                            color="0,0,0,145"
+                            type="sliced"
+                            fillcenter="true"/>
+
+                    <label name="challengeTitle0"
+                        depth="2"
+                        pivot="center"
+                        pos="0,24"
+                        width="320"
+                        height="26"
+                        font="ReferenceFont"
+                        font_size="20"
+                        font_style="Bold"
+                        justify="center"
+                        color="255,220,160,255"
+                        text="挑战任务"/>
+
+                    <label name="challengeTime0"
+                        depth="2"
+                        pivot="center"
+                        pos="-105,-6"
+                        width="110"
+                        height="24"
+                        font="ReferenceFont"
+                        font_size="20"
+                        justify="left"
+                        color="255,255,255,230"
+                        text="--:--"/>
+
+                    <label name="challengeKill0"
+                        depth="2"
+                        pivot="center"
+                        pos="105,-6"
+                        width="110"
+                        height="24"
+                        font="ReferenceFont"
+                        font_size="20"
+                        justify="right"
+                        color="255,255,255,230"
+                        text="0/0"/>
+
+                    <sprite name="challengeProgressBack0"
+                            depth="2"
+                            pivot="center"
+                            pos="0,-32"
+                            width="300"
+                            height="10"
+                            sprite="menu_empty"
+                            color="45,45,45,190"
+                            type="sliced"
+                            fillcenter="true"/>
+
+                    <sprite name="challengeProgressFill0"
+                            depth="3"
+                            pivot="center"
+                            pos="0,-32"
+                            width="300"
+                            height="10"
+                            sprite="menu_empty"
+                            color="255,110,30,230"
+                            type="filled"
+                            filldirection="horizontal"/>
+                </rect>
+
+                <!-- Slot 1 -->
+                <rect name="challengeSlot1"
+                    pivot="center"
+                    pos="0,455"
+                    width="340"
+                    height="86"
+                    depth="1"
+                    visible="false">
+
+                    <sprite name="challengeBack1"
+                            depth="1"
+                            pivot="center"
+                            pos="0,0"
+                            width="340"
+                            height="86"
+                            sprite="menu_empty"
+                            color="0,0,0,145"
+                            type="sliced"
+                            fillcenter="true"/>
+
+                    <label name="challengeTitle1"
+                        depth="2"
+                        pivot="center"
+                        pos="0,24"
+                        width="320"
+                        height="26"
+                        font="ReferenceFont"
+                        font_size="20"
+                        font_style="Bold"
+                        justify="center"
+                        color="255,220,160,255"
+                        text="挑战任务"/>
+
+                    <label name="challengeTime1"
+                        depth="2"
+                        pivot="center"
+                        pos="-105,-6"
+                        width="110"
+                        height="24"
+                        font="ReferenceFont"
+                        font_size="20"
+                        justify="left"
+                        color="255,255,255,230"
+                        text="--:--"/>
+
+                    <label name="challengeKill1"
+                        depth="2"
+                        pivot="center"
+                        pos="105,-6"
+                        width="110"
+                        height="24"
+                        font="ReferenceFont"
+                        font_size="20"
+                        justify="right"
+                        color="255,255,255,230"
+                        text="0/0"/>
+
+                    <sprite name="challengeProgressBack1"
+                            depth="2"
+                            pivot="center"
+                            pos="0,-32"
+                            width="300"
+                            height="10"
+                            sprite="menu_empty"
+                            color="45,45,45,190"
+                            type="sliced"
+                            fillcenter="true"/>
+
+                    <sprite name="challengeProgressFill1"
+                            depth="3"
+                            pivot="center"
+                            pos="0,-32"
+                            width="300"
+                            height="10"
+                            sprite="menu_empty"
+                            color="255,110,30,230"
+                            type="filled"
+                            filldirection="horizontal"/>
+                </rect>
+
+                <!-- Slot 2 -->
+                <rect name="challengeSlot2"
+                    pivot="center"
+                    pos="0,455"
+                    width="340"
+                    height="86"
+                    depth="1"
+                    visible="false">
+
+                    <sprite name="challengeBack2"
+                            depth="1"
+                            pivot="center"
+                            pos="0,0"
+                            width="340"
+                            height="86"
+                            sprite="menu_empty"
+                            color="0,0,0,145"
+                            type="sliced"
+                            fillcenter="true"/>
+
+                    <label name="challengeTitle2"
+                        depth="2"
+                        pivot="center"
+                        pos="0,24"
+                        width="320"
+                        height="26"
+                        font="ReferenceFont"
+                        font_size="20"
+                        font_style="Bold"
+                        justify="center"
+                        color="255,220,160,255"
+                        text="挑战任务"/>
+
+                    <label name="challengeTime2"
+                        depth="2"
+                        pivot="center"
+                        pos="-105,-6"
+                        width="110"
+                        height="24"
+                        font="ReferenceFont"
+                        font_size="20"
+                        justify="left"
+                        color="255,255,255,230"
+                        text="--:--"/>
+
+                    <label name="challengeKill2"
+                        depth="2"
+                        pivot="center"
+                        pos="105,-6"
+                        width="110"
+                        height="24"
+                        font="ReferenceFont"
+                        font_size="20"
+                        justify="right"
+                        color="255,255,255,230"
+                        text="0/0"/>
+
+                    <sprite name="challengeProgressBack2"
+                            depth="2"
+                            pivot="center"
+                            pos="0,-32"
+                            width="300"
+                            height="10"
+                            sprite="menu_empty"
+                            color="45,45,45,190"
+                            type="sliced"
+                            fillcenter="true"/>
+
+                    <sprite name="challengeProgressFill2"
+                            depth="3"
+                            pivot="center"
+                            pos="0,-32"
+                            width="300"
+                            height="10"
+                            sprite="menu_empty"
+                            color="255,110,30,230"
+                            type="filled"
+                            filldirection="horizontal"/>
+                </rect>
+
+            </rect>
+        </window>
+
+    </append>
+
+    <!-- ===================================================== -->
+    <!-- 挑战者指南专用大窗口（1280×780，约 2/3 屏幕）              -->
+    <!-- ===================================================== -->
+    <append xpath="/windows">
+        <window name="windowChallengerGuide" anchor="CenterCenter" pos="-640,390" width="1280" height="780" cursor_area="true" depth="1000">
+            <panel name="noclick" depth="0" createuipanel="true" on_press="true" pos="-4000,4000" width="8000" height="8000" disableautobackground="true" gamepad_selectable="false">
+                <sprite depth="0" name="backgroundMain" sprite="menu_empty" color="0,0,0,200" type="sliced" fillcenter="true" />
+            </panel>
+
+            <panel name="header" pos="0,0" height="48" depth="1" backgroundspritename="ui_game_panel_header" bordercolor="[black]" borderthickness="3">
+                <label style="header.name" pos="8,-6" width="1264" font_size="34" text="Survivor Pre-Deployment Briefing" text_key="challengerGuideTitle" />
+            </panel>
+
+            <panel name="content" pos="0,-52" height="676" depth="1" backgroundcolor="[darkGrey]" bordercolor="[black]" borderthickness="3" pivot="center">
+                <sprite depth="8" name="backgroundMain" sprite="menu_empty3px" pos="0,0" height="676" width="1280" color="[black]" type="sliced" fillcenter="false" />
+                <label depth="3" name="descriptionText" pos="12,-8" width="1256" height="620" text="" text_key="challengerGuideMessage" font_size="26" overflow="resizeheight" upper_case="false" />
+
+                <label depth="3" pos="0,-696" width="1280" height="28" justify="center" text_key="challengerGuideCloseHint" font_size="24" color="200,200,200,255" />
+            </panel>
+        </window>
+    </append>
+
+</Nanami_cyber>

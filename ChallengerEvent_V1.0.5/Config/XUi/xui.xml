@@ -1,0 +1,15 @@
+<Nanami_cyber>
+
+<!-- Challenger HUD 挂载 -->
+    <append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+        <window name="windowChallengerHud"/>
+    </append>
+
+    <!-- 挑战者指南窗口组 -->
+    <append xpath="/xui/ruleset[@name='default']">
+        <window_group name="challengerGuide" defaultSelected="btnContinue">
+            <window name="windowChallengerGuide" />
+        </window_group>
+    </append>
+
+</Nanami_cyber>

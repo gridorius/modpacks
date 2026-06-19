@@ -1,0 +1,2767 @@
+<configs>
+
+
+    <append xpath="/buffs">
+
+        <!-- ===================================================== -->
+        <!-- 挑战者通用怪物增强 Buff T1 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerUniversalT1"
+            hidden="true">
+            <stack_type value="ignore"/>
+
+            <effect_group>
+                <!-- 生命值 +200% -->
+                <passive_effect name="HealthMax"
+                    operation="perc_add"
+                    value="2"/>
+
+                <!-- 移动速度 +5% -->
+                <passive_effect name="WalkSpeed"
+                    operation="perc_add"
+                    value="0.05"/>
+
+                <passive_effect name="RunSpeed"
+                    operation="perc_add"
+                    value="0.05"/>
+
+                <!-- 对玩家造成伤害 +5% -->
+                <passive_effect name="EntityDamage"
+                    operation="perc_add"
+                    value="0.05"/>
+            </effect_group>
+        </buff>
+
+
+        <!-- ===================================================== -->
+        <!-- 挑战者通用怪物增强 Buff T2 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerUniversalT2"
+            hidden="true">
+            <stack_type value="ignore"/>
+
+            <effect_group>
+                <!-- 生命值 +300% -->
+                <passive_effect name="HealthMax"
+                    operation="perc_add"
+                    value="3"/>
+
+                <!-- 移动速度 +10% -->
+                <passive_effect name="WalkSpeed"
+                    operation="perc_add"
+                    value="0.1"/>
+
+                <passive_effect name="RunSpeed"
+                    operation="perc_add"
+                    value="0.1"/>
+
+                <!-- 造成伤害 +15% -->
+                <passive_effect name="EntityDamage"
+                    operation="perc_add"
+                    value="0.15"/>
+
+                <!-- 对物块伤害 +20% -->
+                <passive_effect name="BlockDamage"
+                    operation="perc_add"
+                    value="0.2"/>
+
+                <!-- 搜索敌人持续时间 +20% -->
+                <passive_effect name="EnemySearchDuration"
+                    operation="perc_add"
+                    value="0.2"/>
+            </effect_group>
+        </buff>
+
+
+        <!-- ===================================================== -->
+        <!-- 挑战者通用怪物增强 Buff T3 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerUniversalT3"
+            hidden="true">
+            <stack_type value="ignore"/>
+
+            <effect_group>
+                <!-- 生命值 +400% -->
+                <passive_effect name="HealthMax"
+                    operation="perc_add"
+                    value="4"/>
+
+                <!-- 造成伤害 +20% -->
+                <passive_effect name="EntityDamage"
+                    operation="perc_add"
+                    value="0.2"/>
+
+                <!-- 物理伤害抗性 +15% -->
+                <passive_effect name="PhysicalDamageResist"
+                    operation="perc_add"
+                    value="0.15"/>
+
+                <!-- 元素伤害抗性 +10% -->
+                <passive_effect name="ElementalDamageResist"
+                    operation="perc_add"
+                    value="0.1"/>
+
+                <!-- 生命缓慢再生，每秒 +1 -->
+                <passive_effect name="HealthChangeOT"
+                    operation="base_set"
+                    value="1"/>
+
+                <!-- 断肢概率降低 30% -->
+                <passive_effect name="DismemberSelfChance"
+                    operation="perc_add"
+                    value="-0.3"/>
+            </effect_group>
+        </buff>
+
+
+        <!-- ===================================================== -->
+        <!-- 挑战者通用怪物增强 Buff T4 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerUniversalT4"
+            hidden="true">
+            <stack_type value="ignore"/>
+
+            <effect_group>
+                <!-- 生命值 +500% -->
+                <passive_effect name="HealthMax"
+                    operation="perc_add"
+                    value="5"/>
+
+                <!-- 造成伤害 +30% -->
+                <passive_effect name="EntityDamage"
+                    operation="perc_add"
+                    value="0.3"/>
+
+                <!-- 对物块伤害 +40% -->
+                <passive_effect name="BlockDamage"
+                    operation="perc_add"
+                    value="0.4"/>
+
+                <!-- 移动速度 +15% -->
+                <passive_effect name="WalkSpeed"
+                    operation="perc_add"
+                    value="0.15"/>
+
+                <passive_effect name="RunSpeed"
+                    operation="perc_add"
+                    value="0.15"/>
+
+                <!-- 生命偷取 5% -->
+                <passive_effect name="HealthSteal"
+                    operation="base_set"
+                    value="0.05"/>
+
+                <!-- 暴击率 +10% -->
+                <passive_effect name="CriticalChance"
+                    operation="perc_add"
+                    value="0.1"/>
+
+                <!-- 物理抗性 +20% -->
+                <passive_effect name="PhysicalDamageResist"
+                    operation="perc_add"
+                    value="0.2"/>
+            </effect_group>
+        </buff>
+
+
+        <!-- ===================================================== -->
+        <!-- 挑战者通用怪物增强 Buff T5 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerUniversalT5"
+            hidden="true">
+            <stack_type value="ignore"/>
+
+            <effect_group>
+                <!-- 生命值 +600% -->
+                <passive_effect name="HealthMax"
+                    operation="perc_add"
+                    value="6"/>
+
+                <!-- 造成伤害 +50% -->
+                <passive_effect name="EntityDamage"
+                    operation="perc_add"
+                    value="0.5"/>
+
+                <!-- 对物块伤害 +60% -->
+                <passive_effect name="BlockDamage"
+                    operation="perc_add"
+                    value="0.6"/>
+
+                <!-- 移动速度 +20% -->
+                <passive_effect name="WalkSpeed"
+                    operation="perc_add"
+                    value="0.2"/>
+
+                <passive_effect name="RunSpeed"
+                    operation="perc_add"
+                    value="0.2"/>
+
+                <!-- 生命快速再生，每秒 +3 -->
+                <passive_effect name="HealthChangeOT"
+                    operation="base_set"
+                    value="3"/>
+
+                <!-- 生命偷取 10% -->
+                <passive_effect name="HealthSteal"
+                    operation="base_set"
+                    value="0.1"/>
+
+                <!-- 爆炸伤害减免 30% -->
+                <passive_effect name="ExplosionIncomingDamage"
+                    operation="perc_add"
+                    value="-0.3"/>
+
+                <!-- 暴击率 +15% -->
+                <passive_effect name="CriticalChance"
+                    operation="perc_add"
+                    value="0.15"/>
+
+                <!-- 物理抗性 +25% -->
+                <passive_effect name="PhysicalDamageResist"
+                    operation="perc_add"
+                    value="0.25"/>
+
+                <!-- 元素抗性 +15% -->
+                <passive_effect name="ElementalDamageResist"
+                    operation="perc_add"
+                    value="0.15"/>
+
+         
+            </effect_group>
+        </buff>
+        <!-- ===================================================== -->
+        <!-- 迅捷精英：提升自身速度，并强化附近僵尸速度 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerEliteSwift" hidden="true">
+            <stack_type value="ignore"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <!-- 精英自身轻度强化 -->
+                <passive_effect name="HealthMax" operation="perc_add" value="0.15"/>
+                <passive_effect name="WalkSpeed" operation="perc_add" value="0.15"/>
+                <passive_effect name="RunSpeed" operation="perc_add" value="0.20"/>
+                <passive_effect name="EnemySearchDuration" operation="perc_add" value="0.3"/>
+
+                <!-- 迅捷光环：给附近僵尸/动物加短时速度 Buff -->
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?swiftaura.prefab"
+                    radius="12"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    zone_buff="buffChallengerEliteSwiftPackTick"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="elite_swift_aura"
+                    zone_can_overlap="false"
+                    target_tags="zombie,animal"
+                    ignore_tags="player"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <buff name="buffChallengerEliteSwiftPackTick" hidden="true">
+            <stack_type value="replace"/>
+            <duration value="1.3"/>
+            <update_rate value="1"/>
+
+            <effect_group>
+                <passive_effect name="WalkSpeed" operation="perc_add" value="0.20"/>
+                <passive_effect name="RunSpeed" operation="perc_add" value="0.25"/>
+                <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.10"/>
+
+                <!-- 被加速目标脚下/身体轻风特效，纯视觉 -->
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?swiftaura.prefab"
+                    radius="0.1"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    track_target="self"
+                    track_offset="0,1.1,0"
+                    drop_on_death="false"
+                    zone_id="elite_swift_target_fx"
+                    zone_can_overlap="false"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <!-- ===================================================== -->
+        <!-- 冰冷精英：降低玩家移动速度和耐力恢复 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerEliteFrost" hidden="true">
+            <stack_type value="ignore"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <passive_effect name="HealthMax" operation="perc_add" value="0.20"/>
+                <passive_effect name="ElementalDamageResist" operation="perc_add" value="0.15"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?frostaura.prefab"
+                    radius="10"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    zone_buff="buffChallengerEliteFrostDebuff"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="elite_frost_aura"
+                    zone_can_overlap="false"
+                    target_tags="player"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <buff name="buffChallengerEliteFrostDebuff" hidden="false">
+            <stack_type value="replace"/>
+            <duration value="1.5"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <passive_effect name="WalkSpeed" operation="perc_add" value="-0.25"/>
+                <passive_effect name="RunSpeed" operation="perc_add" value="-0.30"/>
+                <passive_effect name="CrouchSpeed" operation="perc_add" value="-0.20"/>
+                <passive_effect name="StaminaGain" operation="perc_add" value="-0.35"/>
+                <passive_effect name="StaminaChangeOT" operation="base_add" value="-2"/>
+                <passive_effect name="JumpStrength" operation="perc_add" value="-0.25"/>
+                <passive_effect name="CoreTempChangeOT" operation="base_add" value="-0.5"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?frost_target.prefab"
+                    radius="0.1"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    track_target="self"
+                    track_offset="0,2.0,0"
+                    drop_on_death="false"
+                    zone_id="elite_frost_target_fx"
+                    zone_can_overlap="false"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <!-- ===================================================== -->
+        <!-- 瘟疫精英：持续扣血、压制治疗、降低生命上限 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerElitePlague" hidden="true">
+            <stack_type value="ignore"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <passive_effect name="HealthMax" operation="perc_add" value="0.25"/>
+                <passive_effect name="PhysicalDamageResist" operation="perc_add" value="0.10"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?plagueaura.prefab"
+                    radius="11"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    zone_buff="buffChallengerElitePlagueDebuff"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="elite_plague_aura"
+                    zone_can_overlap="false"
+                    target_tags="player"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <buff name="buffChallengerElitePlagueDebuff" hidden="false">
+            <stack_type value="replace"/>
+            <duration value="1.5"/>
+            <update_rate value="1"/>
+
+            <effect_group>
+                <passive_effect name="HealthChangeOT" operation="base_add" value="-3"/>
+                <passive_effect name="HealthMax" operation="perc_add" value="-0.08"/>
+                <passive_effect name="HealthGain" operation="perc_add" value="-0.40"/>
+                <passive_effect name="StaminaGain" operation="perc_add" value="-0.20"/>
+                <passive_effect name="FoodChangeOT" operation="base_add" value="-0.5"/>
+                <passive_effect name="WaterChangeOT" operation="base_add" value="-0.5"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?plague_target.prefab"
+                    radius="0.1"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    track_target="self"
+                    track_offset="0,1.5,0"
+                    drop_on_death="false"
+                    zone_id="elite_plague_target_fx"
+                    zone_can_overlap="false"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <!-- ===================================================== -->
+        <!-- 雷暴精英：范围脉冲伤害，削耐力，降低武器手感 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerEliteStorm" hidden="true">
+            <stack_type value="ignore"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <passive_effect name="HealthMax" operation="perc_add" value="0.25"/>
+                <passive_effect name="RunSpeed" operation="perc_add" value="0.08"/>
+                <passive_effect name="ElementalDamageResist" operation="perc_add" value="0.20"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?stormaura.prefab"
+                    radius="9"
+                    offset="0,2,0"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="8"
+                    zone_force="2"
+                    zone_buff="buffChallengerEliteStormDebuff"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="elite_storm_pulse"
+                    zone_can_overlap="false"
+                    target_tags="player"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <buff name="buffChallengerEliteStormDebuff" hidden="false">
+            <stack_type value="replace"/>
+            <duration value="1.5"/>
+            <update_rate value="1"/>
+
+            <effect_group>
+                <passive_effect name="StaminaChangeOT" operation="base_add" value="-4"/>
+                <passive_effect name="StaminaGain" operation="perc_add" value="-0.25"/>
+                <passive_effect name="WeaponHandling" operation="perc_add" value="-0.20"/>
+                <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-0.15"/>
+                <passive_effect name="RoundsPerMinute" operation="perc_add" value="-0.10"/>
+                <passive_effect name="AttacksPerMinute" operation="perc_add" value="-0.50"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?storm_target.prefab"
+                    radius="0.1"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    track_target="self"
+                    track_offset="0,1.7,0"
+                    drop_on_death="false"
+                    zone_id="elite_storm_target_fx"
+                    zone_can_overlap="false"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <!-- ===================================================== -->
+        <!-- 荆棘精英：高抗性，近身惩罚 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerEliteThorn" hidden="true">
+            <stack_type value="ignore"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <passive_effect name="HealthMax" operation="perc_add" value="0.35"/>
+                <passive_effect name="GeneralDamageResist" operation="perc_add" value="0.10"/>
+                <passive_effect name="PhysicalDamageResist" operation="perc_add" value="0.25"/>
+                <passive_effect name="DismemberSelfChance" operation="perc_add" value="-0.50"/>
+
+                <!-- 近身荆棘伤害：范围小，惩罚贴脸 -->
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?thornaura.prefab"
+                    radius="3.5"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="10"
+                    zone_force="1"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="elite_thorn_close_aura"
+                    zone_can_overlap="false"
+                    target_tags="player"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <!-- ===================================================== -->
+        <!-- 嗜血精英：强化附近僵尸攻击、攻速、吸血 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerEliteBloodlust" hidden="true">
+            <stack_type value="ignore"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <passive_effect name="HealthMax" operation="perc_add" value="0.30"/>
+                <passive_effect name="EntityDamage" operation="perc_add" value="0.15"/>
+                <passive_effect name="HealthSteal" operation="base_add" value="0.05"/>
+                <passive_effect name="CriticalChance" operation="perc_add" value="0.08"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?bloodlustaura.prefab"
+                    radius="12"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    zone_buff="buffChallengerEliteBloodlustPackTick"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="elite_bloodlust_aura"
+                    zone_can_overlap="false"
+                    target_tags="zombie,animal"
+                    ignore_tags="player"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <buff name="buffChallengerEliteBloodlustPackTick" hidden="true">
+            <stack_type value="replace"/>
+            <duration value="1.3"/>
+            <update_rate value="1"/>
+
+            <effect_group>
+                <passive_effect name="EntityDamage" operation="perc_add" value="0.25"/>
+                <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.20"/>
+                <passive_effect name="HealthSteal" operation="base_add" value="0.05"/>
+                <passive_effect name="CriticalChance" operation="perc_add" value="0.05"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?bloodlustaura.prefab"
+                    radius="0.1"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    track_target="self"
+                    track_offset="0,1.6,0"
+                    drop_on_death="false"
+                    zone_id="elite_bloodlust_target_fx"
+                    zone_can_overlap="false"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <!-- ===================================================== -->
+        <!-- 灾厄精英：削弱玩家输出、抗性、恢复 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerEliteCalamity" hidden="true">
+            <stack_type value="ignore"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <passive_effect name="HealthMax" operation="perc_add" value="0.45"/>
+                <passive_effect name="GeneralDamageResist" operation="perc_add" value="0.10"/>
+                <passive_effect name="PhysicalDamageResist" operation="perc_add" value="0.15"/>
+                <passive_effect name="ElementalDamageResist" operation="perc_add" value="0.15"/>
+                <passive_effect name="EnemySearchDuration" operation="perc_add" value="0.5"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?calamityaura.prefab"
+                    radius="14"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    zone_buff="buffChallengerEliteCalamityDebuff"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="elite_calamity_field"
+                    zone_can_overlap="false"
+                    target_tags="player"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <buff name="buffChallengerEliteCalamityDebuff" hidden="false">
+            <stack_type value="replace"/>
+            <duration value="1.5"/>
+            <update_rate value="1"/>
+
+            <effect_group>
+                <passive_effect name="EntityDamage" operation="perc_add" value="-0.20"/>
+                <passive_effect name="BlockDamage" operation="perc_add" value="-0.20"/>
+                <passive_effect name="GeneralDamageResist" operation="perc_add" value="-0.15"/>
+                <passive_effect name="PhysicalDamageResist" operation="perc_add" value="-0.10"/>
+                <passive_effect name="ElementalDamageResist" operation="perc_add" value="-0.10"/>
+
+                <passive_effect name="HealthGain" operation="perc_add" value="-0.35"/>
+                <passive_effect name="StaminaGain" operation="perc_add" value="-0.35"/>
+                <passive_effect name="Mobility" operation="perc_add" value="-0.15"/>
+                <passive_effect name="WeaponHandling" operation="perc_add" value="-0.15"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?calamity_target.prefab"
+                    radius="0.1"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    track_target="self"
+                    track_offset="0,2.2,0"
+                    drop_on_death="false"
+                    zone_id="elite_calamity_target_fx"
+                    zone_can_overlap="false"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <!-- ===================================================== -->
+        <!-- 火焰精英：范围灼烧玩家 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerEliteFire" hidden="true">
+            <stack_type value="ignore"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <passive_effect name="HealthMax" operation="perc_add" value="0.1"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?fireaura.prefab"
+                    radius="5"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="20"
+                    zone_force="0"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="elite_fire_aura"
+                    zone_can_overlap="false"
+                    target_tags="player"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <!-- ===================================================== -->
+        <!-- 治疗光环：治疗附近僵尸/动物 -->
+        <!-- ===================================================== -->
+        <buff name="buffChallengerEliteHealingAura" hidden="true">
+            <stack_type value="ignore"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?healaura.prefab"
+                    radius="10"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    zone_buff="buffChallengerEliteHealTick"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="elite_heal_aura"
+                    zone_can_overlap="false"
+                    target_tags="zombie,animal"
+                    ignore_tags="player"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <buff name="buffChallengerEliteHealTick" hidden="true">
+            <stack_type value="replace"/>
+            <duration value="1.3"/>
+            <update_rate value="1"/>
+
+            <effect_group>
+                <passive_effect name="HealthChangeOT" operation="base_add" value="10"/>
+
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?heal_target.prefab"
+                    radius="0.1"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="elite_heal_target_fx"
+                    zone_can_overlap="false"
+                    particle_alpha="0.3"
+                    particle_brightness="0.6"/>
+            </effect_group>
+        </buff>
+
+        <!-- ===================================================== -->
+        <!-- 凋零领域：大范围削弱场 -->
+        <!-- ===================================================== -->
+        <buff name="buffWitherFieldAura" hidden="true" remove_on_death="true">
+            <stack_type value="ignore"/>
+            <update_rate value="1"/>
+             
+
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?witherfieldaura.prefab"
+                    offset="0,30,0"
+                    radius="120"
+                    particle_radius="12"
+                    zone_lifetime="5"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    zone_buff="buffWitherFieldDebuff"
+                    track_target="self"
+                    drop_on_death="false"
+                    zone_id="wither_field_aura"
+                    zone_can_overlap="false"
+                    target_tags="player,zombie,animal"/>
+            </effect_group>
+        </buff>
+
+        <buff name="buffWitherFieldDebuff" hidden="false">
+            <stack_type value="replace"/>
+            <duration value="1.3"/>
+            <update_rate value="1"/>
+
+            <effect_group>
+                <!-- 每秒扣血 2 -->
+                <passive_effect name="HealthChangeOT" operation="base_add" value="-2"/>
+
+                <!-- 移动速度降低 30% -->
+                <passive_effect name="WalkSpeed" operation="perc_add" value="-0.3"/>
+                <passive_effect name="RunSpeed" operation="perc_add" value="-0.3"/>
+                <passive_effect name="CrouchSpeed" operation="perc_add" value="-0.3"/>
+
+                <passive_effect name="HealthChangeOT" operation="base_add" value="-2"/>
+                <passive_effect name="HealthMax" operation="perc_add" value="-0.1"/>
+                <passive_effect name="HealthGain" operation="perc_add" value="-0.5"/>
+
+                <passive_effect name="StaminaChangeOT" operation="base_add" value="-3"/>
+                <passive_effect name="StaminaMax" operation="perc_add" value="-0.2"/>
+                <passive_effect name="StaminaGain" operation="perc_add" value="-0.3"/>
+
+                <passive_effect name="GeneralDamageResist" operation="perc_add" value="-0.1"/>
+                <passive_effect name="PhysicalDamageResist" operation="perc_add" value="-0.1"/>
+                <passive_effect name="ElementalDamageResist" operation="perc_add" value="-0.1"/>
+
+                <passive_effect name="EntityDamage" operation="perc_add" value="-0.2"/>
+                <passive_effect name="AttacksPerMinute" operation="perc_add" value="-0.2"/>
+                <passive_effect name="RoundsPerMinute" operation="perc_add" value="-0.2"/>
+
+                <passive_effect name="CoreTempChangeOT" operation="base_add" value="-1"/>
+                <passive_effect name="FoodChangeOT" operation="base_add" value="-1"/>
+                <passive_effect name="WaterChangeOT" operation="base_add" value="-1"/>
+
+                <!-- 头顶灰色掉落羽毛光球，纯视觉 Zone，不造成伤害、不加 Buff -->
+                <triggered_effect trigger="onSelfBuffUpdate"
+                    action="MinEventActionSpawnZone, CustomAoeParticleEffect"
+                    particle="#@modfolder:Resources/challenger_fx.unity3d?witherfield_target.prefab"
+                    radius="0.1"
+                    particle_radius="1"
+                    zone_lifetime="1.3"
+                    zone_tick_rate="1"
+                    zone_damage="0"
+                    zone_force="0"
+                    track_target="self"
+                    track_offset="0,2.2,0"
+                    drop_on_death="false"
+                    zone_id="wither_feather_orb_fx"
+                    zone_can_overlap="false"
+                    target_tags="player,zombie,animal"/>
+            </effect_group>
+        </buff>
+
+
+<!-- ===================================================== -->
+<!-- 挑战者精英怪物 Buffs 定义结束                     -->  
+<!-- ===================================================== -->
+
+
+<!-- Player Modifier Buffs -->
+
+<!-- MK1. 动能反冲核心冷却 Buff：6 秒 -->
+		<buff name="buffMK1KineticRecoilCD" hidden="true">
+			<duration value="6"/>
+			<stack_type value="ignore"/>
+		</buff>
+		<!-- MK1. 动能反冲核心自身防御 Buff：25% 物理减伤，持续 5 秒 -->
+		<buff name="buffMK1KineticRecoilResist"
+			  name_key="buffMK1KineticRecoilResistName"
+			  description_key="buffMK1KineticRecoilResistDesc"
+			  icon="ui_KineticRecoilResist"
+			  icon_color="120,180,255">
+			<duration value="5"/>
+			<stack_type value="ignore"/>
+			<effect_group>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="25"/>
+			</effect_group>
+		</buff>
+		
+        <!-- 
+			MK1. 动能反冲核心命中目标控制 Buff。
+			由 AOEDamage 的 add_buff 添加到被冲击波命中的 zombie / animal 身上。
+			目前实现为：概率倒地 1 秒。
+		-->
+		<buff name="buffMK1KineticRecoilVictim" hidden="true">
+			<duration value="1"/>
+			<stack_type value="ignore"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="Ragdoll"
+								  target="self"
+								  duration="1"
+								  force="25">
+					<requirement name="RandomRoll" target="self" min_max="0,1" operation="LTE" value=".45"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+
+        <!-- ========================================================= -->
+		<!-- MK1. 应急治疗罐：监控 Buff -->
+		<!-- ========================================================= -->
+		<buff name="buffMK1EmergencyHealingCanisterTracker" hidden="true">
+			<stack_type value="ignore"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<!-- 
+					血量低于等于 50%，且无冷却时，抛出治疗罐。
+	
+					hit_radius="6" 用于落地瞬间 6 米轻微击退。
+					zone_box_size="10,2,10" 近似 5 米治疗区域
+				-->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="CustomProjectile, CustomAoeParticleEffect"
+								  count="1"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?EmergencyHealingCanister_proj.prefab"
+								  particle_scale="1"
+								  spawn_offset="0,1.2,0.8"
+								  rotation_offset="0,0,0"
+								  velocity="7"
+								  gravity="9.8"
+								  spread_angle="0"
+								  vertical_angle="25,35"
+								  projectile_lifetime="8"
+								  hit_blocks="true"
+								  ignore_block="false"
+								  hit_radius="6"
+								  hit_damage="0"
+								  hit_force="10"
+								  damage_type="Bashing"
+								  hit_particle="#@modfolder:Resources/challenger_player_fx.unity3d?EmergencyHealingCanister_hit.prefab"
+								  hit_lifetime="3"
+								  zone_lifetime="10"
+								  zone_tick_rate="1"
+								  zone_damage="0"
+								  zone_force="0"
+								  zone_buff="buffMK1EmergencyHealingZoneHeal"
+								  zone_box_size="10,2,10"
+								  zone_particle="#@modfolder:Resources/challenger_player_fx.unity3d?EmergencyHealingCanister_zone.prefab"
+								  zone_id="MK1EmergencyHealingZone"
+								  zone_can_overlap="false"
+								  zone_is_ground="true">
+					<requirement name="WornItemMods" tags="mkEmergencyHealingCanister" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="health" operation="LTE" value=".5"/>
+					<requirement name="NotHasBuff" buff="buffMK1EmergencyHealingCanisterCD"/>
+				</triggered_effect>
+				<!-- 添加 15 秒冷却 -->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK1EmergencyHealingCanisterCD">
+					<requirement name="WornItemMods" tags="mkEmergencyHealingCanister" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="health" operation="LTE" value=".5"/>
+					<requirement name="NotHasBuff" buff="buffMK1EmergencyHealingCanisterCD"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+
+		<!-- MK1. 应急治疗罐：冷却 Buff -->
+		<buff name="buffMK1EmergencyHealingCanisterCD" hidden="true">
+			<duration value="15"/>
+			<stack_type value="ignore"/>
+		</buff>
+		<!-- 
+			MK1. 应急治疗罐：治疗区域每秒治疗 Buff。
+			CustomProjectile 的 zone_buff 会按 zone_tick_rate 在区域内施加 Buff。
+			这里用 EntityTagCompare 限制只有 player 实际获得治疗，避免敌人吃到 zone_buff 后被治疗。
+		-->
+		<buff name="buffMK1EmergencyHealingZoneHeal" hidden="true">
+			<duration value="1.1"/>
+			<stack_type value="replace"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="ModifyStats"
+								  target="self"
+								  stat="health"
+								  operation="add"
+								  value="10">
+					<requirement name="EntityTagCompare" target="self" tags="player"/>
+					<requirement name="!IsStatAtMax" target="self" stat="Health"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- MK1. 鲜血狂热护符：狂热 Buff -->
+		<!-- ========================================================= -->
+		<buff name="buffMK1BloodFrenzy"
+			  name_key="buffMK1BloodFrenzyName"
+			  description_key="buffMK1BloodFrenzyDesc"
+			  icon="ui_BloodFrenzy"
+			  icon_color="255,0,0">
+			<duration value="6"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<!-- 移动速度 +12% -->
+				<passive_effect name="WalkSpeed" operation="perc_add" value=".12"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value=".12"/>
+				<passive_effect name="CrouchSpeed" operation="perc_add" value=".12"/>
+				<!-- 攻击速度 +15%：近战/动作攻速 + 枪械射速都给，保证覆盖面 -->
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value=".15"/>
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value=".15"/>
+				<!-- 耐力回复 +2/s -->
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="2"/>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- MK1. 风暴接地器：监控 Buff -->
+		<!-- ========================================================= -->
+		<buff name="buffMK1StormGrounderTracker" hidden="true">
+			<stack_type value="ignore"/>
+			<update_rate value="1"/>
+			<effect_group>
+
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="ModifyStats"
+								  target="self"
+								  stat="stamina"
+								  value_type="max"
+								  operation="add"
+								  value=".25">
+					<requirement name="WornItemMods" tags="mkStormGrounder" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="stamina" operation="LTE" value=".4"/>
+					<requirement name="NotHasBuff" buff="buffMK1StormGrounderCD"/>
+				</triggered_effect>
+				<!-- 15 秒内耐力消耗降低 30% -->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK1StormGrounderStaminaEfficiency">
+					<requirement name="WornItemMods" tags="mkStormGrounder" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="stamina" operation="LTE" value=".4"/>
+					<requirement name="NotHasBuff" buff="buffMK1StormGrounderCD"/>
+				</triggered_effect>
+				<!-- 周围 5 米电磁震荡：给敌人上 buffShocked -->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AOEDamage, CustomAoeParticleEffect"
+								  shape="sphere"
+								  radius="5"
+								  damage="1"
+								  damage_type="Electrical"
+								  force="8"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?StormGrounder_exp.prefab"
+								  particle_lifetime="3"
+								  offset="0,0,0"
+								  add_buff="buffShocked"
+								  target_tags="zombie,animal"
+								  ignore_self="true"
+								  random_radius="0"
+								  hit_blocks="false">
+					<requirement name="WornItemMods" tags="mkStormGrounder" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="stamina" operation="LTE" value=".4"/>
+					<requirement name="NotHasBuff" buff="buffMK1StormGrounderCD"/>
+				</triggered_effect>
+				<!-- 
+					对带 buffChallengerEliteStorm 或 buffChallengerEliteSwift 的敌人造成额外 450 Electrical 伤害。
+					用 requirement_group op="or" 避免同时拥有两个 Buff 时被两个独立伤害效果打两次。
+				-->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AOEDamage, CustomAoeParticleEffect"
+								  shape="sphere"
+								  radius="5"
+								  damage="450"
+								  damage_type="Electrical"
+								  force="4"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?StormGrounder_exp.prefab"
+								  particle_lifetime="3"
+								  offset="0,0,0"
+								  target_tags="zombie,animal"
+								  ignore_self="true"
+								  random_radius="0"
+								  hit_blocks="false">
+					<requirement name="WornItemMods" tags="mkStormGrounder" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="stamina" operation="LTE" value=".4"/>
+					<requirement name="NotHasBuff" buff="buffMK1StormGrounderCD"/>
+					<requirement_group op="or">
+						<requirement name="HasBuff" target="other" buff="buffChallengerEliteStorm"/>
+						<requirement name="HasBuff" target="other" buff="buffChallengerEliteSwift"/>
+					</requirement_group>
+				</triggered_effect>
+				<!-- 添加 25 秒冷却-->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK1StormGrounderCD">
+					<requirement name="WornItemMods" tags="mkStormGrounder" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="stamina" operation="LTE" value=".4"/>
+					<requirement name="NotHasBuff" buff="buffMK1StormGrounderCD"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- MK1. 风暴接地器：冷却 Buff -->
+		<buff name="buffMK1StormGrounderCD" hidden="true">
+			<duration value="25"/>
+			<stack_type value="ignore"/>
+		</buff>
+		<!-- MK1. 风暴接地器：15 秒耐力消耗降低 30% -->
+		<buff name="buffMK1StormGrounderStaminaEfficiency"
+			  name_key="buffMK1StormGrounderStaminaEfficiencyName"
+			  description_key="buffMK1StormGrounderStaminaEfficiencyDesc"
+			  icon="ui_StormGrounderStaminaEfficiency"
+			  icon_color="120,180,255">
+			<duration value="15"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<passive_effect name="StaminaLoss" operation="perc_subtract" value=".30"/>
+			</effect_group>
+		</buff>
+
+        <!-- ========================================================= -->
+		<!-- MK1. 瘟疫净化泵：监听 Buff -->
+		<!-- ========================================================= -->
+		<buff name="buffMK1PlaguePurifierPumpTracker" hidden="true">
+			<stack_type value="ignore"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<!-- 触发条件：身上存在任意指定 Debuff，且无冷却 -->
+				<requirement_group op="or">
+					<requirement name="HasBuff" target="self" buff="buffWitherFieldDebuff"/>
+					<requirement name="HasBuff" target="self" buff="buffChallengerElitePlagueDebuff"/>
+					<requirement name="HasBuff" target="self" buff="buffRadiation01"/>
+					<requirement name="HasBuff" target="self" buff="buffRadiation03"/>
+				</requirement_group>
+				<requirement name="NotHasBuff" buff="buffMK1PlaguePurifierPumpCD"/>
+				<!-- 清除负面效果：广义清除 -->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="RemoveAllNegativeBuffs"
+								  target="self"/>
+				<!-- 指定清除：确保这四个目标 Debuff 被移除 -->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="RemoveBuff"
+								  target="self"
+								  buff="buffWitherFieldDebuff"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="RemoveBuff"
+								  target="self"
+								  buff="buffChallengerElitePlagueDebuff"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="RemoveBuff"
+								  target="self"
+								  buff="buffRadiation01"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="RemoveBuff"
+								  target="self"
+								  buff="buffRadiation03"/>
+				<!-- 8 秒内治疗效果 +20% -->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK1PlaguePurifierPumpHealingBoost"/>
+				<!--
+					脚下生成 5 秒净化雾，范围 6。
+				-->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="SpawnZone, CustomAoeParticleEffect"
+								  radius="6"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?PlaguePurifierPump_zone.prefab"
+								  particle_radius="6"
+								  offset="0,0,0"
+								  zone_lifetime="5"
+								  zone_tick_rate="1"
+								  zone_damage="0"
+								  zone_force="0"
+								  zone_buff="buffMK1PlaguePurifierMistPlayer,buffMK1PlaguePurifierMistEnemy"
+								  damage_type="Toxic"
+								  target_tags="player,zombie,animal"
+								  ignore_self="false"
+								  zone_id="MK1PlaguePurifierMist"
+								  zone_can_overlap="false"
+								  zone_is_ground="true"
+								  track_target="none"/>
+				<!-- 添加 10 秒冷却，放最后 -->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK1PlaguePurifierPumpCD"/>
+			</effect_group>
+		</buff>
+		<!-- MK1. 瘟疫净化泵：冷却 Buff -->
+		<buff name="buffMK1PlaguePurifierPumpCD" hidden="true">
+			<duration value="10"/>
+			<stack_type value="ignore"/>
+		</buff>
+		<!-- MK1. 瘟疫净化泵：8 秒治疗强化 -->
+		<buff name="buffMK1PlaguePurifierPumpHealingBoost"
+			  name_key="buffMK1PlaguePurifierPumpHealingBoostName"
+			  description_key="buffMK1PlaguePurifierPumpHealingBoostDesc"
+			  icon="ui_PlaguePurifierPumpHealingBoost"
+			  icon_color="120,255,120">
+			<duration value="8"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<passive_effect name="HealthGain" operation="perc_add" value=".20"/>
+			</effect_group>
+		</buff>
+		<!--
+			MK1. 净化雾：玩家效果。
+			每秒恢复少量生命。
+		-->
+		<buff name="buffMK1PlaguePurifierMistPlayer" hidden="true">
+			<duration value="1.1"/>
+			<stack_type value="replace"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<requirement name="EntityTagCompare" target="self" tags="player"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="ModifyStats"
+								  target="self"
+								  stat="health"
+								  operation="add"
+								  value="5">
+					<requirement name="!IsStatAtMax" target="self" stat="Health"/>
+				</triggered_effect>
+				<passive_effect name="BuffResistance"
+								operation="base_set"
+								value="2"
+								tags="buffWitherFieldDebuff,buffChallengerElitePlagueDebuff,buffRadiation01,buffRadiation03"/>
+			</effect_group>
+		</buff>
+		<!-- MK1. 净化雾：敌人虚弱，伤害 -10% -->
+		<buff name="buffMK1PlaguePurifierMistEnemy" hidden="true">
+			<duration value="1.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<requirement_group op="or">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+					<requirement name="EntityTagCompare" target="self" tags="animal"/>
+				</requirement_group>
+				<passive_effect name="EntityDamage" operation="perc_subtract" value=".10"/>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- A7. 荆棘偏转甲：2 秒流血挂载 Buff -->
+		<!-- ========================================================= -->
+		<buff name="buffA7ThornDeflectionBleed" hidden="true">
+			<duration value="2"/>
+			<stack_type value="replace"/>
+			<damage_source value="External"/>
+			<damage_type value="BloodLoss"/>
+			<effect_group>
+				<!-- 参考 serrated blade：给目标增加 bleedCounter -->
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="bleedCounter"
+								  operation="add"
+								  value="1"/>
+				<!-- 参考 serrated blade：bleedCounter > 0 时添加原版流血 Buff -->
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffInjuryBleeding">
+					<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="self"/>
+				</triggered_effect>
+				<!-- 2 秒结束后回退 bleedCounter -->
+				<triggered_effect trigger="onSelfBuffFinish"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="bleedCounter"
+								  operation="subtract"
+								  value="1">
+					<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="self"/>
+				</triggered_effect>
+				<!-- 如果被其它来源提前移除，也回退 bleedCounter -->
+				<triggered_effect trigger="onSelfBuffRemove"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="bleedCounter"
+								  operation="subtract"
+								  value="1">
+					<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="self"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+
+		<!-- ========================================================= -->
+		<!-- MK1. 灾厄稳定场：监听 Buff -->
+		<!-- ========================================================= -->
+		<buff name="buffMK1CalamityStabilityFieldTracker" hidden="true">
+			<stack_type value="ignore"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<requirement_group op="or">
+					<requirement name="HasBuff" target="self" buff="buffChallengerEliteCalamityDebuff"/>
+					<requirement name="HasBuff" target="self" buff="buffWitherFieldDebuff"/>
+				</requirement_group>
+				<requirement name="NotHasBuff" target="self" buff="buffMK1CalamityStabilityFieldCD"/>
+				<!-- 
+					稳定场：玩家增益层。
+					8 秒，范围 15，每秒给场内玩家刷新稳定 Buff。
+				-->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="SpawnZone, CustomAoeParticleEffect"
+								  radius="15"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?CalamityStabilityField_zone.prefab"
+								  particle_radius="15"
+								  offset="0,-1.5,0"
+								  zone_lifetime="8"
+								  zone_tick_rate="1"
+								  zone_damage="0"
+								  zone_force="0"
+								  zone_buff="buffMK1CalamityStabilityFieldPlayer"
+								  damage_type="Bashing"
+								  target_tags="player"
+								  ignore_self="false"
+								  zone_id="MK1CalamityStabilityField_Player"
+								  zone_can_overlap="false"
+								  zone_is_ground="true"
+								  track_target="none"/>
+				<!-- 
+					稳定场：敌人脉冲层。
+					8 秒，范围 15，每 2 秒脉冲一次。
+					对敌人施加 30 force，并挂载元素抗性削弱逻辑。
+				-->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="SpawnZone, CustomAoeParticleEffect"
+								  radius="15"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?CalamityStabilityField_exp.prefab"
+								  particle_radius="15"
+								  offset="0,0,0"
+								  zone_lifetime="8"
+								  zone_tick_rate="2"
+								  zone_damage="0"
+								  zone_force="30"
+								  zone_buff="buffMK1CalamityStabilityFieldWeaknessApply"
+								  damage_type="Bashing"
+								  target_tags="zombie,animal"
+								  ignore_self="true"
+								  zone_id="MK1CalamityStabilityField_EnemyPulse"
+								  zone_can_overlap="false"
+								  zone_is_ground="true"
+								  track_target="none"/>
+				<!-- 30 秒冷却 -->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK1CalamityStabilityFieldCD"/>
+			</effect_group>
+		</buff>
+		<!-- MK1. 灾厄稳定场：冷却 -->
+		<buff name="buffMK1CalamityStabilityFieldCD" hidden="true">
+			<duration value="30"/>
+			<stack_type value="ignore"/>
+		</buff>
+		<!-- MK1. 灾厄稳定场：玩家场内增益 -->
+		<buff name="buffMK1CalamityStabilityFieldPlayer"
+			  name_key="buffMK1CalamityStabilityFieldPlayerName"
+			  description_key="buffMK1CalamityStabilityFieldPlayerDesc"
+			  icon="ui_CalamityStabilityFieldPlayer"
+			  icon_color="120,180,255">
+			<duration value="1.2"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<requirement name="EntityTagCompare" target="self" tags="player"/>
+				<!-- 玩家在场内获得 BuffResistance +20% -->
+				<passive_effect name="BuffResistance" operation="base_add" value=".20"/>
+				<!-- 玩家在场内移动速度 +10% -->
+				<passive_effect name="WalkSpeed" operation="perc_add" value=".10"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value=".10"/>
+				<passive_effect name="CrouchSpeed" operation="perc_add" value=".10"/>
+				<!-- 玩家在场内体力回复速度 +20% -->
+				<passive_effect name="StaminaChangeOT" operation="perc_add" value=".20"/>
+			</effect_group>
+		</buff>
+		<!-- 
+			MK1. 灾厄稳定场：敌人元素抗性削弱应用器。
+			最多 3 层，每层 -5% 元素抗性。
+		-->
+		<buff name="buffMK1CalamityStabilityFieldWeaknessApply" hidden="true">
+			<duration value="0.2"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<!-- 第 1 层 -->
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="cMK1CalamityStabilityWeakStacks"
+								  operation="set"
+								  value="1">
+					<requirement name="CVarCompare" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="LTE" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK1CalamityStabilityFieldWeaknessStack1">
+					<requirement name="CVarCompare" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="Equals" value="1"/>
+					<requirement name="NotHasBuff" target="self" buff="buffMK1CalamityStabilityFieldWeaknessStack1"/>
+				</triggered_effect>
+				<!-- 第 2 层 -->
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="cMK1CalamityStabilityWeakStacks"
+								  operation="set"
+								  value="2">
+					<requirement name="HasBuff" target="self" buff="buffMK1CalamityStabilityFieldWeaknessStack1"/>
+					<requirement name="NotHasBuff" target="self" buff="buffMK1CalamityStabilityFieldWeaknessStack2"/>
+					<requirement name="CVarCompare" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="LT" value="3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK1CalamityStabilityFieldWeaknessStack2">
+					<requirement name="CVarCompare" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="Equals" value="2"/>
+					<requirement name="NotHasBuff" target="self" buff="buffMK1CalamityStabilityFieldWeaknessStack2"/>
+				</triggered_effect>
+				<!-- 第 3 层 -->
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="cMK1CalamityStabilityWeakStacks"
+								  operation="set"
+								  value="3">
+					<requirement name="HasBuff" target="self" buff="buffMK1CalamityStabilityFieldWeaknessStack2"/>
+					<requirement name="NotHasBuff" target="self" buff="buffMK1CalamityStabilityFieldWeaknessStack3"/>
+					<requirement name="CVarCompare" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="LT" value="3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK1CalamityStabilityFieldWeaknessStack3">
+					<requirement name="CVarCompare" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="Equals" value="3"/>
+					<requirement name="NotHasBuff" target="self" buff="buffMK1CalamityStabilityFieldWeaknessStack3"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- 每层元素抗性 -5%。元素类型包括 Heat / Cold / Radiation / Toxic / Electrical 等。 -->
+		<buff name="buffMK1CalamityStabilityFieldWeaknessStack1" hidden="true">
+			<duration value="8"/>
+			<stack_type value="replace"/>
+			<effect_group>
+	<passive_effect name="ElementalDamageResist" operation="perc_subtract" value=".05"/>
+
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="subtract" value="1">
+					<requirement name="CVarCompare" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffMK1CalamityStabilityFieldWeaknessStack2" hidden="true">
+			<duration value="8"/>
+			<stack_type value="replace"/>
+			<effect_group>
+	<passive_effect name="ElementalDamageResist" operation="perc_subtract" value=".05"/>
+
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="subtract" value="1">
+					<requirement name="CVarCompare" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffMK1CalamityStabilityFieldWeaknessStack3" hidden="true">
+			<duration value="8"/>
+			<stack_type value="replace"/>
+			<effect_group>
+	<passive_effect name="ElementalDamageResist" operation="perc_subtract" value=".05"/>
+
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="subtract" value="1">
+					<requirement name="CVarCompare" target="self" cvar="cMK1CalamityStabilityWeakStacks" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- CE独立通用火焰核心系统 -->
+		<!-- ========================================================= -->
+		<buff name="buffCEFireBurnTracker"
+			hidden="true">
+			<stack_type value="replace"/>
+			<duration value="10"/>
+
+			<effect_group name="Setup and Stacking">
+				<triggered_effect trigger="onSelfBuffStart"
+					action="ModifyCVar"
+					cvar="cCEFireMaxAllowed"
+					operation="set"
+					value="3"/>
+				<triggered_effect trigger="onSelfBuffStart"
+					action="ModifyCVar"
+					cvar="cCEFireStacks"
+					operation="set"
+					value="1"/>
+				<triggered_effect trigger="onSelfBuffStack"
+					action="ModifyCVar"
+					cvar="cCEFireStacks"
+					operation="add"
+					value="1"/>
+			</effect_group>
+
+			<effect_group name="Combustion Trigger">
+				<requirement name="CVarCompare"
+					cvar="cCEFireStacks"
+					operation="GT"
+					value="@cCEFireMaxAllowed"/>
+				<requirement name="NotHasBuff"
+					buff="buffCEFireExplodeCD"/>
+
+				<triggered_effect trigger="onSelfBuffStack"
+					action="AddBuff"
+					buff="buffCEFireExplodeCD"/>
+				<triggered_effect trigger="onSelfBuffStack"
+					action="ModifyCVar"
+					cvar="cCEFireStacks"
+					operation="set"
+					value="0"/>
+
+				<triggered_effect trigger="onSelfBuffStack"
+					action="PlaySound"
+					sound="firecombustion_sound"/>
+
+				<triggered_effect trigger="onSelfBuffStack"
+					action="AOEDamage, CustomAoeParticleEffect"
+					damage="50"
+					radius="3"
+					offset="0,0.7,0"
+					force="1"
+					particle="challenger_player_fx.unity3d?EmberRekindleEruption_exp.prefab"
+					add_buff="buffBurningMolotov,buffCEFireBurnTracker,buffCEFireBurnDamage"
+					target_tags="zombie,animal"
+					ignore_self="false"/>
+			</effect_group>
+
+			<effect_group name="Cleanup">
+				<triggered_effect trigger="onSelfBuffRemove"
+					action="ModifyCVar"
+					cvar="cCEFireStacks"
+					operation="set"
+					value="0"/>
+
+				<triggered_effect trigger="onSelfDied"
+					action="ModifyCVar"
+					cvar="cCEFireStacks"
+					operation="set"
+					value="0"/>
+			</effect_group>
+		</buff>
+
+		<buff name="buffCEFireBurnDamage"
+			hidden="true">
+			<stack_type value="replace"/>
+			<duration value="10"/>
+			<update_rate value="1"/>
+
+			<effect_group name="Damage Computation">
+				<triggered_effect trigger="onSelfBuffUpdate"
+					action="ModifyCVar"
+					cvar="cCEFireCurrentDmg"
+					operation="set"
+					value="20"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+					action="ModifyCVar"
+					cvar="cCEFireCurrentDmg"
+					operation="multiply"
+					value="@cCEFireStacks"/>
+
+				<triggered_effect trigger="onSelfBuffUpdate"
+					action="ModifyStats"
+					stat="Health"
+					operation="subtract"
+					value="@cCEFireCurrentDmg"/>
+			</effect_group>
+
+			<effect_group name="Cleanup">
+				<triggered_effect trigger="onSelfBuffRemove"
+					action="ModifyCVar"
+					cvar="cCEFireCurrentDmg"
+					operation="set"
+					value="0"/>
+
+				<triggered_effect trigger="onSelfDied"
+					action="ModifyCVar"
+					cvar="cCEFireCurrentDmg"
+					operation="set"
+					value="0"/>
+			</effect_group>
+		</buff>
+
+		<buff name="buffCEFireExplodeCD" hidden="true">
+			<duration value="3"/>
+			<stack_type value="ignore"/>
+		</buff>
+
+		<!-- ========================================================= -->
+		<!-- A9. 余烬复燃板：火焰圈施法器 -->
+		<!-- ========================================================= -->
+		<buff name="buffA9EmberRekindleEruptionCaster" hidden="true">
+			<duration value="0.2"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<!-- 
+					玩家周围喷发一次火焰圈。
+					伤害 500，无 force。
+				-->
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AOEDamage, CustomAoeParticleEffect"
+								  shape="sphere"
+								  radius="4"
+								  damage="500"
+								  damage_type="Heat"
+								  force="0"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?EmberRekindleEruption_exp.prefab"
+								  particle_lifetime="3"
+								  offset="0,0.6,0"
+								  add_buff="buffA9EmberRekindleCheck,buffBurningMolotov,buffCEFireBurnTracker,buffCEFireBurnDamage"
+								  target_tags="zombie,animal"
+								  ignore_self="true"
+								  random_radius="0"
+								  hit_blocks="false"/>
+			</effect_group>
+		</buff>
+		<!-- A9. 余烬复燃板：命中已点燃敌人的复燃检查 -->
+		<buff name="buffA9EmberRekindleCheck" hidden="true">
+			<duration value="0.5"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AOEDamage, CustomAoeParticleEffect"
+								  shape="sphere"
+								  radius="3"
+								  damage="250"
+								  damage_type="Heat"
+								  force="0"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?EmberRekindleEruption_exp.prefab"
+								  particle_lifetime="3"
+								  offset="0,0.5,0"
+								  add_buff="buffBurningMolotov,buffCEFireBurnTracker,buffCEFireBurnDamage"
+								  target_tags="zombie,animal"
+								  ignore_self="false"
+								  random_radius="0"
+								  hit_blocks="false">
+					<requirement name="HasBuff" target="self" buff="buffCEFireBurnTracker"/>
+					<requirement name="NotHasBuff" target="self" buff="buffA9EmberRekindleInternalCD"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffA9EmberRekindleInternalCD">
+					<requirement name="HasBuff" target="self" buff="buffCEFireBurnTracker"/>
+					<requirement name="NotHasBuff" target="self" buff="buffA9EmberRekindleInternalCD"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- A9. 复燃递归保护 -->
+		<buff name="buffA9EmberRekindleInternalCD" hidden="true">
+			<duration value="0.5"/>
+			<stack_type value="ignore"/>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- P10. 凋零适应外骨骼：周期清除 Tracker -->
+		<!-- ========================================================= -->
+		<buff name="buffP10WitherAdaptiveExoskeletonTracker" hidden="true">
+			<stack_type value="ignore"/>
+			<update_rate value="10"/>
+			<effect_group>
+				<!-- 每 10 秒清除凋零/灾厄类效果 -->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="RemoveBuff"
+								  target="self"
+								  buff="buffWitherFieldDebuff"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="RemoveBuff"
+								  target="self"
+								  buff="buffChallengerEliteCalamityDebuff"/>
+				<!-- 获得 5 秒凋零/灾厄免疫 -->
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffP10WitherAdaptiveExoskeletonImmunity"/>
+			</effect_group>
+		</buff>
+		<!-- P10. 5 秒凋零/灾厄免疫 -->
+		<buff name="buffP10WitherAdaptiveExoskeletonImmunity"
+			  name_key="buffP10WitherAdaptiveExoskeletonImmunityName"
+			  description_key="buffP10WitherAdaptiveExoskeletonImmunityDesc"
+			  icon="ui_WitherAdaptiveExoskeletonImmunity"
+			  icon_color="160,120,255">
+			<duration value="5"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<passive_effect name="BuffResistance"
+								operation="base_set"
+								value="2"
+								tags="buffWitherFieldDebuff,buffChallengerEliteCalamityDebuff"/>
+			</effect_group>
+		</buff>
+
+        <!-- ========================================================= -->
+		<!-- MK2. 动能反冲核心 -->
+		<!-- ========================================================= -->
+		<buff name="buffMK2KineticRecoilCD" hidden="true">
+			<duration value="6"/>
+			<stack_type value="ignore"/>
+		</buff>
+		<buff name="buffMK2KineticRecoilResist"
+			  name_key="buffMK2KineticRecoilResistName"
+			  description_key="buffMK2KineticRecoilResistDesc"
+			  icon="ui_KineticRecoilResist"
+			  icon_color="120,180,255">
+			<duration value="5"/>
+			<stack_type value="ignore"/>
+			<effect_group>
+				<passive_effect name="PhysicalDamageResist" operation="base_add" value="@cKineticRecoilResist"/>
+			</effect_group>
+		</buff>
+		<buff name="buffMK2KineticRecoilVictim" hidden="true">
+			<duration value="1"/>
+			<stack_type value="ignore"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="Ragdoll"
+								  target="self"
+								  duration="1"
+								  force="25">
+					<requirement name="RandomRoll" target="self" min_max="0,1" operation="LTE" value=".45"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- MK2. 应急治疗罐 -->
+		<!-- ========================================================= -->
+		<buff name="buffMK2EmergencyHealingCanisterTracker" hidden="true">
+			<stack_type value="ignore"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="CustomProjectile, CustomAoeParticleEffect"
+								  count="@cEmergencyHealingCount"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?EmergencyHealingCanister_proj.prefab"
+								  particle_scale="1"
+								  spawn_offset="0,1.2,0"
+								  rotation_offset="0,0,0"
+								  velocity="4"
+								  gravity="9.8"
+								  spread_angle="0"
+								  vertical_angle="25,35"
+								  projectile_lifetime="8"
+								  hit_blocks="true"
+								  ignore_block="false"
+								  hit_radius="@cEmergencyHealingRadius"
+								  hit_damage="0"
+								  hit_force="10"
+								  damage_type="Bashing"
+								  hit_particle="#@modfolder:Resources/challenger_player_fx.unity3d?EmergencyHealingCanister_hit.prefab"
+								  hit_lifetime="3"
+								  zone_lifetime="10"
+								  zone_tick_rate="@cEmergencyHealingZoneTickRate"
+								  zone_damage="0"
+								  zone_force="0"
+								  zone_buff="buffMK2EmergencyHealingZoneHeal"
+								  zone_box_size="16,2,16"
+								  zone_particle="#@modfolder:Resources/challenger_player_fx.unity3d?EmergencyHealingCanister_zone.prefab"
+								  zone_id="MK2EmergencyHealingZone"
+								  zone_can_overlap="false"
+								  zone_is_ground="true">
+					<requirement name="WornItemMods" tags="mkEmergencyHealingCanister" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="health" operation="LTE" value=".5"/>
+					<requirement name="NotHasBuff" buff="buffMK2EmergencyHealingCanisterCD"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK2EmergencyHealingCanisterCD">
+					<requirement name="WornItemMods" tags="mkEmergencyHealingCanister" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="health" operation="LTE" value=".5"/>
+					<requirement name="NotHasBuff" buff="buffMK2EmergencyHealingCanisterCD"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffMK2EmergencyHealingCanisterCD" hidden="true">
+			<duration value="12"/>
+			<stack_type value="ignore"/>
+		</buff>
+				
+		<buff name="buffMK2EmergencyHealingZoneHeal" hidden="true">
+			<duration value="1.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart"
+								action="ModifyStats"
+								target="self"
+								stat="health"
+								operation="add"
+								value="18">
+					<requirement name="EntityTagCompare" target="self" tags="player"/>
+					<requirement name="!IsStatAtMax" target="self" stat="Health"/>
+				</triggered_effect>
+
+				<triggered_effect trigger="onSelfBuffStack"
+								action="ModifyStats"
+								target="self"
+								stat="health"
+								operation="add"
+								value="18">
+					<requirement name="EntityTagCompare" target="self" tags="player"/>
+					<requirement name="!IsStatAtMax" target="self" stat="Health"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- MK2. 鲜血狂热护符 -->
+		<!-- ========================================================= -->
+		<buff name="buffMK2BloodFrenzy"
+			  name_key="buffMK2BloodFrenzyName"
+			  description_key="buffMK2BloodFrenzyDesc"
+			  icon="ui_BloodFrenzy"
+			  icon_color="255,0,0">
+			<duration value="6"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<passive_effect name="WalkSpeed" operation="perc_add" value="@cBloodFrenzySpeed"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value="@cBloodFrenzySpeed"/>
+				<passive_effect name="CrouchSpeed" operation="perc_add" value="@cBloodFrenzySpeed"/>
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="@cBloodFrenzyAtkSpeed"/>
+				<passive_effect name="RoundsPerMinute" operation="perc_add" value="@cBloodFrenzyAtkSpeed"/>
+				<passive_effect name="StaminaChangeOT" operation="base_add" value="@cBloodFrenzyStamina"/>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- MK2. 风暴接地器 -->
+		<!-- ========================================================= -->
+		<buff name="buffMK2StormGrounderTracker" hidden="true">
+			<stack_type value="ignore"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="ModifyStats"
+								  target="self"
+								  stat="stamina"
+								  value_type="max"
+								  operation="add"
+								  value="@cStormGrounderStaminaRestore">
+					<requirement name="WornItemMods" tags="mkStormGrounder" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="stamina" operation="LTE" value=".4"/>
+					<requirement name="NotHasBuff" buff="buffMK2StormGrounderCD"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK2StormGrounderStaminaEfficiency">
+					<requirement name="WornItemMods" tags="mkStormGrounder" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="stamina" operation="LTE" value=".4"/>
+					<requirement name="NotHasBuff" buff="buffMK2StormGrounderCD"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AOEDamage, CustomAoeParticleEffect"
+								  shape="sphere"
+								  radius="@cStormGrounderRadius"
+								  damage="@cStormGrounderDamage"
+								  damage_type="Electrical"
+								  force="8"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?StormGrounder_exp.prefab"
+								  particle_lifetime="3"
+								  offset="0,0,0"
+								  add_buff="buffShocked,buffMK2StormGrounderEliteShockCheck"
+								  target_tags="zombie,animal"
+								  ignore_self="true"
+								  random_radius="0"
+								  hit_blocks="false">
+					<requirement name="WornItemMods" tags="mkStormGrounder" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="stamina" operation="LTE" value=".4"/>
+					<requirement name="NotHasBuff" buff="buffMK2StormGrounderCD"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK2StormGrounderCD">
+					<requirement name="WornItemMods" tags="mkStormGrounder" operation="GTE" value="1"/>
+					<requirement name="StatComparePercCurrentToMax" target="self" stat="stamina" operation="LTE" value=".4"/>
+					<requirement name="NotHasBuff" buff="buffMK2StormGrounderCD"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffMK2StormGrounderCD" hidden="true">
+			<duration value="25"/>
+			<stack_type value="ignore"/>
+		</buff>
+		<buff name="buffMK2StormGrounderStaminaEfficiency"
+			  name_key="buffMK2StormGrounderStaminaEfficiencyName"
+			  description_key="buffMK2StormGrounderStaminaEfficiencyDesc"
+			  icon="ui_StormGrounderStaminaEfficiency"
+			  icon_color="120,180,255">
+			<duration value="15"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<passive_effect name="StaminaLoss" operation="perc_subtract" value="@cStormGrounderEfficiency"/>
+			</effect_group>
+		</buff>
+		<buff name="buffMK2StormGrounderEliteShockCheck" hidden="true">
+			<duration value="0.2"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="ModifyStats"
+								  target="self"
+								  stat="Health"
+								  operation="subtract"
+								  value="650">
+					<requirement_group op="or">
+						<requirement name="HasBuff" target="self" buff="buffChallengerEliteStorm"/>
+						<requirement name="HasBuff" target="self" buff="buffChallengerEliteSwift"/>
+					</requirement_group>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- MK2. 瘟疫净化泵 -->
+		<!-- ========================================================= -->
+		<buff name="buffMK2PlaguePurifierPumpTracker" hidden="true">
+			<stack_type value="ignore"/>
+			<update_rate value="1"/>
+			<effect_group>
+				<requirement_group op="or">
+					<requirement name="HasBuff" target="self" buff="buffWitherFieldDebuff"/>
+					<requirement name="HasBuff" target="self" buff="buffChallengerElitePlagueDebuff"/>
+					<requirement name="HasBuff" target="self" buff="buffRadiation01"/>
+					<requirement name="HasBuff" target="self" buff="buffRadiation03"/>
+				</requirement_group>
+				<requirement name="NotHasBuff" buff="buffMK2PlaguePurifierPumpCD"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="RemoveAllNegativeBuffs"
+								  target="self"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffWitherFieldDebuff"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffChallengerElitePlagueDebuff"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffRadiation01"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffRadiation03"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK2PlaguePurifierPumpHealingBoost"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="SpawnZone, CustomAoeParticleEffect"
+								  radius="@cPlaguePurifierRadius"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?PlaguePurifierPump_zone.prefab"
+								  particle_radius="@cPlaguePurifierRadius"
+								  offset="0,0,0"
+								  zone_lifetime="@cPlaguePurifierZoneLifetime"
+								  zone_tick_rate="@cPlaguePurifierZoneTickRate"
+								  zone_damage="0"
+								  zone_force="0"
+								  zone_buff="buffMK2PlaguePurifierMistPlayer,buffMK2PlaguePurifierMistEnemy"
+								  damage_type="Toxic"
+								  target_tags="player,zombie,animal"
+								  ignore_self="false"
+								  zone_id="MK2PlaguePurifierMist"
+								  zone_can_overlap="false"
+								  zone_is_ground="true"
+								  track_target="none"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK2PlaguePurifierPumpCD"/>
+			</effect_group>
+		</buff>
+		<buff name="buffMK2PlaguePurifierPumpCD" hidden="true">
+			<duration value="10"/>
+			<stack_type value="ignore"/>
+		</buff>
+		<buff name="buffMK2PlaguePurifierPumpHealingBoost"
+			  name_key="buffMK2PlaguePurifierPumpHealingBoostName"
+			  description_key="buffMK2PlaguePurifierPumpHealingBoostDesc"
+			  icon="ui_PlaguePurifierPumpHealingBoost"
+			  icon_color="120,255,120">
+			<duration value="8"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<passive_effect name="HealthGain" operation="perc_add" value="@cPlaguePurifierHealingBoost"/>
+			</effect_group>
+		</buff>
+        <buff name="buffMK2PlaguePurifierMistPlayer" hidden="true">
+            <duration value="1.1"/>
+            <stack_type value="replace"/>
+            <effect_group>
+                <requirement name="EntityTagCompare" target="self" tags="player"/>
+
+                <triggered_effect trigger="onSelfBuffStart"
+                                action="ModifyStats"
+                                target="self"
+                                stat="health"
+                                operation="add"
+                                value="10">
+                    <requirement name="!IsStatAtMax" target="self" stat="Health"/>
+                </triggered_effect>
+
+                <triggered_effect trigger="onSelfBuffStack"
+                                action="ModifyStats"
+                                target="self"
+                                stat="health"
+                                operation="add"
+                                value="10">
+                    <requirement name="!IsStatAtMax" target="self" stat="Health"/>
+                </triggered_effect>
+
+                <passive_effect name="BuffResistance"
+                                operation="base_set"
+                                value="2"
+                                tags="buffWitherFieldDebuff,buffChallengerElitePlagueDebuff,buffRadiation01,buffRadiation03"/>
+            </effect_group>
+        </buff>
+		<buff name="buffMK2PlaguePurifierMistEnemy" hidden="true">
+			<duration value="1.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<requirement_group op="or">
+					<requirement name="EntityTagCompare" target="self" tags="zombie"/>
+					<requirement name="EntityTagCompare" target="self" tags="animal"/>
+				</requirement_group>
+				<passive_effect name="EntityDamage" operation="perc_subtract" value=".15"/>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- A72. 荆棘偏转甲 -->
+		<!-- ========================================================= -->
+		<buff name="buffA72ThornDeflectionBleed" hidden="true">
+			<duration value="2"/>
+			<stack_type value="replace"/>
+			<damage_source value="External"/>
+			<damage_type value="BloodLoss"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="bleedCounter"
+								  operation="add"
+								  value="1"/>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffInjuryBleeding">
+					<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="self"/>
+				</triggered_effect>
+				<!-- 只保留 Remove，避免 Finish + Remove 双扣。 -->
+				<triggered_effect trigger="onSelfBuffRemove"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="bleedCounter"
+								  operation="subtract"
+								  value="1">
+					<requirement name="CVarCompare" cvar="bleedCounter" operation="GT" value="0" target="self"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- MK2. 灾厄稳定场 -->
+		<!-- ========================================================= -->
+		<buff name="buffMK2CalamityStabilityFieldTracker" hidden="true">
+			<stack_type value="ignore"/>
+			<update_rate value="0.5"/>
+			<effect_group>
+				<requirement_group op="or">
+					<requirement name="HasBuff" target="self" buff="buffChallengerEliteCalamityDebuff"/>
+					<requirement name="HasBuff" target="self" buff="buffWitherFieldDebuff"/>
+				</requirement_group>
+				<requirement name="NotHasBuff" target="self" buff="buffMK2CalamityStabilityFieldCD"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="SpawnZone, CustomAoeParticleEffect"
+								  radius="@cCalamityFieldRadius"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?CalamityStabilityField_zone.prefab"
+								  particle_radius="@cCalamityFieldRadius"
+								  offset="0,-1.5,0"
+								  zone_lifetime="@cCalamityFieldZoneLifetime"
+								  zone_tick_rate="1"
+								  zone_damage="0"
+								  zone_force="0"
+								  zone_buff="buffMK2CalamityStabilityFieldPlayer"
+								  damage_type="Bashing"
+								  target_tags="player"
+								  ignore_self="false"
+								  zone_id="MK2CalamityStabilityField_Player"
+								  zone_can_overlap="false"
+								  zone_is_ground="true"
+								  track_target="self"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="SpawnZone, CustomAoeParticleEffect"
+								  radius="@cCalamityFieldRadius"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?CalamityStabilityField_exp.prefab"
+								  particle_radius="@cCalamityFieldRadius"
+								  offset="0,-1.5,0"
+								  zone_lifetime="@cCalamityFieldZoneLifetime"
+								  zone_tick_rate="2"
+								  zone_damage="0"
+								  zone_force="30"
+								  zone_buff="buffMK2CalamityStabilityFieldWeaknessApply"
+								  damage_type="Bashing"
+								  target_tags="zombie,animal"
+								  ignore_self="true"
+								  zone_id="MK2CalamityStabilityField_EnemyPulse"
+								  zone_can_overlap="false"
+								  zone_is_ground="true"
+								  track_target="self"/>
+				<triggered_effect trigger="onSelfBuffUpdate"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK2CalamityStabilityFieldCD"/>
+			</effect_group>
+		</buff>
+		<buff name="buffMK2CalamityStabilityFieldCD" hidden="true">
+			<duration value="20"/>
+			<stack_type value="ignore"/>
+		</buff>
+		<buff name="buffMK2CalamityStabilityFieldPlayer"
+			  name_key="buffMK2CalamityStabilityFieldPlayerName"
+			  description_key="buffMK2CalamityStabilityFieldPlayerDesc"
+			  icon="ui_CalamityStabilityFieldPlayer"
+			  icon_color="120,180,255">
+			<duration value="1.2"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<requirement name="EntityTagCompare" target="self" tags="player"/>
+				<passive_effect name="BuffResistance" operation="base_add" value=".20"/>
+				<passive_effect name="WalkSpeed" operation="perc_add" value=".10"/>
+				<passive_effect name="RunSpeed" operation="perc_add" value=".10"/>
+				<passive_effect name="CrouchSpeed" operation="perc_add" value=".10"/>
+				<passive_effect name="StaminaChangeOT" operation="perc_add" value=".20"/>
+			</effect_group>
+		</buff>
+		<buff name="buffMK2CalamityStabilityFieldWeaknessApply" hidden="true">
+			<duration value="0.2"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="cMK2CalamityStabilityWeakStacks"
+								  operation="set"
+								  value="1">
+					<requirement name="CVarCompare" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="LTE" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK2CalamityStabilityFieldWeaknessStack1">
+					<requirement name="CVarCompare" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="Equals" value="1"/>
+					<requirement name="NotHasBuff" target="self" buff="buffMK2CalamityStabilityFieldWeaknessStack1"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="cMK2CalamityStabilityWeakStacks"
+								  operation="set"
+								  value="2">
+					<requirement name="HasBuff" target="self" buff="buffMK2CalamityStabilityFieldWeaknessStack1"/>
+					<requirement name="NotHasBuff" target="self" buff="buffMK2CalamityStabilityFieldWeaknessStack2"/>
+					<requirement name="CVarCompare" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="LT" value="3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK2CalamityStabilityFieldWeaknessStack2">
+					<requirement name="CVarCompare" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="Equals" value="2"/>
+					<requirement name="NotHasBuff" target="self" buff="buffMK2CalamityStabilityFieldWeaknessStack2"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="ModifyCVar"
+								  target="self"
+								  cvar="cMK2CalamityStabilityWeakStacks"
+								  operation="set"
+								  value="3">
+					<requirement name="HasBuff" target="self" buff="buffMK2CalamityStabilityFieldWeaknessStack2"/>
+					<requirement name="NotHasBuff" target="self" buff="buffMK2CalamityStabilityFieldWeaknessStack3"/>
+					<requirement name="CVarCompare" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="LT" value="3"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffMK2CalamityStabilityFieldWeaknessStack3">
+					<requirement name="CVarCompare" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="Equals" value="3"/>
+					<requirement name="NotHasBuff" target="self" buff="buffMK2CalamityStabilityFieldWeaknessStack3"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffMK2CalamityStabilityFieldWeaknessStack1" hidden="true">
+			<duration value="14"/>
+			<stack_type value="replace"/>
+			<effect_group>
+	<passive_effect name="ElementalDamageResist" operation="perc_subtract" value=".05"/>
+
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="subtract" value="1">
+					<requirement name="CVarCompare" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffMK2CalamityStabilityFieldWeaknessStack2" hidden="true">
+			<duration value="14"/>
+			<stack_type value="replace"/>
+			<effect_group>
+	<passive_effect name="ElementalDamageResist" operation="perc_subtract" value=".05"/>
+
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="subtract" value="1">
+					<requirement name="CVarCompare" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffMK2CalamityStabilityFieldWeaknessStack3" hidden="true">
+			<duration value="14"/>
+			<stack_type value="replace"/>
+			<effect_group>
+	<passive_effect name="ElementalDamageResist" operation="perc_subtract" value=".05"/>
+
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="subtract" value="1">
+					<requirement name="CVarCompare" target="self" cvar="cMK2CalamityStabilityWeakStacks" operation="GT" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- A92. 余烬复燃板 -->
+		<!-- ========================================================= -->
+		<buff name="buffA92EmberRekindleEruptionCaster" hidden="true">
+			<duration value="0.2"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AOEDamage, CustomAoeParticleEffect"
+								  shape="sphere"
+								  radius="@cEmberRekindleRadius"
+								  damage="@cEmberRekindleDamage"
+								  damage_type="Heat"
+								  force="0"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?EmberRekindleEruption_exp.prefab"
+								  particle_lifetime="3"
+								  offset="0,0.6,0"
+								  add_buff="buffA92EmberRekindleCheck,buffBurningMolotov,buffCEFireBurnTracker,buffCEFireBurnDamage"
+								  target_tags="zombie,animal"
+								  ignore_self="true"
+								  random_radius="0"
+								  hit_blocks="false"/>
+			</effect_group>
+		</buff>
+		<buff name="buffA92EmberRekindleCheck" hidden="true">
+			<duration value="0.5"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<!-- 这个 Buff 在敌人身上执行，所以二次复燃用 A92 固定强化值。 -->
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AOEDamage, CustomAoeParticleEffect"
+								  shape="sphere"
+								  radius="3.5"
+								  damage="300"
+								  damage_type="Heat"
+								  force="0"
+								  particle="#@modfolder:Resources/challenger_player_fx.unity3d?EmberRekindleEruption_exp.prefab"
+								  particle_lifetime="3"
+								  offset="0,0.5,0"
+								  add_buff="buffBurningMolotov,buffCEFireBurnTracker,buffCEFireBurnDamage"
+								  target_tags="zombie,animal"
+								  ignore_self="false"
+								  random_radius="0"
+								  hit_blocks="false">
+					<requirement name="HasBuff" target="self" buff="buffCEFireBurnTracker"/>
+					<requirement name="NotHasBuff" target="self" buff="buffA92EmberRekindleInternalCD"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffA92EmberRekindleInternalCD">
+					<requirement name="HasBuff" target="self" buff="buffCEFireBurnTracker"/>
+					<requirement name="NotHasBuff" target="self" buff="buffA92EmberRekindleInternalCD"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<buff name="buffA92EmberRekindleInternalCD" hidden="true">
+			<duration value="1"/>
+			<stack_type value="ignore"/>
+		</buff>
+
+		<!-- ========================================================= -->
+		<!-- Weapon Modifiers -->
+		<!-- ========================================================= -->
+
+		<!-- ========================================================= -->
+		<!-- WA2. 冰霜榴弹巢：减速 -->
+		<!-- ========================================================= -->
+		<buff name="buffWA2FrostGrenadeNestSlow"
+			  name_key="buffWA2FrostGrenadeNestSlowName"
+			  description_key="buffWA2FrostGrenadeNestSlowDesc"
+			  icon="ui_game_symbol_snowflake"
+			  icon_color="120,200,255">
+			<duration value="5"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<!-- 爆炸区域内敌人减速 30%，持续 5 秒 -->
+				<passive_effect name="WalkSpeed" operation="perc_subtract" value=".30"/>
+				<passive_effect name="RunSpeed" operation="perc_subtract" value=".30"/>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- WA2. 冰霜榴弹巢：霜裂 -->
+		<!-- ========================================================= -->
+		<buff name="buffWA2FrostGrenadeNestFrostCrack"
+			  name_key="buffWA2FrostGrenadeNestFrostCrackName"
+			  description_key="buffWA2FrostGrenadeNestFrostCrackDesc"
+			  icon="ui_game_symbol_snowflake"
+			  icon_color="180,230,255">
+			<duration value="3"/>
+			<stack_type value="replace"/>
+			<effect_group>
+
+				<requirement name="HasBuff" target="self" buff="buffWA2FrostGrenadeNestSlow"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value=".10"/>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+				<!-- WP3. 动能递增机芯 -->
+		<!-- 核心 Buff：负责显示 + passive_effect -->
+		<!-- ========================================================= -->
+		<buff name="buffWP3KineticEscalatorCore"
+			  name_key="buffWP3KineticEscalatorCoreName"
+			  description_key="buffWP3KineticEscalatorCoreDesc"
+			  icon="ui_KineticEscalatorCore"
+			  icon_color="120,220,255"
+			  showonhud="true">
+			<stack_type value="ignore"/>
+			<duration value="0"/>
+			<update_rate value="0.2"/>
+			<display_value value="cWP3KineticStacksDisplay"/>
+			<display_value_key value="{0:0.#}"/>
+			<effect_group name="HUD Sync">
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticStacksDisplay"     operation="set" value="@cWP3KineticStacks"/>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticMoveStacksDisplay" operation="set" value="@cWP3KineticMoveStacks"/>
+			</effect_group>
+			<effect_group name="Passive Effects">
+				<!-- 攻击速度：每层 +2%，0 层 = 0 -->
+				<passive_effect name="AttacksPerMinute" operation="perc_add" value="0" add_by_cvar="cWP3KineticStacks" multiplier="0.02"/>
+				<passive_effect name="RoundsPerMinute"  operation="perc_add" value="0" add_by_cvar="cWP3KineticStacks" multiplier="0.02"/>
+				<!-- 移动速度：每层 +1%，0 层 = 0 -->
+				<passive_effect name="WalkSpeed"   operation="perc_add" value="0" add_by_cvar="cWP3KineticMoveStacks" multiplier="0.01"/>
+				<passive_effect name="RunSpeed"    operation="perc_add" value="0" add_by_cvar="cWP3KineticMoveStacks" multiplier="0.01"/>
+				<passive_effect name="CrouchSpeed" operation="perc_add" value="0" add_by_cvar="cWP3KineticMoveStacks" multiplier="0.01"/>
+				<!-- BuffResistance：每层 +1%，0 层 = 0 -->
+				<passive_effect name="BuffResistance" operation="base_add" value="0" add_by_cvar="cWP3KineticStacks" multiplier="0.01"/>
+			</effect_group>
+			<effect_group name="Cleanup">
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" target="self" cvar="cWP3KineticStacks"            operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" target="self" cvar="cWP3KineticMoveStacks"        operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" target="self" cvar="cWP3KineticStacksDisplay"     operation="set" value="0"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" target="self" cvar="cWP3KineticMoveStacksDisplay" operation="set" value="0"/>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- 攻击结束 +1 攻击动能 -->
+		<!-- ========================================================= -->
+		<buff name="buffWP3KineticEscalatorGainAttack" hidden="true">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticStacks" operation="add" value="1">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticStacks" operation="LT" value="@cWP3KineticMaxStacks"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticStacks" operation="set" value="@cWP3KineticMaxStacks">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticStacks" operation="GT" value="@cWP3KineticMaxStacks"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff"    target="self" buff="buffWP3KineticEscalatorActivity"/>
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="buffWP3KineticEscalatorDecay"/>
+			</effect_group>
+		</buff>
+		<!-- ========================================================= -->
+		<!-- 命中 +1 攻击动能 & +1 移动动能 -->
+		<!-- ========================================================= -->
+		<buff name="buffWP3KineticEscalatorGainHit" hidden="true">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticStacks" operation="add" value="1">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticStacks" operation="LT" value="@cWP3KineticMaxStacks"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticStacks" operation="set" value="@cWP3KineticMaxStacks">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticStacks" operation="GT" value="@cWP3KineticMaxStacks"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticMoveStacks" operation="add" value="1">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticMoveStacks" operation="LT" value="@cWP3KineticMoveMaxStacks"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticMoveStacks" operation="set" value="@cWP3KineticMoveMaxStacks">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticMoveStacks" operation="GT" value="@cWP3KineticMoveMaxStacks"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff"    target="self" buff="buffWP3KineticEscalatorActivity"/>
+				<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" target="self" buff="buffWP3KineticEscalatorDecay"/>
+			</effect_group>
+		</buff>
+		<!-- 活动计时 2s -->
+		<buff name="buffWP3KineticEscalatorActivity" hidden="true">
+			<duration value="2"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffRemove" action="AddBuff" target="self" buff="buffWP3KineticEscalatorDecay">
+					<requirement_group op="or">
+						<requirement name="CVarCompare" target="self" cvar="cWP3KineticStacks"     operation="GT" value="0"/>
+						<requirement name="CVarCompare" target="self" cvar="cWP3KineticMoveStacks" operation="GT" value="0"/>
+					</requirement_group>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- 快速衰减 -->
+		<buff name="buffWP3KineticEscalatorDecay" hidden="true">
+			<duration value="0"/>
+			<stack_type value="replace"/>
+			<update_rate value="0.25"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticStacks" operation="subtract" value="@cWP3KineticDecayAmount">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticStacks" operation="GT" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticStacks" operation="set" value="0">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticStacks" operation="LT" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticMoveStacks" operation="subtract" value="@cWP3KineticDecayAmount">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticMoveStacks" operation="GT" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticMoveStacks" operation="set" value="0">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticMoveStacks" operation="LT" value="0"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" target="self" buff="buffWP3KineticEscalatorDecay">
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticStacks"     operation="LTE" value="0"/>
+					<requirement name="CVarCompare" target="self" cvar="cWP3KineticMoveStacks" operation="LTE" value="0"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+		<!-- 换弹保留 50% -->
+		<buff name="buffWP3KineticEscalatorReloadKeepHalf" hidden="true">
+			<duration value="0.1"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticStacks"     operation="multiply" value=".5"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" target="self"
+								  cvar="cWP3KineticMoveStacks" operation="multiply" value=".5"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="buffWP3KineticEscalatorActivity"/>
+			</effect_group>
+		</buff>
+
+		<!-- ========================================================= -->
+		<!-- WA4. 雷链电容器：20% 触电判定 Buff -->
+		<!-- ========================================================= -->
+		<buff name="buffWA4LightningChainShockRoll" hidden="true">
+			<duration value="0.2"/>
+			<stack_type value="replace"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart"
+								  action="AddBuff"
+								  target="self"
+								  buff="buffShocked">
+					<requirement name="IsAlive" target="self"/>
+					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
+				</triggered_effect>
+			</effect_group>
+		</buff>
+
+
+    </append>
+
+    <!-- ===================================================== -->
+    <!-- Challenger Elite Monster Projectiles                  -->
+    <!-- ===================================================== -->
+
+
+    <!-- ===================================================== -->
+    <!-- 嗜血精英：射物                                  -->
+    <!-- 伤害 8，轻微散布                                      -->
+    <!-- ===================================================== -->
+    <append xpath="/buffs/buff[@name='buffChallengerEliteBloodlust']/effect_group">
+
+        <triggered_effect trigger="onSelfBuffUpdate"
+
+            action="CustomProjectile, CustomAoeParticleEffect"
+            monster_mode="true"
+            direction_mode="closest_player"
+            monster_target_players_only="true"
+            monster_scan_radius="26"
+            monster_scan_angle="130"
+            monster_aim_height="1.2"
+            monster_require_los="true"
+
+            spawn_offset="0,1.45,0"
+
+            particle="#@modfolder:Resources/challenger_fx_proj.unity3d?bloodlust_projectile.prefab"
+            particle_scale="1"
+            velocity="17"
+            gravity="0.25"
+            projectile_lifetime="2.8"
+			particle_alpha="0.5"
+    		particle_brightness="0.3"
+			hit_particle_alpha="0.5"
+    		hit_particle_brightness="0.3"
+            count="1"
+            spread_angle="5"
+            vertical_angle="-2,4"
+
+            hit_radius="1.2"
+            hit_damage="8"
+            hit_force="1.5"
+            hit_particle="#@modfolder:Resources/challenger_fx_proj.unity3d?bloodlust_hit.prefab"
+            hit_lifetime="0.8"
+
+            target_tags="player"
+            ignore_tags="zombie,animal"
+            ignore_self="true"
+
+            hit_blocks="true"
+            ignore_block="false"
+
+            use_weapon_damage="false"
+            pierce_count="0"
+
+            homing_radius="0"
+            homing_speed="0"
+            curve_mode="false"
+            locked_target="false"
+
+            hitbox_enable="false">
+
+            <requirement name="RandomRoll"
+                seed_type="Random"
+                min_max="0,100"
+                operation="LTE"
+                value="40"/>
+
+        </triggered_effect>
+
+    </append>
+
+
+    <!-- ===================================================== -->
+    <!-- 冰霜精英：冰锥投射物                                  -->
+    <!-- 伤害 6，速度较慢，重力略高                            -->
+    <!-- ===================================================== -->
+    <append xpath="/buffs/buff[@name='buffChallengerEliteFrost']/effect_group">
+
+        <triggered_effect trigger="onSelfBuffUpdate"
+
+            action="CustomProjectile, CustomAoeParticleEffect"
+            monster_mode="true"
+            direction_mode="closest_player"
+            monster_target_players_only="true"
+            monster_scan_radius="24"
+            monster_scan_angle="120"
+            monster_aim_height="1.15"
+            monster_require_los="true"
+
+            spawn_offset="0,1.55,0"
+
+            particle="#@modfolder:Resources/challenger_fx_proj.unity3d?frost_projectile.prefab"
+            particle_scale="1"
+            velocity="14"
+            gravity="0.45"
+            projectile_lifetime="3.2"
+			particle_alpha="0.5"
+    		particle_brightness="0.3"
+			hit_particle_alpha="0.5"
+    		hit_particle_brightness="0.3"
+            count="1"
+            spread_angle="4"
+            vertical_angle="-1,5"
+
+            hit_radius="1.4"
+            hit_damage="6"
+            hit_force="1"
+            hit_particle="#@modfolder:Resources/challenger_fx_proj.unity3d?frost_hit.prefab"
+            hit_lifetime="1"
+
+            target_tags="player"
+            ignore_tags="zombie,animal"
+            ignore_self="true"
+
+            hit_blocks="true"
+            ignore_block="false"
+
+            use_weapon_damage="false"
+            pierce_count="0"
+
+            homing_radius="0"
+            homing_speed="0"
+            curve_mode="false"
+            locked_target="false"
+
+            hitbox_enable="false">
+
+            <requirement name="RandomRoll"
+                seed_type="Random"
+                min_max="0,100"
+                operation="LTE"
+                value="40"/>
+
+        </triggered_effect>
+
+    </append>
+
+
+    <!-- ===================================================== -->
+    <!-- 火焰精英：火球投射物                                  -->
+    <!-- 伤害 12                                               -->
+    <!-- ===================================================== -->
+    <append xpath="/buffs/buff[@name='buffChallengerEliteFire']/effect_group">
+
+        <triggered_effect trigger="onSelfBuffUpdate"
+
+            action="CustomProjectile, CustomAoeParticleEffect"
+            monster_mode="true"
+            direction_mode="closest_player"
+            monster_target_players_only="true"
+            monster_scan_radius="28"
+            monster_scan_angle="135"
+            monster_aim_height="1.25"
+            monster_require_los="true"
+
+            spawn_offset="0,1.6,0"
+
+            particle="#@modfolder:Resources/challenger_fx_proj.unity3d?fire_projectile.prefab"
+            particle_scale="1"
+            velocity="16"
+            gravity="0.15"
+            projectile_lifetime="3"
+			particle_alpha="0.5"
+    		particle_brightness="0.3"
+			hit_particle_alpha="0.5"
+    		hit_particle_brightness="0.3"
+            count="1"
+            spread_angle="6"
+            vertical_angle="-2,4"
+
+            hit_radius="1.8"
+            hit_damage="12"
+            hit_force="1.5"
+            hit_particle="#@modfolder:Resources/challenger_fx_proj.unity3d?fire_hit.prefab"
+            hit_lifetime="1"
+
+            target_tags="player"
+            ignore_tags="zombie,animal"
+            ignore_self="true"
+
+            hit_blocks="true"
+            ignore_block="false"
+
+            use_weapon_damage="false"
+            pierce_count="0"
+
+            homing_radius="0"
+            homing_speed="0"
+            curve_mode="false"
+            locked_target="false"
+
+            hitbox_enable="false">
+
+            <requirement name="RandomRoll"
+                seed_type="Random"
+                min_max="0,100"
+                operation="LTE"
+                value="40"/>
+
+        </triggered_effect>
+
+    </append>
+
+
+    <!-- ===================================================== -->
+    <!-- 雷暴精英：电弧弹                                      -->
+    <!-- 伤害 10，速度较快，击退略高                            -->
+    <!-- ===================================================== -->
+    <append xpath="/buffs/buff[@name='buffChallengerEliteStorm']/effect_group">
+
+        <triggered_effect trigger="onSelfBuffUpdate"
+
+            action="CustomProjectile, CustomAoeParticleEffect"
+            monster_mode="true"
+            direction_mode="closest_player"
+            monster_target_players_only="true"
+            monster_scan_radius="30"
+            monster_scan_angle="140"
+            monster_aim_height="1.3"
+            monster_require_los="true"
+			particle_alpha="0.5"
+    		particle_brightness="0.3"
+			hit_particle_alpha="0.5"
+    		hit_particle_brightness="0.3"
+            spawn_offset="0,1.7,0"
+
+            particle="#@modfolder:Resources/challenger_fx_proj.unity3d?storm_projectile.prefab"
+            particle_scale="1"
+            velocity="22"
+            gravity="0"
+            projectile_lifetime="2.3"
+
+            count="1"
+            spread_angle="7"
+            vertical_angle="-3,3"
+
+            hit_radius="1.3"
+            hit_damage="10"
+            hit_force="3"
+            hit_particle="#@modfolder:Resources/challenger_fx_proj.unity3d?storm_hit.prefab"
+            hit_lifetime="0.8"
+
+            target_tags="player"
+            ignore_tags="zombie,animal"
+            ignore_self="true"
+
+            hit_blocks="true"
+            ignore_block="false"
+
+            use_weapon_damage="false"
+            pierce_count="0"
+
+            homing_radius="0"
+            homing_speed="0"
+            curve_mode="false"
+            locked_target="false"
+
+            hitbox_enable="false">
+
+            <requirement name="RandomRoll"
+                seed_type="Random"
+                min_max="0,100"
+                operation="LTE"
+                value="40"/>
+
+        </triggered_effect>
+
+    </append>
+
+
+    <!-- ===================================================== -->
+    <!-- 瘟疫精英：毒瘴弹                                      -->
+    <!-- 伤害 7，范围稍大，速度慢                              -->
+    <!-- ===================================================== -->
+    <append xpath="/buffs/buff[@name='buffChallengerElitePlague']/effect_group">
+
+        <triggered_effect trigger="onSelfBuffUpdate"
+
+            action="CustomProjectile, CustomAoeParticleEffect"
+            monster_mode="true"
+            direction_mode="closest_player"
+            monster_target_players_only="true"
+            monster_scan_radius="25"
+            monster_scan_angle="120"
+            monster_aim_height="1.15"
+            monster_require_los="true"
+
+            spawn_offset="0,1.5,0"
+
+            particle="#@modfolder:Resources/challenger_fx_proj.unity3d?plague_projectile.prefab"
+            particle_scale="1"
+            velocity="13"
+            gravity="0.35"
+            projectile_lifetime="3.5"
+
+            count="1"
+            spread_angle="5"
+            vertical_angle="-1,6"
+
+            hit_radius="2.0"
+            hit_damage="7"
+            hit_force="0.8"
+            hit_particle="#@modfolder:Resources/challenger_fx_proj.unity3d?plague_hit.prefab"
+            hit_lifetime="1"
+
+            target_tags="player"
+            ignore_tags="zombie,animal"
+            ignore_self="true"
+
+            hit_blocks="true"
+            ignore_block="false"
+
+            use_weapon_damage="false"
+            pierce_count="0"
+
+            homing_radius="0"
+            homing_speed="0"
+            curve_mode="false"
+            locked_target="false"
+
+            hitbox_enable="false">
+
+            <requirement name="RandomRoll"
+                seed_type="Random"
+                min_max="0,100"
+                operation="LTE"
+                value="40"/>
+
+        </triggered_effect>
+
+    </append>
+
+
+</configs>

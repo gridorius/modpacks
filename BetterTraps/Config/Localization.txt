@@ -1,0 +1,21 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,french
+trapSpikesWoodDmg0T2,blocks,Trap,,,Wood Spikes Trap T2,,Pièges à pieux en bois T2
+trapSpikesWoodDmg0T3,blocks,Trap,,,Wood Spikes Trap T3,,Pièges à pieux en bois T3
+trapSpikesIronDmg0T2,blocks,Trap,,,Iron Spikes Trap T2,,Piège à pieux en fer T2
+trapSpikesIronDmg0T3,blocks,Trap,,,Iron Spikes Trap T3,,Piège à pieux en fer T3
+bladeTrapT2,blocks,Electricity,,,Blade Trap T2,,Piège à lame T2
+bladeTrapT3,blocks,Electricity,,,Blade Trap T3,,Piège à lame T3
+dartTrapT2,blocks,Electricity,,,Dart Trap T2,,Piège à fléchettes T2
+dartTrapT3,blocks,Electricity,,,Dart Trap T3,,Piège à fléchettes T3
+ammoDartIronT2,items,Ammo,,,Iron Dart T2 (Ammo),,Fléchette en fer T2 (munition)
+ammoDartIronT3,items,Ammo,,,Iron Dart T3 (Ammo),,Fléchette en fer T3 (munition)
+trapsT4,progression,Attribute,,,"Tier 4:Electric Fence, Dart, & Blade T2",,"Échelon 4 : clôture, fléchette et lame alimentées T2"
+trapsT5,progression,Attribute,,,"Tier 5:Electric Fence, Dart, & Blade T3",,"Échelon 5 : clôture, fléchette et lame alimentées T3"
+electricianT5,progression,Attribute,,,Tier 4: Battery bank and generator bank T2,,Banc de batteries et groupe électrogène T2
+electricianT6,progression,Attribute,,,Tier 4: Battery bank and generator bank T2,,Banc de batteries et groupe électrogène T3
+electricfencepostT2,blocks,Electricity,,,Electric Fence Post T2,,Poteau de clôture électrique T2
+electricfencepostT3,blocks,Electricity,,,Electric Fence Post T3,,Poteau de clôture électrique T3
+generatorbankT2,blocks,Electricity,,,Generator Bank T2,,Groupe électrogène T2
+generatorbankT3,blocks,Electricity,,,Generator Bank T3,,Groupe électrogène T3
+batterybankT2,blocks,Electricity,,,Battery Bank T2,,Banc de batteries T2
+batterybankT3,blocks,Electricity,,,Battery Bank T3,,Banc de batteries T3

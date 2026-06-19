@@ -1,0 +1,6 @@
+<item_modifiers>
+	<!--removeattribute  xpath="/sounds/sounddatanode[@name='auger_idle']/audioclip[1]/@AudioSourceName" /-->
+	<!--addattribute  xpath="/item_modifier/item_modifier[starts-with(@name, 'modDye')]/@Stacknumber" /-->
+	<!--set xpath="/item_modifier/item_modifier[starts-with(@name, 'modDye')]/property[@name='Stacknumber']/@value">65535</set-->
+	<set xpath="/item_modifiers/item_modifier/property[@name='Stacknumber']/@value">50</set>		
+</item_modifiers>

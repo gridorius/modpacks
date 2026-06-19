@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+	<Name value="StackableMods" />
+	<DisplayName value="StackableMods Files" />
+	<Description value="Makes mods and other modifier stackable" />
+	<Author value="TribalDragon" />
+	<Version value="1.0" />
+	<Website value="" />
+</xml>

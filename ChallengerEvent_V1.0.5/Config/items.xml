@@ -1,0 +1,1454 @@
+<configs>
+
+    <append xpath="/items">
+
+
+        <!-- ===================================================== -->
+        <!-- Challenger 挑战召唤书基础模板                         -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollBase">
+            <property name="Extends" value="schematicMaster"/>
+
+            <property name="CreativeMode" value="None"/>
+
+            <property name="CustomIcon" value="itemChallengerChallengeScrollBase"/>
+
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollBaseDesc"/>
+            <property name="Stacknumber" value="20"/>
+            <property name="EconomicValue" value="500"/>
+
+            <property name="Group" value="Resources,Books,BooksOnly,TCReading"/>
+
+            <property name="Tags" value="challengerScroll"/>
+
+            <property name="SoundPickup" value="book_grab"/>
+            <property name="SoundPlace" value="book_place"/>
+
+            <property class="Action0">
+                <property name="Class" value="Eat"/>
+                <property name="Delay" value="1.0"/>
+                <property name="Sound_start" value="read_skillbook"/>
+            </property>
+        </item>
+
+
+        <!-- ===================================================== -->
+        <!-- T1 挑战召唤书：清理感染者                             -->
+        <!-- 对应 GameEvent：challenger_challenge_t1                -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollT1">
+            <property name="Extends" value="itemChallengerChallengeScrollBase"/>
+            <property name="CustomIcon" value="itemChallengerChallengeScrollT1"/>
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollT1Desc"/>
+            <property name="EconomicValue" value="300"/>
+            <property name="Tags" value="challengerScroll,challengerScrollT1"/>
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="CallGameEvent" event="challenger_challenge_t1" allow_client_call="true"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ===================================================== -->
+        <!-- T2 挑战召唤书：混合尸潮                               -->
+        <!-- 对应 GameEvent：challenger_challenge_t2                -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollT2">
+            <property name="Extends" value="itemChallengerChallengeScrollBase"/>
+            <property name="CustomIcon" value="itemChallengerChallengeScrollT2"/>
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollT2Desc"/>
+            <property name="EconomicValue" value="500"/>
+            <property name="Tags" value="challengerScroll,challengerScrollT2"/>
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="CallGameEvent" event="challenger_challenge_t2" allow_client_call="true"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="75"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ===================================================== -->
+        <!-- T3 挑战召唤书：狂暴感染者                             -->
+        <!-- 对应 GameEvent：challenger_challenge_t3                -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollT3">
+            <property name="Extends" value="itemChallengerChallengeScrollBase"/>
+            <property name="CustomIcon" value="itemChallengerChallengeScrollT3"/>
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollT3Desc"/>
+            <property name="EconomicValue" value="800"/>
+            <property name="Tags" value="challengerScroll,challengerScrollT3"/>
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="CallGameEvent" event="challenger_challenge_t3" allow_client_call="true"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="100"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ===================================================== -->
+        <!-- T4 挑战召唤书：辐射尸群                               -->
+        <!-- 对应 GameEvent：challenger_challenge_t4                -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollT4">
+            <property name="Extends" value="itemChallengerChallengeScrollBase"/>
+            <property name="CustomIcon" value="itemChallengerChallengeScrollT4"/>
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollT4Desc"/>
+            <property name="EconomicValue" value="1200"/>
+            <property name="Tags" value="challengerScroll,challengerScrollT4"/>
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="CallGameEvent" event="challenger_challenge_t4" allow_client_call="true"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="150"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ===================================================== -->
+        <!-- T5 挑战召唤书：充能精英                               -->
+        <!-- 对应 GameEvent：challenger_challenge_t5                -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollT5">
+            <property name="Extends" value="itemChallengerChallengeScrollBase"/>
+            <property name="CustomIcon" value="itemChallengerChallengeScrollT5"/>
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollT5Desc"/>
+            <property name="EconomicValue" value="1800"/>
+            <property name="Tags" value="challengerScroll,challengerScrollT5"/>
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="CallGameEvent" event="challenger_challenge_t5" allow_client_call="true"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="200"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ===================================================== -->
+        <!-- T6 挑战召唤书：地狱先锋                               -->
+        <!-- 对应 GameEvent：challenger_challenge_t6                -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollT6">
+            <property name="Extends" value="itemChallengerChallengeScrollBase"/>
+            <property name="CustomIcon" value="itemChallengerChallengeScrollT6"/>
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollT6Desc"/>
+            <property name="EconomicValue" value="2500"/>
+            <property name="Tags" value="challengerScroll,challengerScrollT6"/>
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="CallGameEvent" event="challenger_challenge_t6" allow_client_call="true"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="250"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ===================================================== -->
+        <!-- T7 挑战召唤书：地狱军团                               -->
+        <!-- 对应 GameEvent：challenger_challenge_t7                -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollT7">
+            <property name="Extends" value="itemChallengerChallengeScrollBase"/>
+            <property name="CustomIcon" value="itemChallengerChallengeScrollT7"/>
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollT7Desc"/>
+            <property name="EconomicValue" value="3500"/>
+            <property name="Tags" value="challengerScroll,challengerScrollT7"/>
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="CallGameEvent" event="challenger_challenge_t7" allow_client_call="true"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="350"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ===================================================== -->
+        <!-- T8 挑战召唤书：地狱精英                               -->
+        <!-- 对应 GameEvent：challenger_challenge_t8                -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollT8">
+            <property name="Extends" value="itemChallengerChallengeScrollBase"/>
+            <property name="CustomIcon" value="itemChallengerChallengeScrollT8"/>
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollT8Desc"/>
+            <property name="EconomicValue" value="5000"/>
+            <property name="Tags" value="challengerScroll,challengerScrollT8"/>
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="CallGameEvent" event="challenger_challenge_t8" allow_client_call="true"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="500"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ===================================================== -->
+        <!-- T9 挑战召唤书：地狱首领                               -->
+        <!-- 对应 GameEvent：challenger_challenge_t9                -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollT9">
+            <property name="Extends" value="itemChallengerChallengeScrollBase"/>
+            <property name="CustomIcon" value="itemChallengerChallengeScrollT9"/>
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollT9Desc"/>
+            <property name="EconomicValue" value="7500"/>
+            <property name="Tags" value="challengerScroll,challengerScrollT9"/>
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="CallGameEvent" event="challenger_challenge_t9" allow_client_call="true"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="750"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ===================================================== -->
+        <!-- T10 挑战召唤书：终极异变                              -->
+        <!-- 对应 GameEvent：challenger_challenge_t10               -->
+        <!-- ===================================================== -->
+
+        <item name="itemChallengerChallengeScrollT10">
+            <property name="Extends" value="itemChallengerChallengeScrollBase"/>
+            <property name="CustomIcon" value="itemChallengerChallengeScrollT10"/>
+            <property name="DescriptionKey" value="itemChallengerChallengeScrollT10Desc"/>
+            <property name="EconomicValue" value="10000"/>
+            <property name="Tags" value="challengerScroll,challengerScrollT10"/>
+
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="CallGameEvent" event="challenger_challenge_t10" allow_client_call="true"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="1000"/>
+            </effect_group>
+        </item>
+
+  <!-- ========================================== -->
+    <!-- 新弹药模块: AstrofixMG_NormalModule -->
+    <!-- ========================================== -->
+    <item name="ammoAstrofixMG_NormalModule">
+        <property name="Extends" value="ammo762mmBulletBall"/>
+        <property name="CustomIcon" value="ammo762mmBulletBall"/>
+        <property name="Tags" value="ammo,ammo762mm,smartAmmo,astrofixMGModule"/>
+        <property name="DisplayType" value="ammoBullet"/>
+        <property name="DescriptionKey" value="ammoAstrofixMGNormalModuleDesc"/>
+        <property name="EconomicValue" value="18"/>
+        <property name="TraderStageTemplate" value="ammoTier1"/>
+        <property name="Group" value="Ammo/Weapons,Ammo"/>
+        <property name="SoundPickup" value="bullets_grab"/>
+        <property name="SoundPlace" value="bullets_place"/>
+    </item>
+
+  <!-- ========================================== -->
+    <!-- 能量补充包: energyBundle                    -->
+    <!-- 用于补充 Astrofix 智能武器能量池            -->
+    <!-- ========================================== -->
+    <item name="energyBundle">
+        <property name="CustomIcon" value="energyBundle"/>
+        <property name="ItemTypeIcon" value="bundle"/>
+        <property name="DescriptionKey" value="energyBundleDesc"/>
+        <property name="HoldType" value="45"/>
+        <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+        <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+        <property name="Material" value="Mmetal"/>
+        <property name="Stacknumber" value="5"/>
+        <property name="Weight" value="0"/>
+        <property name="EconomicValue" value="900"/>
+        <property name="Group" value="Ammo/Weapons,Ammo"/>
+        <property name="SoundPickup" value="ammobox_grab"/>
+        <property name="SoundPlace" value="ammobox_place"/>
+        <property class="Action0">
+            <property name="Class" value="ChargeHeldWeapon, CustomAoeParticleEffect"/>
+            <property name="Delay" value="0.5"/>
+            <property name="CAF_EnergyAmount" value="500"/>
+            <property name="Sound_start" value="drone_interact"/>
+        </property>
+    </item>
+
+    <item name="astrofix_machinegun">
+
+
+        <property name="Tags" value="weapon,ranged,holdBreathAiming,reloadPenalty,gun,
+            barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,
+            bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,
+            perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,
+            norangedcrosshair,nocrosshair,novanillaammo,cyber_scope,smartfirearms,astrofixMG,caf_affixable"/>
+
+        <!-- SmartWeapon 虚拟弹匣系统  -->
+        <property name="CAF_SW_VirtualMagCVar"  value="CAF_astrofix_Mag"/>
+        <property name="CAF_SW_VirtualMagMax"   value="45"/>
+        <property name="CAF_SW_EnergyPoolCVar"  value="CAF_astrofix_Energy"/>
+        <property name="CAF_SW_EnergyPoolMax"   value="1000"/>
+        <property name="CAF_SW_ChargeTimeFull"  value="3"/>
+        <property name="CAF_SW_ChargeUsesAmmo"  value="true"/>
+        <property name="CAF_SW_ChargeDelay"     value="1.5"/>
+        <property name="CAF_SW_LockEnabled"     value="true"/>
+        <property name="CAF_SW_LockAimPart" value="body"/>
+        <property name="CAF_SW_LockRingRadius"  value="200"/>
+        <property name="CAF_SW_HideVanillaAmmo" value="true"/>
+        <property name="AutoChargeUI"           value="windowCAFEnergyBar"/>
+        <property name="CAF_SW_ChargeAudio" value="#@modfolder:Resources/astrofix_recharge.unity3d?astrofix_recharge.prefab"/>
+
+	    <property name="CustomIcon" value="astrofix_machinegun"/> 
+        <property name="DisplayType"          value="rangedGun"/>
+        <property name="HoldType"             value="60"/>
+        <property name="Meshfile"             value="#@modfolder:Resources/astrofix.unity3d?astrofix.prefab"/>
+        <property name="Material"             value="MMachineGunParts"/>
+        <property name="CrosshairOnAim"       value="true"/>
+        <property name="CrosshairUpAfterShot" value="true"/>
+        <property name="Weight"               value="7"/>
+        <property name="ScrapTimeOverride"    value="10.0"/>
+        <property name="RepairTools"          value="resourceRepairKit"/>
+        <property name="DegradationBreaksAfter" value="false"/>
+        <property name="SoundJammed"          value="weapon_jam"/>
+        <property name="Sound_Sight_In"       value="rifle_sight_in"/>
+        <property name="Sound_Sight_Out"      value="rifle_sight_out"/>
+        <property name="RepairExpMultiplier"  value="10.8"/>
+        <property name="EconomicValue"        value="12000"/>
+        <property name="ShowQuality"          value="true"/>
+        <property name="Group"                value="Ammo/Weapons,Ranged Weapons"/>
+        <property name="SoundUnholster"       value="weapon_unholster"/>
+        <property name="SoundHolster"         value="weapon_holster"/>
+        <property name="SoundPickup"          value="rifle_polymer_grab"/>
+        <property name="SoundPlace"           value="rifle_polymer_place"/>
+
+
+        <property class="Action0">
+            <property name="Class" value="ItemActionFireModuleHub, CustomAoeParticleEffect"/>
+
+        <property name="CAF_Ammo_ammoAstrofixMG_NormalModule_Template" value="CAF_AstrofixMG_Normal"/>
+
+
+        <property name="Magazine_items" value="ammoAstrofixMG_NormalModule"/>
+
+            <!-- 音效：Ball/HP -->
+            <property name="Sound_start"  value="smg_fire"/>
+            <property name="Sound_loop"   value="smg_fire"/>
+            <property name="Sound_empty"  value="dryfire"/>
+            <property name="Sound_reload" value="m60_reload"/>
+            <property name="AutoReload"   value="false"/>
+            <property name="InfiniteAmmo" value="true"/>
+
+            <property name="triggerEffectTriggerPullDualsense"  value="RifleTrigger"/>
+            <property name="triggerEffectTriggerPullXbox"       value="PistolTrigger"/>
+            <property name="triggerEffectTriggerShootDualsense" value="MGShoot"/>
+            <property name="triggerEffectTriggerShootXbox"      value="PistolShoot"/>
+        </property>
+
+        <!-- Action1：瞄准镜 -->
+        
+        <property class="Action1">
+            <property name="Class"               value="Zoom"/>
+            <property name="Zoom_max_out"         value="55"/>
+            <property name="Zoom_max_in"          value="55"/>
+            <property name="SightsCameraOffset"   value="0.08,-0.06,-0.05"/>
+            <property name="zoomTriggerEffectTriggerPullDualsense" value="RifleZoom"/>
+            <property name="zoomTriggerEffectTriggerPullXbox"      value="PistolZoom"/>
+        </property>
+
+        <effect_group name="gunMGT3M60">
+            <passive_effect name="MaxRange"            operation="base_set"  value="90"     tags="perkMachineGunner"/>
+            <passive_effect name="DamageFalloffRange"  operation="base_set"  value="58"     tags="perkMachineGunner"/>
+            <passive_effect name="DamageFalloffRange"  operation="perc_add"  value="-.1,.05" tier="1,6" tags="perkMachineGunner"/>
+
+            <passive_effect name="BlockDamage"         operation="base_add"  value="-2"     tags="perkMachineGunner"/>
+            <passive_effect name="EntityDamage"        operation="base_add"  value="10"     tags="perkMachineGunner"/>
+            <passive_effect name="EntityDamage"        operation="perc_add"  value="-.02,.02" tags="perkMachineGunner"/>
+            <passive_effect name="EntityDamage"        operation="perc_add"  value=".05,.25"  tier="2,6" tags="perkMachineGunner"/>
+
+            <passive_effect name="BlockDamage"         operation="perc_add"  value="-.08,.08" tags="perkMachineGunner"/>
+            <passive_effect name="BlockDamage"         operation="perc_add"  value=".15,.75"  tier="2,6" tags="perkMachineGunner"/>
+
+            <passive_effect name="WeaponHandling"      operation="perc_add"  value="-.08,.08" tags="perkMachineGunner"/>
+            <passive_effect name="RoundsPerMinute"     operation="base_set"  value="440"    tags="perkMachineGunner"/>
+            <passive_effect name="BurstRoundCount"     operation="base_set"  value="1000"   tags="perkMachineGunner"/>
+            <passive_effect name="MagazineSize"        operation="base_set"  value="160"    tags="perkMachineGunner"/>
+            <passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"     tags="perkMachineGunner"/>
+
+            <passive_effect name="SpreadDegreesVertical"   operation="base_set" value="2.8" tags="perkMachineGunner"/>
+            <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8" tags="perkMachineGunner"/>
+            <passive_effect name="SpreadMultiplierAiming"  operation="base_set" value=".33" tags="perkMachineGunner"/>
+            <passive_effect name="SpreadMultiplierCrouching" operation="base_set" value=".8" tags="perkMachineGunner"/>
+            <passive_effect name="SpreadMultiplierWalking" operation="base_set" value="1.5" tags="perkMachineGunner"/>
+            <passive_effect name="SpreadMultiplierRunning" operation="base_set" value="2.2" tags="perkMachineGunner"/>
+
+            <passive_effect name="KickDegreesVerticalMin"   operation="base_set" value="-.4" tags="perkMachineGunner"/>
+            <passive_effect name="KickDegreesVerticalMax"   operation="base_set" value="1.1"  tags="perkMachineGunner"/>
+            <passive_effect name="KickDegreesHorizontalMin" operation="base_set" value="-1"   tags="perkMachineGunner"/>
+            <passive_effect name="KickDegreesHorizontalMax" operation="base_set" value="1"    tags="perkMachineGunner"/>
+
+            <passive_effect name="IncrementalSpreadMultiplier" operation="base_set" value="1.5" tags="perkMachineGunner"/>
+            <passive_effect name="WeaponHandling"              operation="base_set" value=".83"  tags="perkMachineGunner"/>
+
+            <passive_effect name="DegradationMax"    operation="base_set" value="2000,20000" tier="1,6" tags="perkMachineGunner,perkBookAutoWeapons"/>
+            <passive_effect name="DegradationPerUse" operation="base_set" value="1"          tags="perkMachineGunner,perkBookAutoWeapons"/>
+
+            <passive_effect name="ModSlots"      operation="base_set" value="3,4,4,4,5,6" tier="1,2,3,4,5,6"/>
+            <passive_effect name="ModPowerBonus" operation="perc_add" value=".10"  tags="EntityDamage,BlockDamage"/>
+            <passive_effect name="ModPowerBonus" operation="base_add" value="300"  tags="EconomicValue"/>
+        </effect_group>
+
+    </item>
+
+
+        <!-- ========================================================================== -->
+        <!-- Challenger 图纸 (Schematic) — 79 张                                         -->
+        <!-- ========================================================================== -->
+
+        <!-- ========================================================= -->
+        <!-- 护甲插件图纸 — KineticRecoilCore MK1-6                     -->
+        <!-- ========================================================= -->
+        <item name="modArmorKineticRecoilCoreMK1Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorKineticRecoilCoreMK1"/>
+            <property name="Unlocks" value="modArmorKineticRecoilCoreMK1"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorKineticRecoilCoreMK1" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorKineticRecoilCoreMK2Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorKineticRecoilCoreMK2"/>
+            <property name="Unlocks" value="modArmorKineticRecoilCoreMK2"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorKineticRecoilCoreMK2" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorKineticRecoilCoreMK3Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorKineticRecoilCoreMK3"/>
+            <property name="Unlocks" value="modArmorKineticRecoilCoreMK3"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorKineticRecoilCoreMK3" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorKineticRecoilCoreMK4Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorKineticRecoilCoreMK4"/>
+            <property name="Unlocks" value="modArmorKineticRecoilCoreMK4"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorKineticRecoilCoreMK4" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorKineticRecoilCoreMK5Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorKineticRecoilCoreMK5"/>
+            <property name="Unlocks" value="modArmorKineticRecoilCoreMK5"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorKineticRecoilCoreMK5" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorKineticRecoilCoreMK6Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorKineticRecoilCoreMK6"/>
+            <property name="Unlocks" value="modArmorKineticRecoilCoreMK6"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorKineticRecoilCoreMK6" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- EmergencyHealingCanister MK1-6 -->
+        <item name="modArmorEmergencyHealingCanisterMK1Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmergencyHealingCanisterMK1"/>
+            <property name="Unlocks" value="modArmorEmergencyHealingCanisterMK1"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmergencyHealingCanisterMK1" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorEmergencyHealingCanisterMK2Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmergencyHealingCanisterMK2"/>
+            <property name="Unlocks" value="modArmorEmergencyHealingCanisterMK2"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmergencyHealingCanisterMK2" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorEmergencyHealingCanisterMK3Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmergencyHealingCanisterMK3"/>
+            <property name="Unlocks" value="modArmorEmergencyHealingCanisterMK3"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmergencyHealingCanisterMK3" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorEmergencyHealingCanisterMK4Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmergencyHealingCanisterMK4"/>
+            <property name="Unlocks" value="modArmorEmergencyHealingCanisterMK4"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmergencyHealingCanisterMK4" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorEmergencyHealingCanisterMK5Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmergencyHealingCanisterMK5"/>
+            <property name="Unlocks" value="modArmorEmergencyHealingCanisterMK5"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmergencyHealingCanisterMK5" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorEmergencyHealingCanisterMK6Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmergencyHealingCanisterMK6"/>
+            <property name="Unlocks" value="modArmorEmergencyHealingCanisterMK6"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmergencyHealingCanisterMK6" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- BloodFrenzyCharm MK1-6 -->
+        <item name="modArmorBloodFrenzyCharmMK1Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorBloodFrenzyCharmMK1"/>
+            <property name="Unlocks" value="modArmorBloodFrenzyCharmMK1"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorBloodFrenzyCharmMK1" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorBloodFrenzyCharmMK2Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorBloodFrenzyCharmMK2"/>
+            <property name="Unlocks" value="modArmorBloodFrenzyCharmMK2"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorBloodFrenzyCharmMK2" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorBloodFrenzyCharmMK3Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorBloodFrenzyCharmMK3"/>
+            <property name="Unlocks" value="modArmorBloodFrenzyCharmMK3"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorBloodFrenzyCharmMK3" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorBloodFrenzyCharmMK4Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorBloodFrenzyCharmMK4"/>
+            <property name="Unlocks" value="modArmorBloodFrenzyCharmMK4"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorBloodFrenzyCharmMK4" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorBloodFrenzyCharmMK5Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorBloodFrenzyCharmMK5"/>
+            <property name="Unlocks" value="modArmorBloodFrenzyCharmMK5"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorBloodFrenzyCharmMK5" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorBloodFrenzyCharmMK6Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorBloodFrenzyCharmMK6"/>
+            <property name="Unlocks" value="modArmorBloodFrenzyCharmMK6"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorBloodFrenzyCharmMK6" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- StormGrounder MK1-6 -->
+        <item name="modArmorStormGrounderMK1Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorStormGrounderMK1"/>
+            <property name="Unlocks" value="modArmorStormGrounderMK1"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorStormGrounderMK1" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorStormGrounderMK2Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorStormGrounderMK2"/>
+            <property name="Unlocks" value="modArmorStormGrounderMK2"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorStormGrounderMK2" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorStormGrounderMK3Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorStormGrounderMK3"/>
+            <property name="Unlocks" value="modArmorStormGrounderMK3"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorStormGrounderMK3" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorStormGrounderMK4Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorStormGrounderMK4"/>
+            <property name="Unlocks" value="modArmorStormGrounderMK4"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorStormGrounderMK4" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorStormGrounderMK5Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorStormGrounderMK5"/>
+            <property name="Unlocks" value="modArmorStormGrounderMK5"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorStormGrounderMK5" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorStormGrounderMK6Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorStormGrounderMK6"/>
+            <property name="Unlocks" value="modArmorStormGrounderMK6"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorStormGrounderMK6" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- PlaguePurifierPump MK1-6 -->
+        <item name="modArmorPlaguePurifierPumpMK1Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorPlaguePurifierPumpMK1"/>
+            <property name="Unlocks" value="modArmorPlaguePurifierPumpMK1"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlaguePurifierPumpMK1" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorPlaguePurifierPumpMK2Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorPlaguePurifierPumpMK2"/>
+            <property name="Unlocks" value="modArmorPlaguePurifierPumpMK2"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlaguePurifierPumpMK2" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorPlaguePurifierPumpMK3Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorPlaguePurifierPumpMK3"/>
+            <property name="Unlocks" value="modArmorPlaguePurifierPumpMK3"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlaguePurifierPumpMK3" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorPlaguePurifierPumpMK4Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorPlaguePurifierPumpMK4"/>
+            <property name="Unlocks" value="modArmorPlaguePurifierPumpMK4"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlaguePurifierPumpMK4" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorPlaguePurifierPumpMK5Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorPlaguePurifierPumpMK5"/>
+            <property name="Unlocks" value="modArmorPlaguePurifierPumpMK5"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlaguePurifierPumpMK5" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorPlaguePurifierPumpMK6Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorPlaguePurifierPumpMK6"/>
+            <property name="Unlocks" value="modArmorPlaguePurifierPumpMK6"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorPlaguePurifierPumpMK6" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- CalamityStabilityField MK1-6 -->
+        <item name="modArmorCalamityStabilityFieldMK1Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorCalamityStabilityFieldMK1"/>
+            <property name="Unlocks" value="modArmorCalamityStabilityFieldMK1"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCalamityStabilityFieldMK1" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorCalamityStabilityFieldMK2Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorCalamityStabilityFieldMK2"/>
+            <property name="Unlocks" value="modArmorCalamityStabilityFieldMK2"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCalamityStabilityFieldMK2" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorCalamityStabilityFieldMK3Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorCalamityStabilityFieldMK3"/>
+            <property name="Unlocks" value="modArmorCalamityStabilityFieldMK3"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCalamityStabilityFieldMK3" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorCalamityStabilityFieldMK4Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorCalamityStabilityFieldMK4"/>
+            <property name="Unlocks" value="modArmorCalamityStabilityFieldMK4"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCalamityStabilityFieldMK4" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorCalamityStabilityFieldMK5Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorCalamityStabilityFieldMK5"/>
+            <property name="Unlocks" value="modArmorCalamityStabilityFieldMK5"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCalamityStabilityFieldMK5" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorCalamityStabilityFieldMK6Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorCalamityStabilityFieldMK6"/>
+            <property name="Unlocks" value="modArmorCalamityStabilityFieldMK6"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorCalamityStabilityFieldMK6" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- ========================================================= -->
+        <!-- 荆棘偏转甲 — ThornDeflectionPlate A7 / A72-A76           -->
+        <!-- ========================================================= -->
+        <item name="modArmorThornDeflectionPlateA7Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorThornDeflectionPlateA7"/>
+            <property name="Unlocks" value="modArmorThornDeflectionPlateA7"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorThornDeflectionPlateA7" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorThornDeflectionPlateA72Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorThornDeflectionPlateA72"/>
+            <property name="Unlocks" value="modArmorThornDeflectionPlateA72"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorThornDeflectionPlateA72" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorThornDeflectionPlateA73Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorThornDeflectionPlateA73"/>
+            <property name="Unlocks" value="modArmorThornDeflectionPlateA73"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorThornDeflectionPlateA73" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorThornDeflectionPlateA74Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorThornDeflectionPlateA74"/>
+            <property name="Unlocks" value="modArmorThornDeflectionPlateA74"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorThornDeflectionPlateA74" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorThornDeflectionPlateA75Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorThornDeflectionPlateA75"/>
+            <property name="Unlocks" value="modArmorThornDeflectionPlateA75"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorThornDeflectionPlateA75" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorThornDeflectionPlateA76Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorThornDeflectionPlateA76"/>
+            <property name="Unlocks" value="modArmorThornDeflectionPlateA76"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorThornDeflectionPlateA76" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- ========================================================= -->
+        <!-- 余烬复燃板 — EmberRekindlePlate A9 / A92-A96             -->
+        <!-- ========================================================= -->
+        <item name="modArmorEmberRekindlePlateA9Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmberRekindlePlateA9"/>
+            <property name="Unlocks" value="modArmorEmberRekindlePlateA9"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmberRekindlePlateA9" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorEmberRekindlePlateA92Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmberRekindlePlateA92"/>
+            <property name="Unlocks" value="modArmorEmberRekindlePlateA92"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmberRekindlePlateA92" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorEmberRekindlePlateA93Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmberRekindlePlateA93"/>
+            <property name="Unlocks" value="modArmorEmberRekindlePlateA93"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmberRekindlePlateA93" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorEmberRekindlePlateA94Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmberRekindlePlateA94"/>
+            <property name="Unlocks" value="modArmorEmberRekindlePlateA94"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmberRekindlePlateA94" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorEmberRekindlePlateA95Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmberRekindlePlateA95"/>
+            <property name="Unlocks" value="modArmorEmberRekindlePlateA95"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmberRekindlePlateA95" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modArmorEmberRekindlePlateA96Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorEmberRekindlePlateA96"/>
+            <property name="Unlocks" value="modArmorEmberRekindlePlateA96"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorEmberRekindlePlateA96" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- ========================================================= -->
+        <!-- 凋零适应外骨骼 P10                                        -->
+        <!-- ========================================================= -->
+        <item name="modArmorWitherAdaptiveExoskeletonP10Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modArmorWitherAdaptiveExoskeletonP10"/>
+            <property name="Unlocks" value="modArmorWitherAdaptiveExoskeletonP10"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modArmorWitherAdaptiveExoskeletonP10" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- ========================================================= -->
+        <!-- 武器插件图纸 — FireChaserSwarm WA1-6                      -->
+        <!-- ========================================================= -->
+        <item name="modWeaponFireChaserSwarmWA1Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFireChaserSwarmWA1"/>
+            <property name="Unlocks" value="modWeaponFireChaserSwarmWA1"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFireChaserSwarmWA1" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponFireChaserSwarmWA2Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFireChaserSwarmWA2"/>
+            <property name="Unlocks" value="modWeaponFireChaserSwarmWA2"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFireChaserSwarmWA2" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponFireChaserSwarmWA3Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFireChaserSwarmWA3"/>
+            <property name="Unlocks" value="modWeaponFireChaserSwarmWA3"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFireChaserSwarmWA3" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponFireChaserSwarmWA4Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFireChaserSwarmWA4"/>
+            <property name="Unlocks" value="modWeaponFireChaserSwarmWA4"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFireChaserSwarmWA4" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponFireChaserSwarmWA5Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFireChaserSwarmWA5"/>
+            <property name="Unlocks" value="modWeaponFireChaserSwarmWA5"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFireChaserSwarmWA5" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponFireChaserSwarmWA6Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFireChaserSwarmWA6"/>
+            <property name="Unlocks" value="modWeaponFireChaserSwarmWA6"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFireChaserSwarmWA6" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- FrostGrenadeNest WA1-6 -->
+        <item name="modWeaponFrostGrenadeNestWA1Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFrostGrenadeNestWA1"/>
+            <property name="Unlocks" value="modWeaponFrostGrenadeNestWA1"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFrostGrenadeNestWA1" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponFrostGrenadeNestWA2Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFrostGrenadeNestWA2"/>
+            <property name="Unlocks" value="modWeaponFrostGrenadeNestWA2"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFrostGrenadeNestWA2" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponFrostGrenadeNestWA3Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFrostGrenadeNestWA3"/>
+            <property name="Unlocks" value="modWeaponFrostGrenadeNestWA3"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFrostGrenadeNestWA3" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponFrostGrenadeNestWA4Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFrostGrenadeNestWA4"/>
+            <property name="Unlocks" value="modWeaponFrostGrenadeNestWA4"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFrostGrenadeNestWA4" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponFrostGrenadeNestWA5Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFrostGrenadeNestWA5"/>
+            <property name="Unlocks" value="modWeaponFrostGrenadeNestWA5"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFrostGrenadeNestWA5" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponFrostGrenadeNestWA6Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponFrostGrenadeNestWA6"/>
+            <property name="Unlocks" value="modWeaponFrostGrenadeNestWA6"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponFrostGrenadeNestWA6" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- LightningChainCapacitor WA1-6 -->
+        <item name="modWeaponLightningChainCapacitorWA1Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponLightningChainCapacitorWA1"/>
+            <property name="Unlocks" value="modWeaponLightningChainCapacitorWA1"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponLightningChainCapacitorWA1" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponLightningChainCapacitorWA2Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponLightningChainCapacitorWA2"/>
+            <property name="Unlocks" value="modWeaponLightningChainCapacitorWA2"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponLightningChainCapacitorWA2" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponLightningChainCapacitorWA3Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponLightningChainCapacitorWA3"/>
+            <property name="Unlocks" value="modWeaponLightningChainCapacitorWA3"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponLightningChainCapacitorWA3" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponLightningChainCapacitorWA4Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponLightningChainCapacitorWA4"/>
+            <property name="Unlocks" value="modWeaponLightningChainCapacitorWA4"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponLightningChainCapacitorWA4" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponLightningChainCapacitorWA5Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponLightningChainCapacitorWA5"/>
+            <property name="Unlocks" value="modWeaponLightningChainCapacitorWA5"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponLightningChainCapacitorWA5" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modWeaponLightningChainCapacitorWA6Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponLightningChainCapacitorWA6"/>
+            <property name="Unlocks" value="modWeaponLightningChainCapacitorWA6"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponLightningChainCapacitorWA6" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- ========================================================= -->
+        <!-- 动能递增机芯 WP3                                          -->
+        <!-- ========================================================= -->
+        <item name="modWeaponKineticEscalatorWP3Schematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modWeaponKineticEscalatorWP3"/>
+            <property name="Unlocks" value="modWeaponKineticEscalatorWP3"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modWeaponKineticEscalatorWP3" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <!-- ========================================================= -->
+        <!-- 定星专属武器配件图纸 (11种)                               -->
+        <!-- ========================================================= -->
+        <item name="modAstroxfixDMRSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modAstroxfixDMR"/>
+            <property name="Unlocks" value="modAstroxfixDMR"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modAstroxfixDMR" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modMilitech_SalvoCoreSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modMilitech_SalvoCore"/>
+            <property name="Unlocks" value="modMilitech_SalvoCore"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMilitech_SalvoCore" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modMilitech_BarrageCoreSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modMilitech_BarrageCore"/>
+            <property name="Unlocks" value="modMilitech_BarrageCore"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMilitech_BarrageCore" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modMilitech_ShardSplitterSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modMilitech_ShardSplitter"/>
+            <property name="Unlocks" value="modMilitech_ShardSplitter"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMilitech_ShardSplitter" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modMilitech_OverchargeRoundsSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modMilitech_OverchargeRounds"/>
+            <property name="Unlocks" value="modMilitech_OverchargeRounds"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMilitech_OverchargeRounds" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modMilitech_ChainAmplifierSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modMilitech_ChainAmplifier"/>
+            <property name="Unlocks" value="modMilitech_ChainAmplifier"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMilitech_ChainAmplifier" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modMilitech_FlameBarrageSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modMilitech_FlameBarrage"/>
+            <property name="Unlocks" value="modMilitech_FlameBarrage"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMilitech_FlameBarrage" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modMilitech_FrostBarrageSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modMilitech_FrostBarrage"/>
+            <property name="Unlocks" value="modMilitech_FrostBarrage"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMilitech_FrostBarrage" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modMilitech_ShockChainSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modMilitech_ShockChain"/>
+            <property name="Unlocks" value="modMilitech_ShockChain"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMilitech_ShockChain" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modMilitech_QuickChargeMagSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modMilitech_QuickChargeMag"/>
+            <property name="Unlocks" value="modMilitech_QuickChargeMag"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMilitech_QuickChargeMag" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+        <item name="modMilitech_PowerDumpMagSchematic">
+            <property name="Extends" value="schematicNoQualityMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="modMilitech_PowerDumpMag"/>
+            <property name="Unlocks" value="modMilitech_PowerDumpMag"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modMilitech_PowerDumpMag" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ========================================================================== -->
+        <!-- Challenger 箱子和工作台图纸 (Block Schematic) — 10 张                       -->
+        <!-- ========================================================================== -->
+
+        <item name="cntChallengerCrate_normalSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="icon_challengercrate_normal"/>
+            <property name="Unlocks" value="cntChallengerCrate_normal"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntChallengerCrate_normal" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <item name="cntChallengerCrate_hardSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="icon_challengercrate_hard"/>
+            <property name="Unlocks" value="cntChallengerCrate_hard"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntChallengerCrate_hard" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <item name="cntChallengerCrate_hellSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="icon_challengercrate_hell"/>
+            <property name="Unlocks" value="cntChallengerCrate_hell"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntChallengerCrate_hell" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <item name="cntChallengerCrate_extraSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="icon_challengercrate_extra"/>
+            <property name="Unlocks" value="cntChallengerCrate_extra"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntChallengerCrate_extra" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <item name="cntChallengerCrate_blackholeSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="icon_challengercrate_blackhole"/>
+            <property name="Unlocks" value="cntChallengerCrate_blackhole"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntChallengerCrate_blackhole" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <item name="cntChallengerCrate_goldmarineSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="icon_challengercrate_goldmarine"/>
+            <property name="Unlocks" value="cntChallengerCrate_goldmarine"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntChallengerCrate_goldmarine" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <item name="cntChallengerCrate_mutatedSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="icon_challengercrate_mutated"/>
+            <property name="Unlocks" value="cntChallengerCrate_mutated"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntChallengerCrate_mutated" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <item name="cntChallengerCrate_cyberpunkSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="icon_challengercrate_cyberpunk"/>
+            <property name="Unlocks" value="cntChallengerCrate_cyberpunk"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntChallengerCrate_cyberpunk" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <item name="cntChallengerCrate_natureSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="icon_challengercrate_nature"/>
+            <property name="Unlocks" value="cntChallengerCrate_nature"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntChallengerCrate_nature" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+        <item name="cntChallengerCrate_evilhandSchematic">
+            <property name="Extends" value="schematicNoQualityRecipeMaster"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="icon_challengercrate_evilhand"/>
+            <property name="Unlocks" value="cntChallengerCrate_evilhand"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="cntChallengerCrate_evilhand" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+
+
+        <!-- ========================================================================== -->
+        <!-- Challenger 货币物品 (6种)                                                   -->
+        <!-- ========================================================================== -->
+
+        <item name="resourceChallengerShard">
+            <property name="Extends" value="resourceCrushedSand" param1="CustomIcon"/>
+            <property name="CustomIcon" value="resourceChallengerShard"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Weight" value="1"/>
+            <property name="NoScrapping" value="true"/>
+            <property name="Stacknumber" value="1000"/>
+            <property name="EconomicValue" value="300"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="junk_grab"/>
+            <property name="SoundPlace" value="junk_place"/>
+        </item>
+
+        <item name="resourceChallengerCrystal">
+            <property name="Extends" value="resourceCrushedSand" param1="CustomIcon"/>
+            <property name="CustomIcon" value="resourceChallengerCrystal"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Weight" value="1"/>
+            <property name="NoScrapping" value="true"/>
+            <property name="Stacknumber" value="1000"/>
+            <property name="EconomicValue" value="1500"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="junk_grab"/>
+            <property name="SoundPlace" value="junk_place"/>
+        </item>
+
+        <item name="resourceChallengerCore">
+            <property name="Extends" value="resourceCrushedSand" param1="CustomIcon"/>
+            <property name="CustomIcon" value="resourceChallengerCore"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Weight" value="1"/>
+            <property name="NoScrapping" value="true"/>
+            <property name="Stacknumber" value="1000"/>
+            <property name="EconomicValue" value="6000"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="junk_grab"/>
+            <property name="SoundPlace" value="junk_place"/>
+        </item>
+
+        <item name="resourceChallengerWeave">
+            <property name="Extends" value="resourceCrushedSand" param1="CustomIcon"/>
+            <property name="CustomIcon" value="resourceChallengerWeave"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Weight" value="1"/>
+            <property name="NoScrapping" value="true"/>
+            <property name="Stacknumber" value="1000"/>
+            <property name="EconomicValue" value="24000"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="junk_grab"/>
+            <property name="SoundPlace" value="junk_place"/>
+        </item>
+
+        <item name="resourceChallengerSingularity">
+            <property name="Extends" value="resourceCrushedSand" param1="CustomIcon"/>
+            <property name="CustomIcon" value="resourceChallengerSingularity"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Weight" value="1"/>
+            <property name="NoScrapping" value="true"/>
+            <property name="Stacknumber" value="1000"/>
+            <property name="EconomicValue" value="96000"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="junk_grab"/>
+            <property name="SoundPlace" value="junk_place"/>
+        </item>
+
+        <item name="resourceChallengerEntropy">
+            <property name="Extends" value="resourceCrushedSand" param1="CustomIcon"/>
+            <property name="CustomIcon" value="resourceChallengerEntropy"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Weight" value="1"/>
+            <property name="NoScrapping" value="true"/>
+            <property name="Stacknumber" value="1000"/>
+            <property name="EconomicValue" value="384000"/>
+            <property name="EconomicBundleSize" value="10"/>
+            <property name="Group" value="Resources"/>
+            <property name="SoundPickup" value="junk_grab"/>
+            <property name="SoundPlace" value="junk_place"/>
+        </item>
+
+
+    </append>
+
+</configs>

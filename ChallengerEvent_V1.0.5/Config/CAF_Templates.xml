@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+    <!-- ========================================== -->
+    <!-- 模板: AstrofixMG 普通智能突击步枪弹 -->
+    <!-- ========================================== -->
+    <template name="CAF_AstrofixMG_Normal">
+        <property name="CAF_FireModuleType" value="CustomRanged"/>
+        <!-- 基础控制： -->
+        <property name="CR_Delay" value="0.08"/> 
+        <property name="CR_TargetTags" value="zombie,animal"/> 
+        <!-- 音效接口： -->
+        <property name="CR_FireStartAudio" value="#@modfolder:Resources/astrofix_sound.unity3d?Astrofix_fire_sound.prefab"/>
+        <property name="CR_FireLoopAudio"       value="#@modfolder:Resources/astrofix_sound.unity3d?Astrofix_fire_loop_sound.prefab"/>
+        <property name="CR_FireEndAudio" value="#@modfolder:Resources/astrofix_sound.unity3d?Astrofix_fireend_sound.prefab"/>
+        <!-- 武器面板伤害联动，倍率 1.0 -->
+        <property name="CR_Proj_UseWeaponDamage" value="true"/> 
+        <property name="CR_Proj_WeaponDamagePercent" value="1.0"/> 
+        <!-- 投射物核心 -->
+        <property name="CR_Count" value="1"/>
+        <property name="CR_SpreadAngle" value="8"/>
+        <property name="CR_HitForce" value="5"/>
+        <property name="CR_Velocity" value="120"/> <!-- 高初速 -->
+        <property name="CR_Gravity"           value="1"/>
+        <property name="CR_ProjectileLifetime" value="5"/>
+        <property name="CR_HitRadius" value="0.5"/>
+        <property name="CR_Particle" value="#@modfolder:Resources/astrofix_vfx.unity3d?astrofix_proj.prefab"/>
+        <property name="CR_ParticleScale" value="0.3"/>
+        <property name="CR_HitParticle" value="#@modfolder:Resources/astrofix_vfx.unity3d?astrofix_hit.prefab"/>
+        <property name="CR_PierceCount" value="0"/>
+        <property name="CR_ChainSpread" value="1"/>
+        <property name="CR_ChainVertical" value="0,0"/> 
+        <property name="CR_VerticalAngle" value="0,0"/> 
+        <property name="CR_ChainHomingRadius" value="5"/>
+        <!-- 弧圈弹道与跟踪系统 -->
+        <property name="CR_CurveMode" value="true"/>
+        <property name="CR_CurveSpread" value="1,1"/>
+        <property name="CR_CurveDelay" value="0.1"/>
+        <property name="CR_CurveTurnSpeed" value="1000"/>
+        <property name="CR_HomingRadius" value="5"/>
+        <!-- 枪口特效 -->
+        <property name="CR_AOE_Shape" value="cone"/>
+        <property name="CR_AOE_Radius" value="0.5"/>
+        <property name="CR_AOE_ConeAngle" value="160"/>    
+        <property name="CR_AOE_Damage" value="0"/> 
+        <property name="CR_AOE_Force" value="0"/>
+        <property name="CR_AOE_Particle" value="#@modfolder:Resources/astrofix_vfx.unity3d?astrofix_muzzle.prefab"/> 
+    </template>
+
+
+</configs>

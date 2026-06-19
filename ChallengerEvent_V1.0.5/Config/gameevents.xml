@@ -1,0 +1,1143 @@
+<configs>
+    <append xpath="/gameevents">
+
+        <!-- ===================================================== -->
+        <!-- T1 新手挑战：感染者清理                               -->
+        <!-- 总量 12，同时最多 8                                    -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_challenge_t1">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="1"/>
+                <property name="max_alive_at_once" value="8"/>
+                <property name="spawn_batch_size" value="8"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_t1"/>
+                <property name="reward_requires_target_alive" value="true"/>
+
+                <property name="max_duration" value="120"/>
+                <property name="challenge_title" value="Challenge T1: Infected Cleanup"/>
+                <property name="challenge_show_ui" value="true"/>
+                <property name="challenge_start_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_start.prefab"/>
+                <property name="challenge_complete_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_complete.prefab"/>
+                <property name="challenge_timeout_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_fail.prefab"/>
+
+                <property name="group_1_entity_group" value="Challenger_Trash"/>
+                <property name="group_1_spawn_count" value="12"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT1"/>
+                <property name="group_1_model_scale" value="1.0"/>
+                <property name="group_1_random_buff_model_scale" value="1.15"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire"/>
+                <property name="group_1_random_buff_count" value="1"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- T2 新手挑战：混合尸群                                 -->
+        <!-- 总量 18，同时最多 10                                   -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_challenge_t2">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="1"/>
+                <property name="max_alive_at_once" value="10"/>
+                <property name="spawn_batch_size" value="10"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_t2"/>
+                <property name="reward_requires_target_alive" value="true"/>
+
+                <property name="max_duration" value="150"/>
+                <property name="challenge_title" value="Challenge T2: Mixed Horde"/>
+                <property name="challenge_show_ui" value="true"/>
+                <property name="challenge_start_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_start.prefab"/>
+                <property name="challenge_complete_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_complete.prefab"/>
+                <property name="challenge_timeout_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_fail.prefab"/>
+
+                <property name="group_1_entity_group" value="Challenger_NormalMixed"/>
+                <property name="group_1_spawn_count" value="18"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT1"/>
+                <property name="group_1_model_scale" value="1.0"/>
+                <property name="group_1_random_buff_model_scale" value="1.2"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift"/>
+                <property name="group_1_random_buff_count" value="2"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- T3 新手高阶：狂暴感染者                               -->
+        <!-- 总量 28，同时最多 14                                   -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_challenge_t3">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="2"/>
+                <property name="max_alive_at_once" value="14"/>
+                <property name="spawn_batch_size" value="10"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_t3"/>
+                <property name="reward_requires_target_alive" value="true"/>
+
+                <property name="max_duration" value="180"/>
+                <property name="challenge_title" value="Challenge T3: Frenzied Feral"/>
+                <property name="challenge_show_ui" value="true"/>
+                <property name="challenge_start_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_start.prefab"/>
+                <property name="challenge_complete_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_complete.prefab"/>
+                <property name="challenge_timeout_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_fail.prefab"/>
+
+                <property name="group_1_entity_group" value="Challenger_NormalMixed"/>
+                <property name="group_1_spawn_count" value="14"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT2"/>
+                <property name="group_1_model_scale" value="1.0"/>
+                <property name="group_1_random_buff_model_scale" value="1.25"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift"/>
+                <property name="group_1_random_buff_count" value="2"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+
+                <property name="group_2_entity_group" value="Challenger_Feral"/>
+                <property name="group_2_spawn_count" value="14"/>
+                <property name="group_2_min_distance" value="30"/>
+                <property name="group_2_max_distance" value="50"/>
+                <property name="group_2_y_offset" value="1.5"/>
+                <property name="group_2_is_aggressive" value="true"/>
+                <property name="group_2_single_choice" value="false"/>
+                <property name="group_2_universal_add_buffs" value="buffChallengerUniversalT2"/>
+                <property name="group_2_model_scale" value="1.1"/>
+                <property name="group_2_random_buff_model_scale" value="1.35"/>
+                <property name="group_2_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift,buffChallengerEliteHealingAura"/>
+                <property name="group_2_random_buff_count" value="3"/>
+                <property name="group_2_random_buffs_per_entity" value="1"/>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- T4 中阶挑战：辐射尸群                                 -->
+        <!-- 总量 40，同时最多 16                                   -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_challenge_t4">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="1"/>
+                <property name="max_alive_at_once" value="16"/>
+                <property name="spawn_batch_size" value="12"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_t4"/>
+                <property name="reward_requires_target_alive" value="true"/>
+
+                <property name="max_duration" value="210"/>
+                <property name="challenge_title" value="Challenge T4: Radiated Horde"/>
+                <property name="challenge_show_ui" value="true"/>
+                <property name="challenge_start_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_start.prefab"/>
+                <property name="challenge_complete_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_complete.prefab"/>
+                <property name="challenge_timeout_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_fail.prefab"/>
+
+                <property name="group_1_entity_group" value="Challenger_Radiated"/>
+                <property name="group_1_spawn_count" value="40"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT4"/>
+                <property name="group_1_model_scale" value="1.15"/>
+                <property name="group_1_random_buff_model_scale" value="1.45"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift,buffChallengerEliteFrost,buffChallengerEliteHealingAura"/>
+                <property name="group_1_random_buff_count" value="6"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t1,challenger_extra_t2,challenger_extra_t3"/>
+                <property name="single_choice" value="true"/>
+                <requirement class="RandomRoll">
+                    <property name="min_max" value="0,100"/>
+                    <property name="operation" value="LTE"/>
+                    <property name="value" value="25"/>
+                </requirement>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- T5 中高阶挑战：充能精英                               -->
+        <!-- 总量 55，同时最多 20                                   -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_challenge_t5">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="2"/>
+                <property name="max_alive_at_once" value="20"/>
+                <property name="spawn_batch_size" value="12"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_t5"/>
+                <property name="reward_requires_target_alive" value="true"/>
+
+                <property name="max_duration" value="240"/>
+                <property name="challenge_title" value="Challenge T5: Empowered Elite"/>
+                <property name="challenge_show_ui" value="true"/>
+                <property name="challenge_start_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_start.prefab"/>
+                <property name="challenge_complete_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_complete.prefab"/>
+                <property name="challenge_timeout_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_fail.prefab"/>
+
+                <property name="group_1_entity_group" value="Challenger_Radiated"/>
+                <property name="group_1_spawn_count" value="30"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT4"/>
+                <property name="group_1_model_scale" value="1.15"/>
+                <property name="group_1_random_buff_model_scale" value="1.45"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift,buffChallengerEliteFrost,buffChallengerElitePlague,buffChallengerEliteHealingAura"/>
+                <property name="group_1_random_buff_count" value="5"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+
+                <property name="group_2_entity_group" value="Challenger_RadiatedElite"/>
+                <property name="group_2_spawn_count" value="25"/>
+                <property name="group_2_min_distance" value="30"/>
+                <property name="group_2_max_distance" value="50"/>
+                <property name="group_2_y_offset" value="1.5"/>
+                <property name="group_2_is_aggressive" value="true"/>
+                <property name="group_2_single_choice" value="false"/>
+                <property name="group_2_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_2_model_scale" value="1.25"/>
+                <property name="group_2_random_buff_model_scale" value="1.6"/>
+                <property name="group_2_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift,buffChallengerEliteFrost,buffChallengerElitePlague,buffChallengerEliteStorm,buffChallengerEliteHealingAura"/>
+                <property name="group_2_random_buff_count" value="6"/>
+                <property name="group_2_random_buffs_per_entity" value="1"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t2,challenger_extra_t3"/>
+                <property name="single_choice" value="true"/>
+                <requirement class="RandomRoll">
+                    <property name="min_max" value="0,100"/>
+                    <property name="operation" value="LTE"/>
+                    <property name="value" value="35"/>
+                </requirement>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- T6 高阶挑战：地狱先锋                                 -->
+        <!-- 总量 75，同时最多 24                                   -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_challenge_t6">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="2"/>
+                <property name="max_alive_at_once" value="20"/>
+                <property name="spawn_batch_size" value="15"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_t6"/>
+                <property name="reward_requires_target_alive" value="true"/>
+
+                <property name="max_duration" value="270"/>
+                <property name="challenge_title" value="Challenge T6: Infernal Vanguard"/>
+                <property name="challenge_show_ui" value="true"/>
+                <property name="challenge_start_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_start.prefab"/>
+                <property name="challenge_complete_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_complete.prefab"/>
+                <property name="challenge_timeout_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_fail.prefab"/>
+
+                <property name="group_1_entity_group" value="Challenger_RadiatedElite"/>
+                <property name="group_1_spawn_count" value="35"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_1_model_scale" value="1.25"/>
+                <property name="group_1_random_buff_model_scale" value="1.6"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift,buffChallengerEliteFrost,buffChallengerElitePlague,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteHealingAura"/>
+                <property name="group_1_random_buff_count" value="7"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+
+                <property name="group_2_entity_group" value="Challenger_InfernalFront"/>
+                <property name="group_2_spawn_count" value="40"/>
+                <property name="group_2_min_distance" value="30"/>
+                <property name="group_2_max_distance" value="50"/>
+                <property name="group_2_y_offset" value="1.5"/>
+                <property name="group_2_is_aggressive" value="true"/>
+                <property name="group_2_single_choice" value="false"/>
+                <property name="group_2_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_2_model_scale" value="1.3"/>
+                <property name="group_2_random_buff_model_scale" value="1.7"/>
+                <property name="group_2_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteBloodlust,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteCalamity,buffChallengerEliteHealingAura"/>
+                <property name="group_2_random_buff_count" value="8"/>
+                <property name="group_2_random_buffs_per_entity" value="1"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t3,challenger_extra_t4"/>
+                <property name="single_choice" value="true"/>
+                <requirement class="RandomRoll">
+                    <property name="min_max" value="0,100"/>
+                    <property name="operation" value="LTE"/>
+                    <property name="value" value="50"/>
+                </requirement>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- T7 高阶挑战：地狱军团                                 -->
+        <!-- 总量 95 -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_challenge_t7">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="3"/>
+                <property name="max_alive_at_once" value="20"/>
+                <property name="spawn_batch_size" value="15"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_t7"/>
+                <property name="reward_requires_target_alive" value="true"/>
+
+                <property name="max_duration" value="300"/>
+                <property name="challenge_title" value="Challenge T7: Hell Legion"/>
+                <property name="challenge_show_ui" value="true"/>
+                <property name="challenge_start_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_start.prefab"/>
+                <property name="challenge_complete_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_complete.prefab"/>
+                <property name="challenge_timeout_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_fail.prefab"/>
+
+                <property name="group_1_entity_group" value="Challenger_InfernalFront"/>
+                <property name="group_1_spawn_count" value="35"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_1_model_scale" value="1.25"/>
+                <property name="group_1_random_buff_model_scale" value="1.65"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift,buffChallengerEliteFrost,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteHealingAura"/>
+                <property name="group_1_random_buff_count" value="7"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+
+                <property name="group_2_entity_group" value="Challenger_Infernal"/>
+                <property name="group_2_spawn_count" value="40"/>
+                <property name="group_2_min_distance" value="30"/>
+                <property name="group_2_max_distance" value="50"/>
+                <property name="group_2_y_offset" value="1.5"/>
+                <property name="group_2_is_aggressive" value="true"/>
+                <property name="group_2_single_choice" value="false"/>
+                <property name="group_2_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_2_model_scale" value="1.3"/>
+                <property name="group_2_random_buff_model_scale" value="1.75"/>
+                <property name="group_2_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift,buffChallengerEliteFrost,buffChallengerElitePlague,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteBloodlust,buffChallengerEliteCalamity,buffChallengerEliteHealingAura"/>
+                <property name="group_2_random_buff_count" value="8"/>
+                <property name="group_2_random_buffs_per_entity" value="1"/>
+
+                <property name="group_3_entity_group" value="Challenger_RadiatedElite"/>
+                <property name="group_3_spawn_count" value="20"/>
+                <property name="group_3_min_distance" value="30"/>
+                <property name="group_3_max_distance" value="50"/>
+                <property name="group_3_y_offset" value="1.5"/>
+                <property name="group_3_is_aggressive" value="true"/>
+                <property name="group_3_single_choice" value="false"/>
+                <property name="group_3_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_3_model_scale" value="1.25"/>
+                <property name="group_3_random_buff_model_scale" value="1.65"/>
+                <property name="group_3_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteHealingAura"/>
+                <property name="group_3_random_buff_count" value="4"/>
+                <property name="group_3_random_buffs_per_entity" value="1"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t4,challenger_extra_t5"/>
+                <property name="single_choice" value="true"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t3,challenger_extra_t4"/>
+                <property name="single_choice" value="true"/>
+                <requirement class="RandomRoll">
+                    <property name="min_max" value="0,100"/>
+                    <property name="operation" value="LTE"/>
+                    <property name="value" value="40"/>
+                </requirement>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- T8 高阶挑战：地狱精英                                 -->
+        <!-- 总量 120                       -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_challenge_t8">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="3"/>
+                <property name="max_alive_at_once" value="20"/>
+                <property name="spawn_batch_size" value="15"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_t8"/>
+                <property name="reward_requires_target_alive" value="true"/>
+
+                <property name="max_duration" value="330"/>
+                <property name="challenge_title" value="Challenge T8: Hell Elite"/>
+                <property name="challenge_show_ui" value="true"/>
+                <property name="challenge_start_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_start.prefab"/>
+                <property name="challenge_complete_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_complete.prefab"/>
+                <property name="challenge_timeout_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_fail.prefab"/>
+
+                <property name="group_1_entity_group" value="Challenger_Infernal"/>
+                <property name="group_1_spawn_count" value="45"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_1_model_scale" value="1.35"/>
+                <property name="group_1_random_buff_model_scale" value="1.8"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift,buffChallengerEliteFrost,buffChallengerElitePlague,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteBloodlust,buffChallengerEliteCalamity,buffChallengerEliteHealingAura"/>
+                <property name="group_1_random_buff_count" value="9"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+
+                <property name="group_2_entity_group" value="Challenger_HellElite"/>
+                <property name="group_2_spawn_count" value="45"/>
+                <property name="group_2_min_distance" value="30"/>
+                <property name="group_2_max_distance" value="50"/>
+                <property name="group_2_y_offset" value="1.5"/>
+                <property name="group_2_is_aggressive" value="true"/>
+                <property name="group_2_single_choice" value="false"/>
+                <property name="group_2_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_2_model_scale" value="1.45"/>
+                <property name="group_2_random_buff_model_scale" value="1.9"/>
+                <property name="group_2_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteBloodlust,buffChallengerEliteCalamity,buffChallengerEliteHealingAura"/>
+                <property name="group_2_random_buff_count" value="9"/>
+                <property name="group_2_random_buffs_per_entity" value="1"/>
+
+                <property name="group_3_entity_group" value="Challenger_RadiatedElite"/>
+                <property name="group_3_spawn_count" value="30"/>
+                <property name="group_3_min_distance" value="30"/>
+                <property name="group_3_max_distance" value="50"/>
+                <property name="group_3_y_offset" value="1.5"/>
+                <property name="group_3_is_aggressive" value="true"/>
+                <property name="group_3_single_choice" value="false"/>
+                <property name="group_3_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_3_model_scale" value="1.3"/>
+                <property name="group_3_random_buff_model_scale" value="1.7"/>
+                <property name="group_3_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteHealingAura"/>
+                <property name="group_3_random_buff_count" value="6"/>
+                <property name="group_3_random_buffs_per_entity" value="1"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t4,challenger_extra_t5"/>
+                <property name="single_choice" value="true"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t3,challenger_extra_t4,challenger_extra_t5"/>
+                <property name="single_choice" value="true"/>
+                <requirement class="RandomRoll">
+                    <property name="min_max" value="0,100"/>
+                    <property name="operation" value="LTE"/>
+                    <property name="value" value="70"/>
+                </requirement>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- T9 终局挑战：地狱首领                                 -->
+        <!-- 总量 160  -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_challenge_t9">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="3"/>
+                <property name="max_alive_at_once" value="20"/>
+                <property name="spawn_batch_size" value="15"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_t9"/>
+                <property name="reward_requires_target_alive" value="true"/>
+
+                <property name="max_duration" value="390"/>
+                <property name="challenge_title" value="Challenge T9: Hell Warlord"/>
+                <property name="challenge_show_ui" value="true"/>
+                <property name="challenge_start_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_start.prefab"/>
+                <property name="challenge_complete_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_complete.prefab"/>
+                <property name="challenge_timeout_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_fail.prefab"/>
+
+                <property name="group_1_entity_group" value="Challenger_HellElite"/>
+                <property name="group_1_spawn_count" value="60"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_1_model_scale" value="1.45"/>
+                <property name="group_1_random_buff_model_scale" value="1.9"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteBloodlust,buffChallengerEliteCalamity,buffChallengerEliteHealingAura"/>
+                <property name="group_1_random_buff_count" value="12"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+
+                <property name="group_2_entity_group" value="Challenger_HellBoss"/>
+                <property name="group_2_spawn_count" value="50"/>
+                <property name="group_2_min_distance" value="30"/>
+                <property name="group_2_max_distance" value="50"/>
+                <property name="group_2_y_offset" value="1.5"/>
+                <property name="group_2_is_aggressive" value="true"/>
+                <property name="group_2_single_choice" value="false"/>
+                <property name="group_2_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_2_model_scale" value="1.6"/>
+                <property name="group_2_random_buff_model_scale" value="2.05"/>
+                <property name="group_2_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteBloodlust,buffChallengerEliteCalamity,buffChallengerEliteHealingAura"/>
+                <property name="group_2_random_buff_count" value="10"/>
+                <property name="group_2_random_buffs_per_entity" value="1"/>
+
+                <property name="group_3_entity_group" value="Challenger_Infernal"/>
+                <property name="group_3_spawn_count" value="50"/>
+                <property name="group_3_min_distance" value="30"/>
+                <property name="group_3_max_distance" value="50"/>
+                <property name="group_3_y_offset" value="1.5"/>
+                <property name="group_3_is_aggressive" value="true"/>
+                <property name="group_3_single_choice" value="false"/>
+                <property name="group_3_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_3_model_scale" value="1.4"/>
+                <property name="group_3_random_buff_model_scale" value="1.85"/>
+                <property name="group_3_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteBloodlust,buffChallengerEliteHealingAura"/>
+                <property name="group_3_random_buff_count" value="10"/>
+                <property name="group_3_random_buffs_per_entity" value="1"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t4,challenger_extra_t5"/>
+                <property name="single_choice" value="true"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t4,challenger_extra_t5"/>
+                <property name="single_choice" value="true"/>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- T10 终极挑战：终极异变                                -->
+        <!-- 总量 200 -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_challenge_t10">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="3"/>
+                <property name="max_alive_at_once" value="15"/>
+                <property name="spawn_batch_size" value="10"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_t10"/>
+                <property name="reward_requires_target_alive" value="true"/>
+
+                <property name="max_duration" value="480"/>
+                <property name="challenge_title" value="Challenge T10: Ultimate Aberration"/>
+                <property name="challenge_show_ui" value="true"/>
+                <property name="challenge_start_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_start.prefab"/>
+                <property name="challenge_complete_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_complete.prefab"/>
+                <property name="challenge_timeout_sound" value="#@modfolder:Resources/challengerevent.unity3d?challenge_fail.prefab"/>
+
+                <property name="group_1_entity_group" value="Challenger_HellBoss"/>
+                <property name="group_1_spawn_count" value="70"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_1_model_scale" value="1.65"/>
+                <property name="group_1_random_buff_model_scale" value="2.1"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteBloodlust,buffChallengerEliteCalamity,buffChallengerEliteHealingAura"/>
+                <property name="group_1_random_buff_count" value="14"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+
+                <property name="group_2_entity_group" value="Challenger_Ultimate"/>
+                <property name="group_2_spawn_count" value="70"/>
+                <property name="group_2_min_distance" value="30"/>
+                <property name="group_2_max_distance" value="50"/>
+                <property name="group_2_y_offset" value="1.5"/>
+                <property name="group_2_is_aggressive" value="true"/>
+                <property name="group_2_single_choice" value="false"/>
+                <property name="group_2_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_2_model_scale" value="1.75"/>
+                <property name="group_2_random_buff_model_scale" value="2.25"/>
+                <property name="group_2_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteBloodlust,buffChallengerEliteCalamity,buffChallengerEliteHealingAura"/>
+                <property name="group_2_random_buff_count" value="16"/>
+                <property name="group_2_random_buffs_per_entity" value="1"/>
+
+                <property name="group_3_entity_group" value="Challenger_HellElite"/>
+                <property name="group_3_spawn_count" value="60"/>
+                <property name="group_3_min_distance" value="30"/>
+                <property name="group_3_max_distance" value="50"/>
+                <property name="group_3_y_offset" value="1.5"/>
+                <property name="group_3_is_aggressive" value="true"/>
+                <property name="group_3_single_choice" value="false"/>
+                <property name="group_3_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_3_model_scale" value="1.6"/>
+                <property name="group_3_random_buff_model_scale" value="2.0"/>
+                <property name="group_3_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteBloodlust,buffChallengerEliteCalamity,buffChallengerEliteHealingAura"/>
+                <property name="group_3_random_buff_count" value="12"/>
+                <property name="group_3_random_buffs_per_entity" value="1"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t5"/>
+                <property name="single_choice" value="true"/>
+            </action>
+
+            <action class="CallGameEvent">
+                <property name="game_events" value="challenger_extra_t4,challenger_extra_t5"/>
+                <property name="single_choice" value="true"/>
+            </action>
+
+            <action class="AddBuff">
+                <property name="buff_name" value="buffWitherFieldAura"/>
+            </action>
+
+            <action class="SetWeather">
+                <property name="weather_group" value="twitch_storm" />
+                <property name="time" value="480" />
+            </action>
+
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- 额外挑战 T1：杂兵增援                                 -->
+        <!-- 小体量，走 ChallengerSpawnEntity，可领奖励              -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_extra_t1">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="1"/>
+                <property name="max_alive_at_once" value="6"/>
+                <property name="spawn_batch_size" value="6"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_extra_minor"/>
+                <property name="reward_requires_target_alive" value="true"/>
+                <property name="max_duration" value="120"/>
+                <property name="challenge_title" value="Bonus Challenge: Trash Reinforcements"/>
+                <property name="challenge_show_ui" value="true"/>
+
+                <property name="group_1_entity_group" value="Challenger_Trash"/>
+                <property name="group_1_spawn_count" value="10"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT1"/>
+                <property name="group_1_model_scale" value="1.0"/>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- 额外挑战 T2                                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_extra_t2">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="1"/>
+                <property name="max_alive_at_once" value="5"/>
+                <property name="spawn_batch_size" value="5"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_extra_minor"/>
+                <property name="reward_requires_target_alive" value="true"/>
+                <property name="max_duration" value="150"/>
+                <property name="challenge_title" value="Bonus Challenge: Mixed Reinforcements"/>
+                <property name="challenge_show_ui" value="true"/>
+
+                <property name="group_1_entity_group" value="Challenger_NormalMixed"/>
+                <property name="group_1_spawn_count" value="14"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT2"/>
+                <property name="group_1_model_scale" value="1.0"/>
+                <property name="group_1_random_buff_model_scale" value="1.25"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift"/>
+                <property name="group_1_random_buff_count" value="2"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- 额外挑战 T3                                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_extra_t3">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="1"/>
+                <property name="max_alive_at_once" value="5"/>
+                <property name="spawn_batch_size" value="8"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_extra_mid"/>
+                <property name="reward_requires_target_alive" value="true"/>
+                <property name="max_duration" value="180"/>
+                <property name="challenge_title" value="Bonus Challenge: Frenzied Reinforcements"/>
+                <property name="challenge_show_ui" value="true"/>
+
+                <property name="group_1_entity_group" value="Challenger_Feral"/>
+                <property name="group_1_spawn_count" value="18"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT3"/>
+                <property name="group_1_model_scale" value="1.1"/>
+                <property name="group_1_random_buff_model_scale" value="1.4"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift,buffChallengerEliteHealingAura"/>
+                <property name="group_1_random_buff_count" value="3"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- 额外挑战 T4                                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_extra_t4">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="1"/>
+                <property name="max_alive_at_once" value="5"/>
+                <property name="spawn_batch_size" value="5"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_extra_high"/>
+                <property name="reward_requires_target_alive" value="true"/>
+                <property name="max_duration" value="210"/>
+                <property name="challenge_title" value="Bonus Challenge: Radiated Reinforcements"/>
+                <property name="challenge_show_ui" value="true"/>
+
+                <property name="group_1_entity_group" value="Challenger_Radiated"/>
+                <property name="group_1_spawn_count" value="24"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT4"/>
+                <property name="group_1_model_scale" value="1.25"/>
+                <property name="group_1_random_buff_model_scale" value="1.6"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteSwift,buffChallengerEliteFrost,buffChallengerElitePlague,buffChallengerEliteHealingAura"/>
+                <property name="group_1_random_buff_count" value="5"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+            </action>
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- 额外挑战 T5                                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_extra_t5">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+
+            <action class="ChallengerSpawnEntity, ChallengerEvent">
+                <property name="spawn_group_count" value="1"/>
+                <property name="max_alive_at_once" value="5"/>
+                <property name="spawn_batch_size" value="5"/>
+                <property name="progressive_spawn_interval" value="2"/>
+
+                <property name="challenger_reward" value="challenger_reward_extra_high"/>
+                <property name="reward_requires_target_alive" value="true"/>
+                <property name="max_duration" value="240"/>
+                <property name="challenge_title" value="Bonus Challenge: Empowered Elite Reinforcements"/>
+                <property name="challenge_show_ui" value="true"/>
+
+                <property name="group_1_entity_group" value="Challenger_RadiatedElite"/>
+                <property name="group_1_spawn_count" value="28"/>
+                <property name="group_1_min_distance" value="30"/>
+                <property name="group_1_max_distance" value="50"/>
+                <property name="group_1_y_offset" value="1.5"/>
+                <property name="group_1_is_aggressive" value="true"/>
+                <property name="group_1_single_choice" value="false"/>
+                <property name="group_1_universal_add_buffs" value="buffChallengerUniversalT5"/>
+                <property name="group_1_model_scale" value="1.35"/>
+                <property name="group_1_random_buff_model_scale" value="1.75"/>
+                <property name="group_1_random_buffs" value="buffChallengerEliteFire,buffChallengerEliteStorm,buffChallengerEliteThorn,buffChallengerEliteBloodlust,buffChallengerEliteCalamity,buffChallengerEliteHealingAura"/>
+                <property name="group_1_random_buff_count" value="6"/>
+                <property name="group_1_random_buffs_per_entity" value="1"/>
+            </action>
+        </action_sequence>
+
+
+   <!-- ======================奖励箱子=============================== -->
+        <!-- ===================================================== -->
+        <!-- T1 奖励：低阶箱子 + T1 掉落                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_t1">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestLow"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Challenger Low-Tier Reward Crate T1"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardT1"/>
+            </action>
+        </action_sequence>
+        <!-- ===================================================== -->
+        <!-- T2 奖励：低阶箱子 + T2 掉落                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_t2">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestLow"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Challenger Low-Tier Reward Crate T2"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardT2"/>
+            </action>
+        </action_sequence>
+        <!-- ===================================================== -->
+        <!-- T3 奖励：低阶箱子 + T3 掉落                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_t3">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestLow"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Challenger Low-Tier Reward Crate T3"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardT3"/>
+            </action>
+        </action_sequence>
+
+  <!-- ===================================================== -->
+        <!-- T4 奖励：困难箱子 + T4 掉落                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_t4">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestHard"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Challenger Hard Reward Crate T4"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardT4"/>
+            </action>
+        </action_sequence>
+        <!-- ===================================================== -->
+        <!-- T5 奖励：困难箱子 + T5 掉落                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_t5">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestHard"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Challenger Hard Reward Crate T5"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardT5"/>
+            </action>
+        </action_sequence>
+
+        <!-- ===================================================== -->
+        <!-- T6 奖励：困难箱子 + T6 掉落                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_t6">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestHard"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Challenger Hard Reward Crate T6"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardT6"/>
+            </action>
+        </action_sequence>
+
+ <!-- ===================================================== -->
+        <!-- T7 奖励：地狱箱子 + T7 掉落                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_t7">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestHell"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Challenger Hell Reward Crate T7"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardT7"/>
+            </action>
+        </action_sequence>
+        <!-- ===================================================== -->
+        <!-- T8 奖励：地狱箱子 + T8 掉落                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_t8">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestHell"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Challenger Hell Reward Crate T8"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardT8"/>
+            </action>
+        </action_sequence>
+        <!-- ===================================================== -->
+        <!-- T9 奖励：地狱箱子 + T9 掉落                           -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_t9">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestHell"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Challenger Hell Reward Crate T9"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardT9"/>
+            </action>
+        </action_sequence>
+        <!-- ===================================================== -->
+        <!-- T10 奖励：地狱箱子 + T10 掉落                         -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_t10">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestHell"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Challenger Hell Reward Crate T10"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardT10"/>
+            </action>
+
+            <action class="RemoveBuff">
+                <property name="buff_name" value="buffWitherFieldAura" />
+            </action>
+
+            <action class="SetWeather">
+                <property name="weather_group" value="default" />
+            </action>
+            
+        </action_sequence>
+
+
+        <!-- ===================================================== -->
+        <!-- 额外挑战：小奖励                                      -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_extra_minor">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestExtra"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Bonus Challenge Reward Crate"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardExtraMinor"/>
+            </action>
+        </action_sequence>
+        <!-- ===================================================== -->
+        <!-- 额外挑战：中奖励                                      -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_extra_mid">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestExtra"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Bonus Challenge Reward Crate"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardExtraMid"/>
+            </action>
+        </action_sequence>
+        <!-- ===================================================== -->
+        <!-- 额外挑战：高奖励                                      -->
+        <!-- ===================================================== -->
+        <action_sequence name="challenger_reward_extra_high">
+            <property name="action_type" value="Game"/>
+            <property name="target_type" value="Entity"/>
+            <property name="allow_while_dead" value="false"/>
+            <action class="SpawnContainer">
+                <property name="spawn_type" value="NearTarget"/>
+                <property name="entity_names" value="challengerRewardChestExtra"/>
+                <property name="spawn_count" value="1"/>
+                <property name="min_distance" value="3"/>
+                <property name="max_distance" value="6"/>
+                <property name="safe_spawn" value="true"/>
+                <property name="override_name" value="Bonus Challenge Reward Crate"/>
+                <property name="override_loot_list" value="lootgroupChallengerRewardExtraHigh"/>
+            </action>
+        </action_sequence>
+
+    </append>
+
+
+    <!-- ===================================================== -->
+    <!-- 登录/重生清理 T10 凋零场地 Buff                        -->
+    <!-- ===================================================== -->
+    <append xpath="/gameevents/action_sequence[@name='game_on_spawn']">
+
+        <action class="ShowWindow">
+            <property name="phase" value="8"/>
+            <property name="window" value="challengerGuide"/>
+            <requirement class="CVar">
+                <property name="cvar" value="challengerGuideRead"/>
+                <property name="operation" value="EQ" />
+                <property name="value" value="0" />
+            </requirement>
+        </action>
+
+        <action class="ModifyCVar">
+            <property name="phase" value="9"/>
+            <property name="cvar" value="challengerGuideRead"/>
+            <property name="value" value="1" />
+            <property name="operation" value="Set" />
+            <requirement class="CVar">
+                <property name="cvar" value="challengerGuideRead"/>
+                <property name="operation" value="EQ" />
+                <property name="value" value="0" />
+            </requirement>
+        </action>
+
+        <action class="AddPartyToGroup">
+            <property name="phase" value="90"/>
+            <property name="group_name" value="challenger_spawn_cleanup"/>
+        </action>
+
+        <action class="RemoveBuff">
+            <property name="phase" value="91"/>
+            <property name="target_group" value="challenger_spawn_cleanup"/>
+            <property name="buff_name" value="buffWitherFieldAura"/>
+        </action>
+
+    </append>
+
+</configs>
